@@ -1,0 +1,31 @@
+{IsEmpty:0b,InventoryHolder:{Zcoord:72,cosmeticarmor:[],PlayerName:[],Ycoord:76,Xcoord:127,bauble:[],Timestamp:[],vanilla:[{Slot:0b,id:"harvestcraft:jaffaitem",Count:1b,tag:{RepairCost:0,display:{Name:"The Happy Welcome Jaffa"}},Damage:0s},{Slot:2b,ForgeCaps:{"astralsorcery:cap_item_amulet_holder":{}},id:"levelup2:skillbook",Count:1b,Damage:0s},{Slot:3b,id:"minecraft:feather",Count:1b,Damage:0s},{Slot:4b,id:"minecraft:torch",Count:7b,Damage:0s},{Slot:5b,id:"minecraft:sapling",Count:2b,Damage:1s},{Slot:6b,id:"integrateddynamics:menril_berries",Count:21b,Damage:0s},{Slot:7b,ForgeCaps:{"astralsorcery:cap_item_amulet_holder":{AS_Amulet_HolderLeast:-4740899409982962006L,AS_Amulet_HolderMost:-4433480200207056289L}},id:"minecraft:stone_pickaxe",Count:1b,Damage:74s},{Slot:8b,id:"harvestcraft:bolognasandwichitem",Count:1b,Damage:0s},{Slot:9b,id:"minecraft:porkchop",Count:2b,Damage:0s},{Slot:10b,id:"bewitchment:owlets_wing",Count:1b,Damage:0s},{Slot:11b,id:"thermalfoundation:ore",Count:1b,Damage:0s},{Slot:12b,id:"mysticalworld:silk_cocoon",Count:4b,Damage:0s},{Slot:13b,id:"minecraft:planks",Count:2b,Damage:1s},{Slot:14b,id:"minecraft:cobblestone",Count:14b,Damage:0s},{Slot:15b,id:"minecraft:rotten_flesh",Count:2b,Damage:0s},{Slot:16b,id:"minecraft:coal",Count:58b,Damage:0s},{Slot:18b,id:"mysticalagriculture:crafting",Count:2b,Damage:0s},{Slot:20b,id:"integrateddynamics:menril_sapling",Count:1b,Damage:0s},{Slot:22b,id:"bewitchment:lizard_leg",Count:7b,Damage:0s},{Slot:23b,id:"mysticalworld:silkworm_egg",Count:1b,Damage:0s},{Slot:24b,id:"minecraft:log",Count:3b,Damage:1s},{Slot:25b,id:"minecraft:dirt",Count:1b,Damage:0s},{Slot:29b,id:"minecraft:mutton",Count:5b,Damage:0s},{Slot:30b,id:"futuremc:sweet_berries",Count:19b,Damage:0s},{Slot:31b,ForgeCaps:{"astralsorcery:cap_item_amulet_holder":{}},id:"minecraft:writable_book",Count:1b,tag:{pages:["§lLog Book
+---------------
+Day 2 : 
+---------------
+§rMy Journey as of yet has been rather mundane. I have not seen anything of interest, I'm running slightly behind on time and I must get these goods back to town!","§lLog Book
+---------------
+Day 3 :
+---------------
+§rI've encountered the most wondrous flower! It's beauty could not be described with words on paper.
+It shimmers and shines like an emerald left glistening in the moonlight!","§lLog Book
+---------------
+Day 4 :
+---------------
+§rThe strangest thing keeps happening. Every night as I lay my head upon my pillow I hear the most horrifying howl. At first I assumed it was just a local pack of wolves. The howling is following me..","§lLog Book
+---------------
+Day 5 :
+---------------
+§rDuring the day my bed was stolen while I was out gathering supplies. 
+What sort of criminal steals a bed and nothing else!?","§lLog Book
+---------------
+Day 6 :
+---------------
+§k§rI'm not feeling all that great!
+I'm just going to rest until I start feeling myself again
+
+
+§k-","§l§lLog Book
+---------------
+Day ? :
+---------------
+§r§kjmdejdkjfikfjdfjifjdijijigjdigjigkdjgikdjgkidjkdjkgjgkijdgjdkgjdkgjdkgjdkgjdkgjdkgjkgjdkgjdkgjdkgjdkgjdkgjdkgjekgdjdkgjdkgjdkgjdkgjdkgjdkgjdkgdjgkdjgkdjgkdjgkdgjkdgjdkgjdkgjdkgjdkgjdkgjdkgjdkgkdgjdk"]},Damage:0s},{Slot:32b,id:"ebwizardry:crystal_flower",Count:1b,Damage:0s},{Slot:33b,id:"harvestcraft:mango_sapling",Count:1b,Damage:0s},{Slot:34b,id:"minecraft:emerald",Count:2b,Damage:0s},{Slot:35b,id:"minecraft:golden_apple",Count:1b,Damage:0s}]}}
