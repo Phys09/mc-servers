@@ -1,0 +1,71 @@
+onEvent('recipes', recipe => {
+    let removeEntirely = [
+        'packagedexcrafting:ender_crafter',
+        'prefab:block_compressed_stone',
+        'prefab:block_double_compressed_stone',
+        'prefab:block_triple_compressed_stone',
+        'prefab:block_compressed_dirt',
+        'prefab:block_double_compressed_dirt',
+        'prefab:block_compressed_obsidian',
+        'prefab:block_double_compressed_obsidian',
+        'prefab:block_glass_slab',
+        'prefab:block_glass_stairs',
+        /thermal:.*augment/,
+        'thermal:redprint',
+        'thermal:lock',
+        'extendedcrafting:the_ultimate_block',
+        'extendedcrafting:the_ultimate_ingot',
+        'extendedcrafting:the_ultimate_nugget',
+        'extendedcrafting:the_ultimate_component',
+        'extendedcrafting:the_ultimate_catalyst',
+        'extendedcrafting:ender_ingot_block',
+        'extendedcrafting:ender_ingot',
+        'extendedcrafting:ender_nugget',
+        'extendedcrafting:ender_catalyst',
+        'extendedcrafting:ender_component',
+        'extendedcrafting:enhanced_ender_ingot_block',
+        'extendedcrafting:enhanced_ender_ingot',
+        'extendedcrafting:enhanced_ender_nugget',
+        'extendedcrafting:enhanced_ender_catalyst',
+        'extendedcrafting:enhanced_ender_component',
+        'extendedcrafting:ender_star',
+        'extendedcrafting:ender_star_block',
+        'extendedcrafting:crystalline_catalyst',
+        'overloaded:player_interface',
+        'overloaded:item_core',
+        'overloaded:fluid_core',
+        'woot:slaughter_1',
+        'woot:slaughter_2',
+        'woot:slaughter_3',
+        'woot:crusher_1',
+        'woot:crusher_2',
+        'woot:crusher_3',
+        'woot:laser_1',
+        'woot:laser_2',
+        'woot:laser_3',
+        'prefab:block_glass_stairs',
+        /theoneprobe.*helmet/,
+        '@itemfilters',
+        /prefab:.*crate/,
+        /prefab:.*bunch/,
+        /prefab:.*sickle/,
+        /prefab:.*swift/,
+        /prefab:.*dirt/,
+        /prefab:.*grass/,
+        'prefab:item_clutch_of_eggs',
+        'prefab:item_carton_of_eggs',
+        'thermal:cinnabar'
+    ]
+    removeEntirely.forEach(i => {
+        recipe.remove({output:i})
+        recipe.remove({input:i})
+    })
+
+    let removeByID = [
+        /thermal:(armor|augments|devices)/,
+        'quark:tweaks/crafting/clear_glass',
+    ]
+    removeByID.forEach(i => {
+        recipe.remove({id:i})
+    })
+})

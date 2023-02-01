@@ -1,0 +1,36 @@
+{
+	id: "1330F9D4072041AC"
+	order_index: 10
+	title: "{university.coolthings.rewards.arrows}"
+	loot_size: 32
+	use_title: true
+	rewards: [
+		{ item: "archers_paradox:blaze_arrow" }
+		{ item: "archers_paradox:challenge_arrow" }
+		{ item: "archers_paradox:diamond_arrow" }
+		{ item: "archers_paradox:displacement_arrow" }
+		{ item: "archers_paradox:ender_arrow" }
+		{ item: "archers_paradox:explosive_arrow" }
+		{ item: "archers_paradox:frost_arrow" }
+		{ item: "archers_paradox:glowstone_arrow" }
+		{ item: "archers_paradox:lightning_arrow" }
+		{ item: "archers_paradox:phantasmal_arrow" }
+		{ item: "archers_paradox:prismarine_arrow" }
+		{ item: "archers_paradox:quartz_arrow" }
+		{ item: "archers_paradox:redstone_arrow" }
+		{ item: "archers_paradox:shulker_arrow" }
+		{ item: "archers_paradox:slime_arrow" }
+		{ item: "archers_paradox:spore_arrow" }
+		{ item: "archers_paradox:training_arrow" }
+		{ item: "archers_paradox:verdant_arrow" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "university_coolthings_rewards_arrows"
+	}
+}

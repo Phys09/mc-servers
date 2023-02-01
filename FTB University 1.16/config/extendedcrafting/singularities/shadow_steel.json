@@ -1,0 +1,12 @@
+{
+  "name": "singularity.extendedcrafting.shadow_steel",
+  "colors": [
+    "2D2741",
+    "3F364C"
+  ],
+  "ingredient": {
+    "item": "create:shadow_steel"
+  },
+  "inUltimateSingularity": false,
+  "materialCount":1000
+}

@@ -1,0 +1,2273 @@
+{
+	id: "46A86052676FCE2F"
+	group: "46A34216DBB240BF"
+	order_index: 0
+	filename: "ae2"
+	title: "{university.ae2.chapter}"
+	icon: "appliedenergistics2:controller"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	images: [{
+		x: 4.5d
+		y: -2.25d
+		width: 0.5d
+		height: 0.5d
+		rotation: 0.0d
+		image: "appliedenergistics2:textures/block/controller_conflict.png"
+		hover: [
+			"{university.ae2channellink.title}"
+			"{university.ae2channellink.subtitle}"
+		]
+		click: "https://ae-mod.info/Channels/"
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "{university.certus.title}"
+			icon: "appliedenergistics2:charged_certus_quartz_crystal"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{university.certus.subtitle}"
+			description: [
+				"{university.certus.desc1}"
+				""
+				"{university.certus.desc2}"
+				""
+				"{university.certus.desc3}"
+			]
+			id: "3DB834F1D71682BD"
+			tasks: [{
+				id: "4A71736D85EDB1C7"
+				type: "item"
+				title: "{university.certus.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:certus_quartz_crystal"
+								Count: 1b
+							}
+							{
+								id: "appliedenergistics2:charged_certus_quartz_crystal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FD91A5690C0F902"
+				type: "loot"
+				table_id: 8612348619889856759L
+			}]
+		}
+		{
+			title: "{university.fluix.title}"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "{university.fluix.subtitle}"
+			description: [
+				"{university.fluix.desc1}"
+				""
+				"{university.fluix.desc2}"
+			]
+			dependencies: ["3DB834F1D71682BD"]
+			id: "0864DB2B1B7F1A27"
+			tasks: [{
+				id: "4554607A0D7C74AE"
+				type: "item"
+				item: "appliedenergistics2:fluix_crystal"
+			}]
+		}
+		{
+			title: "{university.purecrystals.title}"
+			icon: "appliedenergistics2:purified_fluix_crystal"
+			x: 3.0d
+			y: 0.5d
+			subtitle: "{university.purecrystals.subtitle}"
+			description: [
+				"{university.purecrystals.desc1}"
+				""
+				"{university.purecrystals.desc2}"
+				""
+				"{university.purecrystals.desc3}"
+				""
+				"{university.purecrystals.desc4}"
+			]
+			dependencies: ["0864DB2B1B7F1A27"]
+			min_width: 250
+			id: "1FF16BF9B20D8166"
+			tasks: [
+				{
+					id: "32DAF8A1F637AE54"
+					type: "item"
+					title: "{university.purecrystals.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "appliedenergistics2:nether_quartz_seed"
+									Count: 1b
+								}
+								{
+									id: "appliedenergistics2:certus_crystal_seed"
+									Count: 1b
+								}
+								{
+									id: "appliedenergistics2:fluix_crystal_seed"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "1C07D7FDA651ECFF"
+					type: "item"
+					title: "{university.purecrystals.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "appliedenergistics2:purified_nether_quartz_crystal"
+									Count: 1b
+								}
+								{
+									id: "appliedenergistics2:purified_certus_quartz_crystal"
+									Count: 1b
+								}
+								{
+									id: "appliedenergistics2:purified_fluix_crystal"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1D43CDE8927AB748"
+				type: "random"
+				table_id: 1357262183802023338L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			subtitle: "{university.inscriber.subtitle}"
+			description: [
+				"{university.inscriber.desc1}"
+				""
+				"{university.inscriber.desc2}"
+				""
+				"{university.inscriber.desc3}"
+			]
+			dependencies: ["0864DB2B1B7F1A27"]
+			min_width: 250
+			id: "197357B240FAB602"
+			tasks: [{
+				id: "3EDCB204F96937B8"
+				type: "item"
+				item: "appliedenergistics2:inscriber"
+			}]
+		}
+		{
+			title: "{university.ae2energyacceptor.title}"
+			x: 1.5d
+			y: 1.5d
+			subtitle: "{university.ae2energyacceptor.subtitle}"
+			description: [
+				"{university.ae2energyacceptor.desc1}"
+				""
+				"{university.ae2energyacceptor.desc2}"
+				""
+				"{university.ae2energyacceptor.desc3}"
+				""
+				"{university.ae2energyacceptor.desc4}"
+			]
+			dependencies: ["0864DB2B1B7F1A27"]
+			optional: true
+			id: "5085B865A43F27F1"
+			tasks: [{
+				id: "3FB0AE740642C992"
+				type: "item"
+				item: "appliedenergistics2:energy_acceptor"
+			}]
+		}
+		{
+			icon: {
+				id: "appliedenergistics2:dense_energy_cell"
+				Count: 1b
+				tag: { }
+			}
+			x: 1.5d
+			y: 2.5d
+			subtitle: "{university.ae2energycell.subtitle}"
+			description: [
+				"{university.ae2energycell.desc1}"
+				""
+				"{university.ae2energycell.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0864DB2B1B7F1A27"]
+			size: 0.75d
+			id: "5D9EC495A93E9127"
+			tasks: [{
+				id: "4BCDDF53447C0B8F"
+				type: "item"
+				title: "{university.ae2energycell.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:energy_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:dense_energy_cell"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.vibrationchamber.title}"
+			x: 0.5d
+			y: 1.5d
+			subtitle: "{university.vibrationchamber.subtitle}"
+			description: [
+				"{university.vibrationchamber.desc1}"
+				""
+				"{university.vibrationchamber.desc2}"
+				""
+				"{university.vibrationchamber.desc3}"
+			]
+			dependencies: ["5085B865A43F27F1"]
+			hide: false
+			optional: true
+			id: "56CC559F7D9C562C"
+			tasks: [{
+				id: "6EE2A5C01B808013"
+				type: "item"
+				item: "appliedenergistics2:vibration_chamber"
+			}]
+		}
+		{
+			icon: "appliedenergistics2:sky_compass"
+			x: 3.0d
+			y: -1.25d
+			subtitle: "{university.ae2compass.subtitle}"
+			description: [
+				"{university.ae2compass.desc1}"
+				""
+				"{university.ae2compass.desc2}"
+				""
+				"{university.ae2compass.desc3}"
+			]
+			dependencies: ["197357B240FAB602"]
+			size: 0.5d
+			id: "2CFE1A252EBE4448"
+			tasks: [
+				{
+					id: "3F61539BBE3913F6"
+					type: "item"
+					item: "appliedenergistics2:sky_compass"
+				}
+				{
+					id: "3A28946F8C717320"
+					type: "item"
+					title: "{university.ae2compass.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "appliedenergistics2:engineering_processor_press"
+									Count: 1b
+								}
+								{
+									id: "appliedenergistics2:calculation_processor_press"
+									Count: 1b
+								}
+								{
+									id: "appliedenergistics2:logic_processor_press"
+									Count: 1b
+								}
+								{
+									id: "appliedenergistics2:silicon_press"
+									Count: 1b
+								}
+								{
+									id: "appliedenergistics2:sky_stone_block"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.mecontroller.title}"
+			x: 4.5d
+			y: 0.0d
+			subtitle: "{university.mecontroller.subtitle}"
+			description: [
+				"{university.mecontroller.desc1}"
+				""
+				"{university.mecontroller.desc2}"
+				""
+				"{university.mecontroller.desc3}"
+				""
+				"{university.mecontroller.desc4}"
+				""
+				"{university.mecontroller.desc5}"
+				""
+				"{university.mecontroller.desc6}"
+			]
+			dependencies: [
+				"197357B240FAB602"
+				"1FF16BF9B20D8166"
+			]
+			min_width: 300
+			id: "2D0C38A1F5138847"
+			tasks: [{
+				id: "7BACDE8F0D4679B9"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+		}
+		{
+			title: "{university.growthaccelerator.title}"
+			x: 3.0d
+			y: 1.5d
+			subtitle: "{university.growthaccelerator.subtitle}"
+			description: [
+				"{university.growthaccelerator.desc1}"
+				""
+				"{university.growthaccelerator.desc2}"
+				""
+				"{university.growthaccelerator.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0864DB2B1B7F1A27"]
+			id: "2150BC11DE382917"
+			tasks: [{
+				id: "27B6D6B207991704"
+				type: "item"
+				item: "appliedenergistics2:quartz_growth_accelerator"
+			}]
+			rewards: [{
+				id: "5FB691AFA69B2312"
+				type: "item"
+				item: "appliedenergistics2:quartz_growth_accelerator"
+				count: 2
+			}]
+		}
+		{
+			title: "{university.cellworkbench.title}"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "{university.cellworkbench.subtitle}"
+			description: [
+				"{university.cellworkbench.desc1}"
+				""
+				"{university.cellworkbench.desc2}"
+				""
+				"{university.cellworkbench.desc3}"
+				""
+				"{university.cellworkbench.desc4}"
+				""
+				"{university.cellworkbench.desc5}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["197357B240FAB602"]
+			min_width: 275
+			id: "0B8690414DC5C356"
+			tasks: [{
+				id: "53FBB99F9E717B70"
+				type: "item"
+				item: "appliedenergistics2:cell_workbench"
+			}]
+		}
+		{
+			title: "{university.ae2channels.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 4.5d
+			y: -1.5d
+			subtitle: "{university.ae2channels.subtitle}"
+			description: [
+				"{university.ae2channels.desc1}"
+				""
+				"{university.ae2channels.desc2}"
+				""
+				"{university.ae2channels.desc3}"
+				"{image:ftbuniversity:textures/quests/channels_1.png width:155 height:100 anchor:center}"
+				""
+				"{university.ae2channels.desc4}"
+				"{image:ftbuniversity:textures/quests/channels_2.png width:180 height:100 anchor:center}"
+				""
+				"{university.ae2channels.desc5}"
+				""
+				"{university.ae2channels.desc6}"
+			]
+			dependencies: ["2D0C38A1F5138847"]
+			min_width: 350
+			id: "74B132C5414B4345"
+			tasks: [{
+				id: "20D56D9D63D89826"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			subtitle: "{university.networktool.subtitle}"
+			description: [
+				"{university.networktool.desc1}"
+				""
+				"{university.networktool.desc2}"
+				""
+				"{university.networktool.desc3}"
+			]
+			dependencies: ["2D0C38A1F5138847"]
+			size: 0.75d
+			id: "3340C5B55F06C0FD"
+			tasks: [{
+				id: "1915BB47BECBDDBF"
+				type: "item"
+				item: "appliedenergistics2:network_tool"
+			}]
+		}
+		{
+			title: "{university.ae2glasscable.title}"
+			icon: "appliedenergistics2:fluix_glass_cable"
+			x: 6.0d
+			y: 0.0d
+			subtitle: "{university.ae2glasscable.subtitle}"
+			description: [
+				"{university.ae2glasscable.desc1}"
+				""
+				"{university.ae2glasscable.desc2}"
+				""
+				"{university.ae2glasscable.desc3}"
+			]
+			dependencies: ["2D0C38A1F5138847"]
+			id: "74F502FC54174B2B"
+			tasks: [{
+				id: "1A13E5C3FECEBCFA"
+				type: "item"
+				title: "{university.ae2glasscable.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:fluix_glass_cable"
+								Count: 1b
+							}
+							{
+								id: "appliedenergistics2:fluix_covered_cable"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "279E7B9B31019660"
+				type: "item"
+				item: "appliedenergistics2:fluix_glass_cable"
+				count: 16
+			}]
+		}
+		{
+			title: "{university.mesmartcable.title}"
+			x: 6.0d
+			y: -1.5d
+			subtitle: "{university.mesmartcable.subtitle}"
+			description: [
+				"{university.mesmartcable.desc1}"
+				""
+				"{university.mesmartcable.desc2}"
+			]
+			dependencies: ["74F502FC54174B2B"]
+			id: "7343E51A9E3F6DF6"
+			tasks: [{
+				id: "354C6F5E7F0D3971"
+				type: "item"
+				item: "appliedenergistics2:fluix_smart_cable"
+			}]
+			rewards: [{
+				id: "4A003D705272ED1D"
+				type: "item"
+				item: "appliedenergistics2:fluix_smart_cable"
+				count: 16
+			}]
+		}
+		{
+			title: "{university.medense.title}"
+			x: 5.5d
+			y: -2.5d
+			subtitle: "{university.medense.subtitle}"
+			description: [
+				"{university.medense.desc1}"
+				""
+				"{university.medense.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7343E51A9E3F6DF6"]
+			id: "7DB78DB110BBF6B0"
+			tasks: [{
+				id: "7834404DED3ECAC3"
+				type: "item"
+				item: "appliedenergistics2:fluix_covered_dense_cable"
+			}]
+			rewards: [{
+				id: "14B4019FAB6BFF97"
+				type: "item"
+				item: "appliedenergistics2:fluix_covered_dense_cable"
+				count: 32
+			}]
+		}
+		{
+			title: "{university.smartdense.title}"
+			x: 6.5d
+			y: -2.5d
+			subtitle: "{university.smartdense.subtitle}"
+			description: ["{university.smartdense.desc}"]
+			dependencies: ["7DB78DB110BBF6B0"]
+			id: "523095F1DA31B88F"
+			tasks: [{
+				id: "64535229B0232E70"
+				type: "item"
+				item: "appliedenergistics2:fluix_smart_dense_cable"
+			}]
+			rewards: [{
+				id: "020186F66F2CBEEF"
+				type: "item"
+				item: "appliedenergistics2:fluix_smart_dense_cable"
+				count: 32
+			}]
+		}
+		{
+			title: "{university.ae2facade.title}"
+			x: 6.0d
+			y: -3.25d
+			subtitle: "{university.ae2facade.subtitle}"
+			description: [
+				"{university.ae2facade.desc1}"
+				""
+				"{university.ae2facade.desc2}"
+				""
+				"{university.ae2facade.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["74F502FC54174B2B"]
+			size: 0.5d
+			id: "1B9B53DF502760C5"
+			tasks: [{
+				id: "35BEAE325C9A27F8"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:facade"
+					Count: 1b
+					tag: {
+						item: "minecraft:stone"
+					}
+				}
+			}]
+			rewards: [{
+				id: "137CE9F5E5D73ED4"
+				type: "item"
+				item: "appliedenergistics2:cable_anchor"
+				count: 32
+			}]
+		}
+		{
+			title: "{university.meterminal.title}"
+			x: 7.5d
+			y: 0.0d
+			subtitle: "{university.meterminal.subtitle}"
+			description: [
+				"{university.meterminal.desc1}"
+				""
+				"{university.meterminal.desc2}"
+				""
+				"{university.meterminal.desc3}"
+			]
+			dependencies: ["74F502FC54174B2B"]
+			id: "43D65C622B8850D7"
+			tasks: [{
+				id: "69F3215EBB5EEFD1"
+				type: "item"
+				item: "appliedenergistics2:terminal"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			subtitle: "{university.craftingterminal.subtitle}"
+			description: ["{university.craftingterminal.desc}"]
+			dependencies: ["43D65C622B8850D7"]
+			id: "1328D9F8568DBBC8"
+			tasks: [{
+				id: "6465BA3CEC517C8F"
+				type: "item"
+				item: "appliedenergistics2:crafting_terminal"
+			}]
+		}
+		{
+			title: "{university.ae2colorcables.title}"
+			icon: "appliedenergistics2:white_smart_cable"
+			x: 6.0d
+			y: 1.5d
+			subtitle: "{university.ae2colorcables.subtitle}"
+			description: [
+				"{university.ae2colorcables.desc1}"
+				""
+				"{university.ae2colorcables.desc2}"
+				""
+				"{university.ae2colorcables.desc3}"
+				""
+				"{university.ae2colorcables.desc4}"
+			]
+			dependencies: ["74F502FC54174B2B"]
+			id: "535715E7E757EEBA"
+			tasks: [{
+				id: "6B6643FE1DEA71A6"
+				type: "item"
+				title: "{university.ae2colorcables.task}"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "applied.*cable"
+								}
+							}
+							{
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										id: "itemfilters:or"
+										Count: 1b
+										tag: {
+											items: [
+												{
+													id: "itemfilters:id_regex"
+													Count: 1b
+													tag: {
+														value: "fluix"
+													}
+												}
+												{
+													id: "appliedenergistics2:cable_fluid_interface"
+													Count: 1b
+												}
+												{
+													id: "appliedenergistics2:cable_interface"
+													Count: 1b
+												}
+												{
+													id: "appliedenergistics2:cable_anchor"
+													Count: 1b
+												}
+											]
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.quartzfiber.title}"
+			x: 6.0d
+			y: 2.25d
+			subtitle: "{university.quartzfiber.subtitle}"
+			description: ["{university.quartzfiber.desc}"]
+			dependencies: ["535715E7E757EEBA"]
+			size: 0.5d
+			id: "59AD3B130184320E"
+			tasks: [{
+				id: "4783D97CCF49614C"
+				type: "item"
+				item: "appliedenergistics2:quartz_fiber"
+			}]
+		}
+		{
+			title: "{university.medrive.title}"
+			icon: "appliedenergistics2:drive"
+			x: 9.0d
+			y: 0.0d
+			subtitle: "{university.medrive.subtitle}"
+			description: [
+				"{university.medrive.desc1}"
+				""
+				"{university.medrive.desc2}"
+				""
+				"{university.medrive.desc3}"
+				""
+				"{university.medrive.desc4}"
+				""
+				"{university.medrive.desc5}"
+			]
+			dependencies: ["43D65C622B8850D7"]
+			min_width: 275
+			id: "2D222B3524A78A76"
+			tasks: [
+				{
+					id: "77E001823DB55DD9"
+					type: "item"
+					item: "appliedenergistics2:drive"
+				}
+				{
+					id: "755E3805D2896DCA"
+					type: "item"
+					title: "{university.medrive.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "appliedenergistics2:1k_storage_cell"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "appliedenergistics2:4k_storage_cell"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "appliedenergistics2:16k_storage_cell"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "appliedenergistics2:64k_storage_cell"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "30DA546145395997"
+				type: "item"
+				item: "appliedenergistics2:1k_cell_component"
+				count: 54
+			}]
+		}
+		{
+			title: "{university.mesecurity.title}"
+			x: 9.0d
+			y: 1.5d
+			subtitle: "{university.mesecurity.subtitle}"
+			description: [
+				"{university.mesecurity.desc1}"
+				""
+				"{university.mesecurity.desc2}"
+				""
+				"{university.mesecurity.desc3}"
+				""
+				"{university.mesecurity.desc4}"
+				""
+				"{university.mesecurity.desc5}"
+			]
+			dependencies: ["2D222B3524A78A76"]
+			min_width: 275
+			id: "186807967F3FB384"
+			tasks: [{
+				id: "6B207907A83B3716"
+				type: "item"
+				item: "appliedenergistics2:security_station"
+			}]
+			rewards: [{
+				id: "1B8BA12E70BD36F9"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:biometric_card"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			icon: "appliedenergistics2:chest"
+			x: 4.5d
+			y: 3.0d
+			subtitle: "{university.mechest.subtitle}"
+			description: [
+				"{university.mechest.desc1}"
+				""
+				"{university.mechest.desc2}"
+				""
+				"{university.mechest.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["43D65C622B8850D7"]
+			id: "2B60397533F41E38"
+			tasks: [
+				{
+					id: "63BD4285A98D0611"
+					type: "item"
+					item: "appliedenergistics2:chest"
+				}
+				{
+					id: "0A0E9D5A53E15004"
+					type: "item"
+					title: "{university.mechest.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "appliedenergistics2:1k_storage_cell"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "appliedenergistics2:4k_storage_cell"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "appliedenergistics2:16k_storage_cell"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "appliedenergistics2:64k_storage_cell"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 2.5d
+			subtitle: "{university.meaccesspoint.subtitle}"
+			description: [
+				"{university.meaccesspoint.desc1}"
+				""
+				"{university.meaccesspoint.desc2}"
+			]
+			dependencies: ["186807967F3FB384"]
+			id: "045F912B8E124C48"
+			tasks: [{
+				id: "7D7CBAD123DCB392"
+				type: "item"
+				item: "appliedenergistics2:wireless_access_point"
+			}]
+			rewards: [{
+				id: "29674AF86233BB1D"
+				type: "item"
+				item: "appliedenergistics2:wireless_booster"
+				count: 8
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			subtitle: "{university.wirelessterminal.subtitle}"
+			description: [
+				"{university.wirelessterminal.desc1}"
+				""
+				"{university.wirelessterminal.desc2}"
+				""
+				"{university.wirelessterminal.desc3}"
+			]
+			dependencies: ["045F912B8E124C48"]
+			id: "448C7D79A66DD627"
+			tasks: [{
+				id: "6F5164A3046942CC"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:wireless_terminal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "{university.meimport.title}"
+			x: 8.5d
+			y: -1.5d
+			subtitle: "{university.meimport.subtitle}"
+			description: [
+				"{university.meimport.desc1}"
+				""
+				"{university.meimport.desc2}"
+				""
+				"{university.meimport.desc3}"
+			]
+			dependencies: ["2D222B3524A78A76"]
+			min_width: 250
+			id: "573E47E42F5D034D"
+			tasks: [{
+				id: "6DD279E5BC5121F2"
+				type: "item"
+				item: "appliedenergistics2:import_bus"
+			}]
+		}
+		{
+			title: "{university.meexport.title}"
+			x: 9.5d
+			y: -1.5d
+			subtitle: "{university.meexport.subtitle}"
+			description: [
+				"{university.meexport.desc1}"
+				""
+				"{university.meexport.desc2}"
+				""
+				"{university.meexport.desc3}"
+				""
+				"{university.meexport.desc4}"
+			]
+			dependencies: ["2D222B3524A78A76"]
+			min_width: 250
+			id: "48B25DF10BED0E75"
+			tasks: [{
+				id: "62CA0F3D2F085591"
+				type: "item"
+				item: "appliedenergistics2:export_bus"
+			}]
+		}
+		{
+			title: "{university.metoggle.title}"
+			icon: "appliedenergistics2:toggle_bus"
+			x: 8.5d
+			y: -2.5d
+			subtitle: "{university.metoggle.subtitle}"
+			description: [
+				"{university.metoggle.desc1}"
+				""
+				"{university.metoggle.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2D222B3524A78A76"]
+			id: "46DB1A260887D6E4"
+			tasks: [{
+				id: "3E9400312300558A"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:toggle_bus"
+								Count: 1b
+							}
+							{
+								id: "appliedenergistics2:inverted_toggle_bus"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.5d
+			subtitle: "{university.levelemitter.subtitle}"
+			description: [
+				"{university.levelemitter.desc1}"
+				""
+				"{university.levelemitter.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2D222B3524A78A76"]
+			id: "2207597B458AF864"
+			tasks: [{
+				id: "270185FFD295B723"
+				type: "item"
+				item: "appliedenergistics2:level_emitter"
+			}]
+		}
+		{
+			title: "{university.storagebus.title}"
+			x: 8.5d
+			y: -3.5d
+			subtitle: "{university.storagebus.subtitle}"
+			description: [
+				"{university.storagebus.desc1}"
+				""
+				"{university.storagebus.desc2}"
+				""
+				"{university.storagebus.desc3}"
+				""
+				"{university.storagebus.desc4}"
+				""
+				"{university.storagebus.desc5}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2D222B3524A78A76"]
+			min_width: 275
+			id: "4B522801C1FEC5F0"
+			tasks: [{
+				id: "4764B3F2E78A268F"
+				type: "item"
+				item: "appliedenergistics2:storage_bus"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.5d
+			subtitle: "{university.storagemonitor.subtitle}"
+			description: [
+				"{university.storagemonitor.desc1}"
+				""
+				"{university.storagemonitor.desc2}"
+				""
+				"{university.storagemonitor.desc3}"
+				""
+				"{university.storagemonitor.desc4}"
+			]
+			dependencies: ["2207597B458AF864"]
+			id: "3186C14E98CB2D33"
+			tasks: [{
+				id: "0C50E750435E2125"
+				type: "item"
+				item: "appliedenergistics2:storage_monitor"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -5.0d
+			subtitle: "{university.capacitycard.subtitle}"
+			description: [
+				"{university.capacitycard.desc1}"
+				""
+				"{university.capacitycard.desc2}"
+			]
+			hide_dependency_lines: true
+			min_required_dependencies: 1
+			dependencies: [
+				"4B522801C1FEC5F0"
+				"573E47E42F5D034D"
+				"48B25DF10BED0E75"
+				"6D4A165C14761C74"
+			]
+			id: "16F368A9EDD5771F"
+			tasks: [{
+				id: "49506437DA2C444B"
+				type: "item"
+				item: "appliedenergistics2:capacity_card"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.0d
+			subtitle: "{university.fuzzycard.subtitle}"
+			description: [
+				"{university.fuzzycard.desc1}"
+				""
+				"{university.fuzzycard.desc2}"
+				""
+				"{university.fuzzycard.desc3}"
+				""
+				"{university.fuzzycard.desc4}"
+			]
+			hide_dependency_lines: true
+			min_required_dependencies: 1
+			dependencies: [
+				"573E47E42F5D034D"
+				"48B25DF10BED0E75"
+				"2207597B458AF864"
+				"4B522801C1FEC5F0"
+				"6D4A165C14761C74"
+			]
+			id: "567725B4A29A7903"
+			tasks: [{
+				id: "562A8FDF3ADE092F"
+				type: "item"
+				item: "appliedenergistics2:fuzzy_card"
+				consume_items: false
+			}]
+		}
+		{
+			x: 10.0d
+			y: -5.0d
+			subtitle: "{university.redstonecard.subtitle}"
+			description: [
+				"{university.redstonecard.desc1}"
+				""
+				"{university.redstonecard.desc2}"
+			]
+			hide_dependency_lines: true
+			min_required_dependencies: 1
+			dependencies: [
+				"573E47E42F5D034D"
+				"48B25DF10BED0E75"
+				"15A89388CB28DA38"
+			]
+			id: "5ECE16BAC146DDA7"
+			tasks: [{
+				id: "0F292D5F0D2D9FAB"
+				type: "item"
+				item: "appliedenergistics2:redstone_card"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			subtitle: "{university.ae2acceleration.subtitle}"
+			description: [
+				"{university.ae2acceleration.desc1}"
+				""
+				"{university.ae2acceleration.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["197357B240FAB602"]
+			id: "10B926AE1CD32CB4"
+			tasks: [{
+				id: "0A64A876E52C906F"
+				type: "item"
+				item: "appliedenergistics2:speed_card"
+			}]
+			rewards: [{
+				id: "5F51E331C41C69B9"
+				type: "item"
+				item: "appliedenergistics2:speed_card"
+				count: 6
+			}]
+		}
+		{
+			title: "{university.meioport.title}"
+			x: 11.0d
+			y: 1.0d
+			subtitle: "{university.meioport.subtitle}"
+			description: [
+				"{university.meioport.desc1}"
+				""
+				"{university.meioport.desc2}"
+				""
+				"{university.meioport.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2D222B3524A78A76"]
+			min_width: 250
+			id: "15A89388CB28DA38"
+			tasks: [{
+				id: "519001AE799B7BF2"
+				type: "item"
+				item: "appliedenergistics2:io_port"
+			}]
+		}
+		{
+			title: "{university.spatialcontainment.title}"
+			icon: "appliedenergistics2:spatial_io_port"
+			x: 12.5d
+			y: 1.0d
+			subtitle: "{university.spatialcontainment.subtitle}"
+			description: [
+				"{university.spatialcontainment.desc1}"
+				""
+				"{university.spatialcontainment.desc2}"
+				""
+				"{university.spatialcontainment.desc3}"
+				""
+				"{university.spatialcontainment.desc4}"
+				""
+				"{university.spatialcontainment.desc5}"
+				""
+				"{university.spatialcontainment.desc6}"
+				""
+				"{university.spatialcontainment.desc7}"
+				""
+				"{university.spatialcontainment.desc8}"
+				""
+				"{university.spatialcontainment.desc9}"
+				""
+				"{university.spatialcontainment.desc10}"
+				""
+				"{university.spatialcontainment.desc11}"
+			]
+			dependencies: ["15A89388CB28DA38"]
+			min_width: 350
+			id: "18189FB5E98DA74B"
+			tasks: [
+				{
+					id: "749D594057334DF8"
+					type: "item"
+					item: "appliedenergistics2:spatial_io_port"
+				}
+				{
+					id: "14670A9A13A19355"
+					type: "item"
+					item: "appliedenergistics2:spatial_pylon"
+				}
+				{
+					id: "6606C8E2BB136954"
+					type: "item"
+					title: "{university.spatialcontainment.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "appliedenergistics2:2_cubed_spatial_storage_cell"
+									Count: 1b
+								}
+								{
+									id: "appliedenergistics2:16_cubed_spatial_storage_cell"
+									Count: 1b
+								}
+								{
+									id: "appliedenergistics2:128_cubed_spatial_storage_cell"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6F3E58E06A715EA1"
+				type: "item"
+				item: "appliedenergistics2:spatial_pylon"
+				count: 32
+			}]
+		}
+		{
+			title: "{university.ae2breakplace.title}"
+			icon: "appliedenergistics2:formation_plane"
+			x: 11.0d
+			y: -0.5d
+			subtitle: "{university.ae2breakplace.subtitle}"
+			description: [
+				"{university.ae2breakplace.desc1}"
+				""
+				"{university.ae2breakplace.desc2}"
+				""
+				"{university.ae2breakplace.desc3}"
+				""
+				"{university.ae2breakplace.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2D222B3524A78A76"]
+			min_width: 275
+			id: "6D4A165C14761C74"
+			tasks: [
+				{
+					id: "2A8A1DB6D46B38F3"
+					type: "item"
+					item: "appliedenergistics2:annihilation_plane"
+				}
+				{
+					id: "09530F8C1C927CEF"
+					type: "item"
+					item: "appliedenergistics2:formation_plane"
+				}
+			]
+		}
+		{
+			title: "{university.ae2silk.title}"
+			x: 11.0d
+			y: -1.25d
+			subtitle: "{university.ae2silk.subtitle}"
+			description: ["{university.ae2silk.desc}"]
+			dependencies: ["6D4A165C14761C74"]
+			size: 0.5d
+			id: "2B2532CF2A486603"
+			tasks: [{
+				id: "235A12B8CC3F4BB0"
+				type: "item"
+				item: "appliedenergistics2:identity_annihilation_plane"
+			}]
+		}
+		{
+			icon: "appliedenergistics2:interface"
+			x: 12.5d
+			y: -0.5d
+			subtitle: "{university.meinterface.subtitle}"
+			description: [
+				"{university.meinterface.desc1}"
+				""
+				"{university.meinterface.desc2}"
+				""
+				"{university.meinterface.desc3}"
+				"{image:ftbuniversity:textures/quests/interface_config.png width:167 height:75 anchor:center}"
+				""
+				"{university.meinterface.desc4}"
+				""
+				"{university.meinterface.desc5}"
+				""
+				"{university.meinterface.desc6}"
+				""
+				"{university.meinterface.desc7}"
+				"{image:ftbuniversity:textures/quests/subnetwork.png width:162 height:75 anchor:center}"
+				""
+				"{university.meinterface.desc8}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2D222B3524A78A76"]
+			min_width: 300
+			id: "2D0B14FE42F216CC"
+			tasks: [{
+				id: "6DEB27E3E880F2C1"
+				type: "item"
+				title: "{university.meinterface.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:interface"
+								Count: 1b
+							}
+							{
+								id: "appliedenergistics2:cable_interface"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: "appliedenergistics2:pattern_terminal"
+			x: 12.5d
+			y: -2.0d
+			subtitle: "{university.mepattern.subtitle}"
+			description: [
+				"{university.mepattern.desc1}"
+				""
+				"{university.mepattern.desc2}"
+				""
+				"{university.mepattern.desc3}"
+				""
+				"{university.mepattern.desc4}"
+				""
+				"{university.mepattern.desc5}"
+				""
+				"{university.mepattern.desc6}"
+				"{image:ftbuniversity:textures/quests/interface_arrow.png width:93 height:100 anchor:center}"
+			]
+			dependencies: ["2D0B14FE42F216CC"]
+			min_width: 300
+			id: "1B1F8C723FE03B9B"
+			tasks: [
+				{
+					id: "651B7C4035542E38"
+					type: "item"
+					item: "appliedenergistics2:pattern_terminal"
+				}
+				{
+					id: "00C4216C6E66E88F"
+					type: "item"
+					item: "appliedenergistics2:blank_pattern"
+				}
+			]
+			rewards: [{
+				id: "7A455DBD65FDD02B"
+				type: "item"
+				item: "appliedenergistics2:blank_pattern"
+				count: 16
+			}]
+		}
+		{
+			title: "{university.craftingcpu.title}"
+			icon: "appliedenergistics2:crafting_accelerator"
+			x: 12.5d
+			y: -3.0d
+			subtitle: "{university.craftingcpu.subtitle}"
+			description: [
+				"{university.craftingcpu.desc1}"
+				""
+				"{university.craftingcpu.desc2}"
+				""
+				"{university.craftingcpu.desc3}"
+				""
+				"{university.craftingcpu.desc4}"
+			]
+			dependencies: ["1B1F8C723FE03B9B"]
+			min_width: 275
+			id: "4BF7153453CC8539"
+			tasks: [
+				{
+					id: "6AEE5B7F2FA031E7"
+					type: "item"
+					item: "appliedenergistics2:crafting_accelerator"
+				}
+				{
+					id: "2183155627D2513C"
+					type: "item"
+					title: "{university.craftingcpu.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "appliedenergistics2:1k_crafting_storage"
+									Count: 1b
+								}
+								{
+									id: "appliedenergistics2:4k_crafting_storage"
+									Count: 1b
+								}
+								{
+									id: "appliedenergistics2:16k_crafting_storage"
+									Count: 1b
+								}
+								{
+									id: "appliedenergistics2:64k_crafting_storage"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "586E74DBDF873625"
+					type: "item"
+					item: "appliedenergistics2:crafting_unit"
+				}
+			]
+			rewards: [{
+				id: "6E471450F47B902F"
+				type: "item"
+				item: "appliedenergistics2:crafting_unit"
+				count: 16
+			}]
+		}
+		{
+			x: 11.5d
+			y: -3.0d
+			subtitle: "{university.craftingmonitor.subtitle}"
+			description: ["{university.craftingmonitor.desc}"]
+			dependencies: ["4BF7153453CC8539"]
+			id: "06EB4B3AD0DCE735"
+			tasks: [{
+				id: "63D78094334EA3DF"
+				type: "item"
+				item: "appliedenergistics2:crafting_monitor"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -3.0d
+			subtitle: "{university.interfaceterminal.subtitle}"
+			description: [
+				"{university.interfaceterminal.desc1}"
+				""
+				"{university.interfaceterminal.desc2}"
+			]
+			dependencies: ["4BF7153453CC8539"]
+			id: "02EA1B76AFD12B1D"
+			tasks: [{
+				id: "6B0B7CEB5A727948"
+				type: "item"
+				item: "appliedenergistics2:interface_terminal"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -4.0d
+			subtitle: "{university.molecularassemblar.subtitle}"
+			description: [
+				"{university.molecularassemblar.desc1}"
+				""
+				"{university.molecularassemblar.desc2}"
+				""
+				"{university.molecularassemblar.desc3}"
+				""
+				"{university.molecularassemblar.desc4}"
+				""
+				"{university.molecularassemblar.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/molecular_assemblers.png width:150 height:92 anchor:center}"
+			]
+			dependencies: ["4BF7153453CC8539"]
+			min_width: 275
+			id: "267E34038033401C"
+			tasks: [{
+				id: "72B6155D0E41E623"
+				type: "item"
+				item: "appliedenergistics2:molecular_assembler"
+			}]
+			rewards: [{
+				id: "2DD548B491FF08C4"
+				type: "item"
+				item: "appliedenergistics2:molecular_assembler"
+				count: 8
+			}]
+		}
+		{
+			title: "{university.mattercompressor.title}"
+			x: 11.0d
+			y: 2.5d
+			subtitle: "{university.mattercompressor.subtitle}"
+			description: [
+				"{university.mattercompressor.desc1}"
+				""
+				"{university.mattercompressor.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2D222B3524A78A76"]
+			id: "04BC63D794ADFA52"
+			tasks: [{
+				id: "6BA98974C1618AE9"
+				type: "item"
+				item: "appliedenergistics2:condenser"
+			}]
+			rewards: [{
+				id: "0952360ADFB3AFED"
+				type: "item"
+				item: {
+					id: "chiselsandbits:block_bit"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						id: 1
+						display: {
+							Name: "{\"text\":\"Hint Hint\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.quantumring.title}"
+			icon: "appliedenergistics2:quantum_entangled_singularity"
+			x: 12.5d
+			y: 2.5d
+			subtitle: "{university.quantumring.subtitle}"
+			description: [
+				"{university.quantumring.desc1}"
+				""
+				"{university.quantumring.desc2}"
+				""
+				"{university.quantumring.desc3}"
+				""
+				"{university.quantumring.desc4}"
+				""
+				"{university.quantumring.desc5}"
+				""
+				"{university.quantumring.desc6}"
+				""
+				"{university.quantumring.desc7}"
+			]
+			dependencies: ["04BC63D794ADFA52"]
+			min_width: 275
+			id: "23B9EE85AF36D9CE"
+			tasks: [
+				{
+					id: "08F51B41FDC8FE1B"
+					type: "item"
+					item: "appliedenergistics2:quantum_ring"
+					count: 8L
+				}
+				{
+					id: "47F79B17B1B7C02F"
+					type: "item"
+					item: "appliedenergistics2:quantum_link"
+				}
+				{
+					id: "47A4A40667307282"
+					type: "item"
+					item: "appliedenergistics2:quantum_entangled_singularity"
+				}
+			]
+			rewards: [
+				{
+					id: "553CF9EC3CB2FE71"
+					type: "item"
+					item: "appliedenergistics2:quantum_ring"
+					count: 8
+				}
+				{
+					id: "05DCD5CA3ABB9EAF"
+					type: "item"
+					item: "appliedenergistics2:quantum_link"
+				}
+			]
+		}
+		{
+			title: "{university.viewcell.title}"
+			x: 3.0d
+			y: 4.0d
+			subtitle: "{university.viewcell.subtitle}"
+			description: ["{university.viewcell.desc}"]
+			dependencies: ["0B8690414DC5C356"]
+			optional: true
+			id: "11E510EE19BD9FA4"
+			tasks: [{
+				id: "214E01F8426BB19A"
+				type: "item"
+				item: "appliedenergistics2:view_cell"
+			}]
+		}
+		{
+			title: "{university.grindstone.title}"
+			icon: "appliedenergistics2:grindstone"
+			x: 0.0d
+			y: -0.75d
+			subtitle: "{university.grindstone.subtitle}"
+			description: [
+				"{university.grindstone.desc1}"
+				""
+				"{university.grindstone.desc2}"
+				""
+				"{university.grindstone.desc3}"
+			]
+			dependencies: ["3DB834F1D71682BD"]
+			size: 0.5d
+			optional: true
+			id: "20A1B89E21418EFC"
+			tasks: [
+				{
+					id: "59681A5BF2593D67"
+					type: "item"
+					item: "appliedenergistics2:grindstone"
+				}
+				{
+					id: "44E53CC373494EBA"
+					type: "item"
+					item: "appliedenergistics2:crank"
+				}
+			]
+		}
+		{
+			title: "{university.ae2charger.title}"
+			icon: "appliedenergistics2:charger"
+			x: 1.5d
+			y: -0.75d
+			subtitle: "{university.ae2charger.subtitle}"
+			description: [
+				"{university.ae2charger.desc1}"
+				""
+				"{university.ae2charger.desc2}"
+				""
+				"{university.ae2charger.desc3}"
+				""
+				"{university.ae2charger.desc4}"
+			]
+			hide_dependency_lines: false
+			dependencies: ["0864DB2B1B7F1A27"]
+			size: 0.5d
+			id: "61478F1459897332"
+			tasks: [
+				{
+					id: "4EC7BF53E2880EE5"
+					type: "item"
+					item: "appliedenergistics2:charger"
+				}
+				{
+					id: "6143D373468710DD"
+					type: "item"
+					title: "{university.ae2charger.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "appliedenergistics2:charged_staff"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "appliedenergistics2:entropy_manipulator"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "appliedenergistics2:matter_cannon"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "appliedenergistics2:portable_cell"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "appliedenergistics2:wireless_terminal"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "appliedenergistics2:color_applicator"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.planeschool.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 11.0d
+			y: -1.75d
+			subtitle: "{university.planeschool.subtitle}"
+			description: [
+				"{university.planeschool.desc1}"
+				""
+				"{university.planeschool.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6D4A165C14761C74"]
+			size: 0.5d
+			id: "53278DBD57EEA394"
+			tasks: [{
+				id: "2AE1D5EF4571AA66"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "323A476C66BF6CEB"
+				type: "command"
+				command: "/school enter ftbuniversity:ae2/planes"
+				player_command: true
+			}]
+		}
+		{
+			title: "{university.portablecell.title}"
+			icon: {
+				id: "appliedenergistics2:16k_portable_cell"
+				Count: 1b
+				tag: { }
+			}
+			x: 4.5d
+			y: 4.0d
+			subtitle: "{university.portablecell.subtitle}"
+			description: [
+				"{university.portablecell.desc1}"
+				""
+				"{university.portablecell.desc2}"
+			]
+			dependencies: ["2B60397533F41E38"]
+			id: "56FDE1035CA4FB62"
+			tasks: [{
+				id: "132617D78997C8B2"
+				type: "item"
+				title: "{university.portablecell.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:portable_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:4k_portable_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:16k_portable_cell"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "appliedenergistics2:64k_portable_cell"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -5.0d
+			subtitle: "{university.craftingcard.subtitle}"
+			description: [
+				"{university.craftingcard.desc1}"
+				""
+				"{university.craftingcard.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4BF7153453CC8539"]
+			id: "0554230A58AC51FD"
+			tasks: [{
+				id: "6DCAEC827B35BB9F"
+				type: "item"
+				item: "appliedenergistics2:crafting_card"
+			}]
+		}
+		{
+			title: "{university.spatialschool.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 13.25d
+			y: 1.0d
+			subtitle: "{university.spatialschool.subtitle}"
+			description: [
+				"{university.spatialschool.desc1}"
+				""
+				"{university.spatialschool.desc2}"
+			]
+			dependencies: ["18189FB5E98DA74B"]
+			size: 0.5d
+			id: "6E951C1A2EB1666E"
+			tasks: [{
+				id: "3BCFE0DE79F97E82"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4DED9155388AF31D"
+				type: "command"
+				command: "/school enter ftbuniversity:ae2/spatial_storage"
+				player_command: true
+			}]
+		}
+		{
+			x: 10.75d
+			y: 3.25d
+			subtitle: "{university.mattercannon.subtitle}"
+			description: [
+				"{university.mattercannon.desc1}"
+				""
+				"{university.mattercannon.desc2}"
+				""
+				"{university.mattercannon.desc3}"
+				""
+				"{university.mattercannon.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["04BC63D794ADFA52"]
+			size: 0.5d
+			min_width: 250
+			id: "0232B303EFCA7E30"
+			tasks: [{
+				id: "52C42CF377FAC7C6"
+				type: "item"
+				item: {
+					id: "appliedenergistics2:matter_cannon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "appliedenergistics2:color_applicator"
+				Count: 1b
+				tag: { }
+			}
+			x: 11.25d
+			y: 3.25d
+			subtitle: "{university.colorapplicator.subtitle}"
+			description: [
+				"{university.colorapplicator.desc1}"
+				""
+				"{university.colorapplicator.desc2}"
+				""
+				"{university.colorapplicator.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["04BC63D794ADFA52"]
+			size: 0.5d
+			id: "1888AA7487C4EE41"
+			tasks: [
+				{
+					id: "03F1BD38F20C8143"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:color_applicator"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "39CC06B914E04CFD"
+					type: "item"
+					title: "{university.colorapplicator.task}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "paint_ball"
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "appliedenergistics2:certus_quartz_wrench"
+			x: 0.0d
+			y: 0.75d
+			subtitle: "{university.ae2wrench.subtitle}"
+			description: ["{university.ae2wrench.desc}"]
+			dependencies: ["3DB834F1D71682BD"]
+			size: 0.5d
+			optional: true
+			id: "4CF7DD79145D5EAF"
+			tasks: [{
+				id: "0BDB42F418D3CFC5"
+				type: "item"
+				title: "{university.ae2wrench.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:certus_quartz_wrench"
+								Count: 1b
+							}
+							{
+								id: "appliedenergistics2:nether_quartz_wrench"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.p2p1.title}"
+			icon: "appliedenergistics2:me_p2p_tunnel"
+			x: 14.5d
+			y: 1.5d
+			subtitle: "{university.p2p1.subtitle}"
+			description: [
+				"{university.p2p1.desc1}"
+				""
+				"{university.p2p1.desc2}"
+				""
+				"{university.p2p1.desc3}"
+				""
+				"{university.p2p1.desc4}"
+				""
+				"{university.p2p1.desc5}"
+				""
+				"{university.p2p1.desc6}"
+				"{image:ftbuniversity:textures/quests/p2p.png width:200 height:76 anchor:center}"
+				""
+				"{university.p2p1.desc7}"
+				""
+				"{university.p2p1.desc8}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2D222B3524A78A76"]
+			min_width: 350
+			id: "144C32B7CDF255EA"
+			tasks: [
+				{
+					id: "438AD25A26FB6A98"
+					type: "item"
+					item: "appliedenergistics2:me_p2p_tunnel"
+				}
+				{
+					id: "1502FE9BF723A228"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:memory_card"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "54B7488632806C38"
+				type: "item"
+				item: "appliedenergistics2:me_p2p_tunnel"
+				count: 5
+			}]
+		}
+		{
+			title: "{university.p2pstyles.title}"
+			icon: "appliedenergistics2:redstone_p2p_tunnel"
+			x: 14.5d
+			y: 0.5d
+			subtitle: "{university.p2pstyles.subtitle}"
+			description: [
+				"{university.p2pstyles.desc1}"
+				""
+				"{university.p2pstyles.desc2}"
+				""
+				"{university.p2pstyles.desc3}"
+				""
+				"{university.p2pstyles.desc4}"
+				""
+				"{university.p2pstyles.desc5}"
+				""
+				"{university.p2pstyles.desc6}"
+				""
+				"{university.p2pstyles.desc7}"
+			]
+			dependencies: ["144C32B7CDF255EA"]
+			min_width: 275
+			id: "19646276BFADA19C"
+			tasks: [{
+				id: "66DB3341CE98454F"
+				type: "item"
+				title: "{university.p2pstyles.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:redstone_p2p_tunnel"
+								Count: 1b
+							}
+							{
+								id: "appliedenergistics2:item_p2p_tunnel"
+								Count: 1b
+							}
+							{
+								id: "appliedenergistics2:fluid_p2p_tunnel"
+								Count: 1b
+							}
+							{
+								id: "appliedenergistics2:fe_p2p_tunnel"
+								Count: 1b
+							}
+							{
+								id: "appliedenergistics2:light_p2p_tunnel"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.p2p2.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 14.5d
+			y: 2.5d
+			subtitle: "{university.p2p2.subtitle}"
+			description: [
+				"{university.p2p2.desc1}"
+				""
+				"{university.p2p2.desc2}"
+				""
+				"{university.p2p2.desc3}"
+				""
+				"{university.p2p2.desc4}"
+			]
+			dependencies: ["144C32B7CDF255EA"]
+			min_width: 275
+			id: "491ECA2441B61B89"
+			tasks: [{
+				id: "34F09825F7CA2DDC"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.packauto.title}"
+			icon: "packagedauto:encoder"
+			x: 12.0d
+			y: -6.0d
+			subtitle: "{university.packauto.subtitle}"
+			description: [
+				"{university.packauto.desc1}"
+				""
+				"{university.packauto.desc2}"
+				""
+				"{university.packauto.desc3}"
+				""
+				"{university.packauto.desc4}"
+				""
+				"{university.packauto.desc5}"
+				""
+				"{university.packauto.desc6}"
+				""
+				"{university.packauto.desc7}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4BF7153453CC8539"]
+			min_width: 325
+			id: "0DE5A1E1D36CC65B"
+			tasks: [
+				{
+					id: "7A55AE57736E8BE5"
+					type: "item"
+					item: "packagedauto:encoder"
+				}
+				{
+					id: "21BCA5926DC5FB6E"
+					type: "item"
+					item: "packagedauto:recipe_holder"
+				}
+				{
+					id: "5E08452BC7D8D031"
+					type: "item"
+					item: "packagedauto:packager"
+				}
+				{
+					id: "4432C8820BE3CD62"
+					type: "item"
+					item: "packagedauto:unpackager"
+				}
+			]
+		}
+		{
+			title: "{university.packexc.title}"
+			icon: "packagedexcrafting:basic_crafter"
+			x: 13.0d
+			y: -6.0d
+			subtitle: "{university.packexc.subtitle}"
+			description: [
+				"{university.packexc.desc1}"
+				""
+				"{university.packexc.desc2}"
+				""
+				"{university.packexc.desc3}"
+				""
+				"{university.packexc.desc4}"
+			]
+			dependencies: ["0DE5A1E1D36CC65B"]
+			min_width: 300
+			id: "25106A14837FCE50"
+			tasks: [{
+				id: "758ACFAA99F3339A"
+				type: "item"
+				title: "{university.packexc.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "packagedexcrafting:basic_crafter"
+								Count: 1b
+							}
+							{
+								id: "packagedexcrafting:advanced_crafter"
+								Count: 1b
+							}
+							{
+								id: "packagedexcrafting:elite_crafter"
+								Count: 1b
+							}
+							{
+								id: "packagedexcrafting:ultimate_crafter"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			subtitle: "{university.fluixagg.subtitle}"
+			description: ["{university.fluixagg.desc}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"3DB834F1D71682BD"
+				"197357B240FAB602"
+			]
+			id: "16260E42C68B1040"
+			tasks: [{
+				id: "661835236416C0F5"
+				type: "item"
+				item: "lazierae2:fluix_aggregator"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			subtitle: "{university.crysten.subtitle}"
+			description: ["{university.crysten.desc}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"3DB834F1D71682BD"
+				"197357B240FAB602"
+			]
+			id: "6350B1A5506C7196"
+			tasks: [{
+				id: "1027FD2AC058D47C"
+				type: "item"
+				item: "lazierae2:crystal_energizer"
+			}]
+		}
+		{
+			title: "{university.mecircetch.title}"
+			x: 4.0d
+			y: -5.0d
+			subtitle: "{university.mecircetch.subtitle}"
+			description: ["{university.mecircetch.desc}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"04BC63D794ADFA52"
+				"16260E42C68B1040"
+			]
+			id: "372B67314D569B98"
+			tasks: [{
+				id: "48D53EE715DBE132"
+				type: "item"
+				item: "lazierae2:circuit_etcher"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.0d
+			subtitle: "{university.pulsecent.subtitle}"
+			description: ["{university.pulsecent.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["16260E42C68B1040"]
+			id: "6254170096FB92B8"
+			tasks: [{
+				id: "1F044024207776CE"
+				type: "item"
+				item: "lazierae2:pulse_centrifuge"
+			}]
+		}
+	]
+}

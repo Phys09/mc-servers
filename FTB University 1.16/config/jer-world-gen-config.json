@@ -1,0 +1,21 @@
+{
+  "block_whitelist": [
+    "#forge:ores",
+    "#forge:stone"
+  ],
+  "dimensions": {
+    "minecraft:overworld": true,
+    "minecraft:the_nether": true,
+    "minecraft:the_end": true,
+    "appliedenergistics2:spatial_storage": false,
+    "compactmachines:compact_world": false,
+    "mahoutsukai:reality_marble": false,
+    "ftbschools:school_day": false,
+    "ftbschools:school_night": false,
+    "twilightforest:skylight_forest": false,
+    "woot:tartarus": false,
+    "twilightforest:twilightforest": true
+  },
+  "height": 128,
+  "scan_radius": 50
+}

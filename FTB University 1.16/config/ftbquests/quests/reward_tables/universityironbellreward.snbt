@@ -1,0 +1,13 @@
+{
+	id: "4873CEE5CA6B2D4E"
+	order_index: 6
+	title: "{university.ironbell.reward}"
+	loot_size: 16
+	use_title: true
+	rewards: [
+		{ item: "mana-and-artifice:mark_of_the_fey", count: 8 }
+		{ item: "mana-and-artifice:mark_of_the_council", count: 8 }
+		{ item: "mana-and-artifice:mark_of_the_nether", count: 8 }
+		{ item: "mana-and-artifice:mark_of_the_undead", count: 8 }
+	]
+}

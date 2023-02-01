@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.charged_certus_quartz",
+  "colors": [
+    "B8D8FC",
+    "EEFBFC"
+  ],
+  "ingredient": {
+    "item": "appliedenergistics2:certus_quartz_crystal"
+  }
+}

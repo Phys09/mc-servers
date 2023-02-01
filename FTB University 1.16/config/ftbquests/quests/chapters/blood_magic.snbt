@@ -1,0 +1,1926 @@
+{
+	id: "1ABC5E4AFE1505C9"
+	group: "7C8FB4101B19CAFD"
+	order_index: 1
+	filename: "blood_magic"
+	title: "{university.bloodmagic.chapter}"
+	icon: {
+		id: "patchouli:guide_book"
+		Count: 1b
+		tag: {
+			"patchouli:book": "bloodmagic:guide"
+		}
+	}
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.5d
+			subtitle: "{university.bmbook.subtitle}"
+			description: ["{university.bmbook.desc}"]
+			id: "59B78B299C516843"
+			tasks: [{
+				id: "643733ADC0F05FDD"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.will.title}"
+			icon: {
+				id: "bloodmagic:basemonstersoul"
+				Count: 1b
+				tag: {
+					souls: 5.0d
+				}
+			}
+			x: 1.5d
+			y: 0.0d
+			subtitle: "{university.will.subtitle}"
+			description: [
+				"{university.will.desc1}"
+				""
+				"{university.will.desc2}"
+				""
+				"{university.will.desc3}"
+			]
+			dependencies: ["0D1D0E7F150878F6"]
+			id: "56D5E46B375194C7"
+			tasks: [
+				{
+					id: "21C222597B06DACC"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+				}
+				{
+					id: "0ABE9D57A0810C16"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2EAAC56A2212DE05"
+				type: "item"
+				item: "bloodmagic:soulsnare"
+				count: 16
+			}]
+		}
+		{
+			title: "{university.hellfire.title}"
+			x: 1.5d
+			y: 1.5d
+			subtitle: "{university.hellfire.subtitle}"
+			description: [
+				"{university.hellfire.desc1}"
+				""
+				"{university.hellfire.desc2}"
+				""
+				"{university.hellfire.desc3}"
+			]
+			dependencies: ["56D5E46B375194C7"]
+			id: "498C1DB3A38E35D5"
+			tasks: [{
+				id: "6A6394783D8CE306"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+		}
+		{
+			title: "{university.tartaric.title}"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "{university.tartaric.subtitle}"
+			description: [
+				"{university.tartaric.desc1}"
+				""
+				"{university.tartaric.desc2}"
+			]
+			dependencies: ["498C1DB3A38E35D5"]
+			id: "05D54690F0CE22F1"
+			tasks: [{
+				id: "3E4A92BC19643AB2"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: {
+						souls: 64.0d
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.tartaric2.title}"
+			icon: {
+				id: "bloodmagic:soulgemgreater"
+				Count: 1b
+				tag: {
+					souls: 4096.0d
+				}
+			}
+			x: -0.75d
+			y: 1.5d
+			subtitle: "{university.tartaric2.subtitle}"
+			description: [
+				"{university.tartaric2.desc1}"
+				""
+				"{university.tartaric2.desc2}"
+			]
+			dependencies: ["05D54690F0CE22F1"]
+			size: 0.5d
+			id: "5437FB7A78E00178"
+			tasks: [{
+				id: "085CF90DD3E2386F"
+				type: "item"
+				title: "{university.tartaric2.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "bloodmagic:soulgemlesser"
+								Count: 1b
+								tag: {
+									souls: 256.0d
+								}
+							}
+							{
+								id: "bloodmagic:soulgemcommon"
+								Count: 1b
+								tag: {
+									souls: 1024.0d
+								}
+							}
+							{
+								id: "bloodmagic:soulgemgreater"
+								Count: 1b
+								tag: {
+									souls: 4096.0d
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.senttools.title}"
+			icon: {
+				id: "bloodmagic:soulaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.25d
+			y: 2.25d
+			subtitle: "{university.senttools.subtitle}"
+			description: [
+				"{university.senttools.desc1}"
+				""
+				"{university.senttools.desc2}"
+			]
+			dependencies: ["05D54690F0CE22F1"]
+			size: 0.5d
+			id: "3184B0B6AA89DBA7"
+			tasks: [{
+				id: "20ACF496C704D86A"
+				type: "item"
+				title: "{university.senttools.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "bloodmagic:soulaxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "bloodmagic:soulpickaxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "bloodmagic:soulshovel"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "bloodmagic:soulscythe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.sentsword.title}"
+			x: 0.25d
+			y: 2.25d
+			subtitle: "{university.sentsword.subtitle}"
+			description: [
+				"{university.sentsword.desc1}"
+				""
+				"{university.sentsword.desc2}"
+				""
+				"{university.sentsword.desc3}"
+			]
+			dependencies: ["05D54690F0CE22F1"]
+			size: 0.5d
+			id: "69020F0A35682E1B"
+			tasks: [{
+				id: "17497A1263512D73"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.arcaneash.title}"
+			x: 1.5d
+			y: 2.5d
+			subtitle: "{university.arcaneash.subtitle}"
+			description: [
+				"{university.arcaneash.desc1}"
+				""
+				"{university.arcaneash.desc2}"
+				""
+				"{university.arcaneash.desc3}"
+				""
+				"{university.arcaneash.desc4}"
+				""
+				"{university.arcaneash.desc5}"
+			]
+			dependencies: ["498C1DB3A38E35D5"]
+			min_width: 275
+			id: "7F3F4A76300B4B6C"
+			tasks: [{
+				id: "68523CBFF6DD0704"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.bloodaltar.title}"
+			icon: "bloodmagic:altar"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "{university.bloodaltar.subtitle}"
+			description: [
+				"{university.bloodaltar.desc1}"
+				""
+				"{university.bloodaltar.desc2}"
+				""
+				"{university.bloodaltar.desc3}"
+				""
+				"{university.bloodaltar.desc4}"
+				""
+				"{university.bloodaltar.desc5}"
+				""
+				"{university.bloodaltar.desc6}"
+			]
+			dependencies: ["59B78B299C516843"]
+			min_width: 275
+			id: "0D1D0E7F150878F6"
+			tasks: [
+				{
+					id: "5A8A688B16348A92"
+					type: "item"
+					item: "bloodmagic:altar"
+				}
+				{
+					id: "48D148FD7371A23A"
+					type: "item"
+					item: {
+						id: "bloodmagic:sacrificialdagger"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "0BA5A591D21071DA"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:long_regeneration"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.orb1.title}"
+			x: 3.0d
+			y: -1.5d
+			subtitle: "{university.orb1.subtitle}"
+			description: [
+				"{university.orb1.desc1}"
+				""
+				"{university.orb1.desc2}"
+				""
+				"{university.orb1.desc3}"
+				""
+				"{university.orb1.desc4}"
+				""
+				"{university.orb1.desc5}"
+			]
+			dependencies: ["0D1D0E7F150878F6"]
+			min_width: 250
+			id: "3867FB2EA45A6483"
+			tasks: [{
+				id: "1189FB12F7A9882C"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+		}
+		{
+			title: "{university.bloodaltar2.title}"
+			x: 4.5d
+			y: -1.5d
+			subtitle: "{university.bloodaltar2.subtitle}"
+			description: [
+				"{university.bloodaltar2.desc1}"
+				""
+				"{university.bloodaltar2.desc2}"
+			]
+			dependencies: ["3867FB2EA45A6483"]
+			id: "25AE9F2D2C6111D4"
+			tasks: [{
+				id: "00F66A97D956110B"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 8L
+			}]
+		}
+		{
+			title: "{university.runes.title}"
+			icon: "bloodmagic:speedrune"
+			x: 4.75d
+			y: -0.75d
+			subtitle: "{university.runes.subtitle}"
+			description: [
+				"{university.runes.desc1}"
+				""
+				"{university.runes.desc2}"
+			]
+			dependencies: ["25AE9F2D2C6111D4"]
+			size: 0.5d
+			id: "6DAA9E230B63528C"
+			tasks: [{
+				id: "76F945D2E5E8AD81"
+				type: "item"
+				title: "{university.runes.task}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "blood.*rune"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.dagsac.title}"
+			x: 4.25d
+			y: -0.75d
+			subtitle: "{university.dagsac.subtitle}"
+			description: [
+				"{university.dagsac.desc1}"
+				""
+				"{university.dagsac.desc2}"
+			]
+			dependencies: ["25AE9F2D2C6111D4"]
+			size: 0.5d
+			id: "4AE3035C01993451"
+			tasks: [{
+				id: "24BB3714A899B18D"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+		}
+		{
+			title: "{university.orb2.title}"
+			x: 4.25d
+			y: -2.25d
+			subtitle: "{university.orb2.subtitle}"
+			description: [
+				"{university.orb2.desc1}"
+				""
+				"{university.orb2.desc2}"
+			]
+			dependencies: ["25AE9F2D2C6111D4"]
+			size: 0.5d
+			id: "275D1A8FCF424A3A"
+			tasks: [{
+				id: "7AB93B2300A96865"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+		}
+		{
+			icon: "bloodmagic:divinationsigil"
+			x: 3.25d
+			y: -2.25d
+			subtitle: "{university.sigils1.subtitle}"
+			description: [
+				"{university.sigils1.desc1}"
+				""
+				"{university.sigils1.desc2}"
+				""
+				"{university.sigils1.desc3}"
+				""
+				"{university.sigils1.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"7F3F4A76300B4B6C"
+				"3867FB2EA45A6483"
+			]
+			size: 0.5d
+			min_width: 250
+			id: "4FBDB7F84CD8DF08"
+			tasks: [{
+				id: "5A43E523E8408384"
+				type: "item"
+				title: "{university.sigils1.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "bloodmagic:divinationsigil"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:lavasigil"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:watersigil"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.sigils2.title}"
+			icon: "bloodmagic:voidsigil"
+			x: 4.75d
+			y: -2.25d
+			subtitle: "{university.sigils2.subtitle}"
+			description: ["{university.sigils2.desc}"]
+			dependencies: ["25AE9F2D2C6111D4"]
+			size: 0.5d
+			id: "668A11FF0B4E422F"
+			tasks: [{
+				id: "0F88B0673B331531"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "bloodmagic:voidsigil"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:airsigil"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:seersigil"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:growthsigil"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "bloodmagic:miningsigil"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.sigils3.title}"
+			icon: {
+				id: "bloodmagic:sigilofmagnetism"
+				Count: 1b
+				tag: { }
+			}
+			x: 6.25d
+			y: -2.25d
+			subtitle: "{university.sigils3.subtitle}"
+			description: ["{university.sigils3.desc}"]
+			dependencies: ["389247A9815FE3F1"]
+			size: 0.5d
+			id: "4B08F6F6B095ABF5"
+			tasks: [{
+				id: "593FE7C3DFDF712B"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "bloodmagic:sigilofmagnetism"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "bloodmagic:sigilofholding"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:bloodlightsigil"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.bloodaltar3.title}"
+			icon: "minecraft:glowstone"
+			x: 6.0d
+			y: -1.5d
+			subtitle: "{university.bloodaltar3.subtitle}"
+			description: ["{university.bloodaltar3.desc}"]
+			dependencies: ["25AE9F2D2C6111D4"]
+			id: "389247A9815FE3F1"
+			tasks: [
+				{
+					id: "45FFB35AC712EF11"
+					type: "item"
+					title: "{university.bloodaltar3.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "bloodmagic:blankrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:speedrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:sacrificerune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:selfsacrificerune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:dislocationrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:altarcapacityrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:bettercapacityrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:orbcapacityrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:chargingrune"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 20L
+				}
+				{
+					id: "1352879959229073"
+					type: "item"
+					title: "{university.bloodaltar3.task2}"
+					item: "minecraft:stone_bricks"
+					count: 8L
+				}
+				{
+					id: "1C3B1F81691DBB6B"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "{university.bloodaltar4.title}"
+			icon: "bloodmagic:largebloodstonebrick"
+			x: 7.5d
+			y: -1.5d
+			subtitle: "{university.bloodaltar4.subtitle}"
+			description: ["{university.bloodaltar4.desc}"]
+			dependencies: ["389247A9815FE3F1"]
+			id: "7F4A753F5AF4D3DD"
+			tasks: [
+				{
+					id: "12B4E013E1C6D0C6"
+					type: "item"
+					title: "{university.bloodaltar3.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "bloodmagic:blankrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:speedrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:sacrificerune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:selfsacrificerune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:dislocationrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:altarcapacityrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:bettercapacityrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:orbcapacityrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:chargingrune"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 28L
+				}
+				{
+					id: "3EB73DF041322575"
+					type: "item"
+					title: "{university.bloodaltar3.task2}"
+					item: "minecraft:stone_bricks"
+					count: 16L
+				}
+				{
+					id: "02D3781B0049EAE2"
+					type: "item"
+					title: "{university.bloodaltar4.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "bloodmagic:bloodstonebrick"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:largebloodstonebrick"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "{university.bloodaltar5.title}"
+			icon: "minecraft:beacon"
+			x: 9.0d
+			y: -1.5d
+			subtitle: "{university.bloodaltar5.subtitle}"
+			description: [
+				"{university.bloodaltar5.desc1}"
+				""
+				"{university.bloodaltar5.desc2}"
+			]
+			dependencies: ["7F4A753F5AF4D3DD"]
+			optional: true
+			id: "65C83231B7EB45E5"
+			tasks: [
+				{
+					id: "68DB1FCE25B5423B"
+					type: "item"
+					title: "{university.bloodaltar3.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "bloodmagic:blankrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:speedrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:sacrificerune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:selfsacrificerune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:dislocationrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:altarcapacityrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:bettercapacityrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:orbcapacityrune"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:chargingrune"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 52L
+				}
+				{
+					id: "64398404429843DD"
+					type: "item"
+					item: "minecraft:beacon"
+					count: 4L
+				}
+			]
+		}
+		{
+			title: "{university.orb3.title}"
+			x: 5.75d
+			y: -2.25d
+			subtitle: "{university.orb3.subtitle}"
+			description: ["{university.orb3.desc}"]
+			dependencies: ["389247A9815FE3F1"]
+			size: 0.5d
+			id: "2399818063F1D0E7"
+			tasks: [{
+				id: "0748232EC6A728E3"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+		}
+		{
+			title: "{university.orb4.title}"
+			x: 7.5d
+			y: -2.25d
+			subtitle: "{university.orb4.subtitle}"
+			description: ["{university.orb4.desc}"]
+			dependencies: ["7F4A753F5AF4D3DD"]
+			size: 0.5d
+			id: "2114BE3352F3CD2A"
+			tasks: [{
+				id: "3CC54BF5A68AFA6C"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			subtitle: "{university.alchemytable.subtitle}"
+			description: [
+				"{university.alchemytable.desc1}"
+				""
+				"{university.alchemytable.desc2}"
+			]
+			dependencies: ["3867FB2EA45A6483"]
+			id: "7314310A0FF33A5C"
+			tasks: [{
+				id: "4300BE60A6469840"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			title: "{university.livarmor.title}"
+			icon: {
+				id: "bloodmagic:livinghelmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.0d
+			y: -0.5d
+			subtitle: "{university.livarmor.subtitle}"
+			description: [
+				"{university.livarmor.desc1}"
+				""
+				"{university.livarmor.desc2}"
+				""
+				"{university.livarmor.desc3}"
+				""
+				"{university.livarmor.desc4}"
+				""
+				"{university.livarmor.desc5}"
+				""
+				"{university.livarmor.desc6}"
+			]
+			dependencies: [
+				"7314310A0FF33A5C"
+				"389247A9815FE3F1"
+			]
+			min_width: 300
+			id: "28AE20053663D43A"
+			tasks: [
+				{
+					id: "777E2D174A678B63"
+					type: "item"
+					item: {
+						id: "bloodmagic:livinghelmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "590C419E4E6693C6"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							livingStats: {
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1CF237273FC6DEEE"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingleggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E7AB55B32FBBB82"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingboots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.uptomes.title}"
+			x: 7.0d
+			y: -0.5d
+			subtitle: "{university.uptomes.subtitle}"
+			description: [
+				"{university.uptomes.desc1}"
+				""
+				"{university.uptomes.desc2}"
+			]
+			dependencies: ["28AE20053663D43A"]
+			id: "69AB127135336352"
+			tasks: [{
+				id: "695248F74FAF4B25"
+				type: "item"
+				title: "{university.uptomes.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "bloodmagic:upgradetome"
+								Count: 1b
+								tag: {
+									livingStats: {
+										maxPoints: 0
+										upgrades: [{
+											exp: 5000.0d
+											key: "bloodmagic:self_sacrifice"
+										}]
+									}
+								}
+							}
+							{
+								id: "bloodmagic:upgradetome"
+								Count: 1b
+								tag: {
+									livingStats: {
+										maxPoints: 0
+										upgrades: [{
+											exp: 70000.0d
+											key: "bloodmagic:speed"
+										}]
+									}
+								}
+							}
+							{
+								id: "bloodmagic:upgradetome"
+								Count: 1b
+								tag: {
+									livingStats: {
+										maxPoints: 0
+										upgrades: [{
+											exp: 10000.0d
+											key: "bloodmagic:health"
+										}]
+									}
+								}
+							}
+							{
+								id: "bloodmagic:upgradetome"
+								Count: 1b
+								tag: {
+									livingStats: {
+										maxPoints: 0
+										upgrades: [{
+											exp: 15000.0d
+											key: "bloodmagic:arrow_protect"
+										}]
+									}
+								}
+							}
+							{
+								id: "bloodmagic:upgradetome"
+								Count: 1b
+								tag: {
+									livingStats: {
+										maxPoints: 0
+										upgrades: [{
+											exp: 15000.0d
+											key: "bloodmagic:physical_protect"
+										}]
+									}
+								}
+							}
+							{
+								id: "bloodmagic:upgradetome"
+								Count: 1b
+								tag: {
+									livingStats: {
+										maxPoints: 0
+										upgrades: [{
+											exp: 3800.0d
+											key: "bloodmagic:sprint_attack"
+										}]
+									}
+								}
+							}
+							{
+								id: "bloodmagic:upgradetome"
+								Count: 1b
+								tag: {
+									livingStats: {
+										maxPoints: 0
+										upgrades: [{
+											exp: 14000.0d
+											key: "bloodmagic:experienced"
+										}]
+									}
+								}
+							}
+							{
+								id: "bloodmagic:upgradetome"
+								Count: 1b
+								tag: {
+									livingStats: {
+										maxPoints: 0
+										upgrades: [{
+											exp: 150000.0d
+											key: "bloodmagic:digging"
+										}]
+									}
+								}
+							}
+							{
+								id: "bloodmagic:upgradetome"
+								Count: 1b
+								tag: {
+									livingStats: {
+										maxPoints: 0
+										upgrades: [{
+											exp: 30000.0d
+											key: "bloodmagic:poison_resist"
+										}]
+									}
+								}
+							}
+							{
+								id: "bloodmagic:upgradetome"
+								Count: 1b
+								tag: {
+									livingStats: {
+										maxPoints: 0
+										upgrades: [{
+											exp: 30000.0d
+											key: "bloodmagic:fire_resist"
+										}]
+									}
+								}
+							}
+							{
+								id: "bloodmagic:upgradetome"
+								Count: 1b
+								tag: {
+									livingStats: {
+										maxPoints: 0
+										upgrades: [{
+											exp: 1500.0d
+											key: "bloodmagic:fall_protect"
+										}]
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			subtitle: "{university.archamer.subtitle}"
+			description: [
+				"{university.archamer.desc1}"
+				""
+				"{university.archamer.desc2}"
+			]
+			dependencies: ["389247A9815FE3F1"]
+			id: "4F0CA928064881ED"
+			tasks: [{
+				id: "41176A91DDD7724E"
+				type: "item"
+				item: "bloodmagic:alchemicalreactionchamber"
+			}]
+		}
+		{
+			icon: "bloodmagic:shaped_charge"
+			x: 0.25d
+			y: 0.75d
+			subtitle: "{university.charges.subtitle}"
+			description: [
+				"{university.charges.desc1}"
+				""
+				"{university.charges.desc2}"
+				""
+				"{university.charges.desc3}"
+				""
+				"{university.charges.desc4}"
+				""
+				"{university.charges.desc5}"
+			]
+			dependencies: ["05D54690F0CE22F1"]
+			size: 0.5d
+			min_width: 275
+			id: "6393D258E2563A45"
+			tasks: [{
+				id: "19798BC0A8E54F38"
+				type: "item"
+				title: "{university.charges.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "bloodmagic:shaped_charge"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:deforester_charge"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:veinmine_charge"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:fungal_charge"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: "bloodmagic:throwing_dagger_syringe"
+			x: -0.25d
+			y: 0.75d
+			subtitle: "{university.throwingdaggers.subtitle|"
+			description: [
+				"{university.throwingdaggers.desc1}"
+				""
+				"{university.throwingdaggers.desc2}"
+			]
+			dependencies: ["05D54690F0CE22F1"]
+			size: 0.5d
+			id: "272FE5DDB9CCCE58"
+			tasks: [
+				{
+					id: "52969273E3FC1C6F"
+					type: "item"
+					item: "bloodmagic:throwing_dagger"
+				}
+				{
+					id: "468D4BA33C123ADB"
+					type: "item"
+					item: "bloodmagic:throwing_dagger_syringe"
+				}
+			]
+			rewards: [{
+				id: "32A42D3076D1B035"
+				type: "item"
+				item: "bloodmagic:slate_ampoule"
+				count: 16
+			}]
+		}
+		{
+			title: "{university.altarfluids.title}"
+			x: 1.5d
+			y: -2.25d
+			subtitle: "{university.altarfluids.subtitle}"
+			description: [
+				"{university.altarfluids.desc1}"
+				""
+				"{university.altarfluids.desc2}"
+			]
+			dependencies: ["0D1D0E7F150878F6"]
+			size: 0.5d
+			id: "7BB00CBDB6AED625"
+			tasks: [{
+				id: "4D65AA3058585794"
+				type: "item"
+				item: "bloodmagic:life_essence_bucket"
+			}]
+		}
+		{
+			x: 2.75d
+			y: -2.25d
+			subtitle: "{university.lavcryst.subtitle}"
+			description: [
+				"{university.lavcryst.desc1}"
+				""
+				"{university.lavcryst.desc2}"
+				""
+				"{university.lavcryst.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3867FB2EA45A6483"]
+			size: 0.5d
+			id: "56AD0928028BFF9B"
+			tasks: [{
+				id: "6727D6F4C1B3ED98"
+				type: "item"
+				item: "bloodmagic:lavacrystal"
+			}]
+		}
+		{
+			title: "{university.incense1.title}"
+			x: 1.5d
+			y: -3.0d
+			subtitle: "{university.incense1.subtitle}"
+			description: [
+				"{university.incense1.desc1}"
+				""
+				"{university.incense1.desc2}"
+				"{image:bloodmagic:images/entries/utility/incense_altar1.png width:90 height:90 anchor:center}"
+				""
+				"{university.incense1.desc3}"
+				""
+				"{university.incense1.desc4}"
+			]
+			dependencies: ["0D1D0E7F150878F6"]
+			min_width: 250
+			id: "03BFFEFB504BE40B"
+			tasks: [{
+				id: "0D28E9D54D5F0B8E"
+				type: "item"
+				item: "bloodmagic:incensealtar"
+			}]
+		}
+		{
+			title: "{university.incense2.title}"
+			icon: "bloodmagic:woodtilepath"
+			x: 2.25d
+			y: -3.0d
+			subtitle: "{university.incense2.subtitle}"
+			description: [
+				"{university.incense2.desc1}"
+				""
+				"{university.incense2.desc2}"
+				""
+				"{university.incense2.desc3}"
+				""
+				"{university.incense2.desc4}"
+				""
+				"{university.incense2.desc5}"
+				""
+				"{university.incense2.desc6}"
+			]
+			dependencies: ["03BFFEFB504BE40B"]
+			size: 0.5d
+			min_width: 300
+			id: "2FEBC033B71962A4"
+			tasks: [{
+				id: "33418F72E79C4CEE"
+				type: "item"
+				title: "{university.incense2.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "bloodmagic:woodbrickpath"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:woodtilepath"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.incense5.title}"
+			x: 3.75d
+			y: -3.0d
+			subtitle: "{university.incense5.subtitle}"
+			description: [
+				"{university.incense5.desc1}"
+				""
+				"{university.incense5.desc2}"
+				""
+				"{university.incense5.desc3}"
+				""
+				"{university.incense5.desc4}"
+			]
+			dependencies: ["232BF9CFCD08F3D2"]
+			size: 0.5d
+			optional: true
+			id: "1693E0783B09314B"
+			tasks: [{
+				id: "589B3BFA708AB631"
+				type: "item"
+				title: "{university.incense5.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "bloodmagic:obsidianbrickpath"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:obsidiantilepath"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.tranquility.title}"
+			icon: "byg:pink_cherry_sapling"
+			x: 2.25d
+			y: -3.5d
+			subtitle: "{university.tranquility.subtitle}"
+			description: ["{university.tranquility.desc}"]
+			dependencies: ["2FEBC033B71962A4"]
+			size: 0.5d
+			id: "59C5A6403FB05262"
+			tasks: [
+				{
+					id: "3B9861CE1B00DA30"
+					type: "item"
+					title: "{university.tranquility.title}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:potato"
+									Count: 1b
+								}
+								{
+									id: "minecraft:carrot"
+									Count: 1b
+								}
+								{
+									id: "minecraft:wheat"
+									Count: 1b
+								}
+								{
+									id: "minecraft:nether_wart"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "6FFC68D3C9CB5496"
+					type: "item"
+					title: "{university.tranquility.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:dirt"
+									Count: 1b
+								}
+								{
+									id: "minecraft:grass_block"
+									Count: 1b
+								}
+								{
+									id: "minecraft:farmland"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "23ACA7889D7FA3C8"
+					type: "item"
+					title: "{university.tranquility.task3}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:flint_and_steel"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "minecraft:netherrack"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "715574CEDDFF1A68"
+					type: "item"
+					title: "{university.tranquility.task4}"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "74D474B031DE94BE"
+					type: "item"
+					title: "{university.tranquility.task6}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:leaves"
+						}
+					}
+				}
+				{
+					id: "0769604A603EC970"
+					type: "item"
+					title: "{university.tranquility.task5}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+				}
+				{
+					id: "680A24E2B1A8E5B4"
+					type: "item"
+					title: "{university.tranquility.task7}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:water_bucket"
+									Count: 1b
+								}
+								{
+									id: "bloodmagic:life_essence_bucket"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.incense3.title}"
+			icon: "bloodmagic:stonetilepath"
+			x: 2.75d
+			y: -3.0d
+			subtitle: "{university.incense3.subtitle}"
+			description: [
+				"{university.incense3.desc1}"
+				""
+				"{university.incense3.desc2}"
+				""
+				"{university.incense3.desc3}"
+				""
+				"{university.incense3.desc4}"
+			]
+			dependencies: ["2FEBC033B71962A4"]
+			size: 0.5d
+			id: "6EE6D95779B617C1"
+			tasks: [{
+				id: "5E30F9BAA07D208F"
+				type: "item"
+				title: "{university.incense3.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "bloodmagic:stonebrickpath"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:stonetilepath"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.incense4.title}"
+			icon: "bloodmagic:wornstonetilepath"
+			x: 3.25d
+			y: -3.0d
+			subtitle: "{university.incense4.subtitle}"
+			description: [
+				"{university.incense4.desc1}"
+				""
+				"{university.incense4.desc2}"
+				""
+				"{university.incense4.desc3}"
+			]
+			dependencies: ["6EE6D95779B617C1"]
+			size: 0.5d
+			id: "232BF9CFCD08F3D2"
+			tasks: [{
+				id: "220950506855B79F"
+				type: "item"
+				title: "{university.incense4.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "bloodmagic:wornstonebrickpath"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:wornstonetilepath"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.75d
+			subtitle: "{university.peritia.subtitle}"
+			description: [
+				"{university.peritia.desc1}"
+				""
+				"{university.peritia.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["389247A9815FE3F1"]
+			size: 0.5d
+			id: "4DB75C587DC195E4"
+			tasks: [{
+				id: "6AD66B49913B1A94"
+				type: "item"
+				item: "bloodmagic:experiencebook"
+			}]
+		}
+		{
+			title: "{university.rituals1.title}"
+			icon: "bloodmagic:masterritualstone"
+			x: 6.0d
+			y: -3.5d
+			subtitle: "{university.rituals1.subtitle}"
+			description: [
+				"{university.rituals1.desc1}"
+				""
+				"{university.rituals1.desc2}"
+				""
+				"{university.rituals1.desc3}"
+				""
+				"{university.rituals1.desc4}"
+				""
+				"{university.rituals1.desc5}"
+				""
+				"{university.rituals1.desc6}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["389247A9815FE3F1"]
+			min_width: 325
+			id: "69BFEFAB1A631127"
+			tasks: [
+				{
+					id: "14A32F539006BBB8"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					id: "12ACE997A49A9843"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+				}
+				{
+					id: "16E90C8119C26265"
+					type: "item"
+					item: "bloodmagic:ritualdiviner"
+				}
+				{
+					id: "5F5C22C7ED7B3A31"
+					type: "item"
+					item: "bloodmagic:activationcrystalweak"
+				}
+			]
+			rewards: [{
+				id: "055C0FEAB4E4BDA5"
+				type: "item"
+				item: "bloodmagic:ritualstone"
+				count: 16
+			}]
+		}
+		{
+			title: "{university.demcruc.title}"
+			x: 6.0d
+			y: 1.5d
+			subtitle: "{university.demcruc.subtitle}"
+			description: [
+				"{university.demcruc.desc1}"
+				""
+				"{university.demcruc.desc2}"
+				""
+				"{university.demcruc.desc3}"
+				""
+				"{university.demcruc.desc4}"
+			]
+			dependencies: [
+				"498C1DB3A38E35D5"
+				"389247A9815FE3F1"
+			]
+			min_width: 275
+			id: "2F9162289A3082DE"
+			tasks: [{
+				id: "3E128370BEE664E6"
+				type: "item"
+				item: "bloodmagic:demoncrucible"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			subtitle: "{university.demcryst.subtitle}"
+			description: [
+				"{university.demcryst.desc1}"
+				""
+				"{university.demcryst.desc2}"
+				""
+				"{university.demcryst.desc3}"
+			]
+			dependencies: ["2F9162289A3082DE"]
+			id: "77687ED00CDEFA83"
+			tasks: [{
+				id: "57C7F12E7AF6272E"
+				type: "item"
+				item: "bloodmagic:demoncrystallizer"
+			}]
+		}
+		{
+			x: 6.25d
+			y: -4.25d
+			subtitle: "{university.rituals2.subtitle}"
+			description: [
+				"{university.rituals2.desc1}"
+				""
+				"{university.rituals2.desc2}"
+				""
+				"{university.rituals2.desc3}"
+				""
+				"{university.rituals2.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"69BFEFAB1A631127"
+				"7F4A753F5AF4D3DD"
+			]
+			size: 0.5d
+			id: "30F08605915F3C37"
+			tasks: [{
+				id: "62CE9E73F209E273"
+				type: "item"
+				item: "bloodmagic:ritualdivinerdusk"
+			}]
+		}
+		{
+			x: 5.75d
+			y: -4.25d
+			subtitle: "{university.tinkerer.subtitle}"
+			description: [
+				"{university.tinkerer.desc1}"
+				""
+				"{university.tinkerer.desc2}"
+				""
+				"{university.tinkerer.desc3}"
+				""
+				"{university.tinkerer.desc4}"
+				""
+				"{university.tinkerer.desc5}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["69BFEFAB1A631127"]
+			size: 0.5d
+			min_width: 250
+			id: "0D4D25A2A805B43A"
+			tasks: [{
+				id: "16A7CA175B4E321D"
+				type: "item"
+				item: "bloodmagic:ritualtinkerer"
+			}]
+		}
+		{
+			icon: "bloodmagic:rawdemoncrystal"
+			x: 7.0d
+			y: 2.5d
+			subtitle: "{university.clusters.subtitle}"
+			description: ["{university.clusters.desc}"]
+			dependencies: ["77687ED00CDEFA83"]
+			id: "266F2F1F3E8E6D98"
+			tasks: [{
+				id: "6EE4201F8E13A743"
+				type: "item"
+				title: "{university.clusters.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "bloodmagic:rawdemoncrystal"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:corrosivedemoncrystal"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:destructivedemoncrystal"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:vengefuldemoncrystal"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:steadfastdemoncrystal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.willtypes.title}"
+			icon: "bloodmagic:vengefulcrystal"
+			x: 8.5d
+			y: 1.5d
+			subtitle: "{university.willtypes.subtitle}"
+			description: [
+				"{university.willtypes.desc1}"
+				""
+				"{university.willtypes.desc2}"
+				""
+				"{university.willtypes.desc3}"
+			]
+			dependencies: ["77687ED00CDEFA83"]
+			min_width: 275
+			id: "1BDC25511CB84B3E"
+			tasks: [{
+				id: "744154264E84907F"
+				type: "item"
+				title: "{university.willtypes.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "bloodmagic:corrosivecrystal"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:vengefulcrystal"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:destructivecrystal"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:steadfastcrystal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.gemtypes.title}"
+			icon: {
+				id: "bloodmagic:soulgemgreater"
+				Count: 1b
+				tag: {
+					souls: 4096.0d
+					demonWillType: "vengeful"
+				}
+			}
+			x: 8.5d
+			y: 2.5d
+			subtitle: "{university.gemtypes.subtitle}"
+			description: [
+				"{university.gemtypes.desc1}"
+				""
+				"{university.gemtypes.desc2}"
+				"{university.gemtypes.desc3}"
+				"{university.gemtypes.desc4}"
+				"{university.gemtypes.desc5}"
+				"{university.gemtypes.desc6}"
+			]
+			dependencies: ["1BDC25511CB84B3E"]
+			min_width: 275
+			id: "22FDCA649A0F60AE"
+			tasks: [{
+				id: "02843D8E756584DD"
+				type: "item"
+				title: "{university.gemtypes.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "bloodmagic:soulgemgreater"
+								Count: 1b
+								tag: {
+									souls: 4096.0d
+									demonWillType: "corrosive"
+								}
+							}
+							{
+								id: "bloodmagic:soulgemgreater"
+								Count: 1b
+								tag: {
+									souls: 4096.0d
+									demonWillType: "destructive"
+								}
+							}
+							{
+								id: "bloodmagic:soulgemgreater"
+								Count: 1b
+								tag: {
+									souls: 4096.0d
+									demonWillType: "vengeful"
+								}
+							}
+							{
+								id: "bloodmagic:soulgemgreater"
+								Count: 1b
+								tag: {
+									souls: 4096.0d
+									demonWillType: "steadfast"
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+	]
+}

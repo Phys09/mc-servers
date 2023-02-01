@@ -1,0 +1,1214 @@
+{
+	id: "62E52BCCF5F195B8"
+	group: "69993BF1AEC0E295"
+	order_index: 0
+	filename: "botaniant"
+	title: "{university.botania.chapter}"
+	icon: "botania:lexicon"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{university.techbot}"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{university.lexbot.subtitle}"
+			description: [
+				"{university.lexbot.desc1}"
+				""
+				"{university.lexbot.desc2}"
+			]
+			dependencies: ["61A1A789A88680B5"]
+			hide: true
+			id: "1812EBAF2F17CE66"
+			tasks: [{
+				id: "0B8B9CB97BCC9A3F"
+				type: "item"
+				item: "botania:lexicon"
+			}]
+			rewards: [{
+				id: "2D9A6D861E13F11E"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 16
+			}]
+		}
+		{
+			title: "{university.petalapoth.title}"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "{university.petalapoth.subtitle}"
+			description: [
+				"{university.petalapoth.desc1}"
+				""
+				"{university.petalapoth.desc2}"
+			]
+			dependencies: ["1812EBAF2F17CE66"]
+			id: "401B3D68388F10B7"
+			tasks: [{
+				id: "1185FE9829C61319"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+		}
+		{
+			title: "{university.puredaisy.title}"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "{university.puredaisy.subtitle}"
+			description: ["{university.puredaisy.desc}"]
+			dependencies: ["401B3D68388F10B7"]
+			id: "4A3C746FD08DAEA3"
+			tasks: [{
+				id: "6ED8402FAC3A9005"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "06B1F6FEE8430598"
+				type: "random"
+				table_id: 7176733197740076376L
+			}]
+		}
+		{
+			title: "{university.manastorage.title}"
+			icon: "botania:mana_pool"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "{university.manastorage.subtitle}"
+			description: [
+				"{university.manastorage.desc1}"
+				""
+				"{university.manastorage.desc2}"
+				""
+				"{university.manastorage.desc3}"
+				""
+				"{image:ftbuniversity:textures/quests/mana_spreader.png width:150 height:77 anchor:center}"
+			]
+			dependencies: ["4A3C746FD08DAEA3"]
+			min_width: 300
+			id: "3DA4BCD346617418"
+			tasks: [
+				{
+					id: "73F65CBABA04D2F2"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+				{
+					id: "49C5939E9B5C47D4"
+					type: "item"
+					item: "botania:mana_spreader"
+				}
+				{
+					id: "5AEC26665B5ACB20"
+					type: "item"
+					item: {
+						id: "botania:twig_wand"
+						Count: 1b
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "65878383B8AF7DDB"
+				type: "item"
+				item: "botania:fabulous_pool"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "{university.runicaltar.subtitle}"
+			description: [
+				"{university.runicaltar.desc1}"
+				""
+				"{university.runicaltar.desc2}"
+			]
+			dependencies: ["3DA4BCD346617418"]
+			id: "3EE36AC411950009"
+			tasks: [{
+				id: "3F1FF25041F7B124"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+		}
+		{
+			title: "{university.terrasteel.title}"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "{university.terrasteel.subtitle}"
+			description: [
+				"{university.terrasteel.desc1}"
+				""
+				"{university.terrasteel.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/terrasteel.png width:150 height:89 anchor:center}"
+			]
+			dependencies: ["3EE36AC411950009"]
+			min_width: 250
+			id: "573506335875D44A"
+			tasks: [{
+				id: "4C54AFF3E2BDB93D"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+			rewards: [{
+				id: "074BF926B1BEDEC6"
+				type: "item"
+				item: "botania:spark"
+				count: 2
+			}]
+		}
+		{
+			icon: "botania:spark_upgrade_recessive"
+			x: 6.0d
+			y: -0.75d
+			subtitle: "{university.sparkaugments.subtitle}"
+			description: [
+				"{university.sparkaugments.desc1}"
+				""
+				"{university.sparkaugments.desc2}"
+				""
+				"{university.sparkaugments.desc3}"
+				"{university.sparkaugments.desc4}"
+				""
+				"{university.sparkaugments.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/spark_augments.png width:150 height:105 anchor:center}"
+				""
+				"{university.sparkaugments.desc6}"
+			]
+			hide_dependency_lines: false
+			dependencies: ["330F905928488CF7"]
+			size: 0.5d
+			min_width: 300
+			id: "1E2F48849E2DD909"
+			tasks: [{
+				id: "041B03977799E1F8"
+				type: "item"
+				title: "{university.sparkaugments.title}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "spark_upgrade"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.alfheim.title}"
+			icon: "botania:alfheim_portal"
+			x: 6.0d
+			y: 0.0d
+			subtitle: "{university.alfheim.subtitle}"
+			description: [
+				"{university.alfheim.desc1}"
+				""
+				"{university.alfheim.desc2}"
+			]
+			dependencies: ["573506335875D44A"]
+			id: "330F905928488CF7"
+			tasks: [
+				{
+					id: "3B54021AAE973190"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "4B61C3E9F732D17A"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "507776CC19CF9711"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+			]
+		}
+		{
+			title: "{university.gaia1.title}"
+			icon: "botania:gaia_head"
+			x: 7.0d
+			y: 0.0d
+			subtitle: "{university.gaia1.subtitle}"
+			description: [
+				"{university.gaia1.desc1}"
+				""
+				"{university.gaia1.desc2}"
+			]
+			dependencies: ["330F905928488CF7"]
+			id: "5E64661A1DEA2994"
+			tasks: [{
+				id: "162AD41E818C2D6C"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+			rewards: [{
+				id: "00FBF46A213BB4B7"
+				type: "choice"
+				table_id: 6629184356484866635L
+			}]
+		}
+		{
+			title: "{university.gaia2.title}"
+			x: 8.0d
+			y: 0.0d
+			subtitle: "{university.gaia2.subtitle}"
+			description: [
+				"{university.gaia2.desc1}"
+				""
+				"{university.gaia2.desc2}"
+			]
+			dependencies: ["5E64661A1DEA2994"]
+			id: "2A33CE7748BC4657"
+			tasks: [{
+				id: "1F30A246CBBE8704"
+				type: "item"
+				item: {
+					id: "botania:dice"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "{university.floatingflowers.title}"
+			icon: "botania:floating_pure_daisy"
+			x: 3.0d
+			y: 0.75d
+			subtitle: "{university.floatingflowers.subtitle}"
+			description: ["{university.floatingflowers.desc}"]
+			dependencies: ["3DA4BCD346617418"]
+			size: 0.5d
+			id: "29D209E65D1DD5F8"
+			tasks: [{
+				id: "64A8FCBEDBAFC5E1"
+				type: "item"
+				title: "{university.floatingflowers.task}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:special_floating_flowers"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.botalccat.title}"
+			x: 2.75d
+			y: -0.75d
+			subtitle: "{university.botalccat.subtitle}"
+			description: [
+				"{university.botalccat.desc1}"
+				""
+				"{university.botalccat.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3DA4BCD346617418"]
+			size: 0.5d
+			id: "4624824D3FABBE7F"
+			tasks: [{
+				id: "4187C02DBBDFBC0B"
+				type: "item"
+				item: "botania:alchemy_catalyst"
+			}]
+		}
+		{
+			x: 3.25d
+			y: -0.75d
+			subtitle: "{university.botconjcat.subtitle}"
+			description: ["{university.botconjcat.desc}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"330F905928488CF7"
+				"4624824D3FABBE7F"
+			]
+			hide: false
+			size: 0.5d
+			id: "4AB2620254A823A0"
+			tasks: [{
+				id: "4004FFA6F2A52627"
+				type: "item"
+				item: "botania:conjuration_catalyst"
+			}]
+		}
+		{
+			title: "{university.endoflame.title}"
+			x: 2.0d
+			y: -2.0d
+			subtitle: "{university.endoflame.subtitle}"
+			description: [
+				"{university.endoflame.desc1}"
+				""
+				"{university.endoflame.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/endo_auto.png width:100 height:117 anchor:center}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["401B3D68388F10B7"]
+			id: "3CD2078B58B721B5"
+			tasks: [{
+				id: "0A5E580C7C389589"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "78749CACB9CF39F4"
+				type: "item"
+				item: "minecraft:coal_ore"
+				count: 8
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			subtitle: "{university.rosaarcana.subtitle}"
+			description: ["{university.rosaarcana.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["3EE36AC411950009"]
+			id: "6564124725444D77"
+			tasks: [{
+				id: "0E5B2545A13D5F4B"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+			rewards: [{
+				id: "433C55D81BDB155F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "{university.rafflowsia.title}"
+			x: 4.0d
+			y: -2.0d
+			subtitle: "{university.rafflowsia.subtitle}"
+			description: [
+				"{university.rafflowsia.desc1}"
+				""
+				"{university.rafflowsia.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["330F905928488CF7"]
+			id: "6B3377957917BABD"
+			tasks: [{
+				id: "25AC57249046D1C3"
+				type: "item"
+				item: "botania:rafflowsia"
+			}]
+		}
+		{
+			title: "{university.spectrolus.title}"
+			x: 5.0d
+			y: -2.0d
+			subtitle: "{university.spectrolus.subtitle}"
+			description: [
+				"{university.spectrolus.desc1}"
+				""
+				"{university.spectrolus.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["330F905928488CF7"]
+			id: "439BCF9AD570F208"
+			tasks: [{
+				id: "4EE5BBB6A4D62F37"
+				type: "item"
+				item: "botania:spectrolus"
+			}]
+		}
+		{
+			icon: "botania:dandelifeon"
+			x: 6.0d
+			y: -2.0d
+			subtitle: "{university.dandelifeon.subtitle}"
+			description: [
+				"{university.dandelifeon.desc1}"
+				""
+				"{university.dandelifeon.desc2}"
+				""
+				"{university.dandelifeon.desc3}"
+				""
+				"{university.dandelifeon.desc4}"
+				""
+				"{university.dandelifeon.desc5}"
+				""
+				"{university.dandelifeon.desc6}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5E64661A1DEA2994"]
+			min_width: 300
+			id: "5D0281E895D81061"
+			tasks: [
+				{
+					id: "574784DB0ADB34AF"
+					type: "item"
+					item: "botania:dandelifeon"
+				}
+				{
+					id: "2045BD1DFD1EAC35"
+					type: "item"
+					item: "botania:cell_block"
+				}
+			]
+			rewards: [{
+				id: "30362AD9EED9A6C2"
+				type: "command"
+				command: "/school enter ftbuniversity:botania/dandelifeon @p"
+				player_command: false
+			}]
+		}
+		{
+			title: "{university.agricarnation.title}"
+			x: 4.0d
+			y: 1.5d
+			subtitle: "{university.agricarnation.subtitle}"
+			description: ["{university.agricarnation.desc}"]
+			dependencies: ["3EE36AC411950009"]
+			id: "737E51A53619A955"
+			tasks: [{
+				id: "59F105C16B87B378"
+				type: "item"
+				item: "botania:agricarnation"
+			}]
+		}
+		{
+			title: "{university.jadedamaranthus.title}"
+			x: 4.0d
+			y: 2.5d
+			subtitle: "{university.jadedamaranthus.subtitle}"
+			description: ["{university.jadedamaranthus.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["3EE36AC411950009"]
+			id: "5CF2A2CCD444AB11"
+			tasks: [{
+				id: "779A4CFC37235F7D"
+				type: "item"
+				item: "botania:jaded_amaranthus"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			subtitle: "{university.fallenkanade.subtitle}"
+			description: ["{university.fallenkanade.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["3EE36AC411950009"]
+			id: "794FDD9F66E2D4C0"
+			tasks: [{
+				id: "1E4F29312BCF31C0"
+				type: "item"
+				item: "botania:fallen_kanade"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			subtitle: "{university.rannuncarpus.subtitle}"
+			description: [
+				"{university.rannuncarpus.desc1}"
+				""
+				"{university.rannuncarpus.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3EE36AC411950009"]
+			id: "7EE02854342D253C"
+			tasks: [{
+				id: "31C23DAE25D3D824"
+				type: "item"
+				item: "botania:rannuncarpus"
+			}]
+			rewards: [{
+				id: "51FCC05852924A11"
+				type: "command"
+				command: "/school enter ftbuniversity:botania/rannuncarpus"
+				player_command: true
+			}]
+		}
+		{
+			icon: "botania:orechid"
+			x: 4.0d
+			y: 5.5d
+			subtitle: "{university.orechid.subtitle}"
+			description: [
+				"{university.orechid.desc1}"
+				""
+				"{university.orechid.desc2}"
+				""
+				"{university.orechid.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["330F905928488CF7"]
+			id: "760BCAB205EC2910"
+			tasks: [
+				{
+					id: "1527D93D1DC5F726"
+					type: "item"
+					item: "botania:orechid"
+				}
+				{
+					id: "40E60F85C06313E6"
+					type: "item"
+					item: "botania:orechid_ignem"
+				}
+			]
+		}
+		{
+			title: "{university.corporea.title}"
+			icon: "botania:corporea_spark_master"
+			x: 6.5d
+			y: 2.0d
+			subtitle: "{university.corporea.subtitle}"
+			description: [
+				"{university.corporea.desc1}"
+				""
+				"{university.corporea.desc2}"
+				""
+				"{university.corporea.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["330F905928488CF7"]
+			min_width: 275
+			id: "3A7990D98945D59A"
+			tasks: [
+				{
+					id: "2EE0D91B077D6148"
+					type: "item"
+					item: "botania:corporea_spark"
+				}
+				{
+					id: "67DAAC575AF84E7F"
+					type: "item"
+					item: "botania:corporea_spark_master"
+				}
+			]
+		}
+		{
+			title: "{university.corpindex.title}"
+			x: 5.5d
+			y: 2.5d
+			subtitle: "{university.corpindex.subtitle}"
+			description: [
+				"{university.corpindex.desc1}"
+				""
+				"{university.corpindex.desc2}"
+				""
+				"{university.corpindex.desc3}"
+			]
+			dependencies: ["3A7990D98945D59A"]
+			id: "49C1D30A550E9A79"
+			tasks: [{
+				id: "66DC7E88636DC9CC"
+				type: "item"
+				item: "botania:corporea_index"
+			}]
+		}
+		{
+			title: "{university.corpcrystalcube.title}"
+			x: 7.5d
+			y: 2.5d
+			subtitle: "{university.corpcrystalcube.subtitle}"
+			description: [
+				"{university.corpcrystalcube.desc1}"
+				""
+				"{university.corpcrystalcube.desc2}"
+			]
+			dependencies: ["3A7990D98945D59A"]
+			id: "03FB9D1DD7E2D007"
+			tasks: [{
+				id: "1029FDA40E5F309F"
+				type: "item"
+				item: "botania:corporea_crystal_cube"
+			}]
+		}
+		{
+			title: "{university.corpfun.title}"
+			x: 6.5d
+			y: 3.0d
+			subtitle: "{university.corpfun.subtitle}"
+			description: [
+				"{university.corpfun.desc1}"
+				""
+				"{university.corpfun.desc2}"
+			]
+			dependencies: ["3A7990D98945D59A"]
+			min_width: 250
+			id: "0CC197CB49C4D9EA"
+			tasks: [{
+				id: "7CBADF0659ADF7AC"
+				type: "item"
+				item: "botania:corporea_funnel"
+			}]
+		}
+		{
+			title: "{university.corpinter.title}"
+			x: 6.5d
+			y: 4.0d
+			subtitle: "{university.corpinter.subtitle}"
+			description: [
+				"{university.corpinter.desc1}"
+				""
+				"{university.corpinter.desc2}"
+				""
+				"{university.corpinter.desc3}"
+				""
+				"{university.corpinter.desc4}"
+			]
+			dependencies: ["0CC197CB49C4D9EA"]
+			min_width: 300
+			id: "0922D7279A0DFFD9"
+			tasks: [{
+				id: "33D41974303FC721"
+				type: "item"
+				item: "botania:corporea_interceptor"
+			}]
+		}
+		{
+			title: "{university.corpret.title}"
+			x: 6.5d
+			y: 5.0d
+			subtitle: "{university.corpret.subtitle}"
+			description: [
+				"{university.corpret.desc1}"
+				""
+				"{university.corpret.desc2}"
+				""
+				"{university.corpret.desc3}"
+			]
+			dependencies: ["0922D7279A0DFFD9"]
+			min_width: 250
+			id: "107D66FA744299FD"
+			tasks: [{
+				id: "1303F9E71C3C26FF"
+				type: "item"
+				item: "botania:corporea_retainer"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			subtitle: "{university.luminizer.subtitle}"
+			description: [
+				"{university.luminizer.desc1}"
+				""
+				"{university.luminizer.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["330F905928488CF7"]
+			id: "5A14BF3CA6BB1D41"
+			tasks: [{
+				id: "29C224B48954C64C"
+				type: "item"
+				item: "botania:light_relay"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 2.75d
+			subtitle: "{university.detectlumin.subtitle}"
+			description: ["{university.detectlumin.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["5A14BF3CA6BB1D41"]
+			size: 0.5d
+			id: "0EF756616F31F0FC"
+			tasks: [{
+				id: "0FAC0DC64DDDC946"
+				type: "item"
+				item: "botania:detector_light_relay"
+			}]
+		}
+		{
+			x: 2.25d
+			y: 3.25d
+			subtitle: "{university.forklumin.subtitle}"
+			description: [
+				"{university.forklumin.desc1}"
+				""
+				"{university.forklumin.desc2}"
+				""
+				"{university.forklumin.desc3}"
+				""
+				"{image:ftbuniversity:textures/quests/fork_luminizer.png width:150 height:75 anchor:center}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5A14BF3CA6BB1D41"]
+			size: 0.5d
+			min_width: 250
+			id: "07C23E6DCFF3935A"
+			tasks: [{
+				id: "0E5BC41E5F2EBC89"
+				type: "item"
+				item: "botania:fork_light_relay"
+			}]
+			rewards: [{
+				id: "3CE906034CD33093"
+				type: "item"
+				item: "botania:animated_torch"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 2.75d
+			subtitle: "{university.togglelumin.subtitle}"
+			description: ["{university.togglelumin.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["5A14BF3CA6BB1D41"]
+			size: 0.5d
+			id: "3A983F70D0956150"
+			tasks: [{
+				id: "78D4005E6A6ED450"
+				type: "item"
+				item: "botania:toggle_light_relay"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 3.25d
+			subtitle: "{university.luminlauncher.subtitle}"
+			description: ["{university.luminlauncher.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["5A14BF3CA6BB1D41"]
+			size: 0.5d
+			id: "332A487DD937EB8E"
+			tasks: [{
+				id: "40BD8CA40AD0A8C7"
+				type: "item"
+				item: "botania:light_launcher"
+			}]
+		}
+		{
+			title: "{university.redstring.title}"
+			icon: "botania:red_string_container"
+			x: 2.5d
+			y: 4.5d
+			subtitle: "{university.redstring.subtitle}"
+			description: [
+				"{university.redstring.desc1}"
+				""
+				"{university.redstring.desc2}"
+				""
+				"{university.redstring.desc3}"
+				""
+				"{university.redstring.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["330F905928488CF7"]
+			min_width: 300
+			id: "7B10F85427C1509C"
+			tasks: [{
+				id: "32B6F5CE6D161626"
+				type: "item"
+				title: "{university.redstring.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "botania:red_string_container"
+								Count: 1b
+							}
+							{
+								id: "botania:red_string_dispenser"
+								Count: 1b
+							}
+							{
+								id: "botania:red_string_fertilizer"
+								Count: 1b
+							}
+							{
+								id: "botania:red_string_comparator"
+								Count: 1b
+							}
+							{
+								id: "botania:red_string_relay"
+								Count: 1b
+							}
+							{
+								id: "botania:red_string_interceptor"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "botania:lens_normal"
+				Count: 1b
+				tag: { }
+			}
+			x: 1.0d
+			y: 2.0d
+			subtitle: "{university.botlens.subtitle}"
+			description: [
+				"{university.botlens.desc1}"
+				""
+				"{university.botlens.desc2}"
+				""
+				"{university.botlens.desc3}"
+				""
+				"{university.botlens.desc4}"
+				""
+				"{university.botlens.desc5}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3DA4BCD346617418"]
+			min_width: 275
+			id: "75D383E3AB97FB0E"
+			tasks: [
+				{
+					id: "2BE7CD41BA2E12D6"
+					type: "item"
+					title: "{university.botlens.task}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "botania:lens"
+						}
+					}
+				}
+				{
+					id: "1F01C77FC42D7C4C"
+					type: "item"
+					item: "botania:redstone_spreader"
+				}
+			]
+		}
+		{
+			title: "{university.manablaster.title}"
+			x: 1.0d
+			y: 3.0d
+			subtitle: "{university.manablaster.subtitle}"
+			description: [
+				"{university.manablaster.desc1}"
+				""
+				"{university.manablaster.desc2}"
+			]
+			hide_dependency_lines: false
+			dependencies: ["75D383E3AB97FB0E"]
+			id: "7867FEF13971710B"
+			tasks: [{
+				id: "67FC8CEDB39DDD10"
+				type: "item"
+				item: {
+					id: "botania:mana_gun"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "084719B4659CBA98"
+				type: "item"
+				item: "botania:clip"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.75d
+			subtitle: "{university.manamirror.subtitle}"
+			description: [
+				"{university.manamirror.desc1}"
+				""
+				"{university.manamirror.desc2}"
+			]
+			dependencies: ["573506335875D44A"]
+			size: 0.5d
+			id: "7E94555C213505EC"
+			tasks: [{
+				id: "49096AE8C587DE64"
+				type: "item"
+				item: {
+					id: "botania:mana_mirror"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "{university.botaniacomplete.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 4.0d
+			y: -3.0d
+			subtitle: "{university.botaniacomplete.subtitle}"
+			description: [
+				"{university.botaniacomplete.desc1}"
+				""
+				"{university.botaniacomplete.desc2}"
+				""
+				"{university.botaniacomplete.desc3}"
+			]
+			dependencies: ["13A441DABDA1EDA3"]
+			hide: true
+			optional: true
+			min_width: 250
+			id: "1EA63CEBE3B2BD64"
+			tasks: [{
+				id: "3FCAF0283104201F"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "115A73051917CEB5"
+					type: "command"
+					title: "{university.botaniacomplete.tech}"
+					auto: "enabled"
+					command: "/ftbquests change_progress @p complete 7E2440768A61BF95"
+					player_command: false
+				}
+				{
+					id: "1335CB6CE1259AC2"
+					type: "command"
+					title: "Reset its first hidden quest"
+					auto: "invisible"
+					command: "/ftbquests change_progress reset @p 671BE00A3142DC67"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			subtitle: "{university.loonium.subtitle}"
+			description: ["{university.loonium.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["330F905928488CF7"]
+			id: "5D16A4AEF32E1B6A"
+			tasks: [{
+				id: "1F9FDA6F5341FD56"
+				type: "item"
+				item: "botania:loonium"
+			}]
+		}
+		{
+			title: "{university.introbotania.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -1.0d
+			y: 0.0d
+			subtitle: "{university.introbotania.subtitle}"
+			description: [
+				"{university.introbotania.desc1}"
+				""
+				"{university.introbotania.desc2}"
+				""
+				"{university.introbotania.desc3}"
+				""
+				"{university.introbotania.desc4}"
+			]
+			dependencies: ["08641FBF89A2F024"]
+			hide: true
+			optional: true
+			id: "5269A7EA886029B9"
+			tasks: [{
+				id: "14A5290A5CFB687F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "38A6CF0F609F68FA"
+				type: "choice"
+				table_id: 7966950192257974093L
+			}]
+		}
+		{
+			title: "{university.corporeaschool.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 6.5d
+			y: 1.25d
+			subtitle: "{university.corporeaschool.subtitle}"
+			description: [
+				"{university.corporeaschool.desc1}"
+				""
+				"{university.corporeaschool.desc2}"
+			]
+			dependencies: ["3A7990D98945D59A"]
+			size: 0.5d
+			optional: true
+			id: "40202E3AD8475498"
+			tasks: [{
+				id: "22BDC35843F4B703"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "737AC19C5A9882C1"
+				type: "command"
+				command: "/school enter ftbuniversity:botania/corporea"
+				player_command: true
+			}]
+		}
+		{
+			icon: "botania:brewery"
+			x: 1.0d
+			y: 4.5d
+			subtitle: "{university.botbrewery.subtitle}"
+			description: [
+				"{university.botbrewery.desc1}"
+				""
+				"{university.botbrewery.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3EE36AC411950009"]
+			id: "160FD7CA02751CDE"
+			tasks: [
+				{
+					id: "5CB416999D4B34AE"
+					type: "item"
+					item: "botania:brewery"
+				}
+				{
+					id: "55772B7D0C8331D9"
+					type: "item"
+					title: "{university.botbrewery.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "botania:brew_vial"
+									Count: 1b
+									tag: {
+										brewKey: "botania:speed"
+									}
+								}
+								{
+									id: "botania:brew_flask"
+									Count: 1b
+									tag: {
+										brewKey: "botania:speed"
+									}
+								}
+								{
+									id: "botania:incense_stick"
+									Count: 1b
+									tag: {
+										brewKey: "botania:speed"
+									}
+								}
+								{
+									id: "botania:blood_pendant"
+									Count: 1b
+									tag: {
+										brewKey: "botania:speed"
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "botania:crafty_crate"
+			x: 1.0d
+			y: 5.5d
+			subtitle: "{university.craftycrate.subtitle}"
+			description: [
+				"{university.craftycrate.desc1}"
+				""
+				"{university.craftycrate.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["330F905928488CF7"]
+			id: "0B75F2E44D47AB48"
+			tasks: [
+				{
+					id: "3345D6CEF52EF8D3"
+					type: "item"
+					item: "botania:crafty_crate"
+				}
+				{
+					id: "60517F1F2D2635F5"
+					type: "item"
+					title: "{university.craftycrate.task}"
+					item: {
+						id: "itemfilters:and"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "itemfilters:id_regex"
+									Count: 1b
+									tag: {
+										value: "botania:pattern"
+									}
+								}
+								{
+									id: "itemfilters:not"
+									Count: 1b
+									tag: {
+										items: [{
+											id: "itemfilters:or"
+											Count: 1b
+											tag: {
+												items: [
+													{
+														id: "botania:pattern_framed_dreamwood"
+														Count: 1b
+													}
+													{
+														id: "botania:pattern_framed_livingwood"
+														Count: 1b
+													}
+												]
+											}
+										}]
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.altarauto.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 4.0d
+			y: -0.75d
+			subtitle: "{university.altarauto.subtitle}"
+			description: [
+				"{university.altarauto.desc1}"
+				""
+				"{university.altarauto.desc2}"
+			]
+			dependencies: ["3EE36AC411950009"]
+			size: 0.5d
+			id: "307CA10FD51B07D9"
+			tasks: [{
+				id: "72FE901E1F1A18F8"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0EA106C90B0617C9"
+				type: "command"
+				command: "/school enter ftbuniversity:botania/altar_automation"
+				player_command: true
+			}]
+		}
+	]
+}

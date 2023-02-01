@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.dirt",
+  "colors": [
+    "3D2A1C",
+    "866043"
+  ],
+  "ingredient": {
+    "item": "compressium:dirt_2"
+  }
+}

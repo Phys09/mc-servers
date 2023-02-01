@@ -1,0 +1,304 @@
+{
+	id: "4AFCF5B89C514990"
+	group: ""
+	order_index: 4
+	filename: "hidden"
+	title: "{university.backgroundquests.chapter}"
+	icon: "minecraft:command_block"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 2.0d
+			subtitle: "You have chosen... poorly"
+			id: "61A1A789A88680B5"
+			tasks: [{
+				id: "320516140FEBB10B"
+				type: "gamestage"
+				stage: "Botania is tech"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			subtitle: "botania is a magic mod"
+			id: "2465FDBDE6975956"
+			tasks: [{
+				id: "1B0038E9513AF57D"
+				type: "gamestage"
+				stage: "Botania is magic"
+			}]
+		}
+		{
+			title: "Tech botania completed"
+			x: -0.5d
+			y: 3.0d
+			subtitle: "force completes magic botania"
+			dependencies: ["62E52BCCF5F195B8"]
+			id: "13A441DABDA1EDA3"
+			tasks: [{
+				id: "040E38AEE879DB51"
+				type: "stat"
+				stat: "minecraft:play_one_minute"
+				value: 1
+			}]
+		}
+		{
+			title: "Magic botania completed"
+			x: 0.5d
+			y: 3.0d
+			subtitle: "force completes tech botania"
+			dependencies: ["7E2440768A61BF95"]
+			id: "737C38672CC19E5A"
+			tasks: [{
+				id: "4986FFC4D62A67CA"
+				type: "stat"
+				stat: "minecraft:play_one_minute"
+				value: 1
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			subtitle: "Completed by first quest, reset by all botania Choose quests"
+			id: "08641FBF89A2F024"
+			tasks: [{
+				id: "5D5C236C33875A82"
+				type: "gamestage"
+				stage: "Hasn't chosen"
+			}]
+		}
+		{
+			title: "{university.steel.title}"
+			x: 2.5d
+			y: 1.0d
+			id: "02ADA705E4BD7F52"
+			tasks: [{
+				id: "6770CC0115500DF6"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			id: "43EF60D700E9D962"
+			tasks: [{
+				id: "2E8AB5A75A4DBF0C"
+				type: "item"
+				item: "immersivepetroleum:oil_bucket"
+			}]
+			rewards: [{
+				id: "1E045717F2CE7DCF"
+				type: "command"
+				auto: "invisible"
+				command: "/ftbquests change_progress @p complete 4E6CC663217D6136"
+				player_command: false
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			subtitle: "{university.magnetcard.subtitle}"
+			description: ["{university.magnetcard.desc1}"]
+			hide_dependency_lines: true
+			min_required_dependencies: 1
+			dependencies: [
+				"448444A8DBF576DA"
+				"70D4EBFD46C6A73F"
+			]
+			size: 0.5d
+			id: "31F077F06AA2F339"
+			tasks: [{
+				id: "24F03B36B63E6FAD"
+				type: "item"
+				item: "ae2wtlib:magnet_card"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			subtitle: "{university.infinitybooster.subtitle}"
+			description: ["{university.infinitybooster.desc}"]
+			hide_dependency_lines: true
+			min_required_dependencies: 1
+			dependencies: [
+				"448444A8DBF576DA"
+				"70D4EBFD46C6A73F"
+			]
+			size: 0.5d
+			id: "4B47304BA5F90AB5"
+			tasks: [{
+				id: "1FAD863B2A1CDF39"
+				type: "item"
+				item: "ae2wtlib:infinity_booster_card"
+			}]
+		}
+		{
+			x: -3.75d
+			y: 1.75d
+			subtitle: "{university.wct.subtitle}"
+			description: [
+				"{university.wct.desc1}"
+				""
+				"{university.wct.desc2}"
+				""
+				"{university.wct.desc3}"
+			]
+			dependencies: ["448C7D79A66DD627"]
+			id: "70D4EBFD46C6A73F"
+			tasks: [{
+				id: "20D3264BE57347FE"
+				type: "item"
+				item: {
+					id: "ae2wtlib:wireless_crafting_terminal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "{university.universalterm.title}"
+			x: -3.25d
+			y: 2.75d
+			subtitle: "{university.universalterm.subtitle}"
+			description: [
+				"{university.universalterm.desc1}"
+				""
+				"{university.universalterm.desc2}"
+				""
+				"{university.universalterm.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["448C7D79A66DD627"]
+			id: "448444A8DBF576DA"
+			tasks: [{
+				id: "57C04DD125373CC5"
+				type: "item"
+				item: {
+					id: "ae2wtlib:wireless_universal_terminal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "{university.wirelesspattern.title}"
+			icon: {
+				id: "ae2wtlib:wireless_pattern_terminal"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.75d
+			y: 1.75d
+			subtitle: "{university.wirelesspattern.subtitle}"
+			description: ["{university.wirelesspattern.desc}"]
+			dependencies: ["448C7D79A66DD627"]
+			id: "570B491F137D6E6D"
+			tasks: [{
+				id: "5A54AFCA93914324"
+				type: "item"
+				title: "{university.wirelesspattern.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ae2wtlib:wireless_pattern_terminal"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "ae2wtlib:wireless_interface_terminal"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "100% ars"
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["1445877460FA5676"]
+			id: "4167F254776856AD"
+			tasks: [{
+				id: "23C8B49E0FF67E41"
+				type: "stat"
+				stat: "minecraft:play_one_minute"
+				value: 1
+			}]
+			rewards: [{
+				id: "1D945778C723FB65"
+				type: "gamestage"
+				auto: "invisible"
+				stage: "ars_completed"
+			}]
+		}
+		{
+			title: "Chosen"
+			x: 0.5d
+			y: 1.0d
+			min_required_dependencies: 1
+			dependencies: [
+				"61A1A789A88680B5"
+				"2465FDBDE6975956"
+			]
+			id: "494FC6F802B13CDB"
+			tasks: [{
+				id: "1366B356BE5B241A"
+				type: "stat"
+				stat: "minecraft:play_one_minute"
+				value: 1
+			}]
+			rewards: [
+				{
+					id: "52E7F1B57E63B57C"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "Hasn't chosen"
+					remove: true
+				}
+				{
+					id: "067F20D1A71C0F63"
+					type: "command"
+					title: "reset tech botania intro"
+					command: "/ftbquests change_progress @p reset 5269A7EA886029B9"
+					player_command: false
+				}
+				{
+					id: "12B2C46B79559E5B"
+					type: "command"
+					title: "reset magic botania intro"
+					command: "/ftbquests change_progress @p reset 671BE00A3142DC67"
+					player_command: false
+				}
+				{
+					id: "21CB3D00171CE1B1"
+					type: "command"
+					title: "reset hasn't chosen"
+					command: "/ftbquests change_progress @p reset 08641FBF89A2F024"
+					player_command: false
+				}
+				{
+					id: "1F1475866185FD10"
+					type: "command"
+					title: "lock introductions reward"
+					command: "/ftbquests change_progress @p complete 4127315A86710331"
+					player_command: false
+				}
+			]
+		}
+	]
+}

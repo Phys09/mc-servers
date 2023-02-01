@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.cobblestone",
+  "colors": [
+    "373737",
+    "7C7C7C"
+  ],
+  "ingredient": {
+    "item": "compressium:cobblestone_4"
+  }
+}

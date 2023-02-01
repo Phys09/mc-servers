@@ -1,0 +1,19 @@
+{
+	id: "6E904AFD38C43F4D"
+	order_index: 0
+	title: "{university.introbotania.rewards}"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			auto: "invisible"
+			stage: "Botania is magic"
+			type: "gamestage"
+		}
+		{
+			auto: "invisible"
+			stage: "Botania is tech"
+			type: "gamestage"
+		}
+	]
+}

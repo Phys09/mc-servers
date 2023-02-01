@@ -1,0 +1,3062 @@
+{
+	id: "526AC11AFE34E30C"
+	group: "69993BF1AEC0E295"
+	order_index: 2
+	filename: "environmental_tech"
+	title: "{university.etech.chapter}"
+	icon: "envirotech:litherite_void_miner_ccu"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "envirocore:memory_programmer"
+			x: -0.5d
+			y: 0.0d
+			subtitle: "{university.memoryprogrammer.subtitle}"
+			description: [
+				"{university.memoryprogrammer.desc1}"
+				""
+				"{university.memoryprogrammer.desc2}"
+				""
+				"{university.memoryprogrammer.desc3}"
+				""
+				"{university.memoryprogrammer.desc4}"
+				""
+				"{university.memoryprogrammer.desc5}"
+				""
+				"{university.memoryprogrammer.desc6}"
+			]
+			min_width: 300
+			id: "5EA7A176EE16C55E"
+			tasks: [
+				{
+					id: "624AB768DA610246"
+					type: "item"
+					item: "envirocore:memory_programmer"
+				}
+				{
+					id: "1602C79E10E9060C"
+					type: "item"
+					item: "envirocore:flash_memory"
+				}
+			]
+			rewards: [{
+				id: "605183BE0D9063DB"
+				type: "item"
+				item: "envirocore:litherite_crystal"
+				count: 64
+			}]
+		}
+		{
+			icon: "envirotech:litherite_void_miner_ccu"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "{university.litheriteminer.subtitle}"
+			description: [
+				"{university.litheriteminer.desc1}"
+				""
+				"{university.litheriteminer.desc2}"
+				""
+				"{university.litheriteminer.desc3}"
+				""
+				"{university.litheriteminer.desc4}"
+			]
+			dependencies: [
+				"5EA7A176EE16C55E"
+				"3534A3C6DD0D11A0"
+				"601EC0EF2F4BF2CF"
+			]
+			min_width: 275
+			id: "4299E5F2982F2397"
+			tasks: [
+				{
+					id: "649764B1F1AD51BE"
+					type: "item"
+					item: "envirotech:litherite_void_miner_ccu"
+				}
+				{
+					id: "2E7347DCC84A5FF6"
+					type: "item"
+					title: "{university.etpanels.task}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "envirocore:structure/panels"
+						}
+					}
+					count: 18L
+				}
+				{
+					id: "5C18C750AF3065CD"
+					type: "item"
+					item: "envirocore:laser_core"
+					count: 2L
+				}
+				{
+					id: "59D39CDD33E3279E"
+					type: "item"
+					title: "{university.etioframe.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:litherite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:erodium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:kyronite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:pladium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:fe_input"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:item_output"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "067F87AAE55CDCEE"
+					type: "item"
+					item: "envirocore:laser_lens_holder"
+				}
+				{
+					id: "3C2081745B91C030"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:amplification_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:bandwidth_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:frequency_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:dimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:interdimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+							]
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "2355A92B8B51DEB5"
+					type: "item"
+					title: "{university.etframe.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:litherite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:erodium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:kyronite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:pladium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "144E7B9B21B1D8F8"
+				type: "item"
+				item: {
+					id: "envirocore:rgb_controller"
+					Count: 1b
+					tag: {
+						colors: {
+							0: -16711681
+							1: -16777216
+							light_level: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "envirotech:erodium_void_miner_ccu"
+			x: 2.0d
+			y: 0.0d
+			subtitle: "{university.erodiumminer.subtitle}"
+			description: [
+				"{university.erodiumminer.desc1}"
+				""
+				"{university.erodiumminer.desc2}"
+				""
+				"{university.erodiumminer.desc3}"
+			]
+			dependencies: ["4299E5F2982F2397"]
+			id: "0986991510F19746"
+			tasks: [
+				{
+					id: "3F73639BDF75F297"
+					type: "item"
+					item: "envirotech:erodium_void_miner_ccu"
+				}
+				{
+					id: "2EC222D327F32122"
+					type: "item"
+					title: "{university.etpanels.task}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "envirocore:structure/panels"
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "594B1F17EE2F0DD8"
+					type: "item"
+					item: "envirocore:laser_core"
+					count: 3L
+				}
+				{
+					id: "03B161B73D5BB623"
+					type: "item"
+					item: "envirocore:laser_lens_holder"
+				}
+				{
+					id: "5B04FBB5F194E039"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:amplification_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:bandwidth_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:frequency_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:dimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:interdimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "0EFF16EE33AE234C"
+					type: "item"
+					title: "{university.etioframe.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:erodium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:kyronite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:pladium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:fe_input"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:item_output"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "663A4D84821ADFC9"
+					type: "item"
+					title: "{university.etframe.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:erodium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:kyronite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:pladium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 28L
+				}
+			]
+		}
+		{
+			icon: "envirotech:kyronite_void_miner_ccu"
+			x: 3.0d
+			y: 0.0d
+			subtitle: "{university.kyroniteminer.subtitle}"
+			description: ["{university.kyroniteminer.desc}"]
+			dependencies: ["0986991510F19746"]
+			id: "42803D2BAA032417"
+			tasks: [
+				{
+					id: "3B4568BD068440A8"
+					type: "item"
+					item: "envirotech:kyronite_void_miner_ccu"
+				}
+				{
+					id: "1DEC9C17E35D9894"
+					type: "item"
+					title: "{university.etioframe.task3}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:kyronite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:pladium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:fe_input"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:item_output"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "52AB2797F70650C0"
+					type: "item"
+					title: "{university.etpanels.task}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "envirocore:structure/panels"
+						}
+					}
+					count: 36L
+				}
+				{
+					id: "6802634E5C829777"
+					type: "item"
+					item: "envirocore:laser_core"
+					count: 4L
+				}
+				{
+					id: "3807F9504613A256"
+					type: "item"
+					title: "{university.etframe.task3}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:kyronite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:pladium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 44L
+				}
+				{
+					id: "1667734FC4A6D63D"
+					type: "item"
+					item: "envirocore:laser_lens_holder"
+				}
+				{
+					id: "434E53532880B24C"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:amplification_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:bandwidth_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:frequency_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:dimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:interdimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+							]
+						}
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			icon: "envirotech:pladium_void_miner_ccu"
+			x: 4.0d
+			y: 0.0d
+			subtitle: "{university.pladiumminer.subtitle}"
+			description: ["{university.pladiumminer.desc}"]
+			dependencies: ["42803D2BAA032417"]
+			id: "31BA7C8ABCCCEE9C"
+			tasks: [
+				{
+					id: "724C35BBCCD90EE1"
+					type: "item"
+					item: "envirotech:pladium_void_miner_ccu"
+				}
+				{
+					id: "09BB3C63691C143D"
+					type: "item"
+					title: "{university.etframe.task4}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:pladium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 52L
+				}
+				{
+					id: "69C29728D3994E7D"
+					type: "item"
+					title: "{university.etpanels.task}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "envirocore:structure/panels"
+						}
+					}
+					count: 56L
+				}
+				{
+					id: "44AD95B31E878826"
+					type: "item"
+					item: "envirocore:laser_core"
+					count: 5L
+				}
+				{
+					id: "0126DDD87C088049"
+					type: "item"
+					title: "{university.etioframe.task4}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:pladium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:fe_input"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:item_output"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "61D55AEAE904A0B1"
+					type: "item"
+					item: "envirocore:laser_lens_holder"
+				}
+				{
+					id: "56DC6A9ECCB0F781"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:amplification_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:bandwidth_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:frequency_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:dimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:interdimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+							]
+						}
+					}
+					count: 12L
+				}
+			]
+		}
+		{
+			icon: "envirotech:ionite_void_miner_ccu"
+			x: 5.0d
+			y: 0.0d
+			subtitle: "{university.ioniteminer.subtitle}"
+			description: ["{university.ioniteminer.desc}"]
+			dependencies: ["31BA7C8ABCCCEE9C"]
+			id: "46BBB3CD278253FB"
+			tasks: [
+				{
+					id: "6A14EA201A321215"
+					type: "item"
+					item: "envirotech:ionite_void_miner_ccu"
+				}
+				{
+					id: "62808F277F5E1072"
+					type: "item"
+					title: "{university.etpanels.task}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "envirocore:structure/panels"
+						}
+					}
+					count: 36L
+				}
+				{
+					id: "5F6F458EF50C5B28"
+					type: "item"
+					item: "envirocore:laser_core"
+					count: 6L
+				}
+				{
+					id: "45AE5073C7E81B87"
+					type: "item"
+					title: "{university.etframe.task5}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 68L
+				}
+				{
+					id: "72B93116B8A5DDE8"
+					type: "item"
+					title: "{university.etioframe.task5}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:fe_input"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:item_output"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "1F3568D26D4B9CA9"
+					type: "item"
+					item: "envirocore:laser_lens_holder"
+				}
+				{
+					id: "2F9F149D26D87981"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:amplification_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:bandwidth_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:frequency_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:dimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:interdimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+							]
+						}
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			icon: "envirotech:aethium_void_miner_ccu"
+			x: 6.0d
+			y: 0.0d
+			subtitle: "{university.aethiumminer.subtitle}"
+			description: ["{university.aethiumminer.desc}"]
+			dependencies: ["46BBB3CD278253FB"]
+			id: "60D5962E4BDF6466"
+			tasks: [
+				{
+					id: "5E27AF1EE3B96AE2"
+					type: "item"
+					item: "envirotech:aethium_void_miner_ccu"
+				}
+				{
+					id: "657D9DC40F03E8A0"
+					type: "item"
+					title: "{university.etframe.task6}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 88L
+				}
+				{
+					id: "19763057EBFBD188"
+					type: "item"
+					title: "{university.etpanels.task}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "envirocore:structure/panels"
+						}
+					}
+					count: 56L
+				}
+				{
+					id: "49C7FF1E2B29DEBC"
+					type: "item"
+					item: "envirocore:laser_core"
+					count: 6L
+				}
+				{
+					id: "4F7886DD0DAFAA35"
+					type: "item"
+					title: "{university.etioframe.task6}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:fe_input"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:item_output"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "35C4EE1101A4FC1C"
+					type: "item"
+					item: "envirocore:laser_lens_holder"
+				}
+				{
+					id: "749777C5C2BA1A41"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:amplification_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:bandwidth_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:frequency_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:dimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:interdimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+							]
+						}
+					}
+					count: 20L
+				}
+			]
+		}
+		{
+			icon: "envirotech:nanorite_void_miner_ccu"
+			x: 7.0d
+			y: 0.0d
+			subtitle: "{university.nanoriteminer.subtitle}"
+			description: ["{university.nanoriteminer.desc}"]
+			dependencies: ["60D5962E4BDF6466"]
+			id: "72ABC406094B9015"
+			tasks: [
+				{
+					id: "436D7788E305A1B4"
+					type: "item"
+					item: "envirotech:nanorite_void_miner_ccu"
+				}
+				{
+					id: "3C33BA65E7714512"
+					type: "item"
+					title: "{university.etpanels.task}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "envirocore:structure/panels"
+						}
+					}
+					count: 56L
+				}
+				{
+					id: "4BB7A5715D63824E"
+					type: "item"
+					item: "envirocore:laser_core"
+					count: 7L
+				}
+				{
+					id: "5C96E8B9E669D1D0"
+					type: "item"
+					item: "envirocore:laser_lens_holder"
+				}
+				{
+					id: "67DB61508AF0BF6A"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:amplification_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:bandwidth_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:frequency_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:dimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:interdimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+							]
+						}
+					}
+					count: 20L
+				}
+				{
+					id: "00FB7888614741AA"
+					type: "item"
+					title: "{university.etframe.task7}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 92L
+				}
+				{
+					id: "14317A50A6BC43D7"
+					type: "item"
+					title: "{university.etioframe.task7}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:fe_input"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:item_output"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+			]
+		}
+		{
+			icon: "envirotech:xerothium_void_miner_ccu"
+			x: 8.0d
+			y: 0.0d
+			subtitle: "{university.xerothiumminer.subtitle}"
+			description: ["{university.xerothiumminer.desc}"]
+			dependencies: ["72ABC406094B9015"]
+			id: "617E7AE93BA63378"
+			tasks: [
+				{
+					id: "28EC5C7952BEE093"
+					type: "item"
+					item: "envirotech:xerothium_void_miner_ccu"
+				}
+				{
+					id: "3253C5FCAFA80A75"
+					type: "item"
+					title: "{university.etpanels.task}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "envirocore:structure/panels"
+						}
+					}
+					count: 88L
+				}
+				{
+					id: "6E75E39A1F9E065D"
+					type: "item"
+					item: "envirocore:laser_core"
+					count: 7L
+				}
+				{
+					id: "524F380C3923E560"
+					type: "item"
+					item: "envirocore:laser_lens_holder"
+				}
+				{
+					id: "77A4A616E8D8CD92"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:amplification_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:bandwidth_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:frequency_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:dimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:interdimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+							]
+						}
+					}
+					count: 20L
+				}
+				{
+					id: "043B3CAC4057CC3A"
+					type: "item"
+					title: "{university.etioframe.task8}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:fe_input"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:item_output"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "68717C44F8154929"
+					type: "item"
+					title: "{university.etframe.task8}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [{
+								id: "envirocore:xerothium_frame"
+								Count: 1b
+							}]
+						}
+					}
+					count: 100L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			subtitle: "{university.etassembler.subtitle}"
+			description: [
+				"{university.etassembler.desc1}"
+				""
+				"{university.etassembler.desc2}"
+				""
+				"{university.etassembler.desc3}"
+			]
+			id: "3534A3C6DD0D11A0"
+			tasks: [{
+				id: "5F5ADCC53993E55E"
+				type: "item"
+				item: "envirocore:assembler"
+			}]
+		}
+		{
+			title: "{university.etio.title}"
+			icon: {
+				id: "envirocore:null_modifier"
+				Count: 1b
+				tag: {
+					attributes: { }
+				}
+			}
+			x: 1.0d
+			y: 1.5d
+			subtitle: "{university.etio.subtitle}"
+			description: [
+				"{university.etio.desc1}"
+				""
+				"{university.etio.desc2}"
+				""
+				"{university.etio.desc3}"
+			]
+			id: "601EC0EF2F4BF2CF"
+			tasks: [
+				{
+					id: "1A7DBB74A6B7C2FC"
+					type: "item"
+					title: "{university.etio.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:amplification_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:bandwidth_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:frequency_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:radiant_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:thermal_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:piezo_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:electrostatic_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:dimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+								{
+									id: "envirocore:interdimensional_modifier"
+									Count: 1b
+									tag: {
+										attributes: { }
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "48C19401DAF22A52"
+					type: "item"
+					title: "{university.etio.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:fe_input"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:fe_output"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:item_output"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:litherite_solar_cell"
+			x: 2.5d
+			y: -1.5d
+			subtitle: "{university.esolar1.subtitle}"
+			description: [
+				"{university.esolar1.desc1}"
+				""
+				"{university.esolar1.desc2}"
+				""
+				"{university.esolar1.desc3}"
+			]
+			dependencies: ["4299E5F2982F2397"]
+			id: "672D74047643ADFF"
+			tasks: [
+				{
+					id: "53D3BACDD3B42783"
+					type: "item"
+					item: "enviroenergy:litherite_solar_ccu"
+				}
+				{
+					id: "1137B364199D9FC1"
+					type: "item"
+					title: "{university.etframe.task1}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "envir.*frame"
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "338136F57BBC7B45"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:piezo_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "179BD17FC8EAF38A"
+					type: "item"
+					title: "{university.esolar.task}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "envi.*cell"
+						}
+					}
+					count: 9L
+				}
+				{
+					id: "5B7B5628C115EA5B"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:erodium_solar_cell"
+			x: 3.5d
+			y: -1.5d
+			subtitle: "{university.esolar2.subtitle}"
+			description: ["{university.esolar2.desc}"]
+			dependencies: [
+				"0986991510F19746"
+				"672D74047643ADFF"
+			]
+			id: "3ED496F9BA25D6E0"
+			tasks: [
+				{
+					id: "7689A31033F448BB"
+					type: "item"
+					item: "enviroenergy:erodium_solar_ccu"
+				}
+				{
+					id: "2BCA5AA897352494"
+					type: "item"
+					title: "{university.etframe.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:erodium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:kyronite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:pladium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 24L
+				}
+				{
+					id: "70F92C74E6E68E43"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:piezo_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "6AD4097E60CC288E"
+					type: "item"
+					title: "{university.esolar.task}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "envi.*cell"
+						}
+					}
+					count: 25L
+				}
+				{
+					id: "62EFE7961CDF3C56"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:kyronite_solar_cell"
+			x: 4.5d
+			y: -1.5d
+			subtitle: "{university.esolar3.subtitle}"
+			description: ["{university.esolar3.desc}"]
+			dependencies: [
+				"42803D2BAA032417"
+				"3ED496F9BA25D6E0"
+			]
+			id: "7CFDF65C328B07E7"
+			tasks: [
+				{
+					id: "697857CA9FC0F5AB"
+					type: "item"
+					item: "enviroenergy:kyronite_solar_ccu"
+				}
+				{
+					id: "77F3DBEF428B199B"
+					type: "item"
+					title: "{university.etframe.task3}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:kyronite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:pladium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 32L
+				}
+				{
+					id: "4E8A730DFEECDFE1"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:piezo_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "10C967DD56BE3006"
+					type: "item"
+					title: "{university.esolar.task}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "envi.*cell"
+						}
+					}
+					count: 49L
+				}
+				{
+					id: "1F0664B0F352DDF0"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:pladium_solar_cell"
+			x: 5.5d
+			y: -1.5d
+			subtitle: "{university.solar4.subtitle}"
+			description: ["{university.solar4.desc}"]
+			dependencies: [
+				"31BA7C8ABCCCEE9C"
+				"7CFDF65C328B07E7"
+			]
+			id: "161443F8483AAB9C"
+			tasks: [
+				{
+					id: "4AC849913EB6FAF2"
+					type: "item"
+					item: "enviroenergy:pladium_solar_ccu"
+				}
+				{
+					id: "1426A373B1D22484"
+					type: "item"
+					title: "{university.etframe.task4}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:pladium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 40L
+				}
+				{
+					id: "364803D558035D01"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:piezo_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "4A314BA0B01E8F38"
+					type: "item"
+					title: "{university.esolar.task}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "envi.*cell"
+						}
+					}
+					count: 81L
+				}
+				{
+					id: "7BB53052D22DF4CA"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:ionite_solar_cell"
+			x: 6.5d
+			y: -1.5d
+			subtitle: "{university.solar5.subtitle}"
+			description: ["{university.solar5.desc}"]
+			dependencies: [
+				"46BBB3CD278253FB"
+				"161443F8483AAB9C"
+			]
+			id: "359BB61074C7972A"
+			tasks: [
+				{
+					id: "0F62EB8F533EB1C7"
+					type: "item"
+					item: "enviroenergy:ionite_solar_ccu"
+				}
+				{
+					id: "614BDF18F9AB9F13"
+					type: "item"
+					title: "{university.etframe.task5}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 48L
+				}
+				{
+					id: "1CB6E7A00539D983"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:piezo_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 12L
+				}
+				{
+					id: "5EF0A263BD81CAE3"
+					type: "item"
+					title: "{university.esolar.task}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "envi.*cell"
+						}
+					}
+					count: 121L
+				}
+				{
+					id: "62B94D4C78D0D44D"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:aethium_solar_cell"
+			x: 7.5d
+			y: -1.5d
+			subtitle: "{university.solar6.subtitle}"
+			description: ["{university.solar6.desc}"]
+			dependencies: [
+				"60D5962E4BDF6466"
+				"359BB61074C7972A"
+			]
+			id: "6268D4A935826A80"
+			tasks: [
+				{
+					id: "4DD5D63E87CC1BBA"
+					type: "item"
+					item: "enviroenergy:aethium_solar_ccu"
+				}
+				{
+					id: "06E6DCC58482FCD9"
+					type: "item"
+					title: "{university.etframe.task6}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 56L
+				}
+				{
+					id: "6E670E45460527B9"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:piezo_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 12L
+				}
+				{
+					id: "322B1686F4179B84"
+					type: "item"
+					title: "{university.esolar.task}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "envi.*cell"
+						}
+					}
+					count: 169L
+				}
+				{
+					id: "7F95907224860A8E"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:nanorite_solar_cell"
+			x: 8.5d
+			y: -1.5d
+			subtitle: "{university.solar7.subtitle}"
+			description: ["{university.solar7.desc}"]
+			dependencies: [
+				"72ABC406094B9015"
+				"6268D4A935826A80"
+			]
+			id: "5947C5C318E391B0"
+			tasks: [
+				{
+					id: "2ACB0B611DE05A74"
+					type: "item"
+					item: "enviroenergy:nanorite_solar_ccu"
+				}
+				{
+					id: "79F0C0CCC66C2B4E"
+					type: "item"
+					title: "{university.etframe.task7}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 64L
+				}
+				{
+					id: "26354D0D8C71C89E"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:piezo_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "0AFE4B9FABC773F9"
+					type: "item"
+					title: "{university.esolar.task}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "envi.*cell"
+						}
+					}
+					count: 225L
+				}
+				{
+					id: "3A76DD486494E709"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:xerothium_solar_cell"
+			x: 9.5d
+			y: -1.5d
+			subtitle: "{university.solar8.subtitle}"
+			description: ["{university.solar8.desc}"]
+			dependencies: [
+				"617E7AE93BA63378"
+				"5947C5C318E391B0"
+			]
+			id: "305F623FD08C5834"
+			tasks: [
+				{
+					id: "1C56D89D06ED7C7D"
+					type: "item"
+					item: "enviroenergy:xerothium_solar_ccu"
+				}
+				{
+					id: "6D763534D39486B8"
+					type: "item"
+					item: "envirocore:xerothium_frame"
+					count: 72L
+				}
+				{
+					id: "4AA0D35F25493415"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:piezo_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 16L
+				}
+				{
+					id: "010492BA725480ED"
+					type: "item"
+					title: "{university.esolar.task}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "envi.*cell"
+						}
+					}
+					count: 289L
+				}
+				{
+					id: "4E7C0FAF521A2C23"
+					type: "item"
+					item: {
+						id: "envirocore:fe_output"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:litherite_lightning_ccu"
+			x: 2.5d
+			y: 1.5d
+			subtitle: "{university.lightning1.subtitle}"
+			description: [
+				"{university.lightning1.desc1}"
+				""
+				"{university.lightning1.desc2}"
+				""
+				"{university.lightning1.desc3}"
+				""
+				"{university.lightning1.desc4}"
+			]
+			dependencies: ["4299E5F2982F2397"]
+			min_width: 250
+			id: "0D0CAB5B7EB21621"
+			tasks: [
+				{
+					id: "34EF983FB72F76E3"
+					type: "item"
+					item: "enviroenergy:litherite_lightning_ccu"
+				}
+				{
+					id: "6717073A1BFA92FE"
+					type: "item"
+					title: "{university.etframe.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:litherite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:erodium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:kyronite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:pladium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "0DD2181BD9375AA0"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:electrostatic_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "6DAEC016111FFC41"
+					type: "item"
+					item: "enviroenergy:insulated_lightning_rod"
+					count: 3L
+				}
+				{
+					id: "668BCDAFDED52CA6"
+					type: "item"
+					item: "enviroenergy:lightning_rod"
+					count: 3L
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:erodium_lightning_ccu"
+			x: 3.5d
+			y: 1.5d
+			subtitle: "{university.lightning2.subtitle}"
+			description: ["{university.lightning2.desc}"]
+			dependencies: [
+				"0986991510F19746"
+				"0D0CAB5B7EB21621"
+			]
+			id: "634FFA59C760306B"
+			tasks: [
+				{
+					id: "1B4547830F177AED"
+					type: "item"
+					item: "enviroenergy:erodium_lightning_ccu"
+				}
+				{
+					id: "6D0B91ADBA268311"
+					type: "item"
+					title: "{university.etframe.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:erodium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:kyronite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:pladium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "4FA20CA6C83DFAF5"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:electrostatic_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "4AF8E260049258CC"
+					type: "item"
+					item: "enviroenergy:insulated_lightning_rod"
+					count: 4L
+				}
+				{
+					id: "7E5CB36028DDCA8E"
+					type: "item"
+					item: "enviroenergy:lightning_rod"
+					count: 5L
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:kyronite_lightning_ccu"
+			x: 4.5d
+			y: 1.5d
+			subtitle: "{university.lightning3.subtitle}"
+			description: ["{university.lightning3.desc}"]
+			dependencies: [
+				"42803D2BAA032417"
+				"634FFA59C760306B"
+			]
+			id: "480F6DC4DE1C71DC"
+			tasks: [
+				{
+					id: "56482BFFBFA6D2BA"
+					type: "item"
+					item: "enviroenergy:kyronite_lightning_ccu"
+				}
+				{
+					id: "1FE202E9EE3E9A91"
+					type: "item"
+					title: "{university.etframe.task3}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:kyronite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:pladium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 9L
+				}
+				{
+					id: "42D3E2AFA7E4F481"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:electrostatic_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "6A756C76F6A0A368"
+					type: "item"
+					item: "enviroenergy:insulated_lightning_rod"
+					count: 16L
+				}
+				{
+					id: "7D04D9CACB4B46DE"
+					type: "item"
+					item: "enviroenergy:lightning_rod"
+					count: 4L
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:pladium_lightning_ccu"
+			x: 5.5d
+			y: 1.5d
+			subtitle: "{university.lightning4.subtitle}"
+			description: ["{university.lightning4.desc}"]
+			dependencies: [
+				"31BA7C8ABCCCEE9C"
+				"480F6DC4DE1C71DC"
+			]
+			id: "556B9E0CF0A1AE73"
+			tasks: [
+				{
+					id: "34030A1CF220C1B8"
+					type: "item"
+					item: "enviroenergy:pladium_lightning_ccu"
+				}
+				{
+					id: "51513C3A7D855615"
+					type: "item"
+					title: "{university.etframe.task4}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:pladium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 9L
+				}
+				{
+					id: "58EF980779BABE5C"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:electrostatic_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "2CEC437FE85F06FD"
+					type: "item"
+					item: "enviroenergy:insulated_lightning_rod"
+					count: 21L
+				}
+				{
+					id: "677E3BC147BEC2A1"
+					type: "item"
+					item: "enviroenergy:lightning_rod"
+					count: 5L
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:ionite_lightning_ccu"
+			x: 6.5d
+			y: 1.5d
+			subtitle: "{university.lightning5.subtitle}"
+			description: ["{university.lightning5.desc}"]
+			dependencies: [
+				"46BBB3CD278253FB"
+				"556B9E0CF0A1AE73"
+			]
+			id: "1BF7549C9746AC83"
+			tasks: [
+				{
+					id: "6F0848960C640C55"
+					type: "item"
+					item: "enviroenergy:ionite_lightning_ccu"
+				}
+				{
+					id: "4F0A44983123A1FC"
+					type: "item"
+					title: "{university.etframe.task5}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:ionite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 9L
+				}
+				{
+					id: "5DA0F723BF16CCFF"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:electrostatic_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "63E9CE808D5756D9"
+					type: "item"
+					item: "enviroenergy:insulated_lightning_rod"
+					count: 26L
+				}
+				{
+					id: "068D241FACD1407A"
+					type: "item"
+					item: "enviroenergy:lightning_rod"
+					count: 6L
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:aethium_lightning_ccu"
+			x: 7.5d
+			y: 1.5d
+			subtitle: "{university.lightning6.subtitle}"
+			description: ["{university.lightning6.desc}"]
+			dependencies: [
+				"60D5962E4BDF6466"
+				"1BF7549C9746AC83"
+			]
+			id: "33F32A9A5FA1BFEC"
+			tasks: [
+				{
+					id: "06A0BF9ABE26411D"
+					type: "item"
+					item: "enviroenergy:aethium_lightning_ccu"
+				}
+				{
+					id: "5B8C2929AE157F39"
+					type: "item"
+					title: "{university.etframe.task6}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:aethium_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 9L
+				}
+				{
+					id: "46A1719BCFCA30E9"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:electrostatic_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 3L
+				}
+				{
+					id: "16A2FFB94BD1492B"
+					type: "item"
+					item: "enviroenergy:insulated_lightning_rod"
+					count: 31L
+				}
+				{
+					id: "03CF8AA7AE8F6E3E"
+					type: "item"
+					item: "enviroenergy:lightning_rod"
+					count: 7L
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:nanorite_lightning_ccu"
+			x: 8.5d
+			y: 1.5d
+			subtitle: "{university.lightning7.subtitle}"
+			dependencies: [
+				"72ABC406094B9015"
+				"33F32A9A5FA1BFEC"
+			]
+			id: "168B0B33577790C2"
+			tasks: [
+				{
+					id: "23A0BE269D308C2B"
+					type: "item"
+					item: "enviroenergy:nanorite_lightning_ccu"
+				}
+				{
+					id: "28E89546D1E25A84"
+					type: "item"
+					title: "{university.etframe.task7}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:nanorite_frame"
+									Count: 1b
+								}
+								{
+									id: "envirocore:xerothium_frame"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 34L
+				}
+				{
+					id: "4F7621BB81852B0F"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:electrostatic_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "6CFF91373B83B1E3"
+					type: "item"
+					item: "enviroenergy:insulated_lightning_rod"
+					count: 55L
+				}
+				{
+					id: "0E82FA5DB7CFCA31"
+					type: "item"
+					item: "enviroenergy:lightning_rod"
+					count: 7L
+				}
+				{
+					id: "44675871D371DBAD"
+					type: "item"
+					title: "{university.etpanels.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:structure_panel"
+									Count: 1b
+								}
+								{
+									id: "envirocore:clear_structure_panel"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 3L
+				}
+			]
+		}
+		{
+			icon: "enviroenergy:xerothium_lightning_ccu"
+			x: 9.5d
+			y: 1.5d
+			subtitle: "{university.lightning8.subtitle}"
+			description: ["{university.lightning8.desc}"]
+			dependencies: [
+				"168B0B33577790C2"
+				"617E7AE93BA63378"
+			]
+			id: "61F534E94C35F7B0"
+			tasks: [
+				{
+					id: "646B06DF22A37F5E"
+					type: "item"
+					item: "enviroenergy:xerothium_lightning_ccu"
+				}
+				{
+					id: "33B0BC21870F12F0"
+					type: "item"
+					item: "envirocore:xerothium_frame"
+					count: 34L
+				}
+				{
+					id: "0533858987212BAB"
+					type: "item"
+					title: "{university.etmods.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:null_modifier"
+									Count: 1b
+									tag: { }
+								}
+								{
+									id: "envirocore:electrostatic_modifier"
+									Count: 1b
+									tag: { }
+								}
+							]
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "7A8EA27BFD812696"
+					type: "item"
+					item: "enviroenergy:insulated_lightning_rod"
+					count: 68L
+				}
+				{
+					id: "3B746BA8D0E41829"
+					type: "item"
+					item: "enviroenergy:lightning_rod"
+					count: 7L
+				}
+				{
+					id: "75B45D2FE45D3203"
+					type: "item"
+					title: "{university.etpanels.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "envirocore:structure_panel"
+									Count: 1b
+								}
+								{
+									id: "envirocore:clear_structure_panel"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 3L
+				}
+			]
+		}
+	]
+}

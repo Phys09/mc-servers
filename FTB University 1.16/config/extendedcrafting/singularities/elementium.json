@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.elementium",
+  "colors": [
+    "F395C9",
+    "E6007F"
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/elementium"
+  }
+}

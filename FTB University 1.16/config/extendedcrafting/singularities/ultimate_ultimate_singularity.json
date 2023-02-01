@@ -1,0 +1,12 @@
+{
+  "name": "singularity.extendedcrafting.ultimate_ultimate",
+  "colors": [
+    "FFFFFF",
+    "000000"
+  ],
+  "ingredient": {
+    "item": "extendedcrafting:ultimate_singularity"
+  },
+  "materialCount": 100,
+  "inUltimateSingularity": false
+}

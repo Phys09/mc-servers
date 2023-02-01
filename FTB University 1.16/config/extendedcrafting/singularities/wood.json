@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.wood",
+  "colors": [
+    "947340",
+    "B6925E"
+  ],
+  "ingredient": {
+    "tag": "minecraft:logs"
+  }
+}

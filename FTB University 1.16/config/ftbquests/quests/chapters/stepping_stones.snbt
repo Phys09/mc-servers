@@ -1,0 +1,1103 @@
+{
+	id: "432AEC3C983FF843"
+	group: ""
+	order_index: 3
+	filename: "stepping_stones"
+	title: "{university.steppingstones.chapter}"
+	icon: "minecraft:grass_path"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{university.stepstones.title}"
+			icon: "minecraft:grass_path"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "{university.stepstones.subtitle}"
+			description: [
+				"{university.stepstones.desc1}"
+				""
+				"{university.stepstones.desc2}"
+			]
+			id: "604A7020FEAA5B3D"
+			tasks: [{
+				id: "56BF34F39C2913AB"
+				type: "stat"
+				stat: "minecraft:play_one_minute"
+				value: 6000
+			}]
+		}
+		{
+			title: "{university.earlyearlygame.title}"
+			icon: {
+				id: "minecraft:stone_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 4.5d
+			subtitle: "{university.earlyearlygame.subtitle}"
+			description: ["{university.earlyearlygame.desc}"]
+			dependencies: ["604A7020FEAA5B3D"]
+			id: "5A43C3E7B7BDC42C"
+			tasks: [{
+				id: "4BCE99135C8566AA"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.manualoredoubling.title}"
+			disable_toast: true
+			x: 1.0d
+			y: 4.5d
+			subtitle: "{university.manualoredoubling.subtitle}"
+			description: ["{university.manualoredoubling.desc}"]
+			dependencies: ["5A43C3E7B7BDC42C"]
+			id: "19CA0BC6FBB87C8B"
+			tasks: [{
+				id: "4DBA1DE2C1A4A339"
+				type: "item"
+				title: "{university.manualoredoubling.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "appliedenergistics2:grindstone"
+								Count: 1b
+							}
+							{
+								id: "create:millstone"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:squeezer"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			disable_toast: true
+			x: -1.0d
+			y: 4.5d
+			subtitle: "{university.simpletinkerstools.subtitle}"
+			description: [
+				"{university.simpletinkerstools.desc1}"
+				""
+				"{university.simpletinkerstools.desc2}"
+			]
+			dependencies: ["5A43C3E7B7BDC42C"]
+			id: "30EF0CA796011B9E"
+			tasks: [{
+				id: "7E708B60AE7CA671"
+				type: "item"
+				title: "{university.simpletinkerstools.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:pickaxe"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:attack_speed": 1.2f
+										"tconstruct:mining_speed": 2.0f
+										"tconstruct:attack_damage": 0.0f
+										"tconstruct:harvest_level": 0.0f
+										"tconstruct:durability": 60.0f
+									}
+									tic_broken: 0b
+									tic_modifiers: [
+										{
+											name: "tconstruct:cultivated"
+											level: 3s
+										}
+										{
+											name: "tconstruct:piercing"
+											level: 1s
+										}
+									]
+									tic_materials: [
+										"tconstruct:wood"
+										"tconstruct:wood"
+										"tconstruct:wood"
+									]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}
+							{
+								id: "tconstruct:hand_axe"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:attack_speed": 0.9f
+										"tconstruct:mining_speed": 2.0f
+										"tconstruct:attack_damage": 6.0f
+										"tconstruct:harvest_level": 0.0f
+										"tconstruct:durability": 60.0f
+									}
+									tic_broken: 0b
+									tic_modifiers: [
+										{
+											name: "tconstruct:cultivated"
+											level: 3s
+										}
+										{
+											name: "tconstruct:axe_transform_hidden"
+											level: 1s
+										}
+									]
+									tic_materials: [
+										"tconstruct:wood"
+										"tconstruct:wood"
+										"tconstruct:wood"
+									]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}
+							{
+								id: "tconstruct:mattock"
+								Count: 1b
+								tag: {
+									tic_multipliers: { }
+									tic_stats: {
+										"tconstruct:attack_speed": 1.0f
+										"tconstruct:mining_speed": 2.0f
+										"tconstruct:attack_damage": 1.5f
+										"tconstruct:harvest_level": 0.0f
+										"tconstruct:durability": 60.0f
+									}
+									tic_broken: 0b
+									tic_modifiers: [
+										{
+											name: "tconstruct:cultivated"
+											level: 3s
+										}
+										{
+											name: "tconstruct:knockback"
+											level: 1s
+										}
+										{
+											name: "tconstruct:shovel_transform_hidden"
+											level: 1s
+										}
+									]
+									tic_materials: [
+										"tconstruct:wood"
+										"tconstruct:wood"
+										"tconstruct:wood"
+									]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}
+							{
+								id: "tconstruct:sword"
+								Count: 1b
+								tag: {
+									tic_multipliers: {
+										"tconstruct:mining_speed": 0.5f
+										"tconstruct:durability": 1.1f
+									}
+									tic_stats: {
+										"tconstruct:attack_speed": 1.6f
+										"tconstruct:mining_speed": 1.0f
+										"tconstruct:attack_damage": 3.0f
+										"tconstruct:harvest_level": 0.0f
+										"tconstruct:durability": 66.0f
+									}
+									tic_broken: 0b
+									tic_modifiers: [
+										{
+											name: "tconstruct:cultivated"
+											level: 3s
+										}
+										{
+											name: "tconstruct:silky_shears"
+											level: 1s
+										}
+									]
+									tic_materials: [
+										"tconstruct:wood"
+										"tconstruct:wood"
+										"tconstruct:wood"
+									]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}
+							{
+								id: "tconstruct:dagger"
+								Count: 1b
+								tag: {
+									tic_multipliers: {
+										"tconstruct:mining_speed": 0.75f
+										"tconstruct:attack_damage": 0.5f
+										"tconstruct:durability": 1.0f
+									}
+									tic_stats: {
+										"tconstruct:attack_speed": 2.0f
+										"tconstruct:mining_speed": 1.5f
+										"tconstruct:attack_damage": 1.0f
+										"tconstruct:harvest_level": 0.0f
+										"tconstruct:durability": 45.0f
+									}
+									tic_broken: 0b
+									tic_modifiers: [
+										{
+											name: "tconstruct:cultivated"
+											level: 2s
+										}
+										{
+											name: "tconstruct:padded"
+											level: 1s
+										}
+										{
+											name: "tconstruct:offhand_attack"
+											level: 1s
+										}
+										{
+											name: "tconstruct:silky_shears"
+											level: 1s
+										}
+									]
+									tic_materials: [
+										"tconstruct:wood"
+										"tconstruct:wood"
+									]
+									Damage: 0
+									tic_volatile_data: {
+										"tconstruct:duel_wielding": 1b
+									}
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}
+							{
+								id: "tconstruct:kama"
+								Count: 1b
+								tag: {
+									tic_multipliers: {
+										"tconstruct:attack_damage": 0.75f
+									}
+									tic_stats: {
+										"tconstruct:attack_speed": 1.8f
+										"tconstruct:mining_speed": 2.0f
+										"tconstruct:attack_damage": 0.75f
+										"tconstruct:harvest_level": 0.0f
+										"tconstruct:durability": 60.0f
+									}
+									tic_broken: 0b
+									tic_modifiers: [
+										{
+											name: "tconstruct:cultivated"
+											level: 3s
+										}
+										{
+											name: "tconstruct:shears"
+											level: 1s
+										}
+										{
+											name: "tconstruct:harvest"
+											level: 1s
+										}
+										{
+											name: "tconstruct:hoe_transform_hidden"
+											level: 1s
+										}
+									]
+									tic_materials: [
+										"tconstruct:wood"
+										"tconstruct:wood"
+										"tconstruct:wood"
+									]
+									Damage: 0
+									tic_persistent_data: {
+										abilities: 1
+										upgrades: 3
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.earlygame.title}"
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 6.0d
+			subtitle: "{university.earlygame.subtitle}"
+			description: ["{university.earlygame.desc}"]
+			dependencies: ["5A43C3E7B7BDC42C"]
+			id: "3C10532EA83F0E70"
+			tasks: [{
+				id: "426EB57A196916CF"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.earlystorage.title}"
+			disable_toast: true
+			x: 2.0d
+			y: 4.5d
+			subtitle: "{university.earlystorage.subtitle}"
+			description: ["{university.earlystorage.desc}"]
+			dependencies: ["5A43C3E7B7BDC42C"]
+			id: "0FB5D2D54AC0DEDD"
+			tasks: [{
+				id: "3D91CD0E4BB2B1AB"
+				type: "item"
+				title: "{university.earlystorage.subtitle}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:iron_chest"
+								Count: 1b
+							}
+							{
+								id: "krate:krate_big"
+								Count: 1b
+							}
+							{
+								id: "storagedrawers:oak_full_drawers_1"
+								Count: 1b
+							}
+							{
+								id: "dankstorage:dank_1"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			disable_toast: true
+			x: 1.0d
+			y: 6.0d
+			subtitle: "{university.earlygenerators.subtitle}"
+			description: ["{university.earlygenerators.desc}"]
+			dependencies: ["3C10532EA83F0E70"]
+			id: "42BC54919ED07589"
+			tasks: [{
+				id: "64EE5423FE358214"
+				type: "item"
+				title: "{university.earlygenerators.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "rftoolspower:coalgenerator"
+								Count: 1b
+							}
+							{
+								id: "mekanismgenerators:heat_generator"
+								Count: 1b
+							}
+							{
+								id: "integrateddynamics:coal_generator"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.earlyars.title}"
+			disable_toast: true
+			x: -2.0d
+			y: 6.0d
+			subtitle: "{university.earlyars.subtitle}"
+			description: ["{university.earlyars.desc}"]
+			dependencies: ["3C10532EA83F0E70"]
+			id: "68FBE43F0E8E1D2A"
+			tasks: [
+				{
+					id: "1C661663E7982EF9"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_spell_book"
+						Count: 1b
+						tag: {
+							mode: 0
+							spells: ",touch,harm,break,self,projectile"
+						}
+					}
+				}
+				{
+					id: "6FC653135E4C8735"
+					type: "item"
+					title: "{university.earlyars.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "ars_nouveau:mana_condenser"
+									Count: 1b
+								}
+								{
+									id: "ars_nouveau:volcanic_accumulator"
+									Count: 1b
+								}
+								{
+									id: "ars_nouveau:alchemical_sourcelink"
+									Count: 1b
+								}
+								{
+									id: "ars_nouveau:vitalic_sourcelink"
+									Count: 1b
+								}
+								{
+									id: "ars_nouveau:mycelial_sourcelink"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "3F4F79DB349FEDD6"
+					type: "item"
+					title: "{university.earlyars.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "ars_nouveau:glyph_light"
+									Count: 1b
+								}
+								{
+									id: "ars_nouveau:glyph_break"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.metaltinkers.title}"
+			disable_toast: true
+			x: -1.0d
+			y: 6.0d
+			subtitle: "{university.metaltinkers.subtitle}"
+			description: ["{university.metaltinkers.desc}"]
+			dependencies: ["3C10532EA83F0E70"]
+			id: "7B4D1F74748BF651"
+			tasks: [
+				{
+					id: "60A0A5B5FB3A99CC"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "468E6D86A54FA0F1"
+					type: "item"
+					item: "tconstruct:pickaxe_head_cast"
+				}
+			]
+		}
+		{
+			title: "{university.earlymidgame.title}"
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 7.5d
+			subtitle: "{university.earlymidgame.subtitle}"
+			description: ["{university.earlymidgame.desc}"]
+			dependencies: ["3C10532EA83F0E70"]
+			id: "4DCDF67C5391F4B5"
+			tasks: [{
+				id: "617C7124102594BC"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.midstorage.title}"
+			disable_toast: true
+			x: -1.0d
+			y: 7.5d
+			subtitle: "{university.midstorage.subtitle}"
+			description: ["{university.midstorage.desc}"]
+			dependencies: ["4DCDF67C5391F4B5"]
+			id: "04FECDD43E23F3BE"
+			tasks: [{
+				id: "47198BF2A3E1AC61"
+				type: "item"
+				title: "{university.midstorage.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "integratedtunnels:part_interface_item"
+								Count: 1b
+							}
+							{
+								id: "integratedterminals:part_terminal_storage"
+								Count: 1b
+							}
+							{
+								id: "rftoolsstorage:storage_scanner"
+								Count: 1b
+							}
+							{
+								id: "rftoolsstorage:modular_storage"
+								Count: 1b
+							}
+							{
+								id: "rftoolsstorage:storage_module0"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.earlyoreproc.title}"
+			disable_toast: true
+			x: 2.0d
+			y: 6.0d
+			subtitle: "{university.earlyoreproc.subtitle}"
+			description: ["{university.earlyoreproc.desc}"]
+			dependencies: ["3C10532EA83F0E70"]
+			id: "2B21392EABCA355B"
+			tasks: [
+				{
+					id: "1BC6800CB59BB15A"
+					type: "item"
+					title: "{university.earlyoreproc.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:enrichment_chamber"
+									Count: 1b
+								}
+								{
+									id: "create:crushing_wheel"
+									Count: 1b
+								}
+								{
+									id: "immersiveengineering:crusher"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "3881E70B2843A8B3"
+					type: "item"
+					title: "{university.earlyoreproc.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:energized_smelter"
+									Count: 1b
+								}
+								{
+									id: "create:encased_fan"
+									Count: 1b
+								}
+								{
+									id: "immersiveengineering:furnace_heater"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.midcrops.title}"
+			disable_toast: true
+			x: 1.0d
+			y: 7.5d
+			subtitle: "{university.midcrops.subtitle}"
+			description: ["{university.midcrops.desc}"]
+			dependencies: ["4DCDF67C5391F4B5"]
+			id: "44315800811D2E56"
+			tasks: [{
+				id: "06BEB0524B6C0AFC"
+				type: "item"
+				title: "{university.midcrops.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "create:mechanical_harvester"
+								Count: 1b
+							}
+							{
+								id: "immersiveengineering:cloche"
+								Count: 1b
+							}
+							{
+								id: "ars_nouveau:sylph_charm"
+								Count: 1b
+							}
+							{
+								id: "pneumaticcraft:harvesting_drone"
+								Count: 1b
+							}
+							{
+								id: "botania:agricarnation"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			disable_toast: true
+			x: -2.0d
+			y: 7.5d
+			subtitle: "{university.midquarries.subtitle}"
+			description: ["{university.midquarries.desc}"]
+			dependencies: ["4DCDF67C5391F4B5"]
+			id: "17119E086353B065"
+			tasks: [{
+				id: "76CA64B76773D628"
+				type: "item"
+				title: "{university.midquarries.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mekanism:digital_miner"
+								Count: 1b
+							}
+							{
+								id: "rftoolsbuilder:shape_card_quarry"
+								Count: 1b
+							}
+							{
+								id: "envirotech:litherite_void_miner_ccu"
+								Count: 1b
+							}
+							{
+								id: "botania:orechid"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.midgame.title}"
+			icon: {
+				id: "mekanism:atomic_disassembler"
+				Count: 1b
+				tag: {
+					HideFlags: 2
+				}
+			}
+			x: 0.0d
+			y: 9.0d
+			subtitle: "{university.midgame.subtitle}"
+			description: ["{university.midgame.desc}"]
+			dependencies: ["4DCDF67C5391F4B5"]
+			id: "03B06758ABF737A4"
+			tasks: [{
+				id: "3F2ED7B6A592675B"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.ae2milestone.title}"
+			disable_toast: true
+			x: 1.0d
+			y: 9.0d
+			subtitle: "{university.ae2milestone.subtitle}"
+			description: ["{university.ae2milestone.desc}"]
+			dependencies: ["03B06758ABF737A4"]
+			id: "4352C33D2057D949"
+			tasks: [{
+				id: "67C64228C00CE001"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 9.0d
+			subtitle: "{university.pneumarmmilestone.subtitle}"
+			description: ["{university.pneumarmmilestone.desc}"]
+			dependencies: ["03B06758ABF737A4"]
+			id: "05D4D573A5AD3DE4"
+			tasks: [{
+				id: "0CBADDE22C626800"
+				type: "item"
+				title: "{university.pneumarmmilestone.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "botania:terrasteel_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "botania:terrasteel_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "botania:terrasteel_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "botania:terrasteel_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "botania:ancient_will_guthan"
+								Count: 1b
+							}
+							{
+								id: "pneumaticcraft:pneumatic_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "pneumaticcraft:pneumatic_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "pneumaticcraft:pneumatic_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "pneumaticcraft:pneumatic_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "pneumaticcraft:jet_boots_upgrade_5"
+								Count: 1b
+							}
+							{
+								id: "bloodmagic:livinghelmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "bloodmagic:livingplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+									livingStats: {
+										maxPoints: 100
+										upgrades: [ ]
+									}
+								}
+							}
+							{
+								id: "bloodmagic:livingleggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "bloodmagic:livingboots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "bloodmagic:upgradetome"
+								Count: 1b
+								tag: {
+									livingStats: {
+										maxPoints: 0
+										upgrades: [{
+											exp: 15000.0d
+											key: "bloodmagic:physical_protect"
+										}]
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 9.0d
+			subtitle: "{university.midgamecomforts.subtitle}"
+			description: ["{university.midgamecomforts.desc}"]
+			dependencies: ["03B06758ABF737A4"]
+			id: "631C21B7860143A0"
+			tasks: [{
+				id: "633868CA4AC21936"
+				type: "item"
+				title: "{university.midgamecomforts.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "rftoolsutility:environmental_controller"
+								Count: 1b
+							}
+							{
+								id: "rftoolsutility:matter_transmitter"
+								Count: 1b
+							}
+							{
+								id: "rftoolsutility:matter_receiver"
+								Count: 1b
+							}
+							{
+								id: "rftoolsutility:charged_porter"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "pneumaticcraft:aerial_interface"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.midmobs.title}"
+			x: 2.0d
+			y: 7.5d
+			subtitle: "{university.midmobs.subtitle}"
+			description: ["{university.midmobs.desc}"]
+			dependencies: ["4DCDF67C5391F4B5"]
+			id: "50052AF25333E497"
+			tasks: [
+				{
+					id: "7D02517965C7A734"
+					type: "item"
+					title: "{university.midmobs.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "cursedearth:cursed_earth"
+									Count: 1b
+								}
+								{
+									id: "pneumaticcraft:pressurized_spawner"
+									Count: 1b
+								}
+								{
+									id: "rftoolsutility:spawner"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "4A7305D560E1FBA6"
+					type: "item"
+					title: "{university.midmobs.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "botania:hyacidus"
+									Count: 1b
+								}
+								{
+									id: "botania:bellethorn"
+									Count: 1b
+								}
+								{
+									id: "ars_nouveau:drygmy_charm"
+									Count: 1b
+								}
+								{
+									id: "immersiveengineering:turret_gun"
+									Count: 1b
+								}
+								{
+									id: "rftoolsbuilder:shield_block4"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 10.5d
+			id: "173B5A9EBF194668"
+			tasks: [{
+				id: "23C4ABAB87B8E210"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.5d
+			id: "65D40250726A2781"
+			tasks: [{
+				id: "388C0E0B616E4B72"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "envirotech:ionite_void_miner_ccu"
+								Count: 1b
+							}
+							{
+								id: "enviroenergy:ionite_solar_ccu"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 9.0d
+			dependencies: ["03B06758ABF737A4"]
+			id: "29FD38312B20B037"
+			tasks: [{
+				id: "278E05F8B488CFF3"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "envirotech:kyronite_void_miner_ccu"
+								Count: 1b
+							}
+							{
+								id: "enviroenergy:kyronite_solar_ccu"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 9.0d
+			dependencies: ["03B06758ABF737A4"]
+			id: "110C43CCBB11D20D"
+			tasks: [{
+				id: "43CC9B6DD3596D4F"
+				type: "item"
+				item: "woot:heart"
+			}]
+		}
+	]
+}

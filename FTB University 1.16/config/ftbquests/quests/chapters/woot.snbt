@@ -1,0 +1,1048 @@
+{
+	id: "621BCED9CD4FC8E9"
+	group: "69993BF1AEC0E295"
+	order_index: 7
+	filename: "woot"
+	title: "{university.woot.chapter}"
+	icon: {
+		id: "patchouli:guide_book"
+		Count: 1b
+		tag: {
+			"patchouli:book": "woot:wootguide"
+		}
+	}
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{university.wootguide.subtitle}"
+			description: ["{university.wootguide.desc}"]
+			id: "7A058F9213523A91"
+			tasks: [{
+				id: "6D5B3FD91C8AC66A"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "woot:wootguide"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			subtitle: "{university.layoutguide.subtitle}"
+			description: [
+				"{university.layoutguide.desc1}"
+				""
+				"{university.layoutguide.desc2}"
+				""
+				"{university.layoutguide.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["57C85C62D0BC87D6"]
+			optional: true
+			id: "49BE08DBD7B00793"
+			tasks: [{
+				id: "2152108AD81B091C"
+				type: "item"
+				item: "woot:layout"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			subtitle: "{university.intern.subtitle}"
+			description: [
+				"{university.intern.desc1}"
+				""
+				"{university.intern.desc2}"
+			]
+			dependencies: ["57C85C62D0BC87D6"]
+			id: "7AAD2AD12E6C7D0F"
+			tasks: [{
+				id: "386A2CEEB2A79094"
+				type: "item"
+				item: {
+					id: "woot:intern"
+					Count: 1b
+					tag: {
+						mode: "BUILD_1"
+					}
+				}
+			}]
+		}
+		{
+			icon: "woot:anvil"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "{university.stygian.subtitle}"
+			description: [
+				"{university.stygian.desc1}"
+				""
+				"{university.stygian.desc2}"
+			]
+			dependencies: ["7A058F9213523A91"]
+			id: "57739B931704A641"
+			tasks: [
+				{
+					id: "1EEAADE795080BEA"
+					type: "item"
+					item: "woot:anvil"
+				}
+				{
+					id: "26F982B12E801139"
+					type: "item"
+					item: "woot:hammer"
+				}
+			]
+			rewards: [{
+				id: "0D61DBD938290393"
+				type: "item"
+				item: "woot:si_ingot"
+				count: 16
+			}]
+		}
+		{
+			title: "{university.mobshard.title}"
+			icon: {
+				id: "woot:mobshard"
+				Count: 1b
+				tag: { }
+			}
+			x: 3.0d
+			y: 0.0d
+			subtitle: "{university.mobshard.subtitle}"
+			description: [
+				"{university.mobshard.desc1}"
+				""
+				"{university.mobshard.desc2}"
+				""
+				"{university.mobshard.desc3}"
+			]
+			dependencies: ["57739B931704A641"]
+			id: "05FB8E22FA71809F"
+			tasks: [
+				{
+					id: "69F330280A24AB36"
+					type: "item"
+					item: {
+						id: "woot:mobshard"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "59590B6F6C5E4565"
+					type: "item"
+					item: "woot:controller"
+				}
+			]
+			rewards: [{
+				id: "75BAD37AD9238C4E"
+				type: "item"
+				item: "woot:xpshard"
+				count: 16
+			}]
+		}
+		{
+			icon: "woot:infuser"
+			x: 1.5d
+			y: 2.5d
+			subtitle: "{university.injectpress.subtitle}"
+			description: [
+				"{university.injectpress.desc1}"
+				""
+				"{university.injectpress.desc2}"
+				""
+				"{university.injectpress.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["57739B931704A641"]
+			id: "729DDE7199D88C7F"
+			tasks: [
+				{
+					id: "0B74134DAA93C7CE"
+					type: "item"
+					item: "woot:infuser"
+				}
+				{
+					id: "65FDAE99DA255205"
+					type: "item"
+					item: "woot:squeezer"
+				}
+			]
+		}
+		{
+			title: "{university.wootfactory.title}"
+			icon: "woot:heart"
+			x: 3.0d
+			y: 2.0d
+			subtitle: "{university.wootfactory.subtitle}"
+			description: [
+				"{university.wootfactory.desc1}"
+				""
+				"{university.wootfactory.desc2}"
+				""
+				"{university.wootfactory.desc3}"
+				""
+				"{university.wootfactory.desc4}"
+				""
+				"{university.wootfactory.desc5}"
+				""
+				"{university.wootfactory.desc6}"
+				""
+				"{university.wootfactory.desc7}"
+			]
+			dependencies: [
+				"729DDE7199D88C7F"
+				"05FB8E22FA71809F"
+				"240B13872994E3CB"
+			]
+			min_width: 350
+			id: "57C85C62D0BC87D6"
+			tasks: [
+				{
+					id: "50CFF658A3C28999"
+					type: "item"
+					item: "woot:heart"
+				}
+				{
+					id: "35D627EBA78EA76B"
+					type: "item"
+					item: "woot:factory_upgrade"
+				}
+				{
+					id: "5676CD3CFCEA14BE"
+					type: "item"
+					item: "woot:factory_a"
+					count: 2L
+				}
+				{
+					id: "347B021E62C94056"
+					type: "item"
+					item: "woot:factory_connect"
+					count: 2L
+				}
+				{
+					id: "72CEA37F8062931F"
+					type: "item"
+					item: "woot:import"
+				}
+				{
+					id: "575281B3C1553EE4"
+					type: "item"
+					item: "woot:export"
+				}
+				{
+					id: "6EE036ECEC327658"
+					type: "item"
+					title: "{university.wootfactory.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "woot:cell_1"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_2"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_3"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_4"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "514D9E2301035405"
+					type: "item"
+					item: "woot:factory_ctr_base_pri"
+				}
+				{
+					id: "18614407484DE704"
+					type: "item"
+					item: "woot:controller"
+				}
+			]
+		}
+		{
+			icon: "woot:fluidconvertor"
+			x: 1.5d
+			y: 1.5d
+			subtitle: "{university.conatus.subtitle}"
+			description: [
+				"{university.conatus.desc1}"
+				""
+				"{university.conatus.desc2}"
+				""
+				"{university.conatus.desc3}"
+			]
+			dependencies: ["57739B931704A641"]
+			id: "240B13872994E3CB"
+			tasks: [{
+				id: "6FA920A6633790BD"
+				type: "item"
+				item: "woot:fluidconvertor"
+			}]
+			rewards: [{
+				id: "6BB5C1D617DE7F79"
+				type: "item"
+				item: "woot:conatus_fluid_bucket"
+				count: 4
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			subtitle: "{university.deesoracle.subtitle}"
+			description: [
+				"{university.deesoracle.desc1}"
+				""
+				"{university.deesoracle.desc2}"
+				""
+				"{university.deesoracle.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["57C85C62D0BC87D6"]
+			id: "0C7AE544B6F33A07"
+			tasks: [{
+				id: "179E2AFC75EB8C7D"
+				type: "item"
+				item: "woot:oracle"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			subtitle: "{university.enchantliq.subtitle}"
+			description: [
+				"{university.enchantliq.desc1}"
+				""
+				"{university.enchantliq.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["57739B931704A641"]
+			id: "2D4040F1B14BB54D"
+			tasks: [{
+				id: "02B214341EE71A83"
+				type: "item"
+				item: "woot:enchsqueezer"
+			}]
+		}
+		{
+			icon: "woot:factory_upgrade"
+			x: 5.5d
+			y: 2.0d
+			subtitle: "{university.wootperks.subtitle}"
+			description: [
+				"{university.wootperks.desc1}"
+				""
+				"{university.wootperks.desc2}"
+				""
+				"{university.wootperks.desc3}"
+				""
+				"{university.wootperks.desc4}"
+				""
+				"{university.wootperks.desc5}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["57C85C62D0BC87D6"]
+			min_width: 250
+			id: "63BF2180445C6D87"
+			tasks: [{
+				id: "2C2F12330359DD1E"
+				type: "item"
+				title: "{university.wootperks.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "woot:efficiency_1"
+								Count: 1b
+							}
+							{
+								id: "woot:efficiency_2"
+								Count: 1b
+							}
+							{
+								id: "woot:efficiency_3"
+								Count: 1b
+							}
+							{
+								id: "woot:looting_1"
+								Count: 1b
+							}
+							{
+								id: "woot:looting_2"
+								Count: 1b
+							}
+							{
+								id: "woot:looting_3"
+								Count: 1b
+							}
+							{
+								id: "woot:mass_1"
+								Count: 1b
+							}
+							{
+								id: "woot:mass_2"
+								Count: 1b
+							}
+							{
+								id: "woot:mass_3"
+								Count: 1b
+							}
+							{
+								id: "woot:rate_1"
+								Count: 1b
+							}
+							{
+								id: "woot:rate_2"
+								Count: 1b
+							}
+							{
+								id: "woot:rate_3"
+								Count: 1b
+							}
+							{
+								id: "woot:tier_shard_1"
+								Count: 1b
+							}
+							{
+								id: "woot:tier_shard_2"
+								Count: 1b
+							}
+							{
+								id: "woot:tier_shard_3"
+								Count: 1b
+							}
+							{
+								id: "woot:xp_1"
+								Count: 1b
+							}
+							{
+								id: "woot:xp_2"
+								Count: 1b
+							}
+							{
+								id: "woot:xp_3"
+								Count: 1b
+							}
+							{
+								id: "woot:headless_1"
+								Count: 1b
+							}
+							{
+								id: "woot:headless_2"
+								Count: 1b
+							}
+							{
+								id: "woot:headless_3"
+								Count: 1b
+							}
+							{
+								id: "woot:flayed_1"
+								Count: 1b
+							}
+							{
+								id: "woot:flayed_2"
+								Count: 1b
+							}
+							{
+								id: "woot:flayed_3"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.woot2.title}"
+			icon: "woot:cap_a"
+			x: 3.0d
+			y: 3.0d
+			subtitle: "{university.woot2.subtitle}"
+			description: [
+				"{university.woot2.desc1}"
+				""
+				"{university.woot2.desc2}"
+				""
+				"{university.woot2.desc3}"
+				""
+				"{university.woot2.desc4}"
+			]
+			dependencies: ["57C85C62D0BC87D6"]
+			min_width: 250
+			id: "5884BC8C16C61E34"
+			tasks: [
+				{
+					id: "2497DD2B1CD9ABF0"
+					type: "item"
+					item: "woot:factory_b"
+					count: 17L
+				}
+				{
+					id: "2C4AB600DA9E5B51"
+					type: "item"
+					item: "woot:factory_connect"
+					count: 11L
+				}
+				{
+					id: "5897D6866ADB6987"
+					type: "item"
+					item: "woot:factory_a"
+					count: 10L
+				}
+				{
+					id: "42E66088B648E3EC"
+					type: "item"
+					item: "woot:cap_a"
+					count: 4L
+				}
+				{
+					id: "79A8AA35F0907B89"
+					type: "item"
+					item: {
+						id: "woot:controller"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Mob: {
+									keyTag: ""
+									keyEntity: "minecraft:sheep"
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "0D3AC3F959743BBE"
+					type: "item"
+					item: "woot:factory_upgrade"
+					count: 4L
+				}
+				{
+					id: "5B9DFE35515E59C8"
+					type: "item"
+					item: "woot:factory_ctr_base_sec"
+					count: 3L
+				}
+				{
+					id: "6F382C4F2FE4324E"
+					type: "item"
+					item: "woot:import"
+				}
+				{
+					id: "1EE064A432B3FF92"
+					type: "item"
+					item: "woot:heart"
+				}
+				{
+					id: "340A96A3C5A195FB"
+					type: "item"
+					item: "woot:export"
+				}
+				{
+					id: "3862CC3776B49E48"
+					type: "item"
+					item: "woot:factory_ctr_base_pri"
+				}
+				{
+					id: "553ECFCAD1275EDF"
+					type: "item"
+					title: "{university.wootfactory.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "woot:cell_1"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_2"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_3"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_4"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.woot3.title}"
+			icon: "woot:cap_b"
+			x: 3.0d
+			y: 4.0d
+			subtitle: "{university.woot3.subtitle}"
+			description: [
+				"{university.woot3.desc1}"
+				""
+				"{university.woot3.desc2}"
+			]
+			dependencies: ["5884BC8C16C61E34"]
+			id: "252BED3108BD9AD3"
+			tasks: [
+				{
+					id: "6E25C660C6BCA45F"
+					type: "item"
+					item: "woot:factory_c"
+					count: 24L
+				}
+				{
+					id: "377B619829B28D81"
+					type: "item"
+					item: "woot:factory_b"
+					count: 17L
+				}
+				{
+					id: "5FA56384E5208EC4"
+					type: "item"
+					item: "woot:factory_connect"
+					count: 11L
+				}
+				{
+					id: "456DDFCB2607BE35"
+					type: "item"
+					item: "woot:factory_a"
+					count: 10L
+				}
+				{
+					id: "234B20FD6B654487"
+					type: "item"
+					item: "woot:cap_b"
+					count: 8L
+				}
+				{
+					id: "419619F7ED9BD483"
+					type: "item"
+					item: "woot:cap_a"
+					count: 4L
+				}
+				{
+					id: "4968DC0BC1142CD1"
+					type: "item"
+					item: "woot:factory_upgrade"
+					count: 4L
+				}
+				{
+					id: "40D45DF7790DC9B6"
+					type: "item"
+					item: "woot:factory_ctr_base_sec"
+					count: 3L
+				}
+				{
+					id: "6350CF80B26CECF3"
+					type: "item"
+					item: "woot:import"
+				}
+				{
+					id: "143D4FC45035A99E"
+					type: "item"
+					item: "woot:export"
+				}
+				{
+					id: "484E066F9F946C12"
+					type: "item"
+					item: "woot:factory_ctr_base_pri"
+				}
+				{
+					id: "1C41935D2CF45688"
+					type: "item"
+					item: {
+						id: "woot:controller"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Mob: {
+									keyTag: ""
+									keyEntity: "minecraft:sheep"
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "30F610DDDB0D0DE1"
+					type: "item"
+					item: "woot:heart"
+				}
+				{
+					id: "0682BE8C3C6726E3"
+					type: "item"
+					title: "{university.wootfactory.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "woot:cell_1"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_2"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_3"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_4"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.woot4.title}"
+			icon: { id: "woot:cap_c", Count: 4b }
+			x: 3.0d
+			y: 5.0d
+			subtitle: "{university.woot4.subtitle}"
+			description: [
+				"{university.woot4.desc1}"
+				""
+				"{university.woot4.desc2}"
+			]
+			dependencies: ["252BED3108BD9AD3"]
+			id: "33956B3A2AE965BA"
+			tasks: [
+				{
+					id: "3EDF61B0A131C24E"
+					type: "item"
+					item: "woot:factory_c"
+					count: 24L
+				}
+				{
+					id: "6E53329EF4BD7AB3"
+					type: "item"
+					item: "woot:factory_b"
+					count: 17L
+				}
+				{
+					id: "6CD62F62E3C635CC"
+					type: "item"
+					item: "woot:factory_connect"
+					count: 11L
+				}
+				{
+					id: "61ECC5583E0FBDA1"
+					type: "item"
+					item: "woot:factory_a"
+					count: 10L
+				}
+				{
+					id: "52E0DC226365090A"
+					type: "item"
+					item: "woot:cap_b"
+					count: 8L
+				}
+				{
+					id: "5213BAEA0EA0E94E"
+					type: "item"
+					item: "woot:factory_d"
+					count: 8L
+				}
+				{
+					id: "36D2B693464F8F78"
+					type: "item"
+					item: "woot:cap_c"
+					count: 4L
+				}
+				{
+					id: "3BC0D9B1B8E61F03"
+					type: "item"
+					item: "woot:cap_a"
+					count: 4L
+				}
+				{
+					id: "71F22F4750AE6D12"
+					type: "item"
+					item: "woot:factory_upgrade"
+					count: 4L
+				}
+				{
+					id: "07A9BDB38945837D"
+					type: "item"
+					item: "woot:factory_ctr_base_sec"
+					count: 3L
+				}
+				{
+					id: "3AE765CDA103125B"
+					type: "item"
+					item: "woot:import"
+				}
+				{
+					id: "014BD6487B9C7E7D"
+					type: "item"
+					item: "woot:export"
+				}
+				{
+					id: "16BC9E161216D2A2"
+					type: "item"
+					item: "woot:factory_ctr_base_pri"
+				}
+				{
+					id: "77B2FAD18B2EE287"
+					type: "item"
+					item: {
+						id: "woot:controller"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Mob: {
+									keyTag: ""
+									keyEntity: "minecraft:sheep"
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "0DB3EAC89A4BAE0E"
+					type: "item"
+					item: "woot:heart"
+				}
+				{
+					id: "0F1DEC54B161A876"
+					type: "item"
+					title: "{university.wootfactory.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "woot:cell_1"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_2"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_3"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_4"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.woot5.title}"
+			icon: { id: "woot:cap_d", Count: 8b }
+			x: 3.0d
+			y: 6.0d
+			subtitle: "{university.woot5.subtitle}"
+			description: [
+				"{university.woot5.desc1}"
+				""
+				"{university.woot5.desc2}"
+			]
+			dependencies: ["33956B3A2AE965BA"]
+			id: "005D2B3656C82F17"
+			tasks: [
+				{
+					id: "40F8FBACE5EA8EEC"
+					type: "item"
+					item: "woot:factory_c"
+					count: 24L
+				}
+				{
+					id: "205976A47078AAC5"
+					type: "item"
+					item: "woot:factory_b"
+					count: 17L
+				}
+				{
+					id: "5803FF2DB5BDC9DA"
+					type: "item"
+					item: "woot:factory_connect"
+					count: 11L
+				}
+				{
+					id: "39ADAA838736D5A5"
+					type: "item"
+					item: "woot:factory_a"
+					count: 10L
+				}
+				{
+					id: "552B3852035DED9F"
+					type: "item"
+					item: "woot:cap_d"
+					count: 8L
+				}
+				{
+					id: "37EFF842A97705AB"
+					type: "item"
+					item: "woot:cap_b"
+					count: 8L
+				}
+				{
+					id: "14CD0D7B1C1DC569"
+					type: "item"
+					item: "woot:factory_e"
+					count: 8L
+				}
+				{
+					id: "594D205BABA23FEB"
+					type: "item"
+					item: "woot:factory_d"
+					count: 8L
+				}
+				{
+					id: "39C3F88E35474065"
+					type: "item"
+					item: "woot:cap_c"
+					count: 4L
+				}
+				{
+					id: "4E4602D925830D6A"
+					type: "item"
+					item: "woot:cap_a"
+					count: 4L
+				}
+				{
+					id: "0D1110C00819E8E9"
+					type: "item"
+					item: "woot:factory_upgrade"
+					count: 4L
+				}
+				{
+					id: "085AF54C0B929AF0"
+					type: "item"
+					item: "woot:factory_ctr_base_sec"
+					count: 3L
+				}
+				{
+					id: "49FCEE5BC6CFF711"
+					type: "item"
+					item: "woot:import"
+				}
+				{
+					id: "529E4D6566B800A0"
+					type: "item"
+					item: "woot:export"
+				}
+				{
+					id: "45A5FEE97902B2E0"
+					type: "item"
+					item: "woot:factory_ctr_base_pri"
+				}
+				{
+					id: "3477E23214050639"
+					type: "item"
+					item: {
+						id: "woot:controller"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Mob: {
+									keyTag: ""
+									keyEntity: "minecraft:sheep"
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "41E0B6BFB1FC55E0"
+					type: "item"
+					item: "woot:heart"
+				}
+				{
+					id: "01C5ED2E3A840CDE"
+					type: "item"
+					title: "{university.wootfactory.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "woot:cell_1"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_2"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_3"
+									Count: 1b
+								}
+								{
+									id: "woot:cell_4"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "woot:exotic_a"
+			x: 4.5d
+			y: 6.0d
+			subtitle: "{university.exotics.subtitle}"
+			description: [
+				"{university.exotics.desc1}"
+				""
+				"{university.exotics.desc2}"
+			]
+			dependencies: ["005D2B3656C82F17"]
+			optional: true
+			id: "4C431B0C410E6B1B"
+			tasks: [{
+				id: "1979DBEAC399F6AC"
+				type: "item"
+				title: "{university.exotics.title}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "woot.*exotic"
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,915 @@
+{
+	id: "52FF1B8B153D74BF"
+	group: "7C8FB4101B19CAFD"
+	order_index: 3
+	filename: "eidolon"
+	title: "{university.eidolon.chapter}"
+	icon: "eidolon:codex"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{university.arsecclesia.title}"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{university.arsecclesia.subtitle}"
+			description: [
+				"{university.arsecclesia.desc1}"
+				""
+				"{university.arsecclesia.desc2}"
+				""
+				"{university.arsecclesia.desc3}"
+				""
+				"{university.arsecclesia.desc4}"
+			]
+			id: "42FD1AD8F9F3083D"
+			tasks: [{
+				id: "70D4ACE6C28B5274"
+				type: "item"
+				item: "eidolon:codex"
+			}]
+		}
+		{
+			title: "{university.eidartifice.title}"
+			icon: "eidolon:worktable"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "{university.eidartifice.subtitle}"
+			description: [
+				"{university.eidartifice.desc1}"
+				""
+				"{university.eidartifice.desc2}"
+				""
+				"{university.eidartifice.desc3}"
+				""
+				"{university.eidartifice.desc4}"
+				""
+				"{university.eidartifice.desc5}"
+			]
+			dependencies: ["42FD1AD8F9F3083D"]
+			min_width: 275
+			id: "4AB05EDC41C2C5B2"
+			tasks: [
+				{
+					id: "7C8E9B217FA7ED39"
+					type: "item"
+					item: "eidolon:worktable"
+				}
+				{
+					id: "434437F95FE42527"
+					type: "item"
+					item: "eidolon:crucible"
+				}
+			]
+		}
+		{
+			title: "{university.theurgy.title}"
+			icon: "eidolon:straw_effigy"
+			x: 1.5d
+			y: 1.5d
+			subtitle: "{university.theurgy.subtitle}"
+			description: [
+				"{university.theurgy.desc1}"
+				""
+				"{university.theurgy.desc2}"
+				""
+				"{university.theurgy.desc3}"
+				""
+				"{university.theurgy.desc4}"
+				""
+				"{university.theurgy.desc5}"
+			]
+			dependencies: ["42FD1AD8F9F3083D"]
+			min_width: 275
+			id: "1BC6CDB664B33F02"
+			tasks: [
+				{
+					id: "6350187DB28B890E"
+					type: "item"
+					item: "eidolon:wooden_altar"
+					count: 6L
+				}
+				{
+					id: "5B7ADBFDA23C5516"
+					type: "item"
+					item: "eidolon:straw_effigy"
+				}
+			]
+		}
+		{
+			title: "{university.wickedsign.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "eidolon:textures/particle/wicked_sign.png"
+				}
+			}
+			x: 2.5d
+			y: 1.5d
+			subtitle: "{university.wickedsign.subtitle}"
+			description: [
+				"{university.wickedsign.desc1}"
+				""
+				"{university.wickedsign.desc2}"
+				""
+				"{university.wickedsign.desc3}"
+				""
+				"{university.wickedsign.desc4}"
+			]
+			dependencies: ["1BC6CDB664B33F02"]
+			id: "6F07DA4F91769674"
+			tasks: [{
+				id: "440DA621A0CB4648"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.brazier.title}"
+			icon: "eidolon:brazier"
+			x: -1.5d
+			y: 1.5d
+			subtitle: "{university.brazier.subtitle}"
+			description: [
+				"{university.brazier.desc1}"
+				""
+				"{university.brazier.desc2}"
+				""
+				"{university.brazier.desc3}"
+				""
+				"{university.brazier.desc4}"
+			]
+			dependencies: ["42FD1AD8F9F3083D"]
+			id: "4AB36D2E3AD804FB"
+			tasks: [
+				{
+					id: "5B5C99C77FE7DA79"
+					type: "item"
+					item: "eidolon:brazier"
+				}
+				{
+					id: "4EC7CCCAECDEBC9A"
+					type: "item"
+					item: "eidolon:stone_hand"
+				}
+			]
+			rewards: [{
+				id: "1529425640176C6A"
+				type: "item"
+				item: "eidolon:stone_hand"
+				count: 4
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			subtitle: "{university.eidsoul.subtitle}"
+			description: [
+				"{university.eidsoul.desc1}"
+				""
+				"{university.eidsoul.desc2}"
+				""
+				"{university.eidsoul.desc3}"
+			]
+			dependencies: ["4AB36D2E3AD804FB"]
+			id: "3EDF5C5CB67700C7"
+			tasks: [{
+				id: "20F2A985ADFB2329"
+				type: "item"
+				item: "eidolon:soul_shard"
+			}]
+		}
+		{
+			title: "{university.eidsummon.title}"
+			icon: "minecraft:wither_skeleton_skull"
+			x: -3.0d
+			y: 2.5d
+			subtitle: "{university.eidsummon.subtitle}"
+			description: [
+				"{university.eidsummon.desc1}"
+				""
+				"{university.eidsummon.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3EDF5C5CB67700C7"
+				"1436E6449CF043AE"
+			]
+			id: "4EC3C1063BF33A0F"
+			tasks: [{
+				id: "44C59C65328E2D34"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.timerituals.title}"
+			icon: "minecraft:clock"
+			x: -2.0d
+			y: 2.5d
+			subtitle: "{university.timerituals.subtitle}"
+			description: ["{university.timerituals.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["3EDF5C5CB67700C7"]
+			id: "3FBB14B87FC6FCE5"
+			tasks: [{
+				id: "7009DD3333C6ED08"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			subtitle: "{university.swordofsapping.subtitle}"
+			description: [
+				"{university.swordofsapping.desc1}"
+				""
+				"{university.swordofsapping.desc2}"
+				""
+				"{university.swordofsapping.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3EDF5C5CB67700C7"
+				"1436E6449CF043AE"
+			]
+			id: "595DE3383914616E"
+			tasks: [{
+				id: "70310FEAFAC03BDC"
+				type: "item"
+				item: {
+					id: "eidolon:sapping_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.sanguineamulet.title}"
+			x: -2.5d
+			y: 3.5d
+			subtitle: "{university.sanguineamulet.subtitle}"
+			description: [
+				"{university.sanguineamulet.desc1}"
+				""
+				"{university.sanguineamulet.desc2}"
+				""
+				"{university.sanguineamulet.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3EDF5C5CB67700C7"
+				"1436E6449CF043AE"
+			]
+			id: "3EA8195EF8E236CA"
+			tasks: [{
+				id: "7C1345333874B31D"
+				type: "item"
+				item: "eidolon:sanguine_amulet"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			subtitle: "{university.necroticfocus.subtitle}"
+			description: [
+				"{university.necroticfocus.desc1}"
+				""
+				"{university.necroticfocus.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/necrotic_focus.png width:75 height:75 anchor:center}"
+			]
+			dependencies: ["4AB36D2E3AD804FB"]
+			id: "1436E6449CF043AE"
+			tasks: [{
+				id: "02005A787BC217B1"
+				type: "item"
+				item: "eidolon:necrotic_focus"
+			}]
+		}
+		{
+			title: "{university.otherrituals.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -2.0d
+			y: 4.5d
+			subtitle: "{university.otherrituals.subtitle}"
+			description: [
+				"{university.otherrituals.desc1}"
+				""
+				"{university.otherrituals.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3EDF5C5CB67700C7"]
+			id: "6B148C86E92A4E4B"
+			tasks: [{
+				id: "3EF4AABFE4DEB6B0"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			subtitle: "{university.voidamulet.subtitle}"
+			description: [
+				"{university.voidamulet.desc1}"
+				""
+				"{university.voidamulet.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4AB05EDC41C2C5B2"]
+			size: 0.75d
+			id: "1DE623BC3FAA5A78"
+			tasks: [{
+				id: "30137B8848643986"
+				type: "item"
+				item: "eidolon:void_amulet"
+			}]
+		}
+		{
+			x: 0.375d
+			y: -2.25d
+			subtitle: "{university.gravitybelt.subtitle}"
+			description: [
+				"{university.gravitybelt.desc1}"
+				""
+				"{university.gravitybelt.desc2}"
+				""
+				"{university.gravitybelt.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4AB05EDC41C2C5B2"]
+			size: 0.75d
+			id: "4B078B7272D407E6"
+			tasks: [{
+				id: "722761AFA1792C3B"
+				type: "item"
+				item: "eidolon:gravity_belt"
+			}]
+		}
+		{
+			x: -0.375d
+			y: -2.25d
+			subtitle: "{university.resolutebelt.subtitle}"
+			description: [
+				"{university.resolutebelt.desc1}"
+				""
+				"{university.resolutebelt.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4AB05EDC41C2C5B2"]
+			size: 0.75d
+			id: "0826B34D976151F2"
+			tasks: [{
+				id: "2289A772D2117FD3"
+				type: "item"
+				item: "eidolon:resolute_belt"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			subtitle: "{university.glasshand.subtitle}"
+			description: [
+				"{university.glasshand.desc1}"
+				""
+				"{university.glasshand.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4AB05EDC41C2C5B2"]
+			size: 0.75d
+			id: "767B4C086BE97A8B"
+			tasks: [{
+				id: "1D493D6B1B2AC524"
+				type: "item"
+				item: "eidolon:glass_hand"
+			}]
+		}
+		{
+			x: 0.75d
+			y: -4.5d
+			subtitle: "{university.wardedmail.subtitle}"
+			description: ["{university.wardedmail.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["4AB05EDC41C2C5B2"]
+			size: 0.75d
+			id: "0AC90B54A627848C"
+			tasks: [{
+				id: "44D7FEB47471D69E"
+				type: "item"
+				item: "eidolon:warded_mail"
+			}]
+		}
+		{
+			x: -0.75d
+			y: -3.0d
+			subtitle: "{university.soulfirewand.subtitle}"
+			description: ["{university.soulfirewand.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["4AB05EDC41C2C5B2"]
+			size: 0.75d
+			id: "66EB6897EFB4ED17"
+			tasks: [{
+				id: "6F3AE3B41FB8D468"
+				type: "item"
+				item: {
+					id: "eidolon:soulfire_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: -3.0d
+			subtitle: "{university.bonechillwand.subtitle}"
+			description: ["{university.bonechillwand.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["4AB05EDC41C2C5B2"]
+			size: 0.75d
+			id: "15BD26BC071B8724"
+			tasks: [{
+				id: "2DD5A2C53971E2F0"
+				type: "item"
+				item: {
+					id: "eidolon:bonechill_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.375d
+			y: -5.25d
+			subtitle: "{university.reaperscythe.subtitle}"
+			description: ["{university.reaperscythe.desc}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4AB05EDC41C2C5B2"
+				"74E26B8EA43608BB"
+			]
+			size: 0.75d
+			id: "7C29D8100A8A1305"
+			tasks: [{
+				id: "760A3C085E00FCF2"
+				type: "item"
+				item: {
+					id: "eidolon:reaper_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.375d
+			y: -5.25d
+			subtitle: "{university.cleavingaxe.subtitle}"
+			description: ["{university.cleavingaxe.desc}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4AB05EDC41C2C5B2"
+				"74E26B8EA43608BB"
+			]
+			size: 0.75d
+			id: "70A606B342E6B189"
+			tasks: [{
+				id: "315A208FDAA428B1"
+				type: "item"
+				item: {
+					id: "eidolon:cleaving_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.375d
+			y: -3.75d
+			subtitle: "{university.inversionpick.subtitle}"
+			description: ["{university.inversionpick.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["4AB05EDC41C2C5B2"]
+			size: 0.75d
+			id: "05F2B72D696F0900"
+			tasks: [{
+				id: "76B7E2B8F4EB221B"
+				type: "item"
+				item: {
+					id: "eidolon:reversal_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.wickedweave.title}"
+			icon: {
+				id: "eidolon:warlock_hat"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.125d
+			y: -3.75d
+			subtitle: "{university.wickedweave.subtitle}"
+			description: [
+				"{university.wickedweave.desc1}"
+				""
+				"{university.wickedweave.desc2}"
+				""
+				"{university.wickedweave.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4AB05EDC41C2C5B2"
+				"74E26B8EA43608BB"
+			]
+			size: 0.75d
+			id: "12080FC04FC723E9"
+			tasks: [
+				{
+					id: "11DECAF516FFD37E"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E9C9CA03914053E"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_cloak"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7795C2DAE2A706D6"
+					type: "item"
+					item: {
+						id: "eidolon:warlock_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.375d
+			y: -3.75d
+			subtitle: "{university.prestigiouspalm.subtitle}"
+			description: ["{university.prestigiouspalm.desc}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4AB05EDC41C2C5B2"
+				"74E26B8EA43608BB"
+			]
+			size: 0.75d
+			id: "229385B770181985"
+			tasks: [{
+				id: "7D306CB66E1DDAD2"
+				type: "item"
+				item: "eidolon:prestigious_palm"
+			}]
+		}
+		{
+			title: "{university.mindplate.title}"
+			x: -0.75d
+			y: -4.5d
+			subtitle: "{university.mindplate.subtitle}"
+			description: ["{university.mindplate.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["4AB05EDC41C2C5B2"]
+			size: 0.75d
+			id: "5A0E44314A1440F8"
+			tasks: [{
+				id: "032002046453D729"
+				type: "item"
+				item: "eidolon:mind_shielding_plate"
+			}]
+		}
+		{
+			x: 1.125d
+			y: -3.75d
+			subtitle: "{university.soulenchanter.subtitle}"
+			description: [
+				"{university.soulenchanter.desc1}"
+				""
+				"{university.soulenchanter.desc2}"
+				""
+				"{university.soulenchanter.desc3}"
+				""
+				"{university.soulenchanter.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4AB05EDC41C2C5B2"]
+			size: 0.75d
+			min_width: 275
+			id: "3729E32586F878CD"
+			tasks: [{
+				id: "5A1E6FD9BD8E7610"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+		}
+		{
+			title: "{university.bloodsign.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "eidolon:textures/particle/blood_sign.png"
+				}
+			}
+			x: 3.0d
+			y: 2.5d
+			subtitle: "{university.bloodsign.subtitle}"
+			description: [
+				"{university.bloodsign.desc1}"
+				""
+				"{university.bloodsign.desc2}"
+				""
+				"{university.bloodsign.desc3}"
+			]
+			dependencies: ["6F07DA4F91769674"]
+			id: "44D441F96E37D5CB"
+			tasks: [{
+				id: "3E6D48E710284525"
+				type: "item"
+				item: "eidolon:goblet"
+			}]
+		}
+		{
+			title: "{university.altarboosts.title}"
+			icon: "eidolon:candlestick"
+			x: 1.0d
+			y: 2.5d
+			subtitle: "{university.altarboosts.subtitle}"
+			description: [
+				"{university.altarboosts.desc1}"
+				""
+				"{university.altarboosts.desc2}"
+				""
+				"{university.altarboosts.desc3}"
+				""
+				"{university.altarboosts.desc4}"
+				""
+				"{university.altarboosts.desc5}"
+			]
+			dependencies: ["1BC6CDB664B33F02"]
+			min_width: 275
+			id: "3F4FA2363129805C"
+			tasks: [
+				{
+					id: "61D3C17DC3D8BE7E"
+					type: "item"
+					title: "{university.altarboosts.task1}"
+					disable_toast: true
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:torch"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: ["[{\"text\":\"1 Power\"}]"]
+										}
+									}
+								}
+								{
+									id: "minecraft:lantern"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: ["[{\"text\":\"1 Power, 1 Capacity\"}]"]
+										}
+									}
+								}
+								{
+									id: "eidolon:candle"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: ["[{\"text\":\"2 Power\"}]"]
+										}
+									}
+								}
+								{
+									id: "eidolon:candlestick"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: ["[{\"text\":\"2 Power\"}]"]
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "16EA4C0B8DC8937E"
+					type: "item"
+					title: "{university.altarboosts.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:skeleton_skull"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: ["[{\"text\":\"2 Capacity\"}]"]
+										}
+									}
+								}
+								{
+									id: "minecraft:zombie_head"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: ["[{\"text\":\"1 Capacity, 1 Power\"}]"]
+										}
+									}
+								}
+								{
+									id: "minecraft:wither_skeleton_skull"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: ["[{\"text\":\"3 Capacity, 1 Power\"}]"]
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "765FF4BC82CEC9A2"
+					type: "item"
+					title: "{university.altarboosts.task3}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:crimson_fungus"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: ["[{\"text\":\"2 Power\"}]"]
+										}
+									}
+								}
+								{
+									id: "minecraft:warped_fungus"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: ["[{\"text\":\"2 Power\"}]"]
+										}
+									}
+								}
+								{
+									id: "minecraft:wither_rose"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: ["[{\"text\":\"3 Power\"}]"]
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.soulsign.title}"
+			x: 2.5d
+			y: 3.5d
+			subtitle: "{university.soulsign.subtitle}"
+			description: [
+				"{university.soulsign.desc1}"
+				""
+				"{university.soulsign.desc2}"
+				""
+				"{university.soulsign.desc3}"
+				""
+				"{university.soulsign.desc4}"
+			]
+			dependencies: ["44D441F96E37D5CB"]
+			id: "74E26B8EA43608BB"
+			tasks: [{
+				id: "209907A40579AE14"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+		}
+		{
+			title: "{university.elderstatue.title}"
+			icon: "eidolon:unholy_effigy"
+			x: 1.5d
+			y: 3.5d
+			subtitle: "{university.elderstatue.subtitle}"
+			description: ["{university.elderstatue.desc}"]
+			dependencies: ["74E26B8EA43608BB"]
+			id: "24730EB0CB5B0C50"
+			tasks: [
+				{
+					id: "69EFBC919FE31EA8"
+					type: "item"
+					item: "eidolon:stone_altar"
+					count: 6L
+				}
+				{
+					id: "23AC3438F5EB65D4"
+					type: "item"
+					item: "eidolon:unholy_effigy"
+				}
+			]
+		}
+		{
+			title: "{university.mindsign.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "eidolon:textures/particle/mind_sign.png"
+				}
+			}
+			x: 2.0d
+			y: 4.5d
+			subtitle: "{university.mindsign.subtitle}"
+			description: [
+				"{university.mindsign.desc1}"
+				""
+				"{university.mindsign.desc2}"
+				""
+				"{university.mindsign.desc3}"
+			]
+			dependencies: ["24730EB0CB5B0C50"]
+			id: "211E33FB9CE5E6FB"
+			tasks: [{
+				id: "429B3CBBC9DAD35C"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.sacredsign.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "eidolon:textures/particle/sacred_sign.png"
+				}
+			}
+			x: 2.0d
+			y: 2.5d
+			subtitle: "{university.sacredsign.subtitle}"
+			description: [
+				"{university.sacredsign.desc1}"
+				""
+				"{university.sacredsign.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["1BC6CDB664B33F02"]
+			id: "519DFEB41CB8D884"
+			tasks: [{
+				id: "78BE7A09384215C7"
+				type: "checkmark"
+			}]
+		}
+	]
+}

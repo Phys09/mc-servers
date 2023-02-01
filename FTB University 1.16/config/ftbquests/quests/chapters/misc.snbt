@@ -1,0 +1,1636 @@
+{
+	id: "2562D1F39BF1C4AF"
+	group: "5252DC544975492B"
+	order_index: 1
+	filename: "misc"
+	title: "{university.misc.chapter}"
+	icon: "minecraft:stick"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{university.compressium.title}"
+			icon: "compressium:stone_5"
+			x: -4.0d
+			y: 3.0d
+			subtitle: "{university.compressium.subtitle}"
+			description: [
+				"{university.compressium.desc1}"
+				""
+				"{university.compressium.desc2}"
+				""
+				"{university.compressium.desc3}"
+			]
+			id: "43C28A210ED90F38"
+			tasks: [{
+				id: "22ED390D8742C8AB"
+				type: "item"
+				title: "{university.compressium.task}"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "compressium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5617FC3483EB3348"
+				type: "item"
+				item: "compressium:cobblestone_4"
+			}]
+		}
+		{
+			title: "{university.tinyredstone.title}"
+			icon: "tinyredstone:tiny_repeater"
+			x: -1.0d
+			y: 3.0d
+			subtitle: "{university.tinyredstone.subtitle}"
+			description: [
+				"{university.tinyredstone.desc1}"
+				""
+				"{university.tinyredstone.desc2}"
+				""
+				"{university.tinyredstone.desc3}"
+				"{university.tinyredstone.desc4}"
+				"{image:ftbuniversity:textures/quests/tiny_or.png width:75 height:75 anchor:center}"
+				""
+				"{university.tinyredstone.desc5}"
+				""
+				"{university.tinyredstone.desc6}"
+			]
+			min_width: 300
+			id: "5BAF29128F734DE6"
+			tasks: [
+				{
+					id: "0DEA44BFB79B519E"
+					type: "item"
+					item: "tinyredstone:redstone_panel"
+				}
+				{
+					id: "1F73D4EF484C50DF"
+					type: "item"
+					title: "{university.tinyredstone.task}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tinyredstone:tiny_component"
+						}
+					}
+				}
+				{
+					id: "6E81663AE6A5B3C9"
+					type: "item"
+					item: "tinyredstone:redstone_wrench"
+				}
+			]
+		}
+		{
+			title: "{university.cnb.title}"
+			icon: {
+				id: "chiselsandbits:chisel_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: 1.0d
+			subtitle: "{university.cnb.subtitle}"
+			description: [
+				"{university.cnb.desc1}"
+				""
+				"{university.cnb.desc2}"
+				""
+				"{university.cnb.desc3}"
+				""
+				"{university.cnb.desc4}"
+			]
+			min_width: 250
+			id: "37358534726F2F2D"
+			tasks: [{
+				id: "437B1014E54BAAC1"
+				type: "item"
+				title: "{university.cnb.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "chiselsandbits:chisel_stone"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "chiselsandbits:chisel_iron"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "chiselsandbits:chisel_gold"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "chiselsandbits:chisel_diamond"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "chiselsandbits:chisel_netherite"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C2CBF71B3671B2E"
+				type: "item"
+				item: "chiselsandbits:tape_measure"
+			}]
+		}
+		{
+			title: "{university.bittank.title}"
+			x: -0.5d
+			y: 2.0d
+			subtitle: "{university.bittank.subtitle}"
+			description: [
+				"{university.bittank.desc1}"
+				""
+				"{university.bittank.desc2}"
+			]
+			dependencies: ["37358534726F2F2D"]
+			id: "20983F12BA576E5F"
+			tasks: [{
+				id: "6F030C965B1A111D"
+				type: "item"
+				item: "chiselsandbits:bit_storage"
+			}]
+		}
+		{
+			title: "{university.quarkenchant.title}"
+			x: -2.5d
+			y: 0.0d
+			subtitle: "{university.quarkenchant.subtitle}"
+			description: [
+				"{university.quarkenchant.desc1}"
+				""
+				"{university.quarkenchant.desc2}"
+				"{image:ftbuniversity:textures/quests/matrix1.png width:165 height:50}"
+				""
+				"{university.quarkenchant.desc3}"
+				"{image:ftbuniversity:textures/quests/matrix2.png width:106 height:50}"
+				""
+				"{university.quarkenchant.desc4}"
+				"{image:ftbuniversity:textures/quests/matrix3.png width:113 height:50}"
+				""
+				"{university.quarkenchant.desc5}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["57CA65A2AC0AE0EC"]
+			min_width: 300
+			id: "1EDC9400462C1E5F"
+			tasks: [{
+				id: "0C3E5E401DB9AA9E"
+				type: "item"
+				item: "quark:matrix_enchanter"
+			}]
+			rewards: [{
+				id: "0AF827D94126D834"
+				type: "item"
+				item: "compressium:lapis_2"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "{university.craftcalc.subtitle}"
+			description: [
+				"{university.craftcalc.desc1}"
+				""
+				"{university.craftcalc.desc2}"
+				""
+				"{university.craftcalc.desc3}"
+				""
+				"{university.craftcalc.desc4}"
+				""
+				"{university.craftcalc.desc5}"
+				""
+				"{university.craftcalc.desc6}"
+				""
+				"{university.craftcalc.desc7}"
+			]
+			min_width: 325
+			id: "0C253BE97CCD4232"
+			tasks: [{
+				id: "321015229D1695A5"
+				type: "item"
+				item: "jecalculation:item_calculator_craft"
+			}]
+		}
+		{
+			title: "{university.annoyingsounds.title}"
+			icon: "minecraft:note_block"
+			x: -3.5d
+			y: 0.0d
+			subtitle: "{university.annoyingsounds.subtitle}"
+			description: [
+				"{university.annoyingsounds.desc1}"
+				""
+				"{university.annoyingsounds.desc2}"
+			]
+			id: "2CAC607C6D1680AC"
+			tasks: [{
+				id: "0E64A4FEE126D542"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.epicfightmod.title}"
+			x: -3.0d
+			y: -1.0d
+			subtitle: "{university.epicfightmod.subtitle}"
+			description: [
+				"{university.epicfightmod.desc1}"
+				""
+				"{university.epicfightmod.desc2}"
+				""
+				"{university.epicfightmod.desc3}"
+				""
+				"{university.epicfightmod.desc4}"
+				""
+				"{university.epicfightmod.desc5}"
+			]
+			min_width: 250
+			id: "6637B5F75FD9A475"
+			tasks: [{
+				id: "2DAF66139412923C"
+				type: "stat"
+				title: "{university.epicfightmod.task}"
+				stat: "minecraft:damage_dealt"
+				value: 1
+			}]
+			rewards: [{
+				id: "79FB3F302BEA72E8"
+				type: "item"
+				auto: "enabled"
+				item: {
+					id: "minecraft:cookie"
+					Count: 1b
+					tag: {
+						display: {
+							Lore: [
+								"[{\"translate\":\"university.epicfightmod.reward2\"}]"
+								"[{\"translate\":\"university.epicfightmod.reward3\"}]"
+							]
+							Name: "{\"translate\":\"university.epicfightmod.reward1\"}"
+						}
+					}
+				}
+				count: 16
+			}]
+		}
+		{
+			title: "{university.craftcalc2.title}"
+			icon: {
+				id: "jecalculation:item_calculator_craft"
+				Count: 1b
+				tag: {
+					jecalculation: {
+						craft: {
+							mode: "input"
+							amount: ""
+							recents: [{
+								type: "itemStack"
+								content: {
+									amount: 1L
+									item: "ironchest:iron_chest"
+								}
+							}]
+							inventory: 0b
+						}
+					}
+				}
+			}
+			x: 0.75d
+			y: 3.0d
+			subtitle: "{university.craftcalc2.subtitle}"
+			description: [
+				"{university.craftcalc2.desc1}"
+				""
+				"{university.craftcalc2.desc2}"
+				""
+				"{university.craftcalc2.desc3}"
+				""
+				"{university.craftcalc2.desc4}"
+				""
+				"{university.craftcalc2.desc5}"
+			]
+			dependencies: ["0C253BE97CCD4232"]
+			size: 0.5d
+			min_width: 275
+			id: "31CDCDB82F6E447E"
+			tasks: [{
+				id: "6037C638B23F4E82"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.mmmmmmmmmmmm.title}"
+			x: -2.0d
+			y: -1.0d
+			subtitle: "{university.mmmmmmmmmmmm.subtitle}"
+			description: [
+				"{university.mmmmmmmmmmmm.desc1}"
+				""
+				"{university.mmmmmmmmmmmm.desc2}"
+				""
+				"{university.mmmmmmmmmmmm.desc3}"
+				""
+				"{university.mmmmmmmmmmmm.desc4}"
+			]
+			min_width: 275
+			id: "1FC1224A4043274E"
+			tasks: [{
+				id: "1F1ED458176F1BCB"
+				type: "item"
+				item: "dummmmmmy:target_dummy_placer"
+			}]
+		}
+		{
+			title: "{university.chisel.title}"
+			icon: {
+				id: "chisel:iron_chisel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.0d
+			y: 1.0d
+			subtitle: "{university.chisel.subtitle}"
+			description: [
+				"{university.chisel.desc1}"
+				""
+				"{university.chisel.desc2}"
+				""
+				"{university.chisel.desc3}"
+				""
+				"{university.chisel.desc4}"
+				""
+				"{university.chisel.desc5}"
+				""
+				"{university.chisel.desc6}"
+			]
+			min_width: 300
+			id: "593FB366BC8FBBDD"
+			tasks: [
+				{
+					id: "0C58E6CBA059D152"
+					type: "item"
+					title: "{university.chisel.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "chisel:iron_chisel"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "chisel:diamond_chisel"
+									Count: 1b
+									tag: {
+										Damage: 0
+										chiseldata: { }
+									}
+								}
+								{
+									id: "chisel:hitech_chisel"
+									Count: 1b
+									tag: {
+										Damage: 0
+										chiseldata: { }
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "01B42CD9F6D003F0"
+					type: "item"
+					title: "{university.chisel.task2}"
+					disable_toast: true
+					item: {
+						id: "itemfilters:and"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "itemfilters:mod"
+									Count: 1b
+									tag: {
+										value: "chisel"
+									}
+								}
+								{
+									id: "itemfilters:block"
+									Count: 1b
+								}
+								{
+									id: "itemfilters:not"
+									Count: 1b
+									tag: {
+										items: [{
+											id: "chisel:auto_chisel"
+											Count: 1b
+										}]
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "366DF85F3F92DE4C"
+					type: "item"
+					item: "chisel:auto_chisel"
+				}
+			]
+		}
+		{
+			title: "{university.bitbag.title}"
+			x: -0.25d
+			y: 1.0d
+			subtitle: "{university.bitbag.subtitle}"
+			description: [
+				"{university.bitbag.desc1}"
+				""
+				"{university.bitbag.desc2}"
+			]
+			dependencies: ["37358534726F2F2D"]
+			size: 0.5d
+			id: "120D31AE2EF04459"
+			tasks: [{
+				id: "29AC0CBD522B9865"
+				type: "item"
+				item: {
+					id: "chiselsandbits:bit_bag"
+					Count: 1b
+					tag: {
+						contents: [I;
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+							0
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.compactmachines.title}"
+			icon: "compactmachines:machine_giant"
+			x: -3.0d
+			y: 3.0d
+			subtitle: "{university.compactmachines.subtitle}"
+			description: [
+				"{university.compactmachines.desc1}"
+				""
+				"{university.compactmachines.desc2}"
+				""
+				"{university.compactmachines.desc3}"
+				"{image:ftbuniversity:textures/quests/compact_crafting.png height:100 width:148}"
+				""
+				"{university.compactmachines.desc4}"
+				"{image:ftbuniversity:textures/quests/compact_wall.png height:100 width:172}"
+				""
+				"{university.compactmachines.desc5}"
+				""
+				"{university.compactmachines.desc6}"
+				""
+				"{university.compactmachines.desc7}"
+			]
+			min_width: 400
+			id: "544767E74ACBF291"
+			tasks: [
+				{
+					id: "4A1E82290268CD2E"
+					type: "item"
+					item: "compactmachines:personal_shrinking_device"
+				}
+				{
+					id: "4D53391E22BEFE7C"
+					type: "item"
+					item: "compactcrafting:field_projector"
+					count: 4L
+				}
+				{
+					id: "2186AA6CF4563041"
+					type: "item"
+					title: "{university.compactmachines.title}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "compactmachines:machine_tiny"
+									Count: 1b
+								}
+								{
+									id: "compactmachines:machine_small"
+									Count: 1b
+								}
+								{
+									id: "compactmachines:machine_normal"
+									Count: 1b
+								}
+								{
+									id: "compactmachines:machine_large"
+									Count: 1b
+								}
+								{
+									id: "compactmachines:machine_giant"
+									Count: 1b
+								}
+								{
+									id: "compactmachines:machine_maximum"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "5EB2F0E2AD1D16F7"
+					type: "item"
+					item: {
+						id: "compactmachines:tunnel"
+						Count: 1b
+						tag: {
+							definition: {
+								id: "compactmachines:item"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.coolthings.title}"
+			disable_toast: true
+			x: -2.5d
+			y: -2.5d
+			subtitle: "{university.coolthings.subtitle}"
+			description: [
+				"{university.coolthings.desc1}"
+				""
+				"{university.coolthings.desc2}"
+				""
+				"{university.coolthings.desc3}"
+			]
+			size: 1.25d
+			optional: true
+			id: "6F7060B650E1E815"
+			tasks: [{
+				id: "497EB13C050DB847"
+				type: "xp"
+				disable_toast: true
+				value: 55L
+				points: true
+			}]
+			rewards: [
+				{
+					id: "6896F710B114B2DE"
+					type: "item"
+					team_reward: true
+					auto: "no_toast"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "university_coolthings_rewards"
+						}
+					}
+				}
+				{
+					id: "0CCDFB6683394EC0"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @p reset 6F7060B650E1E815"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "{university.blockcarpentry.title}"
+			icon: "blockcarpentry:frame_stairs"
+			x: -4.0d
+			y: 1.0d
+			subtitle: "{university.blockcarpentry.subtitle}"
+			description: [
+				"{university.blockcarpentry.desc1}"
+				""
+				"{university.blockcarpentry.desc2}"
+				""
+				"{university.blockcarpentry.desc3}"
+				""
+				"{university.blockcarpentry.desc4}"
+			]
+			id: "5F6015E2765349C2"
+			tasks: [{
+				id: "39AF756F0A959AAF"
+				type: "item"
+				title: "{university.blockcarpentry.task}"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:mod"
+								Count: 1b
+								tag: {
+									value: "blockcarpentry"
+								}
+							}
+							{
+								id: "itemfilters:block"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "40F76424942E193F"
+				type: "item"
+				item: "minecraft:egg"
+				count: 16
+			}]
+		}
+		{
+			title: "{university.krate.title}"
+			icon: "krate:krate_small"
+			x: -4.5d
+			y: 2.0d
+			subtitle: "{university.krate.subtitle}"
+			description: [
+				"{university.krate.desc1}"
+				""
+				"{university.krate.desc2}"
+			]
+			id: "085B92472DD17388"
+			tasks: [
+				{
+					id: "20CEA600699B7E1C"
+					type: "item"
+					title: "{university.krate.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "krate:krate_small"
+									Count: 1b
+								}
+								{
+									id: "krate:krate_basic"
+									Count: 1b
+								}
+								{
+									id: "krate:krate_big"
+									Count: 1b
+								}
+								{
+									id: "krate:krate_large"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "1601BDE3FC46F39B"
+					type: "item"
+					title: "{university.krate.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "krate:small_to_basic"
+									Count: 1b
+								}
+								{
+									id: "krate:basic_to_big"
+									Count: 1b
+								}
+								{
+									id: "krate:big_to_large"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1BCB8DC06797594D"
+				type: "item"
+				item: "krate:basic_to_big"
+			}]
+		}
+		{
+			icon: "krate:collect_upgrade"
+			x: -5.0d
+			y: 3.0d
+			subtitle: "{university.krateupgrades.subtitle}"
+			description: [
+				"{university.krateupgrades.desc1}"
+				""
+				"{university.krateupgrades.desc2}"
+				""
+				"{university.krateupgrades.desc3}"
+				""
+				"{university.krateupgrades.desc4}"
+				""
+				"{university.krateupgrades.desc5}"
+				""
+				"{university.krateupgrades.desc6}"
+			]
+			dependencies: ["085B92472DD17388"]
+			min_width: 400
+			id: "2D4794F6030F8710"
+			tasks: [
+				{
+					id: "460B5B3774A6C515"
+					type: "item"
+					title: "{university.krateupgrades.title}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "krate:hopper_upgrade"
+									Count: 1b
+								}
+								{
+									id: "krate:collect_upgrade"
+									Count: 1b
+								}
+								{
+									id: "krate:shulker_upgrade"
+									Count: 1b
+								}
+								{
+									id: "krate:compacting_upgrade"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "5DE3AAF593CE969B"
+					type: "item"
+					item: "krate:filter"
+				}
+			]
+		}
+		{
+			title: "{university.bctools.title}"
+			icon: "blockcarpentry:paintbrush"
+			x: -4.75d
+			y: 1.0d
+			subtitle: "{university.bctools.subtitle}"
+			description: [
+				"{university.bctools.desc1}"
+				""
+				"{university.bctools.desc2}"
+				""
+				"{university.bctools.desc3}"
+			]
+			dependencies: ["5F6015E2765349C2"]
+			size: 0.5d
+			min_width: 275
+			id: "0D38371A915CCACF"
+			tasks: [
+				{
+					id: "5C1DA348E4C87A22"
+					type: "item"
+					title: "{university.bctools.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "blockcarpentry:hammer"
+									Count: 1b
+								}
+								{
+									id: "blockcarpentry:texture_wrench"
+									Count: 1b
+								}
+								{
+									id: "blockcarpentry:chisel"
+									Count: 1b
+								}
+								{
+									id: "blockcarpentry:paintbrush"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "21F6D65347D56F94"
+					type: "item"
+					title: "{university.bctools.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:charcoal"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: ["[{\"text\":\"+1 light level\"}]"]
+										}
+									}
+								}
+								{
+									id: "minecraft:coal"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: ["[{\"text\":\"+1 light level\"}]"]
+										}
+									}
+								}
+								{
+									id: "minecraft:glowstone_dust"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: ["[{\"text\":\"+3 light levels\"}]"]
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "78914E605540D8E5"
+					type: "item"
+					title: "{university.bctools.task3}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "minecraft:grass"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: [
+												"[{\"text\":\"First use adds short grass to side\"}]"
+												"[{\"text\":\"Second use adds longer grass to side\"}]"
+											]
+										}
+									}
+								}
+								{
+									id: "minecraft:snowball"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: [
+												"[{\"text\":\"First use adds snow to side\"}]"
+												"[{\"text\":\"Second use adds smaller snow to side\"}]"
+											]
+										}
+									}
+								}
+								{
+									id: "minecraft:vine"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: ["[{\"text\":\"Adds vine overlay\"}]"]
+										}
+									}
+								}
+								{
+									id: "minecraft:gunpowder"
+									Count: 1b
+									tag: {
+										display: {
+											Lore: ["[{\"text\":\"Each use cycles through 5 stone overlays\"}]"]
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.epfstun.title}"
+			icon: {
+				id: "minecraft:golden_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.575d
+			y: -0.8125000000000001d
+			subtitle: "{university.epfstun.subtitle}"
+			description: [
+				"{university.epfstun.desc1}"
+				""
+				"{university.epfstun.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6637B5F75FD9A475"]
+			size: 0.325d
+			min_width: 250
+			id: "6C4210059D8BA369"
+			tasks: [{
+				id: "27B09C061E241BD9"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3408EC264EE5EE7C"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:knockback"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "{univeristy.epfspecial.title}"
+			icon: {
+				id: "minecraft:golden_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.575d
+			y: -1.1375000000000002d
+			subtitle: "{univeristy.epfspecial.subtitle}"
+			description: [
+				"{univeristy.epfspecial.desc1}"
+				""
+				"{univeristy.epfspecial.desc2}"
+				""
+				"{univeristy.epfspecial.desc3}"
+				""
+				"{univeristy.epfspecial.desc4}"
+				""
+				"{univeristy.epfspecial.desc5}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6637B5F75FD9A475"]
+			size: 0.325d
+			min_width: 250
+			id: "128A2D2A0080DE6E"
+			tasks: [
+				{
+					id: "2F992777948B97C8"
+					type: "item"
+					title: "{univeristy.epfspecial.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "itemfilters:id_regex"
+									Count: 1b
+									tag: {
+										value: "epic.*sword"
+									}
+								}
+								{
+									id: "itemfilters:id_regex"
+									Count: 1b
+									tag: {
+										value: "epic.*spear"
+									}
+								}
+								{
+									id: "itemfilters:id_regex"
+									Count: 1b
+									tag: {
+										value: "epic.*tachi"
+									}
+								}
+								{
+									id: "itemfilters:id_regex"
+									Count: 1b
+									tag: {
+										value: "epic.*dag"
+									}
+								}
+								{
+									id: "epicfight:knuckle"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "0A779AF51947B1A5"
+					type: "item"
+					title: "{univeristy.epfspecial.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "epicfight:skillbook"
+									Count: 1b
+									tag: {
+										skill: "stamina_pillager"
+									}
+								}
+								{
+									id: "epicfight:skillbook"
+									Count: 1b
+									tag: {
+										skill: "energizing_guard"
+									}
+								}
+								{
+									id: "epicfight:skillbook"
+									Count: 1b
+									tag: {
+										skill: "swordmaster"
+									}
+								}
+								{
+									id: "epicfight:skillbook"
+									Count: 1b
+									tag: {
+										skill: "roll"
+									}
+								}
+								{
+									id: "epicfight:skillbook"
+									Count: 1b
+									tag: {
+										skill: "berserker"
+									}
+								}
+								{
+									id: "epicfight:skillbook"
+									Count: 1b
+									tag: {
+										skill: "technician"
+									}
+								}
+								{
+									id: "epicfight:skillbook"
+									Count: 1b
+									tag: {
+										skill: "step"
+									}
+								}
+								{
+									id: "epicfight:skillbook"
+									Count: 1b
+									tag: {
+										skill: "guard"
+									}
+								}
+								{
+									id: "epicfight:skillbook"
+									Count: 1b
+									tag: {
+										skill: "active_guard"
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "58468EF4CEF09D8C"
+				type: "choice"
+				table_id: 66032489117161819L
+			}]
+		}
+		{
+			title: "{university.projectred.title}"
+			icon: "projectred-integration:repeater_gate"
+			x: -2.0d
+			y: 3.0d
+			subtitle: "{university.projectred.subtitle}"
+			description: [
+				"{university.projectred.desc1}"
+				""
+				"{university.projectred.desc2}"
+				""
+				"{university.projectred.desc3}"
+				""
+				"{university.projectred.desc4}"
+				""
+				"{university.projectred.desc5}"
+				""
+				"{university.projectred.desc6}"
+				""
+				"{university.projectred.desc7}"
+			]
+			min_width: 350
+			id: "4515239E0F8BB6B6"
+			tasks: [
+				{
+					id: "2C47240C4EE83837"
+					type: "item"
+					title: "{university.projectred.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "projectred-transmission:red_alloy_wire"
+									Count: 1b
+								}
+								{
+									id: "itemfilters:tag"
+									Count: 1b
+									tag: {
+										value: "projectred-transmission:insulated_wire"
+									}
+								}
+								{
+									id: "itemfilters:tag"
+									Count: 1b
+									tag: {
+										value: "projectred-transmission:bundled_wire"
+									}
+								}
+								{
+									id: "itemfilters:id_regex"
+									Count: 1b
+									tag: {
+										value: "project.*framed"
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "49FBE2F4BC6544D2"
+					type: "item"
+					title: "{university.projectred.task2}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "project.*gate"
+						}
+					}
+				}
+				{
+					id: "52B3A856EC275675"
+					type: "item"
+					title: "{university.projectred.task3}"
+					item: {
+						id: "itemfilters:mod"
+						Count: 1b
+						tag: {
+							value: "projectred-illumination"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "618140737C0B67EC"
+					type: "item"
+					item: "projectred-core:red_ingot"
+					count: 32
+				}
+				{
+					id: "4F9BBBD60F8372EA"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "{university.cobblegen.title}"
+			icon: "cobblefordays:tier_2"
+			x: -3.0d
+			y: 1.0d
+			subtitle: "{university.cobblegen.subtitle}"
+			description: [
+				"{university.cobblegen.desc1}"
+				""
+				"{university.cobblegen.desc2}"
+				""
+				"{university.cobblegen.desc3}"
+			]
+			id: "0A48266F067BEB6E"
+			tasks: [{
+				id: "70B5388C1EBB3514"
+				type: "item"
+				title: "{university.cobblegen.task}"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "cobblefordays"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B0DF47288FDA601"
+				type: "item"
+				item: "twilightforest:giant_cobblestone"
+			}]
+		}
+		{
+			title: "{university.dank.title}"
+			icon: {
+				id: "dankstorage:dank_1"
+				Count: 1b
+				tag: {
+					inv: { }
+				}
+			}
+			x: -1.5d
+			y: 0.0d
+			subtitle: "{university.dank.subtitle}"
+			description: [
+				"{university.dank.desc1}"
+				""
+				"{university.dank.desc2}"
+				""
+				"{university.dank.desc3}"
+				""
+				"{university.dank.desc4}"
+				""
+				"{university.dank.desc5}"
+			]
+			min_width: 325
+			id: "0A1A7511CBC62CB4"
+			tasks: [{
+				id: "56E6A247307661E0"
+				type: "item"
+				title: "{university.dank.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "dankstorage:dank_1"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "dankstorage:dank_2"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "dankstorage:dank_3"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "dankstorage:dank_4"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "dankstorage:dank_5"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "dankstorage:dank_6"
+								Count: 1b
+								tag: { }
+							}
+							{
+								id: "dankstorage:dank_7"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.dankdock.title}"
+			icon: "dankstorage:dock"
+			x: -0.75d
+			y: 0.0d
+			subtitle: "{university.dankdock.subtitle}"
+			description: [
+				"{university.dankdock.desc1}"
+				""
+				"{university.dankdock.desc2}"
+			]
+			dependencies: ["0A1A7511CBC62CB4"]
+			size: 0.5d
+			id: "54DE683F48355C39"
+			tasks: [
+				{
+					id: "547670ED78FEF6BF"
+					type: "item"
+					item: "dankstorage:dock"
+				}
+				{
+					id: "43B5037C3A1F9DC0"
+					type: "item"
+					title: "{university.dankdock.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "dankstorage:1_to_2"
+									Count: 1b
+								}
+								{
+									id: "dankstorage:2_to_3"
+									Count: 1b
+								}
+								{
+									id: "dankstorage:3_to_4"
+									Count: 1b
+								}
+								{
+									id: "dankstorage:4_to_5"
+									Count: 1b
+								}
+								{
+									id: "dankstorage:5_to_6"
+									Count: 1b
+								}
+								{
+									id: "dankstorage:6_to_7"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7454C1106D7CC755"
+				type: "item"
+				item: "dankstorage:3_to_4"
+			}]
+		}
+		{
+			title: "{university.glassential.title}"
+			icon: "glassential:glass_ethereal"
+			x: -3.5d
+			y: 2.0d
+			subtitle: "{university.glassential.subtitle}"
+			description: [
+				"{university.glassential.desc1}"
+				""
+				"{university.glassential.desc2}"
+			]
+			id: "644836894DE559EC"
+			tasks: [{
+				id: "542EADC605F9F367"
+				type: "item"
+				title: "{university.glassential.task}"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "glassential"
+					}
+				}
+			}]
+			rewards: [{
+				id: "773EFF2E6A99FB9A"
+				type: "item"
+				item: "glassential:glass_light"
+				count: 32
+			}]
+		}
+		{
+			title: "{university.cursedearth.title}"
+			icon: "cursedearth:cursed_earth"
+			x: -2.5d
+			y: 2.0d
+			subtitle: "{university.cursedearth.subtitle}"
+			id: "13353B3B38DA1217"
+			tasks: [{
+				id: "4B9A813F414964B4"
+				type: "observation"
+				title: "{university.cursedearth.task}"
+				icon: "cursedearth:cursed_earth"
+				timer: 0L
+				observe: "block:cursedearth:cursed_earth"
+			}]
+		}
+		{
+			title: "{university.trashcans.title}"
+			icon: "trashcans:item_trash_can"
+			x: -1.5d
+			y: 2.0d
+			subtitle: "{university.trashcans.subtitle}"
+			description: [
+				"{university.trashcans.desc1}"
+				""
+				"{university.trashcans.desc2}"
+				""
+				"{university.trashcans.desc3}"
+			]
+			id: "3436D954C514D708"
+			tasks: [{
+				id: "31A611834840A525"
+				type: "item"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "trashcans"
+					}
+				}
+			}]
+		}
+	]
+}

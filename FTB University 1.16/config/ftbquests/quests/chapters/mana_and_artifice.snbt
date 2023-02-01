@@ -1,0 +1,3137 @@
+{
+	id: "5DF2A04C402F8C75"
+	group: "7C8FB4101B19CAFD"
+	order_index: 5
+	filename: "mana_and_artifice"
+	title: "{university.manaandartifice.chapter}"
+	icon: "mana-and-artifice:guide_book"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{university.codexarcana.subtitle}"
+			description: [
+				"{university.codexarcana.desc1}"
+				""
+				"{university.codexarcana.desc2}"
+				""
+				"{university.codexarcana.desc3}"
+				""
+				"{university.codexarcana.desc4}"
+				""
+				"{university.codexarcana.desc5}"
+			]
+			min_width: 250
+			id: "1D26A357ECBEA4BA"
+			tasks: [{
+				id: "6A459F19E9A7E273"
+				type: "item"
+				item: "mana-and-artifice:guide_book"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "{university.glyphbag.subtitle}"
+			description: ["{university.glyphbag.desc}"]
+			id: "32D217938B9B1574"
+			tasks: [{
+				id: "02A28123D0AA37CC"
+				type: "item"
+				item: "mana-and-artifice:stone_rune_bag"
+			}]
+			rewards: [{
+				id: "09100A8F67B3BD25"
+				type: "item"
+				item: "mana-and-artifice:stone_rune_blank"
+				count: 128
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "{university.runeforge.subtitle}"
+			description: [
+				"{university.runeforge.desc1}"
+				""
+				"{university.runeforge.desc2}"
+				""
+				"{university.runeforge.desc3}"
+				""
+				"{university.runeforge.desc4}"
+			]
+			id: "79A3D8669B64D575"
+			tasks: [{
+				id: "5CCD5ACC255DE43A"
+				type: "item"
+				item: "mana-and-artifice:runeforge"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			subtitle: "{university.occulus.subtitle}"
+			description: [
+				"{university.occulus.desc1}"
+				""
+				"{university.occulus.desc2}"
+				""
+				"{university.occulus.desc3}"
+				""
+				"{university.occulus.desc4}"
+			]
+			dependencies: ["1D26A357ECBEA4BA"]
+			min_width: 250
+			id: "4B28716D104F6A03"
+			tasks: [{
+				id: "77F18205806CBCA7"
+				type: "item"
+				item: "mana-and-artifice:occulus"
+			}]
+		}
+		{
+			title: "{university.affinity.title}"
+			icon: "mana-and-artifice:enchantment_focus_arcane"
+			x: 0.75d
+			y: 1.25d
+			subtitle: "{university.affinity.subtitle}"
+			description: [
+				"{university.affinity.desc1}"
+				""
+				"{university.affinity.desc2}"
+				""
+				"{university.affinity.desc3}"
+				""
+				"{university.affinity.desc4}"
+				""
+				"{university.affinity.desc5}"
+				""
+				"{university.affinity.desc6}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4B28716D104F6A03"]
+			size: 0.5d
+			min_width: 275
+			id: "7C39C3AB18662905"
+			tasks: [{
+				id: "1AB38481F914F0D5"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.sorcery.title}"
+			icon: "mana-and-artifice:vellum"
+			x: 0.75d
+			y: 1.75d
+			subtitle: "{university.sorcery.subtitle}"
+			description: [
+				"{university.sorcery.desc1}"
+				""
+				"{university.sorcery.desc2}"
+				""
+				"{university.sorcery.desc3}"
+				""
+				"{university.sorcery.desc4}"
+				""
+				"{university.sorcery.desc5}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["4B28716D104F6A03"]
+			size: 0.5d
+			min_width: 250
+			id: "5A5F73666B782E39"
+			tasks: [{
+				id: "4218E944DAC694D9"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.manarituals.title}"
+			icon: {
+				id: "mana-and-artifice:wizard_chalk"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: 3.0d
+			subtitle: "{university.manarituals.subtitle}"
+			description: [
+				"{university.manarituals.desc1}"
+				""
+				"{university.manarituals.desc2}"
+				""
+				"{university.manarituals.desc3}"
+				""
+				"{university.manarituals.desc4}"
+				""
+				"{university.manarituals.desc5}"
+				""
+				"{university.manarituals.desc6}"
+			]
+			hide_dependency_lines: false
+			dependencies: ["4B28716D104F6A03"]
+			min_width: 250
+			id: "15EF99BBB39D1D28"
+			tasks: [
+				{
+					id: "4E86EA3B08B6E538"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:wizard_chalk"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1BBEBDEFF9D2A3AE"
+					type: "item"
+					item: "mana-and-artifice:purified_vinteum_dust"
+				}
+				{
+					id: "28FFDF764913105F"
+					type: "item"
+					item: "mana-and-artifice:manaweaver_wand"
+				}
+			]
+		}
+		{
+			title: "{university.spellscribing.title}"
+			icon: "mana-and-artifice:inscription_table"
+			x: -1.0d
+			y: 3.0d
+			subtitle: "{university.spellscribing.subtitle}"
+			description: [
+				"{university.spellscribing.desc1}"
+				""
+				"{university.spellscribing.desc2}"
+				""
+				"{university.spellscribing.desc3}"
+				""
+				"{university.spellscribing.desc4}"
+				""
+				"{university.spellscribing.desc5}"
+				""
+				"{university.spellscribing.desc6}"
+				""
+				"{university.spellscribing.desc7}"
+				""
+				"{university.spellscribing.desc8}"
+				""
+				"{university.spellscribing.desc9}"
+				""
+				"{university.spellscribing.desc10}"
+			]
+			dependencies: ["4B28716D104F6A03"]
+			min_width: 450
+			id: "72F5CD087ABE797E"
+			tasks: [
+				{
+					id: "61497B5A6F913DC8"
+					type: "item"
+					item: "mana-and-artifice:inscription_table"
+				}
+				{
+					id: "715965408D3CFA0D"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:arcanist_ink"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "18BA65A61F162E34"
+					type: "item"
+					item: "mana-and-artifice:vellum"
+				}
+				{
+					id: "2745A5B5D2B0F972"
+					type: "item"
+					item: "mana-and-artifice:arcane_ash"
+				}
+			]
+			rewards: [
+				{
+					id: "13646722B1256EB0"
+					type: "item"
+					item: "mana-and-artifice:vellum"
+					count: 16
+				}
+				{
+					id: "78A06072D5920718"
+					type: "item"
+					item: "mana-and-artifice:arcane_ash"
+					count: 32
+				}
+			]
+		}
+		{
+			title: "{university.spellcrafting.title}"
+			icon: {
+				id: "mana-and-artifice:enchanted_vellum"
+				Count: 1b
+				tag: {
+					spell: { }
+				}
+			}
+			x: 0.0d
+			y: 4.5d
+			subtitle: "{university.spellcrafting.subtitle}"
+			description: [
+				"{university.spellcrafting.desc1}"
+				""
+				"{university.spellcrafting.desc2}"
+				""
+				"{university.spellcrafting.desc3}"
+				""
+				"{university.spellcrafting.desc4}"
+				""
+				"{university.spellcrafting.desc5}"
+				""
+				"{university.spellcrafting.desc6}"
+			]
+			dependencies: [
+				"72F5CD087ABE797E"
+				"15EF99BBB39D1D28"
+			]
+			min_width: 275
+			id: "315153956EC68952"
+			tasks: [
+				{
+					id: "54BAF5CA0408E599"
+					type: "item"
+					title: "{university.spellcrafting.task1}"
+					item: {
+						id: "mana-and-artifice:enchanted_vellum"
+						Count: 1b
+						tag: {
+							spell: {
+								components: [{
+									attribute_1: "DELAY"
+									attribute_0: "SPEED"
+									value_0: 1.0f
+									value_1: 0.0f
+									num_attributes: 2
+									resource_location: "mana-and-artifice:components/fling"
+								}]
+								overrideAffinity: "UNKNOWN"
+								shape: {
+									num_attributes: 0
+									resource_location: "mana-and-artifice:shapes/self"
+								}
+								modifiers: {
+									modifier_2: "mana-and-artifice:empty"
+									modifier_0: "mana-and-artifice:empty"
+									modifier_1: "mana-and-artifice:empty"
+								}
+								mysterious: 0b
+							}
+							ritual_reagent_data: {
+								pattern_count: 3
+								component_items_0: "mana-and-artifice:stone_rune_white"
+								shape_items_count: 4
+								pattern_0: "mana-and-artifice:manaweave_patterns/circle"
+								pattern_1: "mana-and-artifice:manaweave_patterns/circle"
+								pattern_2: "mana-and-artifice:manaweave_patterns/triangle"
+								shape_items_0: "mana-and-artifice:aum"
+								shape_items_3: "mana-and-artifice:vinteum_dust"
+								component_items_4: "mana-and-artifice:vinteum_dust"
+								component_items_3: "mana-and-artifice:stone_rune_white"
+								shape_items_1: "minecraft:book"
+								component_items_2: "mana-and-artifice:runesmith_hammer"
+								shape_items_2: "minecraft:armor_stand"
+								component_items_1: "mana-and-artifice:stone_rune_gray"
+								complexity_reagent_count: 2
+								complexity_reagent_0: "mana-and-artifice:ritual_focus_minor"
+								component_items_count: 5
+								complexity_reagent_1: "mana-and-artifice:ritual_focus_minor"
+							}
+						}
+					}
+				}
+				{
+					id: "3321D73F5DFD27D0"
+					type: "item"
+					title: "{university.spellcrafting.task2}"
+					item: {
+						id: "mana-and-artifice:spell"
+						Count: 1b
+						tag: {
+							icon: 187
+							spell: {
+								components: [{
+									attribute_1: "DELAY"
+									attribute_0: "MAGNITUDE"
+									value_0: 1.0f
+									value_1: 0.0f
+									num_attributes: 2
+									resource_location: "mana-and-artifice:components/crystallize"
+								}]
+								overrideAffinity: "UNKNOWN"
+								shape: {
+									attribute_1: "SPEED"
+									attribute_0: "RADIUS"
+									value_0: 0.0f
+									value_1: 1.0f
+									num_attributes: 2
+									resource_location: "mana-and-artifice:shapes/projectile"
+								}
+								modifiers: {
+									modifier_2: "mana-and-artifice:empty"
+									modifier_0: "mana-and-artifice:empty"
+									modifier_1: "mana-and-artifice:empty"
+								}
+								mysterious: 0b
+							}
+							display: {
+								Name: "{\"text\":\"Spell: Projectile - Crystallize\"}"
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4C4F5407DB80A894"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:entrapment_crystal"
+					Count: 1b
+					tag: {
+						entityType: "alexsmobs:blobfish"
+						entityData: {
+							Brain: {
+								memories: { }
+							}
+							HurtByTimestamp: 0
+							ForgeData: { }
+							Attributes: [
+								{
+									Base: 16.0d
+									Modifiers: [{
+										Operation: 1
+										UUID: [I;
+											-1147943865
+											-406699460
+											-1981385237
+											-1271723399
+										]
+										Amount: 0.0713456643955953d
+										Name: "Random spawn bonus"
+									}]
+									Name: "minecraft:generic.follow_range"
+								}
+								{
+									Base: 0.25d
+									Name: "minecraft:generic.movement_speed"
+								}
+								{
+									Base: 0.08d
+									Name: "forge:entity_gravity"
+								}
+							]
+							Invulnerable: 0b
+							FallFlying: 0b
+							PortalCooldown: 0
+							AbsorptionAmount: 0.0f
+							FallDistance: 0.0f
+							CanUpdate: 1b
+							DeathTime: 0s
+							ForgeCaps: {
+								"mahoutsukai:mahou_settings": {
+									intsettings: [
+										{
+											key: 0
+											values: [I;
+												255
+												94
+												204
+												255
+												94
+												204
+											]
+										}
+										{
+											key: 1
+											values: [I;
+												216
+												0
+												0
+												0
+												0
+												0
+											]
+										}
+										{
+											key: 2
+											values: [I;
+												255
+												255
+												150
+												0
+												0
+												0
+											]
+										}
+										{
+											key: 3
+											values: [I;
+												244
+												237
+												64
+												0
+												0
+												0
+											]
+										}
+										{
+											key: 4
+											values: [I;
+												255
+												50
+												50
+												0
+												0
+												0
+											]
+										}
+										{
+											key: 5
+											values: [I;
+												150
+												0
+												0
+												0
+												0
+												0
+											]
+										}
+									]
+								}
+								"mahoutsukai:mahou": {
+									MAHOUTSUKAI_PLAYER_PREV_YAW: 0.0f
+									MAHOUTSUKAI_SHOW_MAHOU: 1b
+									MAHOUTSUKAI_PAGE: 0
+									MAHOUTSUKAI_MANA_FULL: 1b
+									MAHOUTSUKAI_MANA_UP_COUNTER: 100
+									MAHOUTSUKAI_PLAYER_POSSESSING: 0b
+									MAHOUTSUKAI_AUTHORITY_HIT: 0b
+									MAHOUTSUKAI_LAST_RECIPE_CLOTH: 0b
+									MAHOUTSUKAI_PLAYER_HAS_MAGIC: 0b
+									MAHOUTSUKAI_FAE_SPAWN: 1b
+									MAHOUTSUKAI_PLAYER_CHARGE_RATE: 0.1d
+									MAHOUTSUKAI_PLAYER_DAMAGE_EXCHANGE_USES: 0
+									MAHOUTSUKAI_PLAYER_PREV_PITCH: 0.0f
+									MAHOUTSUKAI_PLAYER_MAX_MANA: 100
+									MAHOUTSUKAI_PLAYER_STORED_MANA: 100
+									MAHOUTSUKAI_PLAYER_PROTECTIVE_DISPLACEMENT_USES: 0
+									MAHOUTSUKAI_CANCEL_TIME: 0L
+									MAHOUTSUKAI_PLAYER_DEATH_COLLECTION_USES_LEFT: 0.0f
+								}
+								"mekanism:radiation": {
+									radiation: 0.0d
+								}
+								"twilightforest:cap_shield": {
+									permshields: 0
+									tempshields: 0
+								}
+								"mowziesmobs:frozen": {
+									frozenYaw: 0.0f
+									freezeProgress: 0.0f
+									frozenPitch: 0.0f
+									freezeDecayDelay: 0
+									prevHasAI: 0b
+									frozenYawHead: 0.0f
+									frozenLimbSwingAmount: 0.0f
+									frozenRenderYawOffset: 0.0f
+									frozenSwingProgress: 0.0f
+								}
+								"citadel:extended_entity_data_citadel": { }
+								"pneumaticcraft:hacking": { }
+								"eidolon:knowledge": {
+									facts: [ ]
+									signs: [ ]
+								}
+							}
+							HandDropChances: [
+								0.085f
+								0.085f
+							]
+							PersistenceRequired: 0b
+							UUID: [I;
+								-623028707
+								-901428740
+								-1366689374
+								1113154106
+							]
+							Motion: [
+								0.0d
+								-0.0784000015258789d
+								0.0d
+							]
+							FromBucket: 0b
+							Health: 8.0f
+							LeftHanded: 1b
+							Air: 278s
+							OnGround: 1b
+							Rotation: [
+								25.920847f
+								9.882376f
+							]
+							HandItems: [
+								{ }
+								{ }
+							]
+							ArmorDropChances: [
+								0.085f
+								0.085f
+								0.085f
+								0.085f
+							]
+							BlobfishScale: 0.7517067f
+							CustomName: "{\"text\":\"Bessy\"}"
+							Pos: [
+								159.5d
+								22.0d
+								-90.5d
+							]
+							Depressurized: 1b
+							Fire: -1s
+							ArmorItems: [
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							CanPickUpLoot: 0b
+							Slimed: 0b
+							HurtTime: 0s
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			subtitle: "{university.manaweaverswand.subtitle}"
+			description: [
+				"{university.manaweaverswand.desc1}"
+				""
+				"{university.manaweaverswand.desc2}"
+				""
+				"{university.manaweaverswand.desc3}"
+				""
+				"{university.manaweaverswand.desc4}"
+			]
+			dependencies: ["4B28716D104F6A03"]
+			id: "485B70A22CD3911D"
+			tasks: [{
+				id: "2A7129425DA8CEE3"
+				type: "item"
+				item: "mana-and-artifice:manaweaver_wand"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			subtitle: "{university.manaweavingaltar.subtitle}"
+			description: [
+				"{university.manaweavingaltar.desc1}"
+				""
+				"{university.manaweavingaltar.desc2}"
+				""
+				"{university.manaweavingaltar.desc3}"
+				""
+				"{university.manaweavingaltar.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["485B70A22CD3911D"]
+			id: "6DA339BEEA59FBBC"
+			tasks: [{
+				id: "1AFA7297E6B1AC8A"
+				type: "item"
+				item: "mana-and-artifice:manaweaving_altar"
+			}]
+		}
+		{
+			icon: "mana-and-artifice:manaweave_projector"
+			x: -4.0d
+			y: 1.5d
+			subtitle: "{university.manaweaveprojector.subtitle}"
+			description: [
+				"{university.manaweaveprojector.desc1}"
+				""
+				"{university.manaweaveprojector.desc2}"
+				""
+				"{university.manaweaveprojector.desc3}"
+			]
+			dependencies: ["485B70A22CD3911D"]
+			id: "54FCC77C46468F08"
+			tasks: [
+				{
+					id: "6748B68AD592F763"
+					type: "item"
+					item: "mana-and-artifice:manaweave_projector"
+				}
+				{
+					id: "416F1C1DB68CC3C2"
+					type: "item"
+					title: "{university.manaweaveprojector.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
+									Count: 1b
+									tag: {
+										manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/knot3"
+									}
+								}
+								{
+									id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
+									Count: 1b
+									tag: {
+										manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/knot4"
+									}
+								}
+								{
+									id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
+									Count: 1b
+									tag: {
+										manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/knot2"
+									}
+								}
+								{
+									id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
+									Count: 1b
+									tag: {
+										manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/diamond"
+									}
+								}
+								{
+									id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
+									Count: 1b
+									tag: {
+										manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/infinity"
+									}
+								}
+								{
+									id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
+									Count: 1b
+									tag: {
+										manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/triangle"
+									}
+								}
+								{
+									id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
+									Count: 1b
+									tag: {
+										manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/circle"
+									}
+								}
+								{
+									id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
+									Count: 1b
+									tag: {
+										manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/inverted_split_triangle"
+									}
+								}
+								{
+									id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
+									Count: 1b
+									tag: {
+										manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/hourglass"
+									}
+								}
+								{
+									id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
+									Count: 1b
+									tag: {
+										manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/square"
+									}
+								}
+								{
+									id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
+									Count: 1b
+									tag: {
+										manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/inverted_triangle"
+									}
+								}
+								{
+									id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
+									Count: 1b
+									tag: {
+										manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/knot"
+									}
+								}
+								{
+									id: "mana-and-artifice:manaweaving_pattern_recipe_paper"
+									Count: 1b
+									tag: {
+										manaweave_pattern_id: "mana-and-artifice:manaweave_patterns/split_triangle"
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "mana-and-artifice:manaweave_bottle"
+				Count: 1b
+				tag: {
+					pattern: "mana-and-artifice:manaweave_patterns/circle"
+				}
+			}
+			x: -3.0d
+			y: 0.5d
+			subtitle: "{university.manaweavebottle.subtitle}"
+			description: [
+				"{university.manaweavebottle.desc1}"
+				""
+				"{university.manaweavebottle.desc2}"
+				""
+				"{university.manaweavebottle.desc3}"
+			]
+			dependencies: ["485B70A22CD3911D"]
+			id: "32A432166F048CCD"
+			tasks: [{
+				id: "6564C785FCBC150F"
+				type: "item"
+				title: "{university.manaweavebottle.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:manaweave_bottle"
+								Count: 1b
+								tag: {
+									pattern: "mana-and-artifice:manaweave_patterns/knot3"
+								}
+							}
+							{
+								id: "mana-and-artifice:manaweave_bottle"
+								Count: 1b
+								tag: {
+									pattern: "mana-and-artifice:manaweave_patterns/knot4"
+								}
+							}
+							{
+								id: "mana-and-artifice:manaweave_bottle"
+								Count: 1b
+								tag: {
+									pattern: "mana-and-artifice:manaweave_patterns/knot2"
+								}
+							}
+							{
+								id: "mana-and-artifice:manaweave_bottle"
+								Count: 1b
+								tag: {
+									pattern: "mana-and-artifice:manaweave_patterns/diamond"
+								}
+							}
+							{
+								id: "mana-and-artifice:manaweave_bottle"
+								Count: 1b
+								tag: {
+									pattern: "mana-and-artifice:manaweave_patterns/infinity"
+								}
+							}
+							{
+								id: "mana-and-artifice:manaweave_bottle"
+								Count: 1b
+								tag: {
+									pattern: "mana-and-artifice:manaweave_patterns/triangle"
+								}
+							}
+							{
+								id: "mana-and-artifice:manaweave_bottle"
+								Count: 1b
+								tag: {
+									pattern: "mana-and-artifice:manaweave_patterns/split_triangle"
+								}
+							}
+							{
+								id: "mana-and-artifice:manaweave_bottle"
+								Count: 1b
+								tag: {
+									pattern: "mana-and-artifice:manaweave_patterns/circle"
+								}
+							}
+							{
+								id: "mana-and-artifice:manaweave_bottle"
+								Count: 1b
+								tag: {
+									pattern: "mana-and-artifice:manaweave_patterns/inverted_split_triangle"
+								}
+							}
+							{
+								id: "mana-and-artifice:manaweave_bottle"
+								Count: 1b
+								tag: {
+									pattern: "mana-and-artifice:manaweave_patterns/hourglass"
+								}
+							}
+							{
+								id: "mana-and-artifice:manaweave_bottle"
+								Count: 1b
+								tag: {
+									pattern: "mana-and-artifice:manaweave_patterns/square"
+								}
+							}
+							{
+								id: "mana-and-artifice:manaweave_bottle"
+								Count: 1b
+								tag: {
+									pattern: "mana-and-artifice:manaweave_patterns/inverted_triangle"
+								}
+							}
+							{
+								id: "mana-and-artifice:manaweave_bottle"
+								Count: 1b
+								tag: {
+									pattern: "mana-and-artifice:manaweave_patterns/knot"
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 4.25d
+			subtitle: "{university.spellbook.subtitle}"
+			description: [
+				"{university.spellbook.desc1}"
+				""
+				"{university.spellbook.desc2}"
+				""
+				"{university.spellbook.desc3}"
+				""
+				"{university.spellbook.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["315153956EC68952"]
+			size: 0.5d
+			id: "447C9546D3775943"
+			tasks: [{
+				id: "0CA8DC5181CC4CFB"
+				type: "item"
+				item: "mana-and-artifice:spell_book"
+			}]
+		}
+		{
+			title: "{university.magictips.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -0.75d
+			y: 4.5d
+			subtitle: "{university.magictips.subtitle}"
+			description: [
+				"{university.magictips.desc1}"
+				""
+				"{university.magictips.desc2}"
+				""
+				"{university.magictips.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["315153956EC68952"]
+			size: 0.5d
+			id: "527AC09B41DCE549"
+			tasks: [{
+				id: "626E455E649BC0F4"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.cantrips.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: -4.75d
+			y: 1.5d
+			subtitle: "{university.cantrips.subtitle}"
+			description: [
+				"{university.cantrips.desc1}"
+				""
+				"{university.cantrips.desc2}"
+				""
+				"{university.cantrips.desc3}"
+				""
+				"{university.cantrips.desc4}"
+				""
+				"{university.cantrips.desc5}"
+			]
+			dependencies: ["485B70A22CD3911D"]
+			size: 0.5d
+			min_width: 275
+			id: "4995DA48894027F7"
+			tasks: [{
+				id: "30D9BE45D3E0F663"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -5.25d
+			y: 1.5d
+			subtitle: "{university.grimoire.subtitle}"
+			description: [
+				"{university.grimoire.desc1}"
+				""
+				"{university.grimoire.desc2}"
+			]
+			dependencies: ["4995DA48894027F7"]
+			size: 0.5d
+			id: "4149AB924E76EB77"
+			tasks: [{
+				id: "4A3BD59C5849B60B"
+				type: "item"
+				item: "mana-and-artifice:grimoire"
+			}]
+		}
+		{
+			title: "{university.ritualkit.title}"
+			x: 1.75d
+			y: 3.0d
+			subtitle: "{university.ritualkit.subtitle}"
+			description: [
+				"{university.ritualkit.desc1}"
+				""
+				"{university.ritualkit.desc2}"
+				""
+				"{university.ritualkit.desc3}"
+			]
+			hide_dependency_lines: false
+			dependencies: ["15EF99BBB39D1D28"]
+			size: 0.5d
+			id: "23A7F61213833E59"
+			tasks: [{
+				id: "056A3BF01214D3F1"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:ritual_kit"
+					Count: 1b
+					tag: {
+						ritual_kit_data: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.staveswands.title}"
+			icon: {
+				id: "mana-and-artifice:wand"
+				Count: 1b
+				tag: {
+					Damage: 0
+					spell: { }
+				}
+			}
+			x: 0.75d
+			y: 4.75d
+			subtitle: "{university.staveswands.subtitle}"
+			description: [
+				"{university.staveswands.desc1}"
+				""
+				"{university.staveswands.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["315153956EC68952"]
+			size: 0.5d
+			id: "114E77B91A6F2B66"
+			tasks: [{
+				id: "53C88851992CF65A"
+				type: "item"
+				title: "{university.staveswands.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:staff_a"
+								Count: 1b
+								tag: {
+									Damage: 0
+									spell: { }
+								}
+							}
+							{
+								id: "mana-and-artifice:staff_b"
+								Count: 1b
+								tag: {
+									Damage: 0
+									spell: { }
+								}
+							}
+							{
+								id: "mana-and-artifice:staff_c"
+								Count: 1b
+								tag: {
+									Damage: 0
+									spell: { }
+								}
+							}
+							{
+								id: "mana-and-artifice:wand"
+								Count: 1b
+								tag: {
+									Damage: 0
+									spell: { }
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: "mana-and-artifice:runescribing_table"
+			x: 3.5d
+			y: 1.5d
+			subtitle: "{university.runescribing.subtitle}"
+			description: [
+				"{university.runescribing.desc1}"
+				""
+				"{university.runescribing.desc2}"
+				""
+				"{university.runescribing.desc3}"
+				""
+				"{university.runescribing.desc4}"
+				""
+				"{university.runescribing.desc5}"
+				""
+				"{university.runescribing.desc6}"
+				""
+				"{university.runescribing.desc7}"
+				"{image:ftbuniversity:textures/quests/runescribing_1.png width:113 height:75 anchor:center}"
+			]
+			dependencies: ["79A3D8669B64D575"]
+			min_width: 300
+			id: "706453526C402FBA"
+			tasks: [
+				{
+					id: "4829EAFC40967D29"
+					type: "item"
+					item: "mana-and-artifice:runescribing_table"
+				}
+				{
+					id: "03918C9BDEBCA2B2"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:runesmith_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7BBEDB9C9455C75F"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:runesmith_chisel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "672BBF34C086C08A"
+					type: "item"
+					item: "mana-and-artifice:rune_pattern"
+				}
+				{
+					id: "5576E194E60E621C"
+					type: "item"
+					title: "{university.runescribing.task}"
+					item: {
+						id: "itemfilters:and"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "itemfilters:id_regex"
+									Count: 1b
+									tag: {
+										value: "mana.*pattern"
+									}
+								}
+								{
+									id: "itemfilters:not"
+									Count: 1b
+									tag: {
+										items: [{
+											id: "itemfilters:or"
+											Count: 1b
+											tag: {
+												items: [
+													{
+														id: "itemfilters:id_regex"
+														Count: 1b
+														tag: {
+															value: "paper"
+														}
+													}
+													{
+														id: "mana-and-artifice:rune_pattern"
+														Count: 1b
+													}
+												]
+											}
+										}]
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1F9886EA8D3F1FE6"
+				type: "item"
+				item: "mana-and-artifice:rune_pattern"
+				count: 16
+			}]
+		}
+		{
+			x: 4.25d
+			y: 1.5d
+			subtitle: "{university.runerecipe.subtitle}"
+			description: [
+				"{university.runerecipe.desc1}"
+				""
+				"{university.runerecipe.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/runescribing_2.png width:113 height:75 anchor:center}"
+			]
+			dependencies: ["706453526C402FBA"]
+			size: 0.5d
+			id: "0A98E94598E14139"
+			tasks: [{
+				id: "024BAFD4BBEB4080"
+				type: "item"
+				title: "{university.runerecipe.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_earth"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_arcane"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_fire"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_ender"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/artifice/mundane_ring_pattern"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/artifice/belt_buckle_pattern"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_defense"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_metal_ritual_rune"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_torso"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_axe"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_water"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_head"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_marking"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_air"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_claw"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/artifice/mundane_bracelet_pattern"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_hammer"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/armor/pattern_vinteum_needle"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_rod"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_warding"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/artifice/mundane_amulet_pattern"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_aura"
+								}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_hips"
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.runesmithing.title}"
+			icon: "mana-and-artifice:runic_anvil"
+			x: 3.5d
+			y: 3.0d
+			subtitle: "{university.runesmithing.subtitle}"
+			description: [
+				"{university.runesmithing.desc1}"
+				""
+				"{university.runesmithing.desc2}"
+				""
+				"{university.runesmithing.desc3}"
+			]
+			dependencies: ["706453526C402FBA"]
+			id: "31DB7EADF779D179"
+			tasks: [
+				{
+					id: "0AC6496B8B40AC97"
+					type: "item"
+					item: "mana-and-artifice:runic_anvil"
+				}
+				{
+					id: "752FA719BACCDF40"
+					type: "item"
+					title: "{university.runesmithing.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:superheated_vinteum_ingot"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:superheated_purified_vinteum_ingot"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "503FAD4FB4BC5C03"
+					type: "item"
+					title: "{university.runesmithing.task2}"
+					item: {
+						id: "itemfilters:and"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "itemfilters:id_regex"
+									Count: 1b
+									tag: {
+										value: "mana.*rune"
+									}
+								}
+								{
+									id: "itemfilters:not"
+									Count: 1b
+									tag: {
+										items: [{
+											id: "itemfilters:or"
+											Count: 1b
+											tag: {
+												items: [
+													{
+														id: "itemfilters:id_regex"
+														Count: 1b
+														tag: {
+															value: "pattern"
+														}
+													}
+													{
+														id: "itemfilters:id_regex"
+														Count: 1b
+														tag: {
+															value: "paper"
+														}
+													}
+													{
+														id: "mana-and-artifice:rune_clay_plate"
+														Count: 1b
+													}
+													{
+														id: "mana-and-artifice:runesmith_hammer"
+														Count: 1b
+														tag: {
+															Damage: 0
+														}
+													}
+													{
+														id: "mana-and-artifice:runesmith_chisel"
+														Count: 1b
+														tag: {
+															Damage: 0
+														}
+													}
+													{
+														id: "mana-and-artifice:runeforge"
+														Count: 1b
+													}
+													{
+														id: "mana-and-artifice:runescribing_table"
+														Count: 1b
+													}
+													{
+														id: "itemfilters:id_regex"
+														Count: 1b
+														tag: {
+															value: "stone_rune"
+														}
+													}
+													{
+														id: "mana-and-artifice:stone_rune_bag"
+														Count: 1b
+													}
+												]
+											}
+										}]
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.runeritual.title}"
+			x: 2.75d
+			y: 3.0d
+			subtitle: "{university.runeritual.subtitle}"
+			description: [
+				"{university.runeritual.desc1}"
+				""
+				"{university.runeritual.desc2}"
+			]
+			hide_dependency_lines: false
+			dependencies: ["31DB7EADF779D179"]
+			size: 0.5d
+			id: "1CAE139E9513C5EF"
+			tasks: [{
+				id: "313F31BCF72F5B16"
+				type: "item"
+				item: "mana-and-artifice:rune_ritual_metal"
+			}]
+			rewards: [{
+				id: "6EAA2A3762C3B449"
+				type: "item"
+				item: "mana-and-artifice:rune_ritual_metal"
+				count: 16
+			}]
+		}
+		{
+			title: "{university.minersrings.title}"
+			icon: "mana-and-artifice:break_ring_greater"
+			x: -2.75d
+			y: 3.25d
+			subtitle: "{university.minersrings.subtitle}"
+			description: [
+				"{university.minersrings.desc1}"
+				""
+				"{university.minersrings.desc2}"
+				""
+				"{university.minersrings.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"31DB7EADF779D179"
+				"6DA339BEEA59FBBC"
+			]
+			size: 0.5d
+			id: "7B8B9C9B596DAFC8"
+			tasks: [
+				{
+					id: "0F34747B98510B5C"
+					type: "item"
+					title: "{university.minersrings.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:break_ring_lesser"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:break_ring_greater"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "41D7060AEACAA080"
+					type: "item"
+					title: "{university.minersrings.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:fortune_ring_minor"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mana-and-artifice:fortune_ring"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mana-and-artifice:fortune_ring_greater"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "mana-and-artifice:silk_touch_ring"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "22DC5A84545E638F"
+					type: "item"
+					title: "{university.minersrings.task3}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:collector_ring_lesser"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:collector_ring_greater"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -3.75d
+			y: 2.25d
+			subtitle: "{university.crystalmemories.subtitle}"
+			description: [
+				"{university.crystalmemories.desc1}"
+				""
+				"{university.crystalmemories.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6DA339BEEA59FBBC"]
+			size: 0.5d
+			id: "4DA2683F2C2AA4EB"
+			tasks: [{
+				id: "1E1498944632C7D8"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:crystal_of_memories"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.75d
+			y: 3.75d
+			subtitle: "{university.enderguard.subtitle}"
+			description: ["{university.enderguard.desc}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"6DA339BEEA59FBBC"
+				"31DB7EADF779D179"
+			]
+			size: 0.5d
+			id: "348E3C8B2E040E2C"
+			tasks: [{
+				id: "08803A33B9BE04AB"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:enderguard_amulet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: "mana-and-artifice:rune_aura"
+			x: 4.75d
+			y: 2.75d
+			subtitle: "{university.auraenchants.subtitle}"
+			description: [
+				"{university.auraenchants.desc1}"
+				""
+				"{university.auraenchants.desc2}"
+			]
+			dependencies: ["17EA34CB70F00790"]
+			size: 0.5d
+			id: "2183840B8CA1B403"
+			tasks: [{
+				id: "64F948CC36B4078B"
+				type: "item"
+				title: "{university.auraenchants.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:rune_aura"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 1s
+										id: "mana-and-artifice:aura-jumping"
+									}]
+								}
+							}
+							{
+								id: "mana-and-artifice:rune_aura"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 1s
+										id: "mana-and-artifice:aura-repair"
+									}]
+								}
+							}
+							{
+								id: "mana-and-artifice:rune_aura"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 1s
+										id: "mana-and-artifice:aura-healing"
+									}]
+								}
+							}
+							{
+								id: "mana-and-artifice:rune_aura"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 1s
+										id: "mana-and-artifice:aura-mining"
+									}]
+								}
+							}
+							{
+								id: "mana-and-artifice:rune_aura"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 1s
+										id: "mana-and-artifice:aura-running"
+									}]
+								}
+							}
+							{
+								id: "mana-and-artifice:rune_aura"
+								Count: 1b
+								tag: {
+									Enchantments: [{
+										lvl: 1s
+										id: "mana-and-artifice:aura-depths"
+									}]
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.selfishbelt.title}"
+			x: 5.25d
+			y: 2.75d
+			subtitle: "{university.selfishbelt.subtitle}"
+			description: [
+				"{university.selfishbelt.desc1}"
+				""
+				"{university.selfishbelt.desc2}"
+				""
+				"{university.selfishbelt.desc3}"
+			]
+			dependencies: ["2183840B8CA1B403"]
+			size: 0.5d
+			id: "0345E7537DCE79BF"
+			tasks: [{
+				id: "439D33D112FF2D1E"
+				type: "item"
+				item: "mana-and-artifice:selfish_belt"
+			}]
+		}
+		{
+			x: -4.25d
+			y: 2.25d
+			subtitle: "{university.wardingcandle.subtitle}"
+			description: ["{university.wardingcandle.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["6DA339BEEA59FBBC"]
+			size: 0.5d
+			id: "5CF76441D42BF552"
+			tasks: [{
+				id: "3A043B2A604F477E"
+				type: "item"
+				item: "mana-and-artifice:warding_candle"
+			}]
+		}
+		{
+			title: "{university.magearmor.title}"
+			icon: {
+				id: "mana-and-artifice:mage_hood"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.25d
+			y: 3.25d
+			subtitle: "{university.magearmor.subtitle}"
+			description: [
+				"{university.magearmor.desc1}"
+				""
+				"{university.magearmor.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"31DB7EADF779D179"
+				"6DA339BEEA59FBBC"
+			]
+			size: 0.5d
+			id: "711152112C9B60D9"
+			tasks: [
+				{
+					id: "1C37DEE758B0B4B0"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:mage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "50221C2BDC0C162C"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:mage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "378A1175DD59AD39"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:mage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "302194BC1DD52CF2"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:mage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "mana-and-artifice:mana_crystal_fragment"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.75d
+			y: 2.75d
+			subtitle: "{university.manacrysfrag.subtitle}"
+			description: [
+				"{university.manacrysfrag.desc1}"
+				""
+				"{university.manacrysfrag.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6DA339BEEA59FBBC"]
+			size: 0.5d
+			id: "56A8A117D9B961E9"
+			tasks: [{
+				id: "0F204BCBB2F7FA0D"
+				type: "item"
+				title: "{university.manacrysfrag.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:mana_crystal_fragment"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "mana-and-artifice:minor_mana_gem"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "mana-and-artifice:major_mana_gem"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.75d
+			y: 3.25d
+			subtitle: "{university.manacrystal.subtitle}"
+			description: ["{university.manacrystal.desc}"]
+			dependencies: ["56A8A117D9B961E9"]
+			size: 0.5d
+			id: "102C72090791D6CB"
+			tasks: [{
+				id: "403617BC9FA4F25F"
+				type: "item"
+				item: "mana-and-artifice:mana_crystal"
+			}]
+		}
+		{
+			x: -4.75d
+			y: 2.25d
+			subtitle: "{university.slipstream.subtitle}"
+			description: [
+				"{university.slipstream.desc1}"
+				""
+				"{university.slipstream.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6DA339BEEA59FBBC"]
+			size: 0.5d
+			id: "5C8B425EF28B3170"
+			tasks: [{
+				id: "133B71766A318D18"
+				type: "item"
+				item: "mana-and-artifice:slipstream_generator"
+			}]
+		}
+		{
+			title: "{university.bookofrote.title}"
+			x: -4.25d
+			y: 2.75d
+			subtitle: "{university.bookofrote.subtitle}"
+			description: [
+				"{university.bookofrote.desc1}"
+				""
+				"{university.bookofrote.desc2}"
+				""
+				"{university.bookofrote.desc3}"
+				""
+				"{university.bookofrote.desc4}"
+				""
+				"{university.bookofrote.desc5}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6DA339BEEA59FBBC"
+				"31DB7EADF779D179"
+				"315153956EC68952"
+			]
+			size: 0.5d
+			id: "54C245C46DF9043D"
+			tasks: [{
+				id: "544272DAA0C897A0"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:book_of_rote"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "{university.factions.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbuniversity:textures/factions.png"
+				}
+			}
+			x: 0.0d
+			y: 6.0d
+			subtitle: "{university.factions.subtitle}"
+			description: [
+				"{university.factions.desc1}"
+				""
+				"{university.factions.desc2}"
+				""
+				"{university.factions.desc3}"
+				""
+				"{university.factions.desc4}"
+				""
+				"{university.factions.desc5}"
+				""
+				"{university.factions.desc6}"
+				""
+				"{university.factions.desc7}"
+			]
+			dependencies: ["315153956EC68952"]
+			min_width: 275
+			id: "2B5E8435C806FD24"
+			tasks: [{
+				id: "63D18AE743E25D26"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -4.25d
+			y: 3.25d
+			subtitle: "{university.magicbroom.subtitle}"
+			description: ["{university.magicbroom.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["6DA339BEEA59FBBC"]
+			size: 0.5d
+			id: "00A81B7D65A3BC5D"
+			tasks: [{
+				id: "597FF9ED8DC3632B"
+				type: "item"
+				item: "mana-and-artifice:magic_broom"
+			}]
+		}
+		{
+			x: -4.25d
+			y: 3.75d
+			subtitle: "{university.vortexbroom.subtitle}"
+			description: ["{university.vortexbroom.desc}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"00A81B7D65A3BC5D"
+				"2B5E8435C806FD24"
+			]
+			size: 0.5d
+			id: "17C925CA3BA934CC"
+			tasks: [{
+				id: "1A200BEDF942C468"
+				type: "item"
+				item: "mana-and-artifice:vortex_broom"
+			}]
+		}
+		{
+			x: -3.75d
+			y: 3.75d
+			subtitle: "{university.eldritchorb.subtitle}"
+			description: [
+				"{university.eldritchorb.desc1}"
+				""
+				"{university.eldritchorb.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"31DB7EADF779D179"
+				"56A8A117D9B961E9"
+				"2B5E8435C806FD24"
+			]
+			size: 0.5d
+			id: "098E4DC4A09EEBDE"
+			tasks: [{
+				id: "1926454D2CB86E28"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:eldritch_orb"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			icon: "mana-and-artifice:construct_workbench"
+			x: 3.5d
+			y: 5.5d
+			subtitle: "{university.constworkbench.subtitle}"
+			description: [
+				"{university.constworkbench.desc1}"
+				""
+				"{university.constworkbench.desc2}"
+				""
+				"{university.constworkbench.desc3}"
+				""
+				"{university.constworkbench.desc4}"
+				""
+				"{university.constworkbench.desc5}"
+				""
+				"{university.constworkbench.desc6}"
+			]
+			dependencies: ["3CFC4DD7049C095D"]
+			min_width: 300
+			id: "0DDC4F76065D7840"
+			tasks: [
+				{
+					id: "4503753F6897A200"
+					type: "item"
+					item: "mana-and-artifice:construct_workbench"
+				}
+				{
+					id: "3FB041F31A02039E"
+					type: "item"
+					title: "{university.constworkbench.task}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "chimerite_crystal"
+						}
+					}
+					count: 8L
+				}
+			]
+		}
+		{
+			title: "{university.constructs.title}"
+			icon: "mana-and-artifice:constructs/construct_basic_head_obsidian"
+			x: 3.5d
+			y: 4.5d
+			subtitle: "{university.constructs.subtitle}"
+			description: [
+				"{university.constructs.desc1}"
+				""
+				"{university.constructs.desc2}"
+				""
+				"{university.constructs.desc3}"
+				""
+				"{university.constructs.desc4}"
+			]
+			dependencies: ["31DB7EADF779D179"]
+			id: "3CFC4DD7049C095D"
+			tasks: [
+				{
+					id: "2882F40BD3C4FD28"
+					type: "item"
+					title: "{university.constructs.task1}"
+					item: {
+						id: "itemfilters:and"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "itemfilters:not"
+									Count: 1b
+									tag: {
+										items: [{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "rune"
+											}
+										}]
+									}
+								}
+								{
+									id: "itemfilters:id_regex"
+									Count: 1b
+									tag: {
+										value: "mana.*construct.*head"
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "36F219365A6CCAF9"
+					type: "item"
+					title: "{university.constructs.task2}"
+					item: {
+						id: "itemfilters:and"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "itemfilters:not"
+									Count: 1b
+									tag: {
+										items: [{
+											id: "itemfilters:id_regex"
+											Count: 1b
+											tag: {
+												value: "rune"
+											}
+										}]
+									}
+								}
+								{
+									id: "itemfilters:id_regex"
+									Count: 1b
+									tag: {
+										value: "mana.*construct.*torso"
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "12DD508B5B14B45E"
+					type: "item"
+					title: "{university.constructs.task3}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "mana.*construct.*leg"
+						}
+					}
+				}
+				{
+					id: "701FAC7E2BF36465"
+					type: "item"
+					title: "{university.constructs.task4}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "mana.*construct.*left"
+						}
+					}
+				}
+				{
+					id: "0BA290741EF87E79"
+					type: "item"
+					title: "{university.constructs.task5}"
+					item: {
+						id: "itemfilters:id_regex"
+						Count: 1b
+						tag: {
+							value: "mana.*construct.*right"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 6.5d
+			subtitle: "{university.controlrod.subtitle}"
+			description: [
+				"{university.controlrod.desc1}"
+				""
+				"{university.controlrod.desc2}"
+				""
+				"{university.controlrod.desc3}"
+				""
+				"{university.controlrod.desc4}"
+				""
+				"{university.controlrod.desc5}"
+				""
+				"{university.controlrod.desc6}"
+			]
+			dependencies: ["0DDC4F76065D7840"]
+			min_width: 275
+			id: "5BA67E2DDAFEB415"
+			tasks: [{
+				id: "771C657ABD0F61C7"
+				type: "item"
+				item: "mana-and-artifice:construct_control_rod"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.5d
+			subtitle: "{university.diagnostic.subtitle}"
+			description: [
+				"{university.diagnostic.desc1}"
+				""
+				"{university.diagnostic.desc2}"
+			]
+			dependencies: ["0DDC4F76065D7840"]
+			id: "5655DAFF793110D9"
+			tasks: [{
+				id: "208E58A16BAFC65C"
+				type: "item"
+				item: "mana-and-artifice:construct_diagnostics_rod"
+			}]
+		}
+		{
+			title: "{university.lodestar.title}"
+			x: 3.5d
+			y: 7.5d
+			subtitle: "{university.lodestar.subtitle}"
+			description: [
+				"{university.lodestar.desc1}"
+				""
+				"{university.lodestar.desc2}"
+				""
+				"{university.lodestar.desc3}"
+				""
+				"{university.lodestar.desc4}"
+				""
+				"{university.lodestar.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/lodestar.png width:148 height:100 anchor:center}"
+			]
+			dependencies: ["5BA67E2DDAFEB415"]
+			min_width: 275
+			id: "347E175E63A8D36C"
+			tasks: [{
+				id: "7DEE1A8F21BA0B19"
+				type: "item"
+				item: "mana-and-artifice:lodestar"
+			}]
+		}
+		{
+			x: 2.75d
+			y: 7.5d
+			subtitle: "{university.runemarking.subtitle}"
+			description: [
+				"{university.runemarking.desc1}"
+				""
+				"{university.runemarking.desc2}"
+				""
+				"{university.runemarking.desc3}"
+				"{image:ftbuniversity:textures/quests/rune_marking.png width:186 height:100 anchor:center}"
+			]
+			dependencies: ["347E175E63A8D36C"]
+			size: 0.5d
+			min_width: 250
+			id: "6106362025B74048"
+			tasks: [{
+				id: "6AA13E623BDA86F7"
+				type: "item"
+				item: "mana-and-artifice:rune_marking"
+			}]
+		}
+		{
+			x: -3.25d
+			y: 3.75d
+			subtitle: "{university.sewingkit.subtitle}"
+			description: [
+				"{university.sewingkit.desc1}"
+				""
+				"{university.sewingkit.desc2}"
+			]
+			dependencies: ["711152112C9B60D9"]
+			size: 0.5d
+			id: "5F6098E84984990F"
+			tasks: [{
+				id: "046F9D85893C96EB"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:sorcerous_sewing_set"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C5EA62EABD4CAE5"
+				type: "item"
+				item: "mana-and-artifice:infused_silk"
+				count: 16
+			}]
+		}
+		{
+			icon: {
+				id: "mana-and-artifice:ley_line_bracelet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.25d
+			y: 7.0d
+			subtitle: "{university.leylinesbracelet.subtitle}"
+			description: [
+				"{university.leylinesbracelet.desc1}"
+				""
+				"{university.leylinesbracelet.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B5E8435C806FD24"]
+			size: 0.5d
+			id: "20D12E2732123549"
+			tasks: [
+				{
+					id: "62F9A213A3DF2390"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:ley_line_bracelet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "38801B3B8B866D4C"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:sight_unguent"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.75d
+			y: 7.0d
+			subtitle: "{university.emberglow.subtitle}"
+			description: [
+				"{university.emberglow.desc1}"
+				""
+				"{university.emberglow.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B5E8435C806FD24"]
+			size: 0.5d
+			id: "130B41E40AE300DB"
+			tasks: [{
+				id: "34EC82DA6524CA48"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:emberglow_bracelet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.25d
+			y: 4.75d
+			subtitle: "{university.staffpilgrim.subtitle}"
+			description: ["{university.staffpilgrim.desc}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"6DA339BEEA59FBBC"
+				"114E77B91A6F2B66"
+			]
+			size: 0.5d
+			id: "44945620FA44DA1C"
+			tasks: [{
+				id: "27D4C49265FFD641"
+				type: "item"
+				item: "mana-and-artifice:pilgrim_staff"
+			}]
+		}
+		{
+			title: "{university.trickery.title}"
+			x: 0.25d
+			y: 7.0d
+			subtitle: "{university.trickery.subtitle}"
+			description: [
+				"{university.trickery.desc1}"
+				""
+				"{university.trickery.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B5E8435C806FD24"]
+			size: 0.5d
+			id: "6030193128631734"
+			tasks: [{
+				id: "2E2CC9D4DD78E338"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:trickery_bracelet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.witherguard.title}"
+			icon: {
+				id: "mana-and-artifice:witherguard_amulet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.75d
+			y: 2.75d
+			subtitle: "{university.witherguard.subtitle}"
+			description: ["{university.witherguard.desc}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"6DA339BEEA59FBBC"
+				"31DB7EADF779D179"
+				"2B5E8435C806FD24"
+			]
+			size: 0.5d
+			id: "4845C49EFE936EC1"
+			tasks: [
+				{
+					id: "0A54AA0DA1C25294"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:witherguard_amulet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6339B533C3EA1848"
+					type: "item"
+					item: {
+						id: "mana-and-artifice:antidote_bracelet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.75d
+			y: 3.25d
+			subtitle: "{university.arcanesentry.subtitle}"
+			description: [
+				"{university.arcanesentry.desc1}"
+				""
+				"{university.arcanesentry.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6DA339BEEA59FBBC"
+				"31DB7EADF779D179"
+				"2B5E8435C806FD24"
+			]
+			size: 0.5d
+			id: "0108944DD854EE03"
+			tasks: [{
+				id: "30D2FFCC10F20FC0"
+				type: "item"
+				item: "mana-and-artifice:arcane_sentry"
+			}]
+		}
+		{
+			x: -4.75d
+			y: 3.75d
+			subtitle: "{university.bubbleboat.subtitle}"
+			description: [
+				"{university.bubbleboat.desc1}"
+				""
+				"{university.bubbleboat.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6DA339BEEA59FBBC"
+				"31DB7EADF779D179"
+				"2B5E8435C806FD24"
+			]
+			size: 0.5d
+			id: "4A19B306A1594F9E"
+			tasks: [{
+				id: "5D927563FA4426D9"
+				type: "item"
+				item: "mana-and-artifice:bubble_boat"
+			}]
+		}
+		{
+			x: -5.25d
+			y: 2.25d
+			subtitle: "{university.amuletward.subtitle}"
+			description: ["{university.amuletward.desc}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"6DA339BEEA59FBBC"
+				"31DB7EADF779D179"
+				"2B5E8435C806FD24"
+			]
+			size: 0.5d
+			id: "1D327D99476E83BB"
+			tasks: [{
+				id: "70591476E7C0BABC"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:warding_amulet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.25d
+			y: 2.75d
+			subtitle: "{university.battlemage.subtitle}"
+			description: ["{university.battlemage.desc}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"6DA339BEEA59FBBC"
+				"2B5E8435C806FD24"
+				"31DB7EADF779D179"
+			]
+			size: 0.5d
+			id: "51D4FC0F7F3BA6C3"
+			tasks: [{
+				id: "2200ED84880E853A"
+				type: "item"
+				item: "mana-and-artifice:battlemage_amulet"
+			}]
+		}
+		{
+			x: -5.25d
+			y: 3.25d
+			subtitle: "{university.brimstonecharm.subtitle}"
+			description: [
+				"{university.brimstonecharm.desc1}"
+				""
+				"{university.brimstonecharm.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"6DA339BEEA59FBBC"
+				"2B5E8435C806FD24"
+				"31DB7EADF779D179"
+			]
+			size: 0.5d
+			id: "6B3BBF5839291B4A"
+			tasks: [{
+				id: "242F7D5C45E8C189"
+				type: "item"
+				item: "mana-and-artifice:brimstone_charm"
+			}]
+		}
+		{
+			x: -5.25d
+			y: 3.75d
+			subtitle: "{university.transitorytunnel.subtitle}"
+			description: ["{university.transitorytunnel.desc}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"6DA339BEEA59FBBC"
+				"2B5E8435C806FD24"
+				"31DB7EADF779D179"
+			]
+			size: 0.5d
+			id: "653E34FE60ABFD5B"
+			tasks: [{
+				id: "5BECE5151CD5A233"
+				type: "item"
+				item: "mana-and-artifice:transitory_tunnel"
+			}]
+		}
+		{
+			title: "{university.ironbell.title}"
+			icon: "mana-and-artifice:mark_of_the_nether"
+			x: -1.5d
+			y: 6.0d
+			subtitle: "{university.ironbell.subtitle}"
+			description: [
+				"{university.ironbell.desc1}"
+				""
+				"{university.ironbell.desc2}"
+				""
+				"{university.ironbell.desc3}"
+				""
+				"{university.ironbell.desc4}"
+				""
+				"{university.ironbell.desc5}"
+				""
+				"{university.ironbell.desc6}"
+			]
+			dependencies: ["2B5E8435C806FD24"]
+			min_width: 250
+			id: "782F4B8C1FAB7175"
+			tasks: [{
+				id: "3CEFE8985D9ADEDC"
+				type: "item"
+				title: "{university.ironbell.task1}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:mark_of_the_fey"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:mark_of_the_council"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:mark_of_the_nether"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:mark_of_the_undead"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "20D9E463CA643D1A"
+				type: "loot"
+				table_id: 5220743879391391054L
+			}]
+		}
+		{
+			title: "{university.hellfirestaff.title}"
+			x: -0.75d
+			y: 7.5d
+			subtitle: "{university.hellfirestaff.subtitle}"
+			description: [
+				"{university.hellfirestaff.desc1}"
+				""
+				"{university.hellfirestaff.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B5E8435C806FD24"]
+			size: 0.5d
+			id: "5C31456F6922CF34"
+			tasks: [{
+				id: "358E20ACA58C280F"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:hellfire_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+						spell: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -0.25d
+			y: 7.5d
+			subtitle: "{university.arcanecrown.subtitle}"
+			description: ["{university.arcanecrown.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["2B5E8435C806FD24"]
+			size: 0.5d
+			id: "028A106FA868D1EE"
+			tasks: [{
+				id: "627BC11150A3445C"
+				type: "item"
+				item: "mana-and-artifice:arcane_crown"
+			}]
+		}
+		{
+			x: 0.25d
+			y: 7.5d
+			subtitle: "{university.spectralelytra.subtitle}"
+			description: [
+				"{university.spectralelytra.desc1}"
+				""
+				"{university.spectralelytra.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B5E8435C806FD24"]
+			size: 0.5d
+			id: "712C0141FBFF490E"
+			tasks: [{
+				id: "14809C8F81B8C541"
+				type: "item"
+				item: "mana-and-artifice:spectral_elytra"
+			}]
+		}
+		{
+			x: 1.25d
+			y: 1.25d
+			subtitle: "{university.beltoflocks.subtitle}"
+			description: ["{university.beltoflocks.desc}"]
+			hide_dependency_lines: true
+			dependencies: [
+				"6DA339BEEA59FBBC"
+				"7C39C3AB18662905"
+				"31DB7EADF779D179"
+			]
+			size: 0.5d
+			id: "4B51D248254EF0E9"
+			tasks: [{
+				id: "7EA7F0B5FE0E27D5"
+				type: "item"
+				item: "mana-and-artifice:affinity_lock_belt"
+			}]
+		}
+		{
+			title: "{university.runedoubling.title}"
+			icon: "mana-and-artifice:chimerite_crystal_orange"
+			x: 4.25d
+			y: 0.0d
+			subtitle: "{university.runedoubling.subtitle}"
+			description: [
+				"{university.runedoubling.desc1}"
+				""
+				"{university.runedoubling.desc2}"
+			]
+			dependencies: ["79A3D8669B64D575"]
+			size: 0.5d
+			id: "3CD22D023EE6A4E0"
+			tasks: [
+				{
+					id: "63551C26DE458731"
+					type: "item"
+					item: "mana-and-artifice:pedestal"
+					count: 2L
+				}
+				{
+					id: "6FB2C2DE0EEC0AF5"
+					type: "item"
+					title: "{university.runedoubling.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:chimerite_crystal_red"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_yellow"
+									Count: 1b
+								}
+								{
+									id: "mana-and-artifice:chimerite_crystal_orange"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "{university.runeenchants.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 4.25d
+			y: 3.0d
+			subtitle: "{university.runeenchants.subtitle}"
+			description: [
+				"{university.runeenchants.desc1}"
+				""
+				"{university.runeenchants.desc2}"
+				""
+				"{university.runeenchants.desc3}"
+				""
+				"{university.runeenchants.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"31DB7EADF779D179"
+				"6DA339BEEA59FBBC"
+			]
+			size: 0.5d
+			min_width: 275
+			id: "17EA34CB70F00790"
+			tasks: [{
+				id: "701C9BBF43D9EA40"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.uniqueruneenchants.title}"
+			icon: "mana-and-artifice:rune_earth"
+			x: 4.75d
+			y: 3.25d
+			subtitle: "{university.uniqueruneenchants.subtitle}"
+			description: [
+				"{university.uniqueruneenchants.desc1}"
+				""
+				"{university.uniqueruneenchants.desc2}"
+				""
+				"{university.uniqueruneenchants.desc3}"
+			]
+			dependencies: ["17EA34CB70F00790"]
+			size: 0.5d
+			id: "69637A7B3AE7915E"
+			tasks: [
+				{
+					id: "77BE624E417C8D7D"
+					type: "item"
+					title: "{university.uniqueruneenchants.task1}"
+					item: {
+						id: "mana-and-artifice:rune_earth"
+						Count: 1b
+						tag: {
+							Enchantments: [{
+								lvl: 1s
+								id: "mana-and-artifice:bouncing"
+							}]
+						}
+					}
+				}
+				{
+					id: "3BA492A1E034FCCD"
+					type: "item"
+					title: "{university.uniqueruneenchants.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:rune_air"
+									Count: 1b
+									tag: {
+										Enchantments: [{
+											lvl: 1s
+											id: "mana-and-artifice:cloudstep"
+										}]
+									}
+								}
+								{
+									id: "mana-and-artifice:rune_air"
+									Count: 1b
+									tag: {
+										Enchantments: [{
+											lvl: 2s
+											id: "mana-and-artifice:cloudstep"
+										}]
+									}
+								}
+								{
+									id: "mana-and-artifice:rune_air"
+									Count: 1b
+									tag: {
+										Enchantments: [{
+											lvl: 3s
+											id: "mana-and-artifice:cloudstep"
+										}]
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "7C8F1191339D7B81"
+					type: "item"
+					title: "{university.uniqueruneenchants.task3}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mana-and-artifice:rune_air"
+									Count: 1b
+									tag: {
+										Enchantments: [{
+											lvl: 1s
+											id: "minecraft:multishot"
+										}]
+									}
+								}
+								{
+									id: "mana-and-artifice:rune_air"
+									Count: 1b
+									tag: {
+										Enchantments: [{
+											lvl: 1s
+											id: "minecraft:quick_charge"
+										}]
+									}
+								}
+								{
+									id: "mana-and-artifice:rune_air"
+									Count: 1b
+									tag: {
+										Enchantments: [{
+											lvl: 2s
+											id: "minecraft:quick_charge"
+										}]
+									}
+								}
+								{
+									id: "mana-and-artifice:rune_air"
+									Count: 1b
+									tag: {
+										Enchantments: [{
+											lvl: 3s
+											id: "minecraft:quick_charge"
+										}]
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "mana-and-artifice:faction_horn_council"
+			x: 1.5d
+			y: 6.0d
+			subtitle: "{university.factionhorns.subtitle}"
+			description: [
+				"{university.factionhorns.desc1}"
+				""
+				"{university.factionhorns.desc2}"
+				""
+				"{university.factionhorns.desc3}"
+			]
+			dependencies: ["2B5E8435C806FD24"]
+			id: "437C5C06502A2703"
+			tasks: [{
+				id: "61B7F995E30B6C18"
+				type: "item"
+				title: "{university.factionhorns.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:faction_horn_council"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:faction_horn_demons"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:faction_horn_fey"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:faction_horn_undead"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 7.0d
+			subtitle: "{university.coffin.subtitle}"
+			description: ["{university.coffin.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["2B5E8435C806FD24"]
+			size: 0.5d
+			id: "27D17E4ED16203AF"
+			tasks: [{
+				id: "05CBB92D99AF01BE"
+				type: "item"
+				item: "mana-and-artifice:coffin"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 7.5d
+			subtitle: "{university.brittlebone.subtitle}"
+			description: ["{university.brittlebone.desc}"]
+			hide_dependency_lines: true
+			dependencies: ["2B5E8435C806FD24"]
+			size: 0.5d
+			id: "74EC37F445EFC519"
+			tasks: [{
+				id: "6E6E6174DCDA9393"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:bone_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

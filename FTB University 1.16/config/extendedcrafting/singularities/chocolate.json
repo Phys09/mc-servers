@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.chocolate",
+  "colors": [
+    "D37654",
+    "6E3235"
+  ],
+  "ingredient": {
+    "item": "create:bar_of_chocolate"
+  }
+}

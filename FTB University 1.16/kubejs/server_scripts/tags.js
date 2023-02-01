@@ -1,0 +1,33 @@
+onEvent('item.tags', tag => {
+    tag.add("ftbuniversity:etech_botania",[
+        "botania:light_blue_mystical_flower",
+        "botania:gray_mystical_flower",
+        "botania:yellow_mystical_flower",
+        "botania:orange_mystical_flower",
+        "botania:brown_mystical_flower",
+        "botania:cyan_mystical_flower",
+        "botania:pink_mystical_flower",
+        "botania:green_mystical_flower",
+        "botania:light_gray_mystical_flower",
+        "botania:red_mystical_flower",
+        "botania:blue_mystical_flower",
+        "botania:purple_mystical_flower",
+        "botania:black_mystical_flower",
+        "botania:white_mystical_flower",
+        "botania:lime_mystical_flower",
+        "botania:magenta_mystical_flower",
+    ])
+
+    tag.add("quark:ladders",[
+        'betterendforge:mossy_glowshroom_ladder',
+        'betterendforge:lacugrove_ladder',
+        'betterendforge:end_lotus_ladder',
+        'betterendforge:pythadendron_ladder',
+        'betterendforge:dragon_tree_ladder',
+        'betterendforge:tenanea_ladder',
+        'betterendforge:helix_tree_ladder',
+        'betterendforge:umbrella_tree_ladder',
+        'betterendforge:jellyshroom_ladder',
+        'betterendforge:lucernia_ladder',
+    ])
+})

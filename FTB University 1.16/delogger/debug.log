@@ -1,0 +1,1116 @@
+[21Sep2021 12:15:55.852] [main/INFO] [com.unrealdinnerbone.delogger.LoggerHacks/]: !!! SOME LOGGERS HAVE MOVED TO THE DEBUG FILE (Please Include them in your bug reports) !!!
+[21Sep2021 12:15:57.509] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[21Sep2021 12:15:58.245] [main/INFO] [FerriteCore - class definer/]: Using Java 8 class definer
+[21Sep2021 12:16:01.180] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[21Sep2021 12:16:08.240] [modloading-worker-1/WARN] [ReAuth/]: #########################################
+[21Sep2021 12:16:08.245] [modloading-worker-1/WARN] [ReAuth/]: #      ReAuth was loaded on Server      #
+[21Sep2021 12:16:08.246] [modloading-worker-1/WARN] [ReAuth/]: # Consider removing it to save some RAM #
+[21Sep2021 12:16:08.247] [modloading-worker-1/WARN] [ReAuth/]: #########################################
+[21Sep2021 12:16:08.387] [modloading-worker-0/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[21Sep2021 12:16:08.561] [modloading-worker-0/WARN] [Simple Discord Rich Presence/]: This is a client only mod!
+[21Sep2021 12:16:08.742] [modloading-worker-1/INFO] [ipsis.woot.setup.ModSetup/]: InfuserSetup: register
+[21Sep2021 12:16:08.760] [modloading-worker-1/INFO] [ipsis.woot.setup.ModSetup/]: SqueezerSetup: register
+[21Sep2021 12:16:08.768] [modloading-worker-1/INFO] [ipsis.woot.setup.ModSetup/]: OracleSetup: register
+[21Sep2021 12:16:08.800] [modloading-worker-13/INFO] [com.wuest.prefab.Prefab/]: Built TOML config for C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\config\prefab.toml
+[21Sep2021 12:16:08.809] [modloading-worker-13/INFO] [com.wuest.prefab.Prefab/]: Loaded TOML config file C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\config\prefab.toml
+[21Sep2021 12:16:08.816] [modloading-worker-14/INFO] [corgitaco.upstream.Upstream/]: Loading config: C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\config\upstream\upstream-noise.toml
+[21Sep2021 12:16:08.969] [modloading-worker-1/INFO] [ipsis.woot.setup.ModSetup/]: FactorySetup: register
+[21Sep2021 12:16:09.008] [modloading-worker-1/INFO] [ipsis.woot.setup.ModSetup/]: LayoutSetup: register
+[21Sep2021 12:16:09.058] [modloading-worker-1/INFO] [ipsis.woot.setup.ModSetup/]: AnvilSetup: register
+[21Sep2021 12:16:09.056] [modloading-worker-13/INFO] [mysticmods.mysticalworld.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Sep2021 12:16:09.109] [modloading-worker-1/INFO] [ipsis.woot.setup.ModSetup/]: FluidSetup: register
+[21Sep2021 12:16:09.123] [modloading-worker-1/INFO] [ipsis.woot.setup.ModSetup/]: ToolsSetup: register
+[21Sep2021 12:16:09.137] [modloading-worker-1/INFO] [ipsis.woot.setup.ModSetup/]: DebugSetup: register
+[21Sep2021 12:16:09.146] [modloading-worker-6/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Disabled because not running on the client.
+[21Sep2021 12:16:09.154] [modloading-worker-1/INFO] [ipsis.woot.setup.ModSetup/]: GenericSetup: register
+[21Sep2021 12:16:09.202] [modloading-worker-1/INFO] [ipsis.woot.setup.ModSetup/]: FluidConvertor: register
+[21Sep2021 12:16:10.441] [modloading-worker-10/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
+[21Sep2021 12:16:11.147] [modloading-worker-9/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.2, for MC 1.16.5 with MCP 20210115.111550
+[21Sep2021 12:16:11.151] [modloading-worker-9/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.2 Initialized
+[21Sep2021 12:16:11.684] [modloading-worker-9/INFO] [STDOUT/]: [cofh.core.init.CoreConfig:genClientConfig:110]: Client config gen
+[21Sep2021 12:16:11.773] [modloading-worker-5/INFO] [TerraForged/]: Environment: dev=false, stable=true, vanilla=false
+[21Sep2021 12:16:11.787] [modloading-worker-5/INFO] [TerraForged/]: Signature:  7b:73:d0:a2:c3:40:13:84:35:4f:c9:0e:2b:85:8c:08:ea:3c:3c:eb:f1:98:8b:5b:6e:ca:8a:a0:9a:cf:12:b3
+[21Sep2021 12:16:11.794] [modloading-worker-5/INFO] [TerraForged/]: Trust Data: CN=TerraForged self-signed
+[21Sep2021 12:16:11.821] [modloading-worker-5/INFO] [TerraForged/]: Initializing tags
+[21Sep2021 12:16:12.034] [modloading-worker-15/INFO] [Stalker Creepers/]: dummy instanced! Needed because FML otherwise complains about a missing mod
+[21Sep2021 12:16:12.890] [modloading-worker-9/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Registering all blocks and items from BlockCarpentry
+[21Sep2021 12:16:13.248] [modloading-worker-9/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering blocks from BlockCarpentry
+[21Sep2021 12:16:13.354] [modloading-worker-9/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering items from BlockCarpentry
+[21Sep2021 12:16:13.355] [modloading-worker-9/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering tiles from BlockCarpentry
+[21Sep2021 12:16:13.356] [modloading-worker-9/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering containers from BlockCarpentry
+[21Sep2021 12:16:13.356] [modloading-worker-9/INFO] [mod.pianomanu.blockcarpentry.setup.Registration/]: Registering points of interest from Blockcarpentry
+[21Sep2021 12:16:13.357] [modloading-worker-9/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Registered all blocks and items from BlockCarpentry
+[21Sep2021 12:16:13.643] [modloading-worker-15/WARN] [net.minecraftforge.server.permission.PermissionAPI/]: Replacing net.minecraftforge.server.permission.DefaultPermissionHandler with dev.ftb.mods.ftbranks.forge.PermissionAPIWrapper
+[21Sep2021 12:16:13.744] [Hats Hat Reader Thread/INFO] [me.ichun.mods.hats.common.Hats/]: Loaded 488 files. 213 hats, 275 accessories.
+[21Sep2021 12:16:13.789] [modloading-worker-8/INFO] [epicfight/]: Load Configuration File
+[21Sep2021 12:16:13.804] [modloading-worker-8/INFO] [epicfight/]: Load Configuration File
+[21Sep2021 12:16:13.990] [modloading-worker-3/INFO] [pneumaticcraft/]: Thirdparty integration activated for [botania,theoneprobe,mekanism,cofh_core,immersiveengineering,curios,patchouli,appliedenergistics2,jei]
+[21Sep2021 12:16:14.343] [modloading-worker-11/INFO] [twilightforest/]: Loaded compatibility for mod immersiveengineering.
+[21Sep2021 12:16:14.384] [modloading-worker-7/INFO] [com.simibubi.create.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Sep2021 12:16:14.673] [modloading-worker-1/ERROR] [toastcontrol/]: Running on a dedicated server, disabling mod.
+[21Sep2021 12:16:14.725] [modloading-worker-5/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[21Sep2021 12:16:14.849] [modloading-worker-4/INFO] [com.ma.ManaAndArtifice/]: M&A -> Config Loaded
+[21Sep2021 12:16:14.932] [modloading-worker-5/INFO] [KubeJS/]: Found kubejs plugin
+[21Sep2021 12:16:15.087] [modloading-worker-5/INFO] [KubeJS/]: Found kubejs_tinkers plugin
+[21Sep2021 12:16:15.135] [modloading-worker-5/INFO] [KubeJS/]: Found kubejs_create plugin
+[21Sep2021 12:16:15.166] [modloading-worker-5/INFO] [KubeJS/]: Found kubejs_mekanism plugin
+[21Sep2021 12:16:15.219] [modloading-worker-5/INFO] [KubeJS/]: Found ftbchunks plugin
+[21Sep2021 12:16:15.255] [modloading-worker-5/INFO] [KubeJS/]: Done in 0 s
+[21Sep2021 12:16:15.592] [modloading-worker-13/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Forge
+[21Sep2021 12:16:15.600] [modloading-worker-5/INFO] [KubeJS/]: Loaded common.properties
+[21Sep2021 12:16:15.715] [modloading-worker-13/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Vanilla
+[21Sep2021 12:16:15.748] [modloading-worker-13/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Storage Drawers
+[21Sep2021 12:16:15.758] [modloading-worker-1/INFO] [Charm/INTERNAL]: Setting up a new Charm-based module 'charm'
+[21Sep2021 12:16:15.824] [modloading-worker-13/INFO] [io.github.drmanganese.topaddons.TopAddons/]: Registered addon Bloodmagic
+[21Sep2021 12:16:15.831] [modloading-worker-1/INFO] [Charm/INTERNAL]: Subscribed 'charm' to Forge event bus
+[21Sep2021 12:16:15.843] [modloading-worker-3/INFO] [wile.engineersdecor.ModEngineersDecor/]: Engineer's Decor GIT id #cc23672.
+[21Sep2021 12:16:15.964] [modloading-worker-11/INFO] [team.chisel.repack.registrate.AbstractRegistrate/]: Detected new forge version, registering events reflectively.
+[21Sep2021 12:16:15.998] [modloading-worker-3/INFO] [expandability/]: ExpandAbility here, who dis?
+[21Sep2021 12:16:16.509] [modloading-worker-12/INFO] [STDOUT/]: [wayoftime.bloodmagic.structures.DungeonRoomLoader:loadDungeons:69]: # schematics: 5
+[21Sep2021 12:16:17.049] [modloading-worker-1/INFO] [Charm/INTERNAL]: Loaded Quark compatibility class
+[21Sep2021 12:16:17.747] [modloading-worker-4/INFO] [com.ma.ManaAndArtifice/]: M&A -> Mod Event Bus Handlers Registered
+[21Sep2021 12:16:18.002] [modloading-worker-5/INFO] [KubeJS Startup/]: Loaded script startup_scripts:custom_items.js in 0.497 s
+[21Sep2021 12:16:18.047] [modloading-worker-5/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 1.469 s
+[21Sep2021 12:16:19.498] [main/INFO] [com.ma.ManaAndArtifice/]: Finished registering registries!
+[21Sep2021 12:16:20.362] [main/INFO] [ipsis.woot.setup.ModSetup/]: registerBlocks
+[21Sep2021 12:16:21.460] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Blocks registered!
+[21Sep2021 12:16:24.761] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Immersive Engineering also installed ...
+[21Sep2021 12:16:24.762] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Registered 118 blocks.
+[21Sep2021 12:16:24.949] [main/INFO] [ipsis.woot.setup.ModSetup/]: registerItems
+[21Sep2021 12:16:25.148] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Items registered!
+[21Sep2021 12:16:25.724] [main/INFO] [patchouli/]: Loaded book jsons on Thread[main,5,main] in 428 ms
+[21Sep2021 12:16:26.347] [main/INFO] [com.ma.ManaAndArtifice/]: M&A -> Block Items Registered
+[21Sep2021 12:16:26.493] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:122]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/melee_damage.json, path: /data/bloodmagic/anointment/melee_damage.json
+[21Sep2021 12:16:26.512] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:122]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/holy_water.json, path: /data/bloodmagic/anointment/holy_water.json
+[21Sep2021 12:16:26.514] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:122]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/hidden_knowledge.json, path: /data/bloodmagic/anointment/hidden_knowledge.json
+[21Sep2021 12:16:26.516] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:122]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/quick_draw.json, path: /data/bloodmagic/anointment/quick_draw.json
+[21Sep2021 12:16:26.517] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.AnointmentRegistrar:parseDefinition:122]: Attempting to load Anointment: modjar://bloodmagic/data/bloodmagic/anointment/bow_power.json, path: /data/bloodmagic/anointment/bow_power.json
+[21Sep2021 12:16:26.526] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/arrow_protect.json, path: /data/bloodmagic/living_armor/arrow_protect.json
+[21Sep2021 12:16:26.540] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/fall_protect.json, path: /data/bloodmagic/living_armor/fall_protect.json
+[21Sep2021 12:16:26.542] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/physical_protect.json, path: /data/bloodmagic/living_armor/physical_protect.json
+[21Sep2021 12:16:26.544] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/jump.json, path: /data/bloodmagic/living_armor/jump.json
+[21Sep2021 12:16:26.546] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/health.json, path: /data/bloodmagic/living_armor/health.json
+[21Sep2021 12:16:26.549] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/experienced.json, path: /data/bloodmagic/living_armor/experienced.json
+[21Sep2021 12:16:26.551] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/sprint_attack.json, path: /data/bloodmagic/living_armor/sprint_attack.json
+[21Sep2021 12:16:26.554] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/self_sacrifice.json, path: /data/bloodmagic/living_armor/self_sacrifice.json
+[21Sep2021 12:16:26.555] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/speed.json, path: /data/bloodmagic/living_armor/speed.json
+[21Sep2021 12:16:26.557] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/poison_resist.json, path: /data/bloodmagic/living_armor/poison_resist.json
+[21Sep2021 12:16:26.559] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/fire_resist.json, path: /data/bloodmagic/living_armor/fire_resist.json
+[21Sep2021 12:16:26.560] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/digging.json, path: /data/bloodmagic/living_armor/digging.json
+[21Sep2021 12:16:26.562] [main/INFO] [STDOUT/]: [wayoftime.bloodmagic.core.LivingArmorRegistrar:parseDefinition:177]: Attempting to load Living Armour Upgrade: modjar://bloodmagic/data/bloodmagic/living_armor/knockback_resist.json, path: /data/bloodmagic/living_armor/knockback_resist.json
+[21Sep2021 12:16:26.703] [main/INFO] [ipsis.woot.setup.ModSetup/]: registerLootModifierSerializer
+[21Sep2021 12:16:26.712] [main/INFO] [Bookshelf/]: Registered 11 GlobalLootModifierSerializer entries in 0.35ms.
+[21Sep2021 12:16:26.735] [main/INFO] [TerraForged/]: Registering level types
+[21Sep2021 12:16:26.836] [main/INFO] [com.ma.ManaAndArtifice/]: M&A -> Ritual Effects Registered
+[21Sep2021 12:16:26.927] [main/INFO] [ipsis.woot.setup.ModSetup/]: registerTileEntities
+[21Sep2021 12:16:27.061] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Block Entities registered!
+[21Sep2021 12:16:27.215] [main/INFO] [wayoftime.bloodmagic.BloodMagic/]: Attempting to register Tile Entities
+[21Sep2021 12:16:27.312] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Registered 18 tile entities.
+[21Sep2021 12:16:27.334] [main/INFO] [ipsis.woot.setup.ModSetup/]: registerEnchantments
+[21Sep2021 12:16:27.414] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Entities registered!
+[21Sep2021 12:16:27.754] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Registered 1 entities bound to blocks.
+[21Sep2021 12:16:27.849] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Block Entities registered!
+[21Sep2021 12:16:28.135] [main/INFO] [com.ma.ManaAndArtifice/]: M&A -> Containers Registered
+[21Sep2021 12:16:28.154] [main/INFO] [wile.engineersdecor.ModEngineersDecor/]: Registered 8 containers bound to tile entities.
+[21Sep2021 12:16:28.281] [main/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.client.particle.ModParticles:registerParticles:23]: Rendering particles
+[21Sep2021 12:16:28.349] [main/INFO] [com.ma.ManaAndArtifice/]: M&A -> Villager POI Registered
+[21Sep2021 12:16:28.404] [main/INFO] [ipsis.woot.setup.ModSetup/]: registerRecipeSerializer
+[21Sep2021 12:16:28.555] [main/INFO] [Bookshelf/]: Registered 22 ingredient serializers.
+[21Sep2021 12:16:28.556] [main/INFO] [Bookshelf/]: Registered 5 IRecipeSerializer entries in 0.14ms.
+[21Sep2021 12:16:28.933] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Sounds registered!
+[21Sep2021 12:16:28.951] [main/INFO] [com.ma.ManaAndArtifice/]: M&A -> Villager Professions Registered
+[21Sep2021 12:16:29.148] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:the_end has been registered twice for the same name minecraft:the_end.
+[21Sep2021 12:16:29.148] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_barrens has been registered twice for the same name minecraft:end_barrens.
+[21Sep2021 12:16:29.149] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:small_end_islands has been registered twice for the same name minecraft:small_end_islands.
+[21Sep2021 12:16:29.149] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_midlands has been registered twice for the same name minecraft:end_midlands.
+[21Sep2021 12:16:29.149] [main/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:worldgen/biome: The object minecraft:end_highlands has been registered twice for the same name minecraft:end_highlands.
+[21Sep2021 12:16:30.239] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Biomes registered!
+[21Sep2021 12:16:30.271] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Registering block placer types!
+[21Sep2021 12:16:30.294] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Decorators registered!
+[21Sep2021 12:16:30.294] [main/INFO] [TerraForged/]: Registering decorators
+[21Sep2021 12:16:30.350] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Features registered!
+[21Sep2021 12:16:30.351] [main/INFO] [TerraForged/]: Registering features
+[21Sep2021 12:16:30.454] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Structures registered!
+[21Sep2021 12:16:30.771] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Surface builders Registered!
+[21Sep2021 12:16:31.268] [main/INFO] [quark/]: Loading Module Chain Linkage
+[21Sep2021 12:16:31.270] [main/INFO] [quark/]: Loading Module Chains Connect Blocks
+[21Sep2021 12:16:31.270] [main/INFO] [quark/]: Loading Module Chute
+[21Sep2021 12:16:31.270] [main/INFO] [quark/]: Loading Module Color Slime
+[21Sep2021 12:16:31.270] [main/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[21Sep2021 12:16:31.271] [main/INFO] [quark/]: Loading Module Ender Watcher
+[21Sep2021 12:16:31.271] [main/INFO] [quark/]: Loading Module Endermites Form Shulkers
+[21Sep2021 12:16:31.272] [main/INFO] [quark/]: Loading Module Feeding Trough
+[21Sep2021 12:16:31.273] [main/INFO] [quark/]: Loading Module Gravisand
+[21Sep2021 12:16:31.273] [main/INFO] [quark/]: Loading Module Iron Rod
+[21Sep2021 12:16:31.273] [main/INFO] [quark/]: Loading Module Jukebox Automation
+[21Sep2021 12:16:31.276] [main/INFO] [quark/]: Loading Module Metal Buttons
+[21Sep2021 12:16:31.276] [main/INFO] [quark/]: Loading Module Obsidian Plate
+[21Sep2021 12:16:31.277] [main/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[21Sep2021 12:16:31.279] [main/INFO] [quark/]: Loading Module Redstone Circuit
+[21Sep2021 12:16:31.280] [main/INFO] [quark/]: Loading Module Weather Sensor
+[21Sep2021 12:16:31.280] [main/INFO] [quark/]: Loading Module Bamboo Mat
+[21Sep2021 12:16:31.280] [main/INFO] [quark/]: Loading Module Burn Vines
+[21Sep2021 12:16:31.281] [main/INFO] [quark/]: Loading Module Celebratory Lamps
+[21Sep2021 12:16:31.281] [main/INFO] [quark/]: Loading Module Cobblestone Bricks
+[21Sep2021 12:16:31.281] [main/INFO] [quark/]: Loading Module Compressed Blocks
+[21Sep2021 12:16:31.281] [main/INFO] [quark/]: Loading Module Duskbound Blocks
+[21Sep2021 12:16:31.282] [main/INFO] [quark/]: Loading Module Framed Glass
+[21Sep2021 12:16:31.282] [main/INFO] [quark/]: Loading Module Gold Bars
+[21Sep2021 12:16:31.282] [main/INFO] [quark/]: Loading Module Grate
+[21Sep2021 12:16:31.282] [main/INFO] [quark/]: Loading Module Hedges
+[21Sep2021 12:16:31.283] [main/INFO] [quark/]: Loading Module Iron Plates
+[21Sep2021 12:16:31.283] [main/INFO] [quark/]: Loading Module Item Frames
+[21Sep2021 12:16:31.283] [main/INFO] [quark/]: Loading Module Leaf Carpet
+[21Sep2021 12:16:31.283] [main/INFO] [quark/]: Loading Module Lit Lamp
+[21Sep2021 12:16:31.283] [main/INFO] [quark/]: Loading Module Midori
+[21Sep2021 12:16:31.284] [main/INFO] [quark/]: Loading Module More Brick Types
+[21Sep2021 12:16:31.285] [main/INFO] [quark/]: Loading Module More Potted Plants
+[21Sep2021 12:16:31.285] [main/INFO] [quark/]: Loading Module More Stone Variants
+[21Sep2021 12:16:31.285] [main/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[21Sep2021 12:16:31.286] [main/INFO] [quark/]: Loading Module Paper Decor
+[21Sep2021 12:16:31.286] [main/INFO] [quark/]: Loading Module Quilted Wool
+[21Sep2021 12:16:31.286] [main/INFO] [quark/]: Loading Module Rope
+[21Sep2021 12:16:31.287] [main/INFO] [quark/]: Loading Module Shallow Dirt
+[21Sep2021 12:16:31.287] [main/INFO] [quark/]: Loading Module Shingles
+[21Sep2021 12:16:31.287] [main/INFO] [quark/]: Loading Module Soul Sandstone
+[21Sep2021 12:16:31.288] [main/INFO] [quark/]: Loading Module Stained Planks
+[21Sep2021 12:16:31.288] [main/INFO] [quark/]: Loading Module Stools
+[21Sep2021 12:16:31.289] [main/INFO] [quark/]: Loading Module Sturdy Stone
+[21Sep2021 12:16:31.289] [main/INFO] [quark/]: Loading Module Tallow And Candles
+[21Sep2021 12:16:31.289] [main/INFO] [quark/]: Loading Module Thatch
+[21Sep2021 12:16:31.289] [main/INFO] [quark/]: Loading Module Tie Leads To Fences
+[21Sep2021 12:16:31.291] [main/INFO] [quark/]: Loading Module Turf
+[21Sep2021 12:16:31.291] [main/INFO] [quark/]: Loading Module Variant Bookshelves
+[21Sep2021 12:16:31.291] [main/INFO] [quark/]: Loading Module Variant Chests
+[21Sep2021 12:16:31.291] [main/INFO] [quark/]: Loading Module Variant Ladders
+[21Sep2021 12:16:31.291] [main/INFO] [quark/]: Loading Module Vertical Planks
+[21Sep2021 12:16:31.292] [main/INFO] [quark/]: Loading Module Vertical Slabs
+[21Sep2021 12:16:31.292] [main/INFO] [quark/]: Loading Module Wooden Posts
+[21Sep2021 12:16:31.292] [main/INFO] [quark/]: Loading Module Chests In Boats
+[21Sep2021 12:16:31.293] [main/INFO] [quark/]: Loading Module Easy Transfering
+[21Sep2021 12:16:31.293] [main/INFO] [quark/]: Loading Module Hotbar Changer
+[21Sep2021 12:16:31.293] [main/INFO] [quark/]: Loading Module Inventory Sorting
+[21Sep2021 12:16:31.293] [main/INFO] [quark/]: Loading Module Item Sharing
+[21Sep2021 12:16:31.294] [main/INFO] [quark/]: Loading Module Right Click Armor
+[21Sep2021 12:16:31.294] [main/INFO] [quark/]: Loading Module Shulker Box Right Click
+[21Sep2021 12:16:31.295] [main/INFO] [quark/]: Loading Module Abacus
+[21Sep2021 12:16:31.296] [main/INFO] [quark/]: Loading Module Ambient Discs
+[21Sep2021 12:16:31.296] [main/INFO] [quark/]: Loading Module Ancient Tomes
+[21Sep2021 12:16:31.297] [main/INFO] [quark/]: Loading Module Bottled Cloud
+[21Sep2021 12:16:31.297] [main/INFO] [quark/]: Loading Module Camera
+[21Sep2021 12:16:31.298] [main/INFO] [quark/]: Loading Module Color Runes
+[21Sep2021 12:16:31.298] [main/INFO] [quark/]: Loading Module Pathfinder Maps
+[21Sep2021 12:16:31.299] [main/INFO] [quark/]: Loading Module Pickarang
+[21Sep2021 12:16:31.299] [main/INFO] [quark/]: Loading Module Seed Pouch
+[21Sep2021 12:16:31.300] [main/INFO] [quark/]: Loading Module Slime In A Bucket
+[21Sep2021 12:16:31.301] [main/INFO] [quark/]: Loading Module Trowel
+[21Sep2021 12:16:31.301] [main/INFO] [quark/]: Loading Module Skull Pikes
+[21Sep2021 12:16:31.301] [main/INFO] [quark/]: Loading Module Armed Armor Stands
+[21Sep2021 12:16:31.302] [main/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[21Sep2021 12:16:31.302] [main/INFO] [quark/]: Loading Module Axe Leaf Harvesting
+[21Sep2021 12:16:31.303] [main/INFO] [quark/]: Loading Module Better Elytra Rocket
+[21Sep2021 12:16:31.303] [main/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[21Sep2021 12:16:31.304] [main/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[21Sep2021 12:16:31.304] [main/INFO] [quark/]: Loading Module Dirt To Path
+[21Sep2021 12:16:31.305] [main/INFO] [quark/]: Loading Module Double Door Opening
+[21Sep2021 12:16:31.305] [main/INFO] [quark/]: Loading Module Dragon Scales
+[21Sep2021 12:16:31.306] [main/INFO] [quark/]: Loading Module Emotes
+[21Sep2021 12:16:31.306] [main/INFO] [quark/]: Loading Module Enhanced Ladders
+[21Sep2021 12:16:31.307] [main/INFO] [quark/]: Loading Module Glass Shard
+[21Sep2021 12:16:31.307] [main/INFO] [quark/]: Loading Module Hoe Harvesting
+[21Sep2021 12:16:31.308] [main/INFO] [quark/]: Loading Module Improved Sleeping
+[21Sep2021 12:16:31.309] [main/INFO] [quark/]: Loading Module Infinity Bucket
+[21Sep2021 12:16:31.309] [main/INFO] [quark/]: Loading Module Lava Bucket As Trash
+[21Sep2021 12:16:31.310] [main/INFO] [quark/]: Loading Module Lock Rotation
+[21Sep2021 12:16:31.312] [main/INFO] [quark/]: Loading Module More Banner Layers
+[21Sep2021 12:16:31.312] [main/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[21Sep2021 12:16:31.316] [main/INFO] [quark/]: Loading Module Pat The Dogs
+[21Sep2021 12:16:31.317] [main/INFO] [quark/]: Loading Module Poison Potato Usage
+[21Sep2021 12:16:31.318] [main/INFO] [quark/]: Loading Module Reacharound Placing
+[21Sep2021 12:16:31.319] [main/INFO] [quark/]: Loading Module Replace Scaffolding
+[21Sep2021 12:16:31.319] [main/INFO] [quark/]: Loading Module Sign Editing
+[21Sep2021 12:16:31.320] [main/INFO] [quark/]: Loading Module Simple Harvest
+[21Sep2021 12:16:31.320] [main/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[21Sep2021 12:16:31.320] [main/INFO] [quark/]: Loading Module Springy Slime
+[21Sep2021 12:16:31.321] [main/INFO] [quark/]: Loading Module Utility Recipes
+[21Sep2021 12:16:31.321] [main/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[21Sep2021 12:16:31.322] [main/INFO] [quark/]: Loading Module Big Dungeon
+[21Sep2021 12:16:31.322] [main/INFO] [quark/]: Loading Module Big Stone Clusters
+[21Sep2021 12:16:31.323] [main/INFO] [quark/]: Loading Module Biotite
+[21Sep2021 12:16:31.323] [main/INFO] [quark/]: Loading Module Blossom Trees
+[21Sep2021 12:16:31.323] [main/INFO] [quark/]: Loading Module Cave Roots
+[21Sep2021 12:16:31.324] [main/INFO] [quark/]: Loading Module Chorus Vegetation
+[21Sep2021 12:16:31.324] [main/INFO] [quark/]: Loading Module Crevices
+[21Sep2021 12:16:31.324] [main/INFO] [quark/]: Loading Module Deepslate
+[21Sep2021 12:16:31.324] [main/INFO] [quark/]: Loading Module Fairy Rings
+[21Sep2021 12:16:31.324] [main/INFO] [quark/]: Loading Module Mega Caves
+[21Sep2021 12:16:31.325] [main/INFO] [quark/]: Loading Module Monster Box
+[21Sep2021 12:16:31.325] [main/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[21Sep2021 12:16:31.325] [main/INFO] [quark/]: Loading Module New Stone Types
+[21Sep2021 12:16:31.326] [main/INFO] [quark/]: Loading Module Realistic World Gen
+[21Sep2021 12:16:31.327] [main/INFO] [quark/]: Loading Module Speleothems
+[21Sep2021 12:16:31.327] [main/INFO] [quark/]: Loading Module Spiral Spires
+[21Sep2021 12:16:31.327] [main/INFO] [quark/]: Loading Module Underground Clay
+[21Sep2021 12:16:31.328] [main/INFO] [quark/]: Loading Module Brimstone Underground Biome
+[21Sep2021 12:16:31.328] [main/INFO] [quark/]: Loading Module Cave Crystal Underground Biome
+[21Sep2021 12:16:31.328] [main/INFO] [quark/]: Loading Module Elder Prismarine Underground Biome
+[21Sep2021 12:16:31.328] [main/INFO] [quark/]: Loading Module Glowshroom Underground Biome
+[21Sep2021 12:16:31.328] [main/INFO] [quark/]: Loading Module Lush Underground Biome
+[21Sep2021 12:16:31.329] [main/INFO] [quark/]: Loading Module Overgrown Underground Biome
+[21Sep2021 12:16:31.329] [main/INFO] [quark/]: Loading Module Permafrost Underground Biome
+[21Sep2021 12:16:31.329] [main/INFO] [quark/]: Loading Module Sandstone Underground Biome
+[21Sep2021 12:16:31.330] [main/INFO] [quark/]: Loading Module Slime Underground Biome
+[21Sep2021 12:16:31.330] [main/INFO] [quark/]: Loading Module Spider Nest Underground Biome
+[21Sep2021 12:16:31.332] [main/INFO] [quark/]: Loading Module Crabs
+[21Sep2021 12:16:31.332] [main/INFO] [quark/]: Loading Module Forgotten
+[21Sep2021 12:16:31.332] [main/INFO] [quark/]: Loading Module Foxhound
+[21Sep2021 12:16:31.332] [main/INFO] [quark/]: Loading Module Frogs
+[21Sep2021 12:16:31.333] [main/INFO] [quark/]: Loading Module Stonelings
+[21Sep2021 12:16:31.333] [main/INFO] [quark/]: Loading Module Toretoise
+[21Sep2021 12:16:31.333] [main/INFO] [quark/]: Loading Module Wraith
+[21Sep2021 12:16:31.334] [main/INFO] [quark/]: Loading Module Auto Walk Keybind
+[21Sep2021 12:16:31.334] [main/INFO] [quark/]: Loading Module Back Button Keybind
+[21Sep2021 12:16:31.334] [main/INFO] [quark/]: Loading Module Chest Searching
+[21Sep2021 12:16:31.335] [main/INFO] [quark/]: Loading Module Greener Grass
+[21Sep2021 12:16:31.335] [main/INFO] [quark/]: Loading Module Improved Mount Hud
+[21Sep2021 12:16:31.335] [main/INFO] [quark/]: Loading Module Improved Tooltips
+[21Sep2021 12:16:31.335] [main/INFO] [quark/]: Loading Module Usage Ticker
+[21Sep2021 12:16:31.336] [main/INFO] [quark/]: Loading Module Variant Animal Textures
+[21Sep2021 12:16:31.336] [main/INFO] [quark/]: Loading Module Backpack
+[21Sep2021 12:16:31.337] [main/INFO] [quark/]: Loading Module Crate
+[21Sep2021 12:16:31.337] [main/INFO] [quark/]: Loading Module Magnets
+[21Sep2021 12:16:31.337] [main/INFO] [quark/]: Loading Module Matrix Enchanting
+[21Sep2021 12:16:31.338] [main/INFO] [quark/]: Loading Module Pipes
+[21Sep2021 12:16:31.338] [main/INFO] [quark/]: Loading Module Totem Of Holding
+[21Sep2021 12:16:31.339] [main/INFO] [quark/]: Loading Module Adjustable Chat
+[21Sep2021 12:16:31.339] [main/INFO] [quark/]: Loading Module Custom Underground Biome
+[21Sep2021 12:16:31.339] [main/INFO] [quark/]: Loading Module Game Nerfs
+[21Sep2021 12:16:31.339] [main/INFO] [quark/]: Loading Module Narrator Readout
+[21Sep2021 12:16:31.340] [main/INFO] [quark/]: Loading Module Overlay Shader
+[21Sep2021 12:16:31.340] [main/INFO] [quark/]: Loading Module Shiba
+[21Sep2021 12:16:31.378] [modloading-worker-12/INFO] [com.dynamic_view.DynView/]: Zooming chunks initiated!
+[21Sep2021 12:16:31.380] [modloading-worker-12/INFO] [Game Stages/]: Registering 1 command argument types.
+[21Sep2021 12:16:31.393] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TTileChangeTile
+[21Sep2021 12:16:31.396] [modloading-worker-9/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: mrtjp/projectred/illumination/LightMicroblock
+[21Sep2021 12:16:31.396] [modloading-worker-14/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.5+57d5ac9) is loaded
+[21Sep2021 12:16:31.397] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/INeighborTileChangePart, Side: SERVER
+[21Sep2021 12:16:31.397] [modloading-worker-9/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: mrtjp/projectred/illumination/ILightMicroblockMixinMarker, Side: COMMON
+[21Sep2021 12:16:31.404] [modloading-worker-7/INFO] [pneumaticcraft/]: PneumaticCraft: Repressurized is loading!
+[21Sep2021 12:16:31.410] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of all entities from cyberware
+[21Sep2021 12:16:31.411] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of all entities from withercrumbs
+[21Sep2021 12:16:31.413] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of twighlightforest:knight_phantom
+[21Sep2021 12:16:31.413] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of twighlightforest:lich
+[21Sep2021 12:16:31.414] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of twighlightforest:quest_ram
+[21Sep2021 12:16:31.415] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of iceandfire:myrmex_worker
+[21Sep2021 12:16:31.416] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of iceandfire:myrmex_soldier
+[21Sep2021 12:16:31.416] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of iceandfire:myrmex_sentinel
+[21Sep2021 12:16:31.417] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of iceandfire:myrmex_royal
+[21Sep2021 12:16:31.417] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of iceandfire:myrmex_queen
+[21Sep2021 12:16:31.418] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of all items from cyberware
+[21Sep2021 12:16:31.419] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of all items from ebwizardry
+[21Sep2021 12:16:31.420] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of all items from eplus
+[21Sep2021 12:16:31.421] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of all items from everlastingabilities
+[21Sep2021 12:16:31.423] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_dimlet
+[21Sep2021 12:16:31.424] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_terrain_dimlet
+[21Sep2021 12:16:31.424] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_attribute_dimlet
+[21Sep2021 12:16:31.424] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_feature_dimlet
+[21Sep2021 12:16:31.425] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_biome_dimlet
+[21Sep2021 12:16:31.425] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_biome_controller_dimlet
+[21Sep2021 12:16:31.426] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_biome_controller_dimlet
+[21Sep2021 12:16:31.426] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_block_dimlet
+[21Sep2021 12:16:31.426] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_fluid_dimlet
+[21Sep2021 12:16:31.427] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:empty_time_dimlet
+[21Sep2021 12:16:31.427] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:terrain_dimlet
+[21Sep2021 12:16:31.428] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:attribute_dimlet
+[21Sep2021 12:16:31.429] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:feature_dimlet
+[21Sep2021 12:16:31.429] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:biome_dimlet
+[21Sep2021 12:16:31.430] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:biome_controller_dimlet
+[21Sep2021 12:16:31.431] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:block_dimlet
+[21Sep2021 12:16:31.431] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:fluid_dimlet
+[21Sep2021 12:16:31.432] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:time_dimlet
+[21Sep2021 12:16:31.433] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:digit_dimlet
+[21Sep2021 12:16:31.433] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of rftoolsdim:admin_dimlet
+[21Sep2021 12:16:31.434] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting learning of all items from cyberware
+[21Sep2021 12:16:31.434] [modloading-worker-2/INFO] [integrateddynamics/]: Registered packet handler.
+[21Sep2021 12:16:31.436] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of all entities from botania
+[21Sep2021 12:16:31.445] [modloading-worker-15/INFO] [ipsis.woot.setup.ModSetup/]: C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\woot\loot.json
+[21Sep2021 12:16:31.453] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[21Sep2021 12:16:31.463] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TTickableTile
+[21Sep2021 12:16:31.464] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/ITickablePart, Side: COMMON
+[21Sep2021 12:16:31.473] [modloading-worker-9/INFO] [integrateddynamicscompat/]: Registered packet handler.
+[21Sep2021 12:16:31.477] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TSlottedTile
+[21Sep2021 12:16:31.477] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/TSlottedPart, Side: COMMON
+[21Sep2021 12:16:31.490] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TRedstoneTile
+[21Sep2021 12:16:31.491] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/redstone/IRedstonePart, Side: COMMON
+[21Sep2021 12:16:31.497] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:wither_skeleton:TIER -> 4
+[21Sep2021 12:16:31.499] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:villager:TIER -> 4
+[21Sep2021 12:16:31.500] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:magma_cube:TIER -> 3
+[21Sep2021 12:16:31.501] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:enderman:TIER -> 4
+[21Sep2021 12:16:31.502] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:villager_golem:TIER -> 4
+[21Sep2021 12:16:31.504] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:guardian:TIER -> 4
+[21Sep2021 12:16:31.504] [modloading-worker-14/INFO] [Mekanism/]: Version 10.0.21 initializing...
+[21Sep2021 12:16:31.505] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:blaze:TIER -> 3
+[21Sep2021 12:16:31.506] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:witch:TIER -> 3
+[21Sep2021 12:16:31.507] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ghast:TIER -> 3
+[21Sep2021 12:16:31.509] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:zombie_pigman:TIER -> 3
+[21Sep2021 12:16:31.510] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ender_dragon:TIER -> 5
+[21Sep2021 12:16:31.511] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:wither:TIER -> 5
+[21Sep2021 12:16:31.512] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ender_dragon:PERK_MASS_2_COUNT -> 3
+[21Sep2021 12:16:31.512] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:wither:PERK_MASS_2_COUNT -> 3
+[21Sep2021 12:16:31.513] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ender_dragon:PERK_MASS_3_COUNT -> 4
+[21Sep2021 12:16:31.513] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:wither:PERK_MASS_3_COUNT -> 4
+[21Sep2021 12:16:31.514] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:iron_golem:XP -> 20
+[21Sep2021 12:16:31.514] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:bat:XP -> 1
+[21Sep2021 12:16:31.515] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:snow_golem:XP -> 1
+[21Sep2021 12:16:31.515] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:villager:XP -> 2
+[21Sep2021 12:16:31.516] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:wandering_villager:XP -> 2
+[21Sep2021 12:16:31.516] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ender_dragon:XP -> 500
+[21Sep2021 12:16:31.517] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ender_dragon:PERK_MASS_1_COUNT -> 2
+[21Sep2021 12:16:31.517] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:wither:PERK_MASS_1_COUNT -> 2
+[21Sep2021 12:16:31.518] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:wither:SPAWN_TICKS -> 1200
+[21Sep2021 12:16:31.519] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ender_dragon:SPAWN_TICKS -> 12000
+[21Sep2021 12:16:31.516] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TPartialOcclusionTile
+[21Sep2021 12:16:31.520] [modloading-worker-15/INFO] [ipsis.woot.config.ConfigOverride/]: Added integer override of minecraft:ender_dragon:HEALTH -> 500
+[21Sep2021 12:16:31.517] [modloading-worker-3/INFO] [corgiaoc.byg.BYG/]: BYG: "Common Setup" Event Complete!
+[21Sep2021 12:16:31.521] [modloading-worker-15/INFO] [ipsis.woot.policy.PolicyRegistry/]: Blacklisting capturing of all entities from botania
+[21Sep2021 12:16:31.521] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/TPartialOcclusionPart, Side: COMMON
+[21Sep2021 12:16:31.527] [modloading-worker-5/INFO] [epicfight/]: Register Custom Capaiblity for overloaded:multi_boots
+[21Sep2021 12:16:31.528] [modloading-worker-5/INFO] [epicfight/]: Register Custom Capaiblity for overloaded:multi_chestplate
+[21Sep2021 12:16:31.528] [modloading-worker-5/INFO] [epicfight/]: Register Custom Capaiblity for overloaded:multi_helmet
+[21Sep2021 12:16:31.528] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TInventoryTile
+[21Sep2021 12:16:31.528] [modloading-worker-5/INFO] [epicfight/]: Register Custom Capaiblity for overloaded:multi_leggings
+[21Sep2021 12:16:31.529] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/IInventory, Side: COMMON
+[21Sep2021 12:16:31.535] [modloading-worker-2/INFO] [TerraForged/]: Common setup
+[21Sep2021 12:16:31.539] [modloading-worker-15/INFO] [ipsis.woot.setup.ModSetup/]: SkullGenerator: minecraft:skeleton -> 1 skeleton_skull
+[21Sep2021 12:16:31.540] [modloading-worker-15/INFO] [ipsis.woot.setup.ModSetup/]: SkullGenerator: minecraft:wither_skeleton -> 1 wither_skeleton_skull
+[21Sep2021 12:16:31.542] [modloading-worker-15/INFO] [ipsis.woot.setup.ModSetup/]: SkullGenerator: minecraft:zombie -> 1 zombie_head
+[21Sep2021 12:16:31.542] [modloading-worker-15/INFO] [ipsis.woot.setup.ModSetup/]: SkullGenerator: minecraft:creeper -> 1 creeper_head
+[21Sep2021 12:16:31.553] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/ISidedInventory, Side: COMMON
+[21Sep2021 12:16:31.554] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TInventoryTile
+[21Sep2021 12:16:31.554] [modloading-worker-15/INFO] [Bookshelf/]: Registering 3 command argument types.
+[21Sep2021 12:16:31.554] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/IInventory, Side: COMMON
+[21Sep2021 12:16:31.556] [modloading-worker-15/INFO] [Bookshelf/]: Registering 13 loot conditions.
+[21Sep2021 12:16:31.558] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TInventoryTile
+[21Sep2021 12:16:31.558] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: net/minecraft/inventory/ISidedInventory, Side: COMMON
+[21Sep2021 12:16:31.559] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TCapabilityTile
+[21Sep2021 12:16:31.560] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/ICapabilityProviderPart, Side: COMMON
+[21Sep2021 12:16:31.603] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]: Trait: codechicken/multipart/trait/TAnimateTickTile
+[21Sep2021 12:16:31.604] [modloading-worker-4/INFO] [codechicken.mixin.forge.SidedGenerator/]:     Marker: codechicken/multipart/api/part/AnimateTickPart, Side: CLIENT
+[21Sep2021 12:16:31.677] [modloading-worker-4/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for dummmmmmy:target_dummy, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:31.681] [modloading-worker-6/INFO] [Mekanism/]: Loaded 'Mekanism Generators' module.
+[21Sep2021 12:16:31.682] [modloading-worker-6/INFO] [Mekanism/]: Loaded 'Mekanism: Additions' module.
+[21Sep2021 12:16:31.687] [modloading-worker-11/INFO] [integrateddynamics/]: Registered packet handler.
+[21Sep2021 12:16:31.700] [modloading-worker-2/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Setting up BlockCarpentry mod
+[21Sep2021 12:16:31.702] [modloading-worker-9/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.common.capability.ManaCapability:register:62]: Finished Registering ManaCapability
+[21Sep2021 12:16:31.708] [modloading-worker-9/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.api.familiar.FamiliarCap:register:97]: Finished Registering FamiliarCap
+[21Sep2021 12:16:31.712] [modloading-worker-3/INFO] [Mekanism/]: Loaded 'Mekanism: Tools' module.
+[21Sep2021 12:16:31.721] [modloading-worker-9/INFO] [STDOUT/]: [com.hollingsworth.arsnouveau.common.network.Networking:registerMessages:27]: Registering packets!!
+[21Sep2021 12:16:31.800] [modloading-worker-1/INFO] [com.darkere.serverconfigupdater.ServerConfigUpdater/]: Attempting to delete 0 files/folders defined in config
+[21Sep2021 12:16:31.813] [modloading-worker-8/INFO] [mcjtylib/]: XNet Detected RFTools Control: enabling support
+[21Sep2021 12:16:31.844] [modloading-worker-11/INFO] [mcjtylib/]: RFTools Storage Detected XNet: enabling support
+[21Sep2021 12:16:31.877] [modloading-worker-14/INFO] [Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[21Sep2021 12:16:31.879] [modloading-worker-14/INFO] [Mekanism/]: Loading complete.
+[21Sep2021 12:16:31.880] [modloading-worker-14/INFO] [Mekanism/]: Mod loaded.
+[21Sep2021 12:16:31.959] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for charm:coral_squid, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:31.960] [modloading-worker-10/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for charm:moobloom, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:31.981] [modloading-worker-6/INFO] [AE2:C/]: Post Initialization ( started )
+[21Sep2021 12:16:31.987] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module Acquisition
+[21Sep2021 12:16:31.989] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module AerialAffinity
+[21Sep2021 12:16:31.990] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module AnvilImprovements
+[21Sep2021 12:16:31.990] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module ArmorInvisibility
+[21Sep2021 12:16:31.997] [modloading-worker-8/WARN] [mixin/]: Mixin curiosquarkobp.mixins.json:QuarkOdditiesHandleBackpackMessageMixin has multiple constructors, ()V was selected
+
+[21Sep2021 12:16:32.000] [modloading-worker-11/INFO] [wile.engineersdecor.ModEngineersDecor/]: Registering recipe condition processor ...
+[21Sep2021 12:16:32.001] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module Atlas
+[21Sep2021 12:16:32.009] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module AutoRestock
+[21Sep2021 12:16:32.011] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module BatBuckets
+[21Sep2021 12:16:32.011] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module BeaconsHealMobs
+[21Sep2021 12:16:32.014] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module Beekeepers
+[21Sep2021 12:16:32.020] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[21Sep2021 12:16:32.021] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[21Sep2021 12:16:32.022] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[21Sep2021 12:16:32.023] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[21Sep2021 12:16:32.026] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[21Sep2021 12:16:32.027] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[21Sep2021 12:16:32.028] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[21Sep2021 12:16:32.028] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[21Sep2021 12:16:32.029] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[21Sep2021 12:16:32.031] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[21Sep2021 12:16:32.034] [modloading-worker-2/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[21Sep2021 12:16:32.035] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module BlockOfEnderPearls
+[21Sep2021 12:16:32.036] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module BlockOfGunpowder
+[21Sep2021 12:16:32.037] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module BlockOfSugar
+[21Sep2021 12:16:32.037] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module Bookcases
+[21Sep2021 12:16:32.038] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module CampfiresNoDamage
+[21Sep2021 12:16:32.039] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module CaveSpidersDropCobwebs
+[21Sep2021 12:16:32.039] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module ChickensDropFeathers
+[21Sep2021 12:16:32.039] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module CoralSeaLanterns
+[21Sep2021 12:16:32.041] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module CoralSquids
+[21Sep2021 12:16:32.043] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module Core
+[21Sep2021 12:16:32.044] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module Crates
+[21Sep2021 12:16:32.046] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module DecreaseRepairCost
+[21Sep2021 12:16:32.053] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module EndermitePowder
+[21Sep2021 12:16:32.054] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module EntitySpawners
+[21Sep2021 12:16:32.056] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module ExtendNetherite
+[21Sep2021 12:16:32.057] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module ExtraRecipes
+[21Sep2021 12:16:32.054] [modloading-worker-6/INFO] [AE2:C/]: Post Initialization ( ended after 76ms )
+[21Sep2021 12:16:32.057] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module ExtractEnchantments
+[21Sep2021 12:16:32.059] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module FeatherFallingCrops
+[21Sep2021 12:16:32.059] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module Glowballs
+[21Sep2021 12:16:32.059] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module GoldChains
+[21Sep2021 12:16:32.061] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module GoldLanterns
+[21Sep2021 12:16:32.064] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module HuskImprovements
+[21Sep2021 12:16:32.064] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module Kilns
+[21Sep2021 12:16:32.073] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module Lumberjacks
+[21Sep2021 12:16:32.076] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module MineshaftImprovements
+[21Sep2021 12:16:32.083] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module Mooblooms
+[21Sep2021 12:16:32.083] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module MorePortalFrames
+[21Sep2021 12:16:32.089] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module MoreVillageBiomes
+[21Sep2021 12:16:32.090] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module MusicImprovements
+[21Sep2021 12:16:32.091] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module NetheriteNuggets
+[21Sep2021 12:16:32.094] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module ParrotsStayOnShoulder
+[21Sep2021 12:16:32.095] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module PathToDirt
+[21Sep2021 12:16:32.098] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module PlayerState
+[21Sep2021 12:16:32.099] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module PortableCrafting
+[21Sep2021 12:16:32.102] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module PortableEnderChest
+[21Sep2021 12:16:32.104] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module Quark
+[21Sep2021 12:16:32.107] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module RaidHorns
+[21Sep2021 12:16:32.109] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module RedstoneLanterns
+[21Sep2021 12:16:32.109] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module RedstoneSand
+[21Sep2021 12:16:32.110] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module RefinedObsidian
+[21Sep2021 12:16:32.112] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module RemoveNitwits
+[21Sep2021 12:16:32.113] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module RemovePotionGlint
+[21Sep2021 12:16:32.114] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module SmoothGlowstone
+[21Sep2021 12:16:32.115] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module SnowStorms
+[21Sep2021 12:16:32.116] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module StackableEnchantedBooks
+[21Sep2021 12:16:32.117] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module StackablePotions
+[21Sep2021 12:16:32.118] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module StackableStews
+[21Sep2021 12:16:32.120] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module StrayImprovements
+[21Sep2021 12:16:32.122] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module Tinted
+[21Sep2021 12:16:32.123] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module UseTotemFromInventory
+[21Sep2021 12:16:32.125] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module VariantMobTextures
+[21Sep2021 12:16:32.126] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module WanderingTraderImprovements
+[21Sep2021 12:16:32.133] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:shiba, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.138] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module WitchesDropLuck
+[21Sep2021 12:16:32.139] [modloading-worker-10/INFO] [Charm/INTERNAL]: Initialising module Woodcutters
+[21Sep2021 12:16:32.184] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wraith, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.185] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:crab, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.209] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:foxhound, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.213] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:frog, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.219] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:leash_knot_fake, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.226] [modloading-worker-14/INFO] [com.ma.ManaAndArtifice/]: M&A -> Network Messages Registered
+[21Sep2021 12:16:32.236] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:wrapped, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.237] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:toretoise, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.238] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:forgotten, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.244] [modloading-worker-8/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for quark:stoneling, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.249] [modloading-worker-14/INFO] [com.ma.ManaAndArtifice/]: Mana And Artifice >> Registered loot functions
+[21Sep2021 12:16:32.307] [modloading-worker-14/INFO] [com.ma.ManaAndArtifice/]: M&A -> Capabilities Registered
+[21Sep2021 12:16:32.308] [modloading-worker-14/INFO] [com.ma.ManaAndArtifice/]: M&A -> Flower Pots Registered
+[21Sep2021 12:16:32.326] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:end_fish, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.326] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:dragonfly, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.327] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:shadow_walker, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.329] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:end_slime, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.330] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:cubozoa, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.330] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for betterendforge:silk_moth, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.453] [main/INFO] [mysticmods.mysticalworld.repack.noobutil.NoobUtil/]: Added 3 additional attributes to PlayerEntity.
+[21Sep2021 12:16:32.592] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanism:robit, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.744] [main/INFO] [Extended Crafting/]: Loaded 41 singularity type(s) in 21 ms
+[21Sep2021 12:16:32.771] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_creeper, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.772] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_enderman, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.772] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_skeleton, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.772] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_stray, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.773] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mekanismadditions:baby_wither_skeleton, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.776] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for cnb:little_grebe, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.777] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for cnb:cindershell, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.778] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for cnb:lizard, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.778] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for cnb:lilytad, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.779] [main/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.cgessinger.creaturesandbeasts.common.entites.FriendlySporelingEntity from class com.cgessinger.creaturesandbeasts.common.entites.AbstractSporelingEntity
+[21Sep2021 12:16:32.779] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for cnb:friendly_sporeling, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.780] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for cnb:hostile_sporeling, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.780] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for cnb:neutral_sporeling, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.781] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for cnb:yeti, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.844] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:nautilus, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.845] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:pike, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.845] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:lionfish, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.846] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:perch, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.849] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:thrasher, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.849] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:great_thrasher, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.849] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:flare, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.850] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:ululu, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.850] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:goose, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.851] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:glow_squid, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.854] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:box_jellyfish, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.854] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:cassiopea_jellyfish, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.854] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for upgrade_aquatic:immortal_jellyfish, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.968] [main/INFO] [STDOUT/]: [elucent.eidolon.Registry:addBrewingRecipes:402]: calling addBrewingRecipes
+[21Sep2021 12:16:32.975] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eidolon:zombie_brute, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.976] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eidolon:wraith, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:32.976] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for eidolon:necromancer, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.031] [main/INFO] [com.ma.ManaAndArtifice/]: M&A -> Recipe Types Registered
+[21Sep2021 12:16:33.209] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: Scanning mods directory for MineTogether jar
+[21Sep2021 12:16:33.210] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\abnormals_core-1.16.5-3.2.0.jar
+[21Sep2021 12:16:33.210] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\absentbydesign-1.16.5-1.5.0.jar
+[21Sep2021 12:16:33.214] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\AkashicTome-1.4-16.jar
+[21Sep2021 12:16:33.214] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\alexsmobs-1.12.0.jar
+[21Sep2021 12:16:33.214] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\appleskin-forge-mc1.16.x-2.1.0.jar
+[21Sep2021 12:16:33.215] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\appliedenergistics2-8.4.0.jar
+[21Sep2021 12:16:33.220] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\archers_paradox-1.16.5-1.3.1.jar
+[21Sep2021 12:16:33.221] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\architectury-1.22.32-forge.jar
+[21Sep2021 12:16:33.221] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ars_nouveau-1.16.5-1.23.1.jar
+[21Sep2021 12:16:33.222] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\Artifacts-1.16.5-2.10.0.jar
+[21Sep2021 12:16:33.222] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\AutoRegLib-1.6-49.jar
+[21Sep2021 12:16:33.222] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\BetterAdvancements-1.16.5-0.1.1.115.jar
+[21Sep2021 12:16:33.223] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\BetterCaves-Forge-1.16.4-1.1.2.jar
+[21Sep2021 12:16:33.224] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\betterendforge-1.16.4-1.6.0.jar
+[21Sep2021 12:16:33.224] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\BetterMineshafts-Forge-1.16.4-2.0.4.jar
+[21Sep2021 12:16:33.224] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\BetterStrongholds-1.16.4-1.2.1.jar
+[21Sep2021 12:16:33.224] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\biomeidfixer-1.16.5-1.0.1.s5.jar
+[21Sep2021 12:16:33.225] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\blockcarpentry-1.16-0.4.0.jar
+[21Sep2021 12:16:33.225] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\BloodMagic-1.16.4-3.1.1-16.jar
+[21Sep2021 12:16:33.226] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\Bookshelf-Forge-1.16.5-10.2.27.jar
+[21Sep2021 12:16:33.227] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\Botania-1.16.5-419.jar
+[21Sep2021 12:16:33.227] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\buildinggadgets-1.16.5-3.8.0.jar
+[21Sep2021 12:16:33.228] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\bwncr-1.16.5-3.10.16.jar
+[21Sep2021 12:16:33.228] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\byg-1.3.4.jar
+[21Sep2021 12:16:33.229] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\CBMultipart-1.16.5-3.0.2.119-universal.jar
+[21Sep2021 12:16:33.230] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\charm-forge-1.16.5-2.3.2.jar
+[21Sep2021 12:16:33.231] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\Chisel-MC1.16.5-2.0.1-alpha.4.jar
+[21Sep2021 12:16:33.232] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\chiselsandbits-0.3.4-RELEASE.jar
+[21Sep2021 12:16:33.232] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\citadel-1.8.1-1.16.5.jar
+[21Sep2021 12:16:33.233] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\cloth-config-4.11.26-forge.jar
+[21Sep2021 12:16:33.233] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\Clumps-6.0.0.25.jar
+[21Sep2021 12:16:33.233] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\CNB-1.16.3_5-1.2.11.jar
+[21Sep2021 12:16:33.233] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\CobbleForDays-1.3.1.jar
+[21Sep2021 12:16:33.235] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\CodeChickenLib-1.16.5-4.0.3.432-universal.jar
+[21Sep2021 12:16:33.238] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\cofh_core-1.16.5-1.3.1.jar
+[21Sep2021 12:16:33.238] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\CommonCapabilities-1.16.5-2.7.0.jar
+[21Sep2021 12:16:33.238] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\compactcrafting-1.0.0-beta.3.jar
+[21Sep2021 12:16:33.239] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\compactmachines-4.0.0-beta.2.jar
+[21Sep2021 12:16:33.239] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\Compressium-1.16.5-1.2.3.jar
+[21Sep2021 12:16:33.239] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\configured-1.2.0-1.16.3.jar
+[21Sep2021 12:16:33.240] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\Controlling-7.0.0.24.jar
+[21Sep2021 12:16:33.240] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\CosmeticArmorReworked-1.16.5-v4.jar
+[21Sep2021 12:16:33.241] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\create-mc1.16.5_v0.3.2d.jar
+[21Sep2021 12:16:33.242] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\CTM-MC1.16.1-1.1.2.6.jar
+[21Sep2021 12:16:33.242] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\Cucumber-1.16.4-4.1.10.jar
+[21Sep2021 12:16:33.242] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\curios-forge-1.16.5-4.0.5.2.jar
+[21Sep2021 12:16:33.243] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\CuriosQuarkOBP-1.16.5-1.0.2.jar
+[21Sep2021 12:16:33.243] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\cursedearth-3.2.jar
+[21Sep2021 12:16:33.243] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\CyclopsCore-1.16.5-1.11.8.jar
+[21Sep2021 12:16:33.244] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\DamageTilt-1.16-forge-0.1.1.jar
+[21Sep2021 12:16:33.244] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\dankstorage-3.16.jar
+[21Sep2021 12:16:33.244] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\DefaultOptions_1.16.5-12.2.1.jar
+[21Sep2021 12:16:33.245] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\DeLogger-3.0.3-build.19+mc1.16.5.jar
+[21Sep2021 12:16:33.245] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\DrawersTooltip-1.16.2-2.1.0.jar
+[21Sep2021 12:16:33.245] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\DynamicSurroundings-1.16.4-4.0.4.2.jar
+[21Sep2021 12:16:33.247] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\dynviewdist-2.0.jar
+[21Sep2021 12:16:33.248] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\eidolon-0.2.7.jar
+[21Sep2021 12:16:33.248] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\emojiful-1.16.4-2.1.4.jar
+[21Sep2021 12:16:33.249] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\enchantedbookredesign-3.3-1.16.4.jar
+[21Sep2021 12:16:33.249] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\EnchantmentDescriptions-1.16.5-7.0.12.jar
+[21Sep2021 12:16:33.249] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\EnderStorage-1.16.5-2.8.0.168-universal.jar
+[21Sep2021 12:16:33.250] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\engineersdecor-1.16.4-1.1.14.jar
+[21Sep2021 12:16:33.253] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\envirocore-1.16.5-3.0.9.1.jar
+[21Sep2021 12:16:33.254] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\enviroenergy-1.16.5-3.0.9.1.jar
+[21Sep2021 12:16:33.254] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\enviromats-1.16.5-2.0.9.0.jar
+[21Sep2021 12:16:33.255] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\envirotech-1.16.5-3.0.9.4.jar
+[21Sep2021 12:16:33.255] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\EpicFightMod-1.16.5-5.0.4.jar
+[21Sep2021 12:16:33.255] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\expandability-2.0.1-forge.jar
+[21Sep2021 12:16:33.256] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ExtendedCrafting-1.16.4-3.1.6.jar
+[21Sep2021 12:16:33.256] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\fastbenchminusreplacement-1.4.jar
+[21Sep2021 12:16:33.257] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\FasterLadderClimbing-1.16.4-0.2.1.jar
+[21Sep2021 12:16:33.257] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\fastfurnaceminusreplacement-1.1-1.16.3.jar
+[21Sep2021 12:16:33.257] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\FastLeafDecay-v25.jar
+[21Sep2021 12:16:33.258] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ferritecore-2.0.7-forge.jar
+[21Sep2021 12:16:33.258] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\findme-1.16.3-2.2.0.0.jar
+[21Sep2021 12:16:33.258] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\flywheel-1.16-0.2.3.jar
+[21Sep2021 12:16:33.259] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ftb-backups-2.1.1.6.jar
+[21Sep2021 12:16:33.259] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ftb-banners-1605.1.3-build.25.jar
+[21Sep2021 12:16:33.259] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ftb-chunks-forge-1605.3.1-build.46.jar
+[21Sep2021 12:16:33.260] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ftb-essentials-1605.1.4-build.13.jar
+[21Sep2021 12:16:33.260] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ftb-janitor-1605.1.2-build.3.jar
+[21Sep2021 12:16:33.261] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ftb-library-forge-1605.3.2-build.64.jar
+[21Sep2021 12:16:33.261] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ftb-quests-forge-1605.3.4-build.52.jar
+[21Sep2021 12:16:33.262] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ftb-ranks-1605.1.4-build.9-forge.jar
+[21Sep2021 12:16:33.262] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\FTB-Schools-1605.0.2-dev.16.jar
+[21Sep2021 12:16:33.262] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ftb-teams-forge-1605.2.1-build.20.jar
+[21Sep2021 12:16:33.262] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ftb-ultimine-forge-1605.3.0-build.25.jar
+[21Sep2021 12:16:33.263] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ftbauxilium-forge-1605.1.1-build.14-forge.jar
+[21Sep2021 12:16:33.263] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\GameStages-Forge-1.16.5-7.3.10.jar
+[21Sep2021 12:16:33.263] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\geckolib-forge-1.16.5-3.0.45.jar
+[21Sep2021 12:16:33.264] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\glassential-forge-1.16.5-1.1.7.jar
+[21Sep2021 12:16:33.264] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\gravestone-1.16.5-1.0.6.jar
+[21Sep2021 12:16:33.265] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: java.io.FileNotFoundException: C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\hats (Access is denied)
+[21Sep2021 12:16:33.265] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at java.util.zip.ZipFile.open(Native Method)
+[21Sep2021 12:16:33.265] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at java.util.zip.ZipFile.<init>(Unknown Source)
+[21Sep2021 12:16:33.266] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at java.util.zip.ZipFile.<init>(Unknown Source)
+[21Sep2021 12:16:33.266] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at java.util.jar.JarFile.<init>(Unknown Source)
+[21Sep2021 12:16:33.266] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at java.util.jar.JarFile.<init>(Unknown Source)
+[21Sep2021 12:16:33.266] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at net.creeperhost.minetogether.verification.SignatureVerifier.findOurJar(SignatureVerifier.java:63)
+[21Sep2021 12:16:33.267] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at net.creeperhost.minetogether.verification.SignatureVerifier.<init>(SignatureVerifier.java:21)
+[21Sep2021 12:16:33.267] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at net.creeperhost.minetogether.MineTogetherServer.init(MineTogetherServer.java:23)
+[21Sep2021 12:16:33.267] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at me.shedaniel.architectury.utils.EnvExecutor.runInEnv(EnvExecutor.java:35)
+[21Sep2021 12:16:33.268] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at me.shedaniel.architectury.utils.EnvExecutor.runInEnv(EnvExecutor.java:30)
+[21Sep2021 12:16:33.268] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at net.creeperhost.minetogether.MineTogether.serverInit(MineTogether.java:30)
+[21Sep2021 12:16:33.268] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at net.creeperhost.minetogether.forge.MinetogetherModForge.serverSetup(MinetogetherModForge.java:38)
+[21Sep2021 12:16:33.268] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+[21Sep2021 12:16:33.268] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+[21Sep2021 12:16:33.269] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[21Sep2021 12:16:33.269] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[21Sep2021 12:16:33.270] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120)
+[21Sep2021 12:16:33.270] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121)
+[21Sep2021 12:16:33.270] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+[21Sep2021 12:16:33.270] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source)
+[21Sep2021 12:16:33.271] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+[21Sep2021 12:16:33.271] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+[21Sep2021 12:16:33.271] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[21Sep2021 12:16:33.271] [modloading-worker-13/INFO] [STDERR/]: [net.creeperhost.minetogether.verification.SignatureVerifier:findOurJar:89]: 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[21Sep2021 12:16:33.272] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\Hats-1.16.5-10.3.1.jar
+[21Sep2021 12:16:33.272] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\iChunUtil-1.16.5-10.4.1.jar
+[21Sep2021 12:16:33.273] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ImmersiveEngineering-1.16.5-5.0.3-138.jar
+[21Sep2021 12:16:33.283] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ImmersivePetroleum-1.16.5-3.3.0-5.jar
+[21Sep2021 12:16:33.283] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\IntegratedCrafting-1.16.5-1.0.17.jar
+[21Sep2021 12:16:33.284] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\IntegratedDynamics-1.16.5-1.9.3.jar
+[21Sep2021 12:16:33.284] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\integratednbt-1.16.4-1.4.2.jar
+[21Sep2021 12:16:33.284] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\IntegratedTerminals-1.16.5-1.2.4.jar
+[21Sep2021 12:16:33.285] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\IntegratedTunnels-1.16.5-1.8.5.jar
+[21Sep2021 12:16:33.285] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\inventorysorter-1.16.1-18.1.0.jar
+[21Sep2021 12:16:33.285] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\ironchest-1.16.5-11.2.13.jar
+[21Sep2021 12:16:33.285] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\item-filters-forge-1605.2.5-build.9.jar
+[21Sep2021 12:16:33.286] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\jei-1.16.5-7.7.1.121.jar
+[21Sep2021 12:16:33.286] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\jeiintegration_1.16.5-7.0.1.15.jar
+[21Sep2021 12:16:33.286] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\justenoughbeacons-3.1-1.16.3.jar
+[21Sep2021 12:16:33.287] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\JustEnoughCalculation-1.16.5-3.8.5.jar
+[21Sep2021 12:16:33.287] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\JustEnoughProfessions-1.16.5-1.2.1.jar
+[21Sep2021 12:16:33.287] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\JustEnoughResources-1.16.5-0.12.1.128.jar
+[21Sep2021 12:16:33.288] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\KleeSlabs_1.16.5-9.2.1.jar
+[21Sep2021 12:16:33.288] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\Krate-1.16.5-0.1.4.jar
+[21Sep2021 12:16:33.288] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\kubejs-blood-magic-1604.1.0.4.jar
+[21Sep2021 12:16:33.289] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\kubejs-create-1605.1.2-build.7.jar
+[21Sep2021 12:16:33.289] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\kubejs-forge-1605.3.11-build.28.jar
+[21Sep2021 12:16:33.289] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\kubejs-forge-1605.3.15-build.106.jar
+[21Sep2021 12:16:33.290] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\kubejs-mekanism-1605.1.2-build.2.jar
+[21Sep2021 12:16:33.290] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\kubejs-tinkers-1605.1.0-build.9999.jar
+[21Sep2021 12:16:33.291] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\kubejs-ui-forge-1605.1.4-build.12.jar
+[21Sep2021 12:16:33.291] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\lazierae2-1.16.5-1.1.4.jar
+[21Sep2021 12:16:33.291] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\light-overlay-5.8.1.jar
+[21Sep2021 12:16:33.291] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\lofirecordstomineto-1.1.0.jar
+[21Sep2021 12:16:33.292] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\Lollipop-1.16.5-3.2.9.jar
+[21Sep2021 12:16:33.292] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\lootr-1.16.5-0.0.8.23.jar
+[21Sep2021 12:16:33.292] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\mahoutsukai-1.16.5-v1.31.40.jar
+[21Sep2021 12:16:33.293] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\mana-and-artifice-1.4.0.8.jar
+[21Sep2021 12:16:33.293] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\Mantle-1.16.5-1.6.123.jar
+[21Sep2021 12:16:33.294] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\mcjtylib-1.16-5.0.22.jar
+[21Sep2021 12:16:33.295] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\Mekanism-1.16.5-10.0.21.448.jar
+[21Sep2021 12:16:33.295] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\MekanismAdditions-1.16.5-10.0.21.448.jar
+[21Sep2021 12:16:33.296] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\MekanismGenerators-1.16.5-10.0.21.448.jar
+[21Sep2021 12:16:33.296] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\MekanismTools-1.16.5-10.0.21.448.jar
+[21Sep2021 12:16:33.297] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: JARFILE C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\mods\minetogether-1.16.5-5.0.0Alpha6-forge.jar
+[21Sep2021 12:16:33.299] [modloading-worker-13/ERROR] [net.creeperhost.minetogether.MineTogether/]: Main class found, MineTogether Jar found
+[21Sep2021 12:16:33.354] [modloading-worker-13/INFO] [net.creeperhost.minetogether.MineTogether/]: Watchdog thread not found
+[21Sep2021 12:16:33.403] [modloading-worker-1/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Processing InterModCommunication
+[21Sep2021 12:16:33.413] [modloading-worker-4/INFO] [pneumaticcraft/]: Enabled support for The One Probe
+[21Sep2021 12:16:33.416] [modloading-worker-1/INFO] [mod.pianomanu.blockcarpentry.BlockCarpentryMain/]: Processed InterModCommunication
+[21Sep2021 12:16:33.429] [modloading-worker-4/INFO] [ipsis.woot.setup.ModSetup/]: Enabling support The One Probe
+[21Sep2021 12:16:33.430] [modloading-worker-4/INFO] [mcjtylib/]: Enabled support for The One Probe
+[21Sep2021 12:16:33.436] [modloading-worker-4/INFO] [mcjtylib/]: Enabled support for The One Probe
+[21Sep2021 12:16:33.494] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:foliaath, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.494] [modloading-worker-7/INFO] [TerraForged/]: Loaded TerraForged version 0.2.14
+[21Sep2021 12:16:33.495] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:baby_foliaath, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.496] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:ferrous_wroughtnaut, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.496] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoana, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.497] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoaya, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.498] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoan_player, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.498] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoa_sunblocker_player, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.499] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoan_barakoana, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.499] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barakoa_sunblocker, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.500] [modloading-worker-1/WARN] [net.minecraft.network.datasync.EntityDataManager/]: defineId called for: class com.bobmowzie.mowziesmobs.server.entity.barakoa.EntityBarakoaVillager from class com.bobmowzie.mowziesmobs.server.entity.barakoa.EntityBarako
+[21Sep2021 12:16:33.501] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:barako, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.501] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:frostmaw, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.501] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:naga, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.502] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:lantern, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.503] [modloading-worker-1/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mowziesmobs:grottol, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.513] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:demon_lord, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.513] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:faerie_queen, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.515] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:ancient_council, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.516] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:magic_broom, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.516] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:animated_construct, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.517] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:manaweave_entity, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.517] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:mushroom_soldier, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.517] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:pixie, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.517] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:demon_imp, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.518] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:hulking_zombie, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.518] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:skeleton_assassin, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.519] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:lantern_wraith, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.519] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:spell_breaker, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.519] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:witch_hunter, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.519] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:decoy_entity, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.520] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:animus_block, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.520] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:wandering_wizard, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.520] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:broker, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.520] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:spectral_horse, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.521] [modloading-worker-14/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for mana-and-artifice:lich, use EntityAttributeCreationEvent instead.
+[21Sep2021 12:16:33.539] [modloading-worker-14/INFO] [com.ma.ManaAndArtifice/]: M&A API initialized, it is now useable
+[21Sep2021 12:16:34.366] [modloading-worker-10/ERROR] [me.ichun.mods.ichunutil.common.iChunUtil/]: Error deserializing HeadInfo for net.minecraft.entity.passive.fish.PufferfishEntity
+[21Sep2021 12:16:34.367] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: java.lang.UnsupportedOperationException
+[21Sep2021 12:16:34.367] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.AbstractList.remove(Unknown Source)
+[21Sep2021 12:16:34.368] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.AbstractList$Itr.remove(Unknown Source)
+[21Sep2021 12:16:34.368] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate.checkModels(HeadInfoDelegate.java:284)
+[21Sep2021 12:16:34.368] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:673)
+[21Sep2021 12:16:34.369] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:565)
+[21Sep2021 12:16:34.369] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+[21Sep2021 12:16:34.369] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:887)
+[21Sep2021 12:16:34.370] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:852)
+[21Sep2021 12:16:34.371] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:801)
+[21Sep2021 12:16:34.371] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:773)
+[21Sep2021 12:16:34.371] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfo(HeadHandler.java:293)
+[21Sep2021 12:16:34.372] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.readHeadInfoJson(HeadHandler.java:280)
+[21Sep2021 12:16:34.372] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.scourDirectory(HeadHandler.java:239)
+[21Sep2021 12:16:34.372] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfos(HeadHandler.java:179)
+[21Sep2021 12:16:34.373] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.init(HeadHandler.java:112)
+[21Sep2021 12:16:34.373] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.hats.common.Hats.finishLoading(Hats.java:198)
+[21Sep2021 12:16:34.374] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+[21Sep2021 12:16:34.374] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+[21Sep2021 12:16:34.375] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[21Sep2021 12:16:34.375] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[21Sep2021 12:16:34.375] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120)
+[21Sep2021 12:16:34.376] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121)
+[21Sep2021 12:16:34.376] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+[21Sep2021 12:16:34.376] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source)
+[21Sep2021 12:16:34.376] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+[21Sep2021 12:16:34.377] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+[21Sep2021 12:16:34.377] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[21Sep2021 12:16:34.377] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[21Sep2021 12:16:34.454] [modloading-worker-10/ERROR] [me.ichun.mods.ichunutil.common.iChunUtil/]: Error deserializing HeadInfo for net.minecraft.entity.passive.fish.TropicalFishEntity
+[21Sep2021 12:16:34.455] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: java.lang.UnsupportedOperationException
+[21Sep2021 12:16:34.455] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.AbstractList.remove(Unknown Source)
+[21Sep2021 12:16:34.455] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.AbstractList$Itr.remove(Unknown Source)
+[21Sep2021 12:16:34.456] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfoDelegate.checkModels(HeadInfoDelegate.java:284)
+[21Sep2021 12:16:34.456] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:673)
+[21Sep2021 12:16:34.456] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.api.common.head.HeadInfo$Serializer.deserialize(HeadInfo.java:565)
+[21Sep2021 12:16:34.457] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+[21Sep2021 12:16:34.457] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:887)
+[21Sep2021 12:16:34.458] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:852)
+[21Sep2021 12:16:34.458] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:801)
+[21Sep2021 12:16:34.459] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at com.google.gson.Gson.fromJson(Gson.java:773)
+[21Sep2021 12:16:34.459] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfo(HeadHandler.java:293)
+[21Sep2021 12:16:34.459] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.readHeadInfoJson(HeadHandler.java:280)
+[21Sep2021 12:16:34.460] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.scourDirectory(HeadHandler.java:239)
+[21Sep2021 12:16:34.460] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.loadHeadInfos(HeadHandler.java:179)
+[21Sep2021 12:16:34.460] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.ichunutil.common.head.HeadHandler.init(HeadHandler.java:112)
+[21Sep2021 12:16:34.461] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at me.ichun.mods.hats.common.Hats.finishLoading(Hats.java:198)
+[21Sep2021 12:16:34.461] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+[21Sep2021 12:16:34.462] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+[21Sep2021 12:16:34.463] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+[21Sep2021 12:16:34.463] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+[21Sep2021 12:16:34.463] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:120)
+[21Sep2021 12:16:34.463] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:121)
+[21Sep2021 12:16:34.464] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source)
+[21Sep2021 12:16:34.464] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.CompletableFuture$AsyncRun.exec(Unknown Source)
+[21Sep2021 12:16:34.464] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+[21Sep2021 12:16:34.464] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source)
+[21Sep2021 12:16:34.465] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+[21Sep2021 12:16:34.465] [modloading-worker-10/INFO] [STDERR/]: [me.ichun.mods.ichunutil.common.head.HeadHandler:loadHeadInfo:300]: 	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+[21Sep2021 12:16:34.559] [modloading-worker-10/INFO] [me.ichun.mods.ichunutil.common.iChunUtil/]: Loaded 77 HeadInfo object(s)
+[21Sep2021 12:16:34.564] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Compostible Blocks Added!
+[21Sep2021 12:16:34.566] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Hoeable Blocks!
+[21Sep2021 12:16:34.571] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added Flammables!
+[21Sep2021 12:16:34.575] [main/INFO] [corgiaoc.byg.BYG/]: BYG: Added strippable Blocks...
+[21Sep2021 12:16:45.967] [main/INFO] [com.desagas.biomeidfixer.Write/]: Desagas: current master biomemap 'world\biomeidfixer\BiomeIdFixer.json' contains: {0=minecraft:ocean, 1=minecraft:plains, 2=minecraft:desert, 3=minecraft:mountains, 4=minecraft:forest, 5=minecraft:taiga, 6=minecraft:swamp, 7=minecraft:river, 8=minecraft:nether_wastes, 9=minecraft:the_end, 10=minecraft:frozen_ocean, 11=minecraft:frozen_river, 12=minecraft:snowy_tundra, 13=minecraft:snowy_mountains, 14=minecraft:mushroom_fields, 15=minecraft:mushroom_field_shore, 16=minecraft:beach, 17=minecraft:desert_hills, 18=minecraft:wooded_hills, 19=minecraft:taiga_hills, 20=minecraft:mountain_edge, 21=minecraft:jungle, 22=minecraft:jungle_hills, 23=minecraft:jungle_edge, 24=minecraft:deep_ocean, 25=minecraft:stone_shore, 26=minecraft:snowy_beach, 27=minecraft:birch_forest, 28=minecraft:birch_forest_hills, 29=minecraft:dark_forest, 30=minecraft:snowy_taiga, 31=minecraft:snowy_taiga_hills, 32=minecraft:giant_tree_taiga, 33=minecraft:giant_tree_taiga_hills, 34=minecraft:wooded_mountains, 35=minecraft:savanna, 36=minecraft:savanna_plateau, 37=minecraft:badlands, 38=minecraft:wooded_badlands_plateau, 39=minecraft:badlands_plateau, 40=minecraft:small_end_islands, 41=minecraft:end_midlands, 42=minecraft:end_highlands, 43=minecraft:end_barrens, 44=minecraft:warm_ocean, 45=minecraft:lukewarm_ocean, 46=minecraft:cold_ocean, 47=minecraft:deep_warm_ocean, 48=minecraft:deep_lukewarm_ocean, 49=minecraft:deep_cold_ocean, 50=minecraft:deep_frozen_ocean, 51=betterendforge:megalake, 52=betterendforge:crystal_mountains, 53=betterendforge:foggy_mushroomland, 54=betterendforge:dust_wastelands, 55=betterendforge:chorus_forest, 56=betterendforge:shadow_forest, 57=betterendforge:blossoming_spires, 58=betterendforge:sulphur_springs, 59=betterendforge:amber_land, 60=betterendforge:umbrella_jungle, 61=betterendforge:glowing_grasslands, 62=betterendforge:dragon_graveyards, 63=betterendforge:lantern_woods, 64=betterendforge:dry_shrubland, 65=betterendforge:ice_starfield, 66=betterendforge:empty_end_cave, 67=betterendforge:empty_smaragdant_cave, 68=betterendforge:lush_smaragdant_cave, 69=betterendforge:empty_aurora_cave, 70=betterendforge:lush_aurora_cave, 71=betterendforge:megalake_grove, 72=betterendforge:painted_mountains, 73=betterendforge:neon_oasis, 74=integrateddynamics:meneglin, 75=byg:allium_fields, 76=byg:alps, 77=byg:amaranth_fields, 78=byg:ancient_forest, 79=byg:aspen_forest, 80=byg:autumnal_valley, 81=byg:baobab_savanna, 82=byg:bayou, 83=byg:blue_taiga, 84=byg:bluff_steeps, 85=byg:boreal_forest, 86=byg:cold_swamplands, 87=byg:crag_gardens, 88=byg:cika_woods, 89=byg:cherry_blossom_forest, 90=byg:redwood_tropics, 91=byg:coniferous_forest, 92=byg:cypress_swamplands, 93=byg:dover_mountains, 94=byg:dead_sea, 95=byg:deciduous_forest, 96=byg:dunes, 97=byg:ebony_woods, 98=byg:enchanted_forest, 99=byg:evergreen_taiga, 100=byg:glowshroom_bayou, 101=byg:grassland_plateau, 102=byg:great_lakes, 103=byg:grove, 104=byg:enchanted_grove, 105=byg:guiana_shield, 106=byg:jacaranda_forest, 107=byg:mangrove_marshes, 108=byg:maple_taiga, 109=byg:meadow, 110=byg:mojave_desert, 111=byg:lush_tundra, 112=byg:orchard, 113=byg:prairie, 114=byg:red_desert, 115=byg:red_desert_dunes, 116=byg:red_oak_forest, 117=byg:red_rock_mountains, 118=byg:seasonal_birch_forest, 119=byg:seasonal_deciduous_forest, 120=byg:seasonal_forest, 121=byg:seasonal_taiga, 122=byg:shattered_glacier, 123=byg:shrublands, 124=byg:skyris_highlands, 125=byg:snowy_blue_taiga, 126=byg:snowy_coniferous_forest, 127=minecraft:the_void, 128=byg:snowy_deciduous_forest, 129=minecraft:sunflower_plains, 130=minecraft:desert_lakes, 131=minecraft:gravelly_mountains, 132=minecraft:flower_forest, 133=minecraft:taiga_mountains, 134=minecraft:swamp_hills, 135=byg:snowy_evergreen_taiga, 136=byg:the_black_forest, 137=byg:tropical_fungal_forest, 138=byg:tropical_rainforest, 139=byg:vibrant_swamplands, 140=minecraft:ice_spikes, 141=byg:sierra_valley, 142=byg:weeping_witch_forest, 143=byg:woodlands, 144=byg:zelkova_forest, 145=byg:redwood_clearing, 146=byg:redwood_mountains, 147=byg:coral_mangroves, 148=byg:cika_mountains, 149=minecraft:modified_jungle, 150=byg:glowing_ancient_forest, 151=minecraft:modified_jungle_edge, 152=byg:flowering_ancient_forest, 153=byg:snowy_evergreen_clearing, 154=byg:snowy_evergreen_hills, 155=minecraft:tall_birch_forest, 156=minecraft:tall_birch_hills, 157=minecraft:dark_forest_hills, 158=minecraft:snowy_taiga_mountains, 159=byg:enchanted_forest_hills, 160=minecraft:giant_spruce_taiga, 161=minecraft:giant_spruce_taiga_hills, 162=minecraft:modified_gravelly_mountains, 163=minecraft:shattered_savanna, 164=minecraft:shattered_savanna_plateau, 165=minecraft:eroded_badlands, 166=minecraft:modified_wooded_badlands_plateau, 167=minecraft:modified_badlands_plateau, 168=minecraft:bamboo_jungle, 169=minecraft:bamboo_jungle_hills, 170=minecraft:soul_sand_valley, 171=minecraft:crimson_forest, 172=minecraft:warped_forest, 173=minecraft:basalt_deltas, 174=byg:ebony_hills, 175=byg:evergreen_clearing, 176=byg:evergreen_hills, 177=byg:fungal_patch, 178=byg:weeping_witch_clearing, 179=byg:pumpkin_forest, 180=byg:bamboo_forest, 181=byg:cherry_blossom_clearing, 182=byg:coniferous_clearing, 183=byg:zelkova_clearing, 184=byg:aspen_clearing, 185=byg:boreal_clearing, 186=byg:deciduous_clearing, 187=byg:seasonal_deciduous_clearing, 188=byg:guiana_clearing, 189=byg:jacaranda_clearing, 190=byg:snowy_coniferous_clearing, 191=byg:snowy_deciduous_clearing, 192=byg:maple_hills, 193=byg:black_forest_clearing, 194=byg:black_forest_hills, 195=byg:forest_fault, 196=byg:flowering_grove, 197=byg:flowering_enchanted_grove, 198=byg:northern_forest, 199=byg:lush_red_desert, 200=byg:sierra_range, 201=byg:alpine_foothills, 202=byg:aspen_forest_hills, 203=byg:blue_taiga_hills, 204=byg:blue_giant_taiga, 205=byg:bluff_peaks, 206=byg:boreal_forest_hills, 207=byg:bog, 208=byg:deciduous_forest_hills, 209=byg:coniferous_forest_hills, 210=byg:fresh_water_lake, 211=byg:frozen_lake, 212=byg:great_lake_isles, 213=byg:jacaranda_forest_hills, 214=byg:marshlands, 215=byg:oasis, 216=byg:polluted_lake, 217=byg:prairie_clearing, 218=byg:red_oak_forest_hills, 219=byg:red_rock_lowlands, 220=byg:red_rock_highlands, 221=byg:wooded_red_rock_mountains, 222=byg:seasonal_birch_forest_hills, 223=byg:seasonal_deciduous_forest_hills, 224=byg:seasonal_forest_hills, 225=byg:seasonal_giant_taiga, 226=byg:seasonal_taiga_hills, 227=byg:snowy_blue_giant_taiga, 228=byg:snowy_blue_taiga_hills, 229=byg:snowy_coniferous_forest_hills, 230=byg:snowy_deciduous_forest_hills, 231=byg:tropical_fungal_rainforest_hills, 232=byg:tropical_rainforest_hills, 233=byg:wooded_grassland_plateau, 234=byg:zelkova_forest_hills, 235=byg:flowering_meadow, 236=byg:wooded_meadow, 237=byg:rocky_beach, 238=byg:snowy_rocky_black_beach, 239=byg:snowy_black_beach, 240=byg:white_beach, 241=byg:rainbow_beach, 242=byg:tropical_islands, 243=byg:warped_desert, 244=byg:sythian_torrids, 245=byg:glowstone_gardens, 246=byg:embur_bog, 247=byg:ivis_fields, 248=byg:araucaria_savanna, 249=byg:rose_fields, 250=byg:stone_forest, 251=byg:twilight_valley, 252=byg:basalt_barrera, 253=byg:canyon_edge, 254=byg:araucaria_forest, 255=byg:pointed_stone_forest, 256=byg:twilight_valley_hills, 257=byg:red_spruce_taiga, 258=byg:brimstone_caverns, 259=byg:crimson_gardens, 260=byg:magma_wastes, 261=byg:subzero_hypogeal, 262=byg:wailing_garth, 263=byg:withering_woods, 264=byg:weeping_mire, 265=byg:quartz_desert, 266=byg:nightshade_forest, 267=byg:ethereal_islands, 268=byg:viscal_isles, 269=byg:bulbis_gardens, 270=byg:shattered_desert, 271=byg:shulkren_forest, 272=byg:purpur_peaks, 273=byg:cryptic_wastes, 274=byg:canyons, 275=byg:shattered_viscal_isles, 276=byg:bulbis_gardens_edge, 277=byg:ethereal_forest, 278=byg:ethereal_clearing, 279=byg:shattered_desert_isles, 280=byg:imparius_grove, 281=byg:imparius_clearing, 282=byg:skyris_highlands_clearing, 283=byg:skyris_peaks, 284=byg:skyris_steeps, 285=byg:guiana_springs, 286=byg:dummy, 287=terraforged:bryce, 288=terraforged:cold_steppe, 289=terraforged:cold_marshland, 290=terraforged:fir_forest, 291=terraforged:flower_plains, 292=terraforged:frozen_lake, 293=terraforged:frozen_marsh, 294=terraforged:lake, 295=terraforged:marshland, 296=terraforged:savanna_scrub, 297=terraforged:shattered_savanna_scrub, 298=terraforged:snowy_fir_forest, 299=terraforged:snowy_taiga_scrub, 300=terraforged:steppe, 301=terraforged:stone_forest, 302=terraforged:taiga_scrub, 303=terraforged:warm_beach, 304=twilightforest:forest, 305=twilightforest:dense_forest, 306=twilightforest:firefly_forest, 307=twilightforest:clearing, 308=twilightforest:oak_savannah, 309=twilightforest:stream, 310=twilightforest:lake, 311=twilightforest:mushroom_forest, 312=twilightforest:dense_mushroom_forest, 313=twilightforest:enchanted_forest, 314=twilightforest:spooky_forest, 315=twilightforest:swamp, 316=twilightforest:fire_swamp, 317=twilightforest:dark_forest, 318=twilightforest:dark_forest_center, 319=twilightforest:snowy_forest, 320=twilightforest:glacier, 321=twilightforest:highlands, 322=twilightforest:thornlands, 323=twilightforest:final_plateau, 324=ars_nouveau:archwood_forest, 325=appliedenergistics2:spatial_storage, 326=ars_nouveau:blazing_archwood_forest, 327=mahoutsukai:marble, 328=ftbschools:school_biome}
+[21Sep2021 12:16:48.412] [main/INFO] [TerraForged/]: Adding DataPackFinder
+[21Sep2021 12:16:48.848] [main/INFO] [Game Stages/]: Registering 1 commands.
+[21Sep2021 12:16:48.929] [main/INFO] [Bookshelf/]: Registering 1 commands.
+[21Sep2021 12:16:48.930] [main/INFO] [TerraForged/]: Registering /terra command
+[21Sep2021 12:16:49.024] [main/INFO] [ipsis.woot.setup.ModSetup/]: onRegisterCommandsEvent
+[21Sep2021 12:16:49.150] [main/INFO] [FTB Ranks/]: Loading command nodes...
+[21Sep2021 12:16:49.190] [main/INFO] [FTB Ranks/]: Loaded 2230 command nodes
+[21Sep2021 12:16:49.417] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:recipes/unification.js in 0.036 s
+[21Sep2021 12:16:49.421] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:quests.js in 0.004 s
+[21Sep2021 12:16:49.424] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:recipes/compact_crafting.js in 0.003 s
+[21Sep2021 12:16:49.432] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:recipes/endgame.js in 0.008 s
+[21Sep2021 12:16:49.440] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:recipes/misc.js in 0.008 s
+[21Sep2021 12:16:49.441] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:recipes/removals.js in 0.001 s
+[21Sep2021 12:16:49.442] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:recipes/slabs.js in 0.0 s
+[21Sep2021 12:16:49.444] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:schools.js in 0.001 s
+[21Sep2021 12:16:49.445] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:starting_items.js in 0.0 s
+[21Sep2021 12:16:49.446] [main/INFO] [KubeJS Server/]: Loaded script server_scripts:tags.js in 0.001 s
+[21Sep2021 12:16:49.446] [main/INFO] [KubeJS Server/]: Loaded 10/10 KubeJS server scripts in 0.076 s
+[21Sep2021 12:16:49.450] [main/INFO] [KubeJS Server/]: Scripts loaded
+[21Sep2021 12:16:49.457] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:crafting_shaped
+[21Sep2021 12:16:49.459] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:crafting_shapeless
+[21Sep2021 12:16:49.460] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:stonecutting
+[21Sep2021 12:16:49.462] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smelting
+[21Sep2021 12:16:49.462] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:blasting
+[21Sep2021 12:16:49.463] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smoking
+[21Sep2021 12:16:49.464] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:campfire_cooking
+[21Sep2021 12:16:49.466] [main/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smithing
+[21Sep2021 12:16:49.466] [main/INFO] [KubeJS/]: Registered custom recipe handler for type cucumber:shaped_no_mirror
+[21Sep2021 12:16:49.467] [main/INFO] [KubeJS/]: Registered custom recipe handler for type extendedcrafting:shaped_table
+[21Sep2021 12:16:49.467] [main/INFO] [KubeJS/]: Registered custom recipe handler for type extendedcrafting:shapeless_table
+[21Sep2021 12:16:49.467] [main/INFO] [KubeJS/]: Registered custom recipe handler for type dankstorage:upgrade
+[21Sep2021 12:16:49.469] [main/INFO] [KubeJS/]: Registered custom recipe handler for type appliedenergistics2:grinder
+[21Sep2021 12:16:49.471] [main/INFO] [KubeJS/]: Registered custom recipe handler for type botania:runic_altar
+[21Sep2021 12:16:49.475] [main/INFO] [KubeJS/]: Registered custom recipe handler for type tconstruct:casting_table
+[21Sep2021 12:16:49.477] [main/INFO] [KubeJS/]: Registered custom recipe handler for type tconstruct:casting_basin
+[21Sep2021 12:16:49.479] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:sequenced_assembly
+[21Sep2021 12:16:49.480] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:mechanical_crafting
+[21Sep2021 12:16:49.482] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:conversion
+[21Sep2021 12:16:49.482] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:crushing
+[21Sep2021 12:16:49.482] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:cutting
+[21Sep2021 12:16:49.482] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:milling
+[21Sep2021 12:16:49.482] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:basin
+[21Sep2021 12:16:49.483] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:mixing
+[21Sep2021 12:16:49.483] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:compacting
+[21Sep2021 12:16:49.483] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:pressing
+[21Sep2021 12:16:49.483] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:sandpaper_polishing
+[21Sep2021 12:16:49.483] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:splashing
+[21Sep2021 12:16:49.484] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:deploying
+[21Sep2021 12:16:49.484] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:filling
+[21Sep2021 12:16:49.484] [main/INFO] [KubeJS/]: Registered custom recipe handler for type create:emptying
+[21Sep2021 12:16:49.488] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:crushing
+[21Sep2021 12:16:49.488] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:enriching
+[21Sep2021 12:16:49.489] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:smelting
+[21Sep2021 12:16:49.491] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:chemical_infusing
+[21Sep2021 12:16:49.493] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:combining
+[21Sep2021 12:16:49.495] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:crystallizing
+[21Sep2021 12:16:49.497] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:dissolution
+[21Sep2021 12:16:49.498] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:compressing
+[21Sep2021 12:16:49.499] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:purifying
+[21Sep2021 12:16:49.499] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:injecting
+[21Sep2021 12:16:49.500] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:energy_conversion
+[21Sep2021 12:16:49.502] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:gas_conversion
+[21Sep2021 12:16:49.503] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:oxidizing
+[21Sep2021 12:16:49.505] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:metallurgic_infusing
+[21Sep2021 12:16:49.506] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:reaction
+[21Sep2021 12:16:49.508] [main/INFO] [KubeJS/]: Registered custom recipe handler for type mekanism:sawing
+[21Sep2021 12:16:49.511] [main/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:altar
+[21Sep2021 12:16:49.513] [main/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:array
+[21Sep2021 12:16:49.514] [main/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:soulforge
+[21Sep2021 12:16:49.516] [main/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:arc
+[21Sep2021 12:16:49.518] [main/INFO] [KubeJS/]: Registered custom recipe handler for type bloodmagic:alchemytable
+[21Sep2021 12:16:49.524] [main/INFO] [KubeJS Server/]: Scanning recipes...
+[21Sep2021 12:16:49.536] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: KubeJS Virtual Data Pack [low priority], Default, ftb-essentials-1605.1.4-build.13.jar, justenoughbeacons-3.1-1.16.3.jar, IntegratedTerminals-1.16.5-1.2.4.jar, prefab-1.6.5.10.jar, modnametooltip_1.16.2-1.15.0.jar, BetterCaves-Forge-1.16.4-1.1.2.jar, CTM-MC1.16.1-1.1.2.6.jar, ReAuth-1.16-Forge-3.9.3.jar, YungsApi-1.16.4-Forge-12.jar, Morpheus-1.16.5-4.2.70.jar, dynviewdist-2.0.jar, TMechworks-1.16.3+-2.2.5.jar, JustEnoughResources-1.16.5-0.12.1.128.jar, DeLogger-3.0.3-build.19+mc1.16.5.jar, emojiful-1.16.4-2.1.4.jar, betterendforge-1.16.4-1.6.0.jar, TipTheScales-1.16.5-3.0.0.15.jar, repurposed_structures_forge-3.2.3+1.16.5.jar, fastfurnaceminusreplacement-1.1-1.16.3.jar, supermartijn642corelib-1.0.12-mc1.16.5.jar, Botania-1.16.5-419.jar, mostructures-forge-1.2.0-1.16.5.jar, StructureExpansion-1.16.5-1.0.7.jar, curios-forge-1.16.5-4.0.5.2.jar, GameStages-Forge-1.16.5-7.3.10.jar, YungsExtras-Forge-1.16.4-1.0.jar, worldedit-mod-7.2.5-dist.jar, cloth-config-4.11.26-forge.jar, fastbenchminusreplacement-1.4.jar, CobbleForDays-1.3.1.jar, FastLeafDecay-v25.jar, CodeChickenLib-1.16.5-4.0.3.432-universal.jar, CBMultipart-1.16.5-3.0.2.119-universal.jar, ProjectRed-1.16.5-4.10.0-core.jar, ProjectRed-1.16.5-4.10.0-integration.jar, BetterMineshafts-Forge-1.16.4-2.0.4.jar, SimpleDiscordRichPresence-1.16.4-1.3.5.jar, QuarkOddities-1.16.3.jar, mowziesmobs-1.5.19.jar, ftb-janitor-1605.1.2-build.3.jar, woot-1.16.5-1.0.8.0.jar, pitchperfect-1.0.2.jar, jei-1.16.5-7.7.1.121.jar, Mekanism-1.16.5-10.0.21.448.jar, EpicFightMod-1.16.5-5.0.4.jar, shutupexperimentalsettings-1.0.3.jar, NaturesCompass-1.16.5-1.9.1-forge.jar, cursedearth-3.2.jar, compactmachines-4.0.0-beta.2.jar, upstream-1.0.jar, pneumaticcraft-repressurized-1.16.5-2.13.5-218.jar, mysticalworld-1.16.5-0.3.2.18.jar, ImmersivePetroleum-1.16.5-3.3.0-5.jar, DynamicSurroundings-1.16.4-4.0.4.2.jar, ironchest-1.16.5-11.2.13.jar, IntegratedCrafting-1.16.5-1.0.17.jar, theoneprobe-1.16-3.1.4.jar, MouseTweaks-2.14-mc1.16.2.jar, ImmersiveEngineering-1.16.5-5.0.3-138.jar, jeiintegration_1.16.5-7.0.1.15.jar, flywheel-1.16-0.2.3.jar, Mantle-1.16.5-1.6.123.jar, IntegratedDynamics-1.16.5-1.9.3.jar, integratednbt-1.16.4-1.4.2.jar, gravestone-1.16.5-1.0.6.jar, ftb-backups-2.1.1.6.jar, serverconfigupdater-1.3.jar, JustEnoughProfessions-1.16.5-1.2.1.jar, AutoRegLib-1.6-49.jar, lootr-1.16.5-0.0.8.23.jar, DamageTilt-1.16-forge-0.1.1.jar, byg-1.3.4.jar, CosmeticArmorReworked-1.16.5-v4.jar, DefaultOptions_1.16.5-12.2.1.jar, enchantedbookredesign-3.3-1.16.4.jar, CyclopsCore-1.16.5-1.11.8.jar, notenoughcrashes-3.2.0-forge.jar, Hats-1.16.5-10.3.1.jar, tinyredstone-1.16.5-1.8.3.jar, eidolon-0.2.7.jar, JustEnoughCalculation-1.16.5-3.8.5.jar, ExtendedCrafting-1.16.4-3.1.6.jar, KleeSlabs_1.16.5-9.2.1.jar, findme-1.16.3-2.2.0.0.jar, glassential-forge-1.16.5-1.1.7.jar, TerraForged-1.16.5-0.2.14.jar, Controlling-7.0.0.24.jar, Placebo-1.16.5-4.6.0.jar, dankstorage-3.16.jar, citadel-1.8.1-1.16.5.jar, alexsmobs-1.12.0.jar, Bookshelf-Forge-1.16.5-10.2.27.jar, Tips-1.16.5-4.0.7.jar, biomeidfixer-1.16.5-1.0.1.s5.jar, ProjectRed-1.16.5-4.10.0-illumination.jar, buildinggadgets-1.16.5-3.8.0.jar, forge-1.16.5-36.2.2-universal.jar, cofh_core-1.16.5-1.3.1.jar, thermal_foundation-1.16.5-1.3.2.jar, appleskin-forge-mc1.16.x-2.1.0.jar, MekanismGenerators-1.16.5-10.0.21.448.jar, XNetGases-1.16.5-2.3.7.jar, MmmMmmMmmMmm-1.16.5-1.2.0.jar, absentbydesign-1.16.5-1.5.0.jar, stalkercreepers-1.16.3.2.jar, twilightforest-1.16.5-4.0.546-universal.jar, CommonCapabilities-1.16.5-2.7.0.jar, Compressium-1.16.5-1.2.3.jar, MekanismAdditions-1.16.5-10.0.21.448.jar, valkyrielib-1.16.5-3.0.9.2.jar, envirocore-1.16.5-3.0.9.1.jar, envirotech-1.16.5-3.0.9.4.jar, Lollipop-1.16.5-3.2.9.jar, simplylight-1.16.4-1.2.0-build.11.jar, trofers-1.16.5-1.1.0.jar, CNB-1.16.3_5-1.2.11.jar, geckolib-forge-1.16.5-3.0.45.jar, Patchouli-1.16.4-53.1.jar, ars_nouveau-1.16.5-1.23.1.jar, ProjectRed-1.16.5-4.10.0-transmission.jar, blockcarpentry-1.16-0.4.0.jar, IntegratedTunnels-1.16.5-1.8.5.jar, DrawersTooltip-1.16.2-2.1.0.jar, ftb-ultimine-forge-1605.3.0-build.25.jar, BetterStrongholds-1.16.4-1.2.1.jar, MekanismTools-1.16.5-10.0.21.448.jar, FTB-Schools-1605.0.2-dev.16.jar, architectury-1.22.32-forge.jar, ftb-library-forge-1605.3.2-build.64.jar, ftb-banners-1605.1.3-build.25.jar, ftbauxilium-forge-1605.1.1-build.14-forge.jar, ftb-teams-forge-1605.2.1-build.20.jar, ftb-ranks-1605.1.4-build.9-forge.jar, compactcrafting-1.0.0-beta.3.jar, light-overlay-5.8.1.jar, trashcans-1.0.10-mc1.16.5.jar, bwncr-1.16.5-3.10.16.jar, BetterAdvancements-1.16.5-0.1.1.115.jar, inventorysorter-1.16.1-18.1.0.jar, rhino-forge-1605.1.3-build.52.jar, Cucumber-1.16.4-4.1.10.jar, Overloaded-1.16.4-0.0.94.jar, item-filters-forge-1605.2.5-build.9.jar, abnormals_core-1.16.5-3.2.0.jar, upgrade_aquatic-1.16.5-3.1.0.jar, Tiny-Coal-1.16.4-1.0.0.jar, CuriosQuarkOBP-1.16.5-1.0.2.jar, create-mc1.16.5_v0.3.2d.jar, Clumps-6.0.0.25.jar, enviromats-1.16.5-2.0.9.0.jar, appliedenergistics2-8.4.0.jar, lazierae2-1.16.5-1.1.4.jar, Artifacts-1.16.5-2.10.0.jar, configured-1.2.0-1.16.3.jar, mcjtylib-1.16-5.0.22.jar, rftoolsbase-1.16-2.0.11.jar, xnet-1.16-3.0.13.jar, rftoolspower-1.16-3.0.9.jar, rftoolsbuilder-1.16-3.1.2.jar, rftoolsstorage-1.16-2.0.13.jar, rftoolscontrol-1.16-4.0.11.jar, mahoutsukai-1.16.5-v1.31.40.jar, PackagedExCrafting-1.16.5-2.0.0.1.jar, Toast-Control-1.16.4-4.3.1.jar, iChunUtil-1.16.5-10.4.1.jar, EnderStorage-1.16.5-2.8.0.168-universal.jar, AkashicTome-1.4-16.jar, ftb-chunks-forge-1605.3.1-build.46.jar, kubejs-forge-1605.3.15-build.106.jar, ftb-quests-forge-1605.3.4-build.52.jar, kubejs-create-1605.1.2-build.7.jar, kubejs-mekanism-1605.1.2-build.2.jar, kubejs-ui-forge-1605.1.4-build.12.jar, RecipeStages-2.0.0.20.jar, BloodMagic-1.16.4-3.1.1-16.jar, kubejs-blood-magic-1604.1.0.4.jar, recipebuffers-2.1.jar, FasterLadderClimbing-1.16.4-0.2.1.jar, TConstruct-1.16.5-3.1.2.265.jar, kubejs-tinkers-1605.1.0-build.9999.jar, rftoolsutility-1.16-3.1.2.jar, EnchantmentDescriptions-1.16.5-7.0.12.jar, swingthroughgrass-1.16.4-1.5.3.jar, mana-and-artifice-1.4.0.8.jar, PackagedAuto-1.16.5-2.0.0.3.jar, archers_paradox-1.16.5-1.3.1.jar, Krate-1.16.5-0.1.4.jar, enviroenergy-1.16.5-3.0.9.1.jar, Quark-r2.4-316.jar, charm-forge-1.16.5-2.3.2.jar, StorageDrawers-1.16.3-8.3.0.jar, topaddons-1.16.5-2.1.5-beta.jar, Statues-1.16.5-0.1.7.3.jar, lofirecordstomineto-1.1.0.jar, ferritecore-2.0.7-forge.jar, engineersdecor-1.16.4-1.1.14.jar, Chisel-MC1.16.5-2.0.1-alpha.4.jar, minetogether-1.16.5-5.0.0Alpha6-forge.jar, moredragoneggs-1.4.jar, expandability-2.0.1-forge.jar, overloadedarmorbar-5.1.0.jar, chiselsandbits-0.3.4-RELEASE.jar, NBTEdit-0.10.0.jar, KubeJS Resource Pack [data], KubeJS Virtual Data Pack [high priority]
+[21Sep2021 12:16:52.069] [Worker-Main-14/INFO] [KubeJS Server/]: [blocks] Found 861 tags, added 0 objects, removed 8 objects
+[21Sep2021 12:16:52.091] [Worker-Main-14/INFO] [KubeJS Server/]: [items] Found 1499 tags, added 324 objects, removed 0 objects
+[21Sep2021 12:16:52.103] [Worker-Main-14/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag forge:hardened_stone as it is missing following references: #enviromats:hardened_stone (from enviromats-1.16.5-2.0.9.0.jar)
+[21Sep2021 12:16:52.103] [Worker-Main-14/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag forge:pumice as it is missing following references: #enviromats:pumice (from enviromats-1.16.5-2.0.9.0.jar)
+[21Sep2021 12:16:52.103] [Worker-Main-14/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag forge:travertine as it is missing following references: #enviromats:travertine (from enviromats-1.16.5-2.0.9.0.jar)
+[21Sep2021 12:16:52.104] [Worker-Main-14/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag forge:granodiorite as it is missing following references: #enviromats:granodiorite (from enviromats-1.16.5-2.0.9.0.jar)
+[21Sep2021 12:16:52.104] [Worker-Main-14/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag forge:marble as it is missing following references: #enviromats:marble (from enviromats-1.16.5-2.0.9.0.jar)
+[21Sep2021 12:16:52.104] [Worker-Main-14/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldn't load item tag forge:basalt as it is missing following references: #enviromats:basalt (from enviromats-1.16.5-2.0.9.0.jar)
+[21Sep2021 12:16:52.106] [Worker-Main-14/INFO] [KubeJS Server/]: [fluids] Found 106 tags, added 0 objects, removed 4 objects
+[21Sep2021 12:16:52.107] [Worker-Main-14/INFO] [KubeJS Server/]: [entity_types] Found 45 tags, added 0 objects, removed 0 objects
+[21Sep2021 12:16:52.108] [Worker-Main-14/INFO] [KubeJS Server/]: [tunnel_types] Found 0 tags, added 0 objects, removed 0 objects
+[21Sep2021 12:16:52.109] [Worker-Main-14/INFO] [KubeJS Server/]: [recipe_components] Found 0 tags, added 0 objects, removed 0 objects
+[21Sep2021 12:16:52.109] [Worker-Main-14/INFO] [KubeJS Server/]: [potions] Found 0 tags, added 0 objects, removed 0 objects
+[21Sep2021 12:16:52.110] [Worker-Main-14/INFO] [KubeJS Server/]: [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[21Sep2021 12:16:52.110] [Worker-Main-14/INFO] [KubeJS Server/]: [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[21Sep2021 12:16:52.110] [Worker-Main-14/INFO] [KubeJS Server/]: [tile_entity_types] Found 4 tags, added 0 objects, removed 0 objects
+[21Sep2021 12:16:52.112] [Worker-Main-14/INFO] [KubeJS Server/]: [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[21Sep2021 12:16:52.112] [Worker-Main-14/INFO] [KubeJS Server/]: [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[21Sep2021 12:16:52.112] [Worker-Main-14/INFO] [KubeJS Server/]: [gases] Found 5 tags, added 0 objects, removed 0 objects
+[21Sep2021 12:16:52.113] [Worker-Main-14/INFO] [KubeJS Server/]: [recipe_layers] Found 0 tags, added 0 objects, removed 0 objects
+[21Sep2021 12:16:52.136] [Worker-Main-14/INFO] [com.minecraftabnormals.abnormals_core.core.AbnormalsCore/]: Loot Modification Manager has loaded 0 sets of modifiers
+[21Sep2021 12:16:52.429] [Worker-Main-14/WARN] [com.ma.ManaAndArtifice/]: Recipe mana-and-artifice:multiblock/council_circle does not define a tier, defaulting to 1.
+[21Sep2021 12:16:52.714] [Worker-Main-14/WARN] [com.ma.ManaAndArtifice/]: Recipe mana-and-artifice:multiblock/fey_circle does not define a tier, defaulting to 1.
+[21Sep2021 12:16:52.837] [Worker-Main-14/INFO] [pneumaticcraft/]: ignoring heat properties for block occultism:spirit_fire: mod not loaded
+[21Sep2021 12:16:52.921] [Worker-Main-14/INFO] [pneumaticcraft/]: ignoring heat properties for block decorative_blocks:soul_brazier: mod not loaded
+[21Sep2021 12:16:52.958] [Worker-Main-14/ERROR] [com.ma.ManaAndArtifice/]: Invalid tiers found in mana-and-artifice:manaweaving/utility/poisonous_potato
+[21Sep2021 12:16:52.994] [Worker-Main-14/INFO] [pneumaticcraft/]: ignoring heat properties for block valhelsia_structures:brazier: mod not loaded
+[21Sep2021 12:16:53.075] [Worker-Main-14/WARN] [com.ma.ManaAndArtifice/]: Recipe mana-and-artifice:multiblock/demon_circle does not define a tier, defaulting to 1.
+[21Sep2021 12:16:53.164] [Worker-Main-14/WARN] [com.ma.ManaAndArtifice/]: Recipe mana-and-artifice:multiblock/undead_circle does not define a tier, defaulting to 1.
+[21Sep2021 12:16:53.305] [Worker-Main-14/WARN] [com.ma.ManaAndArtifice/]: Recipe mana-and-artifice:multiblock/test_multiblock does not define a tier, defaulting to 1.
+[21Sep2021 12:16:53.352] [Worker-Main-14/INFO] [pneumaticcraft/]: ignoring heat properties for block powah:dry_ice: mod not loaded
+[21Sep2021 12:16:53.438] [Worker-Main-14/INFO] [pneumaticcraft/]: ignoring heat properties for block decorative_blocks:brazier: mod not loaded
+[21Sep2021 12:16:53.475] [Worker-Main-14/INFO] [pneumaticcraft/]: ignoring heat properties for block natura:nether_heat_sand: mod not loaded
+[21Sep2021 12:16:53.480] [Worker-Main-14/ERROR] [com.ma.ManaAndArtifice/]: Invalid tiers found in mana-and-artifice:manaweaving/utility/name_tag
+[21Sep2021 12:16:53.667] [Worker-Main-14/INFO] [KubeJS Server/]: Found 17686 recipes and 0 failed recipes in 1.448 s
+[21Sep2021 12:16:59.018] [Worker-Main-14/INFO] [KubeJS Server/]: Posted recipe events in 5.351 s
+[21Sep2021 12:16:59.027] [Worker-Main-14/WARN] [com.ma.ManaAndArtifice/]: Recipe mana-and-artifice:multiblock/council_circle does not define a tier, defaulting to 1.
+[21Sep2021 12:16:59.093] [Worker-Main-14/WARN] [com.ma.ManaAndArtifice/]: Recipe mana-and-artifice:multiblock/fey_circle does not define a tier, defaulting to 1.
+[21Sep2021 12:16:59.197] [Worker-Main-14/ERROR] [com.ma.ManaAndArtifice/]: Invalid tiers found in mana-and-artifice:manaweaving/utility/poisonous_potato
+[21Sep2021 12:16:59.246] [Worker-Main-14/WARN] [com.ma.ManaAndArtifice/]: Recipe mana-and-artifice:multiblock/demon_circle does not define a tier, defaulting to 1.
+[21Sep2021 12:16:59.282] [Worker-Main-14/WARN] [KubeJS Server/]: Error parsing recipe immersivepetroleum:hydrotreater/sulfur_recovery[immersivepetroleum:hydrotreater]: {"type":"immersivepetroleum:hydrotreater","time":1,"energy":512,"result":{"fluid":"immersivepetroleum:diesel","amount":7},"input":{"tag":"forge:diesel_sulfur","amount":7},"secondary_input":{"tag":"minecraft:water","amount":7},"secondary_result":{"item":"immersiveengineering:dust_sulfur"}}: java.lang.IllegalArgumentException: Unexpected json object.
+[21Sep2021 12:16:59.295] [Worker-Main-14/WARN] [com.ma.ManaAndArtifice/]: Recipe mana-and-artifice:multiblock/undead_circle does not define a tier, defaulting to 1.
+[21Sep2021 12:16:59.375] [Worker-Main-14/WARN] [com.ma.ManaAndArtifice/]: Recipe mana-and-artifice:multiblock/test_multiblock does not define a tier, defaulting to 1.
+[21Sep2021 12:16:59.547] [Worker-Main-14/ERROR] [com.ma.ManaAndArtifice/]: Invalid tiers found in mana-and-artifice:manaweaving/utility/name_tag
+[21Sep2021 12:16:59.648] [Worker-Main-14/WARN] [KubeJS Server/]: Error parsing recipe immersivepetroleum:distillationtower/oilcracking[immersivepetroleum:distillation]: {"type":"immersivepetroleum:distillation","byproducts":[{"item":"immersivepetroleum:bitumen"}],"results":[{"fluid":"immersivepetroleum:lubricant","amount":9},{"fluid":"immersivepetroleum:diesel_sulfur","amount":14},{"fluid":"immersivepetroleum:gasoline","amount":39}],"input":{"tag":"forge:crude_oil","amount":75},"time":1,"energy":2048}: java.lang.IllegalArgumentException: Unexpected json object.
+[21Sep2021 12:16:59.667] [Worker-Main-14/INFO] [KubeJS Server/]: Modified & removed recipes in 649.0 ms
+[21Sep2021 12:17:00.127] [Worker-Main-14/INFO] [KubeJS Server/]: Added recipes in 459.6 ms
+[21Sep2021 12:17:00.128] [Worker-Main-14/INFO] [KubeJS Server/]: Added 647 recipes, removed 430 recipes, modified 766 recipes, with 2 failed recipes and 0 fall-backed recipes
+[21Sep2021 12:17:00.244] [Worker-Main-14/INFO] [com.minecraftabnormals.abnormals_core.core.AbnormalsCore/]: Advancement Modification Manager has loaded 8 sets of modifiers
+[21Sep2021 12:17:02.667] [Worker-Main-14/INFO] [placebo/]: Registered 0 additional loot tables.
+[21Sep2021 12:17:02.670] [Worker-Main-14/INFO] [KubeJS Server/]: [functions] Found 0 tags, added 0 objects, removed 0 objects
+[21Sep2021 12:17:02.866] [Worker-Main-14/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement twilightforest:alt/compat/tconstruct: Unknown item id 'tconstruct:book'
+[21Sep2021 12:17:02.998] [Worker-Main-14/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5707 advancements
+[21Sep2021 12:17:03.014] [Worker-Main-14/INFO] [placebo/]: Registered 0 additional recipes.
+[21Sep2021 12:17:03.026] [Worker-Main-14/INFO] [immersivepetroleum/]: Loading Distillation Recipes.
+[21Sep2021 12:17:03.033] [Worker-Main-14/INFO] [immersivepetroleum/]: Loading Reservoirs.
+[21Sep2021 12:17:03.038] [Worker-Main-14/INFO] [immersivepetroleum/]: Loading Coker-Unit Recipes.
+[21Sep2021 12:17:03.042] [Worker-Main-14/INFO] [immersivepetroleum/]: Loading Sulfur Recovery Recipes.
+[21Sep2021 12:17:03.334] [Worker-Main-14/INFO] [immersiveengineering/]: Couldn't fully analyze 1 compressed_iron_leggings, missing knowledge for {1 leather_leggings=1.0}
+[21Sep2021 12:17:03.334] [Worker-Main-14/INFO] [immersiveengineering/]: Couldn't fully analyze 1 compressed_iron_boots, missing knowledge for {1 leather_boots=1.0}
+[21Sep2021 12:17:03.334] [Worker-Main-14/INFO] [immersiveengineering/]: Couldn't fully analyze 1 compressed_iron_chestplate, missing knowledge for {1 leather_chestplate=1.0}
+[21Sep2021 12:17:03.335] [Worker-Main-14/INFO] [immersiveengineering/]: Couldn't fully analyze 1 pneumatic_leggings, missing knowledge for {1 compressed_iron_leggings=1.0}
+[21Sep2021 12:17:03.335] [Worker-Main-14/INFO] [immersiveengineering/]: Couldn't fully analyze 1 compressed_iron_helmet, missing knowledge for {1 leather_helmet=1.0}
+[21Sep2021 12:17:03.335] [Worker-Main-14/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 283 milliseconds
+[21Sep2021 12:17:03.425] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab biotite_slab could not be found.
+[21Sep2021 12:17:03.425] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab snow_bricks_slab_double could not be found.
+[21Sep2021 12:17:03.425] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab sandy_bricks_slab_double could not be found.
+[21Sep2021 12:17:03.425] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab charred_nether_brick_slab could not be found.
+[21Sep2021 12:17:03.426] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab sandstone_bricks_slab_double could not be found.
+[21Sep2021 12:17:03.426] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab sandstone_smooth_slab could not be found.
+[21Sep2021 12:17:03.426] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab red_sandstone_bricks_slab_double could not be found.
+[21Sep2021 12:17:03.426] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab red_sandstone_smooth_slab could not be found.
+[21Sep2021 12:17:03.427] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab end_bricks_slab could not be found.
+[21Sep2021 12:17:03.427] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab prismarine_slab could not be found.
+[21Sep2021 12:17:03.427] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab prismarine_dark_slab could not be found.
+[21Sep2021 12:17:03.427] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab prismarine_bricks_slab could not be found.
+[21Sep2021 12:17:03.427] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stone_diorite_slab could not be found.
+[21Sep2021 12:17:03.428] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stone_diorite_bricks_slab could not be found.
+[21Sep2021 12:17:03.428] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stone_granite_slab could not be found.
+[21Sep2021 12:17:03.428] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stone_granite_bricks_slab could not be found.
+[21Sep2021 12:17:03.428] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stone_andesite_slab could not be found.
+[21Sep2021 12:17:03.429] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stone_andesite_bricks_slab could not be found.
+[21Sep2021 12:17:03.429] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stone_basalt_slab could not be found.
+[21Sep2021 12:17:03.429] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stone_basalt_bricks_slab could not be found.
+[21Sep2021 12:17:03.429] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_gray_slab could not be found.
+[21Sep2021 12:17:03.429] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_magenta_slab could not be found.
+[21Sep2021 12:17:03.430] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_cyan_slab could not be found.
+[21Sep2021 12:17:03.430] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_blue_slab could not be found.
+[21Sep2021 12:17:03.430] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_orange_slab could not be found.
+[21Sep2021 12:17:03.430] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_red_slab could not be found.
+[21Sep2021 12:17:03.430] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_yellow_slab could not be found.
+[21Sep2021 12:17:03.431] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_light_blue_slab could not be found.
+[21Sep2021 12:17:03.431] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_purple_slab could not be found.
+[21Sep2021 12:17:03.431] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_silver_slab could not be found.
+[21Sep2021 12:17:03.431] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_lime_slab could not be found.
+[21Sep2021 12:17:03.431] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_green_slab could not be found.
+[21Sep2021 12:17:03.432] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_black_slab could not be found.
+[21Sep2021 12:17:03.432] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_brown_slab could not be found.
+[21Sep2021 12:17:03.432] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_white_slab could not be found.
+[21Sep2021 12:17:03.432] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_clay_tiles_pink_slab could not be found.
+[21Sep2021 12:17:03.432] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_gray_slab could not be found.
+[21Sep2021 12:17:03.433] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_magenta_slab could not be found.
+[21Sep2021 12:17:03.433] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_cyan_slab could not be found.
+[21Sep2021 12:17:03.433] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_blue_slab could not be found.
+[21Sep2021 12:17:03.433] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_orange_slab could not be found.
+[21Sep2021 12:17:03.434] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_red_slab could not be found.
+[21Sep2021 12:17:03.434] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_yellow_slab could not be found.
+[21Sep2021 12:17:03.434] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_light_blue_slab could not be found.
+[21Sep2021 12:17:03.434] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_purple_slab could not be found.
+[21Sep2021 12:17:03.434] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_silver_slab could not be found.
+[21Sep2021 12:17:03.435] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_lime_slab could not be found.
+[21Sep2021 12:17:03.435] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_green_slab could not be found.
+[21Sep2021 12:17:03.435] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_black_slab could not be found.
+[21Sep2021 12:17:03.435] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_brown_slab could not be found.
+[21Sep2021 12:17:03.435] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_white_slab could not be found.
+[21Sep2021 12:17:03.436] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stained_planks_pink_slab could not be found.
+[21Sep2021 12:17:03.436] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab reed_block_slab could not be found.
+[21Sep2021 12:17:03.436] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab thatch_slab_double could not be found.
+[21Sep2021 12:17:03.436] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab icy_stone_slab could not be found.
+[21Sep2021 12:17:03.436] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab fire_stone_slab could not be found.
+[21Sep2021 12:17:03.437] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stone_limestone_slab could not be found.
+[21Sep2021 12:17:03.437] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab stone_marble_slab could not be found.
+[21Sep2021 12:17:03.437] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab duskbound_block_slab_double could not be found.
+[21Sep2021 12:17:03.437] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab magma_bricks_slab_double could not be found.
+[21Sep2021 12:17:03.437] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab midori_block_slab_double could not be found.
+[21Sep2021 12:17:03.438] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab iron_plate_slab_double could not be found.
+[21Sep2021 12:17:03.438] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab polished_netherrack_bricks_slab could not be found.
+[21Sep2021 12:17:03.438] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab soul_sandstone_slab_double could not be found.
+[21Sep2021 12:17:03.438] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab soul_sandstone_bricks_slab_double could not be found.
+[21Sep2021 12:17:03.438] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab soul_sandstone_smooth_slab could not be found.
+[21Sep2021 12:17:03.439] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab bark_oak_slab could not be found.
+[21Sep2021 12:17:03.439] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab bark_spruce_slab could not be found.
+[21Sep2021 12:17:03.439] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab bark_birch_slab could not be found.
+[21Sep2021 12:17:03.439] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab bark_jungle_slab could not be found.
+[21Sep2021 12:17:03.440] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab bark_acacia_slab could not be found.
+[21Sep2021 12:17:03.440] [Worker-Main-14/ERROR] [net.blay09.mods.kleeslabs.KleeSlabs/]: Slab bark_dark_oak_slab could not be found.
+[21Sep2021 12:17:03.448] [Worker-Main-14/INFO] [ipsis.woot.setup.ModSetup/]: ExoticDrops rolls:1 chance:15.0 weights:[4, 4, 2, 1, 1]
+[21Sep2021 12:17:04.534] [Worker-Main-14/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 1 ms
+[21Sep2021 12:17:04.550] [Worker-Main-14/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: 27 materials loaded
+[21Sep2021 12:17:04.652] [Worker-Main-14/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 81 stats loaded for 27 materials
+[21Sep2021 12:17:04.792] [Worker-Main-14/INFO] [immersiveengineering/]: Recipes for potions: minecraft:strong_regeneration, quark:long_resilience, minecraft:slow_falling, mana-and-artifice:greater_mana_potion, minecraft:long_swiftness, minecraft:strong_swiftness, quark:long_resistance, minecraft:mundane, alexsmobs:strong_soulsteal, minecraft:long_invisibility, upgrade_aquatic:repellence_strong, minecraft:water, minecraft:strong_healing, quark:strong_resilience, minecraft:long_fire_resistance, minecraft:long_strength, alexsmobs:knockback_resistance, minecraft:water_breathing, minecraft:harming, upgrade_aquatic:insomnia, alexsmobs:speed_iii, ars_nouveau:mana_regen_potion_long, minecraft:invisibility, alexsmobs:long_bug_pheromones, mana-and-artifice:superior_mana_potion, minecraft:fire_resistance, upgrade_aquatic:restfulness_strong, ars_nouveau:spell_damage_long, minecraft:strong_turtle_master, minecraft:turtle_master, ars_nouveau:spell_damage, minecraft:leaping, mysticalworld:serendipity, minecraft:strong_slowness, alexsmobs:clinging, eidolon:long_anchored, upgrade_aquatic:insomnia_strong, ars_nouveau:mana_regen_potion, quark:resilience, upgrade_aquatic:repellence_long, minecraft:long_weakness, minecraft:night_vision, minecraft:long_turtle_master, mowziesmobs:poison_resist, alexsmobs:long_clinging, minecraft:strength, quark:resistance, upgrade_aquatic:restfulness, quark:long_danger_sight, minecraft:strong_poison, alexsmobs:soulsteal, upgrade_aquatic:vibing_strong, minecraft:thick, quark:danger_sight, alexsmobs:long_soulsteal, alexsmobs:long_lava_vision, mana-and-artifice:mana_potion, minecraft:strong_leaping, minecraft:long_water_breathing, minecraft:long_poison, minecraft:long_night_vision, eidolon:anchored, minecraft:regeneration, minecraft:healing, minecraft:long_leaping, minecraft:weakness, alexsmobs:long_knockback_resistance, minecraft:awkward, eidolon:long_chilled, minecraft:swiftness, alexsmobs:lava_vision, quark:strong_resistance, alexsmobs:long_poison_resistance, mana-and-artifice:minor_mana_potion, ars_nouveau:spell_damage_strong, minecraft:long_regeneration, minecraft:strong_strength, upgrade_aquatic:repellence, minecraft:poison, mowziesmobs:long_poison_resist, alexsmobs:poison_resistance, upgrade_aquatic:vibing, upgrade_aquatic:vibing_long, eidolon:chilled, minecraft:long_slow_falling, alexsmobs:strong_knockback_resistance, mana-and-artifice:light_mana_potion, minecraft:long_slowness, ars_nouveau:mana_regen_potion_strong, alexsmobs:bug_pheromones, minecraft:slowness, minecraft:strong_harming
+[21Sep2021 12:17:13.523] [main/INFO] [TerraForged/]: Tags Reloaded
+[21Sep2021 12:17:13.675] [main/INFO] [TerraForged/]: Tags Reloaded
+[21Sep2021 12:17:25.378] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[21Sep2021 12:17:25.378] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[21Sep2021 12:17:25.379] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[21Sep2021 12:17:25.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[21Sep2021 12:17:25.441] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[21Sep2021 12:17:25.446] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[21Sep2021 12:17:25.834] [Server thread/INFO] [immersivepetroleum/FuelHandler/]: Added immersivepetroleum:gasoline as Portable Generator Fuel. (256RF/t 5mB/t)
+[21Sep2021 12:17:25.834] [Server thread/INFO] [immersivepetroleum/FuelHandler/]: Added immersivepetroleum:gasoline as Motorboat Fuel. (1 mB/t)
+[21Sep2021 12:17:25.869] [Server thread/INFO] [me.ichun.mods.hats.common.Hats/]: Allocated Hat Pools.
+[21Sep2021 12:17:25.983] [Server thread/WARN] [dev.ftb.mods.ftbultimine.FTBUltimine/]: maxBlocks is set to more than 8192 blocks!
+[21Sep2021 12:17:25.983] [Server thread/WARN] [dev.ftb.mods.ftbultimine.FTBUltimine/]: This may cause a lot of tick and FPS lag!
+[21Sep2021 12:17:26.023] [Server thread/INFO] [FTB Teams/]: Loaded FTB Teams - 4 known players
+[21Sep2021 12:17:26.211] [Server thread/INFO] [STDOUT/]: [com.ma.villagers.VillagerRegistry$VillagerTradesHandler:registerTrades:207]: Registered Wandering Trader Trades
+[21Sep2021 12:17:26.222] [Server thread/INFO] [com.ma.ManaAndArtifice/]: Mana And Artifice >> Applied villager librarian balance changes.
+[21Sep2021 12:17:26.229] [Server thread/INFO] [STDOUT/]: [com.ma.villagers.VillagerRegistry$VillagerTradesHandler:registerTrades:150]: Registered Trades
+[21Sep2021 12:17:26.292] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[21Sep2021 12:17:26.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[21Sep2021 12:17:27.874] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[21Sep2021 12:17:27.875] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[21Sep2021 12:17:27.875] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[21Sep2021 12:17:28.157] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 74%
+[21Sep2021 12:17:28.780] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2128 ms
+[21Sep2021 12:17:28.780] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.978s)! For help, type "help"
+[21Sep2021 12:17:28.932] [Server thread/INFO] [com.desagas.biomeidfixer.BiomeIdFixer/]: Desagas: started 'FMLServerStartingEvent' processes.
+[21Sep2021 12:17:28.933] [Server thread/INFO] [com.desagas.biomeidfixer.BiomeIdFixer/]: Desagas: ended 'FMLServerStartingEvent' processes.
+[21Sep2021 12:17:28.981] [Server thread/INFO] [ipsis.woot.setup.ModSetup/]: onServerStarting
+[21Sep2021 12:17:29.024] [Server thread/INFO] [ipsis.woot.setup.ModSetup/]: onServerStarting: force load Tartarus Cells
+[21Sep2021 12:17:29.040] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
+[21Sep2021 12:17:29.040] [Server thread/INFO] [FTB Quests/]: Loading quests from C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\config\ftbquests\quests
+[21Sep2021 12:17:29.174] [Server thread/INFO] [FTB Quests/]: Loaded 6 chapter groups, 27 chapters, 973 quests, 13 reward tables
+[21Sep2021 12:17:30.114] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@671e9bac]
+[21Sep2021 12:17:30.638] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[21Sep2021 12:17:44.496] [Server thread/INFO] [FTB Utilities Backups/]: Backups folder - C:\Users\hyper\Desktop\mc-servers\FTB University 1.16\backups
+[21Sep2021 12:17:44.507] [Server thread/INFO] [com.desagas.biomeidfixer.BiomeIdFixer/]: Desagas: started 'FMLServerStartedEvent' processes.
+[21Sep2021 12:17:44.507] [Server thread/INFO] [com.desagas.biomeidfixer.BiomeIdFixer/]: Desagas: ended 'FMLServerStartedEvent' processes.
+[21Sep2021 12:17:44.601] [Server thread/INFO] [FTB Schools/]: Loaded school types: [ftbuniversity:ae2/planes, ftbuniversity:botania/dandelifeon, ftbuniversity:create/deployer_recipes, ftbuniversity:botania/altar_automation, ftbuniversity:create/ore_processing, ftbuniversity:create/farm, ftbuniversity:botania/rannuncarpus, ftbuniversity:botania/corporea, ftbuniversity:ae2/spatial_storage]
+[21Sep2021 12:17:44.607] [Server thread/INFO] [net.creeperhost.minetogether.MineTogether/]: Current discoverability: unlisted
+[21Sep2021 12:17:44.611] [Thread-42/INFO] [net.creeperhost.minetogether.MineTogether/]: Enabling server list. Servers found to be breaking Mojang's EULA may be removed if complaints are received.
+[21Sep2021 12:18:56.171] [Netty Server IO #2/WARN] [net.minecraftforge.fml.network.FMLStatusPing/]: Heuristically truncating mod and/or network channel list in server status ping packet. Compatibility report in the multiplayer screen may be inaccurate.
+[21Sep2021 12:22:31.565] [Server thread/WARN] [mixin/]: @Final field field_242962_a:Lnet/minecraft/block/AbstractBlock$IPositionPredicate; in charm.mixins.json:PortalSizeMixin should be final
+[21Sep2021 15:43:32.420] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[21Sep2021 15:43:32.475] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Unregistering com.sk89q.worldedit.forge.ForgePlatform from WorldEdit
+[21Sep2021 15:43:32.511] [Server thread/INFO] [com.desagas.biomeidfixer.BiomeIdFixer/]: Desagas: started 'FMLServerStoppingEvent' processes.
+[21Sep2021 15:43:32.511] [Server thread/INFO] [com.desagas.biomeidfixer.BiomeIdFixer/]: Desagas: ended 'FMLServerStoppingEvent' processes.
+[21Sep2021 15:43:32.522] [Server thread/INFO] [ipsis.woot.setup.ModSetup/]: onServerStop
+[21Sep2021 15:43:32.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Sep2021 15:43:32.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Sep2021 15:43:32.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Sep2021 15:43:32.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21Sep2021 15:43:32.740] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21Sep2021 15:43:32.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21Sep2021 15:43:32.743] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Sep2021 15:43:32.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21Sep2021 15:43:32.745] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Sep2021 15:43:32.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ftbschools:school_night
+[21Sep2021 15:43:32.748] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (school_night): All chunks are saved
+[21Sep2021 15:43:32.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/compactmachines:compact_world
+[21Sep2021 15:43:32.750] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (compact_world): All chunks are saved
+[21Sep2021 15:43:32.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilightforest
+[21Sep2021 15:43:32.752] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (twilightforest): All chunks are saved
+[21Sep2021 15:43:32.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/woot:tartarus
+[21Sep2021 15:43:32.756] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (tartarus): All chunks are saved
+[21Sep2021 15:43:32.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:skylight_forest
+[21Sep2021 15:43:32.758] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skylight_forest): All chunks are saved
+[21Sep2021 15:43:32.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mahoutsukai:reality_marble
+[21Sep2021 15:43:32.760] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (reality_marble): All chunks are saved
+[21Sep2021 15:43:32.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ftbschools:school_day
+[21Sep2021 15:43:32.762] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (school_day): All chunks are saved
+[21Sep2021 15:43:32.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/appliedenergistics2:spatial_storage
+[21Sep2021 15:43:32.764] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[21Sep2021 15:43:32.846] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21Sep2021 15:43:32.853] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Sep2021 15:43:32.854] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Sep2021 15:43:32.854] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (school_night): All chunks are saved
+[21Sep2021 15:43:32.854] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (compact_world): All chunks are saved
+[21Sep2021 15:43:32.855] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (twilightforest): All chunks are saved
+[21Sep2021 15:43:32.856] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (tartarus): All chunks are saved
+[21Sep2021 15:43:32.858] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skylight_forest): All chunks are saved
+[21Sep2021 15:43:32.859] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (reality_marble): All chunks are saved
+[21Sep2021 15:43:32.859] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (school_day): All chunks are saved
+[21Sep2021 15:43:32.859] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved

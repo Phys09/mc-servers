@@ -1,0 +1,485 @@
+{
+	id: "1521FFEFE20B7A14"
+	group: "7C8FB4101B19CAFD"
+	order_index: 6
+	filename: "twilight_forest"
+	title: "{university.twilight.chapter}"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{university.twilightportal.title}"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{university.twilightportal.subtitle}"
+			description: [
+				"{university.twilightportal.desc1}"
+				""
+				"{university.twilightportal.desc2}"
+				""
+				"{university.twilightportal.desc3}"
+				""
+				"{image:ftbuniversity:textures/quests/tf_portal.png width:150 height:116 anchor:center}"
+			]
+			min_width: 275
+			id: "0D197F65282630F3"
+			tasks: [
+				{
+					id: "1865A6E1EDC0F14F"
+					type: "item"
+					title: "{university.twilightportal.task1}"
+					disable_toast: true
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "itemfilters:tag"
+									Count: 1b
+									tag: {
+										value: "minecraft:flowers"
+									}
+								}
+								{
+									id: "itemfilters:tag"
+									Count: 1b
+									tag: {
+										value: "minecraft:leaves"
+									}
+								}
+								{
+									id: "itemfilters:tag"
+									Count: 1b
+									tag: {
+										value: "minecraft:saplings"
+									}
+								}
+								{
+									id: "itemfilters:tag"
+									Count: 1b
+									tag: {
+										value: "minecraft:crops"
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "5B5AB71AFF288D8C"
+					type: "item"
+					disable_toast: true
+					item: "minecraft:diamond"
+				}
+				{
+					id: "7E9C324A456EBA06"
+					type: "dimension"
+					title: "{university.twilightportal.task2}"
+					icon: "twilightforest:twilight_portal_miniature_structure"
+					dimension: "twilightforest:twilightforest"
+				}
+			]
+			rewards: [{
+				id: "4A08EE076777FA4C"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "twilightforest:guide"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.magicmap.title}"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "{university.magicmap.subtitle}"
+			description: [
+				"{university.magicmap.desc1}"
+				""
+				"{university.magicmap.desc2}"
+			]
+			dependencies: ["0D197F65282630F3"]
+			id: "36C25A7B0910D739"
+			tasks: [{
+				id: "26E91FC7D8D6A15F"
+				type: "item"
+				item: "twilightforest:magic_map_empty"
+			}]
+		}
+		{
+			title: "{university.questingram.title}"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "{university.questingram.subtitle}"
+			description: [
+				"{university.questingram.desc1}"
+				""
+				"{university.questingram.desc2}"
+			]
+			dependencies: ["0D197F65282630F3"]
+			id: "31F1D52DCC1DF49D"
+			tasks: [{
+				id: "646ED6E841846472"
+				type: "item"
+				item: {
+					id: "twilightforest:crumble_horn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.naga.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbuniversity:textures/twilight_forest/naga.png"
+				}
+			}
+			x: 1.5d
+			y: 0.0d
+			subtitle: "{university.naga.subtitle}"
+			description: [
+				"{university.naga.desc1}"
+				""
+				"{university.naga.desc2}"
+				""
+				"{university.naga.desc3}"
+			]
+			dependencies: ["0D197F65282630F3"]
+			id: "56BABAEF4D0E22E1"
+			tasks: [{
+				id: "46A6ABB62A2C23EB"
+				type: "item"
+				item: "twilightforest:naga_scale"
+			}]
+		}
+		{
+			title: "{university.lich.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbuniversity:textures/twilight_forest/lich.png"
+				}
+			}
+			x: 3.0d
+			y: 0.0d
+			subtitle: "{university.lich.subtitle}"
+			description: [
+				"{university.lich.desc1}"
+				""
+				"{university.lich.desc2}"
+				""
+				"{university.lich.desc3}"
+				""
+				"{university.lich.desc4}"
+				""
+				"{university.lich.desc5}"
+			]
+			dependencies: ["56BABAEF4D0E22E1"]
+			id: "083627D4766F1CFB"
+			tasks: [{
+				id: "775A75554F604F7B"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "twilightforest:twilight_scepter"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "twilightforest:lifedrain_scepter"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "twilightforest:zombie_scepter"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "twilightforest:shield_scepter"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.minoshroom.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbuniversity:textures/twilight_forest/labyrinth.png"
+				}
+			}
+			x: 4.5d
+			y: -1.5d
+			subtitle: "{university.minoshroom.subtitle}"
+			description: [
+				"{university.minoshroom.desc1}"
+				""
+				"{university.minoshroom.desc2}"
+			]
+			dependencies: ["083627D4766F1CFB"]
+			id: "1AE7DAC657E4CECD"
+			tasks: [{
+				id: "63BEA935915F5CB0"
+				type: "item"
+				item: "twilightforest:meef_stroganoff"
+			}]
+		}
+		{
+			title: "{university.hydra.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbuniversity:textures/twilight_forest/hydra.png"
+				}
+			}
+			x: 6.0d
+			y: -1.5d
+			subtitle: "{university.hydra.subtitle}"
+			description: [
+				"{university.hydra.desc1}"
+				""
+				"{university.hydra.desc2}"
+				""
+				"{university.hydra.desc3}"
+			]
+			dependencies: ["1AE7DAC657E4CECD"]
+			id: "2CDED09706A4C72B"
+			tasks: [{
+				id: "55FFCC50A71FA305"
+				type: "item"
+				item: "twilightforest:fiery_blood"
+			}]
+		}
+		{
+			title: "{university.knightphantom.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbuniversity:textures/twilight_forest/knight_phantom.png"
+				}
+			}
+			x: 4.5d
+			y: 0.0d
+			subtitle: "{university.knightphantom.subtitle}"
+			description: [
+				"{university.knightphantom.desc1}"
+				""
+				"{university.knightphantom.desc2}"
+			]
+			dependencies: ["083627D4766F1CFB"]
+			id: "5166EBDA5B33836F"
+			tasks: [{
+				id: "474DF26F9936BA67"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "twilightforest:phantom_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "twilightforest:phantom_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.urghast.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbuniversity:textures/twilight_forest/ur-ghast.png"
+				}
+			}
+			x: 6.0d
+			y: 0.0d
+			subtitle: "{university.urghast.subtitle}"
+			description: [
+				"{university.urghast.desc1}"
+				""
+				"{university.urghast.desc2}"
+			]
+			dependencies: ["5166EBDA5B33836F"]
+			id: "5F43853B6E24B942"
+			tasks: [{
+				id: "4917937457076A20"
+				type: "item"
+				item: "twilightforest:fiery_tears"
+			}]
+		}
+		{
+			title: "{university.yeti.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbuniversity:textures/twilight_forest/alpha_yeti.png"
+				}
+			}
+			x: 4.5d
+			y: 1.5d
+			subtitle: "{university.yeti.subtitle}"
+			description: [
+				"{university.yeti.desc1}"
+				""
+				"{university.yeti.desc2}"
+			]
+			dependencies: ["083627D4766F1CFB"]
+			id: "0FFFE68149EA2D13"
+			tasks: [{
+				id: "230C66B7E0B6EA59"
+				type: "item"
+				item: "twilightforest:alpha_fur"
+			}]
+		}
+		{
+			title: "{university.snowqueen.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbuniversity:textures/twilight_forest/snow_queen.png"
+				}
+			}
+			x: 6.0d
+			y: 1.5d
+			subtitle: "{university.snowqueen.subtitle}"
+			description: [
+				"{university.snowqueen.desc1}"
+				""
+				"{university.snowqueen.desc2}"
+			]
+			dependencies: ["0FFFE68149EA2D13"]
+			id: "502C5B3FAA80645F"
+			tasks: [{
+				id: "652FCF5E80BE3857"
+				type: "item"
+				item: {
+					id: "twilightforest:triple_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.cinders.title}"
+			icon: {
+				id: "twilightforest:lamp_of_cinders"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 7.5d
+			y: 0.0d
+			subtitle: "{university.cinders.subtitle}"
+			description: [
+				"{university.cinders.desc1}"
+				""
+				"{university.cinders.desc2}"
+				""
+				"{university.cinders.desc3}"
+			]
+			dependencies: [
+				"5F43853B6E24B942"
+				"2CDED09706A4C72B"
+				"502C5B3FAA80645F"
+			]
+			id: "2E3E24665F3364FD"
+			tasks: [
+				{
+					id: "38421BCD324B7164"
+					type: "item"
+					item: "twilightforest:magic_beans"
+				}
+				{
+					id: "549AF5207E533264"
+					type: "item"
+					item: {
+						id: "twilightforest:giant_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E967854A39B9F1E"
+					type: "item"
+					item: {
+						id: "twilightforest:lamp_of_cinders"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.castle.title}"
+			icon: "twilightforest:castle_brick"
+			x: 9.0d
+			y: 0.0d
+			subtitle: "{university.castle.subtitle}"
+			description: [
+				"{university.castle.desc1}"
+				""
+				"{university.castle.desc2}"
+			]
+			dependencies: ["2E3E24665F3364FD"]
+			id: "357F836396E2BA2D"
+			tasks: [{
+				id: "2F5C76C7DBCD096C"
+				type: "checkmark"
+			}]
+		}
+	]
+}

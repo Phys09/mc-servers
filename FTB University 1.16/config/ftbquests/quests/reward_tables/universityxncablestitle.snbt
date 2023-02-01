@@ -1,0 +1,12 @@
+{
+	id: "5986A735E0AB15E0"
+	order_index: 2
+	title: "{university.xncables.title}"
+	loot_size: 1
+	rewards: [
+		{ item: "xnet:netcable_red", count: 32 }
+		{ item: "xnet:netcable_green", count: 32 }
+		{ item: "xnet:netcable_blue", count: 32 }
+		{ item: "xnet:netcable_yellow", count: 32 }
+	]
+}

@@ -1,0 +1,392 @@
+{
+	id: "019E920A0EE9439C"
+	group: ""
+	order_index: 2
+	filename: "useful_things"
+	title: "{university.usefulthings.chapter}"
+	icon: "minecraft:emerald_ore"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{university.rfgen.title}"
+			disable_toast: true
+			x: -2.0d
+			y: -3.0d
+			subtitle: "{university.rfgen.subtitle}"
+			description: ["{university.rfgen.desc}"]
+			id: "5792A96AC86191BA"
+			tasks: [{
+				id: "4D39ADECE1C7C686"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:generator/rf"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.itemstorage.title}"
+			disable_toast: true
+			x: -1.0d
+			y: -2.0d
+			subtitle: "{university.itemstorage.subtitle}"
+			description: ["{university.itemstorage.desc}"]
+			id: "6A7849D589EF29FD"
+			tasks: [{
+				id: "36B324D1C058B013"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:storage/item"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.rfstorage.title}"
+			disable_toast: true
+			x: -2.0d
+			y: -2.0d
+			subtitle: "{university.rfstorage.subtitle}"
+			description: ["{university.rfstorage.desc}"]
+			id: "58CDAC19F3D0F4A7"
+			tasks: [{
+				id: "42D5C48F2392C5E0"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:storage/rf"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.fluidstorage.title}"
+			disable_toast: true
+			x: 0.0d
+			y: -2.0d
+			subtitle: "{university.fluidstorage.subtitle}"
+			description: ["{university.fluidstorage.desc}"]
+			id: "7954AF23AF7026CC"
+			tasks: [{
+				id: "37CEE5524A167FA9"
+				type: "item"
+				title: "{university.fluidstorage.task}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:storage/fluid"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.fluidtransfer.title}"
+			disable_toast: true
+			x: 0.0d
+			y: -1.0d
+			subtitle: "{university.fluidtransfer.subtitle}"
+			description: ["{university.fluidtransfer.desc}"]
+			id: "57147EB33DDFC8D1"
+			tasks: [{
+				id: "10EDE7121A4A221C"
+				type: "item"
+				title: "{university.fluidtransfer.task}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:transfer/fluid"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.itemtransfer.title}"
+			disable_toast: true
+			x: -1.0d
+			y: -1.0d
+			subtitle: "{university.itemtransfer.subtitle}"
+			description: ["{university.itemtransfer.desc}"]
+			id: "2C88A3BDE37F1148"
+			tasks: [{
+				id: "2AA1313AE9794F86"
+				type: "item"
+				title: "{university.itemtransfer.task}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:transfer/item"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.rftrans.title}"
+			disable_toast: true
+			x: -2.0d
+			y: -1.0d
+			subtitle: "{university.rftrans.subtitle}"
+			description: ["{university.rftrans.desc}"]
+			id: "1E3565206B536A03"
+			tasks: [{
+				id: "1D05B32EF12435E0"
+				type: "item"
+				title: "{university.rftrans.task}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:transfer/rf"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.fluidfilling.title}"
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{university.fluidfilling.subtitle}"
+			description: ["{university.fluidfilling.desc}"]
+			id: "6340FD80133662F3"
+			tasks: [{
+				id: "298C36C12F7C8806"
+				type: "item"
+				title: "{university.fluidfilling.task}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniiversity:filling/fluid"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.fefill.title}"
+			disable_toast: true
+			x: -2.0d
+			y: 0.0d
+			subtitle: "{university.fefill.subtitle}"
+			description: ["{university.fefill.desc}"]
+			id: "6BDC0FD605FADEDB"
+			tasks: [{
+				id: "54746A2FB1FF5D0D"
+				type: "item"
+				title: "{university.fefill.task}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:filling/rf"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.quarries.title}"
+			disable_toast: true
+			x: -1.0d
+			y: -3.0d
+			subtitle: "{university.quarries.subtitle}"
+			description: ["{university.quarries.desc}"]
+			id: "75AF646853B2430B"
+			tasks: [{
+				id: "04D7DFB12C145B80"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:quarry"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.flight.title}"
+			disable_toast: true
+			x: 1.5d
+			y: 1.5d
+			subtitle: "{university.flight.subtitle}"
+			description: ["{university.flight.desc}"]
+			id: "576793A838D455F6"
+			tasks: [{
+				id: "18FF54570F495A7E"
+				type: "item"
+				title: "{university.flight.task}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:flight"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.pumps.title}"
+			disable_toast: true
+			x: 0.0d
+			y: -3.0d
+			subtitle: "{university.pumps.subtitle}"
+			description: ["{university.pumps.desc}"]
+			id: "1F3EA2E4970A40CD"
+			tasks: [{
+				id: "6C5C83D6967212A0"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:pump"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.playerteleporters.title}"
+			disable_toast: true
+			x: 1.5d
+			y: 0.5d
+			subtitle: "{university.playerteleporters.subtitle}"
+			description: ["{university.playerteleporters.desc}"]
+			id: "7B0C08E95868CCBA"
+			tasks: [{
+				id: "020E619E3348B5AB"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:teleporter/player"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.fetp.title}"
+			disable_toast: true
+			x: -2.0d
+			y: 1.0d
+			subtitle: "{university.fetp.subtitle}"
+			description: ["{university.fetp.desc}"]
+			id: "7D814743262FD073"
+			tasks: [{
+				id: "514C489D87D86319"
+				type: "item"
+				title: "{university.fetp.task}"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:teleporter/rf"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.spawners.title}"
+			disable_toast: true
+			x: 1.5d
+			y: -3.0d
+			subtitle: "{university.spawners.subtitle}"
+			description: ["{university.spawners.desc}"]
+			id: "35A048F8A90CBBB9"
+			tasks: [{
+				id: "00BBFF97E3B56490"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:generator/mob"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.mobmovers.title}"
+			disable_toast: true
+			x: 1.5d
+			y: -2.0d
+			subtitle: "{university.mobmovers.subtitle}"
+			description: ["{university.mobmovers.desc}"]
+			id: "1154E54903D60AEA"
+			tasks: [{
+				id: "008DA662E1E63BC6"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:transfer/mob"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.killers.title}"
+			disable_toast: true
+			x: 1.5d
+			y: -1.0d
+			subtitle: "{university.killers.subtitle}"
+			description: ["{university.killers.desc}"]
+			id: "79C144A966FB04FF"
+			tasks: [{
+				id: "0A36792AAEAA2050"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ftbuniversity:harvest/mob"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.usefulthingsquest.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: -5.0d
+			subtitle: "{university.usefulthingsquest.subtitle}"
+			description: [
+				"{university.usefulthingsquest.desc1}"
+				""
+				"{university.usefulthingsquest.desc2}"
+				""
+				"{university.usefulthingsquest.desc3}"
+			]
+			min_width: 250
+			id: "1D014829A6A7F59B"
+			tasks: [{
+				id: "3BCB04AD10BDE991"
+				type: "stat"
+				icon: "minecraft:clock"
+				stat: "minecraft:play_one_minute"
+				value: 10000
+			}]
+			rewards: [{
+				id: "1A6940FF70FC8688"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
+		}
+	]
+}

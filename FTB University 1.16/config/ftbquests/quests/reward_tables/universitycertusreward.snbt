@@ -1,0 +1,11 @@
+{
+	id: "778535708A5C50F7"
+	order_index: 7
+	title: "{university.certus.reward}"
+	loot_size: 6
+	use_title: true
+	rewards: [
+		{ item: "appliedenergistics2:quartz_ore", count: 4 }
+		{ item: "appliedenergistics2:charged_quartz_ore", count: 2 }
+	]
+}

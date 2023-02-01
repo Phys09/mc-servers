@@ -1,0 +1,200 @@
+{
+	id: "63BBE5021DD6DF5D"
+	order_index: 3
+	title: "{university.coolthings.rewards}"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "university_coolthings_rewards_pp"
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "university_coolthings_rewards_lofi"
+				}
+			}
+			weight: 2
+		}
+		{ item: "quark:rainbow_rune", weight: 5 }
+		{ item: "quark:bottled_cloud", weight: 5 }
+		{ item: "quark:magnet", weight: 4 }
+		{
+			item: {
+				id: "epicfight:golden_greatsword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "epicfight:golden_spear"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "storagedrawers:oak_half_drawers_2"
+				Count: 1b
+				tag: {
+					tile: {
+						Upgrades: [ ]
+						id: "storagedrawers:standard_drawers_2"
+						Drawers: [
+							{
+								Item: {
+									id: "mowziesmobs:blowgun"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								Count: 1
+							}
+							{
+								Item: {
+									id: "mowziesmobs:dart"
+									Count: 1b
+								}
+								Count: 64
+							}
+						]
+					}
+				}
+			}
+			weight: 5
+		}
+		{ item: "mowziesmobs:foliaath_seed", weight: 5 }
+		{
+			item: {
+				id: "alexsmobs:straddleboard"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 2
+		}
+		{ item: "alexsmobs:mimicream", weight: 3 }
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "alexsmobs:clinging"
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "alexsmobs:soulsteal"
+				}
+			}
+			weight: 5
+		}
+		{
+			item: {
+				id: "alexsmobs:frontier_cap"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 3
+		}
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "university_coolthings_rewards_cutethings"
+				}
+			}
+			weight: 6
+		}
+		{ item: "create:tree_fertilizer", count: 32, weight: 4 }
+		{
+			item: {
+				id: "ftbquests:lootcrate"
+				Count: 1b
+				tag: {
+					type: "university_coolthings_rewards_arrows"
+				}
+			}
+			weight: 4
+		}
+		{ item: "upgrade_aquatic:bedroll", weight: 3 }
+		{
+			item: {
+				id: "hats:hat_launcher"
+				Count: 1b
+				tag: {
+					hats_hatPart: {
+						hsbH: 0.0f
+						partCount: 0
+						clrR: 0.0f
+						count: 1
+						isNew: 0b
+						hsbS: 0.0f
+						clrG: 0.0f
+						isShowing: 1b
+						enchanted: 0b
+						clrA: 0.0f
+						clrB: 0.0f
+						name: ":random"
+						hsbB: 0.0f
+						isFavourite: 0b
+					}
+				}
+				ForgeCaps: {
+					Parent: {
+						hsbH: 0.0f
+						partCount: 0
+						clrR: 0.0f
+						count: 1
+						isNew: 0b
+						hsbS: 0.0f
+						clrG: 0.0f
+						isShowing: 1b
+						enchanted: 0b
+						clrA: 0.0f
+						clrB: 0.0f
+						name: ":random"
+						hsbB: 0.0f
+						isFavourite: 0b
+					}
+				}
+			}
+			weight: 3
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "university_coolthings_rewards"
+	}
+}

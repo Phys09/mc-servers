@@ -1,0 +1,561 @@
+{
+	id: "7B27DF93E22AA10E"
+	group: ""
+	order_index: 0
+	filename: "getting_started"
+	title: "{university.gettingstarted.chapter}"
+	icon: "minecraft:podzol"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{university.welcome.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{university.welcome.subtitle}"
+			description: ["{university.welcome.desc}"]
+			id: "7F68B4650A858870"
+			tasks: [{
+				id: "6EB47FCAE191AC60"
+				type: "stat"
+				title: "{university.welcome.task}"
+				icon: "minecraft:clock"
+				stat: "minecraft:play_one_minute"
+				value: 1
+			}]
+			rewards: [
+				{
+					id: "4A367B531AF713A5"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 16
+				}
+				{
+					id: "23FFC2CD5362DE9F"
+					type: "item"
+					item: "prefab:item_start_house"
+				}
+				{
+					id: "6BA72698AFB97A86"
+					type: "item"
+					item: "prefab:item_moderate_house"
+				}
+				{
+					id: "4B4D12C1D5E13768"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "Hasn't chosen"
+				}
+			]
+		}
+		{
+			title: "{university.prefab.title}"
+			icon: "prefab:item_moderate_house"
+			x: 0.0d
+			y: -0.75d
+			subtitle: "{university.prefab.subtitle}"
+			description: [
+				"{university.prefab.desc1}"
+				""
+				"{university.prefab.desc2}"
+				""
+				"{university.prefab.desc3}"
+				""
+				"{university.prefab.desc4}"
+				""
+				"{university.prefab.desc5}"
+			]
+			dependencies: ["7F68B4650A858870"]
+			size: 0.5d
+			min_width: 275
+			id: "3F9AE824D2708946"
+			tasks: [{
+				id: "1EC3C9C806FE0668"
+				type: "item"
+				title: "{university.prefab.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "prefab:item_moderate_house"
+								Count: 1b
+							}
+							{
+								id: "prefab:item_start_house"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.wood.title}"
+			icon: "minecraft:birch_log"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "{university.wood.subtitle}"
+			description: ["{university.wood.desc}"]
+			dependencies: ["7F68B4650A858870"]
+			id: "57CA65A2AC0AE0EC"
+			tasks: [{
+				id: "144CD329A19DFE0D"
+				type: "item"
+				title: "{university.wood.task}"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "minecraft:logs"
+								}
+							}
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "log"
+								}
+							}
+							{
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										id: "itemfilters:id_regex"
+										Count: 1b
+										tag: {
+											value: "stripped"
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6AB32B7C9E180A21"
+				type: "item"
+				item: {
+					id: "mekanismtools:lapis_lazuli_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.prefab2.title}"
+			icon: {
+				id: "prefab:item_villager_houses"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -1.25d
+			subtitle: "{university.prefab2.subtitle}"
+			description: ["{university.prefab2.desc}"]
+			dependencies: ["3F9AE824D2708946"]
+			size: 0.5d
+			id: "0951C9018ACD67FE"
+			tasks: [{
+				id: "0F7E47E77F7B6C89"
+				type: "item"
+				title: "{university.prefab2.task}"
+				item: {
+					id: "itemfilters:and"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:id_regex"
+								Count: 1b
+								tag: {
+									value: "prefab:item"
+								}
+							}
+							{
+								id: "itemfilters:not"
+								Count: 1b
+								tag: {
+									items: [{
+										id: "itemfilters:or"
+										Count: 1b
+										tag: {
+											items: [
+												{
+													id: "prefab:item_coil_of_lanterns"
+													Count: 1b
+												}
+												{
+													id: "prefab:item_string_of_lanterns"
+													Count: 1b
+												}
+												{
+													id: "prefab:item_compressed_chest"
+													Count: 1b
+												}
+												{
+													id: "prefab:item_ton_of_timber"
+													Count: 1b
+												}
+												{
+													id: "prefab:item_heap_of_timber"
+													Count: 1b
+												}
+												{
+													id: "prefab:item_pile_of_bricks"
+													Count: 1b
+												}
+												{
+													id: "prefab:item_pallet_of_bricks"
+													Count: 1b
+												}
+												{
+													id: "prefab:item_bundle_of_timber"
+													Count: 1b
+												}
+												{
+													id: "prefab:item_warehouse_upgrade"
+													Count: 1b
+												}
+											]
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.naturescompass.title}"
+			x: 1.0d
+			y: 2.5d
+			subtitle: "{university.naturescompass.subtitle}"
+			description: [
+				"{university.naturescompass.desc1}"
+				""
+				"{university.naturescompass.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["57CA65A2AC0AE0EC"]
+			id: "3EB174D40ED90BFE"
+			tasks: [{
+				id: "471170DDA64CB0B9"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "{university.drawers.title}"
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: 0.0d
+			y: 3.5d
+			subtitle: "{university.drawers.subtitle}"
+			description: [
+				"{university.drawers.desc1}"
+				""
+				"{university.drawers.desc2}"
+				""
+				"{university.drawers.desc3}"
+				""
+				"{university.drawers.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["57CA65A2AC0AE0EC"]
+			min_width: 275
+			id: "60DC21A536F22771"
+			tasks: [
+				{
+					id: "258F5A3462EB12D6"
+					type: "item"
+					title: "{university.drawers.task}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "storagedrawers:drawers"
+						}
+					}
+				}
+				{
+					id: "06C3626250355BFD"
+					type: "item"
+					item: "storagedrawers:compacting_drawers_3"
+				}
+			]
+		}
+		{
+			title: "{university.drawercontroller.title}"
+			x: -1.0d
+			y: 3.5d
+			subtitle: "{university.drawercontroller.subtitle}"
+			description: [
+				"{university.drawercontroller.desc1}"
+				""
+				"{university.drawercontroller.desc2}"
+			]
+			dependencies: ["60DC21A536F22771"]
+			id: "633AF9E1295C1B03"
+			tasks: [{
+				id: "545745D4B7A0B69C"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [{
+				id: "5F198722F1AB30F4"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+		}
+		{
+			title: "{university.drawerups.title}"
+			icon: "storagedrawers:gold_storage_upgrade"
+			x: 1.0d
+			y: 3.5d
+			subtitle: "{university.drawerups.subtitle}"
+			description: [
+				"{university.drawerups.desc1}"
+				""
+				"{university.drawerups.desc2}"
+				""
+				"{university.drawerups.desc3}"
+			]
+			dependencies: ["60DC21A536F22771"]
+			min_width: 275
+			id: "077E175F84DDCE8D"
+			tasks: [
+				{
+					id: "61C5A02FE8F3EF26"
+					type: "item"
+					title: "{university.drawerups.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "storagedrawers:one_stack_upgrade"
+									Count: 1b
+								}
+								{
+									id: "storagedrawers:obsidian_storage_upgrade"
+									Count: 1b
+								}
+								{
+									id: "storagedrawers:iron_storage_upgrade"
+									Count: 1b
+								}
+								{
+									id: "storagedrawers:gold_storage_upgrade"
+									Count: 1b
+								}
+								{
+									id: "storagedrawers:diamond_storage_upgrade"
+									Count: 1b
+								}
+								{
+									id: "storagedrawers:emerald_storage_upgrade"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "09B49DE058046213"
+					type: "item"
+					title: "{university.drawerups.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "storagedrawers:drawer_key"
+									Count: 1b
+								}
+								{
+									id: "storagedrawers:quantify_key"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "385A2ACE4AE459F8"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+				count: 16
+			}]
+		}
+		{
+			title: "{university.claimchunk.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbuniversity:textures/chunks.png"
+				}
+			}
+			x: -1.0d
+			y: 2.5d
+			subtitle: "{university.claimchunk.subtitle}"
+			description: [
+				"{university.claimchunk.desc1}"
+				""
+				"{university.claimchunk.desc2}"
+				""
+				"{university.claimchunk.desc3}"
+				""
+				"{university.claimchunk.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["57CA65A2AC0AE0EC"]
+			min_width: 250
+			id: "431B5AE447A135AB"
+			tasks: [{
+				id: "34FF0B12E1113AFA"
+				type: "custom"
+				title: "{university.claimchunk.subtitle}"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftblibrary:textures/icons/map.png"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.ironchests.title}"
+			icon: "ironchest:iron_chest"
+			x: 0.0d
+			y: 2.5d
+			subtitle: "{university.ironchests.subtitle}"
+			description: [
+				"{university.ironchests.desc1}"
+				""
+				"{university.ironchests.desc2}"
+			]
+			dependencies: ["57CA65A2AC0AE0EC"]
+			id: "71681CDD76AAD333"
+			tasks: [
+				{
+					id: "3173665EAC850D8A"
+					type: "item"
+					title: "{university.ironchests.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "ironchest:iron_chest"
+									Count: 1b
+								}
+								{
+									id: "ironchest:gold_chest"
+									Count: 1b
+								}
+								{
+									id: "ironchest:diamond_chest"
+									Count: 1b
+								}
+								{
+									id: "ironchest:copper_chest"
+									Count: 1b
+								}
+								{
+									id: "ironchest:silver_chest"
+									Count: 1b
+								}
+								{
+									id: "ironchest:crystal_chest"
+									Count: 1b
+								}
+								{
+									id: "ironchest:obsidian_chest"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "702D8544B26C9E84"
+					type: "item"
+					title: "{university.ironchests.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "ironchest:iron_to_gold_chest_upgrade"
+									Count: 1b
+								}
+								{
+									id: "ironchest:gold_to_diamond_chest_upgrade"
+									Count: 1b
+								}
+								{
+									id: "ironchest:copper_to_silver_chest_upgrade"
+									Count: 1b
+								}
+								{
+									id: "ironchest:silver_to_gold_chest_upgrade"
+									Count: 1b
+								}
+								{
+									id: "ironchest:copper_to_iron_chest_upgrade"
+									Count: 1b
+								}
+								{
+									id: "ironchest:diamond_to_crystal_chest_upgrade"
+									Count: 1b
+								}
+								{
+									id: "ironchest:wood_to_iron_chest_upgrade"
+									Count: 1b
+								}
+								{
+									id: "ironchest:wood_to_copper_chest_upgrade"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "327C9FB4CC8E61C2"
+				type: "item"
+				item: "ironchest:gold_to_diamond_chest_upgrade"
+			}]
+		}
+	]
+}

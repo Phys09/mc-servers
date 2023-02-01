@@ -1,0 +1,11 @@
+{
+  "name": "singularity.extendedcrafting.arcane",
+  "colors": [
+    "602180",
+    "CA65FC"
+  ],
+  "ingredient": {
+    "item": "ars_nouveau:mana_gem"
+  },
+  "inUltimateSingularity": false
+}

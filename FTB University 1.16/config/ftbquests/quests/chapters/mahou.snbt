@@ -1,0 +1,741 @@
+{
+	id: "31509AB673B15566"
+	group: "7C8FB4101B19CAFD"
+	order_index: 4
+	filename: "mahou"
+	title: "{university.mhchap.title}"
+	icon: {
+		id: "mahoutsukai:clarent"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+		ForgeCaps: {
+			Parent: {
+				MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+				MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{university.bleeding.title}"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{university.bleeding.subtitle}"
+			description: [
+				"{university.bleeding.desc1}"
+				""
+				"{university.bleeding.desc2}"
+				""
+				"{university.bleeding.desc3}"
+				""
+				"{university.bleeding.desc4}"
+				""
+				"{university.bleeding.desc5}"
+			]
+			min_width: 275
+			id: "4CDC6E7DCE54BEA2"
+			tasks: [{
+				id: "7F59A67A3E52BCDF"
+				type: "stat"
+				stat: "minecraft:damage_taken"
+				value: 1
+			}]
+			rewards: [{
+				id: "16F27200E8FF4FA9"
+				type: "item"
+				item: "mahoutsukai:dagger"
+			}]
+		}
+		{
+			title: "{university.mhbook.title}"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "{university.mhbook.subtitle}"
+			description: [
+				"{university.mhbook.desc1}"
+				""
+				"{university.mhbook.desc2}"
+			]
+			dependencies: ["4CDC6E7DCE54BEA2"]
+			id: "47729CEECB4B7C41"
+			tasks: [{
+				id: "397631E91CB20127"
+				type: "item"
+				item: "mahoutsukai:guidebook"
+			}]
+		}
+		{
+			icon: {
+				id: "mahoutsukai:attuned_diamond"
+				Count: 1b
+				tag: {
+					MAHOUTSUKAI_GEM_STORED_MANA: 0
+				}
+				ForgeCaps: {
+					Parent: {
+						MAHOUTSUKAI_GEM_STORED_MANA: 0
+					}
+				}
+			}
+			x: 1.0d
+			y: 0.0d
+			subtitle: "{university.attunedgem.subtitle}"
+			description: [
+				"{university.attunedgem.desc1}"
+				""
+				"{university.attunedgem.desc2}"
+				""
+				"{university.attunedgem.desc3}"
+			]
+			dependencies: ["4CDC6E7DCE54BEA2"]
+			id: "137464774E60CE73"
+			tasks: [{
+				id: "2845C4C22A13432E"
+				type: "item"
+				title: "{university.attunedgem.task}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								ForgeCaps: {
+									Parent: {
+										MAHOUTSUKAI_GEM_STORED_MANA: 0
+									}
+								}
+								id: "mahoutsukai:attuned_emerald"
+								Count: 1b
+								tag: {
+									MAHOUTSUKAI_GEM_STORED_MANA: 0
+								}
+							}
+							{
+								ForgeCaps: {
+									Parent: {
+										MAHOUTSUKAI_GEM_STORED_MANA: 0
+									}
+								}
+								id: "mahoutsukai:attuned_diamond"
+								Count: 1b
+								tag: {
+									MAHOUTSUKAI_GEM_STORED_MANA: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "mahoutsukai:textures/block/mahoujin.png"
+				}
+			}
+			x: 0.0d
+			y: 1.0d
+			subtitle: "{university.powdered.subtitle}"
+			description: [
+				"{university.powdered.desc1}"
+				""
+				"{university.powdered.desc2}"
+				""
+				"{university.powdered.desc3}"
+			]
+			dependencies: ["4CDC6E7DCE54BEA2"]
+			id: "4F7615491F04EA3D"
+			tasks: [{
+				id: "3294DAB6B413EDE1"
+				type: "item"
+				title: "{university.powdered.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mahoutsukai:powdered_diamond"
+								Count: 1b
+							}
+							{
+								id: "mahoutsukai:powdered_emerald"
+								Count: 1b
+							}
+							{
+								id: "mahoutsukai:powdered_ender"
+								Count: 1b
+							}
+							{
+								id: "mahoutsukai:powdered_eye"
+								Count: 1b
+							}
+							{
+								id: "mahoutsukai:powdered_gold"
+								Count: 1b
+							}
+							{
+								id: "mahoutsukai:powdered_iron"
+								Count: 1b
+							}
+							{
+								id: "mahoutsukai:powdered_quartz"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			subtitle: "{university.butterflyeffect.subtitle}"
+			description: [
+				"{university.butterflyeffect.desc1}"
+				""
+				"{university.butterflyeffect.desc2}"
+				""
+				"{university.butterflyeffect.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["242F8A61AB7188EB"]
+			id: "439046CF104CDF3D"
+			tasks: [{
+				id: "74BD21887DCA0ACF"
+				type: "item"
+				item: {
+					id: "mahoutsukai:scroll_butterfly_effect"
+					Count: 1b
+					tag: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.spellcloth.title}"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "{university.spellcloth.subtitle}"
+			description: [
+				"{university.spellcloth.desc1}"
+				""
+				"{university.spellcloth.desc2}"
+				""
+				"{university.spellcloth.desc3}"
+			]
+			dependencies: ["4F7615491F04EA3D"]
+			id: "242F8A61AB7188EB"
+			tasks: [{
+				id: "19071A0EC28EBE95"
+				type: "item"
+				item: "mahoutsukai:spell_cloth"
+			}]
+		}
+		{
+			title: "{university.faysight.title}"
+			x: 0.0d
+			y: 5.0d
+			subtitle: "{university.faysight.subtitle}"
+			description: [
+				"{university.faysight.desc1}"
+				""
+				"{university.faysight.desc2}"
+				""
+				"{university.faysight.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["242F8A61AB7188EB"]
+			min_width: 250
+			id: "0689F5517B33D6E5"
+			tasks: [{
+				id: "562F4F4233FE4D78"
+				type: "item"
+				item: {
+					id: "mahoutsukai:scroll_fay_sight"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.fayessence.title}"
+			x: 0.0d
+			y: 6.0d
+			subtitle: "{university.fayessence.subtitle}"
+			description: [
+				"{university.fayessence.desc1}"
+				""
+				"{university.fayessence.desc2}"
+				""
+				"{university.fayessence.desc3}"
+			]
+			dependencies: ["0689F5517B33D6E5"]
+			id: "2514C7A5D4825057"
+			tasks: [{
+				id: "122EA774E1395906"
+				type: "item"
+				item: "mahoutsukai:fae_essence"
+			}]
+			rewards: [{
+				id: "37AA6D86B00BEBDA"
+				type: "item"
+				item: "mahoutsukai:faecake"
+				count: 16
+			}]
+		}
+		{
+			title: "{university.mysticcode.title}"
+			x: -0.75d
+			y: 2.0d
+			subtitle: "{university.mysticcode.subtitle}"
+			description: [
+				"{university.mysticcode.desc1}"
+				""
+				"{university.mysticcode.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["242F8A61AB7188EB"]
+			size: 0.5d
+			id: "0F5A3C42D07B93C0"
+			tasks: [{
+				id: "762822CFAB41A2BB"
+				type: "item"
+				item: {
+					id: "mahoutsukai:mystic_code"
+					Count: 1b
+					ForgeCaps: {
+						Parent: [ ]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 2.0d
+			subtitle: "{university.firstsorcery.subtitle}"
+			description: [
+				"{university.firstsorcery.desc1}"
+				""
+				"{university.firstsorcery.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2514C7A5D4825057"]
+			size: 0.5d
+			id: "6E65BDD4B91327FB"
+			tasks: [{
+				id: "48233A9126BF6F80"
+				type: "item"
+				item: {
+					id: "mahoutsukai:mystic_code_first_sorcery"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: [ ]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.bowweapon.title}"
+			x: -2.0d
+			y: 4.0d
+			subtitle: "{university.bowweapon.subtitle}"
+			description: [
+				"{university.bowweapon.desc1}"
+				""
+				"{university.bowweapon.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["242F8A61AB7188EB"]
+			id: "05F1D76C894E6DBE"
+			tasks: [{
+				id: "0B127E68ED3D62F0"
+				type: "item"
+				item: {
+					id: "mahoutsukai:weapon_projectile_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.ascension.title}"
+			x: -1.0d
+			y: 5.0d
+			subtitle: "{university.ascension.subtitle}"
+			description: [
+				"{university.ascension.desc1}"
+				""
+				"{university.ascension.desc2}"
+				""
+				"{university.ascension.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["242F8A61AB7188EB"]
+			id: "7F7004451940DA87"
+			tasks: [{
+				id: "7FD1309E4D290836"
+				type: "item"
+				item: {
+					id: "mahoutsukai:scroll_ascension"
+					Count: 1b
+					tag: {
+						MAHOUTSUKAI_CASTER_NAME: ""
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.treasury.title}"
+			x: 0.0d
+			y: 4.0d
+			subtitle: "{university.treasury.subtitle}"
+			description: [
+				"{university.treasury.desc1}"
+				""
+				"{university.treasury.desc2}"
+				""
+				"{university.treasury.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["242F8A61AB7188EB"]
+			id: "35F71A21E332C086"
+			tasks: [{
+				id: "599EF8B3D1CE018D"
+				type: "item"
+				item: "mahoutsukai:treasury_projection_gauntlet"
+			}]
+		}
+		{
+			title: "{university.proxproj.title}"
+			x: 0.5d
+			y: 3.0d
+			subtitle: "{university.proxproj.subtitle}"
+			description: [
+				"{university.proxproj.desc1}"
+				""
+				"{university.proxproj.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["242F8A61AB7188EB"]
+			id: "00C3C0C2F249AD56"
+			tasks: [{
+				id: "256FE8C8B4F087BF"
+				type: "item"
+				item: {
+					id: "mahoutsukai:proximity_projection_keys"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.megumin.title}"
+			x: -0.5d
+			y: 3.0d
+			subtitle: "{university.megumin.subtitle}"
+			description: [
+				"{university.megumin.desc1}"
+				""
+				"{university.megumin.desc2}"
+				""
+				"{university.megumin.desc3}"
+				""
+				"{university.megumin.desc4}"
+				""
+				"{university.megumin.desc5}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["242F8A61AB7188EB"]
+			min_width: 300
+			id: "0054F06302FE694E"
+			tasks: [{
+				id: "59796527B429FEED"
+				type: "item"
+				item: {
+					id: "mahoutsukai:mystic_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.spatdis.title}"
+			x: -1.5d
+			y: 3.0d
+			subtitle: "{university.spatdis.subtitle}"
+			description: [
+				"{university.spatdis.desc1}"
+				""
+				"{university.spatdis.desc2}"
+				""
+				"{university.spatdis.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["242F8A61AB7188EB"]
+			id: "2D51804645BD468A"
+			tasks: [{
+				id: "6DFA8EE4DC9CA5F1"
+				type: "item"
+				item: {
+					id: "mahoutsukai:spatial_disorientation_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.caliburn.title}"
+			x: 1.0d
+			y: 4.0d
+			subtitle: "{university.caliburn.subtitle}"
+			description: [
+				"{university.caliburn.desc1}"
+				""
+				"{university.caliburn.desc2}"
+				""
+				"{university.caliburn.desc3}"
+				""
+				"{university.caliburn.desc4}"
+				""
+				"{university.caliburn.desc5}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["242F8A61AB7188EB"]
+			min_width: 275
+			id: "3584CF2B839EDC1E"
+			tasks: [{
+				id: "0825D49C31346A4B"
+				type: "item"
+				item: {
+					id: "mahoutsukai:caliburn"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 0.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 3.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.durexch.title}"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "mahoutsukai:textures/block/mahoujin_changeable.png"
+				}
+			}
+			x: 1.5d
+			y: 3.0d
+			subtitle: "{university.durexch.subtitle}"
+			description: [
+				"{university.durexch.desc1}"
+				""
+				"{university.durexch.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["242F8A61AB7188EB"]
+			id: "09607E1E0772466D"
+			tasks: [{
+				id: "5AA6BD4799CB8B69"
+				type: "observation"
+				title: "{university.durexch.task}"
+				timer: 0L
+				observe: "block:mahoutsukai:mahoujin_durability_exchange"
+			}]
+		}
+		{
+			title: "{university.familiar1.title}"
+			x: 1.0d
+			y: 5.0d
+			subtitle: "{university.familiar1.subtitle}"
+			description: [
+				"{university.familiar1.desc1}"
+				""
+				"{university.familiar1.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["242F8A61AB7188EB"]
+			id: "723BCEB067DBAD5E"
+			tasks: [{
+				id: "5ED8E6B1985998AD"
+				type: "item"
+				item: {
+					id: "mahoutsukai:scroll_summon_familiar"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_CASTER_NAME: ""
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.familiar2.title}"
+			x: 2.0d
+			y: 5.0d
+			subtitle: "{university.familiar2.subtitle}"
+			description: [
+				"{university.familiar2.desc1}"
+				""
+				"{university.familiar2.desc2}"
+				""
+				"{university.familiar2.desc3}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["242F8A61AB7188EB"]
+			id: "0EA9A68B9C535856"
+			tasks: [
+				{
+					id: "4A2AF9B86D8E2606"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_recall_familiar"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+					}
+				}
+				{
+					id: "4B5EEBB258BD3972"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_swap_familiar"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+					}
+				}
+				{
+					id: "1B6DA1C019F1C0CD"
+					type: "item"
+					item: {
+						id: "mahoutsukai:scroll_familiars_garden"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{university.clarent.title}"
+			x: -1.0d
+			y: 4.0d
+			subtitle: "{university.clarent.subtitle}"
+			description: [
+				"{university.clarent.desc1}"
+				""
+				"{university.clarent.desc2}"
+				""
+				"{university.clarent.desc3}"
+				""
+				"{university.clarent.desc4}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["242F8A61AB7188EB"]
+			min_width: 250
+			id: "7212F11B72F0C415"
+			tasks: [{
+				id: "0528FC91DA23D9A0"
+				type: "item"
+				item: {
+					id: "mahoutsukai:clarent"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.morgan.title}"
+			x: 2.0d
+			y: 4.0d
+			subtitle: "{university.morgan.subtitle}"
+			description: [
+				"{university.morgan.desc1}"
+				""
+				"{university.morgan.desc2}"
+				""
+				"{university.morgan.desc3}"
+				""
+				"{university.morgan.desc4}"
+			]
+			dependencies: ["3584CF2B839EDC1E"]
+			min_width: 275
+			id: "6F0446228DA3F490"
+			tasks: [{
+				id: "36A736E639B395E4"
+				type: "item"
+				item: {
+					id: "mahoutsukai:morgan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							MAHOUTSUKAI_ATTACK_CAP: 0.0d
+							MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+						}
+					}
+				}
+			}]
+		}
+	]
+}

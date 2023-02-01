@@ -1,0 +1,1113 @@
+{
+	id: "4E40D737FC8ACBCF"
+	group: "5252DC544975492B"
+	order_index: 0
+	filename: "ticon"
+	title: "{university.ticon.chapter}"
+	icon: {
+		id: "tconstruct:pickaxe"
+		Count: 1b
+		tag: {
+			tic_multipliers: { }
+			tic_stats: {
+				"tconstruct:attack_speed": 1.2f
+				"tconstruct:mining_speed": 2.0f
+				"tconstruct:attack_damage": 0.0f
+				"tconstruct:harvest_level": 0.0f
+				"tconstruct:durability": 60.0f
+			}
+			tic_broken: 0b
+			tic_modifiers: [
+				{
+					name: "tconstruct:cultivated"
+					level: 3s
+				}
+				{
+					name: "tconstruct:piercing"
+					level: 1s
+				}
+			]
+			tic_materials: [
+				"tconstruct:wood"
+				"tconstruct:wood"
+				"tconstruct:wood"
+			]
+			Damage: 0
+			tic_persistent_data: {
+				abilities: 1
+				traits: 0
+				upgrades: 3
+			}
+		}
+	}
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: -3.5d
+			subtitle: "{university.matsandyou.subtitle}"
+			description: [
+				"{university.matsandyou.desc1}"
+				""
+				"{university.matsandyou.desc2}"
+			]
+			id: "32B1F239DC2D89B8"
+			tasks: [{
+				id: "48C89B3C8623B317"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			subtitle: "{university.mechbook.subtitle}"
+			description: ["{university.mechbook.desc}"]
+			id: "3D444161B2B12551"
+			tasks: [{
+				id: "7F519F4CE1AC3202"
+				type: "item"
+				item: "tmechworks:book"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "{university.firestarter.subtitle}"
+			description: [
+				"{university.firestarter.desc1}"
+				""
+				"{university.firestarter.desc2}"
+			]
+			id: "300DED225C51E280"
+			tasks: [{
+				id: "198BDE31ED18C3DD"
+				type: "item"
+				item: {
+					id: "tmechworks:firestarter"
+					Count: 1b
+					tag: {
+						extinguish: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			subtitle: "{university.drawbridge.subtitle}"
+			description: [
+				"{university.drawbridge.desc1}"
+				""
+				"{university.drawbridge.desc2}"
+				""
+				"{university.drawbridge.desc3}"
+			]
+			id: "0854C517F38CA9E4"
+			tasks: [{
+				id: "2D7651672990C6DD"
+				type: "item"
+				item: "tmechworks:drawbridge"
+			}]
+		}
+		{
+			icon: "tmechworks:upgrade_drawbridge_advanced"
+			x: 0.0d
+			y: 0.5d
+			subtitle: "{university.drawups.subtitle}"
+			description: [
+				"{university.drawups.desc1}"
+				""
+				"{university.drawups.desc2}"
+				""
+				"{university.drawups.desc3}"
+			]
+			dependencies: ["0854C517F38CA9E4"]
+			id: "6A3B8406747AAC83"
+			tasks: [{
+				id: "2BF4788E0BCE006C"
+				type: "item"
+				title: "{university.drawups.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tmechworks:upgrade_drawbridge_advanced"
+								Count: 1b
+							}
+							{
+								id: "tmechworks:upgrade_drawbridge_distance"
+								Count: 1b
+							}
+							{
+								id: "tmechworks:upgrade_speed"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "tconstruct:part_builder"
+				Count: 1b
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			x: 0.0d
+			y: -3.5d
+			subtitle: "{university.partbuilder.subtitle}"
+			description: [
+				"{university.partbuilder.desc1}"
+				""
+				"{university.partbuilder.desc2}"
+				""
+				"{university.partbuilder.desc3}"
+				""
+				"{university.partbuilder.desc4}"
+				"{image:ftbuniversity:textures/quests/part_builder.png width:157 height:100}"
+				""
+				"{university.partbuilder.desc5}"
+			]
+			min_width: 275
+			id: "520B7867982ADE3A"
+			tasks: [
+				{
+					id: "2154020B7C56682A"
+					type: "item"
+					item: "tconstruct:part_builder"
+				}
+				{
+					id: "5C24D15AF4DC7D93"
+					type: "item"
+					item: "tconstruct:pattern"
+				}
+			]
+			rewards: [{
+				id: "22E6020EE749C0B1"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 32
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			subtitle: "{university.tinkerstation.subtitle}"
+			description: [
+				"{university.tinkerstation.desc1}"
+				""
+				"{university.tinkerstation.desc2}"
+				""
+				"{university.tinkerstation.desc3}"
+				"{image:ftbuniversity:textures/quests/tinker_station.png width:199 height:100}"
+			]
+			dependencies: ["520B7867982ADE3A"]
+			id: "2E1AED53B5AFF928"
+			tasks: [{
+				id: "61D5C3BFBA04A411"
+				type: "item"
+				item: {
+					id: "tconstruct:tinker_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "70B80D8B78B4508D"
+				type: "item"
+				item: {
+					id: "tconstruct:crafting_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.25d
+			y: -4.25d
+			subtitle: "{university.partchest.subtitle}"
+			description: [
+				"{university.partchest.desc1}"
+				""
+				"{university.partchest.desc2}"
+			]
+			dependencies: ["520B7867982ADE3A"]
+			size: 0.5d
+			optional: true
+			id: "7F49C51FE0DF2D0F"
+			tasks: [{
+				id: "4D8B9EC0EB411AA9"
+				type: "item"
+				item: "tconstruct:part_chest"
+			}]
+		}
+		{
+			x: 0.25d
+			y: -4.25d
+			subtitle: "{university.modchest.subtitle}"
+			description: [
+				"{university.modchest.desc1}"
+				""
+				"{university.modchest.desc2}"
+			]
+			dependencies: ["520B7867982ADE3A"]
+			size: 0.5d
+			optional: true
+			id: "6E06FBB553E5C0E0"
+			tasks: [{
+				id: "615A3C9FF56184C8"
+				type: "item"
+				item: "tconstruct:tinkers_chest"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "{university.gadgetbook.subtitle}"
+			description: [
+				"{university.gadgetbook.desc1}"
+				""
+				"{university.gadgetbook.desc2}"
+			]
+			optional: true
+			id: "5C7D4D925550B5C3"
+			tasks: [{
+				id: "587E44AFA26E99E0"
+				type: "item"
+				item: "tconstruct:tinkers_gadgetry"
+			}]
+		}
+		{
+			icon: "tconstruct:ender_slime_ball"
+			x: -1.0d
+			y: -2.75d
+			subtitle: "{university.tinkerslime.subtitle}"
+			description: [
+				"{university.tinkerslime.desc1}"
+				""
+				"{university.tinkerslime.desc2}"
+				""
+				"{university.tinkerslime.desc3}"
+				""
+				"{university.tinkerslime.desc4}"
+			]
+			size: 0.5d
+			id: "57FB3DABB44CD552"
+			tasks: [{
+				id: "06414461F7CBAE09"
+				type: "item"
+				title: "{university.tinkerslime.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:sky_slime_ball"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:ender_slime_ball"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:blood_slime_ball"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:ichor_slime_ball"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.melter.title}"
+			icon: "tconstruct:seared_melter"
+			x: 2.5d
+			y: -3.5d
+			subtitle: "{university.melter.subtitle}"
+			description: [
+				"{university.melter.desc1}"
+				""
+				"{university.melter.desc2}"
+				"{image:ftbuniversity:textures/quests/melter.png height:100 width:58}"
+				""
+				"{university.melter.desc3}"
+				""
+				"{university.melter.desc4}"
+			]
+			dependencies: ["2E1AED53B5AFF928"]
+			id: "41862929DC85BE7A"
+			tasks: [
+				{
+					id: "03D2C69326CEBCA5"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "720A00D745395572"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+			]
+		}
+		{
+			title: "{university.casting.title}"
+			icon: "tconstruct:seared_table"
+			x: 3.5d
+			y: -3.5d
+			subtitle: "{university.casting.subtitle}"
+			description: [
+				"{university.casting.desc1}"
+				""
+				"{university.casting.desc2}"
+				"{image:ftbuniversity:textures/quests/casting.png height:100 width:104}"
+				""
+				"{university.casting.desc3}"
+				""
+				"{university.casting.desc4}"
+				""
+				"{university.casting.desc5}"
+				""
+				"{university.casting.desc6}"
+				""
+				"{university.casting.desc7}"
+				""
+				"{university.casting.desc8}"
+			]
+			dependencies: ["41862929DC85BE7A"]
+			min_width: 350
+			id: "495CDB1D83742564"
+			tasks: [
+				{
+					id: "6865D141FB96C8AB"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "0F87E6033428F41D"
+					type: "item"
+					title: "{university.casting.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_table"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_basin"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "741E156FCE0E8BB9"
+					type: "item"
+					title: "{university.casting.task2}"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:casts"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "548E0DB1D18DD11C"
+				type: "item"
+				item: "tconstruct:blank_cast"
+				count: 16
+			}]
+		}
+		{
+			title: "{university.smeltery.title}"
+			icon: "tconstruct:smeltery_controller"
+			x: 4.5d
+			y: -3.5d
+			subtitle: "{university.smeltery.subtitle}"
+			description: [
+				"{university.smeltery.desc1}"
+				""
+				"{university.smeltery.desc2}"
+				""
+				"{university.smeltery.desc3}"
+				""
+				"{university.smeltery.desc4}"
+				"{image:ftbuniversity:textures/quests/smeltery.png height:125 width:147}"
+				""
+				"{university.smeltery.desc5}"
+				""
+				"{university.smeltery.desc6}"
+				""
+				"{university.smeltery.desc7}"
+				""
+				"{university.smeltery.desc8}"
+			]
+			dependencies: ["495CDB1D83742564"]
+			min_width: 375
+			id: "10A0EEB7B141701F"
+			tasks: [
+				{
+					id: "45EFCBE71E45FAFF"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "47CD43FF78963EFB"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "2AB95D359DD1744C"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "737298ED87BF1685"
+					type: "item"
+					title: "{university.smeltery.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_stone"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_cobble"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_paver"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_bricks"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_cracked_bricks"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_fancy_bricks"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_triangle_bricks"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_ladder"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:seared_glass"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0C39B88C3E9A688E"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 16
+			}]
+		}
+		{
+			title: "{university.mattiers.title}"
+			icon: {
+				id: "tconstruct:encyclopedia"
+				Count: 1b
+				tag: {
+					mantle: {
+						book: {
+							current_page: ""
+						}
+					}
+				}
+			}
+			x: 0.0d
+			y: -2.5d
+			subtitle: "{university.mattiers.subtitle}"
+			description: [
+				"{university.mattiers.desc1}"
+				""
+				"{university.mattiers.desc2}"
+				""
+				"{university.mattiers.desc3}"
+				""
+				"{university.mattiers.desc4}"
+			]
+			dependencies: ["520B7867982ADE3A"]
+			min_width: 250
+			id: "67557FD2E5362BD4"
+			tasks: [{
+				id: "07ECDD0357DE29E5"
+				type: "item"
+				item: {
+					id: "tconstruct:encyclopedia"
+					Count: 1b
+					tag: {
+						mantle: {
+							book: {
+								current_page: ""
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.foundry.title}"
+			icon: "tconstruct:foundry_controller"
+			x: 5.5d
+			y: -3.5d
+			subtitle: "{university.foundry.subtitle}"
+			description: [
+				"{university.foundry.desc1}"
+				"{image:ftbuniversity:textures/quests/foundry.png height:125 width:153}"
+				""
+				"{university.foundry.desc2}"
+				""
+				"{university.foundry.desc3}"
+			]
+			dependencies: ["495CDB1D83742564"]
+			min_width: 275
+			id: "586D0FD07ECB5179"
+			tasks: [
+				{
+					id: "563E8259144B2AA5"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+				{
+					id: "5DCBB8F008626224"
+					type: "item"
+					item: "tconstruct:scorched_fuel_tank"
+				}
+				{
+					id: "269D2076ACCB66CE"
+					type: "item"
+					title: "{university.foundry.task}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:scorched_stone"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:polished_scorched_stone"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_bricks"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_road"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:chiseled_scorched_bricks"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_ladder"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_glass"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "03BBCE8487F8799F"
+				type: "item"
+				item: "tconstruct:scorched_bricks"
+				count: 16
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			subtitle: "{university.alloyer.subtitle}"
+			description: [
+				"{university.alloyer.desc}"
+				"{image:ftbuniversity:textures/quests/alloyer.png height:100 width:148}"
+			]
+			dependencies: ["586D0FD07ECB5179"]
+			id: "1E88864C64A70258"
+			tasks: [{
+				id: "34499BFCD79FA17D"
+				type: "item"
+				item: "tconstruct:scorched_alloyer"
+			}]
+		}
+		{
+			title: "{university.smelteryio.title}"
+			icon: "tconstruct:seared_duct"
+			x: 4.5d
+			y: -4.5d
+			subtitle: "{university.smelteryio.subtitle}"
+			description: [
+				"{university.smelteryio.desc1}"
+				""
+				"{university.smelteryio.desc2}"
+			]
+			dependencies: ["10A0EEB7B141701F"]
+			id: "1F35727FC8CF7185"
+			tasks: [
+				{
+					id: "71AA2621FD8B56B4"
+					type: "item"
+					title: "{university.smelteryio.task1}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_chute"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_chute"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "11193826ED8675B6"
+					type: "item"
+					title: "{university.smelteryio.task2}"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tconstruct:seared_duct"
+									Count: 1b
+								}
+								{
+									id: "tconstruct:scorched_duct"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6500C2E277E8CB8C"
+				type: "item"
+				item: {
+					id: "tconstruct:scorched_lantern"
+					Count: 1b
+					tag: {
+						tank: {
+							FluidName: "tconstruct:blazing_blood"
+							Amount: 100
+						}
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			title: "{university.blazing.title}"
+			x: 4.5d
+			y: -2.5d
+			subtitle: "{university.blazing.subtitle}"
+			description: [
+				"{university.blazing.desc1}"
+				""
+				"{university.blazing.desc2}"
+				""
+				"{university.blazing.desc3}"
+			]
+			dependencies: ["10A0EEB7B141701F"]
+			id: "7E941A8F779BED59"
+			tasks: [{
+				id: "3D0EE1D6A6C2528D"
+				type: "item"
+				item: "tconstruct:blazing_blood_bucket"
+			}]
+			rewards: [{
+				id: "1BAC340A487BBC3F"
+				type: "item"
+				item: "botania:fel_pumpkin"
+				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			subtitle: "{university.pigback.subtitle}"
+			description: [
+				"{university.pigback.desc1}"
+				""
+				"{university.pigback.desc2}"
+				""
+				"{university.pigback.desc3}"
+			]
+			id: "7D58CF53295D1D6A"
+			tasks: [{
+				id: "2C0CF5E329187C23"
+				type: "item"
+				item: "tconstruct:piggy_backpack"
+			}]
+		}
+		{
+			title: "{university.efln.title}"
+			x: 4.0d
+			y: -0.5d
+			subtitle: "{university.efln.subtitle}"
+			description: [
+				"{university.efln.desc1}"
+				""
+				"{university.efln.desc2}"
+				""
+				"{university.efln.desc3}"
+			]
+			id: "027957CB59735B04"
+			tasks: [{
+				id: "42046772243991D2"
+				type: "item"
+				item: "tconstruct:efln_ball"
+			}]
+			rewards: [{
+				id: "7C138F0623A7B33E"
+				type: "item"
+				item: "tconstruct:efln_ball"
+				count: 16
+			}]
+		}
+		{
+			icon: "tconstruct:earth_slime_boots"
+			x: 3.0d
+			y: 0.5d
+			subtitle: "{university.slimeboots.subtitle}"
+			description: [
+				"{university.slimeboots.desc1}"
+				""
+				"{university.slimeboots.desc2}"
+				""
+				"{university.slimeboots.desc3}"
+			]
+			id: "2F728909BC4FD299"
+			tasks: [{
+				id: "1234D1BB14F6BA7A"
+				type: "item"
+				title: "{university.slimeboots.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:earth_slime_boots"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:sky_slime_boots"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:ichor_slime_boots"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:ender_slime_boots"
+								Count: 1b
+							}
+							{
+								id: "tconstruct:blood_slime_boots"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "tconstruct:earth_slime_sling"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.0d
+			y: 0.5d
+			subtitle: "{university.slimesling.subtitle}"
+			description: [
+				"{university.slimesling.desc1}"
+				""
+				"{university.slimesling.desc2}"
+				""
+				"{university.slimesling.desc3}"
+				""
+				"{university.slimesling.desc4}"
+				""
+				"{university.slimesling.desc5}"
+			]
+			min_width: 275
+			id: "1C5ED39DB076AB8D"
+			tasks: [{
+				id: "2F8D9A9D9FC3F96F"
+				type: "item"
+				title: "{university.slimesling.title}"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "tconstruct:earth_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "tconstruct:sky_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "tconstruct:ichor_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "tconstruct:ender_slime_sling"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			subtitle: "{university.cans.subtitle}"
+			description: [
+				"{university.cans.desc1}"
+				""
+				"{university.cans.desc2}"
+			]
+			id: "54B9B25778C87DD7"
+			tasks: [{
+				id: "06E9468F24B904F5"
+				type: "item"
+				item: "tconstruct:copper_can"
+			}]
+			rewards: [{
+				id: "5797355A4F78936D"
+				type: "item"
+				item: "tconstruct:copper_can"
+				count: 32
+			}]
+		}
+		{
+			title: "{university.clearglass.title}"
+			icon: "tconstruct:clear_glass"
+			x: 5.0d
+			y: -0.5d
+			subtitle: "{university.clearglass.subtitle}"
+			description: ["{university.clearglass.desc}"]
+			optional: true
+			id: "4C3D753553B58537"
+			tasks: [{
+				id: "3085B785A6B83A04"
+				type: "item"
+				title: "{university.clearglass.task}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "tcon.*clear.*glass"
+					}
+				}
+			}]
+			rewards: [{
+				id: "749C0D596421015D"
+				type: "item"
+				item: "tconstruct:clear_glass"
+				count: 128
+			}]
+		}
+		{
+			icon: {
+				id: "tconstruct:tinkers_anvil"
+				Count: 1b
+				tag: {
+					texture: "minecraft:netherite_block"
+				}
+			}
+			x: 3.5d
+			y: -2.5d
+			subtitle: "{university.tinkersanvil.subtitle}"
+			description: [
+				"{university.tinkersanvil.desc1}"
+				""
+				"{university.tinkersanvil.desc2}"
+			]
+			dependencies: ["495CDB1D83742564"]
+			id: "76AD58F29FC949E8"
+			tasks: [{
+				id: "1E5DC406540ADAC3"
+				type: "item"
+				title: "{university.tinkersanvil.title}"
+				item: {
+					id: "itemfilters:id_regex"
+					Count: 1b
+					tag: {
+						value: "tcon.*anvil"
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.modifiers.title}"
+			icon: {
+				id: "botania:cosmetic_questgiver_mark"
+				Count: 1b
+				tag: { }
+			}
+			x: 1.0d
+			y: -2.5d
+			subtitle: "{university.modifiers.subtitle}"
+			description: [
+				"{university.modifiers.desc1}"
+				""
+				"{university.modifiers.desc2}"
+				""
+				"{university.modifiers.desc3}"
+				""
+				"{university.modifiers.desc4}"
+				""
+				"{university.modifiers.desc5}"
+			]
+			dependencies: ["2E1AED53B5AFF928"]
+			min_width: 275
+			id: "2C49036009BDAFB9"
+			tasks: [{
+				id: "68F16F703202FA3D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.smeltbooks.title}"
+			icon: {
+				id: "tconstruct:mighty_smelting"
+				Count: 1b
+				tag: {
+					mantle: {
+						book: {
+							current_page: "tools.tools"
+						}
+					}
+				}
+			}
+			x: 3.5d
+			y: -4.5d
+			subtitle: "{university.smeltbooks.subtitle}"
+			description: [
+				"{university.smeltbooks.desc1}"
+				""
+				"{university.smeltbooks.desc2}"
+			]
+			dependencies: ["495CDB1D83742564"]
+			id: "34110AF04D4A74BA"
+			tasks: [
+				{
+					id: "25178F8B2EE18818"
+					type: "item"
+					item: {
+						id: "tconstruct:puny_smelting"
+						Count: 1b
+						tag: {
+							mantle: {
+								book: {
+									current_page: ""
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "11BCB568FA3D7669"
+					type: "item"
+					item: {
+						id: "tconstruct:mighty_smelting"
+						Count: 1b
+						tag: {
+							mantle: {
+								book: {
+									current_page: "tools.tools"
+								}
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			subtitle: "{university.foundrybook.subtitle}"
+			description: ["{university.foundrybook.desc}"]
+			dependencies: ["586D0FD07ECB5179"]
+			id: "1E203DAE6C2C65B5"
+			tasks: [{
+				id: "4CC42AEC56340907"
+				type: "item"
+				item: "tconstruct:fantastic_foundry"
+			}]
+		}
+	]
+}

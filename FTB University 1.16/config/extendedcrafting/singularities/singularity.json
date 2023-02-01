@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.singularity",
+  "colors": [
+    "9FFCFC",
+    "12004F"
+  ],
+  "ingredient": {
+    "item": "appliedenergistics2:singularity"
+  }
+}

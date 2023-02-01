@@ -1,0 +1,38 @@
+{
+	id: "4432776D868A11D4"
+	order_index: 9
+	title: "{university.coolthings.rewards.cutethings}"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{ item: "cnb:lilytad_spawn_egg", count: 2 }
+		{
+			item: {
+				id: "cnb:sporeling_overworld_red_egg"
+				Count: 1b
+				tag: {
+					variant: 1
+				}
+			}
+			count: 2
+		}
+		{ item: "cnb:lizard_spawn_egg", count: 2 }
+		{ item: "mowziesmobs:lantern_spawn_egg", count: 4 }
+		{ item: "alexsmobs:blobfish_bucket" }
+		{ item: "alexsmobs:platypus_bucket" }
+		{ item: "mysticalworld:beetle_spawn_egg", count: 4 }
+		{ item: "mysticalworld:deer_spawn_egg", count: 2 }
+		{ item: "mysticalworld:frog_spawn_egg", count: 4 }
+		{ item: "mysticalworld:silver_fox_spawn_egg", count: 2 }
+		{ item: "mysticalworld:sprout_spawn_egg", count: 5 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "university_coolthings_rewards_cutethings"
+	}
+}

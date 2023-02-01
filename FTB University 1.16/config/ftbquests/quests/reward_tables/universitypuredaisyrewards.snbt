@@ -1,0 +1,10 @@
+{
+	id: "6398E0D1C30CED58"
+	order_index: 12
+	title: "{university.puredaisy.rewards}"
+	loot_size: 4
+	rewards: [
+		{ item: "botania:livingrock", count: 4 }
+		{ item: "botania:livingwood", count: 4 }
+	]
+}

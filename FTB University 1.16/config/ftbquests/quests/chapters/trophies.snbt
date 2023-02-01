@@ -1,0 +1,1768 @@
+{
+	id: "79F84D7A84B76EF9"
+	group: "71F34387A5BE8E13"
+	order_index: 0
+	filename: "trophies"
+	title: "{university.trophies.chapter}"
+	icon: {
+		id: "trofers:large_trophy"
+		Count: 1b
+		tag: {
+			BlockEntityTag: {
+				Item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "trofers:large_trophy"
+								Count: 1b
+								tag: {
+									BlockEntityTag: {
+										Item: {
+											id: "trofers:large_trophy"
+											Count: 1b
+											tag: {
+												BlockEntityTag: {
+													Item: {
+														id: "trofers:large_trophy"
+														Count: 1b
+														tag: {
+															BlockEntityTag: {
+																Item: {
+																	id: "trofers:large_trophy"
+																	Count: 1b
+																	tag: {
+																		BlockEntityTag: {
+																			Item: {
+																				id: "trofers:large_trophy"
+																				Count: 1b
+																				tag: {
+																					BlockEntityTag: {
+																						Item: {
+																							id: "trofers:large_trophy"
+																							Count: 1b
+																						}
+																						DisplayScale: 1.0f
+																						Animation: "fixed"
+																						Colors: {
+																							Bottom: {
+																								Red: 255
+																								Blue: 255
+																								Green: 255
+																							}
+																							Top: {
+																								Red: 255
+																								Blue: 255
+																								Green: 255
+																							}
+																							Middle: {
+																								Red: 255
+																								Blue: 255
+																								Green: 255
+																							}
+																						}
+																					}
+																				}
+																			}
+																			DisplayScale: 1.0f
+																			Animation: "fixed"
+																			Colors: {
+																				Bottom: {
+																					Red: 255
+																					Blue: 255
+																					Green: 255
+																				}
+																				Top: {
+																					Red: 255
+																					Blue: 255
+																					Green: 255
+																				}
+																				Middle: {
+																					Red: 255
+																					Blue: 255
+																					Green: 255
+																				}
+																			}
+																		}
+																	}
+																}
+																DisplayScale: 1.0f
+																Animation: "fixed"
+																Colors: {
+																	Bottom: {
+																		Red: 255
+																		Blue: 255
+																		Green: 255
+																	}
+																	Top: {
+																		Red: 255
+																		Blue: 255
+																		Green: 255
+																	}
+																	Middle: {
+																		Red: 255
+																		Blue: 255
+																		Green: 255
+																	}
+																}
+															}
+														}
+													}
+													DisplayScale: 1.0f
+													Animation: "fixed"
+													Colors: {
+														Bottom: {
+															Red: 255
+															Blue: 255
+															Green: 255
+														}
+														Top: {
+															Red: 255
+															Blue: 255
+															Green: 255
+														}
+														Middle: {
+															Red: 255
+															Blue: 255
+															Green: 255
+														}
+													}
+												}
+											}
+										}
+										DisplayScale: 1.0f
+										Animation: "fixed"
+										Colors: {
+											Bottom: {
+												Red: 255
+												Blue: 255
+												Green: 255
+											}
+											Top: {
+												Red: 255
+												Blue: 255
+												Green: 255
+											}
+											Middle: {
+												Red: 255
+												Blue: 255
+												Green: 255
+											}
+										}
+									}
+								}
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+						}
+					}
+				}
+				DisplayScale: 1.0f
+				Animation: "fixed"
+				Colors: {
+					Bottom: {
+						Red: 255
+						Blue: 255
+						Green: 255
+					}
+					Top: {
+						Red: 255
+						Blue: 255
+						Green: 255
+					}
+					Middle: {
+						Red: 255
+						Blue: 255
+						Green: 255
+					}
+				}
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{university.ae2trophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "chisel:futura/controller"
+							Count: 1b
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Applied Energistics 2 Trophy"
+					}
+				}
+			}
+			x: -0.5d
+			y: 0.0d
+			subtitle: "{university.ae2trophy.subtitle}"
+			dependencies: ["46A86052676FCE2F"]
+			id: "26A60AFCD07BE8E8"
+			rewards: [{
+				id: "60F4DD91E3C18BD4"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "chisel:futura/controller"
+								Count: 1b
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Applied Energistics 2 Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.idtrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "integrateddynamics:cable"
+							Count: 1b
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Integrated Dynamics Trophy"
+					}
+				}
+			}
+			x: 0.5d
+			y: 0.0d
+			subtitle: "{university.idtrophy.subtitle}"
+			dependencies: ["4BD850656FB0F5B9"]
+			id: "622D8D943977D824"
+			rewards: [{
+				id: "14E15439DCB9202D"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "integrateddynamics:cable"
+								Count: 1b
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Integrated Dynamics Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.xnettrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "xnet:controller"
+							Count: 1b
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "XNet Trophy"
+					}
+				}
+			}
+			x: 1.5d
+			y: 0.0d
+			subtitle: "{university.xnettrophy.subtitle}"
+			dependencies: ["1D700F930731D3A0"]
+			id: "544BF808314AA55E"
+			rewards: [{
+				id: "630FCA73167C912D"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "xnet:controller"
+								Count: 1b
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "XNet Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.ietrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "immersiveengineering:wirecoil_copper"
+							Count: 1b
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Immersive Engineering Trophy"
+					}
+				}
+			}
+			x: -0.5d
+			y: 1.0d
+			subtitle: "{university.ietrophy.subtitle}"
+			dependencies: ["1CAAF483A445AFC7"]
+			id: "443A0046F32745B7"
+			rewards: [{
+				id: "78EB065AC16A8E74"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "immersiveengineering:wirecoil_copper"
+								Count: 1b
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Immersive Engineering Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.mekanismtrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "mekanism:robit"
+							Count: 1b
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Mekanism Trophy"
+					}
+				}
+			}
+			x: 0.5d
+			y: 1.0d
+			subtitle: "{university.mekanismtrophy.subtitle}"
+			dependencies: ["10E2CAD7045227E8"]
+			id: "44750A226C2401F3"
+			rewards: [{
+				id: "10B4491DE444859C"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "mekanism:robit"
+								Count: 1b
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Mekanism v10 Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.pncrtrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "pneumaticcraft:air_compressor"
+							Count: 1b
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "PneumaticCraft: Repressurized Trophy"
+					}
+				}
+			}
+			x: 1.5d
+			y: 1.0d
+			subtitle: "{university.pncrtrophy.subtitle}"
+			dependencies: ["4DF5DFA33406E3CB"]
+			id: "716BE70DC6D8A50A"
+			rewards: [{
+				id: "2FFC2B6AE62B4694"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "pneumaticcraft:air_compressor"
+								Count: 1b
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "PneumaticCraft: Repressurized Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.rfttrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "rftoolsutility:crafter2"
+							Count: 1b
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "RFTools Trophy"
+					}
+				}
+			}
+			x: 2.5d
+			y: 1.0d
+			subtitle: "{university.rfttrophy.subtitle}"
+			dependencies: ["570A6811AF534176"]
+			id: "782A79DC04F91CEF"
+			rewards: [{
+				id: "6039500EFC9E11F6"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "rftoolsutility:crafter2"
+								Count: 1b
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "RFTools Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.woottrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "woot:wootguide"
+							}
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Woot Trophy"
+					}
+				}
+			}
+			x: 3.5d
+			y: 1.0d
+			subtitle: "{university.woottrophy.subtitle}"
+			dependencies: ["621BCED9CD4FC8E9"]
+			id: "1B97C342BEB4C452"
+			rewards: [{
+				id: "17CF8158EC2E3999"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "woot:wootguide"
+								}
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Woot Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.etechtrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "envirotech:xerothium_void_miner_ccu"
+							Count: 1b
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Environmental Technology Trophy"
+					}
+				}
+			}
+			x: -1.5d
+			y: 1.0d
+			subtitle: "{university.etechtrophy.subtitle}"
+			dependencies: ["526AC11AFE34E30C"]
+			id: "31B548EBBF98AB61"
+			rewards: [{
+				id: "32B0F367A58AF461"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "envirotech:xerothium_void_miner_ccu"
+								Count: 1b
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Environmental Technology Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.createtrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "create:deployer"
+							Count: 1b
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Create Trophy"
+					}
+				}
+			}
+			x: -2.5d
+			y: 1.0d
+			subtitle: "{university.createtrophy.subtitle}"
+			dependencies: ["68E08065D8945AD4"]
+			id: "70E2D3921F08D794"
+			rewards: [{
+				id: "5BACB0F32504FCDF"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "create:deployer"
+								Count: 1b
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Create Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.arstrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "ars_nouveau:sylph_charm"
+							Count: 1b
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Ars Nouveau Trophy"
+					}
+				}
+			}
+			x: -2.5d
+			y: 2.0d
+			subtitle: "{university.arstrophy.subtitle}"
+			dependencies: ["1445877460FA5676"]
+			id: "6E6A57BDF8C5D229"
+			rewards: [{
+				id: "6B317635471F0BA7"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "ars_nouveau:sylph_charm"
+								Count: 1b
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Ars Nouveau Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.bmtrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "patchouli:guide_book"
+							Count: 1b
+							tag: {
+								"patchouli:book": "bloodmagic:guide"
+							}
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Blood Magic Trophy"
+					}
+				}
+			}
+			x: -1.5d
+			y: 2.0d
+			subtitle: "{university.bmtrophy.subtitle}"
+			dependencies: ["1ABC5E4AFE1505C9"]
+			id: "37AD98B78EEE7A08"
+			rewards: [{
+				id: "282EA196374005EA"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "patchouli:guide_book"
+								Count: 1b
+								tag: {
+									"patchouli:book": "bloodmagic:guide"
+								}
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Blood Magic Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.botaniatrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "botania:lexicon"
+							Count: 1b
+							tag: { }
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Botania Trophy"
+					}
+				}
+			}
+			x: -0.5d
+			y: 2.0d
+			subtitle: "{university.botaniatrophy.subtitle}"
+			min_required_dependencies: 1
+			dependencies: [
+				"62E52BCCF5F195B8"
+				"7E2440768A61BF95"
+			]
+			id: "12C9612E05B2B582"
+			rewards: [{
+				id: "198B620F9C240682"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "botania:lexicon"
+								Count: 1b
+								tag: { }
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Botania Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.eidolontrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "eidolon:codex"
+							Count: 1b
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Eidolon Trophy"
+					}
+				}
+			}
+			x: 0.5d
+			y: 2.0d
+			subtitle: "{university.eidolontrophy.subtitle}"
+			dependencies: ["52FF1B8B153D74BF"]
+			id: "6D840D6EA445AC28"
+			rewards: [{
+				id: "19494A7EA3A5B80C"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "eidolon:codex"
+								Count: 1b
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Eidolon Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.mttrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						DisplayHeight: 3.0f
+						Item: {
+							ForgeCaps: {
+								Parent: {
+									MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+									MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+								}
+							}
+							id: "mahoutsukai:clarent"
+							Count: 1b
+							tag: {
+								Damage: 0
+							}
+						}
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						DisplayScale: 0.625f
+						Animation: "fixed"
+						Name: "Mahou Tsukai Trophy"
+					}
+				}
+			}
+			x: 1.5d
+			y: 2.0d
+			subtitle: "{university.mttrophy.subtitle}"
+			dependencies: ["31509AB673B15566"]
+			id: "5E36FB550CA6030C"
+			rewards: [{
+				id: "3FA0372DF4110F5B"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							DisplayHeight: 3.0f
+							Item: {
+								ForgeCaps: {
+									Parent: {
+										MAHOUTSUKAI_ATTACK_CAP: 10000.0d
+										MAHOUTSUKAI_ATTACK_DAMAGE: 0.0f
+									}
+								}
+								id: "mahoutsukai:clarent"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							DisplayScale: 0.625f
+							Animation: "fixed"
+							Name: "Mahou Tsukai Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.maatrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "mana-and-artifice:guide_book"
+							Count: 1b
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Mana and Artifice Trophy"
+					}
+				}
+			}
+			x: 2.5d
+			y: 2.0d
+			subtitle: "{university.maatrophy.subtitle}"
+			dependencies: ["5DF2A04C402F8C75"]
+			id: "7D4DA07B01248D5B"
+			rewards: [{
+				id: "6352BE6CD867470E"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "mana-and-artifice:guide_book"
+								Count: 1b
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Mana and Artifice Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.tftrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "twilightforest:twilight_portal_miniature_structure"
+							Count: 1b
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Twilight Forest Trophy"
+					}
+				}
+			}
+			x: 3.5d
+			y: 2.0d
+			subtitle: "{university.tftrophy.subtitle}"
+			dependencies: ["1521FFEFE20B7A14"]
+			id: "46FF57C35756BAE9"
+			rewards: [{
+				id: "0EB19F7D19A9C8C6"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "twilightforest:twilight_portal_miniature_structure"
+								Count: 1b
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Twilight Forest Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.ticontrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "tconstruct:scorched_anvil"
+							Count: 1b
+							tag: {
+								texture: "tconstruct:tinkers_bronze_block"
+							}
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Tinkers' Construct 3 Trophy"
+					}
+				}
+			}
+			x: 0.0d
+			y: 3.0d
+			subtitle: "{university.ticontrophy.subtitle}"
+			dependencies: ["4E40D737FC8ACBCF"]
+			id: "47A6041274A208AA"
+			rewards: [{
+				id: "4CB03204FD655AD8"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "tconstruct:scorched_anvil"
+								Count: 1b
+								tag: {
+									texture: "tconstruct:tinkers_bronze_block"
+								}
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Tinkers' Construct 3 Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.misctrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "minecraft:stick"
+							Count: 1b
+						}
+						DisplayScale: 1.0f
+						Animation: "fixed"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Misc Trophy"
+					}
+				}
+			}
+			x: 1.0d
+			y: 3.0d
+			subtitle: "{university.misctrophy.subtitle}"
+			dependencies: ["2562D1F39BF1C4AF"]
+			id: "1B3F146F922E22A4"
+			rewards: [{
+				id: "367C656F24327554"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "minecraft:stick"
+								Count: 1b
+							}
+							DisplayScale: 1.0f
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Misc Trophy"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{university.endtrophy.title}"
+			icon: {
+				id: "trofers:large_trophy"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						Item: {
+							id: "extendedcrafting:ultimate_singularity"
+							Count: 1b
+						}
+						DisplayScale: 1.0f
+						Animation: "tumbling"
+						Colors: {
+							Bottom: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Top: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+							Middle: {
+								Red: 255
+								Blue: 255
+								Green: 255
+							}
+						}
+						Name: "Endgame Trophy"
+					}
+				}
+			}
+			x: 0.5d
+			y: 4.0d
+			subtitle: "{university.endtrophy.subtitle}"
+			dependencies: ["51347570410D69B7"]
+			id: "404670CDB2414737"
+			rewards: [{
+				id: "3F0B20CD8F6B8630"
+				type: "item"
+				item: {
+					id: "trofers:large_trophy"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Item: {
+								id: "extendedcrafting:ultimate_singularity"
+								Count: 1b
+							}
+							DisplayScale: 1.0f
+							Animation: "tumbling"
+							Colors: {
+								Bottom: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Top: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+								Middle: {
+									Red: 255
+									Blue: 255
+									Green: 255
+								}
+							}
+							Name: "Endgame Trophy"
+						}
+					}
+				}
+			}]
+		}
+	]
+}

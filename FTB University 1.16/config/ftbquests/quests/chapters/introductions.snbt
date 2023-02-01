@@ -1,0 +1,541 @@
+{
+	id: "53A0C2236DDC7817"
+	group: ""
+	order_index: 1
+	filename: "introductions"
+	title: "{university.introductions.chapter}"
+	icon: {
+		id: "botania:cosmetic_questgiver_mark"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -4.0d
+			y: 0.5d
+			width: 0.05d
+			height: 4.65d
+			rotation: 0.0d
+			image: "ftbuniversity:textures/dot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.65d
+			y: -0.5d
+			width: 15.575d
+			height: 0.05d
+			rotation: 0.0d
+			image: "ftbuniversity:textures/dot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.65d
+			y: -1.5d
+			width: 15.575d
+			height: 0.05d
+			rotation: 0.0d
+			image: "ftbuniversity:textures/dot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			width: 3.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbuniversity:textures/misc.png"
+			hover: ["{university.misc.group}"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.65d
+			y: 0.5d
+			width: 15.575d
+			height: 0.05d
+			rotation: 0.0d
+			image: "ftbuniversity:textures/dot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -9.35d
+			y: 0.5d
+			width: 0.05d
+			height: 4.65d
+			rotation: 0.0d
+			image: "ftbuniversity:textures/dot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.7d
+			y: 0.0d
+			width: 6.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbuniversity:textures/automation.png"
+			hover: ["{university.storageautomation.group}"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.65d
+			y: 1.5d
+			width: 15.575d
+			height: 0.05d
+			rotation: 0.0d
+			image: "ftbuniversity:textures/dot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.265306122448976d
+			y: 1.0d
+			width: 3.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbuniversity:textures/magic.png"
+			hover: ["{university.magic.group}"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.768707482993193d
+			y: 2.0d
+			width: 3.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbuniversity:textures/tech.png"
+			hover: ["{university.tech.group}"]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			width: 0.05d
+			height: 4.65d
+			rotation: 0.0d
+			image: "ftbuniversity:textures/dot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.65d
+			y: 2.5d
+			width: 15.575d
+			height: 0.05d
+			rotation: 0.0d
+			image: "ftbuniversity:textures/dot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "{university.introae2.title}"
+			icon: "appliedenergistics2:controller"
+			x: -1.0d
+			y: 0.0d
+			subtitle: "{university.introae2.subtitle}"
+			description: [
+				"{university.introae2.desc1}"
+				""
+				"{university.introae2.desc2}"
+				""
+				"{university.introae2.desc3}"
+			]
+			id: "72DD503BF5B3E1B6"
+			tasks: [{
+				id: "21C9A1FF9E54F7B8"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.introintegrated.title}"
+			icon: "integratedterminals:part_terminal_storage"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{university.introintegrated.subtitle}"
+			description: [
+				"{university.introintegrated.desc1}"
+				""
+				"{university.introintegrated.desc2}"
+				""
+				"{university.introintegrated.desc3}"
+			]
+			min_width: 275
+			id: "70B0837F68194D6C"
+			tasks: [{
+				id: "7FF7C301649B7A23"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "58E6FFAE4609CA4C"
+				type: "item"
+				item: "integrateddynamics:on_the_dynamics_of_integration"
+			}]
+		}
+		{
+			title: "{university.introcreate.title}"
+			icon: "create:deployer"
+			x: -3.0d
+			y: 2.0d
+			subtitle: "{university.introcreate.subtitle}"
+			description: [
+				"{university.introcreate.desc1}"
+				""
+				"{university.introcreate.desc2}"
+				""
+				"{university.introcreate.desc3}"
+			]
+			min_width: 250
+			id: "28CB48ED439B2763"
+			tasks: [{
+				id: "01CBC81B22957AE9"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.intromek.title}"
+			icon: "mekanism:robit"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "{university.intromek.subtitle}"
+			description: [
+				"{university.intromek.desc1}"
+				""
+				"{university.intromek.desc2}"
+			]
+			id: "22EAE3F0E75EACFB"
+			tasks: [{
+				id: "5439EEA5886D7FFA"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "09D4D774E5F03590"
+				type: "item"
+				item: "mekanismadditions:red_balloon"
+				count: 99
+			}]
+		}
+		{
+			title: "{university.introie.title}"
+			icon: "immersiveengineering:wirecoil_copper"
+			x: -1.0d
+			y: 2.0d
+			subtitle: "{university.introie.subtitle}"
+			description: [
+				"{university.introie.desc1}"
+				""
+				"{university.introie.desc2}"
+			]
+			id: "4CB2F842BEB764C3"
+			tasks: [{
+				id: "22D3D96AE078728D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.introbotania.title}"
+			icon: {
+				id: "botania:lexicon"
+				Count: 1b
+				tag: { }
+			}
+			x: -1.0d
+			y: 1.0d
+			subtitle: "{university.introbotania.subtitle}"
+			description: [
+				"{university.introbotania.desc1}"
+				""
+				"{university.introbotania.desc2}"
+				""
+				"{university.introbotania.desc3}"
+				""
+				"{university.introbotania.desc4}"
+			]
+			id: "074F632FC9CC5591"
+			tasks: [{
+				id: "12E8AEABFF2DDE43"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4127315A86710331"
+				type: "choice"
+				table_id: 7966950192257974093L
+			}]
+		}
+		{
+			title: "{university.intromahou.title}"
+			icon: {
+				id: "mahoutsukai:mystic_staff"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: 1.0d
+			subtitle: "{university.intromahou.subtitle}"
+			description: [
+				"{university.intromahou.desc1}"
+				""
+				"{university.intromahou.desc2}"
+			]
+			id: "39990FFD5724F992"
+			tasks: [{
+				id: "04E76E3714E93CC9"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.introtf.title}"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: 3.0d
+			y: 1.0d
+			subtitle: "{university.introtf.subtitle}"
+			description: [
+				"{university.introtf.desc1}"
+				""
+				"{university.introtf.desc2}"
+			]
+			id: "1A51DC60DBCF328D"
+			tasks: [{
+				id: "1C4C5E7B152B1A09"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.introticon.title}"
+			icon: "tconstruct:crafting_station"
+			x: -0.5d
+			y: -1.0d
+			subtitle: "{university.introticon.subtitle}"
+			description: [
+				"{university.introticon.desc1}"
+				""
+				"{university.introticon.desc2}"
+				""
+				"{university.introticon.desc3}"
+				""
+				"{university.introticon.desc4}"
+				""
+				"{university.introticon.desc5}"
+				""
+				"{university.introticon.desc6}"
+			]
+			min_width: 300
+			id: "1872B517A30B3D41"
+			tasks: [{
+				id: "4BCAE2A06D55F963"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2B8A0E5A3089AC7D"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+		}
+		{
+			title: "{university.introxnet.title}"
+			icon: "xnet:controller"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "{university.introxnet.subtitle}"
+			description: [
+				"{university.introxnet.desc1}"
+				""
+				"{university.introxnet.desc2}"
+			]
+			id: "7688E13333F37E2C"
+			tasks: [{
+				id: "123221BD054EB794"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.introrftools.title}"
+			icon: "rftoolsutility:crafter2"
+			x: -2.0d
+			y: 2.0d
+			subtitle: "{university.introrftools.subtitle}"
+			description: [
+				"{university.introrftools.desc1}"
+				""
+				"{university.introrftools.desc2}"
+			]
+			id: "484F6C6DFAE4009A"
+			tasks: [{
+				id: "2679D1E7D4B11BFB"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0528B3A7B46301AF"
+				type: "item"
+				item: "rftoolsbase:manual"
+			}]
+		}
+		{
+			title: "{university.introetech.title}"
+			icon: "envirotech:litherite_void_miner_ccu"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "{university.introetech.subtitle}"
+			description: ["{university.introetech.desc}"]
+			id: "1BF455D9F682195F"
+			tasks: [{
+				id: "196C38BD7F44A8F3"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.introbm.title}"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+			x: -2.0d
+			y: 1.0d
+			subtitle: "{university.introbm.subtitle}"
+			description: [
+				"{university.introbm.desc1}"
+				""
+				"{university.introbm.desc2}"
+				""
+				"{university.introbm.desc3}"
+			]
+			id: "542DC301A7194063"
+			tasks: [{
+				id: "365D562D18FDD60D"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.intropneum.title}"
+			icon: "pneumaticcraft:air_compressor"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "{university.intropneum.subtitle}"
+			description: [
+				"{university.intropneum.desc1}"
+				""
+				"{university.intropneum.desc2}"
+			]
+			id: "5DAC0D276F3A122D"
+			tasks: [{
+				id: "0512BCF9113D5C16"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.introars.title}"
+			icon: "ars_nouveau:worn_notebook"
+			x: -3.0d
+			y: 1.0d
+			subtitle: "{university.introars.subtitle}"
+			description: [
+				"{university.introars.desc1}"
+				""
+				"{university.introars.desc2}"
+			]
+			id: "66C963C6BAB5B742"
+			tasks: [{
+				id: "45BF879C3D45AA78"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.introeidolon.title}"
+			icon: "eidolon:codex"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "{university.introeidolon.subtitle}"
+			description: [
+				"{university.introeidolon.desc1}"
+				""
+				"{university.introeidolon.desc2}"
+			]
+			id: "5F92B409473AD160"
+			tasks: [{
+				id: "6382F5E7458D2962"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.intromana.title}"
+			icon: "mana-and-artifice:guide_book"
+			x: 2.0d
+			y: 1.0d
+			subtitle: "{university.intromana.subtitle}"
+			description: ["{university.intromana.desc}"]
+			id: "111B25EF8BDFA5F3"
+			tasks: [{
+				id: "4BD941E38B87060A"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{university.introwoot.title}"
+			icon: "woot:looting_1"
+			x: 3.0d
+			y: 2.0d
+			subtitle: "{university.introwoot.subtitle}"
+			description: [
+				"{university.introwoot.desc1}"
+				""
+				"{university.introwoot.desc2}"
+			]
+			id: "65ADAE632FA95AB7"
+			tasks: [{
+				id: "252AD2C04461D6E4"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			subtitle: "{university.akashictome.subtitle}"
+			description: [
+				"{university.akashictome.desc1}"
+				""
+				"{university.akashictome.desc2}"
+			]
+			id: "6C5F54CE3D9A6FE1"
+			tasks: [{
+				id: "706B03DB3033DB9A"
+				type: "item"
+				item: "akashictome:tome"
+			}]
+		}
+	]
+}

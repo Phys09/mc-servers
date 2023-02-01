@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "1aaron5",
+      "uniqueId": "13027fdb-aac9-491b-9d93-c7e2f791d846"
+    },
+    "time": 1621837419270,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/5uowmDyqPK"
+    }
+  }
+]

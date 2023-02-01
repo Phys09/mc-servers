@@ -1,0 +1,10 @@
+{
+  "name": "singularity.extendedcrafting.compressed_iron",
+  "colors": [
+    "868686",
+    "626262"
+  ],
+  "ingredient": {
+    "item": "pneumaticcraft:ingot_iron_compressed"
+  }
+}

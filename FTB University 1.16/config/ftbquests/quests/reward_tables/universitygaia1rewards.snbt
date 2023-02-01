@@ -1,0 +1,38 @@
+{
+	id: "5BFF980C9EDB624B"
+	order_index: 1
+	title: "{university.gaia1.rewards}"
+	loot_size: 1
+	rewards: [
+		{
+			title: "{university.gaia1.reward1}"
+			item: {
+				id: "botania:incense_stick"
+				Count: 1b
+				tag: {
+					brewKey: "botania:strength"
+				}
+			}
+		}
+		{
+			title: "{university.gaia1.reward2}"
+			item: {
+				id: "botania:incense_stick"
+				Count: 1b
+				tag: {
+					brewKey: "botania:regen"
+				}
+			}
+		}
+		{
+			title: "{university.gaia1.reward3}"
+			item: {
+				id: "botania:incense_stick"
+				Count: 1b
+				tag: {
+					brewKey: "botania:resistance"
+				}
+			}
+		}
+	]
+}

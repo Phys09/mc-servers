@@ -1,0 +1,12 @@
+{
+	id: "12D5F6C3DC972DAA"
+	order_index: 11
+	title: "{university.purecrystals.rewards}"
+	loot_size: 4
+	use_title: true
+	rewards: [
+		{ item: "appliedenergistics2:certus_crystal_seed", count: 4 }
+		{ item: "appliedenergistics2:fluix_crystal_seed", count: 4 }
+		{ item: "appliedenergistics2:nether_quartz_seed", count: 4 }
+	]
+}
