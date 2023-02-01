@@ -1,0 +1,540 @@
+{
+  "dungeontactics:recipes/misc/convenience/planks_from_sticks": {
+    "criteria": {
+      "has_spruce": "2020-08-25 20:17:12 -0400"
+    },
+    "done": true
+  },
+  "inventorypets:inventorypets/root": {
+    "criteria": {
+      "auto": "2020-08-25 20:02:28 -0400"
+    },
+    "done": true
+  },
+  "dungeontactics:recipes/weapons/stone_weapons": {
+    "criteria": {
+      "has_item": "2020-08-25 20:18:17 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_mahogany": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2020-08-25 20:18:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2020-08-25 20:18:17 -0400"
+    },
+    "done": true
+  },
+  "mysticalworld:root": {
+    "criteria": {
+      "auto": "2020-08-25 20:02:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2020-08-25 20:17:12 -0400"
+    },
+    "done": true
+  },
+  "dungeontactics:recipes/misc/convenience/sticks_from_cactus": {
+    "criteria": {
+      "has_stick": "2020-08-25 20:18:00 -0400"
+    },
+    "done": true
+  },
+  "mod_lavacow:mod_lavacow/root": {
+    "criteria": {
+      "tick": "2020-08-25 20:02:28 -0400"
+    },
+    "done": true
+  },
+  "astralsorcery:root": {
+    "criteria": {
+      "astralsorcery_present": "2020-08-25 20:02:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2020-08-25 20:18:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2020-08-25 20:18:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2020-08-25 20:17:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "extreme_hills_with_trees": "2020-08-25 20:15:48 -0400",
+      "plains": "2020-08-25 21:04:41 -0400",
+      "taiga": "2020-08-25 20:02:28 -0400",
+      "extreme_hills": "2020-08-25 20:09:32 -0400",
+      "river": "2020-08-25 20:09:21 -0400"
+    },
+    "done": false
+  },
+  "biomesoplenty:recipes/transportation/boat_fir": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "dungeontactics:recipes/weapons/sharp_stick": {
+    "criteria": {
+      "has_stick": "2020-08-25 20:18:00 -0400"
+    },
+    "done": true
+  },
+  "buildcraftenergy:sticky_dipping": {
+    "criteria": {
+      "oil": "2020-08-25 20:06:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2020-08-25 20:12:20 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2020-08-25 20:17:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_log": "2020-08-25 20:16:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2020-08-25 20:18:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapdoor": {
+    "criteria": {
+      "has_planks": "2020-08-25 20:17:12 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2020-08-25 20:02:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2020-08-25 20:18:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2020-08-25 20:18:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2020-08-25 20:18:17 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_willow": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2020-08-25 20:18:17 -0400"
+    },
+    "done": true
+  },
+  "rats:rats/root": {
+    "criteria": {
+      "tick": "2020-08-25 20:02:28 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_sacred_oak": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2020-08-25 20:18:00 -0400"
+    },
+    "done": true
+  },
+  "dungeontactics:recipes/misc/wooden_chair": {
+    "criteria": {
+      "has_wood": "2020-08-25 20:18:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_pine": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_stone_pickaxe": "2020-08-25 20:20:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2020-08-25 20:18:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2020-08-25 20:17:12 -0400"
+    },
+    "done": true
+  },
+  "rats:rats/ratlantis": {
+    "criteria": {
+      "iron_pickaxe": "2020-08-25 21:02:51 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_redwood": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2020-08-25 20:17:12 -0400"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2020-08-25 20:02:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sign": {
+    "criteria": {
+      "has_planks": "2020-08-25 20:17:12 -0400"
+    },
+    "done": true
+  },
+  "dungeontactics:recipes/misc/wooden_table": {
+    "criteria": {
+      "has_wood": "2020-08-25 20:18:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "bewitchment:root": {
+    "criteria": {
+      "tick": "2020-08-25 20:02:28 -0400"
+    },
+    "done": true
+  },
+  "roots:root": {
+    "criteria": {
+      "auto": "2020-08-25 20:02:28 -0400"
+    },
+    "done": true
+  },
+  "dungeontactics:recipes/misc/convenience/sticks_from_saplings": {
+    "criteria": {
+      "has_sapling": "2020-08-25 20:16:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_button": {
+    "criteria": {
+      "has_planks": "2020-08-25 20:17:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2020-08-25 20:18:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2020-08-25 20:18:17 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_ethereal": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2020-08-25 20:18:17 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_cherry": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2020-08-25 20:17:12 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragon_egg": {
+    "criteria": {
+      "green": "2020-08-25 20:32:03 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_jacaranda": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_umbran": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "advancedrocketry:normal/root": {
+    "criteria": {
+      "crafting_table": "2020-08-25 20:17:49 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2020-08-25 20:18:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2020-08-25 20:18:17 -0400"
+    },
+    "done": true
+  },
+  "dungeontactics:recipes/armour/stone_plate_armour": {
+    "criteria": {
+      "has_item": "2020-08-25 20:18:17 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2020-08-25 20:17:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2020-08-25 20:18:17 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_magic": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_ebony": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_hellbark": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "buildcraftcore:root": {
+    "criteria": {
+      "has_stick": "2020-08-25 20:18:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2020-08-25 20:20:51 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wooden_slab": {
+    "criteria": {
+      "has_planks": "2020-08-25 20:17:12 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_mangrove": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2020-08-25 20:17:48 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragon_horn": {
+    "criteria": {
+      "bestiary": "2020-08-25 20:40:21 -0400"
+    },
+    "done": true
+  },
+  "dungeontactics:dungeoneering/born_survivor": {
+    "criteria": {
+      "stab": "2020-08-25 20:02:28 -0400"
+    },
+    "done": false
+  },
+  "iceandfire:iceandfire/dragon_flute": {
+    "criteria": {
+      "bestiary": "2020-08-25 20:40:23 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_palm": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "nuclearcraft:root": {
+    "criteria": {
+      "location": "2020-08-25 20:02:28 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2020-08-25 20:18:17 -0400"
+    },
+    "done": true
+  },
+  "lootgames:root": {
+    "criteria": {
+      "crafting_table": "2020-08-25 20:17:49 -0400"
+    },
+    "done": true
+  },
+  "dungeontactics:recipes/weapons/wooden_weapons": {
+    "criteria": {
+      "has_item": "2020-08-25 20:18:00 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragon_staff": {
+    "criteria": {
+      "bestiary": "2020-08-25 20:42:11 -0400"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/boat_eucalyptus": {
+    "criteria": {
+      "entered_water": "2020-08-25 20:05:53 -0400"
+    },
+    "done": true
+  },
+  "dungeontactics:recipes/misc/barrel": {
+    "criteria": {
+      "has_spruce": "2020-08-25 20:17:12 -0400"
+    },
+    "done": true
+  },
+  "dungeontactics:recipes/tools/fire_starter": {
+    "criteria": {
+      "has_item": "2020-08-25 20:18:00 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2020-08-25 20:46:10 -0400"
+    },
+    "done": true
+  }
+}
