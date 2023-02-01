@@ -1,0 +1,677 @@
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/materials.js in 0.006 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/functions.js in 0.006 s
+[05:49:53] [INFO] Current packmode is: normal
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/packmode.js in 0.02 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/disabled_items.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/general.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/soils.js in 0.004 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/animals.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/beams.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/beehives.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/biomes.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/candles.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/cobbleworks.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/crops.js in 0.013 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/dies.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/dyes.js in 0.005 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/heat_sources.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/resourcefulbees.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/stonecuttables.js in 0.049 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/trees.js in 0.004 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/wood_variants.js in 0.027 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/unification/unify_dyes.js in 0.006 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/unification/unify_growables.js in 0.007 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/unification/unify_materials.js in 0.028 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/unification/unify_sawables.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/unification/unify_stoneworks.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/unify_outputs.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/advancements/husbandry.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/advancements/story.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/entity/ender_dragon.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/loot_tables/apotheosis/wandering_trader_trades.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/loot_tables/enigmatica/amadron_survey_loot_tables.js in 0.004 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/loot_tables/enigmatica/dungeon_loot_tables.js in 0.004 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/loot_tables/tetra/actions.js in 0.003 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/loot_tables/towers_of_the_wild/ocean_tower_chest.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/loot_tables/towers_of_the_wild/tower_chest.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/player/logged_in.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipes/remove.js in 0.017 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipes/replace_input.js in 0.005 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipes/replace_output.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipes/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipes/shapeless.js in 0.003 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/apotheosis/affix_loot_entries.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/apotheosis/bosses.js in 0.003 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/apotheosis/boss_gear.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/apotheosis/fletching.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/architects_palette/warping.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/ars_nouveau/drygmy_blacklist.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/ars_nouveau/enchanting_apparatus.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/ars_nouveau/glyph_recipe.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/ars_nouveau/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/astralsorcery/altar.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/astralsorcery/block_transmutation.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/astralsorcery/infuser.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/betterend/alloying.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/betterend/anvil_smithing.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/bloodmagic/alchemytable.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/bloodmagic/altar.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/bloodmagic/soulforge.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/botania/elven_trade.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/botania/mana_infusion.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/botania/petal_apothecary.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/botania/pure_daisy.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/botania/terra_plate.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/botanypots/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/byg/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/cfm/shaped.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/compactcrafting/miniaturization.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/compound/bottling.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/compound/crushing.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/computercraft/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/create/blockzapper_upgrade.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/create/compacting.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/create/crushing.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/create/cutting.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/create/emptying.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/create/filling.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/create/mechanical_crafting.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/create/milling.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/create/mixing.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/create/pressing.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/create/sequenced_assembly.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/create/splashing.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/decorative_blocks/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/engineersdecor/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/enigmatica/shaped.js in 0.004 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/enigmatica/tool_shapeless.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/farmersdelight/cutting.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/farmersdelight/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/fluxnetworks/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersiveengineering/alloy.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersiveengineering/arc_furnace.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersiveengineering/blueprint.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersiveengineering/cloche.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersiveengineering/crafting_turn_and_copy.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersiveengineering/crusher.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersiveengineering/cutting.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersiveengineering/fermenter.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersiveengineering/fertilizer.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersiveengineering/metal_press.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersiveengineering/minerals.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersiveengineering/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersiveengineering/shaped_fluid.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersiveengineering/shapeless_fluid.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersiveengineering/squeezer.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersivepetroleum/coking.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersivepetroleum/hydrotreater.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersivepetroleum/oilcracking.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/immersivepetroleum/reservoirs.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/industrialforegoing/crusher.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/industrialforegoing/dissolution_chamber.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/industrialforegoing/fluid_extractor.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/industrialforegoing/laser_drill_fluid.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/industrialforegoing/laser_drill_ore.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/industrialforegoing/mob_imprisonment_tool_blacklist.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/industrialforegoing/shaped.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/integrateddynamics/squeezer.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/interactio/item_fluid_transform.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/kubejs/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/mekanism/biofuel_crushing.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/mekanism/biofuel_crushing_tags.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/mekanism/chemical_infusing.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/mekanism/crafting_mek_data.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/mekanism/crushing.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/mekanism/crystallizing.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/mekanism/enriching.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/mekanism/injecting.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/mekanism/metallurgic_infusing.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/mekanism/nucleosynthesizing.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/mekanism/reaction.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/mekanism/sawing.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/mekanism/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/minecraft/blasting.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/minecraft/campfire_cooking.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/minecraft/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/minecraft/smelting.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/minecraft/smithing.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/minecraft/smoking.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/minecraft/stonecutter.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/naturesaura/altar.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/naturesaura/animal_spawner.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/naturesaura/offering.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/occultism/crushing.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/occultism/miner_basic_resources.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/occultism/miner_ores.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/occultism/ritual.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/pedestals/pedestal_crushing.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/pedestals/pedestal_fluid_to_xp.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/pneumaticcraft/amadron.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/pneumaticcraft/assembly.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/pneumaticcraft/block_heat_properties.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/pneumaticcraft/explosion.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/pneumaticcraft/fuels.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/pneumaticcraft/heat_frame_cooling.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/pneumaticcraft/pressure_chamber.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/pneumaticcraft/thermo_plant.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/powah/energizing.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/ppfluids/shaped.js in 0.003 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/prettypipes/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/resourcefulbees/centrifuge.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/resourcefulbees/hive_upgrade_recipe.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/resourcefulbees/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/rftoolscontrol/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/rftoolsutility/shapeless.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/rftoolsutility/spawner.js in 0.003 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/simplefarming/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/supplementaries/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tconstruct/alloy.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tconstruct/casting_basin.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tconstruct/casting_table.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tconstruct/entity_melting.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tconstruct/materials.js in 0.006 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tconstruct/melting.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tconstruct/melting_fuel.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tconstruct/ore_melting.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/materials/bone.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/materials/fabric.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/materials/fibre.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/materials/gem.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/materials/metal.js in 0.003 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/materials/misc.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/materials/scale.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/materials/skin.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/materials/stone.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/materials/wood.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/replacements/axes.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/replacements/bows.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/replacements/hoes.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/replacements/pickaxes.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/replacements/shields.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/replacements/shovels.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/tetra/replacements/swords.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/dynamo/compression.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/dynamo/lapidary.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/dynamo/magmatic.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/dynamo/numismatic.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/machine/bottler.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/machine/centrifuge.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/machine/chiller.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/machine/crucible.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/machine/induction_smelter.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/machine/insolator_catalyst.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/machine/press.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/machine/pulverizer.js in 0.002 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/machine/pyrolyzer.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/machine/refinery.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/machine/sawmill.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/machine/tree_extractor.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/machine/tree_extractor_boost.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/thermal/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/undergarden/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/recipetypes/upgrade_aquatic/shaped.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/ars_nouveau/sylph_liked.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/create/fan_heaters.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/create/fan_transparent.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/create/no_move.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/create/windmill_sails.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/enigmatica/cobbleworks.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/farmersdelight/heat_sources.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/farmersdelight/tray_heat_sources.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/forge/beehives.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/forge/bookshelves.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/forge/candles.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/forge/fluids.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/forge/mushrooms.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/forge/netherrack.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/forge/ores.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/forge/sand.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/forge/stones.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/forge/storage_blocks.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/forge/workbench.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/ftbultimine/menril_logs.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/lootr/lootr.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/minecraft/campfires.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/minecraft/dragon_immune.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/minecraft/enderman_holdable.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/minecraft/fire.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/minecraft/fluids.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/minecraft/logs.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/minecraft/logs_that_burn.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/blocks/resourcefulbees/valid_apiary.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/entity/ars_nouveau/drygmy_blacklist.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/entity/enigmatica/cephalopods.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/entity/enigmatica/deer.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/entity/enigmatica/dragons.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/entity/enigmatica/dropbears.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/entity/enigmatica/gaia_guardian.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/entity/enigmatica/mob_spawner_blacklist.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/entity/enigmatica/pharaohs.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/entity/enigmatica/rattlesnakes.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/entity/enigmatica/thrashers.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/entity/forge/villagers.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/entity/forge/zombies.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/entity/industrialforegoing/mob_imprisonment_tool_blacklist.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/entity/occultism/wild_hunt_sacrifices.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/fluids/create/no_infinite_draining.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/fluids/forge/fluids.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/fluids/minecraft/fluids.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/fluids/resourcefulbees/honey.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/architects_palette/withered_bones.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/astralsorcery/astralsorcery.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/atum/atum.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/atum/nebu_hammer.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/atum/relic_non_dirty.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/botania/runes.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/botanypots/botany_pots.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/chisel/stonecuttables.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/create/chassis.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/create/crushed_ores.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/create/upright_on_belt.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/curios/bracelet.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/curios/glasses.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/curios/goggles.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/curios/hands.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/curios/head.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/diet/proteins.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/diet/sugars.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/dustrialdecor/dustrialdecor.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/enigmatica/burning_hot.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/enigmatica/candle_materials.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/enigmatica/cobbleworks.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/enigmatica/ore_processing.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/enigmatica/quests.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/enigmatica/stonecutter.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/enigmatica/washables.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/armor/boots.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/armor/chests.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/armor/helms.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/armor/legs.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/beach_grass.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/beehives.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/bones.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/bookshelves.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/candles.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/carpet.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/cattail.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/chests.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/chocolate_bars.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/concrete_powder.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/cooked_bacon.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/cooked_chicken.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/cooked_eggs.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/cooked_fishes.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/corals.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/crafting_materials.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/crops.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/dirt.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/dough.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/dusts.js in 0.001 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/dyes.js in 0.0 s
+[05:49:53] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/eggs.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/fence_gates.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/fertilizer.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/fruits.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/gears.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/gems.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/glass_panes.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/grain.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/grains.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/grass.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/honeycomb.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/ingots.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/jams.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/lights.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/logs.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/manuals.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/material_substitutes.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/mushrooms.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/mushroom_caps.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/mushroom_colonies.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/mushroom_stems.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/netherbricks.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/netherrack.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/nuggets.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/ores.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/pasta.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/pies.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/planks.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/plates.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/raw_bacon.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/raw_chicken.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/raw_fishes.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/rods.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/sand.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/seeds.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/shards.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/slag.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/slimeballs.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/slime_block.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/stained_glass_pane.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/stones.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/storage/bags.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/storage/basic.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/storage/bulk.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/storage/energy.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/storage/gases.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/storage/liquids.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/storage_blocks.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/string.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/tallow.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/terracotta.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/tools/axes.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/tools/crafting_hammers.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/tools/hammers.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/tools/hoes.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/tools/knives.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/tools/multi-tools.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/tools/pickaxes.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/tools/shovels.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/tools/wirecutter.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/vegetables.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/weapons/melee.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/weapons/ranged.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/weapons/swords.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/wires.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/wool.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/forge/workbench.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/ftbultimine/excluded_tools.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/industrialforegoing/addons.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/industrialforegoing/bioreactor.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/industrialforegoing/enchantment_extractor_blacklist.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/lootr/lootr.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/minecraft/coals.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/minecraft/leaves.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/minecraft/logs.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/minecraft/logs_that_burn.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/minecraft/saplings.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/minecraft/small_flowers.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/minecraft/soul_fire_base_blocks.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/minecraft/wooden_buttons.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/occultism/book_of_binding.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/occultism/dimensional_matrix.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/powah/powah.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/quark/crystal_clusters.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/resourcefulbees/valid_apiary.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/rftools/rftools.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/sophisticatedbackpacks/backpacks.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/tconstruct/anvil_metal.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/tetra/forge_hammer_upgrades.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/thermal/dies.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/upgrade_aquatic/coralstone.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/base/tags/items/upgrade_aquatic/driftwood_logs.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/constants/powah.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/block/loot_tables.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/item/toss.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/player/inventory_changed.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/player/tick.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipes/remove.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipes/replace_input.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipes/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipes/shapeless.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/architects_palette/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/ars_nouveau/book_upgrade.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/ars_nouveau/enchanting_apparatus.js in 0.002 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/ars_nouveau/glyph_recipe.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/ars_nouveau/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/ars_nouveau/shapeless.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/astralsorcery/altar/altar_0_luminous.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/astralsorcery/altar/altar_1_starlight.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/astralsorcery/altar/altar_2_celestial.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/astralsorcery/altar/altar_3_iridescent.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/astralsorcery/altar.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/astralsorcery/block_transmutation.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/astralsorcery/infuser.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/astralsorcery/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/betterend/alloying.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/betterend/infusion.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/bloodmagic/alchemytable.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/bloodmagic/altar.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/bloodmagic/arc.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/bloodmagic/array.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/bloodmagic/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/bloodmagic/soulforge.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/botania/elven_trade.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/botania/mana_infusion.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/botania/mythicbotany_infusion.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/botania/petal_apothecary.js in 0.002 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/botania/pure_daisy.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/botania/runic_altar.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/botania/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/botania/shapeless.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/botania/terra_plate.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/compound/bottling.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/compound/crushing.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/create/compacting.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/create/crushing.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/create/cutting.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/create/emptying.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/create/filling.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/create/mechanical_crafting.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/create/milling.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/create/mixing.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/create/pressing.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/create/sandpaper_polishing.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/create/sequenced_assembly.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/create/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/create/splashing.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/darkutils/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/eidolon/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/enderstorage/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/enigmatica/alloying.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/enigmatica/crushing.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/enigmatica/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/enigmatica/tool_shapeless.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/extrastorage/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/farmersdelight/cooking_pot.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/farmersdelight/cutting.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/immersiveengineering/alloy.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/immersiveengineering/arc_furnace.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/immersiveengineering/blast_furnace.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/immersiveengineering/blueprint.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/immersiveengineering/cutting.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/immersiveengineering/metal_press.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/immersiveengineering/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/industrialforegoing/custom.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/industrialforegoing/dissolution_chamber.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/industrialforegoing/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/interactio/item_anvil_smashing.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/interactio/item_explode.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/interactio/item_fluid_transform.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/interactio/item_lightning.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/kubejs/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/meetyourfight/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/mekanism/sawing.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/mekanism/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/minecraft/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/minecraft/smithing.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/mythicbotany/infusion.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/naturesaura/altar.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/naturesaura/animal_spawner.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/naturesaura/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/naturesaura/tree_ritual.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/occultism/crushing.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/occultism/ritual.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/occultism/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/occultism/spirit_fire.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/occultism/spirit_trade.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/pedestals/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/pneumaticcraft/amadron.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/pneumaticcraft/assembly.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/pneumaticcraft/block_heat_properties.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/pneumaticcraft/heat_frame_cooling.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/pneumaticcraft/pressure_chamber.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/pneumaticcraft/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/pneumaticcraft/thermo_plant.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/powah/energizing.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/powah/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/prettypipes/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/refinedstorage/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/resourcefulbees/hive_upgrade_recipe.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/resourcefulbees/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/rftools/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/sophisticatedbackpacks/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/supplementaries/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/tconstruct/casting.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/tconstruct/casting_basin.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/tconstruct/induction_smelter.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/tconstruct/modifier.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/tconstruct/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/thermal/machine/bottler.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/thermal/machine/induction_smelter.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/thermal/machine/press.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/thermal/machine/pulverizer_catalyst.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/thermal/machine/sawmill.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/thermal/machine/smelter_catalyst.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/thermal/replace_input.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/thermal/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/xnet/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/recipetypes/xnet/shapeless.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/restrictions/restrictions.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/tags/items/atum/atum.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/tags/items/atum/nebu_hammer.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/tags/items/occultism/occultism_spirit_tooltip.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/tags/items/pneumaticcraft/upgrade_components.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/expert/unification/unify_materials.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipes/remove.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipes/replace_input.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipes/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipes/shapeless.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/ars_nouveau/enchanting_apparatus.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/ars_nouveau/glyph_recipe.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/astralsorcery/block_transmutation.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/bloodmagic/alchemytable.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/bloodmagic/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/botania/mana_infusion.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/botania/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/botania/terra_plate.js in 0.002 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/compactcrafting/miniaturization.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/compactcrafting/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/create/mixing.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/eidolon/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/eidolon/shapeless.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/emendatusenigmatica/shapeless.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/enigmatica/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/immersiveengineering/crafting_turn_and_copy.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/mekanism/metallurgic_infusing.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/minecraft/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/minecraft/stonecutter.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/mythicbotany/infusion.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/mythicbotany/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/naturesaura/altar.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/naturesaura/animal_spawner.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/naturesaura/tree_ritual.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/occultism/ritual.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/occultism/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/occultism/shapeless.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/occultism/spirit_trade.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/powah/energizing.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/powah/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/prettypipes/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/quark/shaped.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/quark/shapeless.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/resourcefulbees/hive_upgrade_recipe.js in 0.001 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/thermal/machine/induction_smelter.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/recipetypes/torchmaster/shaped.js in 0.0 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/normal/unification/unify_materials.js in 0.002 s
+[05:49:54] [INFO] Loaded script server_scripts:enigmatica/kubejs/settings.js in 0.001 s
+[05:49:54] [INFO] Loaded 576/576 KubeJS server scripts in 0.862 s
+[05:49:54] [INFO] Scripts loaded
+[05:49:54] [INFO] Scanning recipes...
+[05:50:01] [INFO] [blocks] Found 1176 tags, added 962 objects, removed 49 objects
+[05:50:03] [INFO] [items] Found 3181 tags, added 10490 objects, removed 141 objects
+[05:50:03] [INFO] [fluids] Found 266 tags, added 382 objects, removed 0 objects
+[05:50:03] [INFO] [entity_types] Found 81 tags, added 160 objects, removed 0 objects
+[05:50:03] [INFO] [tunnel_types] Found 0 tags, added 0 objects, removed 0 objects
+[05:50:03] [INFO] [recipe_components] Found 0 tags, added 0 objects, removed 0 objects
+[05:50:03] [INFO] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[05:50:03] [INFO] [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[05:50:03] [INFO] [enchantments] Found 0 tags, added 0 objects, removed 0 objects
+[05:50:03] [INFO] [tile_entity_types] Found 5 tags, added 0 objects, removed 0 objects
+[05:50:03] [INFO] [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[05:50:03] [INFO] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[05:50:03] [INFO] [gases] Found 5 tags, added 0 objects, removed 0 objects
+[05:50:03] [INFO] [recipe_layers] Found 0 tags, added 0 objects, removed 0 objects
+[05:50:04] [WARN] Failed to parse recipe 'mctb:cherry_crafting_table[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:cherry_planks'
+[05:50:04] [WARN] Failed to parse recipe mctb:cherry_crafting_table[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:cherry_planks'
+[05:50:04] [WARN] Failed to parse recipe 'thermal:crops/coffee[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:coffee_seeds'
+[05:50:04] [WARN] Failed to parse recipe thermal:crops/coffee[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:coffee_seeds'
+[05:50:04] [WARN] Failed to parse recipe 'mctb:redwood_crafting_table[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:redwood_planks'
+[05:50:04] [WARN] Failed to parse recipe mctb:redwood_crafting_table[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:redwood_planks'
+[05:50:04] [WARN] Failed to parse recipe 'thermal:crops/sadiroot[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:sadiroot_seeds'
+[05:50:04] [WARN] Failed to parse recipe thermal:crops/sadiroot[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:sadiroot_seeds'
+[05:50:05] [WARN] Failed to parse recipe 'thermal:crops/strawberry[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:strawberry_seeds'
+[05:50:05] [WARN] Failed to parse recipe thermal:crops/strawberry[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:strawberry_seeds'
+[05:50:05] [WARN] Failed to parse recipe 'thermal:crops/peanut[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:peanut_seeds'
+[05:50:05] [WARN] Failed to parse recipe thermal:crops/peanut[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:peanut_seeds'
+[05:50:05] [WARN] Failed to parse recipe 'mctb:willow_crafting_table[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:willow_planks'
+[05:50:05] [WARN] Failed to parse recipe mctb:willow_crafting_table[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:willow_planks'
+[05:50:05] [WARN] Failed to parse recipe 'vehicle:boost_pad[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+[05:50:05] [WARN] Failed to parse recipe vehicle:boost_pad[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+[05:50:06] [WARN] Failed to parse recipe 'thermal:compat/abnormals/upgrade_aquatic/insolator_upgrade_aquatic_searocket_white[thermal:insolator]': {"item":"upgrade_aquatic:searocket_white"} is not a valid ingredient!
+[05:50:06] [WARN] Failed to parse recipe 'dustrial_decor:ice_chain_from_wrapped[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'dustrial_decor:ice_chain'
+[05:50:06] [WARN] Failed to parse recipe dustrial_decor:ice_chain_from_wrapped[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'dustrial_decor:ice_chain'
+[05:50:06] [WARN] Failed to parse recipe 'thermal:compat/abnormals/upgrade_aquatic/insolator_upgrade_aquatic_searocket_pink[thermal:insolator]': {"item":"upgrade_aquatic:searocket_pink"} is not a valid ingredient!
+[05:50:06] [WARN] Failed to parse recipe 'thermal:crops/green_bean[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:green_bean_seeds'
+[05:50:06] [WARN] Failed to parse recipe thermal:crops/green_bean[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:green_bean_seeds'
+[05:50:06] [WARN] Failed to parse recipe 'thermal:compat/simplefarming/insolator_simplefarming_pea_seeds[thermal:insolator]': {"item":"simplefarming:pea","chance":2.0} is not a valid result!
+[05:50:06] [WARN] Failed to parse recipe 'thermal:crops/rice[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:rice_seeds'
+[05:50:06] [WARN] Failed to parse recipe thermal:crops/rice[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:rice_seeds'
+[05:50:06] [WARN] Failed to parse recipe 'thermal:machine/smelter/smelter_iron_dust[thermal:smelter]': {"item":"thermal:iron_ingot","count":1} is not a valid result!
+[05:50:06] [WARN] Failed to parse recipe 'mctb:jacaranda_crafting_table[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:jacaranda_planks'
+[05:50:06] [WARN] Failed to parse recipe mctb:jacaranda_crafting_table[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:jacaranda_planks'
+[05:50:07] [WARN] Failed to parse recipe 'vehicle:steep_boost_ramp[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+[05:50:07] [WARN] Failed to parse recipe vehicle:steep_boost_ramp[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+[05:50:07] [WARN] Failed to parse recipe 'thermal:crops/bell_pepper[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:bell_pepper_seeds'
+[05:50:07] [WARN] Failed to parse recipe thermal:crops/bell_pepper[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:bell_pepper_seeds'
+[05:50:08] [WARN] Failed to parse recipe 'thermal:crops/tomato[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:tomato_seeds'
+[05:50:08] [WARN] Failed to parse recipe thermal:crops/tomato[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:tomato_seeds'
+[05:50:08] [WARN] Failed to parse recipe 'mctb:fir_crafting_table[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:fir_planks'
+[05:50:08] [WARN] Failed to parse recipe mctb:fir_crafting_table[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:fir_planks'
+[05:50:08] [WARN] Failed to parse recipe 'mctb:dead_crafting_table[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:dead_planks'
+[05:50:08] [WARN] Failed to parse recipe mctb:dead_crafting_table[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:dead_planks'
+[05:50:08] [WARN] Failed to parse recipe 'thermal:compat/abnormals/upgrade_aquatic/insolator_upgrade_aquatic_pickerel_weed_purple[thermal:insolator]': {"item":"upgrade_aquatic:pickerel_weed_purple"} is not a valid ingredient!
+[05:50:08] [WARN] Failed to parse recipe 'thermal:crops/radish[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:radish_seeds'
+[05:50:08] [WARN] Failed to parse recipe thermal:crops/radish[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:radish_seeds'
+[05:50:09] [WARN] Failed to parse recipe 'thermal:crops/corn[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:corn_seeds'
+[05:50:09] [WARN] Failed to parse recipe thermal:crops/corn[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:corn_seeds'
+[05:50:09] [WARN] Failed to parse recipe 'thermal:compat/abnormals/atmospheric/insolator_atmospheric_monkey_brush[thermal:insolator]': {"item":"atmospheric:monkey_brush"} is not a valid ingredient!
+[05:50:09] [WARN] Failed to parse recipe 'thermal:crops/spinach[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:spinach_seeds'
+[05:50:09] [WARN] Failed to parse recipe thermal:crops/spinach[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:spinach_seeds'
+[05:50:09] [WARN] Failed to parse recipe 'thermal:compat/abnormals/upgrade_aquatic/insolator_upgrade_aquatic_pickerel_weed_blue[thermal:insolator]': {"item":"upgrade_aquatic:pickerel_weed_blue"} is not a valid ingredient!
+[05:50:09] [WARN] Failed to parse recipe 'cfm:craft_sofa[vehicle:crafting]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid vehicle entity: vehicle:sofa
+[05:50:09] [WARN] Failed to parse recipe cfm:craft_sofa[vehicle:crafting]: com.google.gson.JsonSyntaxException: Invalid vehicle entity: vehicle:sofa
+[05:50:09] [WARN] Failed to parse recipe 'thermal:compat/simplefarming/insolator_simplefarming_cherry_sapling[thermal:insolator]': {"item":"simplefarming:cherry","chance":4.0} is not a valid result!
+[05:50:09] [WARN] Failed to parse recipe 'thermal:compat/simplefarming/insolator_simplefarming_grape_seeds[thermal:insolator]': {"item":"simplefarming:grape","chance":2.0} is not a valid result!
+[05:50:10] [WARN] Failed to parse recipe 'thermal:compat/simplefarming/insolator_simplefarming_olive_sapling[thermal:insolator]': {"item":"simplefarming:olive","chance":4.0} is not a valid result!
+[05:50:10] [WARN] Failed to parse recipe 'mctb:magic_crafting_table[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:magic_planks'
+[05:50:10] [WARN] Failed to parse recipe mctb:magic_crafting_table[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:magic_planks'
+[05:50:10] [WARN] Failed to parse recipe 'thermal:crops/frost_melon[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:frost_melon_seeds'
+[05:50:10] [WARN] Failed to parse recipe thermal:crops/frost_melon[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:frost_melon_seeds'
+[05:50:11] [WARN] Failed to parse recipe 'thermal:crops/barley[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:barley_seeds'
+[05:50:11] [WARN] Failed to parse recipe thermal:crops/barley[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:barley_seeds'
+[05:50:11] [WARN] Failed to parse recipe 'mctb:mahogany_crafting_table[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:mahogany_planks'
+[05:50:11] [WARN] Failed to parse recipe mctb:mahogany_crafting_table[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:mahogany_planks'
+[05:50:11] [WARN] Failed to parse recipe 'thermal:crops/onion[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:onion_seeds'
+[05:50:11] [WARN] Failed to parse recipe thermal:crops/onion[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:onion_seeds'
+[05:50:11] [WARN] Failed to parse recipe 'mctb:palm_crafting_table[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:palm_planks'
+[05:50:11] [WARN] Failed to parse recipe mctb:palm_crafting_table[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:palm_planks'
+[05:50:11] [WARN] Failed to parse recipe 'thermal:machine/smelter/smelter_gold_dust[thermal:smelter]': {"item":"thermal:gold_ingot","count":1} is not a valid result!
+[05:50:12] [WARN] Failed to parse recipe 'thermal:crops/eggplant[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:eggplant_seeds'
+[05:50:12] [WARN] Failed to parse recipe thermal:crops/eggplant[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:eggplant_seeds'
+[05:50:12] [WARN] Failed to parse recipe 'vehicle:boost_ramp[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+[05:50:12] [WARN] Failed to parse recipe vehicle:boost_ramp[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'vehicle:boost_pad'
+[05:50:12] [WARN] Failed to parse recipe 'mctb:umbran_crafting_table[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:umbran_planks'
+[05:50:12] [WARN] Failed to parse recipe mctb:umbran_crafting_table[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:umbran_planks'
+[05:50:12] [WARN] Failed to parse recipe 'thermal:compat/simplefarming/insolator_simplefarming_kenaf_seeds[thermal:insolator]': {"item":"simplefarming:kenaf","chance":2.0} is not a valid result!
+[05:50:12] [WARN] Failed to parse recipe 'mctb:hellbark_crafting_table[minecraft:crafting_shaped]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:hellbark_planks'
+[05:50:12] [WARN] Failed to parse recipe mctb:hellbark_crafting_table[minecraft:crafting_shaped]: com.google.gson.JsonSyntaxException: Unknown item 'biomesoplenty:hellbark_planks'
+[05:50:12] [WARN] Failed to parse recipe 'thermal:crops/tea[botanypots:crop]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'thermal:tea_seeds'
+[05:50:12] [WARN] Failed to parse recipe thermal:crops/tea[botanypots:crop]: com.google.gson.JsonSyntaxException: Unknown item 'thermal:tea_seeds'
+[05:50:12] [INFO] Found 26436 recipes and 0 failed recipes in 9.626 s
+[05:50:32] [INFO] Posted recipe events in 19.32 s
+[05:50:33] [WARN] Error parsing recipe immersivepetroleum:hydrotreater/sulfur_recovery[immersivepetroleum:hydrotreater]: {"type":"immersivepetroleum:hydrotreater","time":1,"energy":512,"result":{"fluid":"immersivepetroleum:diesel","amount":7},"input":{"tag":"forge:diesel_sulfur","amount":7},"secondary_input":{"tag":"minecraft:water","amount":7},"secondary_result":{"item":"immersiveengineering:dust_sulfur"}}: java.lang.IllegalArgumentException: Unexpected json object.
+[05:50:40] [INFO] Modified & removed recipes in 7.883 s
+[05:50:55] [INFO] Added recipes in 15.80 s
+[05:50:55] [INFO] Added 15462 recipes, removed 4063 recipes, modified 3739 recipes, with 1 failed recipes and 0 fall-backed recipes
+[05:51:01] [INFO] [functions] Found 0 tags, added 0 objects, removed 0 objects

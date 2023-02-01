@@ -1,0 +1,7 @@
+[05:49:07] [INFO] Loaded script startup_scripts:block_registry.js in 0.274 s
+[05:49:07] [INFO] Loaded script startup_scripts:fluid_registry.js in 0.013 s
+[05:49:07] [INFO] Loaded script startup_scripts:item_registry.js in 0.015 s
+[05:49:07] [INFO] Loaded script startup_scripts:powah_coolants.js in 0.008 s
+[05:49:07] [INFO] Loaded script startup_scripts:worldgen_add.js in 0.002 s
+[05:49:07] [INFO] Loaded script startup_scripts:worldgen_remove.js in 0.002 s
+[05:49:07] [INFO] Loaded 6/6 KubeJS startup scripts in 0.902 s
