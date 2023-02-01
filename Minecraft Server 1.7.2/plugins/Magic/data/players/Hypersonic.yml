@@ -1,0 +1,437 @@
+scheduled: []
+undo:
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - 1000212,53,9970,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - 1000218,54,9975,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - 1000219,56,9982,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - 1000218,56,9988,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - 1000219,56,9996,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - 1000225,56,9975,world|50:2
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - 1000196,54,9964,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - 1000184,57,9964,world|50:2
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - 1000184,57,9965,world|50:2
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - 1000183,57,9965,world|0:0
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -200,41,206,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -198,45,206,world|50:2
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -198,21,206,world|50:2
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -198,8,206,world|50:2
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -198,34,206,world|50:2
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -200,28,207,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -199,3,206,world|50:4
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -198,0,206,world|50:2
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -200,0,206,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -199,0,205,world|50:3
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -199,0,207,world|50:4
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,46,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,54,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,47,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,48,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,49,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,20,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,38,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,29,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,20,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,28,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,11,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,3,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,4,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,0,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,1,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,2,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,3,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,2,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -181,0,197,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -172,15,208,world|50:4
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -177,14,195,world|50:5
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -170,14,207,world|50:2
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -363,72,220,world|50:3
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -362,72,220,world|50:3
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -361,72,220,world|50:3
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -360,72,220,world|50:3
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -359,72,220,world|50:3
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -359,71,221,world|0:0
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -357,72,220,world|50:3
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -356,72,220,world|50:2
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -358,72,220,world|50:3
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -364,72,220,world|50:3
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -366,72,220,world|50:3
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -366,72,221,world|0:0
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -365,72,220,world|50:3
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -363,72,221,world|0:0
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -362,72,221,world|0:0
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -368,71,225,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -367,71,225,world|0:0
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -367,72,220,world|50:3
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -368,72,220,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -368,71,226,world|50:1
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -367,71,226,world|0:0
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -368,72,226,world|50:1
+spells:
+    supershell:
+        cast_count: 0
+        last_cast: 0
+    shell:
+        cast_count: 0
+        last_cast: 0
+    sniper:
+        cast_count: 44
+        last_cast: 1393125779932
+    disarm:
+        cast_count: 0
+        last_cast: 0
+    undo:
+        cast_count: 0
+        last_cast: 1392673941922
+    pull:
+        cast_count: 0
+        last_cast: 0
+    kaboom:
+        cast_count: 0
+        last_cast: 0
+    storm:
+        cast_count: 1
+        last_cast: 1393715937506
+    superiterate:
+        cast_count: 0
+        last_cast: 0
+    time:
+        cast_count: 0
+        last_cast: 0
+    heal:
+        cast_count: 1
+        last_cast: 1392674310535
+    commit:
+        cast_count: 0
+        last_cast: 0
+    wither:
+        cast_count: 14
+        last_cast: 1393192173477
+    gather:
+        cast_count: 0
+        last_cast: 0
+    icbm:
+        cast_count: 3
+        last_cast: 1393192217508
+    laser:
+        cast_count: 0
+        last_cast: 0
+    fling:
+        cast_count: 5
+        last_cast: 1393729366262
+    torch:
+        cast_count: 78
+        last_cast: 1393693554011
+    mob:
+        cast_count: 1
+        last_cast: 1393192183791
+    portal:
+        cast_count: 0
+        last_cast: 0
+    inferno:
+        cast_count: 0
+        last_cast: 0
+    frag:
+        cast_count: 0
+        last_cast: 0
+    superpyramid:
+        cast_count: 0
+        last_cast: 0
+    shrink:
+        cast_count: 1
+        last_cast: 1393715863170
+    toss:
+        cast_count: 0
+        last_cast: 0
+    bridge:
+        cast_count: 0
+        last_cast: 0
+    day:
+        cast_count: 0
+        last_cast: 0
+    phase:
+        cast_count: 0
+        last_cast: 0
+    superblob:
+        cast_count: 0
+        last_cast: 0
+    leap:
+        cast_count: 3
+        last_cast: 1393125671405
+    neutron:
+        cast_count: 5
+        last_cast: 1393716474997
+    blast:
+        cast_count: 0
+        last_cast: 0
+    superblast:
+        cast_count: 0
+        last_cast: 0
+    convert:
+        cast_count: 0
+        last_cast: 0
+    rewind:
+        cast_count: 0
+        last_cast: 0
+    push:
+        cast_count: 0
+        last_cast: 0
+    farm:
+        cast_count: 0
+        last_cast: 0
+    superalter:
+        cast_count: 0
+        last_cast: 0
+    superconvert:
+        cast_count: 0
+        last_cast: 0
+    camera:
+        cast_count: 0
+        last_cast: 0
+    fill:
+        cast_count: 4
+        last_cast: 1393036415916
+    recurse:
+        cast_count: 0
+        last_cast: 0
+    alter:
+        cast_count: 0
+        last_cast: 0
+    fire:
+        cast_count: 3
+        last_cast: 1393125997377
+    blob:
+        cast_count: 0
+        last_cast: 0
+    absorb:
+        cast_count: 0
+        last_cast: 0
+    blink:
+        cast_count: 9
+        last_cast: 1393125771059
+    stalactite:
+        cast_count: 0
+        last_cast: 0
+    levitate:
+        cast_count: 149
+        last_cast: 1395512572184
+    pillar:
+        cast_count: 0
+        last_cast: 0
+    curse:
+        cast_count: 0
+        last_cast: 0
+    box:
+        cast_count: 0
+        last_cast: 0
+    force:
+        cast_count: 0
+        last_cast: 1393729545740
+    volley:
+        cast_count: 0
+        last_cast: 0
+    boon:
+        cast_count: 0
+        last_cast: 0
+    fireball:
+        cast_count: 11
+        last_cast: 1393127923375
+brush:
+    map_id: -1
+    data: 0
+    schematic: ''
+    material: water
+last_death_location: -231.50852691117882,56.0,196.69999998807907,world

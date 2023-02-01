@@ -1,0 +1,65 @@
+scheduled: []
+undo:
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -232,53,196,world|1:0
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -232,53,196,world|11:0
+    - -232,53,195,world|1:0
+-   passes_remaining: 1
+    time_to_live: 0
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -232,53,196,world|11:0
+-   passes_remaining: 1
+    time_to_live: 0
+-   passes_remaining: 1
+    time_to_live: 0
+-   passes_remaining: 1
+    time_to_live: 0
+    blocks:
+    - -233,53,196,world|1:0
+spells:
+    sniper:
+        cast_count: 4
+        last_cast: 1393113027970
+    disarm:
+        cast_count: 0
+        last_cast: 0
+    blink:
+        cast_count: 16
+        last_cast: 1393112799723
+    heal:
+        cast_count: 44
+        last_cast: 1393113015895
+    gather:
+        cast_count: 0
+        last_cast: 0
+    fill:
+        cast_count: 7
+        last_cast: 1393113198954
+    levitate:
+        cast_count: 10
+        last_cast: 1393113119956
+    rewind:
+        cast_count: 0
+        last_cast: 0
+    recurse:
+        cast_count: 0
+        last_cast: 0
+    phase:
+        cast_count: 2
+        last_cast: 1393112868974
+    leap:
+        cast_count: 4
+        last_cast: 1393113399867
+brush:
+    map_id: -1
+    data: 0
+    schematic: ''
+    material: lava
+last_death_location: -201.8887916697738,89.0,274.3636582522372,world
