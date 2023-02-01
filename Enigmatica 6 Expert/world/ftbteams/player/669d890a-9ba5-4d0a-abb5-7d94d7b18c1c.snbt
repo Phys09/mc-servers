@@ -1,0 +1,17 @@
+{
+	id: "669d890a-9ba5-4d0a-abb5-7d94d7b18c1c"
+	type: "player"
+	player_name: "Endurium"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Endurium"
+		"ftbteams:color": "#FFE859"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}
