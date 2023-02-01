@@ -1,0 +1,7220 @@
+{
+    "entries": [
+        {
+            "item": "mekanismgenerators:hohlraum",
+            "emc": 0
+        },
+        {
+            "item": "pylons:player_filter",
+            "emc": 0
+        },
+        {
+            "item": "occultism:wormhole_frame",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:green_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:brown_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:black_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "farmersdelight:diamond_knife",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:gray_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:lime_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:light_gray_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:cyan_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:magenta_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:light_blue_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:orange_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:white_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:blue_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:purple_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "constructionwand:diamond_wand",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:yellow_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:diamond_shovel",
+            "emc": 0
+        },
+        {
+            "item": "moreminecarts:transport_battery",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_farmland",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:pink_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "additionallanterns:red_dark_prismarine_lantern",
+            "emc": 0
+        },
+        {
+            "item": "mekanismgenerators:control_rod_assembly",
+            "emc": 0
+        },
+        {
+            "item": "mahoutsukai:mortar",
+            "emc": 0
+        },
+        {
+            "item": "minecolonies:blockhutmysticalsite",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:clock",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tilling_aoe_ii_augment",
+            "emc": 0
+        },
+        {
+            "item": "ae2:engineering_processor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:raw_advanced_processor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:advanced_processor",
+            "emc": 0
+        },
+        {
+            "item": "bloodmagic:mastercore",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:refinery_output",
+            "emc": 0
+        },
+        {
+            "item": "forbidden_arcanus:golden_blacksmith_gavel",
+            "emc": 0
+        },
+        {
+            "item": "rsgauges:glass_interval_timer",
+            "emc": 0
+        },
+        {
+            "item": "rsgauges:glass_day_timer",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_decelerate",
+            "emc": 0
+        },
+        {
+            "item": "supplementaries:clock_block",
+            "emc": 0
+        },
+        {
+            "item": "industrialforegoing:range_addon7{TitaniumAugment:{Range:7.0f}}",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:configurator",
+            "emc": 0
+        },
+        {
+            "item": "ironjetpacks:advanced_coil",
+            "emc": 0
+        },
+        {
+            "item": "create:cuckoo_clock",
+            "emc": 0
+        },
+        {
+            "item": "waterstrainer:efficiency_meter",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:advanced_smelting_factory",
+            "emc": 0
+        },
+        {
+            "item": "botania:avatar",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:manipulation_essence",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:runic_chalk",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_interact",
+            "emc": 0
+        },
+        {
+            "item": "rsgauges:industrial_day_timer",
+            "emc": 0
+        },
+        {
+            "item": "rsgauges:industrial_interval_timer",
+            "emc": 0
+        },
+        {
+            "item": "modularrouters:filter_round_robin_augment",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:whirlisprig_charm",
+            "emc": 0
+        },
+        {
+            "item": "utilitix:gilding_crystal",
+            "emc": 0
+        },
+        {
+            "item": "botania:gravity_rod",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_toss",
+            "emc": 0
+        },
+        {
+            "item": "villagertools:cure",
+            "emc": 0
+        },
+        {
+            "item": "botania:divining_rod",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:pressure_gauge",
+            "emc": 0
+        },
+        {
+            "item": "occultism:storage_remote",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:black_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:green_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:brown_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "moreminecarts:transport_tank",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:gold_essence",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:lime_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:cyan_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:light_gray_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:gray_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:blue_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:orange_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:white_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:magenta_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:yellow_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:purple_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:pink_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:red_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_place_block",
+            "emc": 0
+        },
+        {
+            "item": "silentgear:jeweler_tools",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:safety_tube_module",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsbuilder:shield_block2",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_name",
+            "emc": 0
+        },
+        {
+            "item": "darkutils:charm_sleep",
+            "emc": 0
+        },
+        {
+            "item": "botania:hourglass",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:belt_of_levitation",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsutility:clock_module",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_duration_down",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:pressure_gauge_module",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:seismic_reader",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prosperity_gemstone",
+            "emc": 0
+        },
+        {
+            "item": "potionsmaster:pestle",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prismarine_seeds",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_evaporate",
+            "emc": 0
+        },
+        {
+            "item": "laserio:overclocker_card",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:inferium_gemstone",
+            "emc": 0
+        },
+        {
+            "item": "ae2:advanced_card",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:flow_detector_module",
+            "emc": 0
+        },
+        {
+            "item": "ae2:fuzzy_card",
+            "emc": 0
+        },
+        {
+            "item": "thermal:rf_coil_storage_augment",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_extend_time",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:infusion_crystal",
+            "emc": 0
+        },
+        {
+            "item": "ae2:inverter_card",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:advanced_enriching_factory",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:basic_purifying_factory",
+            "emc": 0
+        },
+        {
+            "item": "mekanismtools:refined_obsidian_shield",
+            "emc": 0
+        },
+        {
+            "item": "botania:goddess_charm",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:basic_spell_turret",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:advanced_snake_block_beehive",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:soulium_gemstone",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_gemstone",
+            "emc": 0
+        },
+        {
+            "item": "rftoolspower:power_core1",
+            "emc": 0
+        },
+        {
+            "item": "bloodmagic:upgradetrainer",
+            "emc": 0
+        },
+        {
+            "item": "ae2:equal_distribution_card",
+            "emc": 0
+        },
+        {
+            "item": "powah:thermo_generator_starter",
+            "emc": 0
+        },
+        {
+            "item": "create:mysterious_cuckoo_clock",
+            "emc": 0
+        },
+        {
+            "item": "advgenerators:turbine_tier4",
+            "emc": 0
+        },
+        {
+            "item": "botania:gaia_spreader",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:soulium_ingot_block",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_ingot_block",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:resistive_heater",
+            "emc": 0
+        },
+        {
+            "item": "biggerreactors:cyanite_block",
+            "emc": 0
+        },
+        {
+            "item": "immersiveengineering:storage_nickel",
+            "emc": 0
+        },
+        {
+            "item": "allthetweaks:ender_pearl_block",
+            "emc": 0
+        },
+        {
+            "item": "potionsmaster:diamond_powder",
+            "emc": 0
+        },
+        {
+            "item": "alltheores:nickel_block",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:quartz_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:respawn_anchor",
+            "emc": 0
+        },
+        {
+            "item": "thermal:nickel_block",
+            "emc": 0
+        },
+        {
+            "item": "potionsmaster:calcinateddiamond_powder",
+            "emc": 0
+        },
+        {
+            "item": "ftbic:energy_crystal",
+            "emc": 0
+        },
+        {
+            "item": "car:engine_3_cylinder",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:spell_prism",
+            "emc": 0
+        },
+        {
+            "item": "mekanismgenerators:gas_burning_generator",
+            "emc": 0
+        },
+        {
+            "item": "xnet:connector_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "biggerreactors:reactor_control_rod",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:pressurized_reaction_chamber",
+            "emc": 0
+        },
+        {
+            "item": "potionsmaster:pestle",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prismarine_seeds",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_evaporate",
+            "emc": 0
+        },
+        {
+            "item": "laserio:overclocker_card",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:inferium_gemstone",
+            "emc": 0
+        },
+        {
+            "item": "ae2:advanced_card",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:flow_detector_module",
+            "emc": 0
+        },
+        {
+            "item": "ae2:fuzzy_card",
+            "emc": 0
+        },
+        {
+            "item": "thermal:rf_coil_storage_augment",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_extend_time",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:infusion_crystal",
+            "emc": 0
+        },
+        {
+            "item": "ae2:inverter_card",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:advanced_enriching_factory",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:basic_purifying_factory",
+            "emc": 0
+        },
+        {
+            "item": "mekanismtools:refined_obsidian_shield",
+            "emc": 0
+        },
+        {
+            "item": "botania:goddess_charm",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:basic_spell_turret",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:advanced_snake_block_beehive",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:soulium_gemstone",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_gemstone",
+            "emc": 0
+        },
+        {
+            "item": "rftoolspower:power_core1",
+            "emc": 0
+        },
+        {
+            "item": "bloodmagic:upgradetrainer",
+            "emc": 0
+        },
+        {
+            "item": "ae2:equal_distribution_card",
+            "emc": 0
+        },
+        {
+            "item": "powah:thermo_generator_starter",
+            "emc": 0
+        },
+        {
+            "item": "create:mysterious_cuckoo_clock",
+            "emc": 0
+        },
+        {
+            "item": "advgenerators:turbine_tier4",
+            "emc": 0
+        },
+        {
+            "item": "botania:gaia_spreader",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:soulium_ingot_block",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_ingot_block",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:resistive_heater",
+            "emc": 0
+        },
+        {
+            "item": "biggerreactors:cyanite_block",
+            "emc": 0
+        },
+        {
+            "item": "immersiveengineering:storage_nickel",
+            "emc": 0
+        },
+        {
+            "item": "allthetweaks:ender_pearl_block",
+            "emc": 0
+        },
+        {
+            "item": "potionsmaster:diamond_powder",
+            "emc": 0
+        },
+        {
+            "item": "alltheores:nickel_block",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:quartz_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:respawn_anchor",
+            "emc": 0
+        },
+        {
+            "item": "thermal:nickel_block",
+            "emc": 0
+        },
+        {
+            "item": "potionsmaster:calcinateddiamond_powder",
+            "emc": 0
+        },
+        {
+            "item": "ftbic:energy_crystal",
+            "emc": 0
+        },
+        {
+            "item": "car:engine_3_cylinder",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:spell_prism",
+            "emc": 0
+        },
+        {
+            "item": "mekanismgenerators:gas_burning_generator",
+            "emc": 0
+        },
+        {
+            "item": "xnet:connector_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "biggerreactors:reactor_control_rod",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:pressurized_reaction_chamber",
+            "emc": 0
+        },
+        {
+            "item": "mahoutsukai:fog_projector",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_cut",
+            "emc": 0
+        },
+        {
+            "item": "mtr:clock",
+            "emc": 0
+        },
+        {
+            "item": "botania:super_lava_pendant",
+            "emc": 0
+        },
+        {
+            "item": "modularrouters:bulk_item_filter",
+            "emc": 0
+        },
+        {
+            "item": "botania:terrasteel_ingot",
+            "emc": 0
+        },
+        {
+            "item": "dimstorage:dim_core",
+            "emc": 0
+        },
+        {
+            "item": "car:engine_truck",
+            "emc": 0
+        },
+        {
+            "item": "moreminecarts:battery_cart",
+            "emc": 0
+        },
+        {
+            "item": "toms_storage:ts.inventory_cable_connector",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:night_vision_augment",
+            "emc": 0
+        },
+        {
+            "item": "biggerreactors:reactor_computer_port",
+            "emc": 0
+        },
+        {
+            "item": "toms_storage:ts.inventory_cable_connector_framed",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:advanced_sawing_factory",
+            "emc": 0
+        },
+        {
+            "item": "pipez:improved_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "mtr:rail_connector_80_one_way",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:manometer",
+            "emc": 0
+        },
+        {
+            "item": "mtr:rail_connector_160",
+            "emc": 0
+        },
+        {
+            "item": "modularrouters:inspection_filter",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_gemstone",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:jar_of_light",
+            "emc": 0
+        },
+        {
+            "item": "ironfurnaces:upgrade_crystal",
+            "emc": 0
+        },
+        {
+            "item": "silentgear:sturdy_repair_kit",
+            "emc": 0
+        },
+        {
+            "item": "occultism:stable_wormhole",
+            "emc": 0
+        },
+        {
+            "item": "modularrouters:mod_filter",
+            "emc": 0
+        },
+        {
+            "item": "moreminecarts:tank_cart",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:poison_resistance_augment",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:network_card",
+            "emc": 0
+        },
+        {
+            "item": "securitycraft:remote_access_sentry",
+            "emc": 0
+        },
+        {
+            "item": "projecte:purple_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:pink_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:orange_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:light_gray_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:lime_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:green_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:white_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:brown_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:blue_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:cyan_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:red_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:magenta_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:yellow_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:light_blue_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:black_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:gray_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "simplemagnets:advanced_demagnetization_coil",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsutility:matter_beamer",
+            "emc": 0
+        },
+        {
+            "item": "projecte:philosophers_stone",
+            "emc": 0
+        },
+        {
+            "item": "botania:auto_crafting_halo",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:pressurized_reaction_chamber",
+            "emc": 0
+        },
+        {
+            "item": "mahoutsukai:fog_projector",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_cut",
+            "emc": 0
+        },
+        {
+            "item": "mtr:clock",
+            "emc": 0
+        },
+        {
+            "item": "botania:super_lava_pendant",
+            "emc": 0
+        },
+        {
+            "item": "modularrouters:bulk_item_filter",
+            "emc": 0
+        },
+        {
+            "item": "botania:terrasteel_ingot",
+            "emc": 0
+        },
+        {
+            "item": "dimstorage:dim_core",
+            "emc": 0
+        },
+        {
+            "item": "car:engine_truck",
+            "emc": 0
+        },
+        {
+            "item": "moreminecarts:battery_cart",
+            "emc": 0
+        },
+        {
+            "item": "toms_storage:ts.inventory_cable_connector",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:night_vision_augment",
+            "emc": 0
+        },
+        {
+            "item": "biggerreactors:reactor_computer_port",
+            "emc": 0
+        },
+        {
+            "item": "toms_storage:ts.inventory_cable_connector_framed",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:advanced_sawing_factory",
+            "emc": 0
+        },
+        {
+            "item": "pipez:improved_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "mtr:rail_connector_80_one_way",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:manometer",
+            "emc": 0
+        },
+        {
+            "item": "mtr:rail_connector_160",
+            "emc": 0
+        },
+        {
+            "item": "modularrouters:inspection_filter",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_gemstone",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:jar_of_light",
+            "emc": 0
+        },
+        {
+            "item": "ironfurnaces:upgrade_crystal",
+            "emc": 0
+        },
+        {
+            "item": "silentgear:sturdy_repair_kit",
+            "emc": 0
+        },
+        {
+            "item": "occultism:stable_wormhole",
+            "emc": 0
+        },
+        {
+            "item": "modularrouters:mod_filter",
+            "emc": 0
+        },
+        {
+            "item": "moreminecarts:tank_cart",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:poison_resistance_augment",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:network_card",
+            "emc": 0
+        },
+        {
+            "item": "securitycraft:remote_access_sentry",
+            "emc": 0
+        },
+        {
+            "item": "projecte:purple_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:pink_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:orange_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:light_gray_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:lime_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:green_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:white_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:brown_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:blue_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:cyan_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:red_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:magenta_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:yellow_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:light_blue_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:black_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "projecte:gray_alchemical_bag",
+            "emc": 0
+        },
+        {
+            "item": "simplemagnets:advanced_demagnetization_coil",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsutility:matter_beamer",
+            "emc": 0
+        },
+        {
+            "item": "projecte:philosophers_stone",
+            "emc": 0
+        },
+        {
+            "item": "botania:auto_crafting_halo",
+            "emc": 0
+        },
+        {
+            "item": "mekanismtools:refined_obsidian_leggings",
+            "emc": 0
+        },
+        {
+            "item": "mekanismtools:refined_obsidian_paxel",
+            "emc": 0
+        },
+        {
+            "item": "thermal:upgrade_augment_2",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_redstone_signal",
+            "emc": 0
+        },
+        {
+            "item": "toms_storage:ts.inventory_cable_connector_filtered",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:steel_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "occultism:storage_controller",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:golden_helmet",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:end_seeds",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:mining_aoe_ii_augment",
+            "emc": 0
+        },
+        {
+            "item": "securitycraft:remote_access_mine",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_accelerate",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:copper_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:coal_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:zinc_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:amethyst_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:tertium_coal_block",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:aluminum_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_ender_inventory",
+            "emc": 0
+        },
+        {
+            "item": "ftbic:mv_battery",
+            "emc": 0
+        },
+        {
+            "item": "ironchests:key",
+            "emc": 0
+        },
+        {
+            "item": "botania:gaia_ingot",
+            "emc": 0
+        },
+        {
+            "item": "car:gold_license_plate_holder",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:scryers_oculus",
+            "emc": 0
+        },
+        {
+            "item": "wirelesschargers:advanced_wireless_player_charger",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:osmium_seeds",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_intangible",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:fluorite_seeds",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:radiation_shielding_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "occultism:soul_gem",
+            "emc": 0
+        },
+        {
+            "item": "ae2:cell_component_4k",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:fluid_mixer",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:ultimate_control_circuit",
+            "emc": 0
+        },
+        {
+            "item": "botania:rainbow_rod",
+            "emc": 0
+        },
+        {
+            "item": "villagertools:badge",
+            "emc": 0
+        },
+        {
+            "item": "createaddition:accumulator",
+            "emc": 0
+        },
+        {
+            "item": "extrastorage:neural_processor",
+            "emc": 0
+        },
+        {
+            "item": "extrastorage:raw_neural_processor",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:black_controller",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:controller",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:green_controller",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:brown_controller",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:gray_controller",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:cyan_controller",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:lime_controller",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:light_gray_controller",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:orange_controller",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:magenta_controller",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:blue_controller",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:white_controller",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:purple_controller",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:yellow_controller",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:pink_controller",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:red_controller",
+            "emc": 0
+        },
+        {
+            "item": "mekanismtools:refined_obsidian_chestplate",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:search_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "immersiveengineering:storage_electrum",
+            "emc": 0
+        },
+        {
+            "item": "thermal:electrum_block",
+            "emc": 0
+        },
+        {
+            "item": "alltheores:electrum_block",
+            "emc": 0
+        },
+        {
+            "item": "botania:corporea_spark_master",
+            "emc": 0
+        },
+        {
+            "item": "botania:mana_ring_greater",
+            "emc": 0
+        },
+        {
+            "item": "dimstorage:solid_dim_core",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:rotary_condensentrator",
+            "emc": 0
+        },
+        {
+            "item": "xnet:advanced_connector_green",
+            "emc": 0
+        },
+        {
+            "item": "botania:mana_mirror",
+            "emc": 0
+        },
+        {
+            "item": "xnet:advanced_connector_blue",
+            "emc": 0
+        },
+        {
+            "item": "xnet:advanced_connector_yellow",
+            "emc": 0
+        },
+        {
+            "item": "xnet:advanced_connector_red",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:battery_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "botania:light_relay",
+            "emc": 0
+        },
+        {
+            "item": "botania:toggle_light_relay",
+            "emc": 0
+        },
+        {
+            "item": "botania:laputa_shard",
+            "emc": 0
+        },
+        {
+            "item": "mahoutsukai:attuner",
+            "emc": 0
+        },
+        {
+            "item": "botania:detector_light_relay",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:andesite_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diorite_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "botania:fork_light_relay",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:pumpkin_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:granite_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:melon_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:advanced_compressing_factory",
+            "emc": 0
+        },
+        {
+            "item": "botania:light_launcher",
+            "emc": 0
+        },
+        {
+            "item": "biggerreactors:cyanite_reprocessor",
+            "emc": 0
+        },
+        {
+            "item": "car:generator",
+            "emc": 0
+        },
+        {
+            "item": "thermal:charge_bench",
+            "emc": 0
+        },
+        {
+            "item": "powah:solar_panel_starter",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:spell_turret",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:lapis_lazuli_seeds",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:item_life_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:security_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "botania:spawner_mover",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:netherite_scrap",
+            "emc": 0
+        },
+        {
+            "item": "bloodmagic:sand_netherite",
+            "emc": 0
+        },
+        {
+            "item": "ae2:fluid_storage_cell_4k",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:ritual_disintegration",
+            "emc": 0
+        },
+        {
+            "item": "functionalstorage:linking_tool",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:relay",
+            "emc": 0
+        },
+        {
+            "item": "xnet:advanced_connector_routing",
+            "emc": 0
+        },
+        {
+            "item": "mahoutsukai:mahoujin_projector",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_blink",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:speed_iii_augment",
+            "emc": 0
+        },
+        {
+            "item": "ironchests:lock",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:elite_bin",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:uranium_essence",
+            "emc": 0
+        },
+        {
+            "item": "dimstorage:dimensional_tablet",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:relay_collector",
+            "emc": 0
+        },
+        {
+            "item": "ae2:item_storage_cell_4k",
+            "emc": 0
+        },
+        {
+            "item": "ae2:pattern_access_terminal",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:inferium_watering_can",
+            "emc": 0
+        },
+        {
+            "item": "botania:aura_ring_greater",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:wand",
+            "emc": 0
+        },
+        {
+            "item": "botania:mana_pylon",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_gemstone",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:nickel_seeds",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:brown_wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:black_wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:green_wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:lime_wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:cyan_wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:light_gray_wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:gray_wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:magenta_wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:white_wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:orange_wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:blue_wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:purple_wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:yellow_wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:pink_wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:red_wireless_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:block_refined_obsidian",
+            "emc": 0
+        },
+        {
+            "item": "ae2:biometric_card",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:bronze_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:advanced_purifying_factory",
+            "emc": 0
+        },
+        {
+            "item": "ftbic:advanced_heat_vent",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:cobbled_deepslate_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:deepslate_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "botania:terraform_rod",
+            "emc": 0
+        },
+        {
+            "item": "extradisks:advanced_storage_housing",
+            "emc": 0
+        },
+        {
+            "item": "potionsmaster:calcinatednetherite_powder",
+            "emc": 0
+        },
+        {
+            "item": "potionsmaster:netherite_powder",
+            "emc": 0
+        },
+        {
+            "item": "appmek:chemical_storage_cell_4k",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:elite_fluid_tank",
+            "emc": 0
+        },
+        {
+            "item": "botania:magnet_ring_greater",
+            "emc": 0
+        },
+        {
+            "item": "botania:mana_gun",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:jump_boost_iii_augment",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:glowstone_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "botania:blaze_block",
+            "emc": 0
+        },
+        {
+            "item": "apotheosis:seashelf",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedstorage:advanced_pickup_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:advanced_pickup_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:gilded_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "ftbic:hv_transformer",
+            "emc": 0
+        },
+        {
+            "item": "mtr:rail_connector_80",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:advanced_tool_swapper_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "botania:blood_pendant",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:golden_leggings",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:bell",
+            "emc": 0
+        },
+        {
+            "item": "utilitix:hand_bell",
+            "emc": 0
+        },
+        {
+            "item": "mekanismtools:gold_paxel",
+            "emc": 0
+        },
+        {
+            "item": "computercraft:computer_advanced",
+            "emc": 0
+        },
+        {
+            "item": "projecte:destruction_catalyst",
+            "emc": 0
+        },
+        {
+            "item": "mekanismgenerators:solar_generator",
+            "emc": 0
+        },
+        {
+            "item": "villagertools:guard",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:advanced_restock_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:advanced_deposit_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedstorage:advanced_void_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:advanced_void_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "bloodmagic:teleposer",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:free_runners",
+            "emc": 0
+        },
+        {
+            "item": "silentgear:nether_star_fragment",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedstorage:advanced_compacting_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:advanced_compacting_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "dimstorage:dimensional_tank",
+            "emc": 0
+        },
+        {
+            "item": "mekanismgenerators:electromagnetic_coil",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:basic_energy_cube",
+            "emc": 0
+        },
+        {
+            "item": "botania:gaia_pylon",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:attack_aoe_ii_augment",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_ingot_block",
+            "emc": 0
+        },
+        {
+            "item": "botania:spawner_claw",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:brown_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:black_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:green_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:lime_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:cyan_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:gray_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:light_gray_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:magenta_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:blue_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:white_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:orange_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:yellow_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:purple_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:pink_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:red_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "dimstorage:dimensional_chest",
+            "emc": 0
+        },
+        {
+            "item": "mekanismgenerators:wind_generator",
+            "emc": 0
+        },
+        {
+            "item": "occultism:familiar_ring",
+            "emc": 0
+        },
+        {
+            "item": "cabletiers:elite_importer",
+            "emc": 0
+        },
+        {
+            "item": "powah:thermo_generator_basic",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:dust_emerald",
+            "emc": 0
+        },
+        {
+            "item": "utilitix:diamond_shears",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:golden_chestplate",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_extract",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:emerald",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:golden_horse_armor",
+            "emc": 0
+        },
+        {
+            "item": "supplementaries:netherite_door",
+            "emc": 0
+        },
+        {
+            "item": "occultism:golden_sacrificial_bowl",
+            "emc": 0
+        },
+        {
+            "item": "pylons:potion_filter",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:diamond_sword",
+            "emc": 0
+        },
+        {
+            "item": "aquaculture:diamond_fillet_knife",
+            "emc": 0
+        },
+        {
+            "item": "structurize:shapetool",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:diamond_hoe",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:trident",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:expansion_box_snake_block",
+            "emc": 0
+        },
+        {
+            "item": "cabletiers:elite_exporter",
+            "emc": 0
+        },
+        {
+            "item": "aquaculture:diamond_fishing_rod",
+            "emc": 0
+        },
+        {
+            "item": "supplementaries:speaker_block",
+            "emc": 0
+        },
+        {
+            "item": "ironchests:gold_chest_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedstorage:iron_to_gold_tier_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:obsidian_nest",
+            "emc": 0
+        },
+        {
+            "item": "cookingforblockheads:crafting_book",
+            "emc": 0
+        },
+        {
+            "item": "botania:crystal_bow",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:ritual_challenge",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:supremium_coal",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:golden_apple",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:16k_storage_part",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:inferium_apple",
+            "emc": 0
+        },
+        {
+            "item": "utilitix:linked_crystal",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:elite_chemical_tank",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:ritual_restoration",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_delay",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:green_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:black_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:brown_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_rune",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:gray_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:lime_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:light_gray_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:cyan_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:magenta_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:white_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:blue_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:orange_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:purple_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:yellow_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:pink_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:red_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "car:large_tank",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:relay_splitter",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:gold_seeds",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:prudentium_apple",
+            "emc": 0
+        },
+        {
+            "item": "securitycraft:universal_block_modifier",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:black_pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:brown_pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:green_pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:lime_pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:light_gray_pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:gray_pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:cyan_pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:orange_pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:blue_pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:white_pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:magenta_pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:yellow_pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:purple_pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:pink_pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:red_pattern_grid",
+            "emc": 0
+        },
+        {
+            "item": "botania:rune_sloth",
+            "emc": 0
+        },
+        {
+            "item": "botania:rune_greed",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_split",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:regulator_tube_module",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_ingot",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:timer_spell_turret",
+            "emc": 0
+        },
+        {
+            "item": "moreminecarts:high_speed_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "botania:exchange_rod",
+            "emc": 0
+        },
+        {
+            "item": "securitycraft:universal_owner_changer",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:relay_warp",
+            "emc": 0
+        },
+        {
+            "item": "potionsmaster:emerald_powder",
+            "emc": 0
+        },
+        {
+            "item": "potionsmaster:calcinatedemerald_powder",
+            "emc": 0
+        },
+        {
+            "item": "cabletiers:elite_destructor",
+            "emc": 0
+        },
+        {
+            "item": "botania:rune_lust",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:spawner_core_shell",
+            "emc": 0
+        },
+        {
+            "item": "botania:natura_pylon",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:hay_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:16k_storage_disk",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:solar_neutron_activator",
+            "emc": 0
+        },
+        {
+            "item": "botania:rune_pride",
+            "emc": 0
+        },
+        {
+            "item": "botania:dodge_ring",
+            "emc": 0
+        },
+        {
+            "item": "cabletiers:elite_constructor",
+            "emc": 0
+        },
+        {
+            "item": "botania:rune_envy",
+            "emc": 0
+        },
+        {
+            "item": "botania:rune_gluttony",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:ritual_fertility",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:ritual_flight",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:basic_induction_provider",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:relay_deposit",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedstorage:advanced_magnet_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:advanced_magnet_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "computercraft:wireless_modem_advanced",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:strength_ii_augment",
+            "emc": 0
+        },
+        {
+            "item": "advgenerators:capacitor_kit_tier2",
+            "emc": 0
+        },
+        {
+            "item": "thermal:press_coin_die",
+            "emc": 0
+        },
+        {
+            "item": "botania:rune_wrath",
+            "emc": 0
+        },
+        {
+            "item": "advgenerators:capacitor_kit_tier3",
+            "emc": 0
+        },
+        {
+            "item": "botania:super_cloud_pendant",
+            "emc": 0
+        },
+        {
+            "item": "buildinggadgets:gadget_building",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:gold_block",
+            "emc": 0
+        },
+        {
+            "item": "alltheores:sapphire_block",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_block",
+            "emc": 0
+        },
+        {
+            "item": "alltheores:peridot_block",
+            "emc": 0
+        },
+        {
+            "item": "immersiveengineering:slab_storage_uranium",
+            "emc": 0
+        },
+        {
+            "item": "alltheores:ruby_block",
+            "emc": 0
+        },
+        {
+            "item": "projecte:mobius_fuel_block",
+            "emc": 0
+        },
+        {
+            "item": "bloodmagic:magicianbloodorb",
+            "emc": 0
+        },
+        {
+            "item": "compactmachines:machine_normal",
+            "emc": 0
+        },
+        {
+            "item": "advgenerators:turbine_kit_tier5",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:player_head",
+            "emc": 0
+        },
+        {
+            "item": "mythicbotany:midgard_rune",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:tertium_apple",
+            "emc": 0
+        },
+        {
+            "item": "botania:lens_explosive",
+            "emc": 0
+        },
+        {
+            "item": "bloodmagic:reagentteleposition",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:wireless_grid",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:gold_backpack",
+            "emc": 0
+        },
+        {
+            "item": "mythicbotany:joetunheim_rune",
+            "emc": 0
+        },
+        {
+            "item": "botania:terra_sword",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:potion_flask",
+            "emc": 0
+        },
+        {
+            "item": "advgenerators:advanced_pressure_valve",
+            "emc": 0
+        },
+        {
+            "item": "mythicbotany:alfheim_rune",
+            "emc": 0
+        },
+        {
+            "item": "botania:lens_damage",
+            "emc": 0
+        },
+        {
+            "item": "botania:itemfinder",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:shapers_focus",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:inferium_bow",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:wireless_crafting_monitor",
+            "emc": 0
+        },
+        {
+            "item": "buildinggadgets:construction_paste_container_t2",
+            "emc": 0
+        },
+        {
+            "item": "mythicbotany:muspelheim_rune",
+            "emc": 0
+        },
+        {
+            "item": "bloodmagic:soulgemlesser",
+            "emc": 0
+        },
+        {
+            "item": "ironchests:gold_chest",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:stack_upgrade_tier_1",
+            "emc": 0
+        },
+        {
+            "item": "botania:reach_ring",
+            "emc": 0
+        },
+        {
+            "item": "mythicbotany:niflheim_rune",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:inferium_crossbow",
+            "emc": 0
+        },
+        {
+            "item": "cabletiers:elite_disk_manipulator",
+            "emc": 0
+        },
+        {
+            "item": "mahoutsukai:attuned_diamond",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:gun_ammo_ap",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:stack_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "botania:third_eye",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsbase:tablet",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:no_fall_damage_augment",
+            "emc": 0
+        },
+        {
+            "item": "car:engine_6_cylinder",
+            "emc": 0
+        },
+        {
+            "item": "supplementaries:netherite_trapdoor",
+            "emc": 0
+        },
+        {
+            "item": "waystones:warp_stone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:portstone",
+            "emc": 0
+        },
+        {
+            "item": "functionalstorage:configuration_tool",
+            "emc": 0
+        },
+        {
+            "item": "mythicbotany:helheim_rune",
+            "emc": 0
+        },
+        {
+            "item": "rftoolspower:dimensionalcell_simple",
+            "emc": 0
+        },
+        {
+            "item": "waystones:mossy_waystone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:waystone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:brown_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:green_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:black_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:light_gray_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:lime_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:cyan_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:gray_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:blue_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:white_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:light_blue_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:magenta_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:orange_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:purple_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:yellow_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:pink_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:red_sharestone",
+            "emc": 0
+        },
+        {
+            "item": "waystones:sandy_waystone",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:iron_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:tin_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:amulet_of_mana_regen",
+            "emc": 0
+        },
+        {
+            "item": "advgenerators:power_capacitor_tier2",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:potion_flask_amplify",
+            "emc": 0
+        },
+        {
+            "item": "utilitix:mob_bell",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:crafter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:green_crafter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:brown_crafter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:black_crafter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:lime_crafter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:light_gray_crafter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:cyan_crafter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:gray_crafter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:magenta_crafter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:white_crafter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:blue_crafter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:orange_crafter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:purple_crafter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:yellow_crafter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:pink_crafter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:red_crafter",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:robit",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:enchanters_mirror",
+            "emc": 0
+        },
+        {
+            "item": "mythicbotany:nidavellir_rune",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:teleportation_core",
+            "emc": 0
+        },
+        {
+            "item": "mythicbotany:fire_ring",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:combiner",
+            "emc": 0
+        },
+        {
+            "item": "mythicbotany:ice_ring",
+            "emc": 0
+        },
+        {
+            "item": "biggerreactors:reactor_terminal",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:jetpack_armored",
+            "emc": 0
+        },
+        {
+            "item": "villagertools:gears",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:pigment_mixer",
+            "emc": 0
+        },
+        {
+            "item": "botania:corporea_index",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:gun_ammo_weighted",
+            "emc": 0
+        },
+        {
+            "item": "simplemagnets:advancedmagnet",
+            "emc": 0
+        },
+        {
+            "item": "advancedperipherals:weak_automata_core",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedstorage:feeding_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "ae2things:advanced_inscriber",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:feeding_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedstorage:gold_shulker_box",
+            "emc": 0
+        },
+        {
+            "item": "darkutils:tome_sga",
+            "emc": 0
+        },
+        {
+            "item": "ironfurnaces:upgrade_obsidian",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:oak_log_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:spruce_log_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:birch_log_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:jungle_log_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dark_oak_log_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:signalum_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:acacia_log_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:basic_combining_factory",
+            "emc": 0
+        },
+        {
+            "item": "mob_grinding_utils:saw_upgrade_beheading",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_heal",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:advanced_pump_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "silentgear:coating_blueprint",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:diamond_pickaxe",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:diamond_axe",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_amplify",
+            "emc": 0
+        },
+        {
+            "item": "mahoutsukai:pestle",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:elite_tier_installer",
+            "emc": 0
+        },
+        {
+            "item": "minecolonies:mediumquarry",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:imperium_apple",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:laser_amplifier",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:platinum_essence",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_fell",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:amulet_of_mana_boost",
+            "emc": 0
+        },
+        {
+            "item": "absentbydesign:slab_lodestone",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_gemstone",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:uranium_seeds",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_watering_can",
+            "emc": 0
+        },
+        {
+            "item": "botania:missile_rod",
+            "emc": 0
+        },
+        {
+            "item": "botania:diva_charm",
+            "emc": 0
+        },
+        {
+            "item": "advgenerators:turbine_rotor_tier5",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:1024k_fluid_storage_part",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:ultimate_fluid_tank",
+            "emc": 0
+        },
+        {
+            "item": "projecte:interdiction_torch",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:laser_tractor_beam",
+            "emc": 0
+        },
+        {
+            "item": "mahoutsukai:mana_circuit_magitech",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:mining_fatigue_resistance_augment",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:blackstone_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:tuff_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:glass_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:snow_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:basalt_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:module_laser_dissipation_unit",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:1024k_fluid_storage_disk",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorageaddons:wireless_crafting_grid",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:spell_bow",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:harvesting_drone",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:logistics_drone",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:inferium_shovel",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:teleporter",
+            "emc": 0
+        },
+        {
+            "item": "advgenerators:turbine_tier5",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:advanced_combining_factory",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:guard_drone",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:wireless_fluid_grid",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:isotopic_centrifuge",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsbase:dimensionalshard",
+            "emc": 0
+        },
+        {
+            "item": "mahoutsukai:attuned_emerald",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:collector_drone",
+            "emc": 0
+        },
+        {
+            "item": "ironchests:diamond_chest_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "rftoolspower:dimensionalcell",
+            "emc": 0
+        },
+        {
+            "item": "botania:terra_plate",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:ultimate_bin",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:security_card",
+            "emc": 0
+        },
+        {
+            "item": "botania:star_sword",
+            "emc": 0
+        },
+        {
+            "item": "botania:thunder_sword",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:ultimate_chemical_tank",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:laser",
+            "emc": 0
+        },
+        {
+            "item": "biggerreactors:turbine_rotor_bearing",
+            "emc": 0
+        },
+        {
+            "item": "botania:terrasteel_helmet",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:chemical_crystallizer",
+            "emc": 0
+        },
+        {
+            "item": "botania:terrasteel_boots",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:vacuum_pump",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:vacuum_module",
+            "emc": 0
+        },
+        {
+            "item": "botania:terrasteel_leggings",
+            "emc": 0
+        },
+        {
+            "item": "computercraft:pocket_computer_advanced",
+            "emc": 0
+        },
+        {
+            "item": "botania:terrasteel_chestplate",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:advanced_energy_cube",
+            "emc": 0
+        },
+        {
+            "item": "mythicbotany:vanaheim_rune",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:chemical_injection_chamber",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:apprentice_spell_book",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:heart_of_the_sea",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:diamond_boots",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:insanium_essence",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:insanium_farmland",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:chemical_washer",
+            "emc": 0
+        },
+        {
+            "item": "utilitix:highspeed_rail",
+            "emc": 0
+        },
+        {
+            "item": "alltheores:diamond_gear",
+            "emc": 0
+        },
+        {
+            "item": "thermal:diamond_gear",
+            "emc": 0
+        },
+        {
+            "item": "ironchests:diamond_dolly",
+            "emc": 0
+        },
+        {
+            "item": "utilitix:directional_highspeed_rail",
+            "emc": 0
+        },
+        {
+            "item": "mahoutsukai:mortar_and_pestle",
+            "emc": 0
+        },
+        {
+            "item": "forbidden_arcanus:diamond_blacksmith_gavel",
+            "emc": 0
+        },
+        {
+            "item": "aquaculture:diamond_hook",
+            "emc": 0
+        },
+        {
+            "item": "industrialforegoing:range_addon9{TitaniumAugment:{Range:9.0f}}",
+            "emc": 0
+        },
+        {
+            "item": "ironjetpacks:elite_coil",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:elite_smelting_factory",
+            "emc": 0
+        },
+        {
+            "item": "waterstrainer:strainer_survivalist_reinforced",
+            "emc": 0
+        },
+        {
+            "item": "ironfurnaces:upgrade_gold",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:diamond_essence",
+            "emc": 0
+        },
+        {
+            "item": "immersiveengineering:rockcutter",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:free_runners_armored",
+            "emc": 0
+        },
+        {
+            "item": "ironfurnaces:upgrade_gold2",
+            "emc": 0
+        },
+        {
+            "item": "laserio:overclocker_node",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:basic_injecting_factory",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:elite_enriching_factory",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:chemical_dissolution_chamber",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsbuilder:shape_card_quarry_clear",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsbuilder:shape_card_quarry",
+            "emc": 0
+        },
+        {
+            "item": "botania:water_ring",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_lightning",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:security_desk",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:invar_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:elite_sawing_factory",
+            "emc": 0
+        },
+        {
+            "item": "extrastorage:iron_crafter",
+            "emc": 0
+        },
+        {
+            "item": "thermal:press_gear_die",
+            "emc": 0
+        },
+        {
+            "item": "buildinggadgets:gadget_copy_paste",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedstorage:advanced_feeding_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:advanced_feeding_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:ring_of_lesser_discount",
+            "emc": 0
+        },
+        {
+            "item": "ae2:cell_component_16k",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:inferium_sword",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:inferium_hoe",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:soul_sand_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/lime_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/cyan_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/red_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/magenta_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/gray_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/purple_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/blue_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/light_gray_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/light_blue_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/black_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/brown_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/orange_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/yellow_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/pink_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/white_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "reliquary:pedestals/green_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "apotheosis:inert_trident",
+            "emc": 0
+        },
+        {
+            "item": "mob_grinding_utils:saw",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:portable_teleporter",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:elite_compressing_factory",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:armor_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "ae2:fluid_storage_cell_16k",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:mojang_banner_pattern",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:enchanted_golden_apple",
+            "emc": 0
+        },
+        {
+            "item": "silentgear:blaze_gold_block",
+            "emc": 0
+        },
+        {
+            "item": "alltheores:uranium_block",
+            "emc": 0
+        },
+        {
+            "item": "immersiveengineering:storage_uranium",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:block_uranium",
+            "emc": 0
+        },
+        {
+            "item": "ftbic:uranium_block",
+            "emc": 0
+        },
+        {
+            "item": "biggerreactors:uranium_block",
+            "emc": 0
+        },
+        {
+            "item": "alltheores:platinum_block",
+            "emc": 0
+        },
+        {
+            "item": "ae2:item_storage_cell_16k",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:enchanters_shield",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:portable_grid",
+            "emc": 0
+        },
+        {
+            "item": "rftoolspower:cell1",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:advanced_injecting_factory",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:elite_purifying_factory",
+            "emc": 0
+        },
+        {
+            "item": "rftoolscontrol:advanced_network_card",
+            "emc": 0
+        },
+        {
+            "item": "appmek:chemical_storage_cell_16k",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:imperium_coal_block",
+            "emc": 0
+        },
+        {
+            "item": "powah:solar_panel_basic",
+            "emc": 0
+        },
+        {
+            "item": "advgenerators:power_capacitor_tier3",
+            "emc": 0
+        },
+        {
+            "item": "silentgear:starlight_charger",
+            "emc": 0
+        },
+        {
+            "item": "botania:terra_pick",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:pathing_aoe_iii_augment",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_bow",
+            "emc": 0
+        },
+        {
+            "item": "ftbic:mv_battery_box",
+            "emc": 0
+        },
+        {
+            "item": "botania:terra_axe",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_crossbow",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsutility:advanced_charged_porter",
+            "emc": 0
+        },
+        {
+            "item": "advgenerators:efficiency_upgrade_tier2",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_watering_can",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:diamond_helmet",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:conduit",
+            "emc": 0
+        },
+        {
+            "item": "car:diamond_license_plate_holder",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:silver_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:osmium_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lead_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "buildinggadgets:template_manager",
+            "emc": 0
+        },
+        {
+            "item": "mythicbotany:mana_collector",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:basic_induction_cell",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:potion_melder",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_ingot_block",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:inferium_pickaxe",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:inferium_axe",
+            "emc": 0
+        },
+        {
+            "item": "pipez:advanced_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "bloodmagic:ritualdiviner",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:module_energy_unit",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsstorage:storage_module2",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:constantan_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:redstone_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:obsidian_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "mtr:rail_connector_turn_back",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_shovel",
+            "emc": 0
+        },
+        {
+            "item": "ironchests:diamond_chest",
+            "emc": 0
+        },
+        {
+            "item": "ironchests:crystal_chest",
+            "emc": 0
+        },
+        {
+            "item": "ironchests:obsidian_chest",
+            "emc": 0
+        },
+        {
+            "item": "mythicbotany:central_rune_holder",
+            "emc": 0
+        },
+        {
+            "item": "silentgear:trident_blueprint",
+            "emc": 0
+        },
+        {
+            "item": "bhc:relic_apple",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:supremium_apple",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:emerald_essence",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:platinum_seeds",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:ultimate_tier_installer",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:netherite_ingot",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:dust_netherite",
+            "emc": 0
+        },
+        {
+            "item": "pylons:mob_filter",
+            "emc": 0
+        },
+        {
+            "item": "absentbydesign:wall_lodestone",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:lodestone",
+            "emc": 0
+        },
+        {
+            "item": "absentbydesign:stairs_lodestone",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedstorage:diamond_to_netherite_tier_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "easy_villagers:auto_trader",
+            "emc": 0
+        },
+        {
+            "item": "rftoolscontrol:cpu_core_1000",
+            "emc": 0
+        },
+        {
+            "item": "ironfurnaces:upgrade_diamond",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:inferium_boots",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:elite_combining_factory",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:jungle_plank_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:acacia_plank_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:birch_plank_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:oak_plank_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dark_oak_plank_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:spruce_plank_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "torchmaster:megatorch",
+            "emc": 0
+        },
+        {
+            "item": "supplementaries:safe",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:quantum_entangloporter",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_sword",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_hoe",
+            "emc": 0
+        },
+        {
+            "item": "industrialforegoing:infinity_backpack",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedstorage:stack_upgrade_tier_3",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lumium_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:diamond_leggings",
+            "emc": 0
+        },
+        {
+            "item": "mekanismtools:diamond_paxel",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:upgrade_base",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:upgrade_not_babee",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:upgrade_breeding",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:upgrade_comb_block",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:upgrade_filter",
+            "emc": 0
+        },
+        {
+            "item": "farmersdelight:netherite_knife",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:netherite_shovel",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:master_infusion_crystal",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:elite_energy_cube",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:terracotta_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:clay_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:netherrack_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:red_sand_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:wax_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:soul_soil_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:podzol_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dirt_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:end_stone_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:grass_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:stone_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "mekanismgenerators:advanced_solar_generator",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:breeding_chamber",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:inferium_helmet",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:brown_crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:green_crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:black_crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:cyan_crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:gray_crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:light_gray_crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:lime_crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:orange_crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:white_crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:blue_crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:magenta_crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:purple_crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:yellow_crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:pink_crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:red_crafter_manager",
+            "emc": 0
+        },
+        {
+            "item": "rftoolspower:blazing_infuser",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:enchanters_sword",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:upgrade_anti_teleport",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_bow",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:elite_injecting_factory",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_crossbow",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:upgrade_simulator",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_pickaxe",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_axe",
+            "emc": 0
+        },
+        {
+            "item": "functionalstorage:gold_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:diamond_chestplate",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:diamond_horse_armor",
+            "emc": 0
+        },
+        {
+            "item": "thermal:emerald_gear",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedstorage:gold_to_diamond_tier_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "industrialforegoing:range_addon11{TitaniumAugment:{Range:11.0f}}",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:insanium_coal",
+            "emc": 0
+        },
+        {
+            "item": "ironjetpacks:ultimate_coil",
+            "emc": 0
+        },
+        {
+            "item": "industrialforegoing:speed_addon_2{TitaniumAugment:{Speed:3.0f}}",
+            "emc": 0
+        },
+        {
+            "item": "botania:balance_cloak",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:diamond_seeds",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:insanium_ingot",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:netherite_sword",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:netherite_hoe",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:upgrade_range",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:absorption_i_augment",
+            "emc": 0
+        },
+        {
+            "item": "mythicbotany:asgard_rune",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_watering_can",
+            "emc": 0
+        },
+        {
+            "item": "industrialforegoing:efficiency_addon_2{TitaniumAugment:{Efficiency:0.8f}}",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lapis_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_shovel",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:ring_of_greater_discount",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_boots",
+            "emc": 0
+        },
+        {
+            "item": "mythicbotany:mana_infuser",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:brown_network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:black_network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:black_network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:green_network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:brown_network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:green_network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:cyan_network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:lime_network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:gray_network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:light_gray_network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:light_gray_network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:lime_network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:gray_network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:cyan_network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:blue_network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:magenta_network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:orange_network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:white_network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:white_network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:orange_network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:magenta_network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:blue_network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:purple_network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:purple_network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:yellow_network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:yellow_network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:pink_network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:pink_network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:red_network_receiver",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:red_network_transmitter",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:diamond_block",
+            "emc": 0
+        },
+        {
+            "item": "botania:mana_diamond_block",
+            "emc": 0
+        },
+        {
+            "item": "botania:dragonstone_block",
+            "emc": 0
+        },
+        {
+            "item": "projecte:aeternalis_fuel_block",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_block",
+            "emc": 0
+        },
+        {
+            "item": "alltheores:platinum_ore_hammer",
+            "emc": 0
+        },
+        {
+            "item": "compactmachines:machine_giant",
+            "emc": 0
+        },
+        {
+            "item": "projecte:relay_mk1",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:insanium_gemstone",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:netherite_axe",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:netherite_pickaxe",
+            "emc": 0
+        },
+        {
+            "item": "pylons:expulsion_pylon",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:inferium_leggings",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prosperity_gemstone_block",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_sword",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_hoe",
+            "emc": 0
+        },
+        {
+            "item": "ironchests:netherite_chest_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:inferium_gemstone_block",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_helmet",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:pathing_aoe_iv_augment",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:soulium_gemstone_block",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_gemstone_block",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tilling_aoe_iii_augment",
+            "emc": 0
+        },
+        {
+            "item": "car:emerald_license_plate_holder",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:netherite_boots",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:quartz_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nickel_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ender_pearl_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:ultimate_smelting_factory",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:64k_storage_part",
+            "emc": 0
+        },
+        {
+            "item": "forbidden_arcanus:netherite_blacksmith_gavel",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:ultimate_enriching_factory",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:64k_storage_disk",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:diamond_backpack",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:ultimate_sawing_factory",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:inferium_chestplate",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_linger",
+            "emc": 0
+        },
+        {
+            "item": "botania:terrasteel_block",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:strength_iii_augment",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:potion_flask_extend_time",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:ultimate_compressing_factory",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_axe",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_pickaxe",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_gemstone_block",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:ultimate_purifying_factory",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedstorage:diamond_shulker_box",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:upgrade_bee_sampler",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:upgrade_time",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:netherite_helmet",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:black_security_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:security_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:green_security_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:brown_security_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:gray_security_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:cyan_security_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:lime_security_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:light_gray_security_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:orange_security_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:magenta_security_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:white_security_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:blue_security_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:purple_security_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:yellow_security_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:pink_security_manager",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:red_security_manager",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:steel_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:copper_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:coal_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:zinc_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:amethyst_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:aluminum_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_boots",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_leggings",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_bow",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_crossbow",
+            "emc": 0
+        },
+        {
+            "item": "ironchests:netherite_chest",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:emerald_seeds",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:ultimate_energy_cube",
+            "emc": 0
+        },
+        {
+            "item": "ae2things:disk_housing",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:ultimate_combining_factory",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_helmet",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:electrum_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "ae2things:disk_drive_1k",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:prudentium_chestplate",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:andesite_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diorite_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:pumpkin_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:granite_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:melon_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_shovel",
+            "emc": 0
+        },
+        {
+            "item": "universalgrid:wireless_universal_grid",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:advanced_induction_provider",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:dimensional_stabilizer",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:netherite_leggings",
+            "emc": 0
+        },
+        {
+            "item": "mekanismtools:netherite_paxel",
+            "emc": 0
+        },
+        {
+            "item": "ae2:cell_component_64k",
+            "emc": 0
+        },
+        {
+            "item": "ae2:fluid_storage_cell_64k",
+            "emc": 0
+        },
+        {
+            "item": "ae2:item_storage_cell_64k",
+            "emc": 0
+        },
+        {
+            "item": "appmek:chemical_storage_cell_64k",
+            "emc": 0
+        },
+        {
+            "item": "mtr:rail_connector_siding",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:4096k_fluid_storage_part",
+            "emc": 0
+        },
+        {
+            "item": "refinedstorage:4096k_fluid_storage_disk",
+            "emc": 0
+        },
+        {
+            "item": "ae2things:disk_drive_4k",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:ultimate_injecting_factory",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_sword",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_hoe",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:attack_aoe_iii_augment",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:inferium_paxel",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_gemstone_block",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:netherite_chestplate",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:bronze_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:mining_aoe_iii_augment",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:netherite_essence",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:cobbled_deepslate_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:deepslate_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "buildinggadgets:construction_paste_container_t3",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_leggings",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsbuilder:shield_block3",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_axe",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_pickaxe",
+            "emc": 0
+        },
+        {
+            "item": "constructionwand:core_destruction",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:glowstone_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tertium_chestplate",
+            "emc": 0
+        },
+        {
+            "item": "rftoolspower:power_core2",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsbase:machine_infuser",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_boots",
+            "emc": 0
+        },
+        {
+            "item": "extrastorage:gold_crafter",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:absorption_ii_augment",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:netherite_backpack",
+            "emc": 0
+        },
+        {
+            "item": "ae2things:disk_drive_16k",
+            "emc": 0
+        },
+        {
+            "item": "rftoolspower:power_core3",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedstorage:netherite_shulker_box",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_helmet",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:nether_star",
+            "emc": 0
+        },
+        {
+            "item": "projecte:dark_matter",
+            "emc": 0
+        },
+        {
+            "item": "ironfurnaces:upgrade_emerald",
+            "emc": 0
+        },
+        {
+            "item": "forbidden_arcanus:dark_nether_star",
+            "emc": 0
+        },
+        {
+            "item": "constructionwand:infinity_wand",
+            "emc": 0
+        },
+        {
+            "item": "extradisks:withering_processor",
+            "emc": 0
+        },
+        {
+            "item": "extradisks:raw_withering_processor",
+            "emc": 0
+        },
+        {
+            "item": "rootsclassic:mutating_powder",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:beacon",
+            "emc": 0
+        },
+        {
+            "item": "pneumaticcraft:aerial_interface",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_watering_can",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:emerald_block",
+            "emc": 0
+        },
+        {
+            "item": "projecte:dm_shears",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:insanium_apple",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:supremium_coal_block",
+            "emc": 0
+        },
+        {
+            "item": "pylons:infusion_pylon",
+            "emc": 0
+        },
+        {
+            "item": "moreminecarts:chunk_loader",
+            "emc": 0
+        },
+        {
+            "item": "moreminecarts:minecart_with_chunk_loader",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_ingot_block",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_leggings",
+            "emc": 0
+        },
+        {
+            "item": "projecte:dm_shovel",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:hay_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "ars_nouveau:glyph_exchange",
+            "emc": 0
+        },
+        {
+            "item": "forbidden_arcanus:draco_arcanus_scepter",
+            "emc": 0
+        },
+        {
+            "item": "advancedperipherals:overpowered_weak_automata_core",
+            "emc": 0
+        },
+        {
+            "item": "rftoolscontrol:cpu_core_2000",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:imperium_chestplate",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:sapphire_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ruby_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:peridot_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:gold_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:stack_upgrade_tier_2",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:inception_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "aquaculture:nether_star_hook",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsbuilder:shape_card_quarry_clear_fortune",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsbuilder:shape_card_quarry_fortune",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:prudentium_paxel",
+            "emc": 0
+        },
+        {
+            "item": "securitycraft:codebreaker",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:tilling_aoe_iv_augment",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_bow",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_crossbow",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:iron_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:tin_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "projectextended:dark_matter_shield",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_shovel",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_sword",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_hoe",
+            "emc": 0
+        },
+        {
+            "item": "thermal:netherite_gear",
+            "emc": 0
+        },
+        {
+            "item": "ironfurnaces:upgrade_netherite",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:absorption_iii_augment",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_pickaxe",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_axe",
+            "emc": 0
+        },
+        {
+            "item": "ae2things:disk_drive_64k",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:oak_log_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:spruce_log_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:birch_log_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:jungle_log_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dark_oak_log_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:signalum_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:acacia_log_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:relay_mk2",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_boots",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_helmet",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsbase:infused_enderpearl",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_gemstone_block",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsbase:infused_diamond",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:advanced_induction_cell",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:netherite_seeds",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:blackstone_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:tuff_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:glass_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:snow_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:basalt_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_leggings",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:tertium_paxel",
+            "emc": 0
+        },
+        {
+            "item": "functionalstorage:diamond_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:supremium_chestplate",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsutility:environmental_controller",
+            "emc": 0
+        },
+        {
+            "item": "pipez:ultimate_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:mining_aoe_iv_augment",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedstorage:stack_upgrade_tier_4",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:dragon_egg",
+            "emc": 0
+        },
+        {
+            "item": "bhc:green_heart",
+            "emc": 0
+        },
+        {
+            "item": "bhc:blue_heart",
+            "emc": 0
+        },
+        {
+            "item": "bhc:yellow_heart",
+            "emc": 0
+        },
+        {
+            "item": "bhc:red_heart",
+            "emc": 0
+        },
+        {
+            "item": "bhc:heart_amulet",
+            "emc": 0
+        },
+        {
+            "item": "productivebees:dragon_egg_hive",
+            "emc": 0
+        },
+        {
+            "item": "mob_grinding_utils:dragon_muffler",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:absorption_iv_augment",
+            "emc": 0
+        },
+        {
+            "item": "projecte:zero_ring",
+            "emc": 0
+        },
+        {
+            "item": "projecte:black_hole_band",
+            "emc": 0
+        },
+        {
+            "item": "projecte:harvest_goddess_band",
+            "emc": 0
+        },
+        {
+            "item": "projecte:archangel_smite",
+            "emc": 0
+        },
+        {
+            "item": "extradisks:256k_storage_part",
+            "emc": 0
+        },
+        {
+            "item": "wstweaks:blaze_blade",
+            "emc": 0
+        },
+        {
+            "item": "projecte:ignition_ring",
+            "emc": 0
+        },
+        {
+            "item": "projecte:dm_sword",
+            "emc": 0
+        },
+        {
+            "item": "projecte:dm_hoe",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:insanium_block",
+            "emc": 0
+        },
+        {
+            "item": "functionalstorage:netherite_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "mtr:rail_connector_300_one_way",
+            "emc": 0
+        },
+        {
+            "item": "extradisks:256k_storage_disk",
+            "emc": 0
+        },
+        {
+            "item": "projecte:dm_hammer",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:invar_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsbuilder:shape_card_quarry_clear_silk",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsbuilder:shape_card_quarry_silk",
+            "emc": 0
+        },
+        {
+            "item": "projectextended:dark_matter_trident",
+            "emc": 0
+        },
+        {
+            "item": "projecte:gem_of_eternal_density",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:soul_sand_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "cabletiers:ultra_importer",
+            "emc": 0
+        },
+        {
+            "item": "cabletiers:ultra_exporter",
+            "emc": 0
+        },
+        {
+            "item": "cabletiers:ultra_destructor",
+            "emc": 0
+        },
+        {
+            "item": "cabletiers:ultra_constructor",
+            "emc": 0
+        },
+        {
+            "item": "projecte:hyperkinetic_lens",
+            "emc": 0
+        },
+        {
+            "item": "cabletiers:ultra_disk_manipulator",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:uranium_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:platinum_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsutility:module_template",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:nether_star_essence",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:imperium_paxel",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:silver_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:osmium_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lead_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:absorption_v_augment",
+            "emc": 0
+        },
+        {
+            "item": "projecte:evertide_amulet",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:constantan_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:redstone_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:obsidian_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:dm_pick",
+            "emc": 0
+        },
+        {
+            "item": "projecte:dm_axe",
+            "emc": 0
+        },
+        {
+            "item": "mtr:rail_connector_300",
+            "emc": 0
+        },
+        {
+            "item": "extrastorage:diamond_crafter",
+            "emc": 0
+        },
+        {
+            "item": "minecraft:netherite_block",
+            "emc": 0
+        },
+        {
+            "item": "compactmachines:machine_maximum",
+            "emc": 0
+        },
+        {
+            "item": "pylons:interdiction_pylon",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsbuilder:shield_block4",
+            "emc": 0
+        },
+        {
+            "item": "projecte:red_matter",
+            "emc": 0
+        },
+        {
+            "item": "rftoolspower:blazing_generator",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:jungle_plank_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:acacia_plank_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:birch_plank_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:oak_plank_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:spruce_plank_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dark_oak_plank_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:mercurial_eye",
+            "emc": 0
+        },
+        {
+            "item": "rftoolspower:endergenic",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:elite_induction_provider",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lumium_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:terracotta_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:clay_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:netherrack_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:red_sand_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:wax_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:soul_soil_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:podzol_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dirt_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:end_stone_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:grass_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:stone_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "rftoolspower:cell2",
+            "emc": 0
+        },
+        {
+            "item": "projecte:dm_boots",
+            "emc": 0
+        },
+        {
+            "item": "projecte:dark_matter_block",
+            "emc": 0
+        },
+        {
+            "item": "projecte:swiftwolf_rending_gale",
+            "emc": 0
+        },
+        {
+            "item": "projecte:watch_of_flowing_time",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:everlasting_upgrade",
+            "emc": 0
+        },
+        {
+            "item": "mtr:rail_connector_60_one_way",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:insanium_coal_block",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:insanium_ingot_block",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:supremium_paxel",
+            "emc": 0
+        },
+        {
+            "item": "projecte:rm_shears",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lapis_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsstorage:storage_module3",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diamond_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:insanium_gemstone_block",
+            "emc": 0
+        },
+        {
+            "item": "projecte:relay_mk3",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagriculture:nether_star_seeds",
+            "emc": 0
+        },
+        {
+            "item": "projecte:dm_helmet",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:quartz_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nickel_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ender_pearl_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:stack_upgrade_tier_3",
+            "emc": 0
+        },
+        {
+            "item": "projecte:rm_shovel",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:steel_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:copper_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:coal_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:zinc_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:amethyst_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:aluminum_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "extradisks:1024k_storage_part",
+            "emc": 0
+        },
+        {
+            "item": "mtr:rail_connector_60",
+            "emc": 0
+        },
+        {
+            "item": "extradisks:1024k_storage_disk",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:electrum_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:mind_stone",
+            "emc": 0
+        },
+        {
+            "item": "projecte:body_stone",
+            "emc": 0
+        },
+        {
+            "item": "projecte:soul_stone",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:andesite_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diorite_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:pumpkin_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:granite_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:melon_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "rftoolspower:dimensionalcell_advanced",
+            "emc": 0
+        },
+        {
+            "item": "projecte:dm_leggings",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:elite_induction_cell",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:bronze_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:cobbled_deepslate_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:deepslate_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "rftoolspower:cell3",
+            "emc": 0
+        },
+        {
+            "item": "projecte:dm_chestplate",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:glowstone_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:rm_sword",
+            "emc": 0
+        },
+        {
+            "item": "forbidden_arcanus:dark_nether_star_block",
+            "emc": 0
+        },
+        {
+            "item": "allthetweaks:nether_star_block",
+            "emc": 0
+        },
+        {
+            "item": "projecte:catalytic_lens",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:emerald_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "projectextended:red_matter_shield",
+            "emc": 0
+        },
+        {
+            "item": "projecte:rm_hoe",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:hay_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:sapphire_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ruby_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:peridot_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:gold_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:rm_hammer",
+            "emc": 0
+        },
+        {
+            "item": "projectextended:red_matter_trident",
+            "emc": 0
+        },
+        {
+            "item": "projecte:void_ring",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:iron_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:tin_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:red_matter_block",
+            "emc": 0
+        },
+        {
+            "item": "projecte:life_stone",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:oak_log_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:spruce_log_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:birch_log_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:jungle_log_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dark_oak_log_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:signalum_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:acacia_log_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:rm_axe",
+            "emc": 0
+        },
+        {
+            "item": "projecte:rm_pick",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:blackstone_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:tuff_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:glass_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:snow_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:basalt_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "rftoolsutility:moduleplus_template",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:ultimate_induction_provider",
+            "emc": 0
+        },
+        {
+            "item": "extrastorage:netherite_crafter",
+            "emc": 0
+        },
+        {
+            "item": "cabletiers:creative_importer",
+            "emc": 0
+        },
+        {
+            "item": "cabletiers:creative_exporter",
+            "emc": 0
+        },
+        {
+            "item": "cabletiers:creative_destructor",
+            "emc": 0
+        },
+        {
+            "item": "cabletiers:creative_constructor",
+            "emc": 0
+        },
+        {
+            "item": "cabletiers:creative_disk_manipulator",
+            "emc": 0
+        },
+        {
+            "item": "projecte:rm_boots",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:invar_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:soul_sand_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:uranium_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:platinum_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:rm_helmet",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:nether_star_shard",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:silver_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:osmium_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lead_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:arcana_ring",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:constantan_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:redstone_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:obsidian_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "mysticalagradditions:creative_essence",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:netherite_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "mekanism:ultimate_induction_cell",
+            "emc": 0
+        },
+        {
+            "item": "projecte:rm_leggings",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:jungle_plank_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:acacia_plank_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:birch_plank_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:oak_plank_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:spruce_plank_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dark_oak_plank_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "sophisticatedbackpacks:stack_upgrade_tier_4",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lumium_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:dm_pedestal",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:terracotta_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:clay_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:netherrack_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:red_sand_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:wax_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:soul_soil_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:podzol_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dirt_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:end_stone_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:grass_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:stone_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:rm_chestplate",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lapis_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diamond_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:quartz_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nickel_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ender_pearl_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:rm_morning_star",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:steel_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:rm_katar",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:copper_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:coal_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:zinc_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:amethyst_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:aluminum_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:electrum_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:andesite_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diorite_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:pumpkin_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:granite_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:melon_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:bronze_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:cobbled_deepslate_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:deepslate_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:glowstone_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nether_star_block_1x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:emerald_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:hay_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:sapphire_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ruby_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:peridot_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:gold_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:iron_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:tin_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:oak_log_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:spruce_log_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:birch_log_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:jungle_log_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dark_oak_log_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:signalum_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:acacia_log_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:blackstone_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:tuff_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:snow_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:basalt_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:invar_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:soul_sand_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:uranium_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:platinum_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:gem_boots",
+            "emc": 0
+        },
+        {
+            "item": "projecte:gem_helmet",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:silver_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:osmium_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lead_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "projecte:gem_leggings",
+            "emc": 0
+        },
+        {
+            "item": "projecte:gem_chestplate",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:constantan_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:redstone_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:obsidian_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:netherite_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:jungle_plank_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:acacia_plank_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:birch_plank_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:oak_plank_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:spruce_plank_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dark_oak_plank_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lumium_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:terracotta_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:clay_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:netherrack_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:red_sand_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:wax_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:soul_soil_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:podzol_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dirt_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:end_stone_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:grass_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:stone_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lapis_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diamond_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:quartz_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nickel_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ender_pearl_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:steel_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:copper_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:coal_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:zinc_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:amethyst_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:aluminum_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:electrum_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:andesite_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diorite_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:pumpkin_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:granite_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:melon_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:bronze_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:cobbled_deepslate_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:deepslate_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:glowstone_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nether_star_block_2x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:emerald_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:hay_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:sapphire_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ruby_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:peridot_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:gold_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:iron_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:tin_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:oak_log_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:spruce_log_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:birch_log_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:jungle_log_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dark_oak_log_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:signalum_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:acacia_log_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:blackstone_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:tuff_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:snow_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:basalt_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:invar_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:soul_sand_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:uranium_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:platinum_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:silver_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:osmium_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lead_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:constantan_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:redstone_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:obsidian_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:netherite_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:jungle_plank_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:acacia_plank_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:birch_plank_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:oak_plank_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:spruce_plank_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dark_oak_plank_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lumium_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:terracotta_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:clay_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:netherrack_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:red_sand_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:wax_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:soul_soil_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:podzol_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dirt_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:end_stone_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:grass_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:stone_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lapis_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diamond_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:quartz_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nickel_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ender_pearl_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:steel_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:copper_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:coal_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:amethyst_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:zinc_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:aluminum_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:electrum_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:andesite_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diorite_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:pumpkin_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:granite_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:melon_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:bronze_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:cobbled_deepslate_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:deepslate_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:glowstone_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nether_star_block_3x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:emerald_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:hay_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:sapphire_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ruby_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:peridot_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:gold_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:iron_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:tin_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:oak_log_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:spruce_log_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:birch_log_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:jungle_log_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dark_oak_log_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:signalum_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:acacia_log_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:tuff_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:blackstone_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:snow_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:basalt_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:invar_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:soul_sand_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:uranium_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:platinum_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:silver_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:osmium_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lead_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:constantan_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:redstone_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:obsidian_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:netherite_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:jungle_plank_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:acacia_plank_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:birch_plank_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:oak_plank_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:spruce_plank_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dark_oak_plank_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lumium_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lapis_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diamond_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:quartz_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nickel_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ender_pearl_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:steel_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:copper_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:coal_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:amethyst_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:zinc_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:aluminum_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:electrum_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:andesite_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diorite_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:granite_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:pumpkin_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:melon_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:bronze_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:glowstone_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nether_star_block_4x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:emerald_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:hay_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:sapphire_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ruby_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:peridot_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:gold_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:iron_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:tin_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:spruce_log_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:oak_log_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:birch_log_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:jungle_log_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:dark_oak_log_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:signalum_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:acacia_log_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:invar_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:soul_sand_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:uranium_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:platinum_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:silver_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:osmium_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lead_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:constantan_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:redstone_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:obsidian_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:netherite_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lumium_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lapis_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diamond_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:quartz_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nickel_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ender_pearl_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:steel_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:coal_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:copper_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:amethyst_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:zinc_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:aluminum_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:electrum_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:pumpkin_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:melon_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:bronze_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:glowstone_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nether_star_block_5x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:emerald_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthetweaks:dimensional_seed",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:hay_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:sapphire_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ruby_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:peridot_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:gold_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:iron_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:tin_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:signalum_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:invar_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:uranium_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:platinum_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:silver_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:osmium_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lead_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:constantan_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:redstone_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:netherite_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lumium_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lapis_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diamond_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:quartz_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nickel_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ender_pearl_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:steel_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:coal_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:copper_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:zinc_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:aluminum_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:electrum_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:bronze_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:glowstone_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nether_star_block_6x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:emerald_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:sapphire_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ruby_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:peridot_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:gold_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:iron_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:tin_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:signalum_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:invar_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:uranium_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:platinum_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:silver_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:osmium_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lead_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:constantan_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:netherite_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lumium_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:lapis_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diamond_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nickel_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ender_pearl_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:electrum_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nether_star_block_7x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:emerald_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:sapphire_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:ruby_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:peridot_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:gold_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:uranium_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:platinum_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:netherite_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:diamond_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nether_star_block_8x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:emerald_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:netherite_block_9x",
+            "emc": 0
+        },
+        {
+            "item": "allthecompressed:nether_star_block_9x",
+            "emc": 0
+        }
+    ]
+}
