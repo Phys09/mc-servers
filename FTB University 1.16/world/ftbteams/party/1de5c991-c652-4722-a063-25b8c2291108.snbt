@@ -1,0 +1,30 @@
+{
+	id: "1de5c991-c652-4722-a063-25b8c2291108"
+	type: "party"
+	owner: "669d890a-9ba5-4d0a-abb5-7d94d7b18c1c"
+	ranks: {
+		669d890a-9ba5-4d0a-abb5-7d94d7b18c1c: "owner"
+		e00d6f21-2889-4031-82fe-a7b53c076c6c: "member"
+		c2791d3f-5bee-425f-be34-f11ae01b46aa: "member"
+		ba0cec99-1719-4da5-97d6-de54d0ea1b3d: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "Endurium's Party"
+		"ftbteams:color": "#FF5961"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1631421704326L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"Endurium\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "669d890a-9ba5-4d0a-abb5-7d94d7b18c1c", date: 1631421730887L, text: "{\"color\":\"green\",\"extra\":[{\"color\":\"aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbteams info EnduriumsParty#1de5c991\"},\"text\":\"Endurium's Party\"}],\"text\":\"Invited Phys09 to \"}" }
+		{ from: "669d890a-9ba5-4d0a-abb5-7d94d7b18c1c", date: 1631421737268L, text: "{\"color\":\"green\",\"extra\":[{\"color\":\"aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbteams info EnduriumsParty#1de5c991\"},\"text\":\"Endurium's Party\"}],\"text\":\"Invited steroidhammers to \"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1631421737677L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"Phys09\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1631421743965L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"steroidhammers\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "669d890a-9ba5-4d0a-abb5-7d94d7b18c1c", date: 1631422128363L, text: "{\"color\":\"green\",\"extra\":[{\"color\":\"aqua\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbteams info EnduriumsParty#1de5c991\"},\"text\":\"Endurium's Party\"}],\"text\":\"Invited Play_Despacito3 to \"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1631422133464L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"Play_Despacito3\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+	]
+	extra: { }
+}

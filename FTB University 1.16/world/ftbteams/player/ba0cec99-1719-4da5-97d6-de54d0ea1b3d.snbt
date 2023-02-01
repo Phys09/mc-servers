@@ -1,0 +1,17 @@
+{
+	id: "ba0cec99-1719-4da5-97d6-de54d0ea1b3d"
+	type: "player"
+	player_name: "steroidhammers"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "steroidhammers"
+		"ftbteams:color": "#FF7759"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}
