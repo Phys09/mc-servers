@@ -1,0 +1,449 @@
+[PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit]]
+[PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [preinit]
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ActuallyAdditions.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: AE2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Akt.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ChanceCubes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Compactcoins.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ConflictFix.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Crusherit.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Cyclic.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: DungeonTactics.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ExtraUtils.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: GhostsExplosives.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Harvestcraft.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: ICBM.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: InventoryPets.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: JAOPCA.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Mekanism.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Minecolonies.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: MowziesMobs.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: MysticalAgri.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Nuc-Mek-Fix.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Oredict.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Portalgun.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Powersuits.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: RandomThings.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: SimplyJetpacks.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: TaigaDusts.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Techreborn.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Thermal.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Timber.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: TinkersConstruct.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Tooltip.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 4ms
+[INITIALIZATION][SERVER][INFO] CraftTweaker: Building registry
+[INITIALIZATION][SERVER][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [recipeevent | crafttweaker]]
+[INITIALIZATION][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: ActuallyAdditions.zs}
+[INITIALIZATION][SERVER][INFO] --- loading ActuallyAdditions.zs ---
+[INITIALIZATION][SERVER][INFO] --- ActuallyAdditions.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: AE2.zs}
+[INITIALIZATION][SERVER][INFO] --- loading AE2.zs ---
+[INITIALIZATION][SERVER][INFO] --- AE2.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Akt.zs}
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <tconstruct:book>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <industrialforegoing:book_manual>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <astralsorcery:itemjournal>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <immersiveengineering:tool:3>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <rftools:rftools_manual>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <guideapi:cyclicmagic-guide>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <botania:lexicon>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <extrautils2:book>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <thermalfoundation:tome_lexicon>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <actuallyadditions:item_booklet>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <integrateddynamics:on_the_dynamics_of_integration>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <rftoolsdim:rftoolsdim_manual>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <openblocks:info_book>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <forestry:book_forester>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <ebwizardry:wizard_handbook>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <conarm:book>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <thebetweenlands:manual_hl>: "Included within the standard Akashic Tome"
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: ChanceCubes.zs}
+[INITIALIZATION][SERVER][INFO] --- loading ChanceCubes.zs ---
+[INITIALIZATION][SERVER][INFO] --- ChanceCubes.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Compactcoins.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: ConflictFix.zs}
+[INITIALIZATION][SERVER][INFO] --- loading ConflictFix.zs ---
+[INITIALIZATION][SERVER][INFO] --- ConflictFix.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Crusherit.zs}
+[INITIALIZATION][SERVER][INFO] --- loading Crushit.zs ---
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Destabilized Redstone Ore
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Energized Netherrack
+[INITIALIZATION][SERVER][INFO] --- Crushit.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Cyclic.zs}
+[INITIALIZATION][SERVER][INFO] --- loading Cyclic.zs ---
+[INITIALIZATION][SERVER][INFO] --- Cyclic.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: DungeonTactics.zs}
+[INITIALIZATION][SERVER][INFO] --- loading DungeonTactics.zs ---
+[INITIALIZATION][SERVER][INFO] --- DungeonTactics.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: ExtraUtils.zs}
+[INITIALIZATION][SERVER][INFO] --- loading ExtrUtils.zs ---
+[INITIALIZATION][SERVER][INFO] --- ExtrUtils.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: GhostsExplosives.zs}
+[INITIALIZATION][SERVER][INFO] --- loading GhostsExplosives.zs ---
+[INITIALIZATION][SERVER][INFO] --- GhostsExplosives.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Harvestcraft.zs}
+[INITIALIZATION][SERVER][INFO] --- loading Harvestcraft.zs ---
+[INITIALIZATION][SERVER][INFO] --- Harvestcraft.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: ICBM.zs}
+[INITIALIZATION][SERVER][INFO] --- loading ICBM.zs ---
+[INITIALIZATION][SERVER][INFO] --- ICBM.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: InventoryPets.zs}
+[INITIALIZATION][SERVER][INFO] --- loading InventoryPets.zs ---
+[INITIALIZATION][SERVER][INFO] --- InventoryPets.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: JAOPCA.zs}
+[INITIALIZATION][SERVER][INFO] --- loading JAOPCA.zs ---
+[INITIALIZATION][SERVER][INFO] --- JAOPCA.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Mekanism.zs}
+[INITIALIZATION][SERVER][INFO] --- loading Mekanism.zs ---
+[INITIALIZATION][SERVER][INFO] --- Mekanism.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Minecolonies.zs}
+[INITIALIZATION][SERVER][INFO] --- loading Minecolonies.zs ---
+[INITIALIZATION][SERVER][INFO] --- Minecolonies.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: MowziesMobs.zs}
+[INITIALIZATION][SERVER][INFO] --- loading MowziesMobs.zs ---
+[INITIALIZATION][SERVER][INFO] --- MowziesMobs.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: MysticalAgri.zs}
+[INITIALIZATION][SERVER][INFO] --- loading MysticalAgri.zs ---
+[INITIALIZATION][SERVER][INFO] --- MysticalAgri.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Nuc-Mek-Fix.zs}
+[INITIALIZATION][SERVER][INFO] --- loading Nuk-Mek-Fix.zs ---
+[INITIALIZATION][SERVER][INFO] --- Nuk-Mek-Fix.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Oredict.zs}
+[INITIALIZATION][SERVER][INFO] --- loading Oredict.zs ---
+[INITIALIZATION][SERVER][INFO] Adding Raven Feather to ore dictionary entry RavenFeather
+[INITIALIZATION][SERVER][INFO] Adding Raven's Feather to ore dictionary entry RavenFeather
+[INITIALIZATION][SERVER][INFO] --- Oredict.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Portalgun.zs}
+[INITIALIZATION][SERVER][INFO] --- loading Portalgun.zs ---
+[INITIALIZATION][SERVER][INFO] --- Portalgun.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Powersuits.zs}
+[INITIALIZATION][SERVER][INFO] --- loading Powersuit.zs ---
+[INITIALIZATION][SERVER][INFO] --- Powersuit.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: RandomThings.zs}
+[INITIALIZATION][SERVER][INFO] --- loading RandomThings.zs ---
+[INITIALIZATION][SERVER][INFO] --- RandomThings.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: SimplyJetpacks.zs}
+[INITIALIZATION][SERVER][INFO] --- loading SimplyJetpacks.zs ---
+[INITIALIZATION][SERVER][INFO] --- SimplyJetpacks.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: TaigaDusts.zs}
+[INITIALIZATION][SERVER][INFO] --- loading TaigaDusts.zs ---
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Tiberium Ore
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Aurorium Ore
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Jauxum Ore
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Ovium Ore
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Karmesine Ore
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Vibranium Ore
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Valyrium Ore
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Duranite Ore
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Prometheum Ore
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Eezo Ore
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Abyssum Ore
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Osram Ore
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Uru Ore
+[INITIALIZATION][SERVER][INFO] Adding Crusher Recipe for Palladium Ore
+[INITIALIZATION][SERVER][INFO] --- TaigaDusts.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Techreborn.zs}
+[INITIALIZATION][SERVER][INFO] --- loading Techreborn.zs ---
+[INITIALIZATION][SERVER][INFO] --- Techreborn.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Thermal.zs}
+[INITIALIZATION][SERVER][INFO] --- loading Thermal.zs ---
+[INITIALIZATION][SERVER][INFO] --- Thermal.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Timber.zs}
+[INITIALIZATION][SERVER][INFO] --- loading Timber.zs ---
+[INITIALIZATION][SERVER][INFO] --- Timber.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: TinkersConstruct.zs}
+[INITIALIZATION][SERVER][INFO] --- loading TinkersConstruct.zs ---
+[INITIALIZATION][SERVER][INFO] Altering Alloy Recipe(s) for <liquid:steel>
+[INITIALIZATION][SERVER][INFO] --- TinkersConstruct.zs initialized ---
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Tooltip.zs}
+[INITIALIZATION][SERVER][INFO] --- loading Tooltip.zs ---
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <extrautils2:bagofholding>: "WARNING! Deletes items when switching gamemodes"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <improvedbackpacks:backpack>: "WARNING! Do not SHIFT+Click place into the world"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <ftbquests:lootcrate>.withTag({type: "cultist"}): "Step one... Dress to impress!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <ftbquests:lootcrate>.withTag({type: "extraterrestrial_cache"}): "Keep your eyes on the stars, and your feet on the ground. -Theodore Roosevelt"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <mysticalagriculture:diamond_seeds>: "Do all Mystical Agriculture quests to unlock"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <mysticalagriculture:gold_seeds>: "Do all Farming and Agriculture quests to unlock"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <minecolonies:blockhuttownhall>: "Use a supplyship or supplycamp to obtain"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <actuallyadditions:block_grinder>: "Disabled"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <ftbquests:lootcrate>.withTag({type: "cheesy_cache"}): "Hmm I wonder what it tastes like?... Did I really just think that? Yes you did"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <ftbquests:lootcrate>.withTag({type: "common_lootbox"}): "Random loot reward for completing a quest"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <ftbquests:lootcrate>.withTag({type: "unclaimed_black_market_container"}): "An item sold at a previous auction that was never picked up by the winning bidder. Buyer beware."
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <nuclearcraft:ore:3>: "Only found in the Beneath"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <immersiveengineering:ore:5>: "Only found in the Beneath"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <icbmclassic:emptower>: "Only obtainable from the Shop"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <nuclearcraft:ore:5>: "Only found in the Beneath"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <nuclearcraft:ore:6>: "Only found in the Beneath"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <nuclearcraft:ore:7>: "Only found in the Beneath"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <mekanism:oreblock>: "Only found in the Beneath"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <mysticalagriculture:supremium_helmet>: "Disabled Flight"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <mysticalagriculture:supremium_chestplate>: "Disabled Flight"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <mysticalagriculture:supremium_leggings>: "Disabled Flight"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <mysticalagriculture:supremium_boots>: "Disabled Flight"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <icbmclassic:batterybox>: "DO NOT USE!"
+[INITIALIZATION][SERVER][INFO] --- Tooltip.zs initialized ---
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 954ms
+[POSTINITIALIZATION][SERVER][INFO] Removing Grinder Entry for Flour
+[POSTINITIALIZATION][SERVER][INFO] Adding Grinder Entry for Wheat
+[POSTINITIALIZATION][SERVER][INFO] Removing recipes for various outputs
+[POSTINITIALIZATION][SERVER][INFO] Removing Shaped recipes for <ghostsexplosives:dust_charcoal> * 2
+[POSTINITIALIZATION][SERVER][INFO] 0 removed
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <harvestcraft:plainyogurtitem> * 4
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shaped recipes for <icbmclassic:launcherbase:1>
+[POSTINITIALIZATION][SERVER][INFO] 0 removed
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <inventorypets:nugget_coal> * 8
+[POSTINITIALIZATION][SERVER][INFO] Removing 0 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <jaopca:item_nuggetcoal> * 9
+[POSTINITIALIZATION][SERVER][INFO] Removing 0 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shaped recipes for <powersuits:powerarmor_torso>.withTag({MMModItem: {commonValues: {}}})
+[POSTINITIALIZATION][SERVER][INFO] 0 removed
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Akashic Tome with name ct_shapeless-278955794
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Chance Cube with name ct_shaped922772153
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Θ 9 Coin with name ct_shapeless1965625350
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Θ 81 Coin with name ct_shapeless-647309962
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Θ 729 Coin with name ct_shapeless-1017233330
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Θ 6,561 Coin with name ct_shapeless-880860956
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Θ 729 Coin with name ct_shapeless1955951825
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Θ 81 Coin with name ct_shapeless990750389
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Θ 9 Coin with name ct_shapeless446517559
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Θ 1 Coin with name ct_shapeless1938721377
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Advanced Recipe with name ct_shaped2142230608
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Obsidian Shaft with name ct_shaped-1874771110
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for ID Card with name ct_shaped-587563829
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Black Paper with name ct_shaped458110733
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Crossbow Arrow with name ct_shaped630790282
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Iron Knife with name ct_shaped-1923243823
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Iron Chain Link with name ct_shaped-2041319720
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Disk Platter with name ct_shaped677834080
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Iron Wand with name ct_shaped-804435137
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Scan Tool with name ct_shaped-783332859
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Magic Map Focus with name ct_shaped1785478179
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Slimey Generator with name ct_shaped-1078949080
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Necrotic Bone with name ct_shapeless-783077862
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Witherbone with name ct_shapeless-564917734
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Witherbone Shard with name ct_shapeless-1331274061
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Birch Trapdoor with name ct_shapeless533394551
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Acacia Trapdoor with name ct_shapeless-1926327897
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spruce Trapdoor with name ct_shapeless-61431821
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Jungle Trapdoor with name ct_shapeless-748400343
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Dark Oak Trapdoor with name ct_shapeless-1035496945
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Obsidian Skull Ring with name ct_shapeless995448462
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Stone Wand with name ct_shaped-1615663197
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Building Tool with name ct_shaped1050750715
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Birch Trapdoor with name ct_shapeless-521612221
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Acacia Trapdoor with name ct_shapeless654371925
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spruce Trapdoor with name ct_shapeless-1401103467
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Jungle Trapdoor with name ct_shapeless-1210605003
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Dark Oak Trapdoor with name ct_shapeless-1801086187
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Iron Ring with name ct_shaped640835688
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Angel Ring with name ct_shaped-654690323
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Angel Ring with name ct_shaped-559307610
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Angel Ring with name ct_shaped1117826617
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Angel Ring with name ct_shaped-304874290
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Angel Ring with name ct_shaped61773777
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Angel Ring with name ct_shaped736668913
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Charcoal Dust with name ct_shapeless168551989
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Nuclear TNT with name ct_shaped-1171323588
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Toast with name ct_shaped-571182887
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Antimatter Explosives with name ct_shaped-1269802182
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Red Matter Explosives with name ct_shaped-405706254
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Launcher Platform T2 with name ct_shaped722588329
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Launcher Support Frame T1 with name ct_shaped2134008249
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Launcher Platform T1 with name ct_shaped-587215999
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Shrapnel Explosives with name ct_shaped1354999062
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Antimatter Explosives with name ct_shaped1224987671
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Condensed Explosives with name ct_shaped-404375116
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Nuclear Explosives with name ct_shaped-224384869
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Coal Nugget with name ct_shapeless-285348742
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Earth Talisman with name ct_shaped412472159
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Iron Seeds with name ct_shaped843048245
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Portal Gun with name ct_shaped1070804369
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Little Chisel with name ct_shaped1833277418
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Power Armor Tinker Table with name ct_shaped1524152329
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Ion Thruster with name ct_shaped1344783353
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Power Armor Tinker Table with name ct_shaped-2100232141
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Power Armor Chestplate with name ct_shaped1845577671
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Power Fist with name ct_shaped-422269194
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Advanced Drill with name ct_shapeless-369090164
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Luminous Powder with name ct_shaped411613896
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Creative Jetpack with name ct_shapeless-751355261
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Space Station Assembler with name ct_shaped2061438782
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Grinder with name ct_shaped-1821750550
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Industrial Chunkloader with name ct_shaped940958117
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Chemical Reactor with name ct_shaped782817603
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Fueling station with name ct_shaped-862656599
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Rocket Assembling Machine with name ct_shaped-779389970
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Steel Ingot with name ct_shaped2063563059
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <thermalfoundation:material:893> * 3
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <thermalfoundation:material:893> * 3
+[POSTINITIALIZATION][SERVER][INFO] Adding 2 Mekanism Smelter Recipe(s) for <nuclearcraft:ingot:6>, <nuclearcraft:ingot:6>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <nuclearcraft:ingot:6>
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Smelter Recipe(s) for <astralsorcery:itemcraftingcomponent:1>
+[POSTINITIALIZATION][SERVER][INFO] Adding 2 Mekanism Smelter Recipe(s) for <nuclearcraft:ingot:3>, <nuclearcraft:ingot:3>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <nuclearcraft:ingot:3>
+[POSTINITIALIZATION][SERVER][INFO] Adding 8 Mekanism Smelter Recipe(s) for <minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:iron_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:iron_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:iron_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:iron_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:iron_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:iron_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:iron_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:iron_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Adding 8 Mekanism Smelter Recipe(s) for <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:gold_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:gold_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:gold_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:gold_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:gold_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:gold_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:gold_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:gold_ingot>
+[POSTINITIALIZATION][SERVER][INFO] Adding 6 Mekanism Smelter Recipe(s) for <thermalfoundation:material:128>, <thermalfoundation:material:128>, <thermalfoundation:material:128>, <thermalfoundation:material:128>, <thermalfoundation:material:128>, <thermalfoundation:material:128>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:128>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:128>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:128>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:128>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:128>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:128>
+[POSTINITIALIZATION][SERVER][INFO] Adding 5 Mekanism Smelter Recipe(s) for <thermalfoundation:material:129>, <thermalfoundation:material:129>, <thermalfoundation:material:129>, <thermalfoundation:material:129>, <thermalfoundation:material:129>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:129>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:129>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:129>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:129>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:129>
+[POSTINITIALIZATION][SERVER][INFO] Adding 5 Mekanism Smelter Recipe(s) for <thermalfoundation:material:130>, <thermalfoundation:material:130>, <thermalfoundation:material:130>, <thermalfoundation:material:130>, <thermalfoundation:material:130>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:130>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:130>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:130>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:130>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:130>
+[POSTINITIALIZATION][SERVER][INFO] Adding 5 Mekanism Smelter Recipe(s) for <thermalfoundation:material:131>, <thermalfoundation:material:131>, <thermalfoundation:material:131>, <thermalfoundation:material:131>, <thermalfoundation:material:131>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:131>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:131>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:131>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:131>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:131>
+[POSTINITIALIZATION][SERVER][INFO] Adding 5 Mekanism Smelter Recipe(s) for <thermalfoundation:material:132>, <thermalfoundation:material:132>, <thermalfoundation:material:132>, <thermalfoundation:material:132>, <thermalfoundation:material:132>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:132>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:132>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:132>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:132>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:132>
+[POSTINITIALIZATION][SERVER][INFO] Adding 5 Mekanism Smelter Recipe(s) for <thermalfoundation:material:132>, <thermalfoundation:material:132>, <thermalfoundation:material:132>, <thermalfoundation:material:132>, <thermalfoundation:material:132>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:132>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:132>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:132>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:132>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:132>
+[POSTINITIALIZATION][SERVER][INFO] Adding 3 Mekanism Smelter Recipe(s) for <thermalfoundation:material:133>, <thermalfoundation:material:133>, <thermalfoundation:material:133>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:133>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:133>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:133>
+[POSTINITIALIZATION][SERVER][INFO] Adding 2 Mekanism Smelter Recipe(s) for <thermalfoundation:material:134>, <thermalfoundation:material:134>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:134>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:134>
+[POSTINITIALIZATION][SERVER][INFO] Adding 3 Mekanism Smelter Recipe(s) for <thermalfoundation:material:135>, <thermalfoundation:material:135>, <thermalfoundation:material:135>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:135>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:135>
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Smelter Recipe(s) for <thermalfoundation:material:136>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <thermalfoundation:material:136>
+[POSTINITIALIZATION][SERVER][INFO] Adding 5 Mekanism Smelter Recipe(s) for <minecraft:coal>, <minecraft:coal>, <minecraft:coal>, <minecraft:coal>, <minecraft:coal>
+[POSTINITIALIZATION][SERVER][INFO] Overwritten Mekanism Smelter Recipe for <minecraft:coal>
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <taiga:tiberium_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <taiga:aurorium_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <taiga:jauxum_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <taiga:ovium_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <taiga:karmesine_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <taiga:vibranium_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <taiga:valyrium_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <taiga:duranite_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <taiga:prometheum_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <taiga:eezo_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <taiga:abyssum_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <taiga:osram_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <taiga:uru_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Enrichment Chamber Recipe(s) for <taiga:palladium_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <taiga:tiberium_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <taiga:aurorium_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <taiga:jauxum_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <taiga:ovium_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <taiga:karmesine_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <taiga:vibranium_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <taiga:valyrium_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <taiga:duranite_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <taiga:prometheum_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <taiga:eezo_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <taiga:abyssum_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <taiga:osram_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <taiga:uru_dust> * 2
+[POSTINITIALIZATION][SERVER][INFO] Adding 1 Mekanism Crusher Recipe(s) for <taiga:palladium_dust> * 2
+[AVAILABLE][SERVER][INFO] Adding chisel group called: timberframe_oak
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_oak and item: 1xtile.structurize.blockTimberFrame_oak_doublecrossed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_oak and item: 1xtile.structurize.blockTimberFrame_oak_downgated@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_oak and item: 1xtile.structurize.blockTimberFrame_oak_framed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_oak and item: 1xtile.structurize.blockTimberFrame_oak_gateframed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_oak and item: 1xtile.structurize.blockTimberFrame_oak_horizontalnocap@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_oak and item: 1xtile.structurize.blockTimberFrame_oak_horizontalplain@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_oak and item: 1xtile.structurize.blockTimberFrame_oak_onecrossedlr@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_oak and item: 1xtile.structurize.blockTimberFrame_oak_onecrossedrl@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_oak and item: 1xtile.structurize.blockTimberFrame_oak_plain@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_oak and item: 1xtile.structurize.blockTimberFrame_oak_sideframed@0
+[AVAILABLE][SERVER][INFO] Adding chisel group called: timberframe_spruce
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_spruce and item: 1xtile.structurize.blockTimberFrame_spruce_doublecrossed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_spruce and item: 1xtile.structurize.blockTimberFrame_spruce_downgated@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_spruce and item: 1xtile.structurize.blockTimberFrame_spruce_framed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_spruce and item: 1xtile.structurize.blockTimberFrame_spruce_gateframed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_spruce and item: 1xtile.structurize.blockTimberFrame_spruce_horizontalnocap@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_spruce and item: 1xtile.structurize.blockTimberFrame_spruce_horizontalplain@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_spruce and item: 1xtile.structurize.blockTimberFrame_spruce_onecrossedlr@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_spruce and item: 1xtile.structurize.blockTimberFrame_spruce_onecrossedrl@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_spruce and item: 1xtile.structurize.blockTimberFrame_spruce_plain@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_spruce and item: 1xtile.structurize.blockTimberFrame_spruce_sideframed@0
+[AVAILABLE][SERVER][INFO] Adding chisel group called: timberframe_birch
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_birch and item: 1xtile.structurize.blockTimberFrame_birch_doublecrossed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_birch and item: 1xtile.structurize.blockTimberFrame_birch_downgated@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_birch and item: 1xtile.structurize.blockTimberFrame_birch_framed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_birch and item: 1xtile.structurize.blockTimberFrame_birch_gateframed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_birch and item: 1xtile.structurize.blockTimberFrame_birch_horizontalnocap@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_birch and item: 1xtile.structurize.blockTimberFrame_birch_horizontalplain@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_birch and item: 1xtile.structurize.blockTimberFrame_birch_onecrossedlr@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_birch and item: 1xtile.structurize.blockTimberFrame_birch_onecrossedrl@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_birch and item: 1xtile.structurize.blockTimberFrame_birch_plain@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_birch and item: 1xtile.structurize.blockTimberFrame_birch_sideframed@0
+[AVAILABLE][SERVER][INFO] Adding chisel group called: timberframe_jungle
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_jungle and item: 1xtile.structurize.blockTimberFrame_jungle_doublecrossed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_jungle and item: 1xtile.structurize.blockTimberFrame_jungle_downgated@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_jungle and item: 1xtile.structurize.blockTimberFrame_jungle_framed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_jungle and item: 1xtile.structurize.blockTimberFrame_jungle_gateframed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_jungle and item: 1xtile.structurize.blockTimberFrame_jungle_horizontalnocap@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_jungle and item: 1xtile.structurize.blockTimberFrame_jungle_horizontalplain@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_jungle and item: 1xtile.structurize.blockTimberFrame_jungle_onecrossedlr@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_jungle and item: 1xtile.structurize.blockTimberFrame_jungle_onecrossedrl@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_jungle and item: 1xtile.structurize.blockTimberFrame_jungle_plain@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_jungle and item: 1xtile.structurize.blockTimberFrame_jungle_sideframed@0
+[AVAILABLE][SERVER][INFO] Adding chisel group called: timberframe_acacia
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_acacia and item: 1xtile.structurize.blockTimberFrame_acacia_doublecrossed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_acacia and item: 1xtile.structurize.blockTimberFrame_acacia_downgated@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_acacia and item: 1xtile.structurize.blockTimberFrame_acacia_framed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_acacia and item: 1xtile.structurize.blockTimberFrame_acacia_gateframed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_acacia and item: 1xtile.structurize.blockTimberFrame_acacia_horizontalnocap@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_acacia and item: 1xtile.structurize.blockTimberFrame_acacia_horizontalplain@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_acacia and item: 1xtile.structurize.blockTimberFrame_acacia_onecrossedlr@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_acacia and item: 1xtile.structurize.blockTimberFrame_acacia_onecrossedrl@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_acacia and item: 1xtile.structurize.blockTimberFrame_acacia_plain@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_acacia and item: 1xtile.structurize.blockTimberFrame_acacia_sideframed@0
+[AVAILABLE][SERVER][INFO] Adding chisel group called: timberframe_dark_oak
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_dark_oak and item: 1xtile.structurize.blockTimberFrame_dark_oak_doublecrossed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_dark_oak and item: 1xtile.structurize.blockTimberFrame_dark_oak_downgated@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_dark_oak and item: 1xtile.structurize.blockTimberFrame_dark_oak_framed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_dark_oak and item: 1xtile.structurize.blockTimberFrame_dark_oak_gateframed@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_dark_oak and item: 1xtile.structurize.blockTimberFrame_dark_oak_horizontalnocap@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_dark_oak and item: 1xtile.structurize.blockTimberFrame_dark_oak_horizontalplain@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_dark_oak and item: 1xtile.structurize.blockTimberFrame_dark_oak_onecrossedlr@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_dark_oak and item: 1xtile.structurize.blockTimberFrame_dark_oak_onecrossedrl@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_dark_oak and item: 1xtile.structurize.blockTimberFrame_dark_oak_plain@0
+[AVAILABLE][SERVER][INFO] Adding chisel variation for group: timberframe_dark_oak and item: 1xtile.structurize.blockTimberFrame_dark_oak_sideframed@0
