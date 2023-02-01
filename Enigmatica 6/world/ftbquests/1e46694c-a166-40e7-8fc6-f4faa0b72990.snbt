@@ -1,0 +1,14 @@
+{
+	version: 1
+	uuid: "1e46694ca16640e78fc6f4faa0b72990"
+	name: "s"
+	can_edit: false
+	lock: false
+	money: 0L
+	auto_pin: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

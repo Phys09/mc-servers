@@ -1,0 +1,14 @@
+{
+	version: 1
+	uuid: "ab914b70f9594344971f9c1e1e495115"
+	name: "Main"
+	can_edit: false
+	lock: false
+	money: 0L
+	auto_pin: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

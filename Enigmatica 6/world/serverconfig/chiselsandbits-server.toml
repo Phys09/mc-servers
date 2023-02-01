@@ -1,0 +1,40 @@
+
+[server]
+
+	#server.balancing
+	[server.balancing]
+
+		[server.balancing.server]
+
+			[server.balancing.server.balancing]
+
+				[server.balancing.server.balancing.random-ticking-blocks]
+					#server.balancing.random-ticking-blocks.blacklisted
+					blacklisted = false
+
+				[server.balancing.server.balancing.compatibility-mode]
+					#server.balancing.compatibility-mode.enabled
+					enabled = false
+
+				[server.balancing.server.balancing.bag]
+					#server.balancing.bag.stack-size
+					#Range: > -2147483648
+					stack-size = 512
+
+				[server.balancing.server.balancing.change-tracker]
+					#mod.chiselsandbits.config.server.balancing.server.balancing.change-tracker.size.comment
+					#Range: 20 ~ 40
+					size = 20
+
+	[server.server]
+
+		#mod.chiselsandbits.config.server.style.comment
+		[server.server.style]
+
+			[server.server.style.server]
+
+				[server.server.style.server.style]
+					#mod.chiselsandbits.config.server.style.server.style.bitsize.comment
+					#Allowed Values: ONE_SIXTEENTH, ONE_EIGHT, ONE_QUARTER, ONE_HALF, ONE
+					bitsize = "ONE_SIXTEENTH"
+

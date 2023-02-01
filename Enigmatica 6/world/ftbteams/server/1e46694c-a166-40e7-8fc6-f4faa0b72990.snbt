@@ -1,0 +1,16 @@
+{
+	id: "1e46694c-a166-40e7-8fc6-f4faa0b72990"
+	type: "server"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "s"
+		"ftbteams:color": "#C359FF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}
