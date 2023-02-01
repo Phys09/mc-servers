@@ -1,0 +1,116 @@
+[19:18:16] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[19:18:16] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[19:18:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[19:18:16] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[19:18:16] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[19:18:16] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_331, running on Windows 11:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_331
+[19:18:16] [main/DEBUG] [FML]: Java classpath at launch is:
+[19:18:16] [main/DEBUG] [FML]:     forge-1.12.2-14.23.5.2860.jar
+[19:18:16] [main/DEBUG] [FML]: Java library path at launch is:
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[19:18:16] [main/DEBUG] [FML]:     C:\WINDOWS\Sun\Java\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\WINDOWS\system32
+[19:18:16] [main/DEBUG] [FML]:     C:\WINDOWS
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[19:18:16] [main/DEBUG] [FML]:     C:\Python310\Scripts\
+[19:18:16] [main/DEBUG] [FML]:     C:\Python310\
+[19:18:16] [main/DEBUG] [FML]:     C:\WINDOWS\system32
+[19:18:16] [main/DEBUG] [FML]:     C:\WINDOWS
+[19:18:16] [main/DEBUG] [FML]:     C:\WINDOWS\System32\Wbem
+[19:18:16] [main/DEBUG] [FML]:     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[19:18:16] [main/DEBUG] [FML]:     C:\WINDOWS\System32\OpenSSH\
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\dotnet\
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\Neovim\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\Emacs\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files (x86)\Vim\vim82
+[19:18:16] [main/DEBUG] [FML]:     C:\gradle\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files (x86)\PDFtk\bin\
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\Microsoft VS Code\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\MiKTeX 2.9\miktex\bin\x64\
+[19:18:16] [main/DEBUG] [FML]:     C:\WINDOWS\system32
+[19:18:16] [main/DEBUG] [FML]:     C:\WINDOWS
+[19:18:16] [main/DEBUG] [FML]:     C:\WINDOWS\System32\Wbem
+[19:18:16] [main/DEBUG] [FML]:     C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+[19:18:16] [main/DEBUG] [FML]:     C:\WINDOWS\System32\OpenSSH\
+[19:18:16] [main/DEBUG] [FML]:     C:\Strawberry\c\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Strawberry\perl\site\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Strawberry\perl\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\Git LFS
+[19:18:16] [main/DEBUG] [FML]:     C:\ProgramData\chocolatey\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\Git\cmd
+[19:18:16] [main/DEBUG] [FML]:     C:\cygwin64\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\R\R-4.0.4\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\qpdf\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files (x86)\PDFtk Server\bin\
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files (x86)\QPDF\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files (x86)\apache-maven-3.6.3\bin
+[19:18:16] [main/DEBUG] [FML]:     F:\Program Files (x86)\node
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\PostgreSQL\14\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files (x86)\dotnet\
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files (x86)\apache-maven-3.6.3\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\Java\jdk-16.0.2\bin
+[19:18:16] [main/DEBUG] [FML]:     
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\Docker\Docker\resources\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\ProgramData\DockerDesktop\version-bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\PowerShell\7\
+[19:18:16] [main/DEBUG] [FML]:     C:\Ruby26-x64\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Users\hyper\AppData\Local\Microsoft\WindowsApps
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.2\bin
+[19:18:16] [main/DEBUG] [FML]:     
+[19:18:16] [main/DEBUG] [FML]:     C:\Users\hyper\AppData\Local\Programs\Microsoft VS Code\bin
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\MiKTeX 2.9\miktex\bin\x64
+[19:18:16] [main/DEBUG] [FML]:     C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\bin
+[19:18:16] [main/DEBUG] [FML]:     
+[19:18:16] [main/DEBUG] [FML]:     C:\Users\hyper\AppData\Local\Pandoc\
+[19:18:16] [main/DEBUG] [FML]:     C:\Users\hyper\AppData\Roaming\npm
+[19:18:16] [main/DEBUG] [FML]:     C:\WINDOWS\system32
+[19:18:16] [main/DEBUG] [FML]:     
+[19:18:16] [main/DEBUG] [FML]:     .
+[19:18:16] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: F:\mc-servers\Divine Journey 2\libraries
+[19:18:16] [main/DEBUG] [FML]: Cleaning up mods folder: .\mods
+[19:18:16] [main/DEBUG] [FML]: Examining file: AbyssalCraft Integration-1.12.2-1.11.3.jar
+[19:18:16] [main/DEBUG] [FML]: Examining file: AbyssalCraft-1.12.2-1.10.4.jar
+[19:18:16] [main/DEBUG] [FML]: Examining file: ActuallyAdditions-1.12.2-r152.jar
+[19:18:16] [main/DEBUG] [FML]: Examining file: ActuallyBaubles-1.12-1.1.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: additionalresources-1.9.4-0.2.0.28+47cd0bd_signed.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: AE2WTLib-1.12.2-1.0.34.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: aether-1.12.2-v1.5.3.2.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: agricraft-2.12.0-1.12.2-b2.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: AkashicTome-1.2-12.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: alchemistry-1.12.2-42.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: alib-1.0.12.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: AppleSkin-mc1.12-1.0.14.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: appliedenergistics2-rv6-stable-7-extended_life-v51e.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: astral-level-nerf-1.0.1-all.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: astralsorcery-1.12.2-1.10.27.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: Atum-1.12.2-2.0.20.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: AutoRegLib-1.3-32.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: Avaritia-1.12.2-3.3.0.37-universal.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: Avaritiaddons-1.12.2-1.2.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: BadMobs-1.12.2-1.1.40.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: badwithernocookiereloaded-1.12.2-3.4.18.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: base-1.12.2-3.14.0.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: BasicNetherOres-1.12.2-1.0.5.0.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: Baubles-1.12-1.5.2.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: baubley-heart-canisters-1.12.2-1.2.3.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: bedpatch-2.2-1.12.2.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: bettercaves-1.12.2-2.0.4.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: BetterFps-1.4.8.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: betternether-0.1.8.6.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: betterp2p-1.12.2-1.2.2.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: BetterQuesting-3.5.329.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: bewitchment-1.12.2-0.0.22.64.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: BiblioCraft[v2.4.6][MC1.12.2].jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: BiggerCraftingTables-1.12.2-2.3.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: BiomeTweaker-1.12.2-3.2.369.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: BloodMagic-1.12.2-2.4.3-105.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: BNBGamingCore-1.12.2-0.12.0.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: BNBGamingLib-1.12.2-2.17.6.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: Bookshelf-1.12.2-2.3.590.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: Botania r1.10-364.4.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: BQTweaker-1.3.3.jar
+[19:18:17] [main/DEBUG] [FML]: Examining file: BrandonsCore-1.12.2-2.4.20.162-universal.jar

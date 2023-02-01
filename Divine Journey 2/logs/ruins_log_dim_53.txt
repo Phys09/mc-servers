@@ -1,0 +1,9 @@
+
+Loading options from: F:\mc-servers\Divine Journey 2\world\The_Dark_Realm
+tries_per_chunk_normal = 2
+chance_to_spawn_normal = 10.0
+templateInstancesMinDistance = 1024.0
+anyRuinsMinDistance = 128.0
+anySpawnMinDistance = 64
+anySpawnMaxDistance = 2147483647
+Ruins mod loaded successfully for world .\world\The_Dark_Realm, template files: 31
