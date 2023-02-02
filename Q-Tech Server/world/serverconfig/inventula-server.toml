@@ -1,0 +1,8 @@
+
+#Inventula server side config
+[inventula]
+	#Change this to change the speed of the dispenser shooting items (only new behaviour)
+	dispenser_speed = 1.0
+	#Change this to allow or deny dispenser item entities to enter item storage blocks
+	allow_dispenser_item_handler_interaction = true
+
