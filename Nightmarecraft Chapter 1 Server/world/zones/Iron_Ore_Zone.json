@@ -1,0 +1,26 @@
+{
+  "name": "Iron Ore Zone",
+  "blocks": [
+    "minecraft:iron_ore"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 5,
+          "id": "nightmarecraft:corrupted_dog_skeleton_entity"
+        },
+        {
+          "reward": 0,
+          "quantity": 2,
+          "id": "nightmarecraft:tentacles_pirate_skeleton"
+        }
+      ],
+      "spawnTime": 100,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Polished Diorite Zone",
+  "blocks": [
+    "minecraft:polished_diorite"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 7,
+          "id": "nightmarecraft:dog_skeleton_entity"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 5
+    }
+  ],
+  "displayZoneComplete": false
+}

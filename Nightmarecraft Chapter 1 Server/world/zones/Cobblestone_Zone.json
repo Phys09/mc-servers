@@ -1,0 +1,46 @@
+{
+  "name": "Cobblestone Zone",
+  "blocks": [
+    "minecraft:cobblestone"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 5,
+          "id": "nightmarecraft:corrupted_dog_skeleton_entity"
+        },
+        {
+          "reward": 0,
+          "quantity": 5,
+          "id": "nightmarecraft:corrupted_fourarms_skeleton_entity"
+        },
+        {
+          "reward": 0,
+          "quantity": 5,
+          "id": "nightmarecraft:corrupted_tall_skeleton_entity"
+        },
+        {
+          "reward": 0,
+          "quantity": 4,
+          "id": "nightmarecraft:tall_skeleton_entity"
+        },
+        {
+          "reward": 0,
+          "quantity": 20,
+          "id": "minecraft:magma_cube"
+        },
+        {
+          "reward": 0,
+          "quantity": 10,
+          "id": "minecraft:blaze"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Granite Zone",
+  "blocks": [
+    "minecraft:granite"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 2,
+          "EntityTag": {
+            "Attributes":[{"Name":"generic.movementSpeed","Base":100}],
+            "Health":"300.0f"
+          },
+          "id": "nightmarecraft:corrupted_dog_skeleton_entity"
+        }
+      ],
+      "spawnTime": 400,
+      "radius": 10
+    }
+  ],
+  "displayZoneComplete": false
+}

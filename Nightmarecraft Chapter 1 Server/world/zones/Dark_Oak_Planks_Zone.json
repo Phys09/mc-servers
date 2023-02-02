@@ -1,0 +1,26 @@
+{
+  "name": "Dark Oak Planks Zone",
+  "blocks": [
+    "minecraft:dark_oak_planks"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 3,
+          "id": "minecraft:stray"
+        },
+        {
+          "reward": 0,
+          "quantity": 16,
+          "id": "nightmarecraft:fourarms_skeleton_entity"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

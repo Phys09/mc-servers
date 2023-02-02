@@ -1,0 +1,21 @@
+{
+  "name": "Diorite Zone",
+  "blocks": [
+    "minecraft:diorite"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 8,
+          "id": "nightmarecraft:small_pirate_skeleton"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 5
+    }
+  ],
+  "displayZoneComplete": false
+}

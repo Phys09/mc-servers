@@ -1,0 +1,32 @@
+{
+  "name": "Dirt - Dirt Zone",
+  "blocks": [
+    "minecraft:dirt",
+    "minecraft:dirt"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 20,
+          "id": "minecraft:skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 5,
+          "id": "nightmarecraft:fourarms_skeleton_entity"
+        },
+        {
+          "reward": 0,
+          "quantity": 5,
+          "id": "nightmarecraft:dog_skeleton_entity"
+        }
+      ],
+      "spawnTime": 400,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

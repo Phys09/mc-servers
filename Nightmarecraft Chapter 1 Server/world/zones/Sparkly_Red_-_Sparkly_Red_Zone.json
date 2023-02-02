@@ -1,0 +1,62 @@
+{
+  "name": "Sparkly Red - Sparkly Red Zone",
+  "blocks": [
+    "nightmarecraft:sparkly_red",
+    "nightmarecraft:sparkly_red"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 3,
+          "quantity": 2,
+          "EntityTag": {
+            "Brain": {
+              "memories": {}
+            },
+            "HurtByTimestamp": 0,
+            "IsBaby": "0b",
+            "Attributes": [],
+            "Invulnerable": "0b",
+            "FallFlying": "0b",
+            "missionEntity": "0b",
+            "PortalCooldown": 0,
+            "AbsorptionAmount": "0.0f",
+            "InWaterTime": -1,
+            "hasDrops": "1b",
+            "FallDistance": "0.0f",
+            "CanUpdate": "1b",
+            "DeathTime": "0s",
+            "PersistenceRequired": "0b",
+            "Health": "20.0f",
+            "frozen": 0,
+            "LeftHanded": "0b",
+            "Air": "300s",
+            "OnGround": "0b",
+            "HandItems": [
+              {},
+              {}
+            ],
+            "rightClickAllowed": "1b",
+            "CanBreakDoors": "0b",
+            "Fire": "-1s",
+            "ArmorItems": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "CanPickUpLoot": "0b",
+            "HurtTime": "0s",
+            "DrownedConversionTime": -1
+          },
+          "id": "minecraft:zombie"
+        }
+      ],
+      "spawnTime": 400,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": true
+}

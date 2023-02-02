@@ -1,0 +1,36 @@
+{
+  "name": "Podzol Zone",
+  "blocks": [
+    "minecraft:podzol"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 5,
+          "id": "minecraft:skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 3,
+          "id": "nightmarecraft:dog_skeleton_entity"
+        },
+        {
+          "reward": 0,
+          "quantity": 10,
+          "id": "minecraft:magma_cube"
+        },
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "minecraft:blaze"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 3
+    }
+  ],
+  "displayZoneComplete": false
+}

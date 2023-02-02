@@ -1,0 +1,37 @@
+{
+  "name": "Dirt Zone",
+  "blocks": [
+    "minecraft:dirt"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+        {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 5,
+          "id": "minecraft:stray",
+          "Attributes":[
+            {"Name":"generic.maxHealth","Base":100},
+            {"Name":"generic.attackDamage","Base":5},
+            {"Name":"generic.armor","Base":5}],
+          "Health":"100.0f",
+          "Passengers":[{"id":"minecraft:skeleton"}]
+        },
+        {
+          "reward": 0,
+          "quantity": 30,
+          "id": "minecraft:skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 15,
+          "id": "nightmarecraft:fourarms_skeleton_entity"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 5
+    }
+  ],
+  "displayZoneComplete": false
+}

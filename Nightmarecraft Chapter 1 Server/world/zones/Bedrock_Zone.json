@@ -1,0 +1,26 @@
+{
+  "name": "Bedrock Zone",
+  "blocks": [
+    "minecraft:bedrock"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 80,
+          "id": "nightmarecraft:big_piranha"
+        },
+        {
+          "reward": 0,
+          "quantity": 20,
+          "id": "nightmarecraft:small_piranha"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

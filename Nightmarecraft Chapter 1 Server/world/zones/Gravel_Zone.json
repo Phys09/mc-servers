@@ -1,0 +1,26 @@
+{
+  "name": "Gravel Zone",
+  "blocks": [
+    "minecraft:gravel"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 30,
+          "id": "nightmarecraft:big_piranha"
+        },
+        {
+          "reward": 0,
+          "quantity": 30,
+          "id": "nightmarecraft:small_piranha"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

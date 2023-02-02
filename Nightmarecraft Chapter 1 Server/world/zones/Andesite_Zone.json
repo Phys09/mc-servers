@@ -1,0 +1,83 @@
+{
+  "name": "Andesite Zone",
+  "blocks": [
+    "minecraft:andesite"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 6,
+          "EntityTag": {
+            "CustomName":"Soldier",
+            "CustomNameVisible":1,
+            "ArmorItems":
+            [{"id":"minecraft:iron_boots",
+              "Count":"1b","tag":{"ench":[{"id":9,"lvl":1}]}},
+              {"id":"minecraft:iron_chestplate",
+              "Count":"1b"},
+              {"id":"minecraft:iron_helmet",
+              "Count":"1b"},{}],
+            "HandItems":
+            [{"id":"minecraft:iron_sword",
+              "Count":"1b","tag":{"ench":[{"id":20,"lvl":1}]}},{}],
+            "Attributes":[{"Name":"generic.maxHealth","Base":100},
+              {"Name":"generic.attackDamage","Base":5},{"Name":"generic.armor","Base":5}],
+          "Health":"100.0f"
+        },
+          "id": "minecraft:skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 6,
+          "EntityTag": {
+            "CustomName":"Soldier",
+            "CustomNameVisible":1,
+            "ArmorItems":
+            [{"id":"minecraft:iron_boots",
+              "Count":"1b","tag":{"ench":[{"id":9,"lvl":1}]}},
+              {"id":"minecraft:iron_chestplate",
+              "Count":"1b"},
+              {"id":"minecraft:iron_helmet",
+              "Count":"1b"},{}],
+            "HandItems":
+            [{"id":"minecraft:iron_sword",
+              "Count":"1b","tag":{"ench":[{"id":20,"lvl":1}]}},{}],
+            "Attributes":[{"Name":"generic.maxHealth","Base":100},
+              {"Name":"generic.attackDamage","Base":5},{"Name":"generic.armor","Base":5}],
+          "Health":"100.0f"
+        },
+          "id": "minecraft:wither_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 6,
+          "EntityTag": {
+            "CustomName":"Carrier",
+            "CustomNameVisible":1,
+            "ArmorItems":
+            [{"id":"minecraft:iron_boots",
+              "Count":"1b","tag":{"ench":[{"id":9,"lvl":1}]}},
+              {"id":"minecraft:iron_chestplate",
+              "Count":"1b"},
+              {"id":"minecraft:iron_helmet",
+              "Count":"1b"},{}],
+            "HandItems":
+            [{"id":"minecraft:iron_sword",
+              "Count":"1b","tag":{"ench":[{"id":20,"lvl":1}]}},{}],
+            "Attributes":[{"Name":"generic.maxHealth","Base":100},
+              {"Name":"generic.attackDamage","Base":5},{"Name":"generic.armor","Base":5}],
+          "Health":"100.0f",
+          "Passengers":[{"id":"minecraft:skeleton"}]
+        },
+          "id": "minecraft:skeleton"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 5
+    }
+  ],
+  "displayZoneComplete": false
+}

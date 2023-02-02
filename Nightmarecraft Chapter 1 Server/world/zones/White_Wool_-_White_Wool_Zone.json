@@ -1,0 +1,27 @@
+{
+  "name": "White Wool - White Wool Zone",
+  "blocks": [
+    "minecraft:white_wool",
+    "minecraft:white_wool"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 8,
+          "id": "nightmarecraft:mountaingoat"
+        },
+        {
+          "reward": 0,
+          "quantity": 8,
+          "id": "nightmarecraft:ram"
+        }
+      ],
+      "spawnTime": 200,
+      "radius": 1
+    }
+  ],
+  "displayZoneComplete": false
+}

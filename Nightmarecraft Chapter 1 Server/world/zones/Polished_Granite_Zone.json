@@ -1,0 +1,21 @@
+{
+  "name": "Polished Granite Zone",
+  "blocks": [
+    "minecraft:polished_granite"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "nightmarecraft:tall_skeleton_entity"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

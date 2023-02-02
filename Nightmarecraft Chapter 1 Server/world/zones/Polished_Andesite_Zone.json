@@ -1,0 +1,36 @@
+{
+  "name": "Polished Andesite Zone",
+  "blocks": [
+    "minecraft:polished_andesite"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 2,
+          "id": "nightmarecraft:cape_pirate_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "nightmarecraft:tentacles_pirate_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 5,
+          "id": "nightmarecraft:small_pirate_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "nightmarecraft:captain_pirate_skeleton"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 5
+    }
+  ],
+  "displayZoneComplete": false
+}

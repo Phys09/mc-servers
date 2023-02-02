@@ -1,0 +1,41 @@
+{
+  "name": "Warped Nylium Zone",
+  "blocks": [
+    "minecraft:warped_nylium"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 10,
+          "id": "minecraft:wither_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 3,
+          "id": "nightmarecraft:corrupted_dog_skeleton_entity"
+        },
+        {
+          "reward": 0,
+          "quantity": 7,
+          "id": "nightmarecraft:corrupted_fourarms_skeleton_entity"
+        },
+        {
+          "reward": 0,
+          "quantity": 10,
+          "id": "minecraft:magma_cube"
+        },
+        {
+          "reward": 0,
+          "quantity": 2,
+          "id": "minecraft:blaze"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

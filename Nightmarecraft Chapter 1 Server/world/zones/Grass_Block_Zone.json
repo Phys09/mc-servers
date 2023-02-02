@@ -1,0 +1,21 @@
+{
+  "name": "Grass Block Zone",
+  "blocks": [
+    "minecraft:grass_block"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "nightmarecraft:skeleton_cyclops"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

@@ -1,0 +1,35 @@
+
+[Server]
+	#Range: > 0
+	holy_shield_1_max = 5
+	#Range: > 0
+	holy_shield_2_max = 180
+	#Range: > 0
+	holy_shield_3_max = 1080
+	#Range: > 0
+	holy_shield_4_max = 10080
+	#Range: > 0
+	holy_shield_1_potion_bonus = 10
+	#Range: > 0
+	holy_shield_2_potion_bonus = 360
+	#Range: > 0
+	holy_shield_3_potion_bonus = 2160
+	#Range: > 0
+	holy_shield_4_potion_bonus = 20160
+	#Range: > 0
+	thor_potion_1_damage = 5
+	#Range: > 0
+	thor_potion_2_damage = 300
+	#Range: > 0
+	thor_potion_3_damage = 3000
+	#Range: > 0
+	thor_potion_4_damage = 40000
+	#Range: > 0
+	divine_dish_1_amplifier = 1
+	#Range: > 0
+	divine_dish_2_amplifier = 3
+	#Range: > 0
+	divine_dish_3_amplifier = 5
+	#Range: > 0
+	home_tp_cooldown = 72000
+

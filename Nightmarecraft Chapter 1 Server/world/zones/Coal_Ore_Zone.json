@@ -1,0 +1,41 @@
+{
+  "name": "Coal Ore Zone",
+  "blocks": [
+    "minecraft:coal_ore"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 3,
+          "id": "minecraft:wither_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 3,
+          "id": "nightmarecraft:corrupted_dog_skeleton_entity"
+        },    
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "nightmarecraft:cape_pirate_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "nightmarecraft:tentacles_pirate_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "nightmarecraft:small_pirate_skeleton"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

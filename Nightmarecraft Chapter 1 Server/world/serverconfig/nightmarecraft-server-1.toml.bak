@@ -1,0 +1,59 @@
+
+[test]
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	test = 0.0
+
+	[test.boosts]
+
+		[test.boosts.health]
+
+			[test.boosts.health.options]
+
+				[test.boosts.health.options.nightmarecraft]
+
+					[test.boosts.health.options.nightmarecraft.test]
+
+						[test.boosts.health.options.nightmarecraft.test.boosts]
+
+							[test.boosts.health.options.nightmarecraft.test.boosts.health]
+								#Range: > -2147483648
+								iron = 4
+								#Range: > -2147483648
+								diamond = 20
+								#Range: > -2147483648
+								dragon = 50
+								#Range: > -2147483648
+								holy = 100
+
+		[test.boosts.shield]
+
+			[test.boosts.shield.options]
+
+				[test.boosts.shield.options.nightmarecraft]
+
+					[test.boosts.shield.options.nightmarecraft.test]
+
+						[test.boosts.shield.options.nightmarecraft.test.boosts]
+
+							[test.boosts.shield.options.nightmarecraft.test.boosts.shield]
+								#Range: > -2147483648
+								iron = 10
+								#Range: > -2147483648
+								diamond = 50
+								#Range: > -2147483648
+								dragon = 100
+								#Range: > -2147483648
+								holy = 500
+
+[other]
+
+	[other.options]
+
+		[other.options.nightmarecraft]
+
+			[other.options.nightmarecraft.other]
+				pvp_enabled = false
+
+[firearms]
+	bullet_destroys_blocks = true
+

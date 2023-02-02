@@ -1,0 +1,26 @@
+{
+  "name": "Magenta Wool Zone",
+  "blocks": [
+    "minecraft:magenta_wool"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 3,
+          "id": "nightmarecraft:mountaingoat"
+        },
+        {
+          "reward": 0,
+          "quantity": 3,
+          "id": "nightmarecraft:ram"
+        }
+      ],
+      "spawnTime": 100,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

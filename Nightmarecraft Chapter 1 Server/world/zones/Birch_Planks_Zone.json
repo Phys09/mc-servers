@@ -1,0 +1,41 @@
+{
+  "name": "Birch Planks Zone",
+  "blocks": [
+    "minecraft:birch_planks"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 4,
+          "id": "nightmarecraft:cape_pirate_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 4,
+          "id": "nightmarecraft:small_pirate_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 4,
+          "id": "minecraft:skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 4,
+          "id": "minecraft:spider"
+        },
+        {
+          "reward": 0,
+          "quantity": 4,
+          "id": "minecraft:creeper"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

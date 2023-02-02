@@ -1,0 +1,26 @@
+{
+  "name": "Orange Wool Zone",
+  "blocks": [
+    "minecraft:orange_wool"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 4,
+          "id": "nightmarecraft:mountaingoat"
+        },
+        {
+          "reward": 0,
+          "quantity": 2,
+          "id": "nightmarecraft:ram"
+        }
+      ],
+      "spawnTime": 100,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

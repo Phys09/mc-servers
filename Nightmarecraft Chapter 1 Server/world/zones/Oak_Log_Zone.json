@@ -1,0 +1,26 @@
+{
+  "name": "Oak Log Zone",
+  "blocks": [
+    "minecraft:oak_log"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [    
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "nightmarecraft:cape_pirate_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "nightmarecraft:tentacles_pirate_skeleton"
+        },
+      ],
+      "spawnTime": 1,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Stone Zone",
+  "blocks": [
+    "minecraft:stone"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 6,
+          "EntityTag": {
+            "CustomName":"Bruiser",
+            "CustomNameVisible":1,
+            "ArmorItems":
+            [{"id":"minecraft:iron_boots",
+              "Count":"1b","tag":{"ench":[{"id":9,"lvl":1}]}},{},{},{}],
+            "HandItems":
+            [{"id":"minecraft:iron_sword",
+              "Count":"1b","tag":{"ench":[{"id":20,"lvl":1}]}},{}],
+            "Attributes":[{"Name":"generic.maxHealth","Base":100},
+              {"Name":"generic.attackDamage","Base":5},{"Name":"generic.armor","Base":5}],
+          "Health":"100.0f"
+        },
+          "id": "minecraft:skeleton"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 5
+    }
+  ],
+  "displayZoneComplete": false
+}

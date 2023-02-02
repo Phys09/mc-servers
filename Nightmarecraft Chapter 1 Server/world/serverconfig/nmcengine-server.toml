@@ -1,0 +1,47 @@
+
+[test]
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	test = 4.9E-324
+
+	[test.boosts]
+
+		[test.boosts.health]
+
+			[test.boosts.health.options]
+
+				[test.boosts.health.options.nmcengine]
+
+					[test.boosts.health.options.nmcengine.test]
+
+						[test.boosts.health.options.nmcengine.test.boosts]
+
+							[test.boosts.health.options.nmcengine.test.boosts.health]
+								#Range: > -2147483648
+								iron = 4
+								#Range: > -2147483648
+								diamond = 20
+								#Range: > -2147483648
+								dragon = 50
+								#Range: > -2147483648
+								holy = 100
+
+		[test.boosts.shield]
+
+			[test.boosts.shield.options]
+
+				[test.boosts.shield.options.nmcengine]
+
+					[test.boosts.shield.options.nmcengine.test]
+
+						[test.boosts.shield.options.nmcengine.test.boosts]
+
+							[test.boosts.shield.options.nmcengine.test.boosts.shield]
+								#Range: > -2147483648
+								iron = 10
+								#Range: > -2147483648
+								diamond = 50
+								#Range: > -2147483648
+								dragon = 100
+								#Range: > -2147483648
+								holy = 500
+

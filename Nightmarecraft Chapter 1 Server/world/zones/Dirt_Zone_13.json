@@ -1,0 +1,66 @@
+{
+  "name": "Dirt Zone",
+  "blocks": [
+    "minecraft:dirt"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "EntityTag": {
+            "AbsorptionAmount": "0.0f",
+            "Air": "300s",
+            "ArmorItems": [
+              {},
+              {},
+              {},
+              {}
+            ],
+            "Attributes": [],
+            "Brain": {
+              "memories": {}
+            },
+            "CanBreakDoors": "0b",
+            "CanPickUpLoot": "0b",
+            "CanUpdate": "1b",
+            "DeathTime": "0s",
+            "DrownedConversionTime": -1,
+            "FallDistance": "0.0f",
+            "FallFlying": "0b",
+            "Fire": "-1s",
+            "HandItems": [
+              {},
+              {}
+            ],
+            "Health": "20.0f",
+            "HurtByTimestamp": 0,
+            "HurtTime": "0s",
+            "InWaterTime": -1,
+            "Invulnerable": "0b",
+            "IsBaby": "0b",
+            "LeftHanded": "0b",
+            "OnGround": "0b",
+            "PersistenceRequired": "0b",
+            "PortalCooldown": 0,
+            "damageFromPlayers": "1b",
+            "frozen": 0,
+            "hasDrops": "1b",
+            "immuneToFireAndLava": "0b",
+            "missionEntity": "0b",
+            "nmcgear$frozen": 0,
+            "nmcmobs$frozen": 0,
+            "nmcshrooms$frozen": 0,
+            "rightClickAllowed": "1b"
+          },
+          "id": "minecraft:zombie",
+          "quantity": 2,
+          "reward": 3
+        }
+      ],
+      "spawnTime": 400,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": true
+}

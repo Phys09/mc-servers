@@ -1,0 +1,26 @@
+{
+  "name": "Stone Bricks Zone",
+  "blocks": [
+    "minecraft:stone_bricks"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "nightmarecraft:tall_skeleton_entity"
+        },   
+        {
+          "reward": 0,
+          "quantity": 3,
+          "id": "nightmarecraft:dog_skeleton_entity"
+        }
+      ],
+      "spawnTime": 400,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": true
+}

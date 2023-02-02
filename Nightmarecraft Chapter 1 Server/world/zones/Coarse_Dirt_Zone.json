@@ -1,0 +1,26 @@
+{
+  "name": "Coarse Dirt Zone",
+  "blocks": [
+    "minecraft:coarse_dirt"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "nightmarecraft:tall_skeleton_entity"
+        },
+        {
+          "reward": 0,
+          "quantity": 40,
+          "id": "minecraft:skeleton"
+        },
+      ],
+      "spawnTime": 1,
+      "radius": 1
+    }
+  ],
+  "displayZoneComplete": false
+}

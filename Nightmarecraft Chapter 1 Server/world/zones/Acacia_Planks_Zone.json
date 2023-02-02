@@ -1,0 +1,51 @@
+{
+  "name": "Acacia Planks Zone",
+  "blocks": [
+    "minecraft:acacia_planks"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "nightmarecraft:cape_pirate_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "nightmarecraft:tentacles_pirate_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 2,
+          "id": "nightmarecraft:small_pirate_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 2,
+          "id": "minecraft:stray"
+        },
+        {
+          "reward": 0,
+          "quantity": 8,
+          "id": "nightmarecraft:fourarms_skeleton_entity"
+        },
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "minecraft:magma_cube"
+        },
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "minecraft:blaze"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

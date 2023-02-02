@@ -1,0 +1,36 @@
+{
+  "name": "Spruce Planks Zone",
+  "blocks": [
+    "minecraft:spruce_planks"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 5,
+          "id": "nightmarecraft:cape_pirate_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "nightmarecraft:tentacles_pirate_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 5,
+          "id": "nightmarecraft:small_pirate_skeleton"
+        },
+        {
+          "reward": 0,
+          "quantity": 7,
+          "id": "minecraft:magma_cube"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

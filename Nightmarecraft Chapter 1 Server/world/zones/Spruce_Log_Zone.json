@@ -1,0 +1,21 @@
+{
+  "name": "Spruce Log Zone",
+  "blocks": [
+    "minecraft:spruce_log"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 3,
+          "id": "nightmarecraft:corrupted_tall_skeleton_entity"
+        }
+      ],
+      "spawnTime": 0,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}

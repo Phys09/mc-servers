@@ -1,0 +1,21 @@
+{
+  "name": "Block of Redstone Zone",
+  "blocks": [
+    "minecraft:redstone_block"
+  ],
+  "awardKeyOnClearance": false,
+  "waves": [
+    {
+      "spawns": [
+        {
+          "reward": 0,
+          "quantity": 1,
+          "id": "nightmarecraft:firedragon"
+        }
+      ],
+      "spawnTime": 1,
+      "radius": 2
+    }
+  ],
+  "displayZoneComplete": false
+}
