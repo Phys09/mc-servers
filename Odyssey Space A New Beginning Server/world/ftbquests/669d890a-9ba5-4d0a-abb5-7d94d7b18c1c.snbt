@@ -1,0 +1,13 @@
+{
+	version: 1
+	uuid: "669d890a9ba54d0aabb57d94d7b18c1c"
+	name: "Endurium"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

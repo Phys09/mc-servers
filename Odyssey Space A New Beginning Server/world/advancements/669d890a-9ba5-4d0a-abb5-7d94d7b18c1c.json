@@ -1,0 +1,3141 @@
+{
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2022-04-28 00:29:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2022-04-28 00:21:31 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_green_oak_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/dusk_trapdoor": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_blocks/lunar_lever": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:46 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/dusk_sword": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_mallorn_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/dusk_ladder": {
+    "criteria": {
+      "has_item": "2022-04-28 15:39:28 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_rotten_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_hellbark_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cherry_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_chest": {
+    "criteria": {
+      "has_item": "2022-04-28 00:28:47 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_axe": {
+    "criteria": {
+      "has_resource": "2022-04-29 15:04:11 -0400"
+    },
+    "done": true
+  },
+  "astralsorcery:root": {
+    "criteria": {
+      "astralsorcery_present": "2022-04-28 00:10:06 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cedar_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_mahogany_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_larch_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2022-04-28 01:14:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-04-28 00:09:59 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/maple_stairs": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_palm_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "chisel:recipes/chisel/charcoal/raw": {
+    "criteria": {
+      "has_charcoal": "2022-04-28 00:23:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2022-04-28 01:14:55 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/dusk_spear": {
+    "criteria": {
+      "has_item": "2022-04-28 00:23:13 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_mahogany_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/torch": {
+    "criteria": {
+      "has_the_recipe": "2022-04-28 00:23:40 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/aquite_chestplate": {
+    "criteria": {
+      "has_item": "2022-04-29 15:04:11 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/pyrope_chestplate": {
+    "criteria": {
+      "has_item": "2022-04-28 00:22:29 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_beech_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_pine_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/stove": {
+    "criteria": {
+      "has_campfire": "2022-04-28 00:55:24 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_mallorn_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "fairylights:recipes/fairylights/candle_lantern": {
+    "criteria": {
+      "has_torch": "2022-04-28 00:23:40 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/spruce_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/dusk_fence_gate": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cypress_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/maple_axe": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_umbran_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/dusk_slab": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/maple_fence": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/misc/yellow_dye_from_lucentroot": {
+    "criteria": {
+      "has_item": "2022-04-28 00:29:02 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_lebethron_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_charred_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stone_stairs": {
+    "criteria": {
+      "has_item": "2022-04-29 15:02:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2022-04-28 00:38:24 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/aquite_boots": {
+    "criteria": {
+      "has_item": "2022-04-29 15:04:11 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cherry_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_maple_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_umbran_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_larch_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_fir_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "fairylights:recipes/fairylights/tinsel_garland": {
+    "criteria": {
+      "has_string": "2022-04-28 00:29:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2022-04-28 00:25:13 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_misc/cooked_monitor_tail_from_campfire_cooking": {
+    "criteria": {
+      "has_item": "2022-04-28 01:08:28 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_redwood_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/birch_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_umbran_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_green_oak_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cypress_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_aspen_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/birch_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_cherry_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_apple_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_sword": {
+    "criteria": {
+      "has_resource": "2022-04-29 15:04:11 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cherry_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/blasting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2022-04-28 00:09:59 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/dark_oak_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/dusk_pressure_plate": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_smoking_upgrade": {
+    "criteria": {
+      "has_smoking_upgrade": "2022-04-28 00:09:59 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stone_stairs_stonecutting_lunar_stone": {
+    "criteria": {
+      "has_item": "2022-04-29 15:02:58 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/frostbright_spear": {
+    "criteria": {
+      "has_item": "2022-04-28 00:23:13 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_rotten_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/oak_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/dusk_door": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_mallorn_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_dead_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/dark_oak_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_pine_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2022-04-28 01:28:15 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stonebrick_wall": {
+    "criteria": {
+      "has_item": "2022-04-29 15:03:51 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cedar_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/smoking_upgrade_from_smelting_upgrade": {
+    "criteria": {
+      "has_smelting_upgrade": "2022-04-28 00:09:59 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/get_wood": {
+    "criteria": {
+      "has_maple_log": "2022-04-28 00:19:38 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_mahogany_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/maple_shovel": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_holly_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_umbran_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/cutting_board": {
+    "criteria": {
+      "has_stick": "2022-04-28 01:14:55 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/sail_item": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/starlit_spear": {
+    "criteria": {
+      "has_item": "2022-04-28 00:23:13 -0400"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_blasting_upgrade_from_auto_smelting_upgrade": {
+    "criteria": {
+      "has_auto_smelting_upgrade": "2022-04-28 00:09:59 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-04-28 00:28:23 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_larch_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_cobblestone_stairs_stonecutting_lunar_cobblestone": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:46 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_misc/cooked_charscale_moki_from_smelting": {
+    "criteria": {
+      "has_item": "2022-04-28 00:46:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2022-04-28 00:29:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2022-04-28 01:28:15 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/enter": {
+    "criteria": {
+      "enter_everdawn": "2022-04-28 00:10:00 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_willow_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_pickaxe": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:22:29 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_apple_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cypress_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_holly_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cypress_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_charred_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cherry_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "aoa3:overworld/root": {
+    "criteria": {
+      "playerjoin": "2022-04-28 00:10:00 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/dusk_hoe": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_maple_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_jacaranda_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_magic_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_rotten_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2022-04-28 00:38:24 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_hoe": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:20:46 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_pine_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_palm_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_charred_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_blocks/moonstone_from_shard": {
+    "criteria": {
+      "has_item": "2022-04-28 00:23:13 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_ladder": {
+    "criteria": {
+      "has_item": "2022-04-28 00:28:47 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_pickaxe": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:20:46 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_magic_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_fir_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/spruce_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/dusk_button": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_blocks/pyrope_block": {
+    "criteria": {
+      "has_item": "2022-04-28 00:22:29 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_willow_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_beech_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "futurepack:root": {
+    "criteria": {
+      "escanner": "2022-04-28 00:09:59 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_mirk_oak_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_aspen_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/oak_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_smoking": {
+    "criteria": {
+      "has_salmon": "2022-04-28 00:47:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/jungle_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_larch_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_blocks/aquite_block": {
+    "criteria": {
+      "has_item": "2022-04-29 15:04:11 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/dusk_crafting_table": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_hoe": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:22:29 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/dusk_stairs": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_lairelosse_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/spruce_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_lairelosse_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stonebrick_slab": {
+    "criteria": {
+      "has_item": "2022-04-29 15:03:51 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/oak_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/fried_egg": {
+    "criteria": {
+      "fried_egg": "2022-04-28 00:38:24 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/dusk_chest": {
+    "criteria": {
+      "has_item": "2022-04-28 15:39:28 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_willow_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2022-04-28 01:14:55 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_sword": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:20:46 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/acacia_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/jungle_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/chiseled_crystal_sandstone_stonecutting_crystal_sandstone": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:33 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_magic_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/crystal_glass_from_smelting": {
+    "criteria": {
+      "has_item": "2022-04-28 00:30:36 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stonebrick_stairs": {
+    "criteria": {
+      "has_item": "2022-04-29 15:03:51 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/maple_slab": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_hellbark_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_shovel": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:20:46 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_beech_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_beech_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/blasting_upgrade_from_smelting_upgrade": {
+    "criteria": {
+      "has_smelting_upgrade": "2022-04-28 00:09:59 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_larch_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2022-04-28 00:29:27 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_hellbark_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/crystal_sandstone_pillar_stonecutting_crystal_sandstone": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:33 -0400"
+    },
+    "done": true
+  },
+  "fairylights:recipes/fairylights/incandescent_light": {
+    "criteria": {
+      "has_torch": "2022-04-28 00:23:40 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2022-04-28 01:11:16 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/spruce_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_willow_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "resourcefulbees:resourcefulbees/root": {
+    "criteria": {
+      "inventory_changed": "2022-04-28 00:09:59 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_dead_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_mallorn_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_palm_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_wisteria_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_mahogany_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/oak_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cypress_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2022-04-28 00:29:27 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_misc/cooked_monitor_tail_from_smoking": {
+    "criteria": {
+      "has_item": "2022-04-28 01:08:28 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_shovel": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:22:29 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_jacaranda_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cherry_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_green_oak_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_charred_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/jungle_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_maple_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_cherry_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_dead_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_wisteria_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "lootr:root": {
+    "criteria": {
+      "always_true": "2022-04-28 00:10:06 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_cherry_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_jacaranda_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_shovel": {
+    "criteria": {
+      "has_resource": "2022-04-29 15:04:11 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_green_oak_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/acacia_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400",
+      "has_the_recipe": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_grave_dust": {
+    "criteria": {
+      "has_ingredient": "2022-04-28 15:55:26 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stone": {
+    "criteria": {
+      "has_item": "2022-04-28 00:50:33 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/chiseled_lunar_stonebrick_stonecutting_lunar_stonebrick": {
+    "criteria": {
+      "has_item": "2022-04-29 15:03:51 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_mahogany_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_lebethron_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_palm_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_willow_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/dark_oak_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/crystal_sandstone_stairs": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:33 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_pear_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_jacaranda_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/polished_cinderstone": {
+    "criteria": {
+      "has_item": "2022-04-28 15:43:06 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_willow_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_cobblestone_wall": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:46 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/dusk_axe": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_aspen_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_cherry_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/maple_planks": {
+    "criteria": {
+      "has_item": "2022-04-28 00:19:38 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/misc/orange_dye_from_blaze_bud": {
+    "criteria": {
+      "has_item": "2022-04-28 00:50:34 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stonebrick_wall_stonecutting_lunar_stonebrick": {
+    "criteria": {
+      "has_item": "2022-04-29 15:03:51 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_palm_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/maple_door": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_apple_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_hoe": {
+    "criteria": {
+      "has_resource": "2022-04-29 15:04:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2022-04-28 01:28:15 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_wisteria_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_pine_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_mallorn_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "rftoolsbase:recipes/rftoolsbase/machine_base": {
+    "criteria": {
+      "gold": "2022-04-28 00:25:13 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_rotten_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_blocks/moonstone_block_from_moonstone_crystal": {
+    "criteria": {
+      "has_item": "2022-04-28 00:23:00 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_mallorn_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_blocks/moonstone_pressure_plate": {
+    "criteria": {
+      "has_item": "2022-04-28 00:23:13 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_misc/aquite_gem_from_smelting": {
+    "criteria": {
+      "has_item": "2022-04-28 01:20:18 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/cinderstone_slab": {
+    "criteria": {
+      "has_item": "2022-04-28 15:43:06 -0400"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_blasting_upgrade": {
+    "criteria": {
+      "has_blasting_upgrade": "2022-04-28 00:09:59 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_aspen_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/crystal_sandstone_slab_stonecutting_crystal_sandstone": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:33 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/dusk_pickaxe": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_sword": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:22:29 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_apple_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_larch_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/crystal_sandstone_stairs_stonecutting_crystal_sandstone": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:33 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_axe": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:20:46 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/polished_cinderstone_stonecutting_cinderstone": {
+    "criteria": {
+      "has_item": "2022-04-28 15:43:06 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_lairelosse_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/decorations/stonecutter_compat": {
+    "criteria": {
+      "has_item": "2022-04-29 15:02:58 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_cherry_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_holly_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_fir_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_fir_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_cherry_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_wisteria_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/crystal_sandstone_wall": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:33 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stonebrick_stairs_stonecutting_lunar_stone": {
+    "criteria": {
+      "has_item": "2022-04-29 15:02:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2022-04-28 00:23:35 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cedar_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_maple_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_misc/cooked_charscale_moki_from_smoking": {
+    "criteria": {
+      "has_item": "2022-04-28 00:46:41 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/maple_spear": {
+    "criteria": {
+      "has_item": "2022-04-28 00:23:13 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/cinderstone_slab_stonecutting_cinderstone": {
+    "criteria": {
+      "has_item": "2022-04-28 15:43:06 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_aspen_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/food/cake_compat": {
+    "criteria": {
+      "has_item": "2022-04-28 00:38:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2022-04-28 01:28:15 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/cherry_spear": {
+    "criteria": {
+      "has_item": "2022-04-28 00:23:13 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_holly_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_fir_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2022-04-28 00:46:42 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_magic_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_beech_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/cancel_ghostly_shape": {
+    "criteria": {
+      "coded_trigger": "2022-04-28 15:54:49 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2022-04-28 01:28:15 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_jacaranda_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_larch_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_cherry_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/bluebright_spear": {
+    "criteria": {
+      "has_item": "2022-04-28 00:23:13 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/birch_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/decorations/furnace_compat": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:46 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_umbran_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/dusk_fence": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_rotten_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/chain_death": {
+    "criteria": {
+      "coded_trigger": "2022-04-28 15:54:53 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_pine_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_jacaranda_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_salmon": "2022-04-28 00:56:20 -0400"
+    },
+    "done": false
+  },
+  "tombstone:recipes/from_grave_key": {
+    "criteria": {
+      "has_ingredient": "2022-04-28 00:44:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2022-04-28 01:14:55 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/maple_pickaxe": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_misc/scalefruit_seeds": {
+    "criteria": {
+      "has_item": "2022-04-28 15:49:56 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_apple_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cedar_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_rotten_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_holly_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/jungle_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_willow_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_green_oak_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/dark_oak_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400",
+      "has_the_recipe": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stone_button": {
+    "criteria": {
+      "has_item": "2022-04-29 15:02:58 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/grilled_salmon": {
+    "criteria": {
+      "has_salmon": "2022-04-28 00:47:32 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_misc/aquite_gem_from_blasting": {
+    "criteria": {
+      "has_item": "2022-04-28 01:20:18 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_grave": {
+    "criteria": {
+      "coded_trigger": "2022-04-28 00:44:45 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_pear_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_misc/cooked_monitor_tail_from_smelting": {
+    "criteria": {
+      "has_item": "2022-04-28 01:08:28 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/zeal_lighter": {
+    "criteria": {
+      "has_item": "2022-04-28 00:23:13 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_axe": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:22:29 -0400"
+    },
+    "done": true
+  },
+  "fairylights:recipes/fairylights/square_pennant": {
+    "criteria": {
+      "has_string": "2022-04-28 00:29:27 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_fir_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stonebrick_stairs_stonecutting_lunar_stonebrick": {
+    "criteria": {
+      "has_item": "2022-04-29 15:03:51 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_cherry_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_sand": "2022-04-28 00:30:36 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_hellbark_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/chiseled_lunar_stonebrick_stonecutting_lunar_stone": {
+    "criteria": {
+      "has_item": "2022-04-29 15:02:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2022-04-28 00:29:27 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_redwood_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stonebrick_stonecutting_lunar_stone": {
+    "criteria": {
+      "has_item": "2022-04-29 15:02:58 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/dusk_sign": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_beech_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_cherry_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_willow_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_pear_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/fried_egg_from_campfire_cooking": {
+    "criteria": {
+      "fried_egg": "2022-04-28 00:38:24 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_cherry_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2022-04-28 01:28:15 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_cherry_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_apple_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_lebethron_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/cracked_lunar_stonebrick_from_smelting": {
+    "criteria": {
+      "has_item": "2022-04-29 15:03:51 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_hellbark_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/cinderstone_stairs": {
+    "criteria": {
+      "has_item": "2022-04-28 15:43:06 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2022-04-28 00:19:38 -0400"
+    },
+    "done": true
+  },
+  "fairylights:recipes/fairylights/swallowtail_pennant": {
+    "criteria": {
+      "has_string": "2022-04-28 00:29:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2022-04-28 01:14:55 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2022-04-28 00:27:42 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_mallorn_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stonebrick_slab_stonecutting_lunar_stonebrick": {
+    "criteria": {
+      "has_item": "2022-04-29 15:03:51 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/acacia_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/acacia_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/jungle_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_pear_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_jacaranda_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/jungle_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_fir_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/maple_button": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/birch_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/birch_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400",
+      "has_the_recipe": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_pear_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_fir_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/acacia_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_redwood_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_charred_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_magic_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_fir_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon_from_campfire_cooking": {
+    "criteria": {
+      "has_salmon": "2022-04-28 00:47:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/dark_oak_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_aspen_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_mirk_oak_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2022-04-28 00:09:59 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_willow_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_lebethron_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/pyrope_leggings": {
+    "criteria": {
+      "has_item": "2022-04-28 00:22:29 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_lebethron_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "fairylights:recipes/fairylights/oil_lantern": {
+    "criteria": {
+      "has_torch": "2022-04-28 00:23:40 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2022-04-28 01:28:15 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_redwood_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2022-04-28 01:28:15 -0400"
+    },
+    "done": true
+  },
+  "futurepack:the_impalpable": {
+    "criteria": {
+      "escanner": "2022-04-28 00:09:59 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/dusk_planks": {
+    "criteria": {
+      "has_item": "2022-04-28 00:27:48 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_cherry_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_fir_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/oak_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_redwood_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_lairelosse_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "aoa3:overworld/charger_safari": {
+    "criteria": {
+      "kill_charger": "2022-04-28 01:21:58 -0400",
+      "kill_void_charger": "2022-04-28 00:28:23 -0400"
+    },
+    "done": false
+  },
+  "aoa3:overworld/by_the_books": {
+    "criteria": {
+      "legitimate": "2022-04-28 00:10:00 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_cobblestone_slab_stonecutting_lunar_cobblestone": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:46 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_fir_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_rotten_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/maple_sword": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/smooth_crystal_sandstone_from_smelting": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:33 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_mirk_oak_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "aoa3:completionist/my_first_level": {
+    "criteria": {
+      "level_2": "2022-04-28 00:28:47 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/oak_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2022-04-28 00:25:13 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/kill_bug": {
+    "criteria": {
+      "kill_emberback": "2022-04-28 01:09:13 -0400",
+      "kill_venom_spider": "2022-04-28 00:45:54 -0400"
+    },
+    "done": false
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2022-04-28 01:28:15 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/first_knowledge": {
+    "criteria": {
+      "coded_trigger": "2022-04-28 15:54:49 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_wisteria_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_dead_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stonebrick_wall_stonecutting_lunar_stone": {
+    "criteria": {
+      "has_item": "2022-04-29 15:02:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2022-04-28 01:28:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_fir_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/cut_crystal_sandstone_stonecutting_crystal_sandstone": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:33 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/dark_oak_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/misc/light_gray_dye_from_crystal_flower": {
+    "criteria": {
+      "has_item": "2022-04-28 15:47:32 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/pyrope_boots": {
+    "criteria": {
+      "has_item": "2022-04-28 00:22:29 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_wisteria_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_magic_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2022-04-28 01:14:55 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_hellbark_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_pine_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "aoa3:overworld/winner_winner": {
+    "criteria": {
+      "lotto_win": "2022-04-28 00:40:27 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_umbran_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_willow_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2022-04-28 00:29:27 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2022-04-28 01:28:15 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/cinderstone_stairs_stonecutting_cinderstone": {
+    "criteria": {
+      "has_item": "2022-04-28 15:43:06 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cherry_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_wisteria_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/spruce_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cedar_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_misc/cooked_charscale_moki_from_campfire_cooking": {
+    "criteria": {
+      "has_item": "2022-04-28 00:46:41 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_aspen_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/maple_trapdoor": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_lairelosse_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_fir_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2022-04-28 00:28:42 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_willow_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2022-04-28 15:40:29 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stonebrick": {
+    "criteria": {
+      "has_item": "2022-04-29 15:02:58 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/crystal_sandstone": {
+    "criteria": {
+      "has_item": "2022-04-28 00:30:36 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stonebrick_slab_stonecutting_lunar_stone": {
+    "criteria": {
+      "has_item": "2022-04-29 15:02:58 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/maple_pressure_plate": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/acacia_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/spruce_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_maple_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_mahogany_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/root": {
+    "criteria": {
+      "auto": "2022-04-28 00:10:00 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_palm_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/aquite_pickaxe": {
+    "criteria": {
+      "has_resource": "2022-04-29 15:04:11 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/birch_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_misc/maple_stick": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_willow_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_blocks/food_prep_table": {
+    "criteria": {
+      "has_item": "2022-04-28 00:21:31 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_palm_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:root": {
+    "criteria": {
+      "enter_everdawn": "2022-04-28 00:10:00 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_apple_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/dusk_shovel": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_cobblestone_slab": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:46 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_charred_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cypress_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_cobblestone_stairs": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:46 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stone_from_smelting": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:46 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/aquite_leggings": {
+    "criteria": {
+      "has_item": "2022-04-29 15:04:11 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_misc/dusk_stick": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:10 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_redwood_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_green_oak_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/maple_hoe": {
+    "criteria": {
+      "has_resource": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_pear_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cedar_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_dead_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/cinderstone_wall_stonecutting_cinderstone": {
+    "criteria": {
+      "has_item": "2022-04-28 15:43:06 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_dripstone_stonecutting_lunar_stone": {
+    "criteria": {
+      "has_item": "2022-04-29 15:02:58 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_salmon": {
+    "criteria": {
+      "has_salmon": "2022-04-28 00:47:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_cherry_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_dead_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/smoking_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2022-04-28 00:09:59 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_cobblestone_wall_stonecutting_lunar_cobblestone": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:46 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/lunar_spear": {
+    "criteria": {
+      "has_item": "2022-04-28 00:23:13 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:thinking_with_portals": {
+    "criteria": {
+      "enter_everdawn": "2022-04-28 00:10:00 -0400"
+    },
+    "done": false
+  },
+  "smallships:recipes/lotr_beech_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_holly_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_lairelosse_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/oak_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400",
+      "has_the_recipe": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_umbran_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "fairylights:recipes/fairylights/spearhead_pennant": {
+    "criteria": {
+      "has_string": "2022-04-28 00:29:27 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_willow_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/flint_knife": {
+    "criteria": {
+      "has_stick": "2022-04-28 01:14:55 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_lebethron_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/dark_oak_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_charred_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/aquite_helmet": {
+    "criteria": {
+      "has_item": "2022-04-29 15:04:11 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stone_pressure_plate": {
+    "criteria": {
+      "has_item": "2022-04-29 15:02:58 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:get_moonstone_shard": {
+    "criteria": {
+      "obtain_moonstone_shard": "2022-04-28 00:23:13 -0400"
+    },
+    "done": true
+  },
+  "fairylights:recipes/fairylights/letter_bunting": {
+    "criteria": {
+      "has_string": "2022-04-28 00:29:27 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/pyrope_helmet": {
+    "criteria": {
+      "has_item": "2022-04-28 00:22:29 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/crystal_sandstone_wall_stonecutting_crystal_sandstone": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:33 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/cinderstone_wall": {
+    "criteria": {
+      "has_item": "2022-04-28 15:43:06 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_maple_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_combat/moonstone_shield": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:57 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/maple_fence_gate": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/jungle_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/crystal_sandstone_slab": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:33 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_green_oak_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/spruce_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/farmersdelight/diamond_knife": {
+    "criteria": {
+      "has_diamond": "2022-04-28 01:28:15 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_redwood_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_willow_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_fir_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/sophisticatedbackpacks/auto_smoking_upgrade_from_auto_smelting_upgrade": {
+    "criteria": {
+      "has_auto_smelting_upgrade": "2022-04-28 00:09:59 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_pine_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/birch_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/cut_crystal_sandstone": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:33 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stone_slab": {
+    "criteria": {
+      "has_item": "2022-04-29 15:02:58 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_mahogany_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/maple_crafting_table": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_magic_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_dead_drakkar": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cherry_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "fairylights:recipes/fairylights/triangle_pennant": {
+    "criteria": {
+      "has_string": "2022-04-28 00:29:27 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/maple_ladder": {
+    "criteria": {
+      "has_item": "2022-04-28 00:18:31 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/maple_sign": {
+    "criteria": {
+      "has_item": "2022-04-28 00:20:32 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cedar_war_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "campfire": "2022-04-28 00:55:25 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/bop_hellbark_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/acacia_dhow": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/maple_chest": {
+    "criteria": {
+      "has_item": "2022-04-28 00:18:31 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_holly_rowboat": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_pear_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/envi_cherry_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2022-04-28 01:28:15 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_lairelosse_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_lebethron_brigg": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_maple_galley": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2022-04-28 01:14:55 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/lunar_stone_slab_stonecutting_lunar_stone": {
+    "criteria": {
+      "has_item": "2022-04-29 15:02:58 -0400"
+    },
+    "done": true
+  },
+  "smallships:recipes/lotr_cypress_cog": {
+    "criteria": {
+      "in_water": "2022-04-28 00:27:50 -0400"
+    },
+    "done": true
+  },
+  "aoa3:completionist/an_unbalanced_diet": {
+    "criteria": {
+      "consume_cooked_charger_shank": "2022-04-28 15:58:39 -0400"
+    },
+    "done": false
+  },
+  "blue_skies:recipes/blue_skies_everdawn_blocks/cut_crystal_sandstone_slab_stonecutting_crystal_sandstone": {
+    "criteria": {
+      "has_item": "2022-04-28 00:36:33 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bonemeal": "2022-04-28 00:46:42 -0400"
+    },
+    "done": true
+  },
+  "DataVersion": 2586
+}

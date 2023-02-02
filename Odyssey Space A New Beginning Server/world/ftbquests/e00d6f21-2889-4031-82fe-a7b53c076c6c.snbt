@@ -1,0 +1,13 @@
+{
+	version: 1
+	uuid: "e00d6f212889403182fea7b53c076c6c"
+	name: "Phys09"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}
