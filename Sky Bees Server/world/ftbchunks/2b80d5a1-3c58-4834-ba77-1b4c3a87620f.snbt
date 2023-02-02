@@ -1,0 +1,61 @@
+{
+	max_claim_chunks: 500
+	max_force_load_chunks: 25
+	extra_claim_chunks: 0
+	extra_force_load_chunks: 0
+	chunk_load_offline: true
+	chunks: {
+		"minecraft:overworld": [
+			{ x: 3, z: -1, time: 1651300357387L, force_loaded: 1651300359050L }
+			{ x: 3, z: 0, time: 1651300357387L, force_loaded: 1651300359050L }
+			{ x: -1, z: -4, time: 1652055618391L }
+			{ x: 3, z: 1, time: 1651441790099L }
+			{ x: -1, z: -3, time: 1652055618391L }
+			{ x: -1, z: -2, time: 1651441782177L, force_loaded: 1651441785234L }
+			{ x: 3, z: -2, time: 1651441782177L }
+			{ x: -1, z: 3, time: 1651469176687L }
+			{ x: -1, z: 4, time: 1651469176687L }
+			{ x: -1, z: 5, time: 1651469165486L }
+			{ x: -1, z: -1, time: 1651269802574L, force_loaded: 1651269805938L }
+			{ x: -1, z: 0, time: 1651269803108L, force_loaded: 1651269805938L }
+			{ x: -1, z: 1, time: 1651269804230L, force_loaded: 1651269805938L }
+			{ x: -1, z: 2, time: 1651469176687L }
+			{ x: 2, z: -2, time: 1651441782177L }
+			{ x: 2, z: -1, time: 1651300356660L, force_loaded: 1651300359050L }
+			{ x: 2, z: 0, time: 1651441793706L, force_loaded: 1651464258895L }
+			{ x: -2, z: -4, time: 1652055618391L }
+			{ x: 2, z: 1, time: 1651441790099L }
+			{ x: -2, z: -3, time: 1652055618391L }
+			{ x: -2, z: -2, time: 1651441782177L, force_loaded: 1651441785234L }
+			{ x: -2, z: -1, time: 1651441782177L, force_loaded: 1651441785234L }
+			{ x: -2, z: 0, time: 1651356412798L, force_loaded: 1651356415847L }
+			{ x: -2, z: 1, time: 1651356412798L, force_loaded: 1651356416597L }
+			{ x: 1, z: -2, time: 1651441782177L }
+			{ x: 1, z: -1, time: 1651269804230L, force_loaded: 1651269805938L }
+			{ x: 1, z: 0, time: 1651441793706L, force_loaded: 1651464258895L }
+			{ x: -3, z: -4, time: 1652059671707L }
+			{ x: -3, z: 1, time: 1651356412798L, force_loaded: 1651356416331L }
+			{ x: 1, z: 5, time: 1652059663828L }
+			{ x: 1, z: 1, time: 1651441790099L }
+			{ x: -3, z: -3, time: 1652059671707L }
+			{ x: -3, z: -2, time: 1651441782177L }
+			{ x: 1, z: 2, time: 1652059663828L }
+			{ x: -3, z: -1, time: 1651441782177L }
+			{ x: 1, z: 3, time: 1652059663828L }
+			{ x: -3, z: 0, time: 1651356412798L, force_loaded: 1651356416114L }
+			{ x: 1, z: 4, time: 1652059663828L }
+			{ x: 4, z: 0, time: 1651464256169L, force_loaded: 1651464257470L }
+			{ x: 4, z: 1, time: 1651464256169L }
+			{ x: 0, z: -2, time: 1651441782177L, force_loaded: 1651441785234L }
+			{ x: 0, z: -1, time: 1651269802574L, force_loaded: 1651269805938L }
+			{ x: 4, z: -2, time: 1651464256169L }
+			{ x: 4, z: -1, time: 1651464256169L, force_loaded: 1651464257263L }
+			{ x: 0, z: 4, time: 1651469165486L }
+			{ x: 0, z: 5, time: 1651469165486L }
+			{ x: 0, z: 0, time: 1651269802574L, force_loaded: 1651269805938L }
+			{ x: 0, z: 1, time: 1651269804230L, force_loaded: 1651269805938L }
+			{ x: 0, z: 2, time: 1651469165486L }
+			{ x: 0, z: 3, time: 1651469165486L }
+		]
+	}
+}
