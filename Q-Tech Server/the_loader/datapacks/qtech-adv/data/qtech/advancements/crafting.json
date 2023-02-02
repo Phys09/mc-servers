@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "bluepower:project_table"
+        },
+        "title": {
+            "text": "Better Crafting"
+        },
+        "description": {
+            "text": "Craft a Project Table. It will make crafting easier."
+        }
+    },
+    "parent": "qtech:campfire",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "bluepower:project_table"
+                    }
+                ]
+            }
+        }
+    }
+}

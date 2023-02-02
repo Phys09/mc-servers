@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "mekanism:metallurgic_infuser"
+        },
+        "title": {
+            "text": "Cash infusion"
+        },
+        "description": {
+            "text": "Craft a Metallurgic Infuser. Power it with Redstone until you have Wind or Solar Power."
+        }
+    },
+    "parent": "qtech:alloy_furnace",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "mekanism:metallurgic_infuser"
+                    }
+                ]
+            }
+        }
+    }
+}

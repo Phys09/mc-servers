@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "solargeneration:solar_panel_redstone"
+        },
+        "title": {
+            "text": "A long road"
+        },
+        "description": {
+            "text": "Craft a Redstone Solar Panel."
+        }
+    },
+    "parent": "qtech:solar2",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "solargeneration:solar_panel_redstone"
+                    }
+                ]
+            }
+        }
+    }
+}

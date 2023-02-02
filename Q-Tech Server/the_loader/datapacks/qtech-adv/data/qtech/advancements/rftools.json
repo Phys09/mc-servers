@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "rftoolsbase:machine_frame"
+        },
+        "title": {
+            "text": "It's not RF, it's FE."
+        },
+        "description": {
+            "text": "Craft a RFTools Machine Frame."
+        }
+    },
+    "parent": "qtech:alloy_smelter",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "rftoolsbase:machine_frame"
+                    }
+                ]
+            }
+        }
+    }
+}

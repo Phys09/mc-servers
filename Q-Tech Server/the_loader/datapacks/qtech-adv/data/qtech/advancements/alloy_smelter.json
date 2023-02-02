@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "silents_mechanisms:basic_alloy_smelter"
+        },
+        "title": {
+            "text": "Even more alloooying"
+        },
+        "description": {
+            "text": "Craft a Basic Alloy Smelter."
+        }
+    },
+    "parent": "qtech:metallurgic_infuser",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "silents_mechanisms:basic_alloy_smelter"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "industrialforegoing:mob_slaughter_factory"
+        },
+        "title": {
+            "text": "Dying of (s)laughter"
+        },
+        "description": {
+            "text": "Craft a Mob Slaughter Factory."
+        }
+    },
+    "parent": "qtech:dissolution_chamber",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "industrialforegoing:mob_slaughter_factory"
+                    }
+                ]
+            }
+        }
+    }
+}

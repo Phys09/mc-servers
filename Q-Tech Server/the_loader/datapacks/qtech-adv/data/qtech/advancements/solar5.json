@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "solargeneration:solar_panel_resonant"
+        },
+        "title": {
+            "text": "Resonant Rise"
+        },
+        "description": {
+            "text": "Craft a Resonant Solar Panel."
+        }
+    },
+    "parent": "qtech:tep",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "solargeneration:solar_panel_resonant"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "jecalculation:item_calculator_craft"
+        },
+        "title": {
+            "text": "Math(s)"
+        },
+        "description": {
+            "text": "Craft a Crafting Calculator."
+        }
+    },
+    "parent": "qtech:metallurgic_infuser",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "jecalculation:item_calculator_craft"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "silents_mechanisms:refinery"
+        },
+        "title": {
+            "text": "Oil-rigged"
+        },
+        "description": {
+            "text": "Craft a Refinery. You want to find oil deposits, drain them with pumps and process the oil in it."
+        }
+    },
+    "parent": "qtech:alloy_smelter",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "silents_mechanisms:refinery"
+                    }
+                ]
+            }
+        }
+    }
+}

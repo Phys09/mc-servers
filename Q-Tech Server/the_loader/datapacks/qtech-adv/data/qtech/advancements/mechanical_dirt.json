@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "industrialforegoing:mechanical_dirt"
+        },
+        "title": {
+            "text": "Cursed Mob Farm"
+        },
+        "description": {
+            "text": "Craft Mechanical Dirt. It serves as a Mob Spawner."
+        }
+    },
+    "parent": "qtech:mob_slaughter_factory",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "industrialforegoing:mechanical_dirt"
+                    }
+                ]
+            }
+        }
+    }
+}

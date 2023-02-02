@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:campfire"
+        },
+        "title": {
+            "text": "Cozy"
+        },
+        "description": {
+            "text": "Make a campfire"
+        }
+    },
+    "parent": "qtech:root",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:campfire"
+                    }
+                ]
+            }
+        }
+    }
+}

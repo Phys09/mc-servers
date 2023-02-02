@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:obsidian"
+        },
+        "title": {
+            "text": "Nether gonna give you up"
+        },
+        "description": {
+            "text": "Travel to the Nether. Mine Obsidian with a Diamond or Steel Pickaxe."
+        }
+    },
+    "parent": "qtech:metallurgic_infuser",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:location",
+			"conditions": {
+                "dimension": "the_nether"
+            }
+        }
+    }
+}

@@ -1,0 +1,3 @@
+// Router
+craftingTable.removeRecipe(<item:modularrouters:item_router>);
+craftingTable.addShapedMirrored("item_router_new", <item:modularrouters:item_router>, [[<tag:forge:ingots/aluminum_steel>, <tag:forge:ingots/aluminum_steel>, <tag:forge:ingots/aluminum_steel>], [<tag:forge:ingots/aluminum_steel>, <item:minecraft:ender_pearl>, <tag:forge:ingots/aluminum_steel>], [<tag:forge:ingots/aluminum_steel>, <tag:forge:ingots/aluminum_steel>, <tag:forge:ingots/aluminum_steel>]]);

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "waterstrainer:strainer_base"
+        },
+        "title": {
+            "text": "Strain yourself"
+        },
+        "description": {
+            "text": "Craft a Survivalist's Strainer and put it in a Strainer Base next to a water source block."
+        }
+    },
+    "parent": "qtech:campfire",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "waterstrainer:strainer_survivalist"
+                    }
+                ]
+            }
+        }
+    }
+}

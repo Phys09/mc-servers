@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "mekanism:chemical_crystallizer"
+        },
+        "title": {
+            "text": "Billy Crystal"
+        },
+        "description": {
+            "text": "Craft a Chemical Crystallizer, the final step of 5x ore processing. Look through JEI to understand the whole processing chain."
+        }
+    },
+    "parent": "qtech:solar5",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "mekanism:chemical_crystallizer"
+                    }
+                ]
+            }
+        }
+    }
+}

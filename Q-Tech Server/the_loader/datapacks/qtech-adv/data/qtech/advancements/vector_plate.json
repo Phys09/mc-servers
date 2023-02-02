@@ -1,0 +1,27 @@
+
+{
+    "display": {
+        "icon": {
+            "item": "darkutils:vector_plate"
+        },
+        "title": {
+            "text": "Convenient"
+        },
+        "description": {
+            "text": "Craft a Vector Plate for your mob farm."
+        }
+    },
+    "parent": "qtech:mob_slaughter_factory",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "darkutils:vector_plate"
+                    }
+                ]
+            }
+        }
+    }
+}

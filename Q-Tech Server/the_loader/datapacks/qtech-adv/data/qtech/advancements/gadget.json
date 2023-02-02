@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "buildinggadgets:gadget_building"
+        },
+        "title": {
+            "text": "Go go gadget"
+        },
+        "description": {
+            "text": "Craft a Building Gadget for your building needs."
+        }
+    },
+    "parent": "qtech:cube",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "buildinggadgets:gadget_building"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "mekanism:enrichment_chamber"
+        },
+        "title": {
+            "text": "Ore Doubling"
+        },
+        "description": {
+            "text": "Craft an Enrichment Chamber. It enables Ore Doubling and 8x yield for the Metallurgic Infuser."
+        }
+    },
+    "parent": "qtech:metallurgic_infuser",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "mekanism:enrichment_chamber"
+                    }
+                ]
+            }
+        }
+    }
+}

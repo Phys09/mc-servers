@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "prettypipes:item_terminal"
+        },
+        "title": {
+            "text": "Access all your stuff"
+        },
+        "description": {
+            "text": "Craft an Item Terminal."
+        }
+    },
+    "parent": "qtech:alloy_smelter",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "prettypipes:item_terminal"
+                    }
+                ]
+            }
+        }
+    }
+}

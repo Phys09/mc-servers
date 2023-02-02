@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "refinedstorage:creative_controller"
+        },
+        "title": {
+            "text": "Automate everything"
+        },
+        "description": {
+            "text": "Craft a Controller."
+        }
+    },
+    "parent": "qtech:sewer",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "refinedstorage:controller"
+                    }
+                ]
+            }
+        }
+    }
+}

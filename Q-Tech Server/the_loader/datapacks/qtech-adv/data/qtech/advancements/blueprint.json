@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "silentgear:blueprint_paper"
+        },
+        "title": {
+            "text": "Tinkering"
+        },
+        "description": {
+            "text": "Craft a Blueprint Paper to able to craft repairable tools."
+        }
+    },
+    "parent": "qtech:enrichment_chamber",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "silentgear:blueprint_paper"
+                    }
+                ]
+            }
+        }
+    }
+}

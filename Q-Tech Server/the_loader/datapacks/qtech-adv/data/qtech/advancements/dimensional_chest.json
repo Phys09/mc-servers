@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "dimstorage:dimensional_chest"
+        },
+        "title": {
+            "text": "Black Hole Storage"
+        },
+        "description": {
+            "text": "Craft a Dimensional Chest."
+        }
+    },
+    "parent": "qtech:dielectric_casing",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "dimstorage:dimensional_chest"
+                    }
+                ]
+            }
+        }
+    }
+}

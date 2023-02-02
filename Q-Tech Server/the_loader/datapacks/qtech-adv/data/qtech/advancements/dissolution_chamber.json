@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "industrialforegoing:dissolution_chamber"
+        },
+        "title": {
+            "text": "Dissolved"
+        },
+        "description": {
+            "text": "Craft a Dissolution Chamber."
+        }
+    },
+    "parent": "qtech:pity_machine_frame",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "industrialforegoing:dissolution_chamber"
+                    }
+                ]
+            }
+        }
+    }
+}

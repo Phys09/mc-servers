@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "simplybackpacks:commonbackpack"
+        },
+        "title": {
+            "text": "Put a pack on your back"
+        },
+        "description": {
+            "text": "Craft a Common Backpack. It is upgradable."
+        }
+    },
+    "parent": "qtech:strainer",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "simplybackpacks:commonbackpack"
+                    }
+                ]
+            }
+        }
+    }
+}

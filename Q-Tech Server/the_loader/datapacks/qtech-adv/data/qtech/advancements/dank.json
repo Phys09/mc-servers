@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "dankstorage:dank_1"
+        },
+        "title": {
+            "text": "Dankest storage"
+        },
+        "description": {
+            "text": "Craft a Dank 1 to make mining easier. It can be upgraded."
+        }
+    },
+    "parent": "qtech:strainer",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "dankstorage:dank_1"
+                    }
+                ]
+            }
+        }
+    }
+}

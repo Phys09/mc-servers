@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "elenaicompass:stronghold_compass"
+        },
+        "title": {
+            "text": "Locating the End"
+        },
+        "description": {
+            "text": "Craft an Ender Compass to locate the End. (Check out JEI for other compasses too)"
+        }
+    },
+    "parent": "qtech:nether",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "elenaicompass:stronghold_compass"
+                    }
+                ]
+            }
+        }
+    }
+}

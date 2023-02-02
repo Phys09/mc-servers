@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "xnet:controller"
+        },
+        "title": {
+            "text": "X-Pert Automation"
+        },
+        "description": {
+            "text": "Craft an XNet Controller."
+        }
+    },
+    "parent": "qtech:rftools",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "xnet:controller"
+                    }
+                ]
+            }
+        }
+    }
+}

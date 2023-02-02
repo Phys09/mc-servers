@@ -1,0 +1,3 @@
+// Item Terminal
+craftingTable.removeRecipe(<item:prettypipes:item_terminal>);
+craftingTable.addShapedMirrored("item_terminal_new", <item:prettypipes:item_terminal>, [[<item:silents_mechanisms:compressed_iron_ingot>, <item:silents_mechanisms:compressed_iron_ingot>, <item:silents_mechanisms:compressed_iron_ingot>], [<item:silents_mechanisms:compressed_iron_ingot>, <item:minecraft:chest>, <item:silents_mechanisms:compressed_iron_ingot>], [<item:silents_mechanisms:compressed_iron_ingot>, <item:silents_mechanisms:compressed_iron_ingot>, <item:silents_mechanisms:compressed_iron_ingot>]]);

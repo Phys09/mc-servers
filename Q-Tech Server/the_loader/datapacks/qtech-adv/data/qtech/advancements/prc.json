@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "mekanism:pressurized_reaction_chamber"
+        },
+        "title": {
+            "text": "Under Pressure"
+        },
+        "description": {
+            "text": "Craft a Pressurized Reaction Chamber. You will need multiple of them."
+        }
+    },
+    "parent": "qtech:solar3",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "mekanism:pressurized_reaction_chamber"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "mekanism:thermal_evaporation_controller"
+        },
+        "title": {
+            "text": "Vaporized"
+        },
+        "description": {
+            "text": "Craft a Thermal Evaporation Controller for the multiblock. You will need 2 multiblocks."
+        }
+    },
+    "parent": "qtech:solar4",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "mekanism:thermal_evaporation_controller"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "uuid": "669d890a-9ba5-4d0a-abb5-7d94d7b18c1c",
+  "username": "Endurium",
+  "data": {
+    "last_location": {
+      "x": -638.0675608636556,
+      "y": 65.0,
+      "z": -193.5397829349156,
+      "rotationYaw": -75.699585,
+      "rotationPitch": 8.549797,
+      "dimension": 0
+    },
+    "last_death": 1613088091,
+    "death_count": 4
+  },
+  "last_usage": {
+    "command": {
+      "back": 1612931820
+    },
+    "kit": {},
+    "teleport": {
+      "back": 1612931823
+    },
+    "other": {}
+  },
+  "restrictions": {},
+  "custom_data": {}
+}

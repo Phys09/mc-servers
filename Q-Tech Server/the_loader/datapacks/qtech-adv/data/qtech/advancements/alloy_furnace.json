@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "bluepower:alloyfurnace"
+        },
+        "title": {
+            "text": "Allooooying"
+        },
+        "description": {
+            "text": "Craft an Alloy Furnace (the Drawplate to craft Copper Wire doesn't get used up)"
+        }
+    },
+    "parent": "qtech:blast_furnace",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "bluepower:alloyfurnace"
+                    }
+                ]
+            }
+        }
+    }
+}

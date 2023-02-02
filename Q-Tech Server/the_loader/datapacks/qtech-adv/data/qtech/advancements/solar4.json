@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "solargeneration:solar_panel_signalum"
+        },
+        "title": {
+            "text": "Following the signals."
+        },
+        "description": {
+            "text": "Craft a Signalum Solar Panel."
+        }
+    },
+    "parent": "qtech:prc",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "solargeneration:solar_panel_signalum"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "titanium:gold_gear"
+        },
+        "title": {
+            "text": "Q-tech"
+        },
+        "description": {
+            "text": "This advancement tree guides you through the modpack. The end goal is to craft the most expensive Solar Panel."
+        },
+        "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "always": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blast_furnace"
+        },
+        "title": {
+            "text": "Blasting through"
+        },
+        "description": {
+            "text": "Craft a Blast Furnace as you can't smelt ores in a normal furnace."
+        }
+    },
+    "parent": "qtech:strainer",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:blast_furnace"
+                    }
+                ]
+            }
+        }
+    }
+}

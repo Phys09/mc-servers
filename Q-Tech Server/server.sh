@@ -1,0 +1,2 @@
+#!/bin/bash
+java -Xms2048M -Xmx4096M -XX:+UseG1GC -XX:+AlwaysPreTouch -XX:+UseLargePagesInMetaspace -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=50 -XX:+DisableExplicitGC -XX:TargetSurvivorRatio=90 -XX:G1NewSizePercent=50 -XX:G1MaxNewSizePercent=80 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1MixedGCLiveThresholdPercent=50 -XX:ParallelGCThreads=2 -XX:+CMSIncrementalPacing -XX:MaxMetaspaceSize=1G -server -jar forge-1.15.2-31.2.31.jar nogui

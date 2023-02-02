@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "silents_mechanisms:plastic_sheet"
+        },
+        "title": {
+            "text": "Plastic surgery"
+        },
+        "description": {
+            "text": "Craft a Plastic Sheet."
+        }
+    },
+    "parent": "qtech:refinery",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "silents_mechanisms:plastic_sheet"
+                    }
+                ]
+            }
+        }
+    }
+}

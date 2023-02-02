@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "inventula:eternal_eye"
+        },
+        "title": {
+            "text": "Look me in the eye"
+        },
+        "description": {
+            "text": "Craft an Eternal Eye. Right click on a spawner to get an Eternal Spawner."
+        }
+    },
+    "parent": "qtech:dissolution_chamber",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "inventula:eternal_eye"
+                    }
+                ]
+            }
+        }
+    }
+}

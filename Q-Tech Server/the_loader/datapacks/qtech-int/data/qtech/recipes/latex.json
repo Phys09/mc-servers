@@ -1,0 +1,23 @@
+{
+  "type": "interactio:fluid_fluid_transform",
+  "items": [
+    {
+      "item": "silents_mechanisms:plastic_sheet",
+      "count": 1
+    }
+  ],
+  "input": {
+    "fluid": "water"
+  },
+  "output": {
+    "entries": [
+      {
+        "result": {
+          "fluid": "industrialforegoing:latex"
+        },
+        "weight": 1
+      }
+    ],
+    "empty_weight": 0
+  }
+}

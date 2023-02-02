@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:smoker"
+        },
+        "title": {
+            "text": "Famished"
+        },
+        "description": {
+            "text": "Craft a Smoker as you can't cook food in a furnace"
+        }
+    },
+    "parent": "qtech:campfire",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:smoker"
+                    }
+                ]
+            }
+        }
+    }
+}

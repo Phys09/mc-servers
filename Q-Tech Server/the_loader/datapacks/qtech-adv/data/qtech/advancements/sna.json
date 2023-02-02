@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "mekanism:solar_neutron_activator"
+        },
+        "title": {
+            "text": "The key to ultimate power"
+        },
+        "description": {
+            "text": "Craft a Solar Neutron Activator."
+        }
+    },
+    "parent": "qtech:solar6",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "mekanism:solar_neutron_activator"
+                    }
+                ]
+            }
+        }
+    }
+}

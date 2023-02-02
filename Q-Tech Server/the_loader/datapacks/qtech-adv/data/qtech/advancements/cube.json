@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "mekanism:basic_energy_cube"
+        },
+        "title": {
+            "text": "Power³"
+        },
+        "description": {
+            "text": "Craft a Basic Energy Cube after you have your passive power setup."
+        }
+    },
+    "parent": "qtech:metallurgic_infuser",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "mekanism:basic_energy_cube"
+                    }
+                ]
+            }
+        }
+    }
+}

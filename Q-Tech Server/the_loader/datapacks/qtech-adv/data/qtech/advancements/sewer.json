@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "industrialforegoing:sewer"
+        },
+        "title": {
+            "text": "Ewww!"
+        },
+        "description": {
+            "text": "Craft a Sewer to get some sweet Essence."
+        }
+    },
+    "parent": "qtech:mob_slaughter_factory",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "industrialforegoing:sewer"
+                    }
+                ]
+            }
+        }
+    }
+}

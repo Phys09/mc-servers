@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "powah:dielectric_casing"
+        },
+        "title": {
+            "text": "More Powah!"
+        },
+        "description": {
+            "text": "Craft a Dielectric Casing. Powah has lots of options for power generation."
+        }
+    },
+    "parent": "qtech:alloy_smelter",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "powah:dielectric_casing"
+                    }
+                ]
+            }
+        }
+    }
+}

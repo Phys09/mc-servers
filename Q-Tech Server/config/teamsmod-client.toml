@@ -1,0 +1,15 @@
+
+[Gui]
+	#Disable HUD display showing teammate location
+	disableCompassOverlay = true
+	#Use smaller button to open teams GUI
+	smallIcon = false
+	#Use alternate position for teams GUI button
+	useAlternatePosition = false
+	#Disable HUD display showing teammate health and hunger
+	disableStatusOverlay = true
+
+[Miscellaneous]
+	#Disable chat bubbles above player heads
+	disableChatBubble = true
+

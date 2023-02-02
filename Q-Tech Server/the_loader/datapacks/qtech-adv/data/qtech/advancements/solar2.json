@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "solargeneration:solar_panel_hardened"
+        },
+        "title": {
+            "text": "The beginning of the end"
+        },
+        "description": {
+            "text": "Craft a Hardened Solar Panel. (This starts the end game, don't start this unless you have excess resources.)"
+        }
+    },
+    "parent": "qtech:dielectric_casing",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "solargeneration:solar_panel_hardened"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "mekanism:digital_miner"
+        },
+        "title": {
+            "text": "Automated Mining"
+        },
+        "description": {
+            "text": "Craft a Digital Miner."
+        }
+    },
+    "parent": "qtech:dielectric_casing",
+    "criteria": {
+        "craft": {
+            "trigger": "minecraft:inventory_changed",
+			"conditions": {
+                "items": [
+                    {
+                        "item": "mekanism:digital_miner"
+                    }
+                ]
+            }
+        }
+    }
+}
