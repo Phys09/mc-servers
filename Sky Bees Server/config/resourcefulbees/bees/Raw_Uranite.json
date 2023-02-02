@@ -1,0 +1,32 @@
+{
+  "flower": "powah:uraninite_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#0DF605",
+    "primaryColor": "#0DF605",
+    "secondaryColor": "#8BA58A",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "powah:uraninite_raw_poor"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Sieve",
+    "parent2": "Gravel",
+    "breedWeight": 0.1,
+    "feedItem": "powah:uraninite_raw_poor",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

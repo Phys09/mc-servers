@@ -1,0 +1,28 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": false,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "modelType": "GELATINOUS",
+    "isBeeColored": true,
+    "honeycombColor": "#6E2C00",
+    "primaryColor": "#6E2C00",
+    "secondaryColor": "#5E4C41"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:poppy",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

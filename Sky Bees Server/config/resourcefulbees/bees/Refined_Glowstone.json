@@ -1,0 +1,31 @@
+{
+  "flower": "mekanism:block_refined_glowstone",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#E0D90D",
+    "primaryColor": "#E0D90D",
+    "secondaryColor": "#E6FE0E",
+    "isGlowing": true
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mekanism:ingot_refined_glowstone"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Steel",
+    "parent2": "Pigman",
+    "feedItem": "mekanism:ingot_refined_glowstone",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

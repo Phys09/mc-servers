@@ -1,0 +1,29 @@
+{
+  "flower": "ALL",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/coal/coal_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#303030",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:coal",
+    "mainOutputCount": 16
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:overworld"
+  },
+  "BreedData": {
+    "feedItem": "minecraft:coal",
+    "feedAmount": 1,
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

@@ -1,0 +1,28 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#DBF3F7",
+    "primaryColor": "#DBF3F7",
+    "secondaryColor": "#E2F0F2"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:snowball"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "feedItem": "minecraft:poppy",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

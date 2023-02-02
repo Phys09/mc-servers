@@ -1,0 +1,181 @@
+{
+	id: "0000000000000036"
+	group: ""
+	order_index: 0
+	filename: "start"
+	title: "Start"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Tipps - Bugs - Ideas"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			description: [
+				""
+				""
+				"If the Pictures in the Questbook are broken reload the Sky Bees Resource Pack."
+				""
+				"If you have any tipps, bugs or Ideas for ex. Quests let me know on my Discord"
+			]
+			dependencies: ["0000000000000067"]
+			id: "0000000000000065"
+			tasks: [{
+				id: "0000000000000066"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Welcome to my first Modpack"
+			x: 0.0d
+			y: -1.5d
+			shape: "gear"
+			description: [
+				"Server:"
+				""
+				"use /sethome to set your homepoint"
+				"and /home to port back to your island if you are falling down."
+			]
+			id: "0000000000000067"
+			tasks: [{
+				id: "0000000000000068"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Bee"
+			x: 0.0d
+			y: -3.0d
+			shape: "gear"
+			description: [
+				"In this Pack you start with Ex Nihilo."
+				"But the main generation of Materials are Bees."
+				"You start with Normal Minecraft Bees."
+				"With enough ressources you can craft the 11 Base Bee Spawn Eggs."
+				"The other Ressource Bees you have to Breed."
+			]
+			dependencies: ["0000000000000067"]
+			id: "0000000000000069"
+			tasks: [{
+				id: "000000000000006A"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Skypack"
+			x: -1.5d
+			y: -1.5d
+			shape: "gear"
+			description: [
+				"For Skyblock Map on Servers use: level-type="
+				"skyblockbuilder:custom_skyblock"
+				""
+				""
+			]
+			dependencies: ["0000000000000067"]
+			id: "000000000000006B"
+			tasks: [{
+				id: "000000000000006C"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Ore Excavation?"
+			x: 1.5d
+			y: -1.5d
+			shape: "gear"
+			description: [
+				"There is no Ore Excavation!"
+				""
+				"But you can use FTB Ultimine"
+			]
+			dependencies: ["0000000000000067"]
+			id: "000000000000006D"
+			tasks: [{
+				id: "000000000000006E"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Progression"
+			x: -1.0d
+			y: -2.5d
+			shape: "gear"
+			description: [
+				"Immersive Engineering -> Black Iron Ingot Quest opens up Extended Crafting."
+				""
+				"Extended Crafting -> Machine Casing opens up Refined Storage and Applied Energistics2."
+				""
+				"Ex Nihilo -> Floral Fertilizer Quest opens up Botania."
+				""
+				"Botania -> Dielectric Paste Quest opens up Powah."
+				""
+				"Ex Nihilo -> Beehive Quest opens up Bees."
+				""
+				"Botania -> Pity Machine Frame Quest opens up Industrial Foregoing."
+				""
+				"Astral Sorcery -> Blood Altar Quest opens up Blood Magic."
+				""
+				"Blood Magic -> Steel Casing Quest opens up Mekanism."
+				""
+				"Mekanism -> Machine Frame Quest opens up RfTools."
+				""
+				"Extended Crafting -> Creative Tab Quest opens up Creative Tab."
+			]
+			dependencies: ["0000000000000067"]
+			id: "00000000000042A7"
+			tasks: [{
+				id: "00000000000042A8"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			shape: "gear"
+			description: ["I changed some Recipes to make it a bit harder."]
+			dependencies: ["0000000000000067"]
+			id: "00000000000042A9"
+			tasks: [{
+				id: "00000000000042AA"
+				type: "checkmark"
+				title: "Expert Modpack?!"
+			}]
+		}
+		{
+			title: "Quest Rewards?!"
+			x: -1.0d
+			y: -0.5d
+			shape: "gear"
+			description: [
+				"Not every Quest has a Reward."
+				""
+				"The Quests are only to help you a bit."
+			]
+			dependencies: ["0000000000000067"]
+			id: "00000000000042AB"
+			tasks: [{
+				id: "00000000000042AC"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Easter eggs ?! :)"
+			x: 1.0d
+			y: -0.5d
+			shape: "gear"
+			description: [
+				"There are some Easter Eggs."
+				""
+			]
+			dependencies: ["0000000000000067"]
+			id: "00000000000042AD"
+			tasks: [{
+				id: "00000000000042AE"
+				type: "checkmark"
+				title: "Easter Eggs"
+			}]
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"x": -75,
+	"y": 0,
+	"width": 75,
+	"height": 35,
+	"texture": "packmenu:textures/gui/bh.png",
+	"u": 0,
+	"v": 0,
+	"hoverU": 0,
+	"hoverV": 0,
+	"texWidth": 75,
+	"texHeight": 35,
+	"widgets": false,
+	"langKey": "packmenu.bh",
+	"action": "OPEN_URL",
+	"data": "https://bisecthosting.com/skybees",
+	"anchor": "TOP_RIGHT",
+	"textXOffset": 5
+}

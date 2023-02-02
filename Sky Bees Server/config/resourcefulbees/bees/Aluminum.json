@@ -1,0 +1,32 @@
+{
+  "flower": "immersiveengineering:storage_aluminum",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#A79D9D",
+    "primaryColor": "#A79D9D",
+    "secondaryColor": "#A09999",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "immersiveengineering:ingot_aluminum"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Sieve",
+    "parent2": "Gravel",
+    "breedWeight": 0.1,
+    "feedItem": "immersiveengineering:ingot_aluminum",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

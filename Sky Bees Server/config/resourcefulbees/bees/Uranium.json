@@ -1,0 +1,32 @@
+{
+  "flower": "immersiveengineering:storage_uranium",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#A7EBA5",
+    "primaryColor": "#A7EBA5",
+    "secondaryColor": "#CFECCE",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mekanism:ingot_uranium"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Sieve",
+    "parent2": "Gravel",
+    "breedWeight": 0.1,
+    "feedItem": "mekanism:ingot_uranium",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

@@ -1,0 +1,30 @@
+{
+  "flower": "mekanism:block_steel",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#74706F",
+    "primaryColor": "#74706F",
+    "secondaryColor": "#B3ACAA"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mekanism:ingot_steel"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Coal",
+    "parent2": "Iron",
+    "feedItem": "mekanism:ingot_steel",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

@@ -1,0 +1,30 @@
+{
+  "flower": "minecraft:netherrack",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#6C0F12",
+    "primaryColor": "#6C0F12",
+    "secondaryColor": "#47080A"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:netherrack"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Redstone",
+    "parent2": "Cobblestone",
+    "feedItem": "minecraft:netherrack",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

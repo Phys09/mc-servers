@@ -1,0 +1,31 @@
+{
+  "flower": "appliedenergistics2:fluix_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#9F4BE1",
+    "primaryColor": "#9F4BE1",
+    "secondaryColor": "#2F074D"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "appliedenergistics2:fluix_crystal"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Sieve",
+    "parent2": "Dust",
+    "breedWeight": 0.1,
+    "feedItem": "appliedenergistics2:fluix_crystal",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

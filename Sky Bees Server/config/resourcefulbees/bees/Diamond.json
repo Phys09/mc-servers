@@ -1,0 +1,32 @@
+{
+  "flower": "minecraft:diamond_block",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "ores/diamond/diamond_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#00ffff",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:diamond",
+    "mainOutputCount": 1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Coal",
+    "parent2": "Cobblestone",
+    "breedWeight": 0.35,
+    "feedItem": "minecraft:diamond",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

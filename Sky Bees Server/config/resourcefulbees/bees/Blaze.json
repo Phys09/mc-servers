@@ -1,0 +1,31 @@
+{
+  "flower": "botania:blaze_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#EE6917",
+    "primaryColor": "#EE6917",
+    "secondaryColor": "#DA4A11"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:blaze_rod"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Sieve",
+    "parent2": "Dust",
+    "breedWeight": 0.1,
+    "feedItem": "minecraft:blaze_rod",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

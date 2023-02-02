@@ -1,0 +1,30 @@
+{
+  "flower": "minecraft:quartz_block",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#6D6C6D",
+    "primaryColor": "#6D6C6D",
+    "secondaryColor": "#464546"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "appliedenergistics2:silicon"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Nether_Quartz",
+    "parent2": "Certus_Quartz",
+    "feedItem": "appliedenergistics2:silicon",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

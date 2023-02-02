@@ -1,0 +1,29 @@
+{
+  "flower": "minecraft:glass",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#00FFFFFF",
+    "primaryColor": "#00FFFFFF"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:glass"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Coal",
+    "parent2": "Sand",
+    "feedItem": "minecraft:glass",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

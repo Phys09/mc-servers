@@ -1,0 +1,37 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+      "primaryColor":"#ffffff",
+      "secondaryColor":"#ffffff",
+      "honeycombColor":"#E2A94E",
+      "primaryLayerTexture":"/custom/bee",
+      "secondaryLayerTexture":"/custom/secondary_layer",
+      "emissiveLayerTexture":"/creeper/creeper_bee_emissive",
+      "isBeeColored": false,
+      "modelType": "DEFAULT"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+        "hasCentrifugeOutput": true,
+        "mainOutput": "pamhc2foodextended:deluxecheeseburgeritem",
+        "mainOutputWeight":0.1,
+        "mainOutputCount":1
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Diamond",
+    "parent2": "Emerald",
+    "breedWeight": 0.35,
+    "feedItem": "minecraft:poppy",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

@@ -1,0 +1,24 @@
+#The multiplier for island distances for multiplayer Garden of Glass worlds.
+#Islands are placed on a grid with 256 blocks between points, with the spawn island always being placed on 256, 256.
+#By default, the scale is 8, putting each island on points separated by 2048 blocks.
+#You can't set the Value < 4 due to Nether portal collisions.
+#Range: 4 ~ 512
+islandDistance = 100
+#Width of islands (Not yet working!!!)
+#Range: 1 ~ 15
+islandSize = 3
+#Y Level to spawn islands at (Set to 2 above where you want the ground block)
+#Range: 1 ~ 240
+islandYLevel = 72
+#Type of block to spawn under islands (Not yet working!!!)
+#Allowed Values: BEDROCK, SECONDARYBLOCK
+bottomBlockType = "BEDROCK"
+#Allow players to create or reset their islands
+allowIslandCreation = true
+#Allows the visit command to be used
+allowVisitCommand = false
+#Allows the home command to be used
+allowHomeCommand = true
+#Allows island generation
+allowIslandRegen = true
+

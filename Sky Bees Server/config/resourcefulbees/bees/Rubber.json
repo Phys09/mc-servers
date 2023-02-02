@@ -1,0 +1,30 @@
+{
+  "flower": "minecraft:oak_log",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#CCCBCF",
+    "primaryColor": "#CCCBCF",
+    "secondaryColor": "#ACABAE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "industrialforegoing:tinydryrubber"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Slimy",
+    "parent2": "Steel",
+    "feedItem": "industrialforegoing:tinydryrubber",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

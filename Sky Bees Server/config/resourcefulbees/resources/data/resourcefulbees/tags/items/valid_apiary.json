@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+  "extendedcrafting:nether_star_block",
+  "botania:blaze_block",
+  "quark:gunpowder_sack",
+  "extendedcrafting:ender_ingot_block",
+  "minecraft:soul_sand",
+  "minecraft:netherite_block",
+  "minecraft:prismarine",
+  "refinedstorage:quartz_enriched_iron_block",
+  "mekanism:block_salt",
+  "minecraft:bone_block",
+  "minecraft:slime_block",
+  "wpbmod:witherproofblock",
+  "appliedenergistics2:fluix_block",
+  "darkutils:filter_player",
+  "botania:mana_glass"
+  ]
+}

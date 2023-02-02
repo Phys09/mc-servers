@@ -1,0 +1,32 @@
+{
+  "flower": "immersiveengineering:storage_nickel",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#9B9292",
+    "primaryColor": "#9B9292",
+    "secondaryColor": "#CABBBC",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "immersiveengineering:ingot_nickel"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Sieve",
+    "parent2": "Gravel",
+    "breedWeight": 0.1,
+    "feedItem": "immersiveengineering:ingot_nickel",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}

@@ -1,0 +1,16 @@
+craftingTable.removeRecipe(<item:appliedenergistics2:1k_storage_cell>);
+craftingTable.removeRecipe(<item:appliedenergistics2:1k_fluid_storage_cell>);
+craftingTable.removeRecipe(<item:appliedenergistics2:4k_storage_cell>);
+craftingTable.removeRecipe(<item:appliedenergistics2:4k_fluid_storage_cell>);
+craftingTable.removeRecipe(<item:appliedenergistics2:16k_storage_cell>);
+craftingTable.removeRecipe(<item:appliedenergistics2:16k_fluid_storage_cell>);
+craftingTable.removeRecipe(<item:appliedenergistics2:64k_storage_cell>);
+craftingTable.removeRecipe(<item:appliedenergistics2:64k_fluid_storage_cell>);
+craftingTable.removeRecipe(<item:appliedenergistics2:energy_acceptor>);
+craftingTable.removeRecipe(<item:appliedenergistics2:wooden_gear>);
+craftingTable.removeRecipe(<item:appliedenergistics2:printed_silicon>);
+craftingTable.removeRecipe(<item:appliedenergistics2:controller>);
+craftingTable.removeRecipe(<item:appliedenergistics2:drive>);
+craftingTable.removeRecipe(<item:appliedenergistics2:empty_storage_cell>);
+craftingTable.removeRecipe(<item:appliedenergistics2:1k_fluid_cell_component>);
+craftingTable.removeRecipe(<item:appliedenergistics2:1k_cell_component>);

@@ -1,0 +1,33 @@
+{
+  "flower": "minecraft:quartz_block",
+  "maxTimeInHive": 600,
+  "hasHoneycomb": true,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#D4CABA",
+    "primaryColor": "#D4CABA",
+    "secondaryColor": "#303030",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:quartz",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false,
+    "biomeWhitelist": "tag:OVERWORLD"
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Sieve",
+    "parent2": "Dust",
+    "breedWeight": 0.1,
+    "feedItem": "minecraft:quartz",
+    "feedAmount": 1
+  },
+  "TraitData": {}
+}
