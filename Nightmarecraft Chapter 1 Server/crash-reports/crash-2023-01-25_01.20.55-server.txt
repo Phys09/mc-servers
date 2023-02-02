@@ -1,0 +1,176 @@
+---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 2023-01-25, 1:20 a.m.
+Description: Ticking entity
+
+java.util.ConcurrentModificationException: null
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1597) ~[?:?] {}
+	at java.util.HashMap$EntryIterator.next(HashMap.java:1630) ~[?:?] {}
+	at java.util.HashMap$EntryIterator.next(HashMap.java:1628) ~[?:?] {}
+	at com.divinegaming.nmcmobs.entities.passive.LeprechaunEntity.m_8119_(LeprechaunEntity.java:256) ~[nmcmobs-1.18.2-1.0.4.jar%2353!/:1.18.2-1.0.4] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:652) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.world.level.Level.m_46653_(Level.java:487) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nmcengine.mixins.json:WorldMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:319) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:299) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:902) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:326) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:842) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:685) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at java.util.HashMap$HashIterator.nextNode(HashMap.java:1597) ~[?:?] {}
+	at java.util.HashMap$EntryIterator.next(HashMap.java:1630) ~[?:?] {}
+	at java.util.HashMap$EntryIterator.next(HashMap.java:1628) ~[?:?] {}
+	at com.divinegaming.nmcmobs.entities.passive.LeprechaunEntity.m_8119_(LeprechaunEntity.java:256) ~[nmcmobs-1.18.2-1.0.4.jar%2353!/:1.18.2-1.0.4] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:652) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.world.level.Level.m_46653_(Level.java:487) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nmcengine.mixins.json:WorldMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:319) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:299) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:ServerLevelMixin,pl:mixin:A}
+-- Entity being ticked --
+Details:
+	Entity Type: nmcmobs:leprechaun (com.divinegaming.nmcmobs.entities.passive.LeprechaunEntity)
+	Entity ID: 42108
+	Entity Name: Leprechaun
+	Entity's Exact location: -946.25, 79.00, 1968.09
+	Entity's Block location: World: (-947,79,1968), Section: (at 13,15,0 in -60,4,123; chunk contains blocks -960,-64,1968 to -945,319,1983), Region: (-2,3; contains chunks -64,96 to -33,127, blocks -1024,-64,1536 to -513,319,2047)
+	Entity's Momentum: 0.03, -0.08, -0.06
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.world.level.Level.m_46653_(Level.java:487) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nmcengine.mixins.json:WorldMixin,pl:mixin:A}
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:319) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:classloading}
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:299) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:ServerLevelMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:902) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:326) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:842) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:685) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+-- Affected level --
+Details:
+	All players: 3 total; [ServerPlayer['Endurium'/268, l='ServerLevel[Nightmare Craft 1.18.2]', x=-946.55, y=79.00, z=1966.80], ServerPlayer['Phys09'/17216, l='ServerLevel[Nightmare Craft 1.18.2]', x=-945.30, y=79.79, z=1968.03], ServerPlayer['Hayanami'/38350, l='ServerLevel[Nightmare Craft 1.18.2]', x=-943.78, y=79.69, z=1969.97]]
+	Chunk stats: 3349
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-707,76,1827), Section: (at 13,12,3 in -45,4,114; chunk contains blocks -720,-64,1824 to -705,319,1839), Region: (-2,3; contains chunks -64,96 to -33,127, blocks -1024,-64,1536 to -513,319,2047)
+	Level time: 661602516 game time, 172058 day time
+	Level name: Nightmare Craft 1.18.2
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Level weather: Rain time: 72782 (now: false), thunder time: 103911 (now: false)
+	Known server brands: forge, Spigot
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:902) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:326) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:842) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:685) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261) ~[server-1.18.2-20220404.173914-srg.jar%2363!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:nightmarecraft.mixins.json:MinecraftServerMixin,pl:mixin:A}
+	at java.lang.Thread.run(Thread.java:833) [?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18.2
+	Minecraft Version ID: 1.18.2
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 18.0.1.1, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 2270915536 bytes (2165 MiB) / 5112856576 bytes (4876 MiB) up to 8573157376 bytes (8176 MiB)
+	CPUs: 16
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 7 2700X Eight-Core Processor         
+	Identifier: AuthenticAMD Family 23 Model 8 Stepping 2
+	Microarchitecture: Zen+
+	Frequency (GHz): 3.69
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: NVIDIA GeForce GTX 1080
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x1b80
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.2737
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.13
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.13
+	Memory slot #1 type: DDR4
+	Memory slot #2 capacity (MB): 8192.00
+	Memory slot #2 clockSpeed (GHz): 2.13
+	Memory slot #2 type: DDR4
+	Memory slot #3 capacity (MB): 8192.00
+	Memory slot #3 clockSpeed (GHz): 2.13
+	Memory slot #3 type: DDR4
+	Virtual memory max (MB): 40975.70
+	Virtual memory used (MB): 35886.55
+	Swap memory total (MB): 8283.34
+	Swap memory used (MB): 155.02
+	JVM Flags: 0 total; 
+	Server Running: true
+	Player Count: 3 / 8; [ServerPlayer['Endurium'/268, l='ServerLevel[Nightmare Craft 1.18.2]', x=-946.55, y=79.00, z=1966.80], ServerPlayer['Phys09'/17216, l='ServerLevel[Nightmare Craft 1.18.2]', x=-945.30, y=79.79, z=1968.03], ServerPlayer['Hayanami'/38350, l='ServerLevel[Nightmare Craft 1.18.2]', x=-943.78, y=79.69, z=1969.97]]
+	Data Packs: vanilla, mod:forge, mod:geckolib3 (incompatible), mod:nightmarecraft (incompatible), mod:fancyvideo_api (incompatible), mod:voicechat (incompatible), mod:worldedit (incompatible), mod:nmcguns, mod:nmcdecorations, mod:nmcengine, mod:rubidium (incompatible), mod:nmcfactory, mod:nmcfoods, mod:nmcshrooms, mod:nmcgear, mod:nmcmobs, mod:treechop (incompatible), mod:theoneprobe (incompatible), mod:fastleafdecay, mod:oreexcavation, mod:inventorysorter (incompatible), mod:jade, mod:jadeaddons (incompatible), mod:jei (incompatible), mod:prettypipes (incompatible)
+	World Generation: Stable
+	Is Modded: Definitely; Server brand changed to 'forge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 9.1.3+9.1.3+main.9b69c82a
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		 mixin PLUGINSERVICE 
+		 eventbus PLUGINSERVICE 
+		 slf4jfixer PLUGINSERVICE 
+		 object_holder_definalize PLUGINSERVICE 
+		 runtime_enum_extender PLUGINSERVICE 
+		 capability_token_subclass PLUGINSERVICE 
+		 accesstransformer PLUGINSERVICE 
+		 runtimedistcleaner PLUGINSERVICE 
+		 mixin TRANSFORMATIONSERVICE 
+		 fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		server-1.18.2-20220404.173914-srg.jar             |Minecraft                     |minecraft                     |1.18.2              |DONE      |Manifest: NOSIGNATURE
+		TreeChop-1.18.2-forge-0.16.3.jar                  |HT's TreeChop                 |treechop                      |0.16.3              |DONE      |Manifest: NOSIGNATURE
+		inventorysorter-1.18-19.0.0.jar                   |Simple Inventory Sorter       |inventorysorter               |19.0.0              |DONE      |Manifest: NOSIGNATURE
+		voicechat-forge-1.18.2-2.3.24.jar                 |Simple Voice Chat             |voicechat                     |1.18.2-2.3.24       |DONE      |Manifest: NOSIGNATURE
+		theoneprobe-1.18-5.1.2.jar                        |The One Probe                 |theoneprobe                   |1.18-5.1.2          |DONE      |Manifest: NOSIGNATURE
+		worldedit-mod-7.2.10.jar                          |WorldEdit                     |worldedit                     |7.2.10+1742f98      |DONE      |Manifest: NOSIGNATURE
+		Jade-1.18.2-forge-5.2.6.jar                       |Jade                          |jade                          |5.2.6               |DONE      |Manifest: NOSIGNATURE
+		jei-1.18.2-9.7.1.255.jar                          |Just Enough Items             |jei                           |9.7.1.255           |DONE      |Manifest: NOSIGNATURE
+		JadeAddons-1.18.2-forge-2.4.1.jar                 |Jade Addons                   |jadeaddons                    |2.4.1               |DONE      |Manifest: NOSIGNATURE
+		FancyVideo-API-forge-2.2.0.0.jar                  |FancyVideo API                |fancyvideo_api                |2.2.0.0             |DONE      |Manifest: NOSIGNATURE
+		forge-1.18.2-40.2.0-universal.jar                 |Forge                         |forge                         |40.2.0              |DONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		nightmarecraft-1.18.2-1.0.4.jar                   |NightmareCraft Survival       |nightmarecraft                |1.18.2-1.0.4        |DONE      |Manifest: NOSIGNATURE
+		nmcguns-1.18.2-1.0.3.jar                          |NightmareCraft: Guns & Explosi|nmcguns                       |1.18.2-1.0.3        |DONE      |Manifest: NOSIGNATURE
+		nmcdecorations-1.18.2-1.0.2.jar                   |NightmareCraft: Decorations   |nmcdecorations                |1.18.2-1.0.2        |DONE      |Manifest: NOSIGNATURE
+		nmcengine-1.18.2-1.0.3.jar                        |NightmareCraft: Game Engine   |nmcengine                     |1.18.2-1.0.3        |DONE      |Manifest: NOSIGNATURE
+		rubidium-0.5.4.jar                                |Rubidium                      |rubidium                      |0.5.4               |DONE      |Manifest: NOSIGNATURE
+		nmcfactory-1.18.2-1.0.2.jar                       |NightmareCraft: Auto Factory  |nmcfactory                    |1.18.2-1.0.2        |DONE      |Manifest: NOSIGNATURE
+		nmcfoods-1.18.2-1.0.3.jar                         |NightmareCraft: Super Foods   |nmcfoods                      |1.18.2-1.0.3        |DONE      |Manifest: NOSIGNATURE
+		FastLeafDecay-28.jar                              |FastLeafDecay                 |fastleafdecay                 |28                  |DONE      |Manifest: NOSIGNATURE
+		nmcshrooms-1.18.2-1.0.3.jar                       |NightmareCraft: MEMESHROOMS   |nmcshrooms                    |1.18.2-1.0.3        |DONE      |Manifest: NOSIGNATURE
+		nmcgear-1.18.2-1.0.3.jar                          |NightmareCraft: Legendary Gear|nmcgear                       |1.18.2-1.0.3        |DONE      |Manifest: NOSIGNATURE
+		nmcmobs-1.18.2-1.0.4.jar                          |NightmareCraft: Mobs          |nmcmobs                       |1.18.2-1.0.4        |DONE      |Manifest: NOSIGNATURE
+		geckolib-forge-1.18-3.0.54.jar                    |GeckoLib                      |geckolib3                     |3.0.54              |DONE      |Manifest: NOSIGNATURE
+		PrettyPipes-1.12.8.jar                            |Pretty Pipes                  |prettypipes                   |1.12.8              |DONE      |Manifest: NOSIGNATURE
+		OreExcavation-1.10.162.jar                        |OreExcavation                 |oreexcavation                 |1.10.162            |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 0200cb85-5fba-43dc-b6fc-9f6dd44d9677
+	FML: 40.2
+	Forge: net.minecraftforge:40.2.0

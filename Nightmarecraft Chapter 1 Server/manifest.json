@@ -1,0 +1,89 @@
+{
+  "minecraft": {
+    "version": "1.18.2",
+    "modLoaders": [
+      {
+        "id": "forge-40.1.84",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Nightmare Craft 1.18.2",
+  "version": "1.0.4",
+  "author": "",
+  "files": [
+    {
+      "projectID": 538463,
+      "fileID": 4359001,
+      "required": true
+    },
+    {
+      "projectID": 416089,
+      "fileID": 4226703,
+      "required": true
+    },
+    {
+      "projectID": 701423,
+      "fileID": 4358949,
+      "required": true
+    },
+    {
+      "projectID": 700859,
+      "fileID": 4358954,
+      "required": true
+    },
+    {
+      "projectID": 701438,
+      "fileID": 4358950,
+      "required": true
+    },
+    {
+      "projectID": 700942,
+      "fileID": 4358952,
+      "required": true
+    },
+    {
+      "projectID": 591686,
+      "fileID": 3822603,
+      "required": true
+    },
+    {
+      "projectID": 574856,
+      "fileID": 4024781,
+      "required": true
+    },
+    {
+      "projectID": 702029,
+      "fileID": 4358945,
+      "required": true
+    },
+    {
+      "projectID": 581495,
+      "fileID": 3929520,
+      "required": true
+    },
+    {
+      "projectID": 700948,
+      "fileID": 4358947,
+      "required": true
+    },
+    {
+      "projectID": 709683,
+      "fileID": 4358955,
+      "required": true
+    },
+    {
+      "projectID": 700954,
+      "fileID": 4358956,
+      "required": true
+    },
+    {
+      "projectID": 388172,
+      "fileID": 4064442,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}
