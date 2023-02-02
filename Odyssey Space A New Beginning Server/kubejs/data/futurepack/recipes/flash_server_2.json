@@ -1,0 +1,29 @@
+{
+  "type": "futurepack:research_shaped",
+  "group": "futurepack",
+  "pattern": [
+    "SCS",
+    "LFL",
+    "SAS"
+  ],
+  "key": {
+    "S": {
+      "item": "futurepack:aiflash2"
+    },
+    "C": {
+      "item": "rftoolsstorage:storage_module2"
+    },
+    "L": {
+      "item": "futurepack:chip_support"
+    },
+    "F": {
+      "item": "futurepack:color_iron_white"
+    },
+    "A": {
+      "item": "futurepack:wire_support"
+    }
+  },
+  "result": {
+    "item": "futurepack:flash_server_white"
+  }
+}

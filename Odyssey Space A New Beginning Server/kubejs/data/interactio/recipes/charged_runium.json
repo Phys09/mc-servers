@@ -1,0 +1,17 @@
+{
+	"type":"interactio:item_fluid_transform",
+	"inputs":[
+		{
+			"item":"aoa3:runium_chunk",
+			"count":1
+		}
+	],
+	"fluid":{
+		"fluid":"futurepack:neon"
+	},
+	"output":{
+		"item":"aoa3:charged_runium_chunk",
+		"count":1
+	},
+	"consume_fluid":1.0
+}

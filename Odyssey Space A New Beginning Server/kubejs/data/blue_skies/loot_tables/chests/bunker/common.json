@@ -1,0 +1,71 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 4.0,
+				"max": 9.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "blue_skies:winter_leaf_seeds"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "blue_skies:cryo_root"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 7.0,
+								"max": 12.0,
+								"type": "minecraft:uniform"
+							},
+							"treasure": false
+						}
+					],
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3.0,
+								"max": 5.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:string"
+				}
+			]
+		},
+		{
+			"name": "generic_table",
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "aoa3:misc/generic_chest_loot"
+				}
+			]
+		}
+	]
+}

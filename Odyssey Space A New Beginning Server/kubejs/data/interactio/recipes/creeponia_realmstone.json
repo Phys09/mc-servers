@@ -1,0 +1,22 @@
+{
+  "type": "interactio:item_explode",
+  "inputs": [
+    {
+      "item": "aoa3:blank_realmstone",
+      "count": 1
+    }
+  ],
+  "output": {
+    "entries": [
+      {
+        "result": {
+          "item": "aoa3:creeponia_realmstone",
+          "count": 1
+        },
+        "weight": 1
+      }
+    ],
+    "empty_weight": 0,
+    "rolls": 1
+  }
+}

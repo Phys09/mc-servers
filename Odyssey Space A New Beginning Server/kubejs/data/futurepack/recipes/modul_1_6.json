@@ -1,0 +1,32 @@
+{
+  "type": "futurepack:research_shaped",
+  "group": "futurepack",
+  "pattern": [
+    "TDT",
+    "SMS",
+    "CNC"
+  ],
+  "key": {
+    "T": {
+      "item": "appliedenergistics2:engineering_processor"
+    },
+    "D": {
+      "item": "kubejs:basic_machine_board"
+    },
+    "S": {
+      "item": "mekanism:enriched_redstone"
+    },
+    "M": {
+      "item": "futurepack:color_iron_light_gray"
+    },
+    "N": {
+      "item": "mekanism:energy_tablet"
+    },
+    "C": {
+      "item": "futurepack:ingot_neon"
+    }
+  },
+  "result": {
+    "item": "futurepack:modul_1_gray"
+  }
+}

@@ -1,0 +1,22 @@
+{
+	
+	"criteria": {
+		"find_portal": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location":{
+					"dimension": "aoa3:mysterium",
+					"feature":"aoa3:runic_portal_hollow"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+		  "find_portal"
+		]
+	],
+	"rewards": {
+		"function": "odyssey:story/engineer_note2"	
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"name":"Calculation Modules",
+	"icon":"futurepack:modul_1_black",
+	"category":"patchouli:research",
+	"pages":[
+		{
+			"type":"quest_image",
+			"textHeader":"Calculation Modules",
+			"itemToFind":"futurepack:modul_1_black,futurepack:modul_2_white,futurepack:modul_3_gray"
+		},
+		{
+			"type": "patchouli:quest",
+			"title": "Calculation Modules",
+			"text":"As the complexity of the technology increases, the Researcher will require more Time. $(br2)You can't buy time however by adding Calculation Modules to the Researcher, it can assist with processing the research."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Calculation Modules",
+			"text":"$(br)$(4)Warning: Calculation Modules are power hogs!!$()$(br2)There is no indicator on the Calculation Modules on whether they are working or not. The only way to tell is to hover over the Time gauge and see how many are active. If some are not active, check network connections, but its probably just not getting enough power."
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler":false
+		}
+	],
+	"sortnum":6
+}
+

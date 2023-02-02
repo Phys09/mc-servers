@@ -1,0 +1,49 @@
+{
+  "type": "futurepack:research_shaped",
+  "group": "futurepack",
+  "pattern": [
+    "CDC",
+    "KMK",
+    "ZPZ"
+  ],
+  "key": {
+    "C": [
+      {
+        "tag": "forge:gems/neon"
+      },
+      {
+        "tag": "forge:gems/retium"
+      },
+      {
+        "tag": "forge:gems/glowtite"
+      },
+      {
+        "tag": "forge:gems/bioterium"
+      },
+      {
+        "tag": "forge:gems/aluminum"
+      }
+    ],
+    "D": {
+      "item": "kubejs:basic_machine_board"
+    },
+    "Z": {
+      "tag": "forge:ingots/zinc"
+    },
+    "M": [
+	    {
+	      "item": "futurepack:color_iron_white"
+	    },
+	    {"tag": "forge:blocks/iron"}
+    ],
+    "K": {
+      "item": "appliedenergistics2:wooden_gear"
+    },
+    "P": {
+      "item": "futurepack:parts_iron"
+    }
+  },
+  "result": {
+    "item": "futurepack:researcher_white"
+  }
+}

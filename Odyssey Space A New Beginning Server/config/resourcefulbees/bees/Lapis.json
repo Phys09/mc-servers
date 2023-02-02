@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:lapis_lazuli_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier3/lapis_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#6991b1",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:lapis_lazuli",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem": "mysticalagriculture:lapis_lazuli_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

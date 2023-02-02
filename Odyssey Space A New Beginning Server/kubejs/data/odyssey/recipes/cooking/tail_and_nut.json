@@ -1,0 +1,24 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "blue_skies:monitor_tail"
+    },
+    {
+      "item": "blue_skies:pine_fruit"
+    },
+    {
+      "item": "blue_skies:winter_leaves"
+    },
+    {
+      "item": "kubejs:tongue"
+    }
+  ],
+  "result": {
+    "item": "kubejs:tail_and_tongue"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 300
+}

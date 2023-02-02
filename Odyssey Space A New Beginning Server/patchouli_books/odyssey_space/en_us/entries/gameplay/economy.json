@@ -1,0 +1,27 @@
+{
+	"name":"The Economy",
+	"icon":"aoa3:copper_coin",
+	"category":"patchouli:gameplay",
+	"pages":[
+		{
+			"type": "patchouli:text",			
+			"text": "You can engage in trade with villagers, traders and merchants found across all dimensions. Some have really nice items, such as mastery armor, others can give you a loot chest with random loot.$(br2)Villagers are at the core of the economy. You can sell items, like cobble, stone, wood and more, to get copper coins."
+		},
+		{
+			"type":"patchouli:text",
+			"title":"The Economy",
+			"text":"You can pick villagers up by shift-right clicking them with an empty hand. You can also craft a $(item)trading post$(), which will allow you to interact with all trades in the area. In this manner, you can create your own villager trading hall.$(br2)Specific villagers are made by placing a villager next to a work station. Place a villager next to a smithing table and they become a weaponsmith."
+		},
+		{
+			"type":"patchouli:text",
+			"title":"The Bojangler",
+			"text":"A block wrangler, or Bojangler in the native dialect, is a merchant who sells specialized, uncraftable deco blocks. There are 4 varieties:$(br2)$(l)Bojangler$()$(li)Station: Pyrope Block$(br)$(l)Inner Bojangler$()$(li)Station: Horizonite Block$(br)$(l)Mid Bojangler$()$(li)Station: Emerald Block$(br)$(l)Outer Bojangler$()$(li)Station: Diamond Block"
+		},
+		{
+			"type":"patchouli:entity",
+			"entity":"minecraft:villager{VillagerData:{profession:'spacecatcustomprofessions:bojangler',level:2,type:plains}}"
+		}			
+	],
+	"sortnum":3
+}
+

@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:blaze_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier4/blaze_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#ecc835",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:blaze_rod",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:blaze_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

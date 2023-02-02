@@ -1,0 +1,17 @@
+{
+	"type":"interactio:item_fluid_transform",
+	"inputs":[
+		{
+			"item":"blue_skies:moonstone_shard",
+			"count":2
+		}
+	],
+	"fluid":{
+		"fluid":"futurepack:neon"
+	},
+	"output":{
+		"item":"astralsorcery:aquamarine",
+		"count":1
+	},
+	"consume_fluid":0.5
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Amethyst",
+  "type": "resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "aoa3:amethyst"
+  },
+  "color": "b50df2",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_gem"
+  }
+}

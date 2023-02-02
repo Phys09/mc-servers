@@ -1,0 +1,27 @@
+{
+  "flower": "mysticalagriculture:zombie_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "zombie/zombie_bee",
+  "traits": ["zombie"],
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#2F4E32"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:zombie_essence",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem": "mysticalagriculture:zombie_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

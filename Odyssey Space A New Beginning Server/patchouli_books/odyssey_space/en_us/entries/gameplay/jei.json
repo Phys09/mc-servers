@@ -1,0 +1,28 @@
+{
+	"name":"The JEI",
+	"icon":"futurepack:display",
+	"category":"patchouli:gameplay",
+	"pages":[
+		{
+			"type": "patchouli:text",			
+			"text": "Essential to any modded experience is the JEI. The JEI shows all items available and their crafting recipes, if the mod supports it.$(br2)The most basic use of JEI is to hove over and item and use $(thing)$(k:jei.showRecipe)$() to see its recipe or $(thing)$(k:jei.showUses)$() to show which recipes use the item."
+		},
+		{
+			"type":"patchouli:text",
+			"title":"The JEI",
+			"text":"JEI organizes recipes into categories, which is listed at the top of every recipe. Check every category before crafting an item as some categories may show an easier recipe to use. For example, using the Inscriber to make electronic components instead of the crafting table.$(br2)You can also click on the category name to see all recipes in that category."
+		},
+		{
+			"type":"patchouli:text",
+			"title":"The JEI",
+			"text":"As you navigate through the JEI, you can use $(thing)$(k:jei.recipeBack)$() to go back to previously viewed recipes. $(br2)For quick reference, you can use $(thing)$(k:jei.bookmark)$() to bookmark an item to get to its recipe faster. All bookmarks are listed in the pane on the left."
+		},
+		{
+			"type":"patchouli:text",
+			"title":"The JEI",
+			"text":"You are also able to search JEI for items using the search bar at the bottom. There are a few search parameters that help you narrow your search: $(li)$(thing)@ - targets a mod$(), ex: @futurepack will show all items from the futurepack mod$(li)$(thing)# - searches only the tooltips$(), ex: #boss will show all boss summoning or boss drops$(li)$(thing)$ - search by tags$(), ex: $grass will show all blocks/items in the grass tag"
+		}
+	],
+	"sortnum":5
+}
+

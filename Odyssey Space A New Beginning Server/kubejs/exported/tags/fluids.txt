@@ -1,0 +1,100 @@
+To refresh this file, delete it and run /reload command again! Last updated: Oct 1, 2021 7:02:01 PM
+
+#aoa3:toxic_waste
+- aoa3:toxic_waste
+- aoa3:toxic_waste_flowing
+
+#forge:steam
+- mekanism:steam
+- mekanism:flowing_steam
+
+#forge:oxygen
+- mekanism:oxygen
+- mekanism:flowing_oxygen
+
+#aoa3:candied_water
+- aoa3:candied_water
+- aoa3:candied_water_flowing
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- betterportals:portal_fluid_still
+- betterportals:portal_fluid_flowing
+- aoa3:candied_water
+- aoa3:candied_water_flowing
+- aoa3:clear_water
+- aoa3:clear_water_flowing
+- futurepack:neon
+- futurepack:neon_flowing
+- futurepack:salt_water
+- futurepack:salt_water_flowing
+
+#forge:hydrogen_chloride
+- mekanism:hydrogen_chloride
+- mekanism:flowing_hydrogen_chloride
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:lithium
+- mekanism:lithium
+- mekanism:flowing_lithium
+
+#futurepack:paralyzing
+- futurepack:neon
+- futurepack:neon_flowing
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:hydrofluoric_acid
+- mekanism:hydrofluoric_acid
+- mekanism:flowing_hydrofluoric_acid
+
+#forge:ethene
+- mekanism:ethene
+- mekanism:flowing_ethene
+
+#forge:sulfur_dioxide
+- mekanism:sulfur_dioxide
+- mekanism:flowing_sulfur_dioxide
+
+#forge:hydrogen
+- mekanism:hydrogen
+- mekanism:flowing_hydrogen
+
+#forge:brine
+- mekanism:brine
+- mekanism:flowing_brine
+
+#futurepack:oxygen
+- futurepack:oxygen
+- futurepack:oxygen_flowing
+
+#forge:chlorine
+- mekanism:chlorine
+- mekanism:flowing_chlorine
+
+#appliedenergistics2:blacklisted/fluid_annihilation_plane
+
+#forge:sodium
+- mekanism:sodium
+- mekanism:flowing_sodium
+
+#create:no_infinite_draining
+- astralsorcery:liquid_starlight
+
+#forge:heavy_water
+- mekanism:heavy_water
+- mekanism:flowing_heavy_water
+
+#forge:sulfur_trioxide
+- mekanism:sulfur_trioxide
+- mekanism:flowing_sulfur_trioxide
+
+#forge:sulfuric_acid
+- mekanism:sulfuric_acid
+- mekanism:flowing_sulfuric_acid

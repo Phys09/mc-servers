@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:uranium_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier5/uranium_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#00d958",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:uranium_essence",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:uranium_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

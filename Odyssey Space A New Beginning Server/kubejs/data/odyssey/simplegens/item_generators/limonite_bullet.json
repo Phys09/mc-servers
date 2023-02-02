@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_tnt",
+  "fuel": {"raw:item": "aoa3:limonite_bullet"},
+  "energy": 4500
+}

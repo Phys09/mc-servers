@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:dirt_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier1/dirt_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#90764d",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:dirt_essence",
+    "mainOutputCount": 8
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:dirt_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

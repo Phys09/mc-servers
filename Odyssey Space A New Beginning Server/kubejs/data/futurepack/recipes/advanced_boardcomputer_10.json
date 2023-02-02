@@ -1,0 +1,32 @@
+{
+  "type": "futurepack:research_shaped",
+  "group": "futurepack",
+  "pattern": [
+    "SLS",
+    "PBP",
+    "RCR"
+  ],
+  "key": {
+    "S": {
+      "item": "futurepack:coil_iron"
+    },
+    "P": {
+      "item": "futurepack:polymer"
+    },
+    "C": {
+      "item": "futurepack:core_master"
+    },
+    "R": {
+      "item": "futurepack:ram_master"
+    },
+    "L": {
+      "item": "mekanism:steel_casing"
+    },
+    "B": {
+      "item": "futurepack:board_computer_black"
+    }
+  },
+  "result": {
+    "item": "futurepack:advanced_board_computer_black"
+  }
+}

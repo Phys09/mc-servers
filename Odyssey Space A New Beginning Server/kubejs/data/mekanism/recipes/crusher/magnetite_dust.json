@@ -1,0 +1,12 @@
+{
+	"type": "mekanism:crushing",
+	"input": {
+		"ingredient": {
+			"item": "futurepack:ore_magnetite"
+		}
+	},
+	"output": {
+		"item": "futurepack:dust_magnet",
+		"count": 2
+	}
+}

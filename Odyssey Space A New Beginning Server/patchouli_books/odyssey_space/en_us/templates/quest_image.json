@@ -1,0 +1,24 @@
+{
+	"components":[	
+		{
+			"type":"header",
+			"text":"#textHeader",
+			"x":60
+		},
+		{
+			"type":"separator",
+			"y":12
+		},
+		{
+			"type": "item",
+			"item": "#itemToFind",
+			"framed": "true",
+			"y":50,
+			"x":50
+		},
+		{
+			"type":"separator",
+			"y":110
+		}
+	]
+}

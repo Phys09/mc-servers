@@ -1,0 +1,18 @@
+{
+	"name":"Technology Exchange",
+	"icon":"futurepack:crafting_recipe",
+	"category":"patchouli:the_story",
+	"pages":[
+		{
+			"type": "patchouli:text",			
+			"text": "It was a standard diplomatic mission between Overworld and the Genosians. An agreement for a technology exchange was finally approved, and it was my team that was selected to lead the exchange. As their technological advancements were far beyond our own, it seemed odd that they wanted information pertaining to our botanical, geological and telecommunications studies. "
+		},
+		{
+			"type":"patchouli:text",
+			"text":"Two weeks ago, my team, including myself, Sargeant Major, our medic Ms. Shuster, the engineer Mr. Michaels and the three experts, Dr. Felloway, Dr. Minekampf and Dr. Thatch, set out to rendevous with the Genosians."
+		}			
+	],
+	"advancement":"odyssey:guides/story_2",
+	"sortnum":2
+}
+

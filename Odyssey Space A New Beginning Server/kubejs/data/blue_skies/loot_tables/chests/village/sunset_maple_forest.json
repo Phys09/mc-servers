@@ -1,0 +1,137 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": {
+				"min": 3.0,
+				"max": 8.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 4.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "minecraft:emerald"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "blue_skies:pyrope_gem"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 7.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "blue_skies:cooked_monitor_tail"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "blue_skies:blaze_bud"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "blue_skies:maple_sapling"
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "scannable:scanner",
+					"weight": 30
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_ore_common",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_ore_rare",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_block",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_range",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_entity",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_animal",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_monster",
+					"weight": 20
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+type = hud
+
+customization-meta {
+  backgroundimage = kubejs/assets/odyssey/gui/background3.jpg
+  renderorder = foreground
+}
+
+customization {
+  textcolor = 8A26A3
+  action = editforgememoryinfo
+  y = 18
+}
+
+customization {
+  textcolor = 8A26A3
+  action = editforgestatustext
+}
+
+customization {
+  action = editprogressbar
+  barcolor = 4542FF
+}
+

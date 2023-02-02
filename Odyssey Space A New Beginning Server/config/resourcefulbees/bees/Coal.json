@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:coal_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier2/coal_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#0c0c0c",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:coal",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:coal_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

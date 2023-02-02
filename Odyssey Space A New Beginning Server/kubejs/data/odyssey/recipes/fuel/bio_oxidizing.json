@@ -1,0 +1,12 @@
+{
+	"type": "mekanism:oxidizing",
+	"input": {
+		"ingredient": {
+			"tag": "forge:dusts/bioterium"
+		}
+	},
+	"output": {
+		"gas": "kubejs:neon_gas",
+		"amount": 1000
+	}
+}

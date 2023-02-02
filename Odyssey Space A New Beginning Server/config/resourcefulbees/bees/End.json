@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:end_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier4/end_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#c6b185",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:end_essence",
+    "mainOutputCount": 8
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:end_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

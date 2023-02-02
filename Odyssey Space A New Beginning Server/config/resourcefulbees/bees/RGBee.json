@@ -1,0 +1,26 @@
+{
+  "flower": "mysticalagriculture:dye_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#ffffff",
+    "isRainbowBee": true,
+    "isGlowing": true
+  },
+  "MutationData": {},
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:dye_essence",
+    "mainOutputCount": 8
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem": "mysticalagriculture:dye_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

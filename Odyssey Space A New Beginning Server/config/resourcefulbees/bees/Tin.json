@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:tin_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier2/tin_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#a5bcc9",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "bno:tin_ingot",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:tin_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"find_a_village": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location": [
+					{
+						"feature": "blue_skies:village"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"find_a_village"
+		]
+	]
+}

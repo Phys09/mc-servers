@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:chicken_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier2/chicken_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#b7b061",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:chicken_essence",
+    "mainOutputCount": 6
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:chicken_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

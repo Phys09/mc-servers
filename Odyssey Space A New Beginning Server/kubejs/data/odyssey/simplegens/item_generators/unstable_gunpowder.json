@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_tnt",
+  "fuel": {"raw:item": "aoa3:unstable_gunpowder"},
+  "energy": 480000
+}

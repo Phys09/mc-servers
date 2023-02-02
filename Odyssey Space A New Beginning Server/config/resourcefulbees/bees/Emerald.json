@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:emerald_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier5/emerald_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#18eb09",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:emerald",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:emerald_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

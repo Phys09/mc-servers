@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "blue_skies:municipal_monkfish"
+    },
+    {
+      "item": "blue_skies:brewberry"
+    },
+    {
+      "item": "blue_skies:winter_leaves"
+    }
+  ],
+  "result": {
+    "item": "kubejs:spear_monk_stew"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200
+}

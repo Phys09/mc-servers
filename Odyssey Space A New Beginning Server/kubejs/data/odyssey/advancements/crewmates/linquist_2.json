@@ -1,0 +1,22 @@
+{
+  
+  "criteria": {
+    "find_portal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+			"location":{
+				"dimension": "aoa3:barathos",
+				"feature":"aoa3:baron_house"
+			}
+		}
+    }
+  },
+  "requirements": [
+    [
+	  "find_portal"
+	]
+  ],
+	"rewards": {
+		"function": "odyssey:story/linquist_note2"	
+	}
+}

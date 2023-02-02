@@ -1,0 +1,148 @@
+{
+	"type": "indus_furnace",
+	"recipes": [
+	  {
+	    "id": "composite_metal",
+	    "output": {
+	      "size": 6,
+	      "name": "futurepack:composite_metal"
+	    },
+	    "input": [
+	      "minecraft:iron_ingot",
+	      "tag:forge:ingots/copper",
+	      "tag:forge:ingots/zinc"
+	    ]
+	  },
+	  {
+	    "id": "composite_metal",
+	    "output": {
+	      "size": 6,
+	      "name": "futurepack:composite_metal"
+	    },
+	    "input": [
+	      "minecraft:iron_ingot",
+	      "tag:forge:ingots/copper",
+	      "tag:forge:ingots/tin"
+	    ]
+	  },
+	  {
+	    "id": "silicon_sand",
+	    "output": {
+	      "size": 2,
+	      "name": "futurepack:ingot_silicon"
+	    },
+	    "input": [
+	      "minecraft:coal",
+	      "tag:forge:sand",
+	      "minecraft:coal"
+	    ]
+	  },
+	  {
+	    "id": "ingot_neon",
+	    "output": {
+	      "size": 1,
+	      "tag": "forge:ingots/neon"
+	    },
+	    "input": [
+	      {
+	        "name": "futurepack:crystal_neon"
+	      },
+	      {
+	        "name": "futurepack:crystal_neon"
+	      },
+	      "minecraft:coal"
+	    ]
+	  },
+	  {
+	    "id": "ingot_retium",
+	    "output": {
+	      "size": 1,
+	      "tag": "forge:ingots/retium"
+	    },
+	    "input": [
+	      {
+	        "name": "futurepack:crystal_retium"
+	      },
+	      {
+	        "name": "futurepack:crystal_retium"
+	      },
+	      "minecraft:coal"
+	    ]
+	  },
+	  {
+	    "id": "ingot_glowtite",
+	    "output": {
+	      "size": 1,
+	      "tag": "forge:ingots/glowtite"
+	    },
+	    "input": [
+	      {
+	        "name": "futurepack:crystal_glowtite"
+	      },
+	      {
+	        "name": "futurepack:crystal_glowtite"
+	      },
+	      "minecraft:coal"
+	    ]
+	  },
+	  {
+	    "id": "ingot_bioterium",
+	    "output": {
+	      "size": 1,
+	      "tag": "forge:ingots/bioterium"
+	    },
+	    "input": [
+	      {
+	        "name": "futurepack:crystal_bioterium"
+	      },
+	      {
+	        "name": "futurepack:crystal_bioterium"
+	      },
+	      "minecraft:coal"
+	    ]
+	  },
+	  {
+	    "id": "ingot_aluminum_bauxit",
+	    "output": {
+	      "size": 1,
+	      "name": "bno:aluminum_ingot"
+	    },
+	    "input": [
+	      "tag:forge:ores/bauxite",
+	      "tag:forge:ores/bauxite"
+	    ]
+	  },
+	  {
+	    "id": "ingot_aluminum_crystal",
+	    "output": {
+	      "size": 1,
+	      "name": "bno:aluminum_ingot"
+	    },
+	    "input": [
+	      {
+	        "name": "futurepack:crystal_alutin"
+	      },
+	      {
+	        "name": "futurepack:crystal_alutin"
+	      },
+	      "minecraft:coal"
+	    ]
+	  },
+	   {
+	    "id": "katalysator_tin_graphene",
+	    "output": {
+	      "size": 1,
+	      "name": "futurepack:tin_graphene_katalysator"
+	    },
+	    "input": [
+	      {
+	        "tag": "forge:ingots/tin"
+	      },
+	      {
+	        "tag": "forge:rods/blaze"
+	      },
+	      "minecraft:coal"
+	    ]
+	  }
+	]
+}

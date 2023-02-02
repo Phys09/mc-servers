@@ -1,0 +1,25 @@
+{
+	"name":"Crash and Burn",
+	"icon":"futurepack:crafting_recipe",
+	"category":"patchouli:the_story",
+	"pages":[
+		{
+			"type": "patchouli:text",			
+			"text": "I've crashed landed on an alien planet in an unknown galaxy. My coms are unresponsive. $(br2)One of my navigation sensors must have been hit by debris as I made my escape from the Odyssey.$(br2)Without nav-coms, Protocal 7 is invalid. Therefore, my only hope of getting home is to find my crewmates and recover the coordinates."
+		},
+		{
+			"type":"patchouli:text",
+			"text":"Scanners showed this planet sustains a large number of humanoid lifeforms, as well as some unknown. $(br2)I am unfamiliar with any of the planets in this galaxy, but this looks like my best chance for survival.$(br2)On entry, my escape pod suffered severe damages and I ejected before the whole thing blew up and with it, my interstellar emergency telecoms."
+		},
+		{
+			"type":"patchouli:text",
+			"text":"My only chance to get back home is to find my crew. Each has 1 coordinate of the 7 needed to plot a course from any ship to home. $(br2)First, I must explore and survive. $(br2)Second, build a ship and find navs to whats up there. $(br2)Third, locate my crew and go home."
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler":false
+		}			
+	],
+	"sortnum":0
+}
+

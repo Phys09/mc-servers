@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"inscriber": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "appliedenergistics2:inscriber"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"inscriber"
+		]
+	]
+}

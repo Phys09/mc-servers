@@ -1,0 +1,32 @@
+{
+  "type": "futurepack:research_shaped",
+  "group": "futurepack",
+  "pattern": [
+    "TDT",
+    "SMS",
+    "PCP"
+  ],
+  "key": {
+    "T": {
+      "item": "futurepack:parts_gold"
+    },
+    "D": {
+      "item": "kubejs:basic_machine_board"
+    },
+    "S": {
+      "item": "mekanism:alloy_infused"
+    },
+    "M": {
+      "item": "futurepack:color_iron_light_gray"
+    },
+    "C": {
+      "item": "futurepack:coil_gold"
+    },
+    "P": {
+      "item": "futurepack:aiflash0"
+    }
+  },
+  "result": {
+    "item": "futurepack:modul_2_gray"
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"be_in_lborean": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"dimension": "aoa3:lborean"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"be_in_lborean"
+		]
+	],
+	"rewards": {
+		"function": "odyssey:story/sargeant_note3"
+	}
+}

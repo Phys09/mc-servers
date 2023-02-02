@@ -1,0 +1,461 @@
+{
+	"type": "indus_neon_furnace",
+	"recipes": [
+	  {
+	    "support": 0,
+	    "id": "composite_metal",
+	    "output": {
+	      "size": 6,
+	      "name": "futurepack:composite_metal"
+	    },
+	    "input": [
+	      "minecraft:iron_ingot",
+	      "tag:forge:ingots/copper",
+	      "tag:forge:ingots/zinc"
+	    ]
+	  },
+	  {
+	    "support": 0,
+	    "id": "composite_metal",
+	    "output": {
+	      "size": 6,
+	      "name": "futurepack:composite_metal"
+	    },
+	    "input": [
+	      "minecraft:iron_ingot",
+	      "tag:forge:ingots/copper",
+	      "tag:forge:ingots/tin"
+	    ]
+	  },
+	  {
+	    "support": 0,
+	    "id": "silicon_sand",
+	    "output": {
+	      "size": 6,
+	      "name": "futurepack:ingot_silicon"
+	    },
+	    "input": [
+	      "tag:forge:sand",
+	      "tag:forge:sand",
+	      "minecraft:coal"
+	    ]
+	  },
+	  {
+	    "support": 2,
+	    "id": "silicon_quartz",
+	    "output": {
+	      "size": 4,
+	      "name": "futurepack:ingot_silicon"
+	    },
+	    "input": [
+	      {
+	        "tag": "forge:gems/quartz"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 0,
+	    "id": "keramik",
+	    "output": {
+	      "size": 2,
+	      "tag": "futurepack:ceramics"
+	    },
+	    "input": [
+	      {
+	        "size": 1,
+	        "tag": "forge:dusts/obsidian"
+	      },
+	      {
+	        "size": 1,
+	        "name": "minecraft:clay_ball"
+	      },
+	      {
+	        "size": 1,
+	        "tag": "forge:dusts/obsidian"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 0,
+	    "id": "ingot_aluminum_bauxit",
+	    "output": {
+	      "size": 2,
+	      "name": "bno:aluminum_ingot"
+	    },
+	    "input": [
+	      {
+	        "tag": "forge:ores/bauxite"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 0,
+	    "id": "ingot_neon",
+	    "output": {
+	      "size": 1,
+	      "tag": "forge:ingots/neon"
+	    },
+	    "input": [
+	      {
+	        "name": "futurepack:crystal_neon"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 0,
+	    "id": "ingot_retium",
+	    "output": {
+	      "size": 1,
+	      "tag": "forge:ingots/retium"
+	    },
+	    "input": [
+	      {
+	        "name": "futurepack:crystal_retium"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 0,
+	    "id": "ingot_glowtite",
+	    "output": {
+	      "size": 1,
+	      "tag": "forge:ingots/glowtite"
+	    },
+	    "input": [
+	      {
+	        "name": "futurepack:crystal_glowtite"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 0,
+	    "id": "ingot_bioterium",
+	    "output": {
+	      "size": 1,
+	      "tag": "forge:ingots/bioterium"
+	    },
+	    "input": [
+	      {
+	        "name": "futurepack:crystal_bioterium"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 0,
+	    "id": "ingot_aluminum",
+	    "output": {
+	      "size": 1,
+	      "name": "bno:aluminum_ingot"
+	    },
+	    "input": [
+	      {
+	        "name": "futurepack:crystal_alutin"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 0,
+	    "id": "ingot_wakurium",
+	    "output": {
+	      "size": 1,
+	      "tag": "forge:ingots/wakurium"
+	    },
+	    "input": [
+	      {
+	        "size": 1,
+	        "tag": "forge:ingots/neon"
+	      },
+	      {
+	        "size": 1,
+	        "tag": "forge:dusts/redstone"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 5,
+	    "id": "ingot_quantanium",
+	    "output": {
+	      "size": 1,
+	      "tag": "forge:ingots/quantanium"
+	    },
+	    "input": [
+	      {
+	        "size": 1,
+	        "tag": "forge:ingots/wakurium"
+	      },
+	      {
+	        "size": 1,
+	        "tag": "forge:ingots/gadolinium"
+	      },
+	      {
+	        "size": 1,
+	        "tag": "forge:gems/lapis"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 0,
+	    "id": "linse_white",
+	    "output": {
+	      "size": 1,
+	      "name": "futurepack:lense_white"
+	    },
+	    "input": [
+	      {
+	        "size": 1,
+	        "tag": "forge:ingots/aluminum"
+	      },
+	      {
+	        "size": 1,
+	        "name": "minecraft:glass_pane"
+	      },
+	      {
+	        "size": 1,
+	        "name": "futurepack:ingot_silicon"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 0,
+	    "id": "linse_red",
+	    "output": {
+	      "size": 1,
+	      "name": "futurepack:lense_red"
+	    },
+	    "input": [
+	      {
+	        "size": 1,
+	        "tag": "forge:ingots/aluminum"
+	      },
+	      {
+	        "size": 1,
+	        "name": "minecraft:red_stained_glass_pane"
+	      },
+	      {
+	        "size": 1,
+	        "tag": "forge:dusts/redstone"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 20,
+	    "id": "linse_lila",
+	    "output": {
+	      "size": 1,
+	      "name": "futurepack:lense_purple"
+	    },
+	    "input": [
+	      {
+	        "size": 1,
+	        "tag": "forge:ingots/aluminum"
+	      },
+	      {
+	        "size": 1,
+	        "name": "minecraft:purple_stained_glass_pane"
+	      },
+	      {
+	        "size": 1,
+	        "tag": "forge:gems/prismide"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 30,
+	    "id": "linse_green",
+	    "output": {
+	      "size": 1,
+	      "name": "futurepack:lense_green"
+	    },
+	    "input": [
+	      {
+	        "size": 1,
+	        "tag": "forge:ingots/aluminum"
+	      },
+	      {
+	        "size": 1,
+	        "name": "minecraft:lime_stained_glass_pane"
+	      },
+	      {
+	        "size": 1,
+	        "tag": "forge:gems/emerald"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 4,
+	    "id": "ingot_magnetite_neodymium",
+	    "output": {
+	      "size": 4,
+	      "tag": "forge:ingots/magnetite"
+	    },
+	    "input": [
+	      {
+	        "size": 1,
+	        "tag": "forge:dusts/magnetite"
+	      },
+	      {
+	        "size": 1,
+	        "tag": "forge:dusts/iron"
+	      },
+	      {
+	        "size": 1,
+	        "tag": "forge:ingots/neodymium"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 0,
+	    "id": "ingot_magnetite_iron",
+	    "output": {
+	      "size": 1,
+	      "tag": "forge:ingots/magnetite"
+	    },
+	    "input": [
+	      {
+	        "size": 1,
+	        "tag": "forge:dusts/magnetite"
+	      },
+	      {
+	        "size": 1,
+	        "tag": "forge:dusts/magnetite"
+	      },
+	      {
+	        "size": 1,
+	        "tag": "forge:ingots/iron"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 1,
+	    "id": "golden_carrot",
+	    "output": {
+	      "size": 1,
+	      "name": "minecraft:golden_carrot"
+	    },
+	    "input": [
+	      {
+	        "size": 1,
+	        "tag": "forge:nuggets/gold"
+	      },
+	      {
+	        "size": 1,
+	        "name": "minecraft:carrot"
+	      },
+	      {
+	        "size": 1,
+	        "tag": "forge:nuggets/gold"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 1,
+	    "id": "speckled_melon",
+	    "output": {
+	      "size": 1,
+	      "name": "minecraft:glistering_melon_slice"
+	    },
+	    "input": [
+	      {
+	        "size": 1,
+	        "tag": "forge:nuggets/gold"
+	      },
+	      {
+	        "size": 1,
+	        "name": "minecraft:melon"
+	      },
+	      {
+	        "size": 1,
+	        "tag": "forge:nuggets/gold"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 2,
+	    "id": "golden_apple",
+	    "output": {
+	      "size": 2,
+	      "name": "minecraft:golden_apple"
+	    },
+	    "input": [
+	      {
+	        "size": 1,
+	        "tag": "forge:ingots/gold"
+	      },
+	      {
+	        "size": 1,
+	        "name": "minecraft:apple"
+	      },
+	      {
+	        "size": 1,
+	        "name": "minecraft:apple"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 0,
+	    "id": "blaze_rod",
+	    "output": {
+	      "size": 1,
+	      "name": "minecraft:blaze_rod"
+	    },
+	    "input": [
+	      {
+	        "size": 2,
+	        "name": "minecraft:blaze_powder"
+	      },
+	      {
+	        "size": 1,
+	        "tag": "forge:nuggets/gold"
+	      },
+	      {
+	        "size": 2,
+	        "name": "minecraft:blaze_powder"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 2,
+	    "id": "leather",
+	    "output": {
+	      "size": 1,
+	      "name": "minecraft:leather"
+	    },
+	    "input": [
+	      {
+	        "size": 1,
+	        "name": "minecraft:rotten_flesh"
+	      },
+	      {
+	        "size": 1,
+	        "name": "minecraft:rotten_flesh"
+	      },
+	      {
+	        "size": 1,
+	        "name": "futurepack:wood_chips"
+	      }
+	    ]
+	  },
+	  {
+	    "support": 0,
+	    "id": "polymer",
+	    "output": {
+	      "size": 1,
+	      "name": "futurepack:polymer"
+	    },
+	    "input": [
+	      {
+	        "size": 1,
+	        "name": "futurepack:fibers"
+	      },
+	      {
+	        "size": 1,
+	        "name": "futurepack:chemicals_b"
+	      },
+	      {
+	        "size": 1,
+	        "name": "futurepack:fibers"
+	      }
+	    ]
+	  }
+	]
+}

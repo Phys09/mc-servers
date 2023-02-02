@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"blast_furnace": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:blast_furnace"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"blast_furnace"
+		]
+	]
+}

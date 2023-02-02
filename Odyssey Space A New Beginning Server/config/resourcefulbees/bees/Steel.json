@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:steel_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier4/steel_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#818181",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mekanism:ingot_steel",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:steel_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

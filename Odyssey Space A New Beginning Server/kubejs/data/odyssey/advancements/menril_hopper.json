@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"menril_sapling": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "integrateddynamics:menril_sapling"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"menril_sapling"
+		]
+	],
+	"rewards": {
+		"function": "odyssey:menril_reward"
+	}
+}

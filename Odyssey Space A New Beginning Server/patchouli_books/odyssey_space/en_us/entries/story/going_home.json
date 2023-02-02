@@ -1,0 +1,18 @@
+{
+	"name":"The Journey Home",
+	"icon":"futurepack:crafting_recipe",
+	"category":"patchouli:the_story",
+	"pages":[
+		{
+			"type": "patchouli:text",			
+			"text": "With the technology exchange settled, we loaded up for the trip home. Mr. Michaels got to work analyzing and researching the tablet, while the rest of the crew and I got some much needed R & R. $(br2)I awoke to sirens and alarms. The ship was on a crash course for an unknown celestial body. I reached the auto-navs console at the same time as Mr. Michaels."
+		},
+		{
+			"type":"patchouli:text",
+			"text":"$(br)He ascertained that the auto-navs must have mal-functioned and the system plotted a course to an unknown region in space. Unknown to us that is. Someone knows its out there. I alerted Sargeant to check the ship, top to bottom, that we may have a stow-away. $(br2)I ordered the ship to halt its course and the scientists to stay in their cabins."
+		}		
+	],
+	"advancement":"odyssey:guides/story_4",
+	"sortnum":4
+}
+

@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"be_in_candyland": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"dimension": "aoa3:candyland"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"be_in_candyland"
+		]
+	],
+	"rewards": {
+		"function": "odyssey:story/sargeant_note2"
+	}
+}

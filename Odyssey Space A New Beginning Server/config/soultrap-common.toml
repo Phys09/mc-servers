@@ -1,0 +1,9 @@
+
+["Soul Trap Configuration"]
+	#creature_list
+	creature_list = []
+	#XP Levels Consumed
+	cost = 5
+	#Enable blacklist mode
+	blacklist = true
+

@@ -1,0 +1,4826 @@
+To refresh this file, delete it and run /reload command again! Last updated: Oct 1, 2021 7:02:01 PM
+
+#tombstone:decorative_grave_ingredients
+- tombstone:essence_of_undeath
+
+#forge:blocks/tin
+- futurepack:block_tin
+
+#forge:blocks/aluminum
+- futurepack:block_compressed_aluminium
+
+#forge:glass_panes/magenta
+- minecraft:magenta_stained_glass_pane
+
+#forge:nuggets
+- #forge:nuggets/iron
+- #forge:nuggets/gold
+- aoa3:baronyte_nugget
+- aoa3:blazium_nugget
+- aoa3:elecanium_nugget
+- aoa3:emberstone_nugget
+- aoa3:ghastly_nugget
+- aoa3:ghoulish_nugget
+- aoa3:limonite_nugget
+- aoa3:lunar_nugget
+- aoa3:lyon_nugget
+- aoa3:mystite_nugget
+- aoa3:rosite_nugget
+- aoa3:shyrestone_nugget
+- aoa3:varsium_nugget
+- mekanism:nugget_osmium
+- mekanism:nugget_copper
+- mekanism:nugget_tin
+- mekanism:nugget_lead
+- mekanism:nugget_uranium
+- #forge:nuggets/bronze
+- #forge:nuggets/refined_glowstone
+- #forge:nuggets/refined_obsidian
+- #forge:nuggets/steel
+- #forge:nuggets/aluminum
+- #forge:nuggets/copper
+- #forge:nuggets/lead
+- #forge:nuggets/nickel
+- #forge:nuggets/osmium
+- #forge:nuggets/silver
+- #forge:nuggets/tin
+
+#blue_skies:logs/bluebright
+- blue_skies:bluebright_log
+- blue_skies:bluebright_wood
+- blue_skies:stripped_bluebright_log
+- blue_skies:stripped_bluebright_wood
+
+#forge:dyes/gray
+- minecraft:gray_dye
+
+#mekanism:alloys/basic
+- minecraft:redstone
+
+#forge:alloys
+- #forge:alloys/advanced
+- #forge:alloys/elite
+- #forge:alloys/ultimate
+
+#integrateddynamics:parts
+- integrateddynamics:part_audio_reader
+- integrateddynamics:part_audio_writer
+- integrateddynamics:part_block_reader
+- integrateddynamics:part_connector_mono_directional
+- integrateddynamics:part_connector_omni_directional
+- integrateddynamics:part_display_panel
+- integrateddynamics:part_dynamic_light_panel
+- integrateddynamics:part_effect_writer
+- integrateddynamics:part_entity_reader
+- integrateddynamics:part_entity_writer
+- integrateddynamics:part_extradimensional_reader
+- integrateddynamics:part_fluid_reader
+- integrateddynamics:part_inventory_reader
+- integrateddynamics:part_inventory_writer
+- integrateddynamics:part_machine_reader
+- integrateddynamics:part_machine_writer
+- integrateddynamics:part_network_reader
+- integrateddynamics:part_redstone_reader
+- integrateddynamics:part_redstone_writer
+- integrateddynamics:part_static_light_panel
+- integrateddynamics:part_world_reader
+- integratedtunnels:part_interface_energy
+- integratedtunnels:part_interface_filter_energy
+- integratedtunnels:part_importer_energy
+- integratedtunnels:part_exporter_energy
+- integratedtunnels:part_importer_world_energy
+- integratedtunnels:part_exporter_world_energy
+- integratedtunnels:part_interface_item
+- integratedtunnels:part_interface_filter_item
+- integratedtunnels:part_importer_item
+- integratedtunnels:part_exporter_item
+- integratedtunnels:part_importer_world_item
+- integratedtunnels:part_exporter_world_item
+- integratedtunnels:part_interface_fluid
+- integratedtunnels:part_interface_filter_fluid
+- integratedtunnels:part_importer_fluid
+- integratedtunnels:part_exporter_fluid
+- integratedtunnels:part_importer_world_fluid
+- integratedtunnels:part_exporter_world_fluid
+- integratedtunnels:part_importer_world_block
+- integratedtunnels:part_exporter_world_block
+- integratedtunnels:part_player_simulator
+- integratedcrafting:part_interface_crafting
+- integratedcrafting:part_crafting_writer
+
+#forge:ingots/refined_obsidian
+- mekanism:ingot_refined_obsidian
+
+#futurepack:ceramics
+- futurepack:ceramic
+
+#mekanism:clumps/tin
+- mekanism:clump_tin
+
+#forge:ores/limonite
+- aoa3:limonite_ore
+
+#forge:nuggets/elecanium
+- aoa3:elecanium_nugget
+
+#forge:rods/blaze
+- minecraft:blaze_rod
+
+#forge:storage_blocks/netherite
+- minecraft:netherite_block
+
+#futurepack:mushroom_menelaus
+- futurepack:peakhead
+- futurepack:hyticus
+- futurepack:bubbleshroom
+- futurepack:blueshroom
+
+#forge:glass_panes/white
+- minecraft:white_stained_glass_pane
+
+#mekanism:crystals/lead
+- mekanism:crystal_lead
+
+#appliedenergistics2:crystals/fluix
+- appliedenergistics2:fluix_crystal
+- appliedenergistics2:purified_fluix_crystal
+
+#forge:circuits/elite
+- mekanism:elite_control_circuit
+
+#forge:ingots/silver
+- bno:silver_ingot
+
+#forge:glass_panes/light_gray
+- minecraft:light_gray_stained_glass_pane
+
+#forge:storage_blocks/nickel
+- bno:nickel_block
+
+#appliedenergistics2:workbench
+- minecraft:crafting_table
+
+#bno:ores/coal
+- bno:nethercoal_ore
+
+#blue_skies:gems/moonstone_shard
+- blue_skies:moonstone_shard
+
+#forge:nuggets/bronze
+- mekanism:nugget_bronze
+
+#forge:ingots/neon
+- futurepack:ingot_neon
+
+#forge:glass/pink
+- minecraft:pink_stained_glass
+
+#forge:chests
+- #forge:chests/ender
+- #forge:chests/trapped
+- #forge:chests/wooden
+- #forge:chests/electric
+- #forge:chests/personal
+
+#forge:storage_blocks/emerald
+- minecraft:emerald_block
+
+#forge:ores/redstone
+- minecraft:redstone_ore
+- bno:netherredstone_ore
+
+#forge:storage_blocks/uranium
+- mekanism:block_uranium
+- bno:uranium_block
+
+#forge:circuits
+- #forge:circuits/basic
+- #forge:circuits/advanced
+- #forge:circuits/elite
+- #forge:circuits/ultimate
+
+#forge:glass/red
+- minecraft:red_stained_glass
+
+#blue_skies:ores/charoite
+- blue_skies:everbright_charoite_ore
+- blue_skies:everdawn_charoite_ore
+
+#forge:dusts/lapis
+- mekanism:dust_lapis_lazuli
+
+#blue_skies:gems/pyrope
+- blue_skies:pyrope_gem
+
+#blue_skies:tools
+- #blue_skies:tools/pickaxes
+- #blue_skies:tools/axes
+- #blue_skies:tools/shovels
+- #blue_skies:tools/hoes
+- #blue_skies:tools/swords
+
+#forge:ender_pearls
+- minecraft:ender_pearl
+- minecraft:ender_pearl
+
+#forge:dusts/uranium
+- mekanism:dust_uranium
+
+#mekanism:shards/gold
+- mekanism:shard_gold
+
+#forge:glass_panes/green
+- minecraft:green_stained_glass_pane
+
+#forge:chests/trapped
+- minecraft:trapped_chest
+
+#forge:fence_gates
+- #forge:fence_gates/wooden
+- aoa3:achony_fence_gate
+- aoa3:bloodwood_fence_gate
+- aoa3:churry_fence_gate
+- aoa3:creep_fence_gate
+- aoa3:dawnwood_fence_gate
+- aoa3:hauntedwood_fence_gate
+- aoa3:irowood_fence_gate
+- aoa3:lucalus_fence_gate
+- aoa3:lunide_fence_gate
+- aoa3:runic_fence_gate
+- aoa3:shadow_fence_gate
+- aoa3:shyre_fence_gate
+- aoa3:stranglewood_fence_gate
+- aoa3:toxicwood_fence_gate
+- aoa3:twinklestone_fence_gate
+
+#forge:dusts/magnetite
+- futurepack:dust_magnet
+
+#blue_skies:drops/lunar_grass
+- blue_skies:scalefruit_seeds
+- blue_skies:fiery_bean_seeds
+
+#forge:ingots
+- #blue_skies:ingots/horizonite
+- #blue_skies:ingots/falsite
+- #blue_skies:ingots/ventium
+- #forge:ingots/iron
+- #forge:ingots/gold
+- #forge:ingots/brick
+- #forge:ingots/nether_brick
+- #forge:ingots/netherite
+- aoa3:baronyte_ingot
+- aoa3:blazium_ingot
+- aoa3:elecanium_ingot
+- aoa3:emberstone_ingot
+- aoa3:ghastly_ingot
+- aoa3:ghoulish_ingot
+- aoa3:limonite_ingot
+- aoa3:lunar_ingot
+- aoa3:lyon_ingot
+- aoa3:mystite_ingot
+- aoa3:rosite_ingot
+- aoa3:shyrestone_ingot
+- aoa3:skeletal_ingot
+- aoa3:varsium_ingot
+- #forge:ingots/aluminum
+- #forge:ingots/bioterium
+- #forge:ingots/bitripentium
+- #forge:ingots/copper
+- #forge:ingots/gadolinium
+- #forge:ingots/glowtite
+- #forge:ingots/lithium
+- #forge:ingots/magnetite
+- #forge:ingots/neodymium
+- #forge:ingots/neon
+- #forge:ingots/quantanium
+- #forge:ingots/rare_earth
+- #forge:ingots/retium
+- #forge:ingots/silicon
+- #forge:ingots/tin
+- #forge:ingots/wakurium
+- #forge:ingots/zinc
+- mekanism:ingot_osmium
+- mekanism:ingot_copper
+- mekanism:ingot_tin
+- mekanism:ingot_lead
+- mekanism:ingot_uranium
+- #forge:ingots/bronze
+- #forge:ingots/refined_glowstone
+- #forge:ingots/refined_obsidian
+- #forge:ingots/steel
+- #forge:ingots/aluminum
+- #forge:ingots/copper
+- #forge:ingots/lead
+- #forge:ingots/nickel
+- #forge:ingots/osmium
+- #forge:ingots/silver
+- #forge:ingots/tin
+- #forge:ingots/uranium
+
+#forge:crops/nether_wart
+- minecraft:nether_wart
+
+#forge:sandstone
+- blue_skies:crystal_sandstone
+- blue_skies:chiseled_crystal_sandstone
+- blue_skies:cut_crystal_sandstone
+- blue_skies:smooth_crystal_sandstone
+- blue_skies:midnight_sandstone
+- blue_skies:chiseled_midnight_sandstone
+- blue_skies:cut_midnight_sandstone
+- minecraft:sandstone
+- minecraft:cut_sandstone
+- minecraft:chiseled_sandstone
+- minecraft:smooth_sandstone
+- minecraft:red_sandstone
+- minecraft:cut_red_sandstone
+- minecraft:chiseled_red_sandstone
+- minecraft:smooth_red_sandstone
+- minecraft:sandstone
+- minecraft:cut_sandstone
+- minecraft:chiseled_sandstone
+- minecraft:smooth_sandstone
+- minecraft:red_sandstone
+- minecraft:cut_red_sandstone
+- minecraft:chiseled_red_sandstone
+- minecraft:smooth_red_sandstone
+- futurepack:sandstone_m
+- futurepack:sandstone_smooth_m
+- futurepack:sandstone_chiseled_m
+
+#forge:storage_blocks/copper
+- mekanism:block_copper
+- bno:copper_block
+
+#forge:glass_panes/colorless
+- minecraft:glass_pane
+- minecraft:glass_pane
+
+#minecraft:coals
+- minecraft:coal
+- minecraft:charcoal
+
+#forge:ingots/osmium
+- mekanism:ingot_osmium
+- bno:osmium_ingot
+
+#mekanism:enriched/diamond
+- mekanism:enriched_diamond
+
+#blue_skies:drops/cherry_grass
+
+#forge:gems/retium
+- futurepack:crystal_retium
+
+#blue_skies:logs/dusk
+- blue_skies:dusk_log
+- blue_skies:dusk_wood
+- blue_skies:stripped_dusk_log
+- blue_skies:stripped_dusk_wood
+
+#forge:dusts/lithium
+- mekanism:dust_lithium
+
+#forge:dusts/aluminium
+- futurepack:dust_aluminium
+
+#mekanism:clumps/gold
+- mekanism:clump_gold
+
+#forge:ores/blue_gemstone
+- aoa3:blue_gemstone_ore
+
+#forge:blocks/quantanium
+- futurepack:block_compressed_quantanium
+
+#blue_skies:wooden_tools
+- #blue_skies:tools/wooden_pickaxes
+- #blue_skies:tools/wooden_shovels
+- #blue_skies:tools/wooden_axes
+- #blue_skies:tools/wooden_hoes
+- #blue_skies:tools/wooden_swords
+
+#mekanism:alloys/atomic
+- #forge:alloys/ultimate
+
+#forge:rods/plastic
+- mekanism:hdpe_stick
+
+#forge:ingots/nether_brick
+- minecraft:nether_brick
+
+#blue_skies:gems/aquite
+- blue_skies:aquite_gem
+
+#forge:nuggets/blazium
+- aoa3:blazium_nugget
+
+#blue_skies:storage_blocks/diopside
+- blue_skies:diopside_block
+
+#forge:ingots/ghoulish
+- aoa3:ghoulish_ingot
+
+#minecraft:gravel
+- minecraft:gravel
+- futurepack:gravel_m
+- minecraft:gravel
+- futurepack:gravel_m
+
+#forge:storage_blocks/lapis
+- minecraft:lapis_block
+
+#forge:corals
+- minecraft:tube_coral
+- minecraft:brain_coral
+- minecraft:bubble_coral
+- minecraft:fire_coral
+- minecraft:horn_coral
+- minecraft:tube_coral_fan
+- minecraft:brain_coral_fan
+- minecraft:bubble_coral_fan
+- minecraft:fire_coral_fan
+- minecraft:horn_coral_fan
+
+#minecraft:beds
+- minecraft:red_bed
+- minecraft:black_bed
+- minecraft:blue_bed
+- minecraft:brown_bed
+- minecraft:cyan_bed
+- minecraft:gray_bed
+- minecraft:green_bed
+- minecraft:light_blue_bed
+- minecraft:light_gray_bed
+- minecraft:lime_bed
+- minecraft:magenta_bed
+- minecraft:orange_bed
+- minecraft:pink_bed
+- minecraft:purple_bed
+- minecraft:white_bed
+- minecraft:yellow_bed
+
+#forge:ores/diamond
+- minecraft:diamond_ore
+- bno:netherdiamond_ore
+
+#forge:ores/lead
+- mekanism:lead_ore
+- bno:netherlead_ore
+
+#minecraft:doors
+- #minecraft:wooden_doors
+- minecraft:iron_door
+- blue_skies:crystallized_door
+- integrateddynamics:menril_door
+
+#forge:ores/prosperity
+- mysticalagriculture:prosperity_ore
+
+#forge:ingots/uranium
+- mekanism:ingot_uranium
+- bno:uranium_ingot
+
+#forge:dyes/orange
+- minecraft:orange_dye
+
+#appliedenergistics2:covered_cable
+- appliedenergistics2:white_covered_cable
+- appliedenergistics2:orange_covered_cable
+- appliedenergistics2:magenta_covered_cable
+- appliedenergistics2:light_blue_covered_cable
+- appliedenergistics2:yellow_covered_cable
+- appliedenergistics2:lime_covered_cable
+- appliedenergistics2:pink_covered_cable
+- appliedenergistics2:gray_covered_cable
+- appliedenergistics2:light_gray_covered_cable
+- appliedenergistics2:cyan_covered_cable
+- appliedenergistics2:purple_covered_cable
+- appliedenergistics2:blue_covered_cable
+- appliedenergistics2:brown_covered_cable
+- appliedenergistics2:green_covered_cable
+- appliedenergistics2:red_covered_cable
+- appliedenergistics2:black_covered_cable
+- appliedenergistics2:fluix_covered_cable
+
+#forge:blocks/magnetite
+- futurepack:magnet
+
+#bno:nuggets/aluminum
+- bno:aluminum_nugget
+
+#forge:dusts/bronze
+- mekanism:dust_bronze
+
+#forge:rods/iron
+- futurepack:iron_stick
+
+#forge:dusts/magnet
+- futurepack:dust_magnet
+
+#mekanism:clumps/uranium
+- mekanism:clump_uranium
+
+#forge:ores/skullbone_fragments
+- aoa3:skullbone_fragments_ore
+
+#forge:gems/ornamyte
+- aoa3:ornamyte
+
+#tombstone:enchanted_grave_key_ingredients
+- minecraft:ender_pearl
+
+#tombstone:grave_marbles
+- tombstone:dark_marble
+- tombstone:white_marble
+
+#forge:ores/tin
+- futurepack:ore_tin
+- mekanism:tin_ore
+- bno:nethertin_ore
+
+#forge:ingots/bitripentium
+- futurepack:ingot_bitripentium
+
+#forge:glass/white
+- minecraft:white_stained_glass
+
+#mekanism:alloys/infused
+- #forge:alloys/advanced
+
+#minecraft:signs
+- minecraft:oak_sign
+- minecraft:spruce_sign
+- minecraft:birch_sign
+- minecraft:acacia_sign
+- minecraft:jungle_sign
+- minecraft:dark_oak_sign
+- minecraft:crimson_sign
+- minecraft:warped_sign
+
+#forge:glass_panes/red
+- minecraft:red_stained_glass_pane
+
+#mekanism:enriched/carbon
+- mekanism:enriched_carbon
+
+#minecraft:fishes
+- minecraft:cod
+- minecraft:cooked_cod
+- minecraft:salmon
+- minecraft:cooked_salmon
+- minecraft:pufferfish
+- minecraft:tropical_fish
+- blue_skies:grittle_flatfish
+- blue_skies:cooked_grittle_flatfish
+- blue_skies:municipal_monkfish
+- blue_skies:cooked_municipal_monkfish
+- blue_skies:charscale_moki
+- blue_skies:cooked_charscale_moki
+- blue_skies:horizofin_tunid
+- blue_skies:cooked_horizofin_tunid
+- aoa3:raw_candlefish
+- aoa3:raw_crimson_skipper
+- aoa3:raw_crimson_stripefish
+- aoa3:raw_dark_hatchetfish
+- aoa3:raw_fingerfish
+- aoa3:raw_golden_gullfish
+- aoa3:raw_ironback
+- aoa3:raw_limefish
+- aoa3:raw_pearl_stripefish
+- aoa3:raw_rainbowfish
+- aoa3:raw_razorfish
+- aoa3:raw_rocketfish
+- aoa3:raw_sailback
+- aoa3:raw_sapphire_strider
+- aoa3:raw_turquoise_stripefish
+- aoa3:raw_violet_skipper
+- aoa3:cooked_candlefish
+- aoa3:cooked_crimson_skipper
+- aoa3:cooked_crimson_stripefish
+- aoa3:cooked_dark_hatchetfish
+- aoa3:cooked_fingerfish
+- aoa3:cooked_golden_gullfish
+- aoa3:cooked_ironback
+- aoa3:cooked_limefish
+- aoa3:cooked_pearl_stripefish
+- aoa3:cooked_rainbowfish
+- aoa3:cooked_razorfish
+- aoa3:cooked_rocketfish
+- aoa3:cooked_sailback
+- aoa3:cooked_sapphire_strider
+- aoa3:cooked_turquoise_stripefish
+- aoa3:cooked_violet_skipper
+
+#forge:storage_blocks/certus_quartz
+- appliedenergistics2:quartz_block
+
+#forge:storage_blocks/osmium
+- mekanism:block_osmium
+- bno:osmium_block
+
+#forge:dusts/wood
+- mekanism:sawdust
+
+#blue_skies:ores/diopside
+- blue_skies:everbright_diopside_ore
+- blue_skies:everdawn_diopside_ore
+
+#blue_skies:drops/turquoise_grass
+- blue_skies:pine_fruit_seeds
+- blue_skies:winter_leaf_seeds
+
+#forge:ingots/quantanium
+- futurepack:ingot_quantanium
+
+#forge:pellets/plutonium
+- mekanism:pellet_plutonium
+
+#forge:fruits
+- integrateddynamics:menril_berries
+
+#forge:ingots/baronyte
+- aoa3:baronyte_ingot
+
+#forge:ingots/emberstone
+- aoa3:emberstone_ingot
+
+#curios:hands
+- curios:knuckles
+
+#appliedenergistics2:crystals/certus
+- #appliedenergistics2:crystals/certus_quartz
+- appliedenergistics2:charged_certus_quartz_crystal
+- appliedenergistics2:purified_certus_quartz_crystal
+
+#mekanism:dirty_dusts/uranium
+- mekanism:dirty_dust_uranium
+
+#blue_skies:tools/wooden_hoes
+- blue_skies:bluebright_hoe
+- blue_skies:starlit_hoe
+- blue_skies:frostbright_hoe
+- blue_skies:lunar_hoe
+- blue_skies:dusk_hoe
+- blue_skies:maple_hoe
+- blue_skies:cherry_hoe
+
+#blue_skies:dungeon/poison
+- blue_skies:poison_stone
+- blue_skies:glowing_poison_stone
+- blue_skies:poison_stonebrick
+
+#blue_skies:ores/aquite
+- blue_skies:everbright_aquite_ore
+- blue_skies:everdawn_aquite_ore
+
+#forge:storage_blocks/sapphire
+- aoa3:sapphire_block
+
+#forge:sand/colorless
+- minecraft:sand
+
+#forge:ores/jade
+- aoa3:jade_ore
+
+#forge:dusts/retium
+- futurepack:dust_retium
+
+#blue_skies:dungeon/blinding
+- blue_skies:blinding_stone
+- blue_skies:glowing_blinding_stone
+
+#forge:fuels
+- #forge:fuels/bio
+
+#forge:ingots/elecanium
+- aoa3:elecanium_ingot
+
+#appliedenergistics2:gears/wooden
+- appliedenergistics2:wooden_gear
+
+#appliedenergistics2:smart_cable
+- appliedenergistics2:white_smart_cable
+- appliedenergistics2:orange_smart_cable
+- appliedenergistics2:magenta_smart_cable
+- appliedenergistics2:light_blue_smart_cable
+- appliedenergistics2:yellow_smart_cable
+- appliedenergistics2:lime_smart_cable
+- appliedenergistics2:pink_smart_cable
+- appliedenergistics2:gray_smart_cable
+- appliedenergistics2:light_gray_smart_cable
+- appliedenergistics2:cyan_smart_cable
+- appliedenergistics2:purple_smart_cable
+- appliedenergistics2:blue_smart_cable
+- appliedenergistics2:brown_smart_cable
+- appliedenergistics2:green_smart_cable
+- appliedenergistics2:red_smart_cable
+- appliedenergistics2:black_smart_cable
+- appliedenergistics2:fluix_smart_cable
+
+#forge:rawfish
+- aoa3:raw_candlefish
+- aoa3:raw_crimson_skipper
+- aoa3:raw_crimson_stripefish
+- aoa3:raw_dark_hatchetfish
+- aoa3:raw_fingerfish
+- aoa3:raw_golden_gullfish
+- aoa3:raw_ironback
+- aoa3:raw_limefish
+- aoa3:raw_pearl_stripefish
+- aoa3:raw_rainbowfish
+- aoa3:raw_razorfish
+- aoa3:raw_rocketfish
+- aoa3:raw_sailback
+- aoa3:raw_sapphire_strider
+- aoa3:raw_turquoise_stripefish
+- aoa3:raw_violet_skipper
+- minecraft:cod
+- minecraft:salmon
+- minecraft:pufferfish
+- minecraft:tropical_fish
+
+#forge:storage_blocks/charcoal
+- mekanism:block_charcoal
+
+#appliedenergistics2:knife
+- appliedenergistics2:certus_quartz_cutting_knife
+- appliedenergistics2:nether_quartz_cutting_knife
+
+#forge:gems/diamond
+- minecraft:diamond
+
+#mekanism:configurators
+- #forge:wrenches
+- #forge:tools/wrench
+
+#minecraft:walls
+- minecraft:cobblestone_wall
+- minecraft:mossy_cobblestone_wall
+- minecraft:brick_wall
+- minecraft:prismarine_wall
+- minecraft:red_sandstone_wall
+- minecraft:mossy_stone_brick_wall
+- minecraft:granite_wall
+- minecraft:stone_brick_wall
+- minecraft:nether_brick_wall
+- minecraft:andesite_wall
+- minecraft:red_nether_brick_wall
+- minecraft:sandstone_wall
+- minecraft:end_stone_brick_wall
+- minecraft:diorite_wall
+- minecraft:blackstone_wall
+- minecraft:polished_blackstone_brick_wall
+- minecraft:polished_blackstone_wall
+- blue_skies:blinding_wall
+- blue_skies:glowing_blinding_wall
+- blue_skies:nature_stonebrick_wall
+- blue_skies:glowing_nature_stonebrick_wall
+- blue_skies:poison_stonebrick_wall
+- blue_skies:aquatic_wall
+- blue_skies:glowing_aquatic_wall
+- blue_skies:life_wall
+- blue_skies:glowing_life_wall
+- blue_skies:turquoise_cobblestone_wall
+- blue_skies:mossy_turquoise_cobblestone_wall
+- blue_skies:turquoise_stonebrick_wall
+- blue_skies:mossy_turquoise_stonebrick_wall
+- blue_skies:cracked_turquoise_stonebrick_wall
+- blue_skies:brumble_wall
+- blue_skies:polished_brumble_wall
+- blue_skies:polished_brumble_brick_wall
+- blue_skies:taratite_wall
+- blue_skies:polished_taratite_wall
+- blue_skies:rimestone_wall
+- blue_skies:polished_rimestone_wall
+- blue_skies:lunar_cobblestone_wall
+- blue_skies:mossy_lunar_cobblestone_wall
+- blue_skies:lunar_stonebrick_wall
+- blue_skies:mossy_lunar_stonebrick_wall
+- blue_skies:cracked_lunar_stonebrick_wall
+- blue_skies:midnight_sandstone_wall
+- blue_skies:crystal_sandstone_wall
+- blue_skies:crystallized_wall
+- blue_skies:umber_wall
+- blue_skies:polished_umber_wall
+- blue_skies:cinderstone_wall
+- blue_skies:polished_cinderstone_wall
+- mysticalagriculture:soulstone_cobble_wall
+- mysticalagriculture:soulstone_bricks_wall
+
+#tombstone:magic_scrolls
+- tombstone:scroll_of_preservation
+- tombstone:scroll_of_unstable_intangibleness
+- tombstone:scroll_of_feather_fall
+- tombstone:scroll_of_purification
+- tombstone:scroll_of_true_sight
+- tombstone:scroll_of_knowledge
+- tombstone:scroll_of_reach
+- tombstone:scroll_of_lightning_resistance
+
+#rftoolsutility:living/highyield
+- #forge:crops
+- #minecraft:fishes
+- minecraft:beef
+- minecraft:porkchop
+- minecraft:mutton
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:chorus_fruit
+
+#forge:gems/gemenyte
+- aoa3:gemenyte
+
+#mysticalagriculture:seeds
+- mysticalagriculture:air_seeds
+- mysticalagriculture:earth_seeds
+- mysticalagriculture:water_seeds
+- mysticalagriculture:fire_seeds
+- mysticalagriculture:inferium_seeds
+- mysticalagriculture:stone_seeds
+- mysticalagriculture:dirt_seeds
+- mysticalagriculture:wood_seeds
+- mysticalagriculture:ice_seeds
+- mysticalagriculture:nature_seeds
+- mysticalagriculture:dye_seeds
+- mysticalagriculture:nether_seeds
+- mysticalagriculture:coal_seeds
+- mysticalagriculture:coral_seeds
+- mysticalagriculture:honey_seeds
+- mysticalagriculture:pig_seeds
+- mysticalagriculture:chicken_seeds
+- mysticalagriculture:cow_seeds
+- mysticalagriculture:sheep_seeds
+- mysticalagriculture:squid_seeds
+- mysticalagriculture:fish_seeds
+- mysticalagriculture:slime_seeds
+- mysticalagriculture:turtle_seeds
+- mysticalagriculture:rubber_seeds
+- mysticalagriculture:silicon_seeds
+- mysticalagriculture:sulfur_seeds
+- mysticalagriculture:aluminum_seeds
+- mysticalagriculture:copper_seeds
+- mysticalagriculture:saltpeter_seeds
+- mysticalagriculture:apatite_seeds
+- mysticalagriculture:mystical_flower_seeds
+- mysticalagriculture:marble_seeds
+- mysticalagriculture:limestone_seeds
+- mysticalagriculture:basalt_seeds
+- mysticalagriculture:iron_seeds
+- mysticalagriculture:nether_quartz_seeds
+- mysticalagriculture:glowstone_seeds
+- mysticalagriculture:redstone_seeds
+- mysticalagriculture:obsidian_seeds
+- mysticalagriculture:prismarine_seeds
+- mysticalagriculture:zombie_seeds
+- mysticalagriculture:skeleton_seeds
+- mysticalagriculture:creeper_seeds
+- mysticalagriculture:spider_seeds
+- mysticalagriculture:rabbit_seeds
+- mysticalagriculture:tin_seeds
+- mysticalagriculture:bronze_seeds
+- mysticalagriculture:zinc_seeds
+- mysticalagriculture:brass_seeds
+- mysticalagriculture:silver_seeds
+- mysticalagriculture:lead_seeds
+- mysticalagriculture:graphite_seeds
+- mysticalagriculture:blizz_seeds
+- mysticalagriculture:blitz_seeds
+- mysticalagriculture:basalz_seeds
+- mysticalagriculture:tinkers_bronze_seeds
+- mysticalagriculture:slimesteel_seeds
+- mysticalagriculture:pig_iron_seeds
+- mysticalagriculture:manasteel_seeds
+- mysticalagriculture:steeleaf_seeds
+- mysticalagriculture:ironwood_seeds
+- mysticalagriculture:ender_biotite_seeds
+- mysticalagriculture:aquamarine_seeds
+- mysticalagriculture:sky_stone_seeds
+- mysticalagriculture:certus_quartz_seeds
+- mysticalagriculture:quartz_enriched_iron_seeds
+- mysticalagriculture:gold_seeds
+- mysticalagriculture:lapis_lazuli_seeds
+- mysticalagriculture:end_seeds
+- mysticalagriculture:experience_seeds
+- mysticalagriculture:blaze_seeds
+- mysticalagriculture:ghast_seeds
+- mysticalagriculture:enderman_seeds
+- mysticalagriculture:steel_seeds
+- mysticalagriculture:nickel_seeds
+- mysticalagriculture:constantan_seeds
+- mysticalagriculture:electrum_seeds
+- mysticalagriculture:invar_seeds
+- mysticalagriculture:mithril_seeds
+- mysticalagriculture:tungsten_seeds
+- mysticalagriculture:titanium_seeds
+- mysticalagriculture:uranium_seeds
+- mysticalagriculture:chrome_seeds
+- mysticalagriculture:ruby_seeds
+- mysticalagriculture:sapphire_seeds
+- mysticalagriculture:signalum_seeds
+- mysticalagriculture:lumium_seeds
+- mysticalagriculture:hop_graphite_seeds
+- mysticalagriculture:cobalt_seeds
+- mysticalagriculture:rose_gold_seeds
+- mysticalagriculture:elementium_seeds
+- mysticalagriculture:osmium_seeds
+- mysticalagriculture:fluorite_seeds
+- mysticalagriculture:refined_glowstone_seeds
+- mysticalagriculture:refined_obsidian_seeds
+- mysticalagriculture:knightmetal_seeds
+- mysticalagriculture:fiery_ingot_seeds
+- mysticalagriculture:starmetal_seeds
+- mysticalagriculture:compressed_iron_seeds
+- mysticalagriculture:fluix_seeds
+- mysticalagriculture:energized_steel_seeds
+- mysticalagriculture:blazing_crystal_seeds
+- mysticalagriculture:diamond_seeds
+- mysticalagriculture:emerald_seeds
+- mysticalagriculture:netherite_seeds
+- mysticalagriculture:wither_skeleton_seeds
+- mysticalagriculture:platinum_seeds
+- mysticalagriculture:iridium_seeds
+- mysticalagriculture:enderium_seeds
+- mysticalagriculture:manyullyn_seeds
+- mysticalagriculture:queens_slime_seeds
+- mysticalagriculture:hepatizon_seeds
+- mysticalagriculture:terrasteel_seeds
+- mysticalagriculture:rock_crystal_seeds
+- mysticalagriculture:draconium_seeds
+- mysticalagriculture:yellorium_seeds
+- mysticalagriculture:cyanite_seeds
+- mysticalagriculture:niotic_crystal_seeds
+- mysticalagriculture:spirited_crystal_seeds
+- mysticalagriculture:uraninite_seeds
+
+#forge:glass/green
+- minecraft:green_stained_glass
+
+#blue_skies:tools/shovels
+- #blue_skies:tools/wooden_shovels
+- blue_skies:pyrope_shovel
+- blue_skies:diopside_shovel
+- blue_skies:aquite_shovel
+- blue_skies:charoite_shovel
+- blue_skies:horizonite_shovel
+
+#forge:storage_blocks/lead
+- mekanism:block_lead
+- bno:lead_block
+
+#mekanism:clumps/iron
+- mekanism:clump_iron
+
+#minecraft:music_discs
+- #minecraft:creeper_drop_music_discs
+- minecraft:music_disc_pigstep
+- blue_skies:blinding_rage
+- blue_skies:defying_starlight
+- blue_skies:venomous_encounter
+
+#futurepack:uncolor
+- #minecraft:sand
+- #minecraft:gravel
+
+#aoa3:skill_crystal
+- aoa3:giant_skill_crystal
+- aoa3:large_skill_crystal
+- aoa3:medium_skill_crystal
+- aoa3:small_skill_crystal
+
+#forge:blocks/glowtite
+- futurepack:block_compressed_glowtite
+
+#forge:ores/charged_runium
+- aoa3:charged_runium_ore
+
+#forge:nuggets/mystite
+- aoa3:mystite_nugget
+
+#forge:gems
+- #blue_skies:gems/pyrope
+- #blue_skies:gems/diopside
+- #blue_skies:gems/aquite
+- #blue_skies:gems/charoite
+- #forge:gems/diamond
+- #forge:gems/emerald
+- #forge:gems/lapis
+- #forge:gems/prismarine
+- #forge:gems/quartz
+- aoa3:amethyst
+- aoa3:bloodstone
+- aoa3:crystallite
+- aoa3:gemenyte
+- aoa3:jade
+- aoa3:jewelyte
+- aoa3:ornamyte
+- aoa3:sapphire
+- aoa3:shyregem
+- #forge:gems/aluminum
+- #forge:gems/bioterium
+- #forge:gems/bitripentium
+- #forge:gems/glowtite
+- #forge:gems/neon
+- #forge:gems/prismide
+- #forge:gems/retium
+
+#forge:ores/soulium
+- mysticalagriculture:soulium_ore
+
+#blue_skies:ores/pyrope
+- blue_skies:everbright_pyrope_ore
+- blue_skies:everdawn_pyrope_ore
+
+#minecraft:sand
+- minecraft:sand
+- minecraft:red_sand
+- blue_skies:crystal_sand
+- blue_skies:midnight_sand
+- futurepack:sand_m
+
+#forge:end_stones
+- minecraft:end_stone
+
+#forge:ingots/magnetite
+- futurepack:ingot_magnet
+
+#tombstone:voodoo_poppet_ingredient_burn
+- minecraft:magma_cream
+
+#forge:ingots/aluminum
+- futurepack:ingot_aluminium
+- bno:aluminum_ingot
+
+#bno:ores/iron
+- bno:netheriron_ore
+
+#forge:gems/crystallite
+- aoa3:crystallite
+
+#forge:storage_blocks/ghastly
+- aoa3:ghastly_block
+
+#forge:blocks/retium
+- futurepack:block_compressed_retium
+
+#forge:nuggets/limonite
+- aoa3:limonite_nugget
+
+#forge:fences/wooden
+- minecraft:oak_fence
+- minecraft:spruce_fence
+- minecraft:birch_fence
+- minecraft:jungle_fence
+- minecraft:acacia_fence
+- minecraft:dark_oak_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+
+#forge:dusts/netherite
+- mekanism:dust_netherite
+
+#forge:dusts/emerald
+- mekanism:dust_emerald
+
+#forge:dyes/light_gray
+- minecraft:light_gray_dye
+
+#forge:storage_blocks
+- #blue_skies:storage_blocks/moonstone
+- #blue_skies:storage_blocks/pyrope
+- #blue_skies:storage_blocks/diopside
+- #blue_skies:storage_blocks/aquite
+- #blue_skies:storage_blocks/charoite
+- #blue_skies:storage_blocks/horizonite
+- #blue_skies:storage_blocks/falsite
+- #blue_skies:storage_blocks/ventium
+- #forge:storage_blocks/coal
+- #forge:storage_blocks/diamond
+- #forge:storage_blocks/emerald
+- #forge:storage_blocks/gold
+- #forge:storage_blocks/iron
+- #forge:storage_blocks/lapis
+- #forge:storage_blocks/quartz
+- #forge:storage_blocks/redstone
+- #forge:storage_blocks/netherite
+- #forge:storage_blocks/bronze
+- #forge:storage_blocks/charcoal
+- #forge:storage_blocks/refined_glowstone
+- #forge:storage_blocks/refined_obsidian
+- #forge:storage_blocks/steel
+- #forge:storage_blocks/osmium
+- #forge:storage_blocks/copper
+- #forge:storage_blocks/tin
+- #forge:storage_blocks/lead
+- #forge:storage_blocks/uranium
+- integrateddynamics:crystalized_chorus_block
+- integrateddynamics:crystalized_menril_block
+- #forge:storage_blocks/certus_quartz
+- #forge:storage_blocks/aluminum
+- #forge:storage_blocks/copper
+- #forge:storage_blocks/lead
+- #forge:storage_blocks/nickel
+- #forge:storage_blocks/osmium
+- #forge:storage_blocks/silver
+- #forge:storage_blocks/tin
+- #forge:storage_blocks/uranium
+
+#forge:gems/fluorite
+- mekanism:fluorite_gem
+
+#forge:ingots/bronze
+- mekanism:ingot_bronze
+
+#forge:glass_panes/orange
+- minecraft:orange_stained_glass_pane
+
+#forge:milk
+- aoa3:halycon_milk
+
+#minecraft:beacon_payment_items
+- minecraft:netherite_ingot
+- minecraft:emerald
+- minecraft:diamond
+- minecraft:gold_ingot
+- minecraft:iron_ingot
+- mekanism:ingot_osmium
+- mekanism:ingot_copper
+- mekanism:ingot_tin
+- mekanism:ingot_lead
+- mekanism:ingot_uranium
+- mekanism:ingot_bronze
+- mekanism:ingot_refined_obsidian
+- mekanism:ingot_refined_glowstone
+- mekanism:ingot_steel
+
+#forge:ingots/copper
+- futurepack:ingot_copper
+- mekanism:ingot_copper
+- bno:copper_ingot
+
+#forge:ores/quartz
+- minecraft:nether_quartz_ore
+- futurepack:ore_quartz_m
+
+#forge:ingots/brick
+- minecraft:brick
+
+#blue_skies:dungeon_keys
+- blue_skies:blinding_key
+- blue_skies:nature_key
+- blue_skies:poison_key
+
+#forge:glass/blue
+- minecraft:blue_stained_glass
+
+#forge:ores/lyon
+- aoa3:lyon_ore
+
+#minecraft:wooden_trapdoors
+- minecraft:acacia_trapdoor
+- minecraft:birch_trapdoor
+- minecraft:dark_oak_trapdoor
+- minecraft:jungle_trapdoor
+- minecraft:oak_trapdoor
+- minecraft:spruce_trapdoor
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- blue_skies:bluebright_trapdoor
+- blue_skies:starlit_trapdoor
+- blue_skies:frostbright_trapdoor
+- blue_skies:lunar_trapdoor
+- blue_skies:dusk_trapdoor
+- blue_skies:maple_trapdoor
+- blue_skies:cherry_trapdoor
+
+#bno:ores/lapis
+- bno:netherlapis_ore
+
+#bno:ores/diamond
+- bno:netherdiamond_ore
+
+#bno:nuggets/nickel
+- bno:nickel_nugget
+
+#forge:gingerbread
+- aoa3:gingerbread_cookie
+- aoa3:gingerbread_wing
+
+#forge:storage_blocks/coal
+- minecraft:coal_block
+
+#bno:ores/aluminum
+- bno:netheraluminum_ore
+
+#forge:glass/light_blue
+- minecraft:light_blue_stained_glass
+
+#forge:blocks/wakurium
+- futurepack:block_compressed_wakurium
+
+#blue_skies:storage_blocks/ventium
+- blue_skies:ventium_block
+
+#forge:ores/runium
+- aoa3:runium_ore
+
+#forge:storage_blocks/redstone
+- minecraft:redstone_block
+
+#forge:gems/sapphire
+- aoa3:sapphire
+
+#forge:storage_blocks/amethyst
+- aoa3:amethyst_block
+
+#mekanism:enriched/tin
+- mekanism:enriched_tin
+
+#blue_skies:dungeon/aquatic
+- blue_skies:aquatic_stone
+- blue_skies:glowing_aquatic_stone
+
+#minecraft:stairs
+- #minecraft:wooden_stairs
+- minecraft:cobblestone_stairs
+- minecraft:sandstone_stairs
+- minecraft:nether_brick_stairs
+- minecraft:stone_brick_stairs
+- minecraft:brick_stairs
+- minecraft:purpur_stairs
+- minecraft:quartz_stairs
+- minecraft:red_sandstone_stairs
+- minecraft:prismarine_brick_stairs
+- minecraft:prismarine_stairs
+- minecraft:dark_prismarine_stairs
+- minecraft:polished_granite_stairs
+- minecraft:smooth_red_sandstone_stairs
+- minecraft:mossy_stone_brick_stairs
+- minecraft:polished_diorite_stairs
+- minecraft:mossy_cobblestone_stairs
+- minecraft:end_stone_brick_stairs
+- minecraft:stone_stairs
+- minecraft:smooth_sandstone_stairs
+- minecraft:smooth_quartz_stairs
+- minecraft:granite_stairs
+- minecraft:andesite_stairs
+- minecraft:red_nether_brick_stairs
+- minecraft:polished_andesite_stairs
+- minecraft:diorite_stairs
+- minecraft:blackstone_stairs
+- minecraft:polished_blackstone_brick_stairs
+- minecraft:polished_blackstone_stairs
+- blue_skies:blinding_stairs
+- blue_skies:glowing_blinding_stairs
+- blue_skies:nature_stone_stairs
+- blue_skies:glowing_nature_stone_stairs
+- blue_skies:nature_stonebrick_stairs
+- blue_skies:glowing_nature_stonebrick_stairs
+- blue_skies:poison_stone_stairs
+- blue_skies:glowing_poison_stone_stairs
+- blue_skies:poison_stonebrick_stairs
+- blue_skies:rough_poison_stonebrick_stairs
+- blue_skies:aquatic_stairs
+- blue_skies:glowing_aquatic_stairs
+- blue_skies:life_stairs
+- blue_skies:glowing_life_stairs
+- blue_skies:crystallized_stairs
+- blue_skies:turquoise_stone_stairs
+- blue_skies:turquoise_stonebrick_stairs
+- blue_skies:mossy_turquoise_stonebrick_stairs
+- blue_skies:cracked_turquoise_stonebrick_stairs
+- blue_skies:turquoise_cobblestone_stairs
+- blue_skies:mossy_turquoise_cobblestone_stairs
+- blue_skies:midnight_sandstone_stairs
+- blue_skies:smooth_midnight_sandstone_stairs
+- blue_skies:brumble_stairs
+- blue_skies:polished_brumble_stairs
+- blue_skies:polished_brumble_brick_stairs
+- blue_skies:taratite_stairs
+- blue_skies:polished_taratite_stairs
+- blue_skies:rimestone_stairs
+- blue_skies:polished_rimestone_stairs
+- blue_skies:lunar_stone_stairs
+- blue_skies:lunar_stonebrick_stairs
+- blue_skies:mossy_lunar_stonebrick_stairs
+- blue_skies:cracked_lunar_stonebrick_stairs
+- blue_skies:lunar_cobblestone_stairs
+- blue_skies:mossy_lunar_cobblestone_stairs
+- blue_skies:crystal_sandstone_stairs
+- blue_skies:smooth_crystal_sandstone_stairs
+- blue_skies:umber_stairs
+- blue_skies:polished_umber_stairs
+- blue_skies:cinderstone_stairs
+- blue_skies:polished_cinderstone_stairs
+- aoa3:abyssal_stone_stairs
+- aoa3:achony_stairs
+- aoa3:aromatic_stone_stairs
+- aoa3:baron_bricks_stairs
+- aoa3:baron_stone_stairs
+- aoa3:black_mysterium_bricks_stairs
+- aoa3:bloodstone_bricks_stairs
+- aoa3:bloodwood_stairs
+- aoa3:bright_rock_stairs
+- aoa3:churry_stairs
+- aoa3:coral_bricks_stairs
+- aoa3:coral_rock_stairs
+- aoa3:creeponia_bricks_stairs
+- aoa3:creep_stairs
+- aoa3:creep_stone_stairs
+- aoa3:crystallised_rock_stairs
+- aoa3:crystallite_bricks_stairs
+- aoa3:crystevia_bricks_stairs
+- aoa3:darkened_rock_stairs
+- aoa3:darkwash_bricks_stairs
+- aoa3:dark_bricks_stairs
+- aoa3:dawnwood_stairs
+- aoa3:dense_stone_stairs
+- aoa3:fungal_rock_stairs
+- aoa3:gardencia_bricks_stairs
+- aoa3:greckon_bricks_stairs
+- aoa3:greckon_stone_stairs
+- aoa3:green_mysterium_bricks_stairs
+- aoa3:hauntedwood_stairs
+- aoa3:haunted_bricks_stairs
+- aoa3:hellstone_stairs
+- aoa3:intricate_amethyst_ivory_stairs
+- aoa3:intricate_ivory_stairs
+- aoa3:intricate_jade_ivory_stairs
+- aoa3:intricate_limonite_ivory_stairs
+- aoa3:intricate_rosite_ivory_stairs
+- aoa3:intricate_sapphire_ivory_stairs
+- aoa3:irostone_stairs
+- aoa3:irowood_stairs
+- aoa3:iro_dotted_bricks_stairs
+- aoa3:iro_striped_bricks_stairs
+- aoa3:lelyetian_bricks_stairs
+- aoa3:lelyetian_stone_stairs
+- aoa3:lucalus_stairs
+- aoa3:lunar_bricks_stairs
+- aoa3:lunide_stairs
+- aoa3:natural_amethyst_ivory_stairs
+- aoa3:natural_ivory_stairs
+- aoa3:natural_jade_ivory_stairs
+- aoa3:natural_limonite_ivory_stairs
+- aoa3:natural_rosite_ivory_stairs
+- aoa3:natural_sapphire_ivory_stairs
+- aoa3:ornate_amethyst_ivory_stairs
+- aoa3:ornate_ivory_stairs
+- aoa3:ornate_jade_ivory_stairs
+- aoa3:ornate_limonite_ivory_stairs
+- aoa3:ornate_rosite_ivory_stairs
+- aoa3:ornate_sapphire_ivory_stairs
+- aoa3:patterned_amethyst_ivory_stairs
+- aoa3:patterned_ivory_stairs
+- aoa3:patterned_jade_ivory_stairs
+- aoa3:patterned_limonite_ivory_stairs
+- aoa3:patterned_rosite_ivory_stairs
+- aoa3:patterned_sapphire_ivory_stairs
+- aoa3:polluted_stone_stairs
+- aoa3:precasian_lower_rock_stairs
+- aoa3:precasian_surface_rock_stairs
+- aoa3:pressed_creep_stone_stairs
+- aoa3:primed_stone_stairs
+- aoa3:rosidian_bricks_stairs
+- aoa3:runic_construct_bricks_stairs
+- aoa3:runic_stairs
+- aoa3:runic_stone_stairs
+- aoa3:shadow_stairs
+- aoa3:shyre_stairs
+- aoa3:skeletal_bricks_stairs
+- aoa3:stranglewood_stairs
+- aoa3:toxicwood_stairs
+- aoa3:weightless_stone_stairs
+- aoa3:whitewash_bricks_stairs
+- aoa3:white_shyre_bricks_stairs
+- aoa3:yellow_shyre_bricks_stairs
+- integrateddynamics:crystalized_chorus_block_stairs
+- integrateddynamics:crystalized_chorus_brick_stairs
+- integrateddynamics:crystalized_menril_block_stairs
+- integrateddynamics:crystalized_menril_brick_stairs
+- integrateddynamics:menril_planks_stairs
+- mysticalagriculture:soulstone_stairs
+- mysticalagriculture:soulstone_cobble_stairs
+- mysticalagriculture:soulstone_bricks_stairs
+
+#appliedenergistics2:glass
+- minecraft:glass
+- #forge:glass
+
+#appliedenergistics2:quartz_wrench
+- appliedenergistics2:certus_quartz_wrench
+- appliedenergistics2:nether_quartz_wrench
+
+#bno:ores/nickel
+- bno:nethernickel_ore
+
+#minecraft:logs
+- #minecraft:logs_that_burn
+- #minecraft:crimson_stems
+- #minecraft:warped_stems
+- blue_skies:bluebright_log
+- blue_skies:bluebright_wood
+- blue_skies:stripped_bluebright_log
+- blue_skies:stripped_bluebright_wood
+- blue_skies:starlit_log
+- blue_skies:starlit_wood
+- blue_skies:stripped_starlit_log
+- blue_skies:stripped_starlit_wood
+- blue_skies:frostbright_log
+- blue_skies:frostbright_wood
+- blue_skies:stripped_frostbright_log
+- blue_skies:stripped_frostbright_wood
+- blue_skies:lunar_log
+- blue_skies:lunar_wood
+- blue_skies:stripped_lunar_log
+- blue_skies:stripped_lunar_wood
+- blue_skies:dusk_log
+- blue_skies:dusk_wood
+- blue_skies:stripped_dusk_log
+- blue_skies:stripped_dusk_wood
+- blue_skies:maple_log
+- blue_skies:maple_wood
+- blue_skies:stripped_maple_log
+- blue_skies:stripped_maple_wood
+- blue_skies:cherry_log
+- blue_skies:cherry_wood
+- blue_skies:stripped_cherry_log
+- blue_skies:stripped_cherry_wood
+- blue_skies:crystallized_log
+- blue_skies:crystallized_wood
+- aoa3:achony_log
+- aoa3:blood_log
+- aoa3:churry_log
+- aoa3:creep_log
+- aoa3:dawn_log
+- aoa3:eyeball_log
+- aoa3:haunted_log
+- aoa3:haunted_eye_log
+- aoa3:haunted_eyes_log
+- aoa3:haunted_flashing_log
+- aoa3:haunted_purpling_log
+- aoa3:irolog
+- aoa3:lucalus_log
+- aoa3:lunide_log
+- aoa3:runic_log
+- aoa3:shadow_log
+- aoa3:shyre_log
+- aoa3:stranglewood_log
+- aoa3:toxic_log
+- aoa3:achony_wood
+- aoa3:blood_wood
+- aoa3:churry_wood
+- aoa3:creep_wood
+- aoa3:dawn_wood
+- aoa3:eyeball_wood
+- aoa3:haunted_wood
+- aoa3:haunted_eye_wood
+- aoa3:haunted_eyes_wood
+- aoa3:haunted_flashing_wood
+- aoa3:haunted_purpling_wood
+- aoa3:irowood
+- aoa3:lucalus_wood
+- aoa3:lunide_wood
+- aoa3:runic_wood
+- aoa3:shadow_wood
+- aoa3:shyre_wood
+- aoa3:stranglewood
+- aoa3:toxic_wood
+- aoa3:stripped_achony_log
+- aoa3:stripped_blood_log
+- aoa3:stripped_churry_log
+- aoa3:stripped_creep_log
+- aoa3:stripped_dawn_log
+- aoa3:stripped_eyeball_log
+- aoa3:stripped_haunted_log
+- aoa3:stripped_haunted_eye_log
+- aoa3:stripped_haunted_eyes_log
+- aoa3:stripped_haunted_flashing_log
+- aoa3:stripped_haunted_purpling_log
+- aoa3:stripped_irolog
+- aoa3:stripped_lucalus_log
+- aoa3:stripped_lunide_log
+- aoa3:stripped_runic_log
+- aoa3:stripped_shadow_log
+- aoa3:stripped_shyre_log
+- aoa3:stripped_stranglewood_log
+- aoa3:stripped_toxic_log
+- aoa3:stripped_achony_wood
+- aoa3:stripped_blood_wood
+- aoa3:stripped_churry_wood
+- aoa3:stripped_creep_wood
+- aoa3:stripped_dawn_wood
+- aoa3:stripped_eyeball_wood
+- aoa3:stripped_haunted_wood
+- aoa3:stripped_haunted_eye_wood
+- aoa3:stripped_haunted_eyes_wood
+- aoa3:stripped_haunted_flashing_wood
+- aoa3:stripped_haunted_purpling_wood
+- aoa3:stripped_irowood
+- aoa3:stripped_lucalus_wood
+- aoa3:stripped_lunide_wood
+- aoa3:stripped_runic_wood
+- aoa3:stripped_shadow_wood
+- aoa3:stripped_shyre_wood
+- aoa3:stripped_stranglewood
+- aoa3:stripped_toxic_wood
+- futurepack:log_tyros
+- futurepack:log_mushroom
+- futurepack:log_palirie
+
+#forge:ingots/lunar
+- aoa3:lunar_ingot
+
+#forge:cookies
+- aoa3:gingerbread_cookie
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:tipped_arrow
+- minecraft:spectral_arrow
+
+#blue_skies:logs/frostbright
+- blue_skies:frostbright_log
+- blue_skies:frostbright_wood
+- blue_skies:stripped_frostbright_log
+- blue_skies:stripped_frostbright_wood
+
+#bno:ingots/lead
+- bno:lead_ingot
+
+#forge:rawpork
+- aoa3:raw_chimera_chop
+- aoa3:raw_furlion_chop
+
+#forge:ores/yellow_gemstone
+- aoa3:yellow_gemstone_ore
+
+#minecraft:wooden_doors
+- minecraft:oak_door
+- minecraft:spruce_door
+- minecraft:birch_door
+- minecraft:jungle_door
+- minecraft:acacia_door
+- minecraft:dark_oak_door
+- minecraft:crimson_door
+- minecraft:warped_door
+- blue_skies:bluebright_door
+- blue_skies:starlit_door
+- blue_skies:frostbright_door
+- blue_skies:lunar_door
+- blue_skies:dusk_door
+- blue_skies:maple_door
+- blue_skies:cherry_door
+- blue_skies:crystallized_door
+- integrateddynamics:menril_door
+
+#forge:ores/certus_quartz
+- appliedenergistics2:quartz_ore
+- appliedenergistics2:charged_quartz_ore
+
+#forge:dusts/fluorite
+- mekanism:dust_fluorite
+
+#forge:storage_blocks/emberstone
+- aoa3:emberstone_block
+
+#forge:glass/purple
+- minecraft:purple_stained_glass
+
+#forge:storage_blocks/shyrestone
+- aoa3:shyrestone_block
+
+#forge:dyes/magenta
+- minecraft:magenta_dye
+
+#minecraft:crimson_stems
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+
+#minecraft:stone_stairs
+- futurepack:planks_mushroom_slab
+- futurepack:planks_tyros_slab
+- futurepack:planks_palirie_slab
+- futurepack:planks_mushroom_slab
+- futurepack:planks_tyros_slab
+- futurepack:planks_palirie_slab
+
+#minecraft:stone_tool_materials
+- minecraft:cobblestone
+- minecraft:blackstone
+- aoa3:abyssal_stone
+- aoa3:aromatic_stone
+- aoa3:baron_stone
+- aoa3:bright_rock
+- aoa3:coral_rock
+- aoa3:creep_stone
+- aoa3:crystallised_rock
+- aoa3:darkened_rock
+- aoa3:dense_stone
+- aoa3:fungal_rock
+- aoa3:greckon_stone
+- aoa3:hellstone
+- aoa3:irostone
+- aoa3:lelyetian_stone
+- aoa3:polluted_stone
+- aoa3:precasian_lower_rock
+- aoa3:precasian_surface_rock
+- aoa3:pressed_creep_stone
+- aoa3:primed_stone
+- aoa3:runic_stone
+- aoa3:weightless_stone
+
+#forge:dyes/cyan
+- minecraft:cyan_dye
+
+#bno:nuggets/copper
+- bno:copper_nugget
+
+#forge:dusts/neon
+- futurepack:dust_neon
+
+#blue_skies:storage_blocks/charoite
+- blue_skies:charoite_block
+
+#forge:ingots/varsium
+- aoa3:varsium_ingot
+
+#mekanism:crystals/uranium
+- mekanism:crystal_uranium
+
+#mekanism:shards/tin
+- mekanism:shard_tin
+
+#mekanism:crystals/tin
+- mekanism:crystal_tin
+
+#forge:gems/bloodstone
+- aoa3:bloodstone
+
+#appliedenergistics2:blacklisted/annihilation_plane
+
+#forge:ores/chestbone_fragments
+- aoa3:chestbone_fragments_ore
+
+#forge:gems/jade
+- aoa3:jade
+
+#forge:food
+- minecraft:apple
+- minecraft:mushroom_stew
+- minecraft:bread
+- minecraft:porkchop
+- minecraft:cooked_porkchop
+- minecraft:golden_apple
+- minecraft:enchanted_golden_apple
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:cooked_cod
+- minecraft:cooked_salmon
+- minecraft:cookie
+- minecraft:melon_slice
+- minecraft:dried_kelp
+- minecraft:beef
+- minecraft:cooked_beef
+- minecraft:chicken
+- minecraft:cooked_chicken
+- minecraft:rotten_flesh
+- minecraft:spider_eye
+- minecraft:carrot
+- minecraft:potato
+- minecraft:baked_potato
+- minecraft:poisonous_potato
+- minecraft:golden_carrot
+- minecraft:pumpkin_pie
+- minecraft:rabbit
+- minecraft:cooked_rabbit
+- minecraft:rabbit_stew
+- minecraft:mutton
+- minecraft:cooked_mutton
+- minecraft:chorus_fruit
+- minecraft:beetroot
+- minecraft:beetroot_soup
+- minecraft:suspicious_stew
+- minecraft:sweet_berries
+- minecraft:honey_bottle
+- aoa3:eye_bulb
+- aoa3:treat_bag
+- aoa3:raw_candlefish
+- aoa3:raw_crimson_skipper
+- aoa3:raw_crimson_stripefish
+- aoa3:raw_dark_hatchetfish
+- aoa3:raw_fingerfish
+- aoa3:raw_golden_gullfish
+- aoa3:raw_ironback
+- aoa3:raw_limefish
+- aoa3:raw_pearl_stripefish
+- aoa3:raw_rainbowfish
+- aoa3:raw_razorfish
+- aoa3:raw_rocketfish
+- aoa3:raw_sailback
+- aoa3:raw_sapphire_strider
+- aoa3:raw_turquoise_stripefish
+- aoa3:raw_violet_skipper
+- aoa3:cooked_candlefish
+- aoa3:cooked_crimson_skipper
+- aoa3:cooked_crimson_stripefish
+- aoa3:cooked_dark_hatchetfish
+- aoa3:cooked_fingerfish
+- aoa3:cooked_golden_gullfish
+- aoa3:cooked_ironback
+- aoa3:cooked_limefish
+- aoa3:cooked_pearl_stripefish
+- aoa3:cooked_rainbowfish
+- aoa3:cooked_razorfish
+- aoa3:cooked_rocketfish
+- aoa3:cooked_sailback
+- aoa3:cooked_sapphire_strider
+- aoa3:cooked_turquoise_stripefish
+- aoa3:cooked_violet_skipper
+- aoa3:bubble_berries
+- aoa3:candy_cane
+- aoa3:candy_corn
+- aoa3:chilli
+- aoa3:raw_charger_shank
+- aoa3:cooked_charger_shank
+- aoa3:raw_chimera_chop
+- aoa3:cooked_chimera_chop
+- aoa3:raw_furlion_chop
+- aoa3:cooked_furlion_chop
+- aoa3:raw_halycon_beef
+- aoa3:cooked_halycon_beef
+- aoa3:eye_candy
+- aoa3:fiery_chops
+- aoa3:floracle_sticks
+- aoa3:gingerbread_cookie
+- aoa3:gingerbread_wing
+- aoa3:goldicap_petals
+- aoa3:heart_fruit
+- aoa3:hot_rod
+- aoa3:lunacrike
+- aoa3:luna_globe
+- aoa3:lunalons
+- aoa3:magic_marang
+- aoa3:mystic_shrooms
+- aoa3:nature_melon_slice
+- aoa3:peppermint_candy
+- aoa3:rosidons
+- aoa3:sour_candy
+- aoa3:sour_gummy
+- aoa3:sour_pop
+- aoa3:spearmint_candy
+- aoa3:trilliad_leaves
+- aoa3:yeti_fingernails
+- aoa3:halycon_milk
+- aoa3:lunarade
+- aoa3:tea
+- aoa3:fungal_tea
+- aoa3:natural_tea
+
+#mekanism:shards/osmium
+- mekanism:shard_osmium
+
+#forge:seeds/wheat
+- minecraft:wheat_seeds
+
+#forge:salt
+- #forge:dusts/salt
+
+#forge:ingots/iron
+- minecraft:iron_ingot
+
+#blue_skies:cobblestone
+- blue_skies:turquoise_cobblestone
+- blue_skies:lunar_cobblestone
+
+#forge:ores/shyregem
+- aoa3:shyregem_ore
+
+#forge:dyes/purple
+- minecraft:purple_dye
+
+#curios:ring
+- curios:ring
+
+#forge:cookedfish
+- aoa3:cooked_candlefish
+- aoa3:cooked_crimson_skipper
+- aoa3:cooked_crimson_stripefish
+- aoa3:cooked_dark_hatchetfish
+- aoa3:cooked_fingerfish
+- aoa3:cooked_golden_gullfish
+- aoa3:cooked_ironback
+- aoa3:cooked_limefish
+- aoa3:cooked_pearl_stripefish
+- aoa3:cooked_rainbowfish
+- aoa3:cooked_razorfish
+- aoa3:cooked_rocketfish
+- aoa3:cooked_sailback
+- aoa3:cooked_sapphire_strider
+- aoa3:cooked_turquoise_stripefish
+- aoa3:cooked_violet_skipper
+
+#forge:ingots/lithium
+- futurepack:ingot_lithium
+
+#blue_skies:tools/wooden_shovels
+- blue_skies:bluebright_shovel
+- blue_skies:starlit_shovel
+- blue_skies:frostbright_shovel
+- blue_skies:lunar_shovel
+- blue_skies:dusk_shovel
+- blue_skies:maple_shovel
+- blue_skies:cherry_shovel
+
+#minecraft:anvil
+- minecraft:anvil
+- minecraft:chipped_anvil
+- minecraft:damaged_anvil
+
+#mekanism:enriched/obsidian
+- mekanism:enriched_refined_obsidian
+
+#forge:sand
+- blue_skies:crystal_sand
+- blue_skies:midnight_sand
+- #forge:sand/colorless
+- #forge:sand/red
+- #minecraft:sand
+
+#forge:ores/magnetite
+- futurepack:ore_magnetite
+
+#forge:ingots/bioterium
+- futurepack:ingot_bioterium
+
+#forge:dyes/yellow
+- minecraft:yellow_dye
+- mekanism:dust_sulfur
+
+#forge:grass
+- aoa3:abyssal_grass
+- aoa3:aromatic_grass
+- aoa3:bright_grass
+- aoa3:candied_grass
+- aoa3:celevian_grass
+- aoa3:coral_grass
+- aoa3:creep_grass
+- aoa3:faded_grass
+- aoa3:fungal_grass
+- aoa3:greckon_grass
+- aoa3:inverted_lelyetian_grass
+- aoa3:irograss
+- aoa3:lelyetian_grass
+- aoa3:lunalyte_grass
+- aoa3:lunasole_grass
+- aoa3:polluted_grass
+- aoa3:precasian_grass
+- aoa3:runic_grass
+- aoa3:weightless_grass
+- minecraft:grass
+
+#forge:ingots/rosite
+- aoa3:rosite_ingot
+
+#forge:gems/prismarine
+- minecraft:prismarine_crystals
+
+#forge:storage_blocks/silver
+- bno:silver_block
+
+#blue_skies:ores/horizonite
+- blue_skies:horizonite_ore
+
+#forge:ores/gold
+- #minecraft:gold_ores
+
+#mekanism:crystals
+- mekanism:crystal_iron
+- mekanism:crystal_gold
+- mekanism:crystal_osmium
+- mekanism:crystal_copper
+- mekanism:crystal_tin
+- mekanism:crystal_lead
+- mekanism:crystal_uranium
+
+#forge:dusts/steel
+- mekanism:dust_steel
+
+#forge:storage_blocks/jewelyte
+- aoa3:jewelyte_block
+
+#bno:ores/redstone
+- bno:netherredstone_ore
+
+#minecraft:stone_crafting_materials
+- minecraft:cobblestone
+- minecraft:blackstone
+- aoa3:abyssal_stone
+- aoa3:aromatic_stone
+- aoa3:baron_stone
+- aoa3:bright_rock
+- aoa3:coral_rock
+- aoa3:creep_stone
+- aoa3:crystallised_rock
+- aoa3:darkened_rock
+- aoa3:dense_stone
+- aoa3:fungal_rock
+- aoa3:greckon_stone
+- aoa3:hellstone
+- aoa3:irostone
+- aoa3:lelyetian_stone
+- aoa3:polluted_stone
+- aoa3:precasian_lower_rock
+- aoa3:precasian_surface_rock
+- aoa3:pressed_creep_stone
+- aoa3:primed_stone
+- aoa3:runic_stone
+- aoa3:weightless_stone
+
+#forge:ores/purple_gemstone
+- aoa3:purple_gemstone_ore
+
+#minecraft:piglin_repellents
+- minecraft:soul_torch
+- minecraft:soul_lantern
+- minecraft:soul_campfire
+- blue_skies:warding_pearl
+- blue_skies:soul_fragment
+
+#forge:ingots/zinc
+- futurepack:ingot_zinc
+
+#forge:glass/black
+- minecraft:black_stained_glass
+
+#forge:tree_saplings
+- #minecraft:saplings
+
+#forge:dusts/coal
+- mekanism:dust_coal
+
+#forge:fences/nether_brick
+- minecraft:nether_brick_fence
+
+#forge:rods
+- #forge:rods/blaze
+- #forge:rods/wooden
+- #forge:rods/plastic
+
+#forge:glass/lime
+- minecraft:lime_stained_glass
+
+#forge:chests/wooden
+- blue_skies:bluebright_chest
+- blue_skies:starlit_chest
+- blue_skies:frostbright_chest
+- blue_skies:lunar_chest
+- blue_skies:dusk_chest
+- blue_skies:maple_chest
+- blue_skies:cherry_chest
+- minecraft:chest
+- minecraft:trapped_chest
+
+#forge:storage_blocks/aluminum
+- bno:aluminum_block
+
+#forge:ores/iron
+- minecraft:iron_ore
+- bno:netheriron_ore
+
+#tombstone:voodoo_poppet_ingredient_lightning
+- #forge:rods/wooden
+
+#forge:dusts/copper
+- futurepack:dust_copper
+- mekanism:dust_copper
+
+#forge:gems/emerald
+- minecraft:emerald
+
+#blue_skies:logs/starlit
+- blue_skies:starlit_log
+- blue_skies:starlit_wood
+- blue_skies:stripped_starlit_log
+- blue_skies:stripped_starlit_wood
+
+#minecraft:wooden_stairs
+- minecraft:oak_stairs
+- minecraft:spruce_stairs
+- minecraft:birch_stairs
+- minecraft:jungle_stairs
+- minecraft:acacia_stairs
+- minecraft:dark_oak_stairs
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- blue_skies:bluebright_stairs
+- blue_skies:starlit_stairs
+- blue_skies:frostbright_stairs
+- blue_skies:lunar_stairs
+- blue_skies:dusk_stairs
+- blue_skies:maple_stairs
+- blue_skies:cherry_stairs
+- futurepack:planks_mushroom_stair
+- futurepack:planks_tyros_stair
+- futurepack:planks_palirie_stair
+- integrateddynamics:menril_planks_stairs
+
+#forge:slabs/wooden
+- #minecraft:wooden_slabs
+
+#futurepack:salad/base
+- #forge:crops/beetroot
+- #forge:crops/carrot
+- #forge:crops/potato
+- futurepack:mendel_berry
+- minecraft:apple
+- minecraft:melon_slice
+
+#minecraft:carpets
+- minecraft:white_carpet
+- minecraft:orange_carpet
+- minecraft:magenta_carpet
+- minecraft:light_blue_carpet
+- minecraft:yellow_carpet
+- minecraft:lime_carpet
+- minecraft:pink_carpet
+- minecraft:gray_carpet
+- minecraft:light_gray_carpet
+- minecraft:cyan_carpet
+- minecraft:purple_carpet
+- minecraft:blue_carpet
+- minecraft:brown_carpet
+- minecraft:green_carpet
+- minecraft:red_carpet
+- minecraft:black_carpet
+- aoa3:baron_carpet
+- aoa3:borean_carpet
+- aoa3:gardencian_carpet
+- aoa3:iro_carpet
+- aoa3:lunar_carpet
+
+#minecraft:wooden_buttons
+- minecraft:oak_button
+- minecraft:spruce_button
+- minecraft:birch_button
+- minecraft:jungle_button
+- minecraft:acacia_button
+- minecraft:dark_oak_button
+- minecraft:crimson_button
+- minecraft:warped_button
+- blue_skies:bluebright_button
+- blue_skies:starlit_button
+- blue_skies:frostbright_button
+- blue_skies:lunar_button
+- blue_skies:dusk_button
+- blue_skies:maple_button
+- blue_skies:cherry_button
+- aoa3:achony_button
+- aoa3:bloodwood_button
+- aoa3:churry_button
+- aoa3:creep_button
+- aoa3:dawnwood_button
+- aoa3:hauntedwood_button
+- aoa3:irowood_button
+- aoa3:lucalus_button
+- aoa3:lunide_button
+- aoa3:runic_button
+- aoa3:shadow_button
+- aoa3:shyre_button
+- aoa3:stranglewood_button
+- aoa3:toxicwood_button
+
+#forge:tools
+- #forge:tools/wrench
+
+#blue_skies:storage_blocks/pyrope
+- blue_skies:pyrope_block
+
+#futurepack:cores
+- futurepack:core_standart
+- futurepack:core_a1
+- futurepack:core_p2
+- futurepack:core_tct
+- futurepack:core_master
+- futurepack:core_non
+- futurepack:core_dungeon
+- futurepack:core_torus
+- futurepack:core_zombie
+- futurepack:core_entronium
+
+#forge:nuggets/uranium
+- mekanism:nugget_uranium
+
+#minecraft:stone_bricks
+- minecraft:stone_bricks
+- minecraft:mossy_stone_bricks
+- minecraft:cracked_stone_bricks
+- minecraft:chiseled_stone_bricks
+
+#forge:gems/shyregem
+- aoa3:shyregem
+
+#forge:storage_blocks/quartz
+- minecraft:quartz_block
+
+#forge:small_mushrooms/brown
+- minecraft:brown_mushroom
+
+#forge:nuggets/nickel
+- bno:nickel_nugget
+
+#forge:glass/orange
+- minecraft:orange_stained_glass
+
+#bno:ingots/tin
+- bno:tin_ingot
+
+#forge:dusts/refined_obsidian
+- mekanism:dust_refined_obsidian
+
+#forge:ingots/glowtite
+- futurepack:ingot_glowtite
+
+#forge:gems/fluix
+- appliedenergistics2:fluix_crystal
+
+#forge:dyes/green
+- minecraft:green_dye
+
+#tombstone:voodoo_poppet_ingredient_darkness
+- minecraft:ghast_tear
+
+#forge:paper
+- minecraft:paper
+
+#forge:ingots/limonite
+- aoa3:limonite_ingot
+
+#forge:dusts/glowtite
+- futurepack:dust_glowtite
+
+#forge:crops/netherwart
+- minecraft:nether_wart
+
+#minecraft:slabs
+- #minecraft:wooden_slabs
+- minecraft:stone_slab
+- minecraft:smooth_stone_slab
+- minecraft:stone_brick_slab
+- minecraft:sandstone_slab
+- minecraft:purpur_slab
+- minecraft:quartz_slab
+- minecraft:red_sandstone_slab
+- minecraft:brick_slab
+- minecraft:cobblestone_slab
+- minecraft:nether_brick_slab
+- minecraft:petrified_oak_slab
+- minecraft:prismarine_slab
+- minecraft:prismarine_brick_slab
+- minecraft:dark_prismarine_slab
+- minecraft:polished_granite_slab
+- minecraft:smooth_red_sandstone_slab
+- minecraft:mossy_stone_brick_slab
+- minecraft:polished_diorite_slab
+- minecraft:mossy_cobblestone_slab
+- minecraft:end_stone_brick_slab
+- minecraft:smooth_sandstone_slab
+- minecraft:smooth_quartz_slab
+- minecraft:granite_slab
+- minecraft:andesite_slab
+- minecraft:red_nether_brick_slab
+- minecraft:polished_andesite_slab
+- minecraft:diorite_slab
+- minecraft:cut_sandstone_slab
+- minecraft:cut_red_sandstone_slab
+- minecraft:blackstone_slab
+- minecraft:polished_blackstone_brick_slab
+- minecraft:polished_blackstone_slab
+- blue_skies:blinding_slab
+- blue_skies:glowing_blinding_slab
+- blue_skies:nature_stone_slab
+- blue_skies:glowing_nature_stone_slab
+- blue_skies:nature_stonebrick_slab
+- blue_skies:glowing_nature_stonebrick_slab
+- blue_skies:poison_stone_slab
+- blue_skies:glowing_poison_stone_slab
+- blue_skies:poison_stonebrick_slab
+- blue_skies:rough_poison_stonebrick_slab
+- blue_skies:aquatic_slab
+- blue_skies:glowing_aquatic_slab
+- blue_skies:life_slab
+- blue_skies:glowing_life_slab
+- blue_skies:crystallized_slab
+- blue_skies:turquoise_stone_slab
+- blue_skies:turquoise_cobblestone_slab
+- blue_skies:mossy_turquoise_cobblestone_slab
+- blue_skies:turquoise_stonebrick_slab
+- blue_skies:mossy_turquoise_stonebrick_slab
+- blue_skies:cracked_turquoise_stonebrick_slab
+- blue_skies:midnight_sandstone_slab
+- blue_skies:smooth_midnight_sandstone_slab
+- blue_skies:brumble_slab
+- blue_skies:polished_brumble_slab
+- blue_skies:polished_brumble_brick_slab
+- blue_skies:taratite_slab
+- blue_skies:polished_taratite_slab
+- blue_skies:rimestone_slab
+- blue_skies:polished_rimestone_slab
+- blue_skies:lunar_stone_slab
+- blue_skies:lunar_cobblestone_slab
+- blue_skies:mossy_lunar_cobblestone_slab
+- blue_skies:lunar_stonebrick_slab
+- blue_skies:mossy_lunar_stonebrick_slab
+- blue_skies:cracked_lunar_stonebrick_slab
+- blue_skies:crystal_sandstone_slab
+- blue_skies:smooth_crystal_sandstone_slab
+- blue_skies:cut_midnight_sandstone_slab
+- blue_skies:cut_crystal_sandstone_slab
+- blue_skies:umber_slab
+- blue_skies:polished_umber_slab
+- blue_skies:cinderstone_slab
+- blue_skies:polished_cinderstone_slab
+- aoa3:abyssal_stone_slab
+- aoa3:achony_slab
+- aoa3:aromatic_stone_slab
+- aoa3:baron_bricks_slab
+- aoa3:baron_stone_slab
+- aoa3:black_mysterium_bricks_slab
+- aoa3:bloodstone_bricks_slab
+- aoa3:bloodwood_slab
+- aoa3:bright_rock_slab
+- aoa3:churry_slab
+- aoa3:coral_bricks_slab
+- aoa3:coral_rock_slab
+- aoa3:creeponia_bricks_slab
+- aoa3:creep_slab
+- aoa3:creep_stone_slab
+- aoa3:crystallised_rock_slab
+- aoa3:crystallite_bricks_slab
+- aoa3:crystevia_bricks_slab
+- aoa3:darkened_rock_slab
+- aoa3:darkwash_bricks_slab
+- aoa3:dark_bricks_slab
+- aoa3:dawnwood_slab
+- aoa3:dense_stone_slab
+- aoa3:fungal_rock_slab
+- aoa3:gardencia_bricks_slab
+- aoa3:greckon_bricks_slab
+- aoa3:greckon_stone_slab
+- aoa3:green_mysterium_bricks_slab
+- aoa3:hauntedwood_slab
+- aoa3:haunted_bricks_slab
+- aoa3:hellstone_slab
+- aoa3:intricate_amethyst_ivory_slab
+- aoa3:intricate_ivory_slab
+- aoa3:intricate_jade_ivory_slab
+- aoa3:intricate_limonite_ivory_slab
+- aoa3:intricate_rosite_ivory_slab
+- aoa3:intricate_sapphire_ivory_slab
+- aoa3:irostone_slab
+- aoa3:irowood_slab
+- aoa3:iro_dotted_bricks_slab
+- aoa3:iro_striped_bricks_slab
+- aoa3:lelyetian_bricks_slab
+- aoa3:lelyetian_stone_slab
+- aoa3:lucalus_slab
+- aoa3:lunar_bricks_slab
+- aoa3:lunide_slab
+- aoa3:natural_amethyst_ivory_slab
+- aoa3:natural_ivory_slab
+- aoa3:natural_jade_ivory_slab
+- aoa3:natural_limonite_ivory_slab
+- aoa3:natural_rosite_ivory_slab
+- aoa3:natural_sapphire_ivory_slab
+- aoa3:ornate_amethyst_ivory_slab
+- aoa3:ornate_ivory_slab
+- aoa3:ornate_jade_ivory_slab
+- aoa3:ornate_limonite_ivory_slab
+- aoa3:ornate_rosite_ivory_slab
+- aoa3:ornate_sapphire_ivory_slab
+- aoa3:patterned_amethyst_ivory_slab
+- aoa3:patterned_ivory_slab
+- aoa3:patterned_jade_ivory_slab
+- aoa3:patterned_limonite_ivory_slab
+- aoa3:patterned_rosite_ivory_slab
+- aoa3:patterned_sapphire_ivory_slab
+- aoa3:polluted_stone_slab
+- aoa3:precasian_lower_rock_slab
+- aoa3:precasian_surface_rock_slab
+- aoa3:pressed_creep_stone_slab
+- aoa3:primed_stone_slab
+- aoa3:rosidian_bricks_slab
+- aoa3:runic_construct_bricks_slab
+- aoa3:runic_slab
+- aoa3:runic_stone_slab
+- aoa3:shadow_slab
+- aoa3:shyre_slab
+- aoa3:skeletal_bricks_slab
+- aoa3:stranglewood_slab
+- aoa3:toxicwood_slab
+- aoa3:weightless_stone_slab
+- aoa3:whitewash_bricks_slab
+- aoa3:white_shyre_bricks_slab
+- aoa3:yellow_shyre_bricks_slab
+- mysticalagriculture:soulstone_slab
+- mysticalagriculture:soulstone_cobble_slab
+- mysticalagriculture:soulstone_bricks_slab
+- mysticalagriculture:soulstone_smooth_slab
+
+#forge:blocks/redstone
+- minecraft:redstone_block
+
+#forge:ores/elecanium
+- aoa3:elecanium_ore
+
+#forge:ores/emerald
+- blue_skies:everbright_emerald_ore
+- blue_skies:everdawn_emerald_ore
+- minecraft:emerald_ore
+- bno:netheremerald_ore
+
+#blue_skies:stone
+- blue_skies:turquoise_stone
+- blue_skies:lunar_stone
+
+#mekanism:enriched
+- #mekanism:enriched/carbon
+- #mekanism:enriched/diamond
+- #mekanism:enriched/obsidian
+- #mekanism:enriched/redstone
+- #mekanism:enriched/gold
+- #mekanism:enriched/tin
+
+#mysticalagriculture:material/marble
+- #chisel:marble?
+- astralsorcery:marble_raw?
+- quark:marble?
+
+#astralsorcery:starmetal
+- astralsorcery:starmetal_ingot
+
+#forge:dyes/lime
+- minecraft:lime_dye
+
+#futurepack:compost
+- futurepack:kompost
+
+#forge:ingots/skeletal
+- aoa3:skeletal_ingot
+
+#forge:storage_blocks/blazium
+- aoa3:blazium_block
+
+#forge:dusts/diamond
+- mekanism:dust_diamond
+
+#mekanism:alloys/reinforced
+- #forge:alloys/elite
+
+#integrateddynamics:menril_logs
+- integrateddynamics:menril_log
+- integrateddynamics:menril_wood
+- integrateddynamics:menril_log_stripped
+- integrateddynamics:menril_wood_stripped
+
+#forge:storage_blocks/ghoulish
+- aoa3:ghoulish_block
+
+#forge:ingots/neodymium
+- futurepack:ingot_neodymium
+
+#minecraft:buttons
+- #minecraft:wooden_buttons
+- minecraft:stone_button
+- minecraft:polished_blackstone_button
+- aoa3:achony_button
+- aoa3:bloodwood_button
+- aoa3:churry_button
+- aoa3:creep_button
+- aoa3:dawnwood_button
+- aoa3:hauntedwood_button
+- aoa3:irowood_button
+- aoa3:lucalus_button
+- aoa3:lunide_button
+- aoa3:runic_button
+- aoa3:shadow_button
+- aoa3:shyre_button
+- aoa3:stranglewood_button
+- aoa3:toxicwood_button
+
+#futurepack:salad/top
+- minecraft:dandelion
+- minecraft:grass
+- futurepack:sapling_mushroom
+- futurepack:mendel_flower
+
+#forge:circuits/ultimate
+- mekanism:ultimate_control_circuit
+
+#forge:dusts/charcoal
+- mekanism:dust_charcoal
+
+#minecraft:rails
+- minecraft:rail
+- minecraft:powered_rail
+- minecraft:detector_rail
+- minecraft:activator_rail
+
+#forge:blocks/neon
+- futurepack:block_compressed_neon
+
+#forge:nuggets/silver
+- bno:silver_nugget
+
+#forge:ores/legbone_fragments
+- aoa3:legbone_fragments_ore
+
+#futurepack:magnetic
+- #forge:ingots/iron
+- minecraft:iron_chestplate
+- minecraft:iron_helmet
+- minecraft:iron_leggings
+- minecraft:iron_boots
+
+#forge:dusts/certus_quartz
+- appliedenergistics2:certus_quartz_dust
+
+#blue_skies:storage_blocks/aquite
+- blue_skies:aquite_block
+
+#mekanism:clumps/copper
+- mekanism:clump_copper
+
+#minecraft:wooden_pressure_plates
+- minecraft:oak_pressure_plate
+- minecraft:spruce_pressure_plate
+- minecraft:birch_pressure_plate
+- minecraft:jungle_pressure_plate
+- minecraft:acacia_pressure_plate
+- minecraft:dark_oak_pressure_plate
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- aoa3:achony_pressure_plate
+- aoa3:bloodwood_pressure_plate
+- aoa3:churry_pressure_plate
+- aoa3:creep_pressure_plate
+- aoa3:dawnwood_pressure_plate
+- aoa3:hauntedwood_pressure_plate
+- aoa3:irowood_pressure_plate
+- aoa3:lucalus_pressure_plate
+- aoa3:lunide_pressure_plate
+- aoa3:runic_pressure_plate
+- aoa3:shadow_pressure_plate
+- aoa3:shyre_pressure_plate
+- aoa3:stranglewood_pressure_plate
+- aoa3:toxicwood_pressure_plate
+
+#minecraft:tall_flowers
+- minecraft:sunflower
+- minecraft:lilac
+- minecraft:peony
+- minecraft:rose_bush
+
+#forge:nuggets/osmium
+- mekanism:nugget_osmium
+- bno:osmium_nugget
+
+#forge:pellets/antimatter
+- mekanism:pellet_antimatter
+
+#mekanism:shards/iron
+- mekanism:shard_iron
+
+#forge:bookshelves
+- blue_skies:bluebright_bookshelf
+- blue_skies:starlit_bookshelf
+- blue_skies:frostbright_bookshelf
+- blue_skies:lunar_bookshelf
+- blue_skies:dusk_bookshelf
+- blue_skies:maple_bookshelf
+- blue_skies:cherry_bookshelf
+- minecraft:bookshelf
+
+#forge:ingots/aluminium
+- futurepack:ingot_aluminium
+
+#minecraft:gold_ores
+- minecraft:gold_ore
+- minecraft:nether_gold_ore
+
+#forge:dyes
+- #forge:dyes/white
+- #forge:dyes/orange
+- #forge:dyes/magenta
+- #forge:dyes/light_blue
+- #forge:dyes/yellow
+- #forge:dyes/lime
+- #forge:dyes/pink
+- #forge:dyes/gray
+- #forge:dyes/light_gray
+- #forge:dyes/cyan
+- #forge:dyes/purple
+- #forge:dyes/blue
+- #forge:dyes/brown
+- #forge:dyes/green
+- #forge:dyes/red
+- #forge:dyes/black
+
+#forge:nuggets/baronyte
+- aoa3:baronyte_nugget
+
+#forge:glass_panes/pink
+- minecraft:pink_stained_glass_pane
+
+#forge:fuels/bio
+- mekanism:bio_fuel
+
+#forge:dusts/obsidian
+- futurepack:dust_obsidian
+- mekanism:dust_obsidian
+
+#forge:netherrack
+- minecraft:netherrack
+
+#aoa3:frame_bench_frame
+- aoa3:blaster_frame
+- aoa3:crossbow_frame
+- aoa3:boots_frame
+- aoa3:leggings_frame
+- aoa3:chestplate_frame
+- aoa3:helmet_frame
+- aoa3:cannon_frame
+- aoa3:gun_frame
+- aoa3:shotgun_frame
+- aoa3:sniper_frame
+
+#minecraft:soul_fire_base_blocks
+- minecraft:soul_sand
+- minecraft:soul_soil
+
+#tombstone:voodoo_poppet_ingredient_suffocation
+- minecraft:lily_pad
+
+#forge:nuggets/lunar
+- aoa3:lunar_nugget
+
+#bno:ores/tin
+- bno:nethertin_ore
+
+#aoa3:precasian_bone
+- aoa3:chestbone_fragment
+- aoa3:footbone_fragment
+- aoa3:legbone_fragment
+- aoa3:skullbone_fragment
+
+#forge:eggs
+- minecraft:egg
+
+#forge:batteries
+- mekanism:energy_tablet
+
+#forge:storage_blocks/skeletal_ingot
+- aoa3:skeletal_ingot_block
+
+#tombstone:voodoo_poppet_ingredients
+- #tombstone:voodoo_poppet_ingredient_suffocation
+- #tombstone:voodoo_poppet_ingredient_burn
+- #tombstone:voodoo_poppet_ingredient_lightning
+- #tombstone:voodoo_poppet_ingredient_fall
+- #tombstone:voodoo_poppet_ingredient_darkness
+
+#tombstone:decorative_graves
+- tombstone:decorative_grave_simple
+- tombstone:decorative_grave_normal
+- tombstone:decorative_grave_cross
+- tombstone:decorative_tombstone
+- tombstone:decorative_subaraki_grave
+- tombstone:decorative_grave_original
+
+#bno:ores/uranium
+- bno:netheruranium_ore
+
+#forge:dyes/red
+- minecraft:red_dye
+
+#bno:ores/emerald
+- bno:netheremerald_ore
+
+#forge:gravel
+- minecraft:gravel
+- #minecraft:gravel
+
+#forge:glass_panes/cyan
+- minecraft:cyan_stained_glass_pane
+
+#forge:dyes/black
+- minecraft:black_dye
+
+#forge:dusts/glowstone
+- minecraft:glowstone_dust
+
+#minecraft:wool
+- minecraft:white_wool
+- minecraft:orange_wool
+- minecraft:magenta_wool
+- minecraft:light_blue_wool
+- minecraft:yellow_wool
+- minecraft:lime_wool
+- minecraft:pink_wool
+- minecraft:gray_wool
+- minecraft:light_gray_wool
+- minecraft:cyan_wool
+- minecraft:purple_wool
+- minecraft:blue_wool
+- minecraft:brown_wool
+- minecraft:green_wool
+- minecraft:red_wool
+- minecraft:black_wool
+
+#forge:nuggets/rosite
+- aoa3:rosite_nugget
+
+#forge:glass/colorless
+- minecraft:glass
+- minecraft:glass
+
+#forge:ores/shyrestone
+- aoa3:shyrestone_ore
+
+#forge:gems/bitripentium
+- #forge:ingots/bitripentium
+
+#forge:glass_panes/light_blue
+- minecraft:light_blue_stained_glass_pane
+
+#mekanism:enriched/redstone
+- mekanism:enriched_redstone
+
+#blue_skies:logs/maple
+- blue_skies:maple_log
+- blue_skies:maple_wood
+- blue_skies:stripped_maple_log
+- blue_skies:stripped_maple_wood
+
+#rftoolsutility:living/living
+- #rftoolsutility:living/lowyield
+- #rftoolsutility:living/averageyield
+- #rftoolsutility:living/highyield
+
+#blue_skies:trough_foods
+- minecraft:wheat
+- minecraft:carrot
+- blue_skies:pine_fruit
+- blue_skies:scalefruit
+
+#forge:ores/zinc
+- futurepack:ore_zinc
+
+#forge:ores/netherite_scrap
+- minecraft:ancient_debris
+
+#forge:nuggets/copper
+- mekanism:nugget_copper
+- bno:copper_nugget
+
+#futurepack:rams
+- futurepack:ram_standart
+- futurepack:ram_a
+- futurepack:ram_p
+- futurepack:ram_tct
+- futurepack:ram_master
+- futurepack:ram_non
+- futurepack:ram_dungeon
+- futurepack:ram_torus
+- futurepack:ram_zombie
+- futurepack:ram_entronium
+
+#forge:nuggets/aluminum
+- bno:aluminum_nugget
+
+#forge:stained_glass
+- blue_skies:crystal_glass
+- blue_skies:midnight_glass
+- minecraft:white_stained_glass
+- minecraft:orange_stained_glass
+- minecraft:magenta_stained_glass
+- minecraft:light_blue_stained_glass
+- minecraft:yellow_stained_glass
+- minecraft:lime_stained_glass
+- minecraft:pink_stained_glass
+- minecraft:gray_stained_glass
+- minecraft:light_gray_stained_glass
+- minecraft:cyan_stained_glass
+- minecraft:purple_stained_glass
+- minecraft:blue_stained_glass
+- minecraft:brown_stained_glass
+- minecraft:green_stained_glass
+- minecraft:red_stained_glass
+- minecraft:black_stained_glass
+
+#forge:crops/carrot
+- minecraft:carrot
+- minecraft:carrot
+
+#tombstone:voodoo_poppet_ingredient_fall
+- #forge:feathers
+
+#forge:nuggets/gold
+- minecraft:gold_nugget
+
+#forge:dusts/zinc
+- futurepack:dust_zinc
+
+#forge:gems/prismide
+- futurepack:prismide
+
+#mekanism:dirty_dusts/lead
+- mekanism:dirty_dust_lead
+
+#forge:yellow_cake_uranium
+- mekanism:yellow_cake_uranium
+
+#minecraft:warped_stems
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+
+#forge:nether_stars
+- minecraft:nether_star
+
+#forge:stairs/wooden
+- #minecraft:wooden_stairs
+
+#blue_skies:storage_blocks/falsite
+- blue_skies:falsite_block
+
+#forge:ores/varsium
+- aoa3:varsium_ore
+
+#forge:ingots/tin
+- futurepack:ingot_tin
+- mekanism:ingot_tin
+- bno:tin_ingot
+
+#forge:dyes/blue
+- minecraft:blue_dye
+
+#forge:storage_blocks/iron
+- minecraft:iron_block
+
+#appliedenergistics2:wool
+- #minecraft:wool
+
+#forge:glass_panes/brown
+- minecraft:brown_stained_glass_pane
+
+#forge:heads
+- minecraft:creeper_head
+- minecraft:dragon_head
+- minecraft:player_head
+- minecraft:skeleton_skull
+- minecraft:wither_skeleton_skull
+- minecraft:zombie_head
+
+#forge:ores/sapphire
+- aoa3:sapphire_ore
+
+#futurepack:mining_mindcontrol
+- futurepack:mindcontrol_mining_helmet
+
+#forge:planks/wooden
+- #minecraft:planks
+
+#forge:circuits/basic
+- mekanism:basic_control_circuit
+
+#minecraft:dark_oak_logs
+- minecraft:dark_oak_log
+- minecraft:dark_oak_wood
+- minecraft:stripped_dark_oak_log
+- minecraft:stripped_dark_oak_wood
+
+#forge:bones
+- minecraft:bone
+- minecraft:bone
+
+#forge:storage_blocks/steel
+- mekanism:block_steel
+
+#forge:glass_panes
+- #forge:glass_panes/colorless
+- #forge:stained_glass_panes
+- #forge:glass_panes/colorless
+
+#mekanism:shards/uranium
+- mekanism:shard_uranium
+
+#minecraft:non_flammable_wood
+- minecraft:warped_stem
+- minecraft:stripped_warped_stem
+- minecraft:warped_hyphae
+- minecraft:stripped_warped_hyphae
+- minecraft:crimson_stem
+- minecraft:stripped_crimson_stem
+- minecraft:crimson_hyphae
+- minecraft:stripped_crimson_hyphae
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- minecraft:crimson_pressure_plate
+- minecraft:warped_pressure_plate
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- minecraft:crimson_trapdoor
+- minecraft:warped_trapdoor
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- minecraft:crimson_stairs
+- minecraft:warped_stairs
+- minecraft:crimson_button
+- minecraft:warped_button
+- minecraft:crimson_door
+- minecraft:warped_door
+- minecraft:crimson_sign
+- minecraft:warped_sign
+
+#appliedenergistics2:crystals/nether
+- #forge:gems/quartz
+- appliedenergistics2:purified_nether_quartz_crystal
+
+#forge:ores/fluorite
+- mekanism:fluorite_ore
+
+#forge:dusts/iron
+- futurepack:dust_iron
+- mekanism:dust_iron
+- appliedenergistics2:iron_dust
+
+#bno:ingots/nickel
+- bno:nickel_ingot
+
+#blue_skies:gems/diopside
+- blue_skies:diopside_gem
+
+#forge:storage_blocks/refined_glowstone
+- mekanism:block_refined_glowstone
+
+#blue_skies:tools/wooden_swords
+- blue_skies:bluebright_sword
+- blue_skies:starlit_sword
+- blue_skies:frostbright_sword
+- blue_skies:lunar_sword
+- blue_skies:dusk_sword
+- blue_skies:maple_sword
+- blue_skies:cherry_sword
+
+#forge:mushrooms
+- minecraft:brown_mushroom
+- minecraft:red_mushroom
+- aoa3:blue_glowshroom
+- aoa3:green_glowshroom
+- aoa3:orange_glowshroom
+- aoa3:purple_glowshroom
+- aoa3:yellow_glowshroom
+- aoa3:mystic_shrooms
+- #forge:small_mushrooms/red
+- #forge:small_mushrooms/brown
+- #futurepack:mushroom_menelaus
+
+#forge:storage_blocks/bloodstone
+- aoa3:bloodstone_block
+
+#forge:ingots/wakurium
+- futurepack:ingot_wakurium
+
+#appliedenergistics2:dusts/quartz
+- #appliedenergistics2:dusts/certus_quartz
+- #forge:dusts/quartz
+
+#forge:nuggets/ghastly
+- aoa3:ghastly_nugget
+
+#bno:ores/silver
+- bno:nethersilver_ore
+
+#forge:nuggets/lyon
+- aoa3:lyon_nugget
+
+#appliedenergistics2:metal_ingots
+- #forge:ingots/gold
+- #forge:ingots/iron
+
+#forge:blocks/zinc
+- futurepack:block_zinc
+
+#forge:small_mushrooms/red
+- minecraft:red_mushroom
+
+#forge:blocks/copper
+- futurepack:block_copper
+
+#forge:storage_blocks/bronze
+- mekanism:block_bronze
+
+#bno:ores/lead
+- bno:netherlead_ore
+
+#forge:ingots/steel
+- mekanism:ingot_steel
+
+#mekanism:shards
+- mekanism:shard_iron
+- mekanism:shard_gold
+- mekanism:shard_osmium
+- mekanism:shard_copper
+- mekanism:shard_tin
+- mekanism:shard_lead
+- mekanism:shard_uranium
+
+#forge:ores/baronyte
+- aoa3:baronyte_ore
+
+#forge:ingots/netherite
+- minecraft:netherite_ingot
+
+#forge:ores/white_gemstone
+- aoa3:white_gemstone_ore
+
+#forge:gems/bioterium
+- futurepack:crystal_bioterium
+
+#minecraft:fences
+- #minecraft:wooden_fences
+- minecraft:nether_brick_fence
+- aoa3:achony_fence
+- aoa3:bloodwood_fence
+- aoa3:churry_fence
+- aoa3:creep_fence
+- aoa3:dawnwood_fence
+- aoa3:hauntedwood_fence
+- aoa3:irowood_fence
+- aoa3:lucalus_fence
+- aoa3:lunide_fence
+- aoa3:runic_fence
+- aoa3:shadow_fence
+- aoa3:shyre_fence
+- aoa3:stranglewood_fence
+- aoa3:toxicwood_fence
+- aoa3:twinklestone_fence
+
+#minecraft:saplings
+- minecraft:oak_sapling
+- minecraft:spruce_sapling
+- minecraft:birch_sapling
+- minecraft:jungle_sapling
+- minecraft:acacia_sapling
+- minecraft:dark_oak_sapling
+- blue_skies:bluebright_sapling
+- blue_skies:starlit_sapling
+- blue_skies:frostbright_sapling
+- blue_skies:lunar_sapling
+- blue_skies:dusk_sapling
+- blue_skies:maple_sapling
+- blue_skies:cherry_sapling
+- blue_skies:crescent_fruit_sapling
+- aoa3:achony_sapling
+- aoa3:bloodtwister_sapling
+- aoa3:blue_celevus_sapling
+- aoa3:blue_haven_sapling
+- aoa3:bright_shyre_sapling
+- aoa3:churry_sapling
+- aoa3:creep_sapling
+- aoa3:dawnwood_sapling
+- aoa3:eyebush_sapling
+- aoa3:eye_hanger_sapling
+- aoa3:green_celevus_sapling
+- aoa3:haunted_sapling
+- aoa3:irodust_sapling
+- aoa3:irogold_sapling
+- aoa3:lucalus_sapling
+- aoa3:lunicia_sapling
+- aoa3:lunosso_sapling
+- aoa3:pink_haven_sapling
+- aoa3:purple_celevus_sapling
+- aoa3:purple_haven_sapling
+- aoa3:red_celevus_sapling
+- aoa3:red_haven_sapling
+- aoa3:runic_sapling
+- aoa3:shadow_sapling
+- aoa3:shyre_sapling
+- aoa3:stranglewood_sapling
+- aoa3:turquoise_haven_sapling
+- aoa3:yellow_celevus_sapling
+- aoa3:yellow_haven_sapling
+- futurepack:sapling_tyros
+- futurepack:sapling_mushroom
+- futurepack:sapling_palirie
+- integrateddynamics:menril_sapling
+
+#forge:storage_blocks/tin
+- mekanism:block_tin
+- bno:tin_block
+
+#forge:ores/copper
+- futurepack:ore_copper_m
+- futurepack:ore_copper
+- mekanism:copper_ore
+- bno:nethercopper_ore
+
+#forge:seeds/beetroot
+- minecraft:beetroot_seeds
+
+#forge:storage_blocks/mystite
+- aoa3:mystite_block
+
+#mysticalagriculture:infusion_crystals
+- mysticalagriculture:infusion_crystal
+- mysticalagriculture:master_infusion_crystal
+
+#minecraft:banners
+- minecraft:white_banner
+- minecraft:orange_banner
+- minecraft:magenta_banner
+- minecraft:light_blue_banner
+- minecraft:yellow_banner
+- minecraft:lime_banner
+- minecraft:pink_banner
+- minecraft:gray_banner
+- minecraft:light_gray_banner
+- minecraft:cyan_banner
+- minecraft:purple_banner
+- minecraft:blue_banner
+- minecraft:brown_banner
+- minecraft:green_banner
+- minecraft:red_banner
+- minecraft:black_banner
+
+#minecraft:wooden_fences
+- minecraft:oak_fence
+- minecraft:acacia_fence
+- minecraft:dark_oak_fence
+- minecraft:spruce_fence
+- minecraft:birch_fence
+- minecraft:jungle_fence
+- minecraft:crimson_fence
+- minecraft:warped_fence
+- blue_skies:bluebright_fence
+- blue_skies:starlit_fence
+- blue_skies:frostbright_fence
+- blue_skies:lunar_fence
+- blue_skies:dusk_fence
+- blue_skies:maple_fence
+- blue_skies:cherry_fence
+- aoa3:achony_fence
+- aoa3:bloodwood_fence
+- aoa3:churry_fence
+- aoa3:creep_fence
+- aoa3:dawnwood_fence
+- aoa3:hauntedwood_fence
+- aoa3:irowood_fence
+- aoa3:lucalus_fence
+- aoa3:lunide_fence
+- aoa3:runic_fence
+- aoa3:shadow_fence
+- aoa3:shyre_fence
+- aoa3:stranglewood_fence
+- aoa3:toxicwood_fence
+- integrateddynamics:menril_fence
+
+#forge:ingots/lyon
+- aoa3:lyon_ingot
+
+#appliedenergistics2:covered_dense_cable
+- appliedenergistics2:white_covered_dense_cable
+- appliedenergistics2:orange_covered_dense_cable
+- appliedenergistics2:magenta_covered_dense_cable
+- appliedenergistics2:light_blue_covered_dense_cable
+- appliedenergistics2:yellow_covered_dense_cable
+- appliedenergistics2:lime_covered_dense_cable
+- appliedenergistics2:pink_covered_dense_cable
+- appliedenergistics2:gray_covered_dense_cable
+- appliedenergistics2:light_gray_covered_dense_cable
+- appliedenergistics2:cyan_covered_dense_cable
+- appliedenergistics2:purple_covered_dense_cable
+- appliedenergistics2:blue_covered_dense_cable
+- appliedenergistics2:brown_covered_dense_cable
+- appliedenergistics2:green_covered_dense_cable
+- appliedenergistics2:red_covered_dense_cable
+- appliedenergistics2:black_covered_dense_cable
+- appliedenergistics2:fluix_covered_dense_cable
+
+#forge:obsidian
+- minecraft:obsidian
+- minecraft:obsidian
+
+#curios:necklace
+- astralsorcery:enchantment_amulet
+- curios:amulet
+
+#forge:alloys/ultimate
+- mekanism:alloy_atomic
+
+#forge:chests/electric
+- mekanism:personal_chest
+
+#mekanism:clumps/osmium
+- mekanism:clump_osmium
+
+#appliedenergistics2:dusts/ender
+- appliedenergistics2:ender_dust
+
+#blue_skies:gems/moonstone
+- blue_skies:moonstone
+
+#forge:ores/ornamyte
+- aoa3:ornamyte_ore
+
+#forge:glass/magenta
+- minecraft:magenta_stained_glass
+
+#appliedenergistics2:crystals/quartz
+- #forge:gems/quartz
+- #appliedenergistics2:crystals/certus_quartz
+- appliedenergistics2:charged_certus_quartz_crystal
+
+#blue_skies:ingots/ventium
+- blue_skies:ventium_ingot
+
+#forge:ores/coal
+- minecraft:coal_ore
+- futurepack:ore_coal_m
+- bno:nethercoal_ore
+
+#blue_skies:tools/hoes
+- #blue_skies:tools/wooden_hoes
+- blue_skies:pyrope_hoe
+- blue_skies:diopside_hoe
+- blue_skies:aquite_hoe
+- blue_skies:charoite_hoe
+- blue_skies:horizonite_hoe
+
+#forge:feathers
+- minecraft:feather
+
+#forge:dusts/fluix
+- appliedenergistics2:fluix_dust
+
+#blue_skies:dungeon/nature
+- blue_skies:nature_stone
+- blue_skies:glowing_nature_stone
+
+#forge:nuggets/refined_glowstone
+- mekanism:nugget_refined_glowstone
+
+#tombstone:magic_tablets
+- tombstone:tablet_of_recall
+- tombstone:tablet_of_assistance
+- tombstone:tablet_of_home
+- tombstone:tablet_of_cupidity
+
+#forge:storage_blocks/ornamyte
+- aoa3:ornamyte_block
+
+#futurepack:chips
+- futurepack:chip_logic
+- futurepack:chip_ai
+- futurepack:chip_transport
+- futurepack:chip_navigation
+- futurepack:chip_network
+- futurepack:chip_industrie
+- futurepack:chip_redstone
+- futurepack:chip_support
+- futurepack:chip_tactic
+- futurepack:chip_ultimate
+- futurepack:chip_damage_control
+
+#forge:storage_blocks/varsium
+- aoa3:varsium_block
+
+#forge:string
+- minecraft:string
+- minecraft:string
+
+#minecraft:trapdoors
+- #minecraft:wooden_trapdoors
+- minecraft:iron_trapdoor
+- blue_skies:crystallized_trapdoor
+
+#forge:ingots/gold
+- minecraft:gold_ingot
+
+#forge:blocks/iron
+- minecraft:iron_block
+
+#forge:glass/cyan
+- minecraft:cyan_stained_glass
+
+#forge:leather
+- minecraft:leather
+- minecraft:leather
+
+#bno:nuggets/silver
+- bno:silver_nugget
+
+#bno:nuggets/lead
+- bno:lead_nugget
+
+#forge:dusts/salt
+- mekanism:salt
+
+#forge:glass
+- #forge:glass/colorless
+- #forge:stained_glass
+- #forge:glass/colorless
+
+#minecraft:boats
+- minecraft:oak_boat
+- minecraft:spruce_boat
+- minecraft:birch_boat
+- minecraft:jungle_boat
+- minecraft:acacia_boat
+- minecraft:dark_oak_boat
+
+#forge:nuggets/iron
+- minecraft:iron_nugget
+
+#forge:gems/certus_quartz
+- appliedenergistics2:certus_quartz_crystal
+- appliedenergistics2:charged_certus_quartz_crystal
+
+#forge:ingots/composite_metal
+- futurepack:composite_metal
+
+#forge:tree_leaves
+- #minecraft:leaves
+
+#forge:ores/ghoulish
+- aoa3:ghoulish_ore
+
+#forge:ingots/shyrestone
+- aoa3:shyrestone_ingot
+
+#forge:silicon
+- appliedenergistics2:silicon
+
+#forge:gems/glowtite
+- futurepack:crystal_glowtite
+
+#futurepack:magnet
+- #forge:ingots/magnetite
+- futurepack:magnet_chestplate
+- futurepack:magnet_helmet
+- futurepack:magnet_leggings
+- futurepack:magnet_boots
+
+#rftoolsutility:living/averageyield
+- minecraft:melon
+- minecraft:sugar_cane
+- minecraft:chorus_flower
+- minecraft:pumpkin
+- minecraft:cocoa_beans
+- minecraft:apple
+- minecraft:rabbit_foot
+
+#minecraft:leaves
+- minecraft:jungle_leaves
+- minecraft:oak_leaves
+- minecraft:spruce_leaves
+- minecraft:dark_oak_leaves
+- minecraft:acacia_leaves
+- minecraft:birch_leaves
+- blue_skies:bluebright_leaves
+- blue_skies:starlit_leaves
+- blue_skies:frostbright_leaves
+- blue_skies:lunar_leaves
+- blue_skies:dusk_leaves
+- blue_skies:maple_leaves
+- blue_skies:crystallized_leaves
+- blue_skies:cherry_leaves
+- blue_skies:crescent_fruit_leaves
+- aoa3:achony_leaves
+- aoa3:blood_leaves
+- aoa3:blue_celevus_leaves
+- aoa3:green_celevus_leaves
+- aoa3:purple_celevus_leaves
+- aoa3:red_celevus_leaves
+- aoa3:white_celevus_leaves
+- aoa3:yellow_celevus_leaves
+- aoa3:churry_leaves
+- aoa3:creep_leaves
+- aoa3:dawn_leaves
+- aoa3:haunted_leaves
+- aoa3:haunted_eyes_leaves
+- aoa3:blue_haven_leaves
+- aoa3:pink_haven_leaves
+- aoa3:purple_haven_leaves
+- aoa3:red_haven_leaves
+- aoa3:turquoise_haven_leaves
+- aoa3:yellow_haven_leaves
+- aoa3:irodust_leaves
+- aoa3:irogold_leaves
+- aoa3:lelyetian_leaves
+- aoa3:lucalus_leaves
+- aoa3:lunicia_leaves
+- aoa3:lunosso_leaves
+- aoa3:runic_leaves
+- aoa3:shadow_leaves
+- aoa3:shadowblood_leaves
+- aoa3:shyre_leaves
+- aoa3:bright_shyre_leaves
+- aoa3:stranglewood_leaves
+- aoa3:vein_leaves
+- futurepack:leaves_tyros
+- futurepack:leaves_palirie
+- integrateddynamics:menril_leaves
+
+#blue_skies:tools/pickaxes
+- #blue_skies:tools/wooden_pickaxes
+- blue_skies:pyrope_pickaxe
+- blue_skies:diopside_pickaxe
+- blue_skies:aquite_pickaxe
+- blue_skies:charoite_pickaxe
+- blue_skies:horizonite_pickaxe
+
+#mekanism:crystals/copper
+- mekanism:crystal_copper
+
+#forge:crops/potato
+- minecraft:potato
+- minecraft:potato
+- futurepack:topinambur_potato
+
+#forge:ores/amethyst
+- aoa3:amethyst_ore
+
+#forge:glass_panes/gray
+- minecraft:gray_stained_glass_pane
+
+#minecraft:acacia_logs
+- minecraft:acacia_log
+- minecraft:acacia_wood
+- minecraft:stripped_acacia_log
+- minecraft:stripped_acacia_wood
+
+#forge:rawbeef
+- aoa3:raw_halycon_beef
+
+#forge:storage_blocks/gemenyte
+- aoa3:gemenyte_block
+
+#minecraft:piglin_loved
+- #minecraft:gold_ores
+- minecraft:gold_block
+- minecraft:gilded_blackstone
+- minecraft:light_weighted_pressure_plate
+- minecraft:gold_ingot
+- minecraft:bell
+- minecraft:clock
+- minecraft:golden_carrot
+- minecraft:glistering_melon_slice
+- minecraft:golden_apple
+- minecraft:enchanted_golden_apple
+- minecraft:golden_helmet
+- minecraft:golden_chestplate
+- minecraft:golden_leggings
+- minecraft:golden_boots
+- minecraft:golden_horse_armor
+- minecraft:golden_sword
+- minecraft:golden_pickaxe
+- minecraft:golden_shovel
+- minecraft:golden_axe
+- minecraft:golden_hoe
+- mekanism:block_refined_glowstone
+- mekanism:ingot_refined_glowstone
+
+#appliedenergistics2:smart_dense_cable
+- appliedenergistics2:white_smart_dense_cable
+- appliedenergistics2:orange_smart_dense_cable
+- appliedenergistics2:magenta_smart_dense_cable
+- appliedenergistics2:light_blue_smart_dense_cable
+- appliedenergistics2:yellow_smart_dense_cable
+- appliedenergistics2:lime_smart_dense_cable
+- appliedenergistics2:pink_smart_dense_cable
+- appliedenergistics2:gray_smart_dense_cable
+- appliedenergistics2:light_gray_smart_dense_cable
+- appliedenergistics2:cyan_smart_dense_cable
+- appliedenergistics2:purple_smart_dense_cable
+- appliedenergistics2:blue_smart_dense_cable
+- appliedenergistics2:brown_smart_dense_cable
+- appliedenergistics2:green_smart_dense_cable
+- appliedenergistics2:red_smart_dense_cable
+- appliedenergistics2:black_smart_dense_cable
+- appliedenergistics2:fluix_smart_dense_cable
+
+#forge:tools/wrench
+- mekanism:configurator
+- integrateddynamics:wrench
+- rftoolsbase:smartwrench
+- rftoolsbase:smartwrench_select
+
+#forge:stained_glass_panes
+- blue_skies:crystal_glass_pane
+- blue_skies:midnight_glass_pane
+- minecraft:white_stained_glass_pane
+- minecraft:orange_stained_glass_pane
+- minecraft:magenta_stained_glass_pane
+- minecraft:light_blue_stained_glass_pane
+- minecraft:yellow_stained_glass_pane
+- minecraft:lime_stained_glass_pane
+- minecraft:pink_stained_glass_pane
+- minecraft:gray_stained_glass_pane
+- minecraft:light_gray_stained_glass_pane
+- minecraft:cyan_stained_glass_pane
+- minecraft:purple_stained_glass_pane
+- minecraft:blue_stained_glass_pane
+- minecraft:brown_stained_glass_pane
+- minecraft:green_stained_glass_pane
+- minecraft:red_stained_glass_pane
+- minecraft:black_stained_glass_pane
+
+#forge:nuggets/tin
+- mekanism:nugget_tin
+- bno:tin_nugget
+
+#curios:head
+- curios:crown
+
+#forge:dusts/aluminum
+- futurepack:dust_aluminium
+
+#bno:ingots/silver
+- bno:silver_ingot
+
+#forge:sand/red
+- minecraft:red_sand
+
+#blue_skies:horizonite_tools
+- blue_skies:horizonite_pickaxe
+- blue_skies:horizonite_axe
+- blue_skies:horizonite_shovel
+- blue_skies:horizonite_hoe
+- blue_skies:horizonite_sword
+
+#forge:ores/mystite
+- aoa3:mystite_ore
+
+#forge:glass/brown
+- minecraft:brown_stained_glass
+
+#forge:dusts/gold
+- futurepack:dust_gold
+- mekanism:dust_gold
+- appliedenergistics2:gold_dust
+
+#mekanism:shards/copper
+- mekanism:shard_copper
+
+#forge:ingots/blazium
+- aoa3:blazium_ingot
+
+#minecraft:logs_that_burn
+- #minecraft:dark_oak_logs
+- #minecraft:oak_logs
+- #minecraft:acacia_logs
+- #minecraft:birch_logs
+- #minecraft:jungle_logs
+- #minecraft:spruce_logs
+- blue_skies:bluebright_log
+- blue_skies:bluebright_wood
+- blue_skies:stripped_bluebright_log
+- blue_skies:stripped_bluebright_wood
+- blue_skies:starlit_log
+- blue_skies:starlit_wood
+- blue_skies:stripped_starlit_log
+- blue_skies:stripped_starlit_wood
+- blue_skies:frostbright_log
+- blue_skies:frostbright_wood
+- blue_skies:stripped_frostbright_log
+- blue_skies:stripped_frostbright_wood
+- blue_skies:lunar_log
+- blue_skies:lunar_wood
+- blue_skies:stripped_lunar_log
+- blue_skies:stripped_lunar_wood
+- blue_skies:dusk_log
+- blue_skies:dusk_wood
+- blue_skies:stripped_dusk_log
+- blue_skies:stripped_dusk_wood
+- blue_skies:maple_log
+- blue_skies:maple_wood
+- blue_skies:stripped_maple_log
+- blue_skies:stripped_maple_wood
+- blue_skies:cherry_log
+- blue_skies:cherry_wood
+- blue_skies:stripped_cherry_log
+- blue_skies:stripped_cherry_wood
+- integrateddynamics:menril_log
+- integrateddynamics:menril_log_filled
+
+#forge:dusts/osmium
+- mekanism:dust_osmium
+
+#forge:ores/red_gemstone
+- aoa3:red_gemstone_ore
+
+#forge:ores/rosite
+- aoa3:rosite_ore
+
+#mekanism:alloys
+- #mekanism:alloys/basic
+- #mekanism:alloys/infused
+- #mekanism:alloys/reinforced
+- #mekanism:alloys/atomic
+
+#forge:glass/gray
+- minecraft:gray_stained_glass
+
+#forge:glass/light_gray
+- minecraft:light_gray_stained_glass
+
+#forge:dyes/light_blue
+- minecraft:light_blue_dye
+
+#forge:cookedpork
+- aoa3:cooked_chimera_chop
+- aoa3:cooked_furlion_chop
+
+#minecraft:wooden_slabs
+- minecraft:oak_slab
+- minecraft:spruce_slab
+- minecraft:birch_slab
+- minecraft:jungle_slab
+- minecraft:acacia_slab
+- minecraft:dark_oak_slab
+- minecraft:crimson_slab
+- minecraft:warped_slab
+- blue_skies:bluebright_slab
+- blue_skies:starlit_slab
+- blue_skies:frostbright_slab
+- blue_skies:lunar_slab
+- blue_skies:dusk_slab
+- blue_skies:maple_slab
+- blue_skies:cherry_slab
+- aoa3:achony_slab
+- aoa3:bloodwood_slab
+- aoa3:churry_slab
+- aoa3:creep_slab
+- aoa3:dawnwood_slab
+- aoa3:hauntedwood_slab
+- aoa3:irowood_slab
+- aoa3:lucalus_slab
+- aoa3:lunide_slab
+- aoa3:runic_slab
+- aoa3:shadow_slab
+- aoa3:shyre_slab
+- aoa3:stranglewood_slab
+- aoa3:toxicwood_slab
+- futurepack:planks_mushroom_slab
+- futurepack:planks_tyros_slab
+- futurepack:planks_palirie_slab
+- integrateddynamics:menril_slab
+
+#astralsorcery:stardust
+- astralsorcery:stardust
+
+#forge:dyes/white
+- minecraft:white_dye
+
+#aoa3:infusion_stone
+- aoa3:ambient_infusion_stone
+- aoa3:blooming_infusion_stone
+- aoa3:glaring_infusion_stone
+- aoa3:gleaming_infusion_stone
+- aoa3:glistening_infusion_stone
+- aoa3:glowing_infusion_stone
+- aoa3:radiant_infusion_stone
+- aoa3:shining_infusion_stone
+
+#appliedenergistics2:fluid_interface
+- appliedenergistics2:cable_fluid_interface
+- appliedenergistics2:fluid_interface
+
+#minecraft:small_flowers
+- minecraft:dandelion
+- minecraft:poppy
+- minecraft:blue_orchid
+- minecraft:allium
+- minecraft:azure_bluet
+- minecraft:red_tulip
+- minecraft:orange_tulip
+- minecraft:white_tulip
+- minecraft:pink_tulip
+- minecraft:oxeye_daisy
+- minecraft:cornflower
+- minecraft:lily_of_the_valley
+- minecraft:wither_rose
+- blue_skies:camellia
+- blue_skies:snowbloom
+- blue_skies:blush_blossom
+- blue_skies:polar_posy
+- blue_skies:chillweed
+- blue_skies:brittlebush
+- blue_skies:briskbloom
+- blue_skies:frose
+- blue_skies:midday_bayhop
+- blue_skies:moonlit_bloom
+- blue_skies:crystal_flower
+- blue_skies:blaze_bud
+- blue_skies:flare_floret
+- blue_skies:nightcress
+- blue_skies:muckweed
+- blue_skies:lucentroot
+
+#blue_skies:logs/lunar
+- blue_skies:lunar_log
+- blue_skies:lunar_wood
+- blue_skies:stripped_lunar_log
+- blue_skies:stripped_lunar_wood
+
+#bno:ingots/uranium
+- bno:uranium_ingot
+
+#forge:storage_blocks/refined_obsidian
+- mekanism:block_refined_obsidian
+
+#appliedenergistics2:crystals/certus_quartz
+- appliedenergistics2:certus_quartz_crystal
+
+#forge:seeds/pumpkin
+- minecraft:pumpkin_seeds
+
+#forge:ores/osmium
+- mekanism:osmium_ore
+- bno:netherosmium_ore
+
+#forge:circuits/advanced
+- mekanism:advanced_control_circuit
+
+#forge:storage_blocks/limonite
+- aoa3:limonite_block
+
+#forge:glass_panes/black
+- minecraft:black_stained_glass_pane
+
+#forge:blocks/bioterium
+- futurepack:block_compressed_bioterium
+
+#forge:dusts/redstone
+- minecraft:redstone
+
+#forge:dyes/pink
+- minecraft:pink_dye
+
+#mekanism:crystals/gold
+- mekanism:crystal_gold
+
+#forge:gems/quartz
+- minecraft:quartz
+
+#forge:currency
+- aoa3:circus_coin
+- aoa3:copper_coin
+- aoa3:gold_coin
+- aoa3:lunaver_coin
+- aoa3:silver_coin
+
+#forge:ingots/rare_earth
+- futurepack:ingot_rare_earth
+
+#forge:crops/beetroot
+- minecraft:beetroot
+- minecraft:beetroot
+
+#forge:rawchicken
+- aoa3:raw_charger_shank
+
+#forge:glass_panes/blue
+- minecraft:blue_stained_glass_pane
+
+#forge:seeds/melon
+- minecraft:melon_seeds
+
+#forge:ingots/refined_glowstone
+- mekanism:ingot_refined_glowstone
+
+#forge:crops/wheat
+- minecraft:wheat
+- minecraft:wheat
+
+#minecraft:creeper_drop_music_discs
+- minecraft:music_disc_13
+- minecraft:music_disc_cat
+- minecraft:music_disc_blocks
+- minecraft:music_disc_chirp
+- minecraft:music_disc_far
+- minecraft:music_disc_mall
+- minecraft:music_disc_mellohi
+- minecraft:music_disc_stal
+- minecraft:music_disc_strad
+- minecraft:music_disc_ward
+- minecraft:music_disc_11
+- minecraft:music_disc_wait
+
+#minecraft:stone_slabs
+- minecraft:stone_slab
+- minecraft:smooth_stone_slab
+- minecraft:stone_brick_slab
+- minecraft:sandstone_slab
+- minecraft:spruce_slab
+- minecraft:purpur_slab
+- minecraft:quartz_slab
+- minecraft:red_sandstone_slab
+- minecraft:brick_slab
+- minecraft:cobblestone_slab
+- minecraft:nether_brick_slab
+- minecraft:prismarine_slab
+- minecraft:prismarine_brick_slab
+- minecraft:polished_granite_slab
+- minecraft:mossy_stone_brick_slab
+- minecraft:polished_diorite_slab
+- minecraft:mossy_cobblestone_slab
+- minecraft:end_stone_brick_slab
+- minecraft:smooth_sandstone_slab
+- minecraft:smooth_quartz_slab
+- minecraft:granite_slab
+- minecraft:andesite_slab
+- minecraft:red_nether_brick_slab
+- minecraft:polished_andesite_slab
+- minecraft:diorite_slab
+- minecraft:cut_sandstone_slab
+- minecraft:cut_red_sandstone_slab
+- futurepack:cobblestone_m_slab
+- futurepack:stone_m_slab
+- futurepack:stonebrick_m_slab
+- minecraft:stone_slab
+- minecraft:smooth_stone_slab
+- minecraft:stone_brick_slab
+- minecraft:sandstone_slab
+- minecraft:spruce_slab
+- minecraft:purpur_slab
+- minecraft:quartz_slab
+- minecraft:red_sandstone_slab
+- minecraft:brick_slab
+- minecraft:cobblestone_slab
+- minecraft:nether_brick_slab
+- minecraft:prismarine_slab
+- minecraft:prismarine_brick_slab
+- minecraft:polished_granite_slab
+- minecraft:mossy_stone_brick_slab
+- minecraft:polished_diorite_slab
+- minecraft:mossy_cobblestone_slab
+- minecraft:end_stone_brick_slab
+- minecraft:smooth_sandstone_slab
+- minecraft:smooth_quartz_slab
+- minecraft:granite_slab
+- minecraft:andesite_slab
+- minecraft:red_nether_brick_slab
+- minecraft:polished_andesite_slab
+- minecraft:diorite_slab
+- minecraft:cut_sandstone_slab
+- minecraft:cut_red_sandstone_slab
+- futurepack:cobblestone_m_slab
+- futurepack:stone_m_slab
+- futurepack:stonebrick_m_slab
+
+#forge:ores/gemenyte
+- aoa3:gemenyte_ore
+
+#forge:nuggets/varsium
+- aoa3:varsium_nugget
+
+#mekanism:dirty_dusts/tin
+- mekanism:dirty_dust_tin
+
+#forge:stone
+- #blue_skies:stone
+- minecraft:andesite
+- minecraft:diorite
+- minecraft:granite
+- minecraft:infested_stone
+- minecraft:stone
+- minecraft:polished_andesite
+- minecraft:polished_diorite
+- minecraft:polished_granite
+- futurepack:stone_m
+- futurepack:stone_frozen
+
+#blue_skies:logs/crystallized
+- blue_skies:crystallized_log
+- blue_skies:crystallized_wood
+
+#forge:wrenches
+- mekanism:configurator
+
+#forge:nuggets/lead
+- mekanism:nugget_lead
+- bno:lead_nugget
+
+#forge:nuggets/ghoulish
+- aoa3:ghoulish_nugget
+
+#mekanism:dirty_dusts/gold
+- mekanism:dirty_dust_gold
+
+#forge:glass_panes/yellow
+- minecraft:yellow_stained_glass_pane
+
+#forge:cookedchicken
+- aoa3:cooked_charger_shank
+
+#blue_skies:ores/falsite
+- blue_skies:falsite_ore
+
+#blue_skies:ores/moonstone
+- blue_skies:everbright_moonstone_ore
+- blue_skies:everdawn_moonstone_ore
+
+#forge:gems/lapis
+- minecraft:lapis_lazuli
+
+#forge:gunpowder
+- minecraft:gunpowder
+- minecraft:gunpowder
+
+#forge:gems/aluminum
+- futurepack:crystal_alutin
+
+#mekanism:shards/lead
+- mekanism:shard_lead
+
+#appliedenergistics2:glass_cable
+- appliedenergistics2:white_glass_cable
+- appliedenergistics2:orange_glass_cable
+- appliedenergistics2:magenta_glass_cable
+- appliedenergistics2:light_blue_glass_cable
+- appliedenergistics2:yellow_glass_cable
+- appliedenergistics2:lime_glass_cable
+- appliedenergistics2:pink_glass_cable
+- appliedenergistics2:gray_glass_cable
+- appliedenergistics2:light_gray_glass_cable
+- appliedenergistics2:cyan_glass_cable
+- appliedenergistics2:purple_glass_cable
+- appliedenergistics2:blue_glass_cable
+- appliedenergistics2:brown_glass_cable
+- appliedenergistics2:green_glass_cable
+- appliedenergistics2:red_glass_cable
+- appliedenergistics2:black_glass_cable
+- appliedenergistics2:fluix_glass_cable
+
+#forge:ores/bloodstone
+- aoa3:bloodstone_ore
+
+#rftoolsutility:living/lowyield
+- #minecraft:leaves
+- #minecraft:saplings
+- #minecraft:flowers
+- #forge:mushrooms
+- #forge:seeds
+- minecraft:cactus
+- minecraft:vine
+- minecraft:lily_pad
+- minecraft:rabbit_hide
+
+#forge:ingots/nickel
+- bno:nickel_ingot
+
+#appliedenergistics2:dusts/certus_quartz
+- appliedenergistics2:certus_quartz_dust
+
+#blue_skies:storage_blocks/moonstone
+- blue_skies:moonstone_block
+
+#futurepack:crystals
+- futurepack:crystal_neon
+- futurepack:crystal_alutin
+- futurepack:crystal_retium
+- futurepack:crystal_glowtite
+- futurepack:crystal_bioterium
+
+#forge:ores/blazium
+- aoa3:blazium_ore
+
+#forge:ingots/mystite
+- aoa3:mystite_ingot
+
+#forge:crops
+- blue_skies:pine_fruit
+- blue_skies:winter_leaves
+- blue_skies:cryo_root
+- blue_skies:scalefruit
+- blue_skies:fiery_beans
+- blue_skies:solnut
+- #forge:crops/beetroot
+- #forge:crops/carrot
+- #forge:crops/nether_wart
+- #forge:crops/potato
+- #forge:crops/wheat
+- aoa3:eye_bulb
+- aoa3:tea_shreddings
+- aoa3:thorny_petals
+- aoa3:bubble_berries
+- aoa3:chilli
+- aoa3:floracle_sticks
+- aoa3:goldicap_petals
+- aoa3:heart_fruit
+- aoa3:lunacrike
+- aoa3:luna_globe
+- aoa3:lunalons
+- aoa3:magic_marang
+- aoa3:mystic_shrooms
+- aoa3:rosidons
+- aoa3:trilliad_leaves
+
+#blue_skies:logs/cherry
+- blue_skies:cherry_log
+- blue_skies:cherry_wood
+- blue_skies:stripped_cherry_log
+- blue_skies:stripped_cherry_wood
+
+#forge:ingots/retium
+- futurepack:ingot_retium
+
+#aoa3:rune
+- aoa3:unpowered_rune
+- aoa3:charged_rune
+- aoa3:compass_rune
+- aoa3:distortion_rune
+- aoa3:energy_rune
+- aoa3:fire_rune
+- aoa3:kinetic_rune
+- aoa3:life_rune
+- aoa3:lunar_rune
+- aoa3:poison_rune
+- aoa3:power_rune
+- aoa3:storm_rune
+- aoa3:strike_rune
+- aoa3:water_rune
+- aoa3:wind_rune
+- aoa3:wither_rune
+
+#forge:mints
+- aoa3:peppermint_candy
+- aoa3:spearmint_candy
+
+#forge:cookedbeef
+- aoa3:cooked_halycon_beef
+
+#forge:pellets/polonium
+- mekanism:pellet_polonium
+
+#mekanism:dirty_dusts/copper
+- mekanism:dirty_dust_copper
+
+#appliedenergistics2:illuminated_panel
+- appliedenergistics2:monitor
+- appliedenergistics2:semi_dark_monitor
+- appliedenergistics2:dark_monitor
+
+#mekanism:enriched/gold
+- mekanism:enriched_gold
+
+#blue_skies:tools/wooden_pickaxes
+- blue_skies:bluebright_pickaxe
+- blue_skies:starlit_pickaxe
+- blue_skies:frostbright_pickaxe
+- blue_skies:lunar_pickaxe
+- blue_skies:dusk_pickaxe
+- blue_skies:maple_pickaxe
+- blue_skies:cherry_pickaxe
+
+#forge:ores/silver
+- bno:nethersilver_ore
+
+#minecraft:birch_logs
+- minecraft:birch_log
+- minecraft:birch_wood
+- minecraft:stripped_birch_log
+- minecraft:stripped_birch_wood
+
+#forge:storage_blocks/lunar
+- aoa3:lunar_block
+
+#forge:alloys/elite
+- mekanism:alloy_reinforced
+
+#mekanism:clumps/lead
+- mekanism:clump_lead
+
+#appliedenergistics2:silicon
+- appliedenergistics2:silicon
+
+#bno:ores/copper
+- bno:nethercopper_ore
+
+#blue_skies:storage_blocks/horizonite
+- blue_skies:horizonite_block
+
+#forge:glass_panes/purple
+- minecraft:purple_stained_glass_pane
+
+#forge:dusts
+- #forge:dusts/glowstone
+- #forge:dusts/prismarine
+- #forge:dusts/redstone
+- #forge:dusts/aluminium
+- #forge:dusts/bioterium
+- #forge:dusts/copper
+- #forge:dusts/glowtite
+- #forge:dusts/gold
+- #forge:dusts/iron
+- #forge:dusts/magnet
+- #forge:dusts/neon
+- #forge:dusts/obsidian
+- #forge:dusts/quantanium
+- #forge:dusts/retium
+- #forge:dusts/tin
+- #forge:dusts/wakurium
+- #forge:dusts/zinc
+- mekanism:dust_iron
+- mekanism:dust_gold
+- mekanism:dust_osmium
+- mekanism:dust_copper
+- mekanism:dust_tin
+- mekanism:dust_lead
+- mekanism:dust_uranium
+- #forge:dusts/bronze
+- #forge:dusts/charcoal
+- #forge:dusts/coal
+- #forge:dusts/diamond
+- #forge:dusts/emerald
+- #forge:dusts/netherite
+- #forge:dusts/lapis
+- #forge:dusts/lithium
+- #forge:dusts/obsidian
+- #forge:dusts/quartz
+- #forge:dusts/refined_obsidian
+- #forge:dusts/salt
+- #forge:dusts/steel
+- #forge:dusts/sulfur
+- #forge:dusts/wood
+- #forge:dusts/fluorite
+
+#forge:alloys/advanced
+- mekanism:alloy_infused
+
+#forge:glass/yellow
+- minecraft:yellow_stained_glass
+
+#blue_skies:gems/charoite
+- blue_skies:charoite
+
+#blue_skies:crafting_tables
+- blue_skies:bluebright_crafting_table
+- blue_skies:starlit_crafting_table
+- blue_skies:frostbright_crafting_table
+- blue_skies:lunar_crafting_table
+- blue_skies:dusk_crafting_table
+- blue_skies:maple_crafting_table
+- blue_skies:cherry_crafting_table
+
+#forge:ores/green_gemstone
+- aoa3:green_gemstone_ore
+
+#forge:seeds
+- blue_skies:pine_fruit_seeds
+- blue_skies:winter_leaf_seeds
+- blue_skies:scalefruit_seeds
+- blue_skies:fiery_bean_seeds
+- #forge:seeds/beetroot
+- #forge:seeds/melon
+- #forge:seeds/pumpkin
+- #forge:seeds/wheat
+- aoa3:bubble_berry_seeds
+- aoa3:chilli_seeds
+- aoa3:floracle_seeds
+- aoa3:goldicap_seeds
+- aoa3:heart_fruit_seeds
+- aoa3:lunacrike_seeds
+- aoa3:luna_globe_seeds
+- aoa3:lunalon_seeds
+- aoa3:magic_marang_seeds
+- aoa3:rosidon_seeds
+- aoa3:tea_seeds
+- aoa3:thorny_plant_seeds
+- aoa3:trilliad_seeds
+
+#blue_skies:bookshelves
+- blue_skies:bluebright_bookshelf
+- blue_skies:starlit_bookshelf
+- blue_skies:frostbright_bookshelf
+- blue_skies:lunar_bookshelf
+- blue_skies:dusk_bookshelf
+- blue_skies:maple_bookshelf
+- blue_skies:cherry_bookshelf
+
+#forge:ores/ghastly
+- aoa3:ghastly_ore
+
+#forge:rawmeats
+- aoa3:raw_candlefish
+- aoa3:raw_crimson_skipper
+- aoa3:raw_crimson_stripefish
+- aoa3:raw_dark_hatchetfish
+- aoa3:raw_fingerfish
+- aoa3:raw_golden_gullfish
+- aoa3:raw_ironback
+- aoa3:raw_limefish
+- aoa3:raw_pearl_stripefish
+- aoa3:raw_rainbowfish
+- aoa3:raw_razorfish
+- aoa3:raw_rocketfish
+- aoa3:raw_sailback
+- aoa3:raw_sapphire_strider
+- aoa3:raw_turquoise_stripefish
+- aoa3:raw_violet_skipper
+- aoa3:raw_charger_shank
+- aoa3:raw_chimera_chop
+- aoa3:raw_furlion_chop
+- aoa3:raw_halycon_beef
+
+#minecraft:oak_logs
+- minecraft:oak_log
+- minecraft:oak_wood
+- minecraft:stripped_oak_log
+- minecraft:stripped_oak_wood
+
+#blue_skies:tools/swords
+- #blue_skies:tools/wooden_swords
+- blue_skies:turquoise_stone_sword
+- blue_skies:lunar_stone_sword
+- blue_skies:pyrope_sword
+- blue_skies:diopside_sword
+- blue_skies:aquite_sword
+- blue_skies:charoite_sword
+- blue_skies:horizonite_sword
+- blue_skies:infused_arc_sword
+- blue_skies:different_sword
+
+#forge:dusts/quantanium
+- futurepack:dust_quantanium
+
+#mekanism:crystals/osmium
+- mekanism:crystal_osmium
+
+#forge:ores/inferium
+- mysticalagriculture:inferium_ore
+
+#blue_skies:dungeon/life
+- blue_skies:life_stone
+- blue_skies:glowing_life_stone
+
+#blue_skies:ores/ventium
+- blue_skies:ventium_ore
+
+#forge:ores/jewelyte
+- aoa3:jewelyte_ore
+
+#forge:ores/lapis
+- minecraft:lapis_ore
+- bno:netherlapis_ore
+
+#blue_skies:dungeon/illager_teleportable
+- blue_skies:turquoise_stonebrick
+- blue_skies:mossy_turquoise_stonebrick
+- blue_skies:cracked_turquoise_stonebrick
+- blue_skies:lunar_stonebrick
+- blue_skies:mossy_lunar_stonebrick
+- blue_skies:cracked_lunar_stonebrick
+
+#forge:dusts/wakurium
+- futurepack:dust_wakurium
+
+#appliedenergistics2:dusts/fluix
+- appliedenergistics2:fluix_dust
+
+#forge:slimeballs
+- minecraft:slime_ball
+- aoa3:sticky_slime
+- minecraft:slime_ball
+
+#forge:ingots/ghastly
+- aoa3:ghastly_ingot
+
+#forge:dirt
+- aoa3:aromatic_dirt
+- aoa3:blackened_soil
+- aoa3:candied_dirt
+- aoa3:celevian_dirt
+- aoa3:coral_soil
+- aoa3:creep_dirt
+- aoa3:fungal_dirt
+- aoa3:greckon_dirt
+- aoa3:lunasole_dirt
+- aoa3:lunalyte_dirt
+- aoa3:polluted_soil
+- aoa3:weightless_dirt
+- minecraft:dirt
+- minecraft:coarse_dirt
+- minecraft:dirt
+- futurepack:dirt_m
+
+#appliedenergistics2:interface
+- appliedenergistics2:cable_interface
+- appliedenergistics2:interface
+
+#astralsorcery:colored_lens
+- astralsorcery:colored_lens_break
+- astralsorcery:colored_lens_damage
+- astralsorcery:colored_lens_fire
+- astralsorcery:colored_lens_growth
+- astralsorcery:colored_lens_push
+- astralsorcery:colored_lens_regeneration
+- astralsorcery:colored_lens_spectral
+
+#forge:ores/nickel
+- bno:nethernickel_ore
+
+#forge:gems/aquamarine
+- astralsorcery:aquamarine
+
+#futurepack:scanner
+- futurepack:scanner_block_white
+- futurepack:scanner_block_gray
+- futurepack:scanner_block_black
+
+#minecraft:jungle_logs
+- minecraft:jungle_log
+- minecraft:jungle_wood
+- minecraft:stripped_jungle_log
+- minecraft:stripped_jungle_wood
+
+#forge:sawdust
+- #forge:dusts/wood
+
+#minecraft:lectern_books
+- minecraft:written_book
+- minecraft:writable_book
+- astralsorcery:tome
+
+#forge:chests/ender
+- minecraft:ender_chest
+
+#mysticalagriculture:essences
+- mysticalagriculture:air_essence
+- mysticalagriculture:earth_essence
+- mysticalagriculture:water_essence
+- mysticalagriculture:fire_essence
+- mysticalagriculture:inferium_essence
+- mysticalagriculture:stone_essence
+- mysticalagriculture:dirt_essence
+- mysticalagriculture:wood_essence
+- mysticalagriculture:ice_essence
+- mysticalagriculture:nature_essence
+- mysticalagriculture:dye_essence
+- mysticalagriculture:nether_essence
+- mysticalagriculture:coal_essence
+- mysticalagriculture:coral_essence
+- mysticalagriculture:honey_essence
+- mysticalagriculture:pig_essence
+- mysticalagriculture:chicken_essence
+- mysticalagriculture:cow_essence
+- mysticalagriculture:sheep_essence
+- mysticalagriculture:squid_essence
+- mysticalagriculture:fish_essence
+- mysticalagriculture:slime_essence
+- mysticalagriculture:turtle_essence
+- mysticalagriculture:rubber_essence
+- mysticalagriculture:silicon_essence
+- mysticalagriculture:sulfur_essence
+- mysticalagriculture:aluminum_essence
+- mysticalagriculture:copper_essence
+- mysticalagriculture:saltpeter_essence
+- mysticalagriculture:apatite_essence
+- mysticalagriculture:mystical_flower_essence
+- mysticalagriculture:marble_essence
+- mysticalagriculture:limestone_essence
+- mysticalagriculture:basalt_essence
+- mysticalagriculture:iron_essence
+- mysticalagriculture:nether_quartz_essence
+- mysticalagriculture:glowstone_essence
+- mysticalagriculture:redstone_essence
+- mysticalagriculture:obsidian_essence
+- mysticalagriculture:prismarine_essence
+- mysticalagriculture:zombie_essence
+- mysticalagriculture:skeleton_essence
+- mysticalagriculture:creeper_essence
+- mysticalagriculture:spider_essence
+- mysticalagriculture:rabbit_essence
+- mysticalagriculture:tin_essence
+- mysticalagriculture:bronze_essence
+- mysticalagriculture:zinc_essence
+- mysticalagriculture:brass_essence
+- mysticalagriculture:silver_essence
+- mysticalagriculture:lead_essence
+- mysticalagriculture:graphite_essence
+- mysticalagriculture:blizz_essence
+- mysticalagriculture:blitz_essence
+- mysticalagriculture:basalz_essence
+- mysticalagriculture:tinkers_bronze_essence
+- mysticalagriculture:slimesteel_essence
+- mysticalagriculture:pig_iron_essence
+- mysticalagriculture:manasteel_essence
+- mysticalagriculture:steeleaf_essence
+- mysticalagriculture:ironwood_essence
+- mysticalagriculture:ender_biotite_essence
+- mysticalagriculture:aquamarine_essence
+- mysticalagriculture:sky_stone_essence
+- mysticalagriculture:certus_quartz_essence
+- mysticalagriculture:quartz_enriched_iron_essence
+- mysticalagriculture:gold_essence
+- mysticalagriculture:lapis_lazuli_essence
+- mysticalagriculture:end_essence
+- mysticalagriculture:experience_essence
+- mysticalagriculture:blaze_essence
+- mysticalagriculture:ghast_essence
+- mysticalagriculture:enderman_essence
+- mysticalagriculture:steel_essence
+- mysticalagriculture:nickel_essence
+- mysticalagriculture:constantan_essence
+- mysticalagriculture:electrum_essence
+- mysticalagriculture:invar_essence
+- mysticalagriculture:mithril_essence
+- mysticalagriculture:tungsten_essence
+- mysticalagriculture:titanium_essence
+- mysticalagriculture:uranium_essence
+- mysticalagriculture:chrome_essence
+- mysticalagriculture:ruby_essence
+- mysticalagriculture:sapphire_essence
+- mysticalagriculture:signalum_essence
+- mysticalagriculture:lumium_essence
+- mysticalagriculture:hop_graphite_essence
+- mysticalagriculture:cobalt_essence
+- mysticalagriculture:rose_gold_essence
+- mysticalagriculture:elementium_essence
+- mysticalagriculture:osmium_essence
+- mysticalagriculture:fluorite_essence
+- mysticalagriculture:refined_glowstone_essence
+- mysticalagriculture:refined_obsidian_essence
+- mysticalagriculture:knightmetal_essence
+- mysticalagriculture:fiery_ingot_essence
+- mysticalagriculture:starmetal_essence
+- mysticalagriculture:compressed_iron_essence
+- mysticalagriculture:fluix_essence
+- mysticalagriculture:energized_steel_essence
+- mysticalagriculture:blazing_crystal_essence
+- mysticalagriculture:diamond_essence
+- mysticalagriculture:emerald_essence
+- mysticalagriculture:netherite_essence
+- mysticalagriculture:wither_skeleton_essence
+- mysticalagriculture:platinum_essence
+- mysticalagriculture:iridium_essence
+- mysticalagriculture:enderium_essence
+- mysticalagriculture:manyullyn_essence
+- mysticalagriculture:queens_slime_essence
+- mysticalagriculture:hepatizon_essence
+- mysticalagriculture:terrasteel_essence
+- mysticalagriculture:rock_crystal_essence
+- mysticalagriculture:draconium_essence
+- mysticalagriculture:yellorium_essence
+- mysticalagriculture:cyanite_essence
+- mysticalagriculture:niotic_crystal_essence
+- mysticalagriculture:spirited_crystal_essence
+- mysticalagriculture:uraninite_essence
+
+#minecraft:spruce_logs
+- minecraft:spruce_log
+- minecraft:spruce_wood
+- minecraft:stripped_spruce_log
+- minecraft:stripped_spruce_wood
+
+#blue_skies:tools/axes
+- #blue_skies:tools/wooden_axes
+- blue_skies:pyrope_axe
+- blue_skies:diopside_axe
+- blue_skies:aquite_axe
+- blue_skies:charoite_axe
+- blue_skies:horizonite_axe
+
+#mekanism:dirty_dusts/iron
+- mekanism:dirty_dust_iron
+
+#forge:storage_blocks/elecanium
+- aoa3:elecanium_block
+
+#forge:workbenchs
+- minecraft:crafting_table
+
+#forge:ingots/silicon
+- futurepack:ingot_silicon
+
+#forge:fence_gates/wooden
+- minecraft:oak_fence_gate
+- minecraft:spruce_fence_gate
+- minecraft:birch_fence_gate
+- minecraft:jungle_fence_gate
+- minecraft:acacia_fence_gate
+- minecraft:dark_oak_fence_gate
+- minecraft:crimson_fence_gate
+- minecraft:warped_fence_gate
+- aoa3:achony_fence_gate
+- aoa3:bloodwood_fence_gate
+- aoa3:churry_fence_gate
+- aoa3:creep_fence_gate
+- aoa3:dawnwood_fence_gate
+- aoa3:hauntedwood_fence_gate
+- aoa3:irowood_fence_gate
+- aoa3:lucalus_fence_gate
+- aoa3:lunide_fence_gate
+- aoa3:runic_fence_gate
+- aoa3:shadow_fence_gate
+- aoa3:shyre_fence_gate
+- aoa3:stranglewood_fence_gate
+- aoa3:toxicwood_fence_gate
+
+#forge:ores/aluminum
+- bno:netheraluminum_ore
+
+#appliedenergistics2:nether_quartz_dust
+- appliedenergistics2:nether_quartz_dust
+
+#forge:ores/uranium
+- mekanism:uranium_ore
+- bno:netheruranium_ore
+
+#forge:glass_panes/lime
+- minecraft:lime_stained_glass_pane
+
+#forge:gems/jewelyte
+- aoa3:jewelyte
+
+#forge:shears
+- minecraft:shears
+
+#forge:ores/emberstone
+- aoa3:emberstone_ore
+
+#blue_skies:ingots/falsite
+- blue_skies:falsite_ingot
+
+#forge:storage_blocks/jade
+- aoa3:jade_block
+
+#forge:torches
+- integrateddynamics:menril_torch
+- integrateddynamics:menril_torch_stone
+
+#forge:nuggets/steel
+- mekanism:nugget_steel
+
+#mekanism:clumps
+- mekanism:clump_iron
+- mekanism:clump_gold
+- mekanism:clump_osmium
+- mekanism:clump_copper
+- mekanism:clump_tin
+- mekanism:clump_lead
+- mekanism:clump_uranium
+
+#forge:gems/neon
+- futurepack:crystal_neon
+
+#forge:ingots/lead
+- mekanism:ingot_lead
+- bno:lead_ingot
+
+#forge:ores/footbone_fragments
+- aoa3:footbone_fragments_ore
+
+#forge:blocks/aluminium
+- futurepack:block_compressed_aluminium
+
+#forge:fruit
+- aoa3:bubble_berries
+- aoa3:heart_fruit
+- aoa3:luna_globe
+- aoa3:magic_marang
+- aoa3:nature_melon_slice
+
+#forge:storage_blocks/crystallite
+- aoa3:crystallite_block
+
+#forge:nuggets/emberstone
+- aoa3:emberstone_nugget
+
+#minecraft:flowers
+- #minecraft:small_flowers
+- #minecraft:tall_flowers
+
+#blue_skies:ladders
+- blue_skies:bluebright_ladder
+- blue_skies:starlit_ladder
+- blue_skies:frostbright_ladder
+- blue_skies:lunar_ladder
+- blue_skies:dusk_ladder
+- blue_skies:maple_ladder
+- blue_skies:cherry_ladder
+
+#forge:dusts/quartz
+- mekanism:dust_quartz
+- appliedenergistics2:nether_quartz_dust
+
+#minecraft:planks
+- minecraft:oak_planks
+- minecraft:spruce_planks
+- minecraft:birch_planks
+- minecraft:jungle_planks
+- minecraft:acacia_planks
+- minecraft:dark_oak_planks
+- minecraft:crimson_planks
+- minecraft:warped_planks
+- blue_skies:bluebright_planks
+- blue_skies:starlit_planks
+- blue_skies:frostbright_planks
+- blue_skies:lunar_planks
+- blue_skies:dusk_planks
+- blue_skies:maple_planks
+- blue_skies:cherry_planks
+- aoa3:achony_planks
+- aoa3:bloodwood_planks
+- aoa3:churry_planks
+- aoa3:creep_planks
+- aoa3:dawnwood_planks
+- aoa3:hauntedwood_planks
+- aoa3:irowood_planks
+- aoa3:lucalus_planks
+- aoa3:lunide_planks
+- aoa3:runic_planks
+- aoa3:shadow_planks
+- aoa3:shyre_planks
+- aoa3:stranglewood_planks
+- aoa3:toxicwood_planks
+- futurepack:planks_mushroom
+- futurepack:planks_tyros
+- futurepack:planks_palirie
+- integrateddynamics:menril_planks
+
+#forge:dusts/tin
+- futurepack:dust_tin
+- mekanism:dust_tin
+
+#forge:cobblestone
+- #blue_skies:cobblestone
+- minecraft:cobblestone
+- minecraft:infested_cobblestone
+- minecraft:mossy_cobblestone
+- aoa3:abyssal_stone
+- aoa3:aromatic_stone
+- aoa3:baron_stone
+- aoa3:bright_rock
+- aoa3:coral_rock
+- aoa3:creep_stone
+- aoa3:crystallised_rock
+- aoa3:darkened_rock
+- aoa3:dense_stone
+- aoa3:fungal_rock
+- aoa3:greckon_stone
+- aoa3:hellstone
+- aoa3:irostone
+- aoa3:lelyetian_stone
+- aoa3:polluted_stone
+- aoa3:precasian_lower_rock
+- aoa3:precasian_surface_rock
+- aoa3:pressed_creep_stone
+- aoa3:primed_stone
+- aoa3:runic_stone
+- aoa3:weightless_stone
+- minecraft:cobblestone
+- minecraft:infested_cobblestone
+- minecraft:mossy_cobblestone
+- futurepack:cobblestone_m
+- futurepack:cobblestone_frozen
+
+#forge:nuggets/shyrestone
+- aoa3:shyrestone_nugget
+
+#forge:ingots/gadolinium
+- futurepack:ingot_gadolinium
+
+#bno:ingots/aluminum
+- bno:aluminum_ingot
+
+#blue_skies:arcs
+- blue_skies:ethereal_arc
+- blue_skies:dusk_arc
+- blue_skies:nature_arc
+- blue_skies:poison_arc
+- blue_skies:aquatic_arc
+- blue_skies:life_arc
+- blue_skies:runic_arc
+
+#futurepack:researcher
+- futurepack:researcher_white
+- futurepack:researcher_gray
+- futurepack:researcher_black
+
+#forge:gems/amethyst
+- aoa3:amethyst
+
+#forge:dusts/sulfur
+- mekanism:dust_sulfur
+
+#forge:dyes/brown
+- minecraft:brown_dye
+
+#forge:storage_blocks/rosite
+- aoa3:rosite_block
+
+#forge:storage_blocks/gold
+- minecraft:gold_block
+
+#forge:storage_blocks/baronyte
+- aoa3:baronyte_block
+
+#forge:ores
+- #blue_skies:ores/moonstone
+- #blue_skies:ores/pyrope
+- #blue_skies:ores/diopside
+- #blue_skies:ores/aquite
+- #blue_skies:ores/charoite
+- #blue_skies:ores/horizonite
+- #blue_skies:ores/falsite
+- #blue_skies:ores/ventium
+- #forge:ores/coal
+- #forge:ores/diamond
+- #forge:ores/emerald
+- #forge:ores/gold
+- #forge:ores/iron
+- #forge:ores/lapis
+- #forge:ores/redstone
+- #forge:ores/quartz
+- #forge:ores/netherite_scrap
+- aoa3:amethyst_ore
+- aoa3:baronyte_ore
+- aoa3:blazium_ore
+- aoa3:bloodstone_ore
+- aoa3:blue_gemstone_ore
+- aoa3:charged_runium_ore
+- aoa3:chestbone_fragments_ore
+- aoa3:crystallite_ore
+- aoa3:elecanium_ore
+- aoa3:emberstone_ore
+- aoa3:footbone_fragments_ore
+- aoa3:gemenyte_ore
+- aoa3:ghastly_ore
+- aoa3:ghoulish_ore
+- aoa3:green_gemstone_ore
+- aoa3:jade_ore
+- aoa3:jewelyte_ore
+- aoa3:legbone_fragments_ore
+- aoa3:limonite_ore
+- aoa3:lyon_ore
+- aoa3:mystite_ore
+- aoa3:ornamyte_ore
+- aoa3:purple_gemstone_ore
+- aoa3:red_gemstone_ore
+- aoa3:rosite_ore
+- aoa3:runium_ore
+- aoa3:sapphire_ore
+- aoa3:shyregem_ore
+- aoa3:shyrestone_ore
+- aoa3:skullbone_fragments_ore
+- aoa3:varsium_ore
+- aoa3:white_gemstone_ore
+- aoa3:yellow_gemstone_ore
+- astralsorcery:starmetal_ore
+- astralsorcery:aquamarine_sand_ore
+- astralsorcery:rock_crystal_ore
+- #forge:ores/copper
+- #forge:ores/tin
+- #forge:ores/zinc
+- #forge:ores/bauxite
+- #forge:ores/magnetite
+- #forge:ores/copper
+- #forge:ores/tin
+- #forge:ores/osmium
+- #forge:ores/uranium
+- #forge:ores/fluorite
+- #forge:ores/lead
+- #forge:ores/certus_quartz
+- #forge:ores/aluminum
+- #forge:ores/coal
+- #forge:ores/copper
+- #forge:ores/diamond
+- #forge:ores/emerald
+- #forge:ores/iron
+- #forge:ores/lapis
+- #forge:ores/lead
+- #forge:ores/nickel
+- #forge:ores/osmium
+- #forge:ores/redstone
+- #forge:ores/silver
+- #forge:ores/tin
+- #forge:ores/uranium
+- rftoolsbase:dimensionalshard_end
+- rftoolsbase:dimensionalshard_nether
+- rftoolsbase:dimensionalshard_overworld
+- #forge:ores/inferium
+- #forge:ores/prosperity
+- #forge:ores/soulium
+
+#forge:candy
+- aoa3:candy_cane
+- aoa3:candy_corn
+- aoa3:eye_candy
+- aoa3:gingerbread_cookie
+- aoa3:gingerbread_wing
+- aoa3:peppermint_candy
+- aoa3:sour_candy
+- aoa3:sour_gummy
+- aoa3:sour_pop
+- aoa3:spearmint_candy
+
+#forge:ingots/rareearthmetal
+- futurepack:ingot_rare_earth
+
+#forge:rods/wooden
+- blue_skies:bluebright_stick
+- blue_skies:starlit_stick
+- blue_skies:frostbright_stick
+- blue_skies:lunar_stick
+- blue_skies:dusk_stick
+- blue_skies:maple_stick
+- blue_skies:cherry_stick
+- minecraft:stick
+- minecraft:stick
+
+#mekanism:crystals/iron
+- mekanism:crystal_iron
+
+#mekanism:dirty_dusts
+- mekanism:dirty_dust_iron
+- mekanism:dirty_dust_gold
+- mekanism:dirty_dust_osmium
+- mekanism:dirty_dust_copper
+- mekanism:dirty_dust_tin
+- mekanism:dirty_dust_lead
+- mekanism:dirty_dust_uranium
+
+#blue_skies:tools/wooden_axes
+- blue_skies:bluebright_axe
+- blue_skies:starlit_axe
+- blue_skies:frostbright_axe
+- blue_skies:lunar_axe
+- blue_skies:dusk_axe
+- blue_skies:maple_axe
+- blue_skies:cherry_axe
+
+#forge:dusts/prismarine
+- minecraft:prismarine_shard
+
+#forge:fences
+- #forge:fences/nether_brick
+- #forge:fences/wooden
+
+#forge:storage_blocks/lyon
+- aoa3:lyon_block
+
+#forge:ores/bauxite
+- futurepack:ore_bauxite
+
+#forge:dusts/bioterium
+- futurepack:dust_bioterium
+
+#forge:ores/crystallite
+- aoa3:crystallite_ore
+
+#mekanism:dirty_dusts/osmium
+- mekanism:dirty_dust_osmium
+
+#forge:storage_blocks/diamond
+- minecraft:diamond_block
+
+#bno:ingots/copper
+- bno:copper_ingot
+
+#forge:storage_blocks/shyregem
+- aoa3:shyregem_block
+
+#forge:dusts/lead
+- mekanism:dust_lead
+
+#blue_skies:vines
+- blue_skies:bluebright_vine
+- blue_skies:starlit_vine
+- blue_skies:frostbright_vine
+- blue_skies:lunar_vine
+- blue_skies:dusk_vine
+- blue_skies:maple_vine
+
+#blue_skies:ingots/horizonite
+- blue_skies:horizonite_ingot
+
+#forge:chests/personal
+- mekanism:personal_chest
+
+#forge:nuggets/refined_obsidian
+- mekanism:nugget_refined_obsidian
+
+#bno:nuggets/tin
+- bno:tin_nugget

@@ -1,0 +1,31 @@
+{
+  
+  "criteria": {
+    "click_on_villager": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+					"type": "minecraft:villager",
+					"nbt": "{CustomName:'{\"text\":\"Dr. Minekampf\"}'}"					
+				}
+        } 
+    },
+	"be_in_crystevia": {
+      "trigger": "minecraft:location",
+      "conditions": {
+			"dimension": "aoa3:crystevia"
+		}
+    }
+  },
+  "requirements": [
+    [
+      "click_on_villager"
+    ],
+	[
+	  "be_in_crystevia"
+	]
+  ],
+	"rewards": {
+		"function": "odyssey:story/geo_note4"	
+	}
+}

@@ -1,0 +1,186 @@
+[
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:abyss_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"The Abyss\"}\'}, Planet: \"aoa3:abyss\"}",
+		"message":"You've discovered the coordinates to The Abyss, a realm which makes the Nether feel like a party.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:blank_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"The End\"}\'}, Planet: \"minecraft:the_end\"}",
+		"message":"You've discovered the coordinates to The End.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:barathos_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Barathos\"}\'}, Planet: \"aoa3:barathos\"}",
+		"message":"You've discovered the coordinates to the desert realm, Barathos",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:candyland_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Candyland\"}\'}, Planet: \"aoa3:candyland\"}",
+		"message":"You've discovered the coordinates to the sweetest realm, Candyland.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:celeve_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Celeve\"}\'}, Planet: \"aoa3:celeve\"}",
+		"message":"You've discovered the coordinates to Celeve. Turn back if you have a fear of clowns.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:creeponia_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Creeponia\"}\'}, Planet: \"aoa3:creeponia\"}",
+		"message":"You've discovered the coordinates to Creeponia. Its a blast!",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:crystevia_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Crystevia\"}\'}, Planet: \"aoa3:crystevia\"}",
+		"message":"You've discovered the coordinates to the underground caverns of Crystevia.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:deeplands_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Deeplands\"}\'}, Planet: \"aoa3:deeplands\"}",
+		"message":"You've discovered the coordinates to the mining realm of Deeplands.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:dustopia_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Dustopia\"}\'}, Planet: \"aoa3:dustopia\"}",
+		"message":"You've discovered the coordinates to Dustopia, a dark forest realm.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:gardencia_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Gardencia\"}\'}, Planet: \"aoa3:gardencia\"}",
+		"message":"You've discovered the coordinates to the giant floral realm of Gardencia.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:greckon_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Greckon\"}\'}, Planet: \"aoa3:greckon\"}",
+		"message":"You've discovered the coordinates to the haunted lands of Greckon.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:haven_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Haven\"}\'}, Planet: \"aoa3:haven\"}",
+		"message":"You've discovered the coordinates to the Haven, a festive realm of color.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:iromine_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Iromine\"}\'}, Planet: \"aoa3:iromine\"}",
+		"message":"You've discovered the coordinates to Iromine. A golden realm of metal and mayhem.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:lborean_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"L Borean\"}\'}, Planet: \"aoa3:lborean\"}",
+		"message":"You've discovered the coordinates to the ocean land of L'Borean.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:lelyetia_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Lelyetia\"}\'}, Planet: \"aoa3:lelyetia\"}",
+		"message":"You've discovered the coordinates the orange forests of Lelyetia. It's a little topsy-turvy.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:lunalus_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Lunalus\"}\'}, Planet: \"aoa3:lunalus\"}",
+		"message":"You've discovered the coordinates to the strange planetoid realm of Lunalus.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:mysterium_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Mysterium\"}\'}, Planet: \"aoa3:mysterium\"}",
+		"message":"You've discovered the coordinates fungal realm of Mysterium.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:precasia_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Precasia\"}\'}, Planet: \"aoa3:precasia\"}",
+		"message":"You've discovered the coordinates to the pre-historic realm of Precasia. Diggin with Dinos.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:runandor_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Runandor\"}\'}, Planet: \"aoa3:runandor\"}",
+		"message":"You've discovered the realm of the blue mountains, Runandor",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:shyrelands_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Shyrelands\"}\'}, Planet: \"aoa3:shyrelands\"}",
+		"message":"You've discovered the coordinates to Shyrelands. The land of endless archways.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:vox_ponds_realmstone",
+		"block":["futurepack:board_computer_white","futurepack:board_computer_gray","futurepack:board_computer_black", "futurepack:advanced_board_computer_white","futurepack:advanced_board_computer_gray","futurepack:advanced_board_computer_black"],
+		"give":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"The Vox Ponds\"}\'}, Planet: \"aoa3:vox_ponds\"}",
+		"message":"You've discovered the coordinates to the poisonous Vox Ponds. You'll need a Hazmat suit or face mask.",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"futurepack:escanner",
+		"offhanditem":"aoa3:rainbow_druse",
+		"block":"aoa3:crystal_extension_shrine",
+		"drop":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Overworld Coordinate #2\"}\'}}",
+		"result":"deny"	
+	},
+	{		
+		"playerhelditem":"aoa3:life_rune",
+		"offhanditem":"aoa3:power_rune",
+		"block":"aoa3:rune_randomizer",
+		"drop":"futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Overworld Coordinate #7\"}\'}}",
+		"result":"allow"	
+	}
+	
+
+]

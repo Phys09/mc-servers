@@ -1,0 +1,6 @@
+{
+	"name":"Captain's Log",
+	"description":"The Commander's journal detailing past and present events.",
+	"icon":"minecraft:writable_book",
+	"sortnum": 0
+}

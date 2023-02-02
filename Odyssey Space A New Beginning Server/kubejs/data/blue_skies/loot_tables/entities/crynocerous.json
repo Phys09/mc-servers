@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:ice"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:looting_enchant",
+          "count": {
+            "min": 0.0,
+            "max": 1.0
+          }
+        }
+      ]
+    },
+	{
+      "name": "ghostly_powder",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "aoa3:ghostly_powder"
+        }
+      ],
+	  "functions": [
+        {
+          "function": "minecraft:looting_enchant",
+          "count": {
+            "min": 1.0,
+            "max": 2.0
+          }
+        }
+      ]
+    },
+	{
+      "name": "grave_dust",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "tombstone:grave_dust"
+        }
+      ],
+	  "functions": [
+        {
+          "function": "minecraft:looting_enchant",
+          "count": {
+            "min": 1.0,
+            "max": 2.0
+          }
+        }
+      ]
+    }
+  ]
+}

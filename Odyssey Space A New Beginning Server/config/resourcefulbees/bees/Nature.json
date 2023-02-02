@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:nature_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier2/nature_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#4f833c",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:nature_essence",
+    "mainOutputCount": 8
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:nature_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

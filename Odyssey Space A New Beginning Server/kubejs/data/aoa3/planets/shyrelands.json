@@ -1,0 +1,5 @@
+{
+	"texture": "aoa3:textures/gui/realmstonegui/worlds/shyrelands.png",
+	"name": "Shyrelands",
+	"upgrades": ["drive.FTL"]
+}

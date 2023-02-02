@@ -1,0 +1,12 @@
+{
+	"type": "mekanism:crushing",
+	"input": {
+		"ingredient": {
+			"item": "futurepack:crystal_bioterium"
+		}
+	},
+	"output": {
+		"item": "futurepack:dust_bioterium",
+		"count": 2
+	}
+}

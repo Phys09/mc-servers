@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:inferium_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier1/inferium_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#556600",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:inferium_essence",
+    "mainOutputCount": 6
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:inferium_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

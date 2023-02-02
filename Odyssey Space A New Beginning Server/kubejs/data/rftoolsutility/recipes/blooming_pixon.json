@@ -1,0 +1,22 @@
+{
+	"type": "rftoolsutility:spawner",
+	"id": "rftoolsutility:blooming_pixon",
+	"power": 500,
+	"entity": "aoa3:blooming_pixon",
+	"item1": {
+		"amount": 2,
+		"ingredient": {
+			"item": "aoa3:blooming_infusion_stone"
+		}
+	},
+	"item2": {
+		"amount": 0.1,
+		"ingredient": {
+			"item": "blue_skies:soul_fragment"
+		}
+	},
+	"item3": {
+		"amount": 2.0,
+		"living": true
+	}
+}

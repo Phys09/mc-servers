@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "blue_skies:fiery_beans"
+    },
+    {
+      "item": "blue_skies:scalefruit"
+    },
+    {
+      "item": "blue_skies:winter_leaves"
+    }
+  ],
+  "result": {
+    "item": "kubejs:spicy_scale_soup"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200
+}

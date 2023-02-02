@@ -1,0 +1,10 @@
+{
+	"replace": false,
+	"values": [
+		"#mysticalagriculture:crops",
+		"blue_skies:pine_fruits",
+		"blue_skies:winter_leaves",
+		"blue_skies:fiery_beans",
+		"blue_skies:scalefruits"
+	]
+}

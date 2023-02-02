@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:water_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier1/water_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#457da0",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:water_essence",
+    "mainOutputCount": 8
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:water_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

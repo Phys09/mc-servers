@@ -1,0 +1,7 @@
+{
+	"name":"Research",
+	"description":"A checklist guide to help you scan for needed technology and how to research efficiently.$(br2)$(br2)$(5)Use the bookmark tab to mark tasks for quick reference.",
+	"icon":"futurepack:scanner_block_black",
+	"parent":"r_and_d",
+	"sortnum": 1
+}

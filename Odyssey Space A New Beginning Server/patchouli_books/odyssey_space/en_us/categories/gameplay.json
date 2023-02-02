@@ -1,0 +1,6 @@
+{
+	"name":"Gameplay Mechanics",
+	"description": "Information on how to use gameplay features like AoA's skills, Journeymap, JEI and more.",
+	"icon":"aoa3:mecha_gear",
+	"sortnum":1
+}

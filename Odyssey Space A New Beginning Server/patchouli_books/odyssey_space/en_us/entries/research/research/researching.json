@@ -1,0 +1,42 @@
+{
+	"name":"Researching",
+	"icon":"futurepack:researcher_black",
+	"category":"patchouli:research",
+	"pages":[
+		{
+			"type": "patchouli:text",
+			"text":"Researching is the process of automated testing and prototyping simulations. The Researcher reads blueprints and uses resources to test the blueprints, prototype designs and then unlock the schematics for you. $(br2)Place an item in the top right (red) and press the research button (magnifying glass) to begin processing."
+		},
+		{
+			"type":"image",
+			"images":["odyssey:textures/book/researcher.png"]
+		},
+		{
+			"type": "patchouli:text",
+			"text":"Each blueprint uses up to 4 different resources.$(li)Time - the time it takes to complete the prototype$(li)Neon Energy - uses energy for better automated testing$(li)Support - uses outside data to increase testing accuracy$(li)Experience - uses experience to apply logic$(br2)The blueprint shows how much of each resource is needed to complete the research and which item is needed for the prototypes."
+		},
+		{
+			"type":"image",
+			"images":["odyssey:textures/book/blueprint.png"]
+		},
+		{
+			"type": "patchouli:text",
+			"text":"Each resource has a progress gauge, Time (white), Neon (blue), Support (yellow), Experience (green), and an item slot at the top.$(br2)Each resource requires some raw materials to assist in its function. The amount and type of the materials required will be shown as an outline after inserting a blueprint and pressing the research button.$(br2)You can cancel a research and retrieve the blueprint by hitting the X."
+		},
+		{
+			"type":"image",
+			"images":["odyssey:textures/book/researcher.png"]
+		},
+		{
+			"type": "patchouli:text",
+			"text":"$(br2)$(9)Once you have completed a research be sure to hit the yellow star next to the blueprint input to retrieve your prototypes.$()$(br2)Research $(thing)Production 1$() by inserting the blueprint, placing 3 furnaces in the Time slot and retrieve your prototypes."
+		},
+		{
+			"type": "patchouli:quest",
+			"title": "Researching",
+			"text":"Click below to check off the task for reading about Researching"
+		}
+	],
+	"sortnum":3
+}
+

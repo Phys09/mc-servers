@@ -1,0 +1,12 @@
+{
+	"type": "mekanism:oxidizing",
+	"input": {
+		"ingredient": {
+			"tag": "forge:dusts/glowtite"
+		}
+	},
+	"output": {
+		"gas": "kubejs:neon_gas",
+		"amount": 500
+	}
+}

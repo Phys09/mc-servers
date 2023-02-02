@@ -1,0 +1,12 @@
+{
+	"type": "mekanism:infusion_conversion",
+	"input": {
+		"ingredient": {
+			"item": "aoa3:ambient_infusion_stone"
+		}
+	},
+	"output": {
+		"infuse_type": "kubejs:pixon",
+		"amount": 30
+	}
+}

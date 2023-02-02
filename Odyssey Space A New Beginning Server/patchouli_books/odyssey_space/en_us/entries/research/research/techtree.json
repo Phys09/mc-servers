@@ -1,0 +1,42 @@
+{
+	"name":"The Tech Tree",
+	"icon":"futurepack:textures/aspects/fp.png",
+	"category":"patchouli:research",
+	"pages":[
+		{
+			"type": "patchouli:text",
+			"text":"Scanning and Researching isn't completely trial and error. The Tech Tree, found in the e-scanner, can help you determine what new technologies are available to find.$(br2)The tech tree shows $(thing)Production 1$() (black) as blinking. This means the blueprint can be scanned and researched."
+		},
+		{
+			"type":"image",
+			"images":["odyssey:textures/book/tech_tree.png"]
+		},
+		{
+			"type": "patchouli:text",
+			"text":"Notice that its also connected to the Techtable. If you scan the Techtable, you should find the blueprint for 'Production 1'$(br2)There are two types of blueprints, concepts and technology. Using the process just described, technology can be easily found and scanned.$(br2)Concepts are a bit harder to track down, requiring you to scan and research any item which was unlock in any adjoining concept, to find the needed blueprint."
+		},
+		{
+			"type":"image",
+			"images":["odyssey:textures/book/tech_tree.png"]
+		},
+		{
+			"type": "patchouli:text",
+			"text":"There are also multiple tech trees, each one a different category of new technologies to discover.$(br2)Sometimes researching a blueprint in one tech tree unlocks possible research in another. $(br2)Concepts are always listed under $(thing)Story$(), and can be researched from any technology in any category."
+		},
+		{
+			"type":"image",
+			"images":["odyssey:textures/book/tech_table2.png"]
+		},
+		{
+			"type": "patchouli:quest",
+			"title": "Researching",
+			"text":"Click below to check off the task for reading about the Tech Trees"
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler":false
+		}
+	],
+	"sortnum":4
+}
+

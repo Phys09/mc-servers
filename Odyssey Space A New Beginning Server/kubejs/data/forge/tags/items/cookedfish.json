@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "blue_skies:cooked_grittle_flatfish",
+	"blue_skies:cooked_municipal_monkfish",
+	"blue_skies:cooked_charscale_moki",
+	"blue_skies:cooked_horizofin_tunid",
+	"minecraft:cooked_cod"
+  ]
+}

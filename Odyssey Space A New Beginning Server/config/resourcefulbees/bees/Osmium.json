@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:osmium_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier3/osmium_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#84a4b6",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "bno:osmium_ingot",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:osmium_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

@@ -1,0 +1,22 @@
+{
+  
+  "criteria": {
+    "find_portal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+			"location":{
+				"dimension": "aoa3:iromine",
+				"feature":"aoa3:professors_lab"
+			}
+		}
+    }
+  },
+  "requirements": [
+    [
+	  "find_portal"
+	]
+  ],
+	"rewards": {
+		"function": "odyssey:story/linquist_note6"	
+	}
+}

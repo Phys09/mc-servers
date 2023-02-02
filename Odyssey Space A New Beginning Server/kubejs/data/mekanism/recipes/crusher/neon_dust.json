@@ -1,0 +1,12 @@
+{
+	"type": "mekanism:crushing",
+	"input": {
+		"ingredient": {
+			"item": "futurepack:crystal_neon"
+		}
+	},
+	"output": {
+		"item": "futurepack:dust_neon",
+		"count": 2
+	}
+}

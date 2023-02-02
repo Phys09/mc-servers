@@ -1,0 +1,105 @@
+{
+  "variants": [
+    {
+      "stairSelector": {
+        "entries": {
+          "blue_skies:cinderstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]": 0.5,
+          "blue_skies:umber_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]": 0.5
+        },
+        "defaultBlock": "blue_skies:lunar_stonebrick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      },
+      "cornerSelector": {
+        "entries": {},
+        "defaultBlock": "blue_skies:raw_moonstone"
+		
+		
+      },
+      "insideSelector": {
+        "entries": {
+          "blue_skies:chiseled_lunar_stonebrick": 0.2
+        },
+        "defaultBlock": "blue_skies:lunar_stonebrick"
+      },
+      "fenceSelector": {
+        "entries": {
+          "blue_skies:polished_umber_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]": 0.33,
+          "blue_skies:cinderstone_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]": 0.33
+        },
+        "defaultBlock": "blue_skies:umber_wall[east=none,north=none,south=none,up=true,waterlogged=false,west=none]"
+      },
+      "powerBlock": "minecraft:glowstone",
+      "decorationBlock": "blue_skies:moonstone_block",
+      "beamStopBlocks": [
+        "minecraft:obsidian"
+      ],
+      "unpoweredBeamColor": {
+        "red": "14",
+        "green": "0c",
+        "blue": "24",
+        "alpha": "FF"
+      },
+      "poweredBeamColor": {
+        "red": "66",
+        "green": "58",
+        "blue": "A7",
+        "alpha": "AA"
+      },
+      "minY": 50,
+      "maxY": 70,
+      "playerTeleportedMinY": 60,
+      "playerTeleportedMaxY": 90,
+      "spawnChance": 0.05,
+      "spawnDimension": "minecraft:the_nether",
+      "targetDimension": "blue_skies:everdawn"
+    },
+	{
+      "stairSelector": {
+        "entries": {
+          
+        },
+        "defaultBlock": "blue_skies:crystallized_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      },
+      "cornerSelector": {
+        "entries": {},
+        "defaultBlock": "blue_skies:moonstone_block"
+      },
+      "insideSelector": {
+        "entries": {
+          "blue_skies:chiseled_turquoise_stonebrick": 0.2,
+		  "blue_skies:cracked_turquoise_stonebrick": 0.5
+        },
+        "defaultBlock": "blue_skies:turquoise_stonebrick"
+      },
+      "fenceSelector": {
+        "entries": {
+          "blue_skies:starlit_fence[waterlogged=false]": 0.20
+        },
+        "defaultBlock": "blue_skies:bluebright_fence[waterlogged=false]"
+      },
+      "powerBlock": "blue_skies:sunstone_block",
+      "decorationBlock": "blue_skies:taratite",
+      "beamStopBlocks": [
+        "minecraft:obsidian"
+      ],
+      "unpoweredBeamColor": {
+        "red": "58",
+        "green": "6D",
+        "blue": "A7",
+        "alpha": "AA"
+      },
+      "poweredBeamColor": {
+        "red": "EB",
+        "green": "6A",
+        "blue": "37",
+        "alpha": "11"
+      },
+      "minY": 50,
+      "maxY": 70,
+      "playerTeleportedMinY": 70,
+      "playerTeleportedMaxY": 100,
+      "spawnChance": 0.0012,
+      "spawnDimension": "blue_skies:everdawn",
+      "targetDimension": "blue_skies:everbright"
+    }
+  ]
+}

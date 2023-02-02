@@ -1,0 +1,118 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 3.0,
+        "max": 8.0,
+        "type": "minecraft:uniform"
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Stick:\"blue_skies:maple_stick\"}"
+            }
+          ],
+          "name": "blue_skies:aquite_shovel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "blue_skies:falsite_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "blue_skies:maple_stick"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 2.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:snowball"
+        }
+      ]
+    },
+		{
+			"rolls": 1.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "scannable:scanner",
+					"weight": 30
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_ore_common",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_ore_rare",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_block",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_range",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_entity",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_animal",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_monster",
+					"weight": 20
+				}
+			]
+		}
+  ]
+}

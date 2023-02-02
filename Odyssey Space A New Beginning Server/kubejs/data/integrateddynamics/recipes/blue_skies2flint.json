@@ -1,0 +1,13 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "item": {
+    "tag": "blue_skies:cobblestone"
+  },
+  "result": {
+    "items": [
+      {
+        "item": "minecraft:gravel"
+      }
+    ]
+  }
+}

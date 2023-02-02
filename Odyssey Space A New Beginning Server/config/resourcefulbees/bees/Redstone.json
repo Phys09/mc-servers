@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:redstone_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier3/redstone_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#841f09",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:redstone",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem": "mysticalagriculture:redstone_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

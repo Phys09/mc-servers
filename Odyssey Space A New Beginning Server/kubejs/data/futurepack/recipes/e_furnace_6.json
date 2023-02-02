@@ -1,0 +1,35 @@
+{
+  "type": "futurepack:maschin_shaped",
+  "group": "futurepack",
+  "pattern": [
+    "IFG",
+    "NMN",
+    "CBC"
+  ],
+  "key": {
+    "N": {
+      "tag": "forge:ingots/neon"
+    },
+    "B": {
+      "item": "futurepack:maschineboard"
+    },
+    "M": {
+      "item": "futurepack:color_iron_light_gray"
+    },
+    "I": {
+      "item": "futurepack:coil_iron"
+    },
+    "G": {
+      "item": "futurepack:coil_gold"
+    },
+    "F": {
+      "item": "mysticalagriculture:prudentium_furnace"
+    },
+    "C": {
+      "item": "futurepack:composite_metal"
+    }
+  },
+  "result": {
+    "item": "futurepack:neon_furnace_gray"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "blue_skies:scalefruit"
+    },
+    {
+      "item": "blue_skies:scalefruit"
+    },
+    {
+      "item": "blue_skies:scalefruit"
+    }
+  ],
+  "result": {
+    "item": "kubejs:scalefruit_soup"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200
+}

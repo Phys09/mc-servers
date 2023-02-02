@@ -1,0 +1,28 @@
+{
+	"name":"This Guide",
+	"icon":"patchouli:guide_book",
+	"category":"patchouli:gameplay",
+	"pages":[
+		{
+			"type": "patchouli:text",			
+			"text": "This guide is not a walkthrough of the pack or a complete step-by-step guide to a mod. $(br2)This guide is my attempt to find middle ground between the step-by-step questbooks and the completely unguided, left to figure it out on their own. "
+		},
+		{
+			"type":"patchouli:text",
+			"title":"This Guide",
+			"text":"It is my hope that this guide book will serve as a list of possible things to do, alerting the player to things that are possible and with which mods. $(br2)However, there are some $(thing)checklist$() items which require completion to progress. These will have a box which you can click to mark them as complete."
+		},
+		{
+			"type":"patchouli:text",
+			"title":"This Guide",
+			"text":"You will notice that the entries start out as $(thing)checklist$() items, requiring completion but towards the end are more informational, offering suggestions on what you could do.$(br2)This format also allowed me a little room for roleplaying through the Captain's Logs and early resource production."
+		},
+		{
+			"type":"patchouli:text",
+			"title":"This Guide",
+			"text":"All entries will start out marked as un-read, but you can click the eye in the bottom right corner to mark each category as read. Don't feel pressured to read everything. $(br2) Read what you want, use what you want, its all about having fun and playing a pack unlike many others. $(br2)$(9)Thank you for playing and I hope you enjoy Odyssey."
+		}		
+	],
+	"sortnum":0
+}
+

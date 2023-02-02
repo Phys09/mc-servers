@@ -1,0 +1,38 @@
+{
+  "type": "futurepack:research_shaped",
+  "group": "futurepack",
+  "pattern": [
+    "QUQ",
+    "GMY",
+    "CEL"
+  ],
+  "key": {
+    "C": {
+      "item": "aoa3:crystallite_block"
+    },
+    "Q": {
+      "item": "futurepack:coil_quantanium"
+    },
+    "E": {
+      "item": "futurepack:compact_energy_cell"
+    },
+    "U": {
+      "item": "futurepack:chip_ultimate"
+    },
+    "M": {
+      "item": "futurepack:core_master"
+    },
+    "G": {
+      "item": "aoa3:ghastly_block"
+    },
+    "L": {
+      "item": "aoa3:lyon_block"
+    },
+    "Y": {
+      "item": "aoa3:mystite_block"
+    }
+  },
+  "result": {
+    "item": "futurepack:ftl_drive"
+  }
+}

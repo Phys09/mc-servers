@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_soul",
+  "fuel": {"raw:item": "aoa3:ghostly_powder"},
+  "energy": 96000
+}

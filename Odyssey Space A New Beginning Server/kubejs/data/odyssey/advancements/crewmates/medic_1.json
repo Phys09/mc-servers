@@ -1,0 +1,19 @@
+{
+	
+	"criteria": {
+		"enter_dimension": {
+		  "trigger": "minecraft:location",
+		  "conditions": {
+				"dimension": "aoa3:abyss"
+			}
+		}
+	},
+	"requirements": [
+		[
+		  "enter_dimension"
+		]
+	 ],
+	"rewards": {
+		"function": "odyssey:story/medic_note1"	
+	}
+}

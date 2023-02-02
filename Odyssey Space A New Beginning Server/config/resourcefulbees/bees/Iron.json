@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:iron_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier2/iron_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#b9b9b9",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:iron_ingot",
+	"mainOutputCount": 2	
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:iron_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

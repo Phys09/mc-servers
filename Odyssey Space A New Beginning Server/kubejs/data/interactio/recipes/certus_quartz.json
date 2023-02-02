@@ -1,0 +1,17 @@
+{
+	"type":"interactio:item_fluid_transform",
+	"inputs":[
+		{
+			"item":"quartz",
+			"count":1
+		}
+	],
+	"fluid":{
+		"fluid":"astralsorcery:liquid_starlight"
+	},
+	"output":{
+		"item":"appliedenergistics2:certus_quartz_crystal",
+		"count":1
+	},
+	"consume_fluid":0.5
+}

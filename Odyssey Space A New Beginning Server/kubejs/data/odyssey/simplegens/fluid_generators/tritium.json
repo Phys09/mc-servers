@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_fluid_combustion",
+  "fuel": {"raw:fluid": "mekanismgenerators:tritium"},
+  "energy": 240
+}

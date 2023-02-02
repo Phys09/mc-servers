@@ -1,0 +1,18 @@
+{
+	"name":"Skills",
+	"icon":"odyssey:textures/book/skills.png",
+	"category":"patchouli:gameplay",
+	"pages":[
+		{
+			"type": "patchouli:text",			
+			"text": "Advent of Ascension(AoA) adds a number of player skills which reward the player with benefits and bonuses the higher the player's level in these skills.$(br2)For a complete description of each skill and the rewards they give, press $(thing)$(k:aoa3.adventGui)$() and view the Guides section."
+		},
+		{
+			"type":"patchouli:text",
+			"title":"Skills",
+			"text":"You can also check the level of your skills on screen by pressing $(thing)$(k:aoa3.skills)$(). $(br2)It is because of these skills that many QOL, like right-click harvest, were not included. Grinding these skills is a chore and many will level up naturally by playing the game with vanilla mechanics, making it more possible to craft the powerful items associated with the skills."
+		}		
+	],
+	"sortnum":3
+}
+

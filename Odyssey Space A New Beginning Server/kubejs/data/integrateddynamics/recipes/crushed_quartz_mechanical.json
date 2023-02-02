@@ -1,0 +1,17 @@
+{
+	"type": "integrateddynamics:mechanical_squeezer",
+	"item": {
+		"item": "minecraft:quartz"
+	},
+	"result": {
+		"items": [
+			{
+				"item": {
+					"item": "appliedenergistics2:nether_quartz_dust",
+					"count": 2
+				}
+			}
+		]
+	},
+	"duration": 20
+}

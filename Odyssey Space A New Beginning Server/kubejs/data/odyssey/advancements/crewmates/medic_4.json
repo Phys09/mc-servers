@@ -1,0 +1,27 @@
+{
+  
+  "criteria": {
+    "click_on_villager": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "aoa3:primordial_merchant"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "click_on_villager"
+    ]
+  ],
+	"rewards": {
+		"function": "odyssey:story/medic_note4"	
+	}
+}

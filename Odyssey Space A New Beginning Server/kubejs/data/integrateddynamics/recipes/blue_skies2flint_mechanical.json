@@ -1,0 +1,17 @@
+{
+	"type": "integrateddynamics:mechanical_squeezer",
+	"item": {
+		"tag": "blue_skies:cobblestone"
+	},
+	"result": {
+		"items": [
+			{
+				"item": {
+					"item": "minecraft:gravel",
+					"count": 2
+				}
+			}
+		]
+	},
+	"duration": 20
+}

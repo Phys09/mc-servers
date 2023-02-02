@@ -1,0 +1,982 @@
+{
+	"type": "assembly",
+	"recipes": [
+		{
+			"id": "ram_chip",
+			"output": {
+				"name": "rftoolscontrol:ram_chip"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "minecraft:redstone"
+				},
+				{
+					"size": 1,
+					"name": "aoa3:charged_rune"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:parts_gold"
+				}
+			]
+		},
+		{
+			"id": "card_base",
+			"output": {
+				"name": "rftoolscontrol:card_base"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:chip_logic"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"size": 1,
+					"name": "kubejs:blank_base"
+				}
+			]
+		},
+		{
+			"id": "core_500",
+			"output": {
+				"name": "rftoolscontrol:cpu_core_500"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "kubejs:blank_base"
+				},
+				{
+					"size": 1,
+					"name": "mekanism:enriched_redstone"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:parts_gold"
+				}
+			]
+		},
+		{
+			"id": "core_1000",
+			"output": {
+				"name": "rftoolscontrol:cpu_core_1000"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "kubejs:blank_base"
+				},
+				{
+					"size": 1,
+					"name": "mekanism:enriched_diamond"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:parts_gold"
+				}
+			]
+		},
+		{
+			"id": "core_2000",
+			"output": {
+				"name": "rftoolscontrol:cpu_core_2000"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "kubejs:blank_base"
+				},
+				{
+					"size": 1,
+					"name": "rftoolsbase:dimensionalshard"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:parts_gold"
+				}
+			]
+		},
+		{
+			"id": "basic_control_circuit",
+			"output": {
+				"name": "mekanism:basic_control_circuit"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "minecraft:lime_dye"
+				},
+				{
+					"size": 1,
+					"name": "bno:osmium_ingot"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:parts_copper"
+				}
+			]
+		},
+		{
+			"id": "advanced_control_circuit",
+			"output": {
+				"name": "mekanism:advanced_control_circuit"
+			},
+			"input": [
+				{
+					"size": 2,
+					"name": "mekanism:alloy_infused"
+				},
+				{
+					"size": 1,
+					"name": "bno:osmium_ingot"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:coil_gold"
+				}
+			]
+		},
+		{
+			"id": "elite_control_circuit",
+			"output": {
+				"name": "mekanism:elite_control_circuit"
+			},
+			"input": [
+				{
+					"size": 2,
+					"name": "mekanism:alloy_reinforced"
+				},
+				{
+					"size": 1,
+					"name": "bno:osmium_ingot"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:coil_neon"
+				}
+			]
+		},
+		{
+			"id": "ultimate_control_circuit",
+			"output": {
+				"name": "mekanism:ultimate_control_circuit"
+			},
+			"input": [
+				{
+					"size": 2,
+					"name": "mekanism:alloy_atomic"
+				},
+				{
+					"size": 1,
+					"name": "bno:osmium_ingot"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:coil_quantanium"
+				}
+			]
+		},
+		{
+			"id": "basic_machine_board",
+			"output": {
+				"name": "kubejs:basic_machine_board"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:ram_standart"
+				},
+				{
+					"size": 1,
+					"name": "mekanism:basic_control_circuit"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:core_standart"
+				}
+			]
+		},
+		{
+			"id": "advanced_machine_board",
+			"output": {
+				"name": "kubejs:advanced_machine_board"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:ram_tct"
+				},
+				{
+					"size": 1,
+					"name": "mekanism:advanced_control_circuit"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:core_tct"
+				}
+			]
+		},
+		{
+			"id": "elite_machine_board",
+			"output": {
+				"name": "kubejs:elite_machine_board"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:ram_master"
+				},
+				{
+					"size": 1,
+					"name": "mekanism:elite_control_circuit"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:core_master"
+				}
+			]
+		},
+		{
+			"id": "ultimate_machine_board",
+			"output": {
+				"name": "kubejs:ultimate_machine_board"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:ram_entronium"
+				},
+				{
+					"size": 1,
+					"name": "mekanism:ultimate_control_circuit"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:core_entronium"
+				}
+			]
+		},
+		{
+			"id": "core_standart",
+			"output": {
+				"name": "futurepack:core_standart"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:chip_logic"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"size": 1,
+					"name": "aoa3:unpowered_rune"
+				}
+			]
+		},
+		{
+			"id": "core_a1",
+			"output": {
+				"size": 1,
+				"name": "futurepack:core_a1"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:chip_industrie"
+				},
+				{
+					"size": 3,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"name": "rftoolscontrol:cpu_core_500"
+				}
+			]
+		},
+		{
+			"id": "core_p2",
+			"output": {
+				"size": 1,
+				"name": "futurepack:core_p2"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:chip_tactic"
+				},
+				{
+					"size": 3,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"name": "rftoolscontrol:cpu_core_1000"
+				}
+			]
+		},
+		{
+			"id": "core_tct",
+			"output": {
+				"size": 1,
+				"name": "futurepack:core_tct"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:chip_ai"
+				},
+				{
+					"size": 4,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"name": "rftoolscontrol:cpu_core_2000"
+				}
+			]
+		},
+		{
+			"id": "core_master",
+			"output": {
+				"size": 1,
+				"name": "futurepack:core_master"
+			},
+			"input": [
+				{
+					"size": 1,
+					"tag": "forge:ingots/quantanium"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:parts_diamond"
+				},
+				{
+					"tag": "forge:ingots/glowtite"
+				}
+			]
+		},
+		{
+			"id": "core_non",
+			"output": {
+				"size": 1,
+				"name": "futurepack:core_non"
+			},
+			"input": [
+				{
+					"size": 2,
+					"tag": "forge:ingots/quantanium"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:parts_diamond"
+				},
+				{
+					"tag": "forge:ingots/bioterium"
+				}
+			]
+		},
+		{
+			"id": "core_dungeon",
+			"output": {
+				"size": 1,
+				"name": "futurepack:core_dungeon"
+			},
+			"input": [
+				{
+					"size": 4,
+					"tag": "forge:ingots/quantanium"
+				},
+				{
+					"size": 4,
+					"name": "futurepack:parts_diamond"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:fragment_core"
+				}
+			]
+		},
+		{
+			"id": "core_entronium",
+			"output": {
+				"size": 1,
+				"name": "futurepack:core_entronium"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "mekanism:pellet_plutonium"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:core_torus"
+				},
+				{
+					"size": 1,
+					"name": "rftoolsbase:infused_diamond"
+				}
+			]
+		},
+		{
+			"id": "ram_standart",
+			"output": {
+				"name": "futurepack:ram_standart"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:chip_logic"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"name": "rftoolscontrol:ram_chip"
+				}
+			]
+		},
+		{
+			"id": "ram_a",
+			"output": {
+				"size": 1,
+				"name": "futurepack:ram_a"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "rftoolscontrol:ram_chip"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"name": "rftoolscontrol:ram_chip"
+				}
+			]
+		},
+		{
+			"id": "ram_p",
+			"output": {
+				"size": 1,
+				"name": "futurepack:ram_p"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "rftoolscontrol:ram_chip"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"name": "futurepack:ingot_neon"
+				}
+			]
+		},
+		{
+			"id": "ram_tct",
+			"output": {
+				"size": 1,
+				"name": "futurepack:ram_tct"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "rftoolscontrol:ram_chip"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"name": "futurepack:ingot_retium"
+				}
+			]
+		},
+		{
+			"id": "ram_master",
+			"output": {
+				"size": 1,
+				"name": "futurepack:ram_master"
+			},
+			"input": [
+				{
+					"size": 1,
+					"tag": "forge:ingots/quantanium"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:parts_neon"
+				},
+				{
+					"tag": "forge:ingots/glowtite"
+				}
+			]
+		},
+		{
+			"id": "ram_non",
+			"output": {
+				"size": 1,
+				"name": "futurepack:ram_non"
+			},
+			"input": [
+				{
+					"size": 1,
+					"tag": "forge:ingots/quantanium"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:parts_neon"
+				},
+				{
+					"size": 1,
+					"tag": "forge:ingots/bioterium"
+				}
+			]
+		},
+		{
+			"id": "ram_dungeon",
+			"output": {
+				"size": 1,
+				"name": "futurepack:ram_dungeon"
+			},
+			"input": [
+				{
+					"size": 4,
+					"tag": "forge:ingots/quantanium"
+				},
+				{
+					"size": 4,
+					"name": "futurepack:parts_neon"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:fragment_ram"
+				}
+			]
+		},
+		{
+			"id": "ram_entronium",
+			"output": {
+				"size": 1,
+				"name": "futurepack:ram_entronium"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "mekanism:pellet_plutonium"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:ram_torus"
+				},
+				{
+					"size": 1,
+					"name": "rftoolsbase:infused_diamond"
+				}
+			]
+		},
+		{
+			"id": "chip_logic",
+			"output": {
+				"size": 1,
+				"name": "futurepack:chip_logic"
+			},
+			"input": [
+				{
+					"size": 2,
+					"name": "futurepack:parts_gold"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:parts_copper"
+				}
+			]
+		},
+		{
+			"id": "chip_ai",
+			"output": {
+				"size": 1,
+				"name": "futurepack:chip_ai"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:ingot_retium"
+				},
+				{
+					"size": 3,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:parts_quartz"
+				}
+			]
+		},
+		{
+			"id": "chip_transport",
+			"output": {
+				"size": 1,
+				"name": "futurepack:chip_transport"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "bno:osmium_ingot"
+				},
+				{
+					"size": 3,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:parts_quartz"
+				}
+			]
+		},
+		{
+			"id": "chip_navigation",
+			"output": {
+				"size": 1,
+				"name": "futurepack:chip_navigation"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:parts_quartz"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"size": 1,
+					"name": "minecraft:compass"
+				}
+			]
+		},
+		{
+			"id": "chip_network",
+			"output": {
+				"size": 1,
+				"name": "futurepack:chip_network"
+			},
+			"input": [
+				{
+					"size": 2,
+					"name": "futurepack:parts_quartz"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:coil_neon"
+				}
+			]
+		},
+		{
+			"id": "chip_industrial",
+			"output": {
+				"size": 1,
+				"name": "futurepack:chip_industrie"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "bno:tin_ingot"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:parts_quartz"
+				}
+			]
+		},
+		{
+			"id": "chip_redstone",
+			"output": {
+				"size": 1,
+				"name": "futurepack:chip_redstone"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "mekanism:enriched_redstone"
+				},
+				{
+					"size": 3,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:parts_quartz"
+				}
+			]
+		},
+		{
+			"id": "chip_support",
+			"output": {
+				"size": 1,
+				"name": "futurepack:chip_support"
+			},
+			"input": [
+				{
+					"size": 2,
+					"name": "futurepack:parts_quartz"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:ingot_silicon"
+				},
+				"tag:forge:ingots/glowtite"
+			]
+		},
+		{
+			"id": "chip_tactic",
+			"output": {
+				"size": 1,
+				"name": "futurepack:chip_tactic"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "mekanism:ingot_steel"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:parts_quartz"
+				}
+			]
+		},
+		{
+			"id": "chip_ultimate",
+			"output": {
+				"size": 1,
+				"name": "futurepack:chip_ultimate"
+			},
+			"input": [
+				{
+					"size": 2,
+					"tag": "forge:ingots/quantanium"
+				},
+				{
+					"size": 2,
+					"name": "futurepack:parts_quartz"
+				},
+				"tag:forge:gems/emerald"
+			]
+		},
+		{
+			"id": "chip_damage_control",
+			"output": {
+				"size": 1,
+				"name": "futurepack:chip_damage_control"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:parts_quartz"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:ingot_silicon"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:composite_metal"
+				}
+			]
+		},
+		{
+			"id": "flash_redstone_simple",
+			"output": {
+				"size": 1,
+				"name": "futurepack:aiflash0"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:chip_logic"
+				},
+				{
+					"size": 1,
+					"tag": "forge:ingots/gold"
+				},
+				{
+					"size": 1,
+					"tag": "forge:dusts/redstone"
+				}
+			]
+		},
+		{
+			"id": "flash_redstone_improved",
+			"output": {
+				"size": 1,
+				"name": "futurepack:aiflash1"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:chip_logic"
+				},
+				{
+					"size": 1,
+					"name": "minecraft:obsidian"
+				},
+				{
+					"size": 1,
+					"tag": "forge:dusts/redstone"
+				}
+			]
+		},
+		{
+			"id": "flash_glowstone",
+			"output": {
+				"size": 1,
+				"name": "futurepack:aiflash2"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:chip_logic"
+				},
+				{
+					"size": 1,
+					"tag": "forge:ingots/neon"
+				},
+				{
+					"size": 1,
+					"tag": "forge:dusts/glowstone"
+				}
+			]
+		},
+		{
+			"id": "flash_crystal",
+			"output": {
+				"size": 1,
+				"name": "futurepack:aiflash3"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:chip_logic"
+				},
+				{
+					"size": 1,
+					"tag": "forge:ingots/retium"
+				},
+				{
+					"size": 1,
+					"tag": "forge:gems/glowtite"
+				}
+			]
+		},
+		{
+			"id": "flash_isotope",
+			"output": {
+				"size": 1,
+				"name": "futurepack:aiflash4"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:chip_logic"
+				},
+				{
+					"size": 1,
+					"tag": "forge:gems/emerald"
+				},
+				{
+					"size": 1,
+					"tag": "forge:ingots/gadolinium"
+				}
+			]
+		},
+		{
+			"id": "flash_qubit",
+			"output": {
+				"size": 1,
+				"name": "futurepack:aiflash5"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "futurepack:chip_logic"
+				},
+				{
+					"size": 1,
+					"tag": "forge:ingots/bioterium"
+				},
+				{
+					"size": 1,
+					"tag": "forge:ingots/quantanium"
+				}
+			]
+		},
+		{
+			"id": "entity_egger",
+			"output": {
+				"size": 1,
+				"name": "futurepack:entity_egger"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "minecraft:slime_ball"
+				},
+				{
+					"size": 1,
+					"name": "minecraft:egg"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:chip_logic"
+				}
+			]
+		},
+		{
+			"id": "chest_egger",
+			"output": {
+				"size": 1,
+				"name": "futurepack:spawner_chest"
+			},
+			"input": [
+				{
+					"size": 1,
+					"name": "minecraft:slime_ball"
+				},
+				{
+					"size": 1,
+					"name": "minecraft:chest"
+				},
+				{
+					"size": 1,
+					"name": "futurepack:chip_logic"
+				}
+			]
+		}
+	]
+}

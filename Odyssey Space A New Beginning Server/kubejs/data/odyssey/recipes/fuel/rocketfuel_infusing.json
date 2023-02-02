@@ -1,0 +1,15 @@
+{
+	"type": "mekanism:chemical_infusing",
+	"leftInput": {
+		"amount": 10,
+		"gas": "kubejs:neon_gas"
+	},
+	"rightInput": {
+		"amount": 1,
+		"gas": "mekanism:uranium_oxide"
+	},
+	"output": {
+		"gas": "kubejs:fuel_gas",
+		"amount": 5
+	}
+}

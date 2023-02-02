@@ -1,0 +1,5 @@
+{
+	"texture": "aoa3:textures/gui/realmstonegui/worlds/lborean.png",
+	"name": "L'Borean",
+	"upgrades": ["drive.FTL"]
+}

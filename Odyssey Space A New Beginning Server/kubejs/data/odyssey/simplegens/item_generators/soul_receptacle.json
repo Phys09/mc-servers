@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_soul",
+  "fuel": {"raw:item": "tombstone:soul_receptacle"},
+  "energy": 1000000
+}

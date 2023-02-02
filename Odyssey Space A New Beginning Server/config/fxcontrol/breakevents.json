@@ -1,0 +1,15 @@
+[
+	{
+		"block": ["blue_skies:turquoise_grass", "blue_skies:lunar_grass", "blue_skies:cherry_grass", "aoa3:dawn_grass", "aoa3:haven_grass_plant","aoa3:iro_grass", "aoa3:lucon_grass", "aoa3:rainbow_grass", "aoa3:rainbow_grass2", "aoa3:rainbow_grass3", "aoa3:garden_grass"],
+		"random": 0.2,
+		"playerhelditem":["farmersdelight:flint_knife", "farmersdelight:iron_knife","farmersdelight:diamond_knife","farmersdelight:netherite_knife", "farmersdelight:golden_knife", "kubejs:moonshard_knife"],
+		"drop": "farmersdelight:straw",
+		"result": "allow"
+	},
+	{
+		"offhanditem":"futurepack:escanner",
+		"block":"aoa3:shyregem_ore",
+		"drop": "futurepack:spacecoordinats/{display: {Name: \'{\"text\":\"Overworld Coordinate #5\"}\'}}",
+		"result":"allow"
+	}
+]

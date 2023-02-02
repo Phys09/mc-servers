@@ -1,0 +1,31 @@
+{
+  "flower": "mysticalagriculture:creeper_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "/creeper/creeper_bee",
+  "traits" : ["creeper"],
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#0C9F0A",
+    "isGlowing": true,
+    "glowColor": "#E2D3D3",
+    "glowingPulse": 2,
+    "emissiveLayerTexture": "/creeper/creeper_bee_emissive"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:creeper_essence",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:creeper_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

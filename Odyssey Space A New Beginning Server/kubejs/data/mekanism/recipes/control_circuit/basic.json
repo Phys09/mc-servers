@@ -1,0 +1,15 @@
+{
+	"type": "mekanism:metallurgic_infusing",
+	"itemInput": {
+		"ingredient": {
+			"item": "appliedenergistics2:certus_quartz_crystal"
+		}
+	},
+	"infusionInput": {
+		"amount": 40,
+		"tag": "mekanism:redstone"
+	},
+	"output": {
+		"item": "appliedenergistics2:charged_certus_quartz_crystal"
+	}
+}

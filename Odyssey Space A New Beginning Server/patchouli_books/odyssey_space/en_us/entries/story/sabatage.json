@@ -1,0 +1,26 @@
+{
+	"name":"Sabatage",
+	"icon":"futurepack:crafting_recipe",
+	"category":"patchouli:the_story",
+	"pages":[
+		{
+			"type": "patchouli:text",			
+			"text": "Gunfire erupted from the upper catwalks of our small ship. I ran from the Dr. Thatch's quarters to the source. The Sargeant, PK-90 in ready position, was behind cover. $(br2)I saw no one run past me so our intruder had slipped past us. I pulled my trusty sidearm, Stampede, and we continued the sweep."
+		},
+		{
+			"type":"patchouli:text",
+			"text":"Once again, alarms rang and buzzers sounded. This time, it was the fuel tanks and thrusters. As I ran to the control console in engineering bay, I saw an escape pod released out the port window. It was not of Overworld design. Perhaps it was attached to the ship, cloaked, and scanner couldn't read it. $(br2)But that was a problem for another time."
+		},
+		{
+			"type":"patchouli:text",
+			"text":"I approached the control console to see a frantic and energized engineer. Ms. Shuster gave him a sedative so I could at least get the information straight. $(br2)The ship was on full systems critical. There was no recovering. Someone had sabataged our ship."
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler":false
+		}			
+	],
+	"advancement":"odyssey:guides/story_6",
+	"sortnum":6
+}
+

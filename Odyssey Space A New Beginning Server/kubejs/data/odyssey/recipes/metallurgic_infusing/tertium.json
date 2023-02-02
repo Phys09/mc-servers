@@ -1,0 +1,16 @@
+{
+	"type": "mekanism:metallurgic_infusing",
+	"itemInput": {
+		"amount": 4,
+		"ingredient": {
+			"item": "mysticalagriculture:prudentium_essence"
+		}
+	},
+	"infusionInput": {
+		"amount": 40,
+		"infuse_type": "kubejs:pixon"
+	},
+	"output": {
+		"item": "mysticalagriculture:tertium_essence"
+	}
+}

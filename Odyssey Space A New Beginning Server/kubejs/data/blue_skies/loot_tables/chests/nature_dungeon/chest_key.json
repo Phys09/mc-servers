@@ -1,0 +1,147 @@
+{
+	"type": "minecraft:chest",
+	"pools": [
+		{
+			"rolls": 1.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "blue_skies:nature_key"
+				}
+			]
+		},
+		{
+			"name": "rare_table",
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "aoa3:misc/rare_table"
+				}
+			]
+		},
+		{
+			"rolls": 1.0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "scannable:scanner"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_ore_common",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_ore_rare",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_block",
+					"weight": 5
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_range",
+					"weight": 10
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_entity",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_animal",
+					"weight": 20
+				},
+				{
+					"type": "minecraft:item",
+					"name": "scannable:module_monster",
+					"weight": 20
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 2.0,
+				"max": 4.0,
+				"type": "minecraft:uniform"
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "blue_skies:black_brewberry"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 4.0,
+								"max": 6.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "futurepack:erse"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0.0,
+								"max": 1.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "blue_skies:pink_brewberry"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "blue_skies:pyrope_gem"
+				},
+				{
+					"type": "minecraft:item",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1.0,
+								"max": 2.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					],
+					"name": "blue_skies:aquite_gem"
+				}
+			]
+		}
+	]
+}

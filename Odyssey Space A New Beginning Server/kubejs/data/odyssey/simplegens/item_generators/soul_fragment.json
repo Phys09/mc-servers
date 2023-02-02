@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_soul",
+  "fuel": {"raw:item": "blue_skies:soul_fragment"},
+  "energy": 64000
+}

@@ -1,0 +1,56 @@
+{
+  "variants": [
+    {
+      "blockSelector": {
+        "entries": {
+          "minecraft:obsidian": 0.1,
+          "minecraft:gilded_blackstone": 0.05,
+          "minecraft:netherrack": 0.7,
+          "minecraft:crying_obsidian": 0.05,
+          "minecraft:blackstone": 0.1
+        },
+        "defaultBlock": "minecraft:cave_air"
+      },
+      "fluidColor": {
+        "red": "19",
+        "green": "00",
+        "blue": "20",
+        "alpha": "FC"
+      },
+      "minY": 10,
+      "maxY": 15,
+      "playerTeleportedMinY": 100,
+      "playerTeleportedMaxY": 120,
+      "spawnChance": 0.03,
+      "spawnDimension": "blue_skies:everdawn",
+      "targetDimension": "minecraft:the_nether",
+      "spawnPlatformBlock": "minecraft:netherrack"
+    },
+	{
+      "blockSelector": {
+        "entries": {
+          "blue_skies:crystal_sand": 0.1,
+          "blue_skies:lunar_mud": 0.05,
+          "blue_skies:lunar_stone": 0.7,
+          "blue_skies:raw_moonstone": 0.05, 
+          "blue_skies:crystallized_wood": 0.1
+        },
+        "defaultBlock": "minecraft:cave_air"
+      },
+      "fluidColor": {
+        "red": "A7",
+        "green": "58",
+        "blue": "5F",
+        "alpha": "FF"
+      },
+      "minY": 90,
+      "maxY": 100,
+      "playerTeleportedMinY": 50,
+      "playerTeleportedMaxY": 90,
+      "spawnChance": 0.002,
+      "spawnDimension": "blue_skies:everbright",
+      "targetDimension": "blue_skies:everdawn",
+      "spawnPlatformBlock": "blue_skies:lunar_stone"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "flower": "mysticalagriculture:enderman_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "traits": ["ender"],
+  "baseLayerTexture": "tier4/ender_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#339786",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:ender_pearl",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:enderman_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

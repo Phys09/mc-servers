@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:nether_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier2/nether_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#7e210d",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:nether_essence",
+    "mainOutputCount": 8
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:nether_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

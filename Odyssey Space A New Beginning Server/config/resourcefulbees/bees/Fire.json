@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:fire_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier1/fire_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#b65860",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:fire_essence",
+    "mainOutputCount": 8
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:fire_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

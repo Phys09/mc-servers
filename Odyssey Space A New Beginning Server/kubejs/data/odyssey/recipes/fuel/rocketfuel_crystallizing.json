@@ -1,0 +1,11 @@
+{
+	"type": "mekanism:crystallizing",
+	"chemicalType": "gas",
+	"input": {
+		"amount": 250,
+		"gas": "kubejs:fuel_gas"
+	},
+	"output": {
+		"item": "futurepack:ingot_bitripentium"
+	}
+}

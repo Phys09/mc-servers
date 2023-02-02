@@ -1,0 +1,102 @@
+{
+	"mysticalagriculture:chicken":{
+		"name": "Charger",
+		"entities":{
+			"add":[
+				"aoa3:sea_charger",
+				"aoa3:snow_charger",
+				"aoa3:void_charger",
+				"aoa3:hill_charger",
+				"aoa3:charger"
+			]
+		},
+		"color":"cb9634"
+	},	
+	"mysticalagriculture:pig":{
+		"name": "Hoglin/Piglin",
+		"entities":{
+			"add":[
+				"minecraft:hoglin",
+				"minecraft:zoglin",
+				"minecraft:piglin"
+			]
+		}
+	},
+	
+	"mysticalagriculture:cow":{
+		"name": "Azulfo",
+		"entities":{
+			"add":[
+				"blue_skies:azulfo"
+			]
+		}
+	},
+	
+	"mysticalagriculture:sheep":{
+		"name": "Ram",
+		"entities":{
+			"add":[
+				"blue_skies:stardust_ram"
+			]
+		}
+	},
+	
+	"mysticalagriculture:zombie":{
+		"name": "Husks",
+		"entities":{
+			"add":[
+				"minecraft:husk"
+			]
+		}
+	},
+	
+	"mysticalagriculture:spider":{
+		"entities":{
+			"add":[
+				"blue_skies:venom_spider", 
+				"blue_skies:infested_swarmer"
+			]
+		}
+	},
+	
+	"mysticalagriculture:creeper":{
+		"entities":{
+			"add":[
+				"aoa3:bone_creeper", 
+				"aoa3:cave_creeper",
+				"aoa3:creeperlock",
+				"aoa3:creepird",
+				"aoa3:creepuple",
+				"aoa3:creep_cow",
+				"aoa3:host",
+				"aoa3:king_creeper",
+				"aoa3:magical_creeper",
+				"aoa3:winged_creeper"				
+			]
+		}
+	},
+	
+	"mysticalagriculture:skeleton":{
+		"entities":{
+			"add":[
+				"aoa3:skeletal_cowman"
+			]
+		}
+	},
+	
+	"mysticalagriculture:fish": {
+		"enabled": false
+	},
+	"mysticalagriculture:squid": {
+		"enabled": false
+	},
+	"mysticalagriculture:slime": {
+		"enabled": false
+	},
+	"mysticalagriculture:turtle": {
+		"enabled": false
+	},
+	"mysticalagriculture:rabbit": {
+		"enabled": false
+	}
+}

@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_combustion",
+  "fuel": {"raw:item": "minecraft:magma_block"},
+  "energy": 400000
+}

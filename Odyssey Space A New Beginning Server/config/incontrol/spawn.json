@@ -1,0 +1,296 @@
+[
+	
+	{
+		"mob": [
+			"aoa3:gleaming_pixon"
+		],
+		"random": 0.85,
+		"result": "deny"
+	},
+	{
+		"mob": [
+			"aoa3:ambient_pixon"
+		],
+		"random": 0.95,
+		"result": "deny"
+	},	
+	{
+		"mob": [
+			"aoa3:void_charger", 
+			"aoa3:glistening_pixon",
+			"aoa3:gleaming_pixon",
+			"aoa3:ambient_pixon"
+		],
+		"seesky": true,
+		"result": "allow"
+	},
+	{
+		"mob": [
+			"aoa3:chimera",
+			"aoa3:furlion",
+			"aoa3:sand_golem",
+			"aoa3:muckopede"
+		],
+		"seesky": true,
+		"result": "allow"
+	},
+	{
+		"mob": [
+			"aoa3:bush_baby",
+			"aoa3:bugeye",
+			"aoa3:goblin",
+			"aoa3:dead_tree"
+		],
+		"seesky": true,
+		"result": "allow"
+	},
+	{
+		"mob": [
+			"aoa3:chimera",
+			"aoa3:furlion",
+			"aoa3:sand_golem",
+			"aoa3:muckopede"
+		],
+		"result": "deny"
+	},
+	{
+		"mob": [
+			"aoa3:bush_baby",
+			"aoa3:bugeye",
+			"aoa3:goblin",
+			"aoa3:dead_tree"
+		],
+		"result": "deny"
+	},
+	{
+		"mob": [
+			"aoa3:sea_charger",
+			"aoa3:snow_charger"
+		],
+		"seesky": true,
+		"result": "allow"
+	},
+	{
+		"mob": [
+			"aoa3:void_walker",
+			"aoa3:mother_void_walker"
+		],
+		"seesky": false,
+		"maxheight":40,
+		"result": "allow"
+	},
+	{
+		"mob": [
+			"aoa3:pincher"
+		],
+		"biome": ["blue_skies:moonlit_reservoir","blue_skies:unorthodox_valley"],
+		"result": "allow"
+	},
+	{
+		"mob": [
+			"aoa3:hill_charger"
+		],
+		"biome": ["blue_skies:crescent_orchard","blue_skies:crescent_orchard_lake"],
+		"seesky": true,
+		"result": "allow"
+	},
+	{
+		"mob": [
+			"aoa3:charger"
+		],
+		"biome": ["blue_skies:sunset_maple_forest"],
+		"seesky": true,
+		"result": "allow"
+	},
+	{
+		"mob": [
+			"minecraft:husk"
+		],
+		"biome": ["minecraft:soul_sand_valley"],
+		"result": "allow"
+	},
+	{
+		"mob": [
+			"minecraft:husk"
+		],
+		"result": "deny"
+	},
+	{
+		"mob": [
+			"aoa3:ice_giant"
+		],
+		"biome": ["blue_skies:brightlands", "blue_skies:snow_covered_pines"],
+		"seesky": true,
+		"result": "allow"
+	},
+	{
+		"mob": [
+			"blue_skies:venom_spider", "blue_skies:infested_swarmer", "blue_skies:emberback"
+		],
+		"mintime": 0,
+		"maxtime": 16000,
+		"result": "deny"
+	}, 
+	{
+		"dimension":"minecraft:the_nether",
+		"random":0.4,
+		"hostile":true,
+		"result":"deny"
+	}, 
+	{
+		"mob":"aoa3:corrupted_traveller",
+		"structure":"blue_skies:village",
+		"seesky":true,
+		"result":"allow"
+	},
+	{
+		"mob":"aoa3:assassin",
+		"structure":"blue_skies:poison_dungeon",
+		"seesky":true,
+		"result":"allow"
+	},
+	{
+		"mob":"aoa3:naturalist",
+		"structure":"blue_skies:nature_dungeon",
+		"seesky":true,
+		"result":"allow"
+	},
+	{
+		"mob":["aoa3:lottoman","aoa3:hauling_master"],
+		"seesky":true,
+		"result":"allow"
+	},
+	{
+		"mob":["aoa3:corrupted_traveller","aoa3:naturalist","aoa3:assassin","aoa3:lottoman","aoa3:hauling_master"],
+		"result":"deny"
+	},
+	{
+		"mod":"aoa3",
+		"structure":"blue_skies:everbright_blinding_dungeon",
+		"result": "deny"
+	},
+	{
+		"mod":"aoa3",
+		"structure":"blue_skies:everdawn_blinding_dungeon",
+		"result": "deny"
+	},
+	{
+		"mod":"aoa3",
+		"structure":"blue_skies:nature_dungeon",
+		"result": "deny"
+	},
+	{
+		"mod":"aoa3",
+		"structure":"blue_skies:poison_dungeon",
+		"result": "deny"
+	},
+	{
+		"mob":["minecraft:zombie","minecraft:creeper","minecraft:enderman","minecraft:spider","minecraft:witch"],
+		"dimension":["futurepack:menelaus"],
+		"result": "deny"
+	},
+	{
+		"mob":["minecraft:creeper","minecraft:enderman","minecraft:witch", "minecraft:skeleton"],
+		"dimension":["futurepack:tyros"],
+		"result": "deny"
+	},
+	{
+		"mod":"aoa3",
+		"dimension": ["aoa3:crystevia", "aoa3:deeplands"],
+		"minheight": 120,
+		"onjoin":true,
+		"result": "deny"
+	},
+	
+	{
+		"mob":"aoa3:realmshifter",
+		"dimension":["minecraft:overworld"],
+		"onjoin": true,
+		"seesky":true,
+		"result": "allow"
+		
+	},	
+	{
+		"mod":"aoa3",
+		"dimension": ["minecraft:overworld"],
+		"onjoin":true,
+		"result": "deny"
+	},
+	{
+		"dimensionmod":"aoa3",
+		"onjoin":true,
+		"hostile":true,
+		"random":0.75,
+		"result":"deny"
+	},
+	{
+		"dimension":"aoa3:crystevia",
+		"mob":"minecraft:villager",
+		"nbt":{
+			"VillagerData":{
+				"profession":"mason",
+				"level":3,
+				"type": "taiga"
+			},
+			"Invulnerable":1,
+			"PersistenceRequired":1
+		},
+		"customname":"Dr. Minekampf"		
+	},	
+	{
+		"dimension":"aoa3:shyrelands",
+		"mob":"minecraft:villager",
+		"nbt":{
+			"VillagerData":{
+				"profession":"cleric",
+				"level":3,
+				"type": "snow"
+			},
+			"Invulnerable":1,
+			"PersistenceRequired":1
+		},
+		"customname":"Ms. Schuster"		
+	},
+	{
+		"dimension":"aoa3:gardencia",
+		"mob":"minecraft:villager",
+		"nbt":{
+			"VillagerData":{
+				"profession":"weaponsmith",
+				"level":3,
+				"type": "savannah"
+			},
+			"Invulnerable":1,
+			"PersistenceRequired":1
+		},
+		"customname":"The Sargeant"		
+	},
+	{
+		"dimension":"aoa3:haven",
+		"mob":"minecraft:villager",
+		"nbt":{
+			"VillagerData":{
+				"profession":"farmer",
+				"level":3,
+				"type": "swamp"
+			},
+			"Invulnerable":1,
+			"PersistenceRequired":1
+		},
+		"customname":"Dr. Felloway"		
+	},
+	{
+		"dimension":"aoa3:runandor",
+		"mob":"minecraft:villager",
+		"nbt":{
+			"VillagerData":{
+				"profession":"armorer",
+				"level":3,
+				"type": "jungle"
+			},
+			"Invulnerable":1,
+			"PersistenceRequired":1
+		},
+		"customname":"Mr. Michaels"		
+	}
+]

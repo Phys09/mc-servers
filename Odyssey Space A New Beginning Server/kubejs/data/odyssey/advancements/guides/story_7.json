@@ -1,0 +1,39 @@
+{
+	"criteria": {
+		"researcher_white": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "futurepack:researcher_white"
+					}
+				]
+			}
+		},
+		"researcher_black": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "futurepack:researcher_black"
+					}
+				]
+			}
+		},
+		"researcher_gray": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "futurepack:researcher_gray"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"researcher_white", "researcher_black", "researcher_gray"
+		]
+	]
+}

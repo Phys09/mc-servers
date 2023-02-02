@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"sand_neon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "futurepack:sand_neon"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"sand_neon"
+		]
+	]
+}

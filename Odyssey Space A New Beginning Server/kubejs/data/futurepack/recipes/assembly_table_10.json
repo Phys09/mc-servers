@@ -1,0 +1,32 @@
+{
+  "type": "futurepack:research_shaped",
+  "group": "futurepack",
+  "pattern": [
+    "SCS",
+    "OFO",
+    "PNP"
+  ],
+  "key": {
+    "S": {
+      "item": "mekanism:alloy_reinforced"
+    },
+    "C": {
+      "item": "appliedenergistics2:inscriber"
+    },
+    "O": {
+      "item": "futurepack:coil_iron"
+    },
+    "F": {
+      "item": "futurepack:color_iron_black"
+    },
+    "N": {
+      "item": "appliedenergistics2:logic_processor"
+    },
+	"P": {
+		"item":"futurepack:parts_neon"
+	}
+  },
+  "result": {
+    "item": "futurepack:assembly_table_black"
+  }
+}

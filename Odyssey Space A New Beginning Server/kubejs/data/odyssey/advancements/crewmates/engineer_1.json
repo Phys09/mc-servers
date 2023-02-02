@@ -1,0 +1,19 @@
+{
+	
+	"criteria": {
+		"enter_block_portal": {
+			"trigger": "minecraft:location",
+			"conditions": {
+					"dimension": "aoa3:mysterium"
+			}
+		}
+	},
+	"requirements": [
+		[
+		  "enter_block_portal"
+		]
+	],
+	"rewards": {
+		"function": "odyssey:story/engineer_note1"	
+	}
+}

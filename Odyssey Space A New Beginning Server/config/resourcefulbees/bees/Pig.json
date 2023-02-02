@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:pig_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier2/pig_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#c76a6f",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:porkchop",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:pig_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

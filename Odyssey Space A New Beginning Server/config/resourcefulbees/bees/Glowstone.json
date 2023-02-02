@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:glowstone_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier3/glowstone_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#b9a74d",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:glowstone_dust",
+    "mainOutputCount": 8
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:glowstone_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

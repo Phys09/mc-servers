@@ -1,0 +1,13 @@
+{
+  "name": "Sapphire",
+  "type": "resource",
+  "tier": "mysticalagriculture:3",
+  "ingredient": {
+    "item": "aoa3:sapphire"
+  },
+  "color": "5643ea",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_dust",
+    "essence": "mysticalagriculture:item/essence_gem"
+  }
+}

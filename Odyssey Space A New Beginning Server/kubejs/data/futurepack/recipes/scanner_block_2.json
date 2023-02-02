@@ -1,0 +1,54 @@
+{
+  "type": "futurepack:research_shaped",
+  "group": "futurepack",
+  "pattern": [
+    "CSC",
+    "IMI",
+    "KBK"
+  ],
+  "key": {
+    "C": [
+      {
+        "tag": "forge:gems/neon"
+      },
+      {
+        "tag": "forge:gems/retium"
+      },
+      {
+        "tag": "forge:gems/glowtite"
+      },
+      {
+        "tag": "forge:gems/bioterium"
+      },
+      {
+        "tag": "forge:gems/aluminum"
+      }
+    ],
+    "S": {
+      "item": "kubejs:basic_machine_board"
+    },
+    "I": {
+      "tag": "forge:paper"
+    },
+    "M": [
+	    {
+	      "item": "futurepack:color_iron_white"
+	    },
+	    {"tag": "forge:blocks/iron"}
+    ],
+    "K": {
+      "item": "futurepack:coil_copper"
+    },
+    "B": [
+      {
+        "item": "futurepack:escanner"
+      },
+      {
+        "item": "futurepack:escanner"
+      }
+    ]
+  },
+  "result": {
+    "item": "futurepack:scanner_block_white"
+  }
+}

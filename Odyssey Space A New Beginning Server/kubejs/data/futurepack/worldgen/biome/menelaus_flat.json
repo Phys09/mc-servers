@@ -1,0 +1,217 @@
+{
+	"precipitation": "none",
+	"category": "desert",
+	"depth": 0.5,
+	"scale": 0.08,
+	"temperature": 1.8,
+	"downfall": 0.2,
+	"temperature_modifier": "none",
+	"effects": {
+		"fog_color": 16744243,
+		"-foliage_color": "will be calculated",
+		"-grass_color": "will be calculated",
+		"sky_color": 15623748,
+		"water_color": 8152399,
+		"water_fog_color": 329011,
+		"grass_color_modifier": "none",
+		"-particle": {
+		},
+		"-ambient_sound": "",
+		"-additions_sound": {
+		},
+		"-music": {
+		},
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2.0
+		}
+	},
+	"surface_builder": "futurepack:menelaus_sea_sand_sandstone_gravel",
+	"carvers": {
+		"air": [
+			"futurepack:menelaus_cave",
+			"minecraft:canyon"
+		],
+		"liquid": [
+		]
+	},
+	"features": [
+		[
+		],
+		[
+			"minecraft:lake_lava"
+		],
+		[
+			"futurepack:crater",
+			"futurepack:menelaus_special_dirt"
+		],
+		[
+			
+			
+			"minecraft:monster_room"
+		],
+		[
+			"futurepack:crawler_hive_32"
+		],
+		[
+		],
+		[
+			"minecraft:ore_coal",
+			"minecraft:ore_iron",
+			"minecraft:ore_gold",
+			"minecraft:ore_redstone",
+			"minecraft:ore_diamond",
+			"minecraft:ore_lapis",
+			"minecraft:ore_copper",
+			"minecraft:disk_sand",
+			"minecraft:disk_clay",
+			"minecraft:disk_gravel"	
+		],
+		[
+			"futurepack:mycel"
+		],
+		[
+			"minecraft:flower_default",
+			"minecraft:patch_grass_badlands",
+			"minecraft:patch_dead_bush_2",
+			"minecraft:brown_mushroom_taiga",
+			"minecraft:red_mushroom_taiga",
+			"minecraft:brown_mushroom_normal",
+			"minecraft:red_mushroom_normal",
+			"minecraft:patch_sugar_cane_desert",
+			"minecraft:patch_pumpkin",
+			"minecraft:patch_cactus_desert",
+			"minecraft:spring_water",
+			"minecraft:spring_lava",
+			"futurepack:mendel_berrys",
+			"futurepack:menelaus_special_mushrooms",
+			"futurepack:menelaus_mushrooms"
+		],
+		[
+			"minecraft:freeze_top_layer"
+		]
+	],
+	"starts": [
+	],
+	"spawners": {
+		"monster": [
+			{
+				"type": "futurepack:crawler",
+				"weight": 80,
+				"minCount": 3,
+				"maxCount": 6
+			},
+			{
+				"type": "minecraft:zombie",
+				"weight": 19,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:zombie_villager",
+				"weight": 1,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			{
+				"type": "minecraft:skeleton",
+				"weight": 100,
+				"minCount": 4,
+				"maxCount": 6
+			},
+			{
+				"type": "minecraft:creeper",
+				"weight": 100,
+				"minCount": 4,
+				"maxCount": 6
+			},
+			{
+				"type": "minecraft:slime",
+				"weight": 100,
+				"minCount": 4,
+				"maxCount": 6
+			},
+			{
+				"type": "minecraft:enderman",
+				"weight": 10,
+				"minCount": 1,
+				"maxCount": 8
+			},
+			{
+				"type": "minecraft:witch",
+				"weight": 5,
+				"minCount": 1,
+				"maxCount": 1
+			},
+			{
+				"type": "minecraft:husk",
+				"weight": 80,
+				"minCount": 4,
+				"maxCount": 6
+			}
+		],
+		"creature": [
+			{
+				"type": "minecraft:rabbit",
+				"weight": 4,
+				"minCount": 2,
+				"maxCount": 3
+			},
+			{
+				"type": "futurepack:wolba",
+				"weight": 12,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:pig",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:chicken",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "futurepack:gehuf",
+				"weight": 12,
+				"minCount": 4,
+				"maxCount": 8
+			},
+			{
+				"type": "futurepack:heuler",
+				"weight": 8,
+				"minCount": 4,
+				"maxCount": 12
+			},
+			{
+				"type": "futurepack:jawaul",
+				"weight": 5,
+				"minCount": 2,
+				"maxCount": 6
+			}
+		],
+		"ambient": [
+			{
+				"type": "minecraft:bat",
+				"weight": 10,
+				"minCount": 8,
+				"maxCount": 8
+			}
+		],
+		"water_creature": [
+		],
+		"water_ambient": [
+		],
+		"misc": [
+		]
+	},
+	"player_spawn_friendly": true,
+	"-parent": "",
+	"spawn_costs": {}
+}

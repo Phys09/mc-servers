@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:aquamarine_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier3/aquamarine_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#57a4b5",
+    "modelType": "CROP"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:aquamarine_essence",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:aquamarine_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

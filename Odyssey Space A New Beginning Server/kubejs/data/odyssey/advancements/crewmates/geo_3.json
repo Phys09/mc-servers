@@ -1,0 +1,19 @@
+{
+  
+  "criteria": {
+    "enter_block_crystevia_portal": {
+      "trigger": "minecraft:location",
+      "conditions": {
+			"dimension": "aoa3:crystevia"
+		}
+    }
+  },
+  "requirements": [
+    [
+      "enter_block_crystevia_portal"
+    ]
+  ],
+	"rewards": {
+		"function": "odyssey:story/geo_note3"	
+	}
+}

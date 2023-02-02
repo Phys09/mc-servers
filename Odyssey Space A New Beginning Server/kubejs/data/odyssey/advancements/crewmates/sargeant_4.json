@@ -1,0 +1,30 @@
+{
+	"criteria": {
+		"click_on_villager": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:villager",
+					"nbt": "{CustomName:'{\"text\":\"The Sargeant\"}'}"					
+				}
+			}
+		},
+		"be_in_gardencia": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"dimension": "aoa3:gardencia"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"click_on_villager"
+		],
+		[
+			"be_in_gardencia"
+		]
+	],
+	"rewards": {
+		"function": "odyssey:story/sargeant_note4"
+	}
+}

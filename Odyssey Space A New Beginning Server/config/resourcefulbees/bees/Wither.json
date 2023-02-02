@@ -1,0 +1,26 @@
+{
+  "flower": "mysticalagriculture:wither_skeleton_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "wither/wither_bee",
+  "traits": ["nether", "wither"],
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#444444",
+	"modelType": "WITHER"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:wither_skeleton_essence",
+    "mainOutputCount": 4
+  },
+  "SpawnData": {},
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem": "mysticalagriculture:wither_skeleton_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

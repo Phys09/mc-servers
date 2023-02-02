@@ -1,0 +1,11 @@
+{
+	"type": "mekanism:enriching",
+	"input": {
+		"ingredient": {
+			"item": "aoa3:glistening_infusion_stone"
+		}
+	},
+	"output": {
+		"item": "aoa3:ambient_infusion_stone"
+	}
+}

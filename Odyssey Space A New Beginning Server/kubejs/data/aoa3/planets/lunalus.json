@@ -1,0 +1,5 @@
+{
+	"texture": "aoa3:textures/gui/realmstonegui/worlds/lunalus.png",
+	"name": "Lunalus",
+	"upgrades": ["drive.FTL"]
+}

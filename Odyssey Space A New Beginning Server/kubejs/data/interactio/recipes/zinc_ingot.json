@@ -1,0 +1,21 @@
+{
+	"type":"interactio:item_fluid_transform",
+	"inputs":[
+		{
+			"item":"blue_skies:ventium_ingot",
+			"count":1
+		},
+		{
+			"item":"mysticalagriculture:prosperity_ingot",
+			"count":1
+		}
+	],
+	"fluid":{
+		"fluid":"integrateddynamics:menril_resin"
+	},
+	"output":{
+		"item":"futurepack:ingot_zinc",
+		"count":2
+	},
+	"consume_fluid":1.0
+}

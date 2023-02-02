@@ -1,0 +1,19 @@
+{
+	"name":"Techtable",
+	"icon":"futurepack:techtable",
+	"category":"patchouli:research",
+	"pages":[
+		{
+			"type":"quest_image",
+			"textHeader":"Techtable",
+			"itemToFind":"futurepack:techtable"
+		},
+		{
+			"type": "patchouli:quest",
+			"title": "Techtable",
+			"text":"The techtable is an upgraded crafting table. It will store items in the grid and has an internal storage for quick recipe crafting. Be careful when SHIFT crafting stacks as it will pull from your inventory and its internal inventory."
+		}
+	],
+	"sortnum":1
+}
+

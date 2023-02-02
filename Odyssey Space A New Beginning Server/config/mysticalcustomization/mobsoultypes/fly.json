@@ -1,0 +1,10 @@
+{
+  "name": "Fly",
+  "souls": 4,
+  "entities": [
+	"blue_skies:nyctofly",
+	"blue_skies:emberback",
+	"blue_skies:firefly"
+  ],
+  "color": "72e2f8"
+}

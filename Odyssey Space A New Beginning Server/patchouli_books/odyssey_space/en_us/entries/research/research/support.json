@@ -1,0 +1,28 @@
+{
+	"name":"Support",
+	"icon":"futurepack:aiflash0",
+	"category":"patchouli:research",
+	"pages":[
+		{
+			"type":"quest_image",
+			"textHeader":"Support",
+			"itemToFind":"futurepack:aiflash0,futurepack:aiflash1,futurepack:aiflash2,futurepack:aiflash3,futurepack:aiflash4,futurepack:aiflash5,futurepack:flash_server_black"
+		},
+		{
+			"type": "patchouli:quest",
+			"title": "Support",
+			"text":"Some machines are equipped with Artificial Intelligence which allows them to analyze their own processes to determine their own efficiency.$(br2)These data sets, known as Support Points, can be used in other machines to create more intelligent machinery."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "Support",
+			"text":"Support points are stored in flash drives or transported via support cables. $(br2)Flash drives can either be loaded with SP in the machines themselves or you can create a $(thing)Flash Server$() which can hold 4 flash drives and connect SP producing and using machines to them."
+		},
+		{
+			"type": "patchouli:empty", 
+			"draw_filler":false
+		}
+	],
+	"sortnum":6
+}
+

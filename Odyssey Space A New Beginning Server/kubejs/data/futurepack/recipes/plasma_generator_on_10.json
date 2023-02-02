@@ -1,0 +1,29 @@
+{
+  "type": "futurepack:maschin_shaped",
+  "group": "futurepack",
+  "pattern": [
+    "NON",
+    "IFI",
+    "NMN"
+  ],
+  "key": {
+    "M": {
+      "item": "futurepack:maschineboard"
+    },
+    "I": {
+      "item": "aoa3:glistening_infusion_stone"
+    },
+    "O": {
+      "item": "mekanism:metallurgic_infuser"
+    },
+    "N": {
+      "item": "futurepack:coil_neon"
+    },
+    "F": {
+      "item": "futurepack:color_iron_black"
+    }
+  },
+  "result": {
+    "item": "futurepack:infusion_generator_black"
+  }
+}

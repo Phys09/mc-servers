@@ -1,0 +1,19 @@
+{
+	
+	"criteria": {
+		"be_in_lotto_hut": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "aoa3:deep_lotto_shelter"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"be_in_lotto_hut"
+		]
+	],
+	"rewards": {
+		"function": "odyssey:story/geo_note2"	
+	}	
+}

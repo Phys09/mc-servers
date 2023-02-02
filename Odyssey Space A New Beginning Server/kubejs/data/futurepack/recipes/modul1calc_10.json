@@ -1,0 +1,32 @@
+{
+  "type": "futurepack:maschin_shaped",
+  "group": "futurepack",
+  "pattern": [
+    "CKC",
+    "PFP",
+    "AMA"
+  ],
+  "key": {
+    "K": {
+      "item": "futurepack:extern_cooler"
+    },
+    "C": {
+      "item": "futurepack:wire_normal"
+    },
+    "A": {
+      "item": "mekanism:alloy_atomic"
+    },
+    "F": {
+      "item": "futurepack:color_iron_black"
+    },
+    "M": {
+      "item": "futurepack:double_maschineboard"
+    },
+    "P": {
+      "item": "appliedenergistics2:calculation_processor"
+    }
+  },
+  "result": {
+    "item": "futurepack:modul_1_calculation_black"
+  }
+}

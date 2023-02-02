@@ -1,0 +1,30 @@
+{
+	"criteria": {
+		"click_on_villager": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:villager",
+					"nbt": "{CustomName:'{\"text\":\"Mr. Michaels\"}'}"
+				}
+			}
+		},
+		"be_in_runandor": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"dimension": "aoa3:runandor"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"click_on_villager"
+		],
+		[
+			"be_in_runandor"
+		]
+	],
+	"rewards": {
+		"function": "odyssey:story/engineer_note3"
+	}
+}

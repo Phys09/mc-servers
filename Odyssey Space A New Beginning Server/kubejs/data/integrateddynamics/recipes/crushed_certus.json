@@ -1,0 +1,13 @@
+{
+  "type": "integrateddynamics:squeezer",
+  "item": {
+    "item": "appliedenergistics2:certus_quartz_crystal"
+  },
+  "result": {
+    "items": [
+      {
+        "item": "appliedenergistics2:certus_quartz_dust"
+      }
+    ]
+  }
+}

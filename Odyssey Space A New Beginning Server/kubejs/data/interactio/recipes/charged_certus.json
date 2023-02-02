@@ -1,0 +1,17 @@
+{
+	"type":"interactio:item_fluid_transform",
+	"inputs":[
+		{
+			"item":"appliedenergistics2:certus_quartz_crystal",
+			"count":1
+		}
+	],
+	"fluid":{
+		"fluid":"futurepack:neon"
+	},
+	"output":{
+		"item":"appliedenergistics2:charged_certus_quartz_crystal",
+		"count":1
+	},
+	"consume_fluid":1.0
+}

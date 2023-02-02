@@ -1,0 +1,18 @@
+{
+	"name":"Protocols",
+	"icon":"futurepack:crafting_recipe",
+	"category":"patchouli:the_story",
+	"pages":[
+		{
+			"type": "patchouli:text",			
+			"text": "$(o)Protocol 20. For the safety and security of Overworld, in the event that the navigations systems could be compromised, the coordinates of Overworld are to be deleted from the system and dispersed amung the crew.$()$(br2)It takes 7 points to pinpoint a location in space. The scrub algorithm deletes those coordinates and downloads them to individual datacoms."
+		},
+		{
+			"type":"patchouli:text",
+			"text":"$(br)$(o)Protocol 7. For the safety and security of Overworld, in the event that personnel are stranded in unknown territories, they will use the interstellar broadcast system to alert nearby Overworld ships to your position. DO NOT ATTEMPT TO RETURN TO OVERWORLD.$()$(br2)I've enacted Protocal 20, as a precaution, and have briefed the scientists on both Protocol 7 and 20."
+		}			
+	],
+	"advancement":"odyssey:guides/story_5",
+	"sortnum":5
+}
+

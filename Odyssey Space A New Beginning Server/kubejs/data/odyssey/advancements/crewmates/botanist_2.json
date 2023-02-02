@@ -1,0 +1,21 @@
+{
+	
+	"criteria": {
+		"find_portal": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"location":{
+					"dimension": "aoa3:haven"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+		  "find_portal"
+		]
+	],
+	"rewards": {
+		"function": "odyssey:story/botanist_note2"	
+	}
+}

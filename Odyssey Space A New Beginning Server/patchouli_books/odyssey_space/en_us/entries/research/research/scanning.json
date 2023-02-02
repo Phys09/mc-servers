@@ -1,0 +1,52 @@
+{
+	"name":"Scanning",
+	"icon":"futurepack:research_blueprint",
+	"category":"patchouli:research",
+	"pages":[
+		{
+			"type": "patchouli:text",
+			"text":"Scanning is the process of applying aggregate knowledge in a certain field to ascertain new technological developments. Scanning is limited to 12 fields of study or aspects (green). $(br2)Place an item to scan, like the Techtable, in the top left (blue) and select an aspect to scan the item with that knowledge. Up to 6 aspects can be selected for any scan."
+		},
+		{
+			"type":"image",
+			"images":["odyssey:textures/book/scanner.png"]
+		},
+		{
+			"type": "patchouli:text",
+			"text":"If an aspect/knowledge was successful at determining new technology, a research blueprint is created.(orange) These will be processed in a Researcher. $(br2)The scanner will offer hints to the degree of success of the selected aspects. Scroll through the images at the right to see each icon's meaning.$(br2)Place the Techtable in the item slot and scan it, applying knowledge of Thermodynamics."
+		},
+		{
+			"type":"image",
+			"images":["odyssey:textures/book/scanner_1.png","odyssey:textures/book/scanner_2.png","odyssey:textures/book/scanner_3.png","odyssey:textures/book/scanner_4.png","odyssey:textures/book/scanner_5.png","odyssey:textures/book/scanner_6.png"]
+		},
+		{
+			"type": "patchouli:text",
+			"text":"The yellow bar below the item (yellow) is a guage to help determine how many blueprints are left to discover. When the bar is filled, no more blueprints can be found.$(br2)You can click on the e-scanner icon (black) next to the blueprint output to pull up the tech tree.$(br2)HINT: Once a blueprint has been researched in the Researcher, the aspects used to create that blueprint will no longer produce a blueprint."
+		},
+		{
+			"type":"image",
+			"images":["odyssey:textures/book/scanner.png"]
+		},
+		{
+			"type": "patchouli:quest",
+			"title": "Scanning",
+			"text":"Click below to check off the task for reading about the Scanner"
+		},
+		{
+			"type": "patchouli:text",
+			"text":"$(br2)$(br2)$(c)THE NEXT PAGE CONTAINS SPOILERS ON THE RESEARCH SYSTEM. READ AT YOUR OWN RISK.$()"
+		},		
+		{
+			"type": "patchouli:text",
+			"title": "My Personal System",
+			"text":"I start at the top and select one aspect at a time until I either get a star or a puzzle.$(br2)If its a star, I will stop and research the blueprint. Then, I will scan the item using that aspect again to check for a puzzle.$(br2)If I get a puzzle, I will leave that aspect selected and continue down the aspects."
+		},
+		{
+			"type": "patchouli:text",
+			"title": "My Personal System",
+			"text":"This process repeats until I find them all. $(br2)Each star, stop and research. $(br2)Each puzzle piece, leave aspect(s) selected and continue down the list. $(br2)I also find a notepad and a 1 - 12 numbering system helpful."
+		}
+	],
+	"sortnum":2
+}
+

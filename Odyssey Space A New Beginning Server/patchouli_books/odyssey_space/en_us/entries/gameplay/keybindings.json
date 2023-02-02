@@ -1,0 +1,18 @@
+{
+	"name":"Key Bindings",
+	"icon":"minecraft:compass",
+	"category":"patchouli:gameplay",
+	"pages":[
+		{
+			"type": "patchouli:text",			
+			"text": "I have removed many of the default keybindings to allow you to customize them to your liking and gameplay. $(br2)Why have so many keys tied to Mekanism's armor if I'm not going to wear the armor.$(br2)I have set the settings for JourneyMap and JEI and I highly advised setting the keybindings for mods as you need them."
+		},
+		{
+			"type":"patchouli:text",
+			"title":"Keybindings",
+			"text":"Keybindings are set my hitting $(thing)ESC$() then selecting $(thing)Options$() then $(thing)Controls$(). To set a keybinding, click the button next to the action. The next button you press will be what it binds that action to. $(br2)I suggest adding keybindings to AoA3 and Corail Tombstone (GRAVE key is a nice one for Tombstone!!)"
+		}
+	],
+	"sortnum":2
+}
+

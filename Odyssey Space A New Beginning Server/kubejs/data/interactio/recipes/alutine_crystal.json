@@ -1,0 +1,17 @@
+{
+	"type":"interactio:item_fluid_transform",
+	"inputs":[
+		{
+			"item":"blue_skies:moonstone_crystal",
+			"count":1
+		}
+	],
+	"fluid":{
+		"fluid":"astralsorcery:liquid_starlight"
+	},
+	"output":{
+		"item":"futurepack:crystal_alutin",
+		"count":1
+	},
+	"consume_fluid":0.5
+}

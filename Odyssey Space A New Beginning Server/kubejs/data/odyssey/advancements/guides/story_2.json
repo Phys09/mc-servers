@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"horizonite_ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "blue_skies:horizonite_ore"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"horizonite_ore"
+		]
+	]
+}

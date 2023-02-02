@@ -1,0 +1,18 @@
+{
+	"name":"Abandon Ship",
+	"icon":"futurepack:crafting_recipe",
+	"category":"patchouli:the_story",
+	"pages":[
+		{
+			"type": "patchouli:text",			
+			"text": "I ordered the crew to abandon ship. I was able to get the nav-coms to calculate a planet near the edge of this system. Maybe if our assailant thinks we are dead, it might provide us and advantage, should we make it out of this. "
+		},
+		{
+			"type":"patchouli:text",
+			"text":"I instructed Mr. Michaels to destroy our thrusters, create enough smoke to mask the ejection of the escape pods. Once the smoke was at the needed levels, I made sure the scientists were ejected. Then Ms. Shuster, The Sargeant and Mr. Michaels.$(br2)I knew, it would be a close call, and launched my own pod."
+		}		
+	],
+	"advancement":"odyssey:guides/story_7",
+	"sortnum":7
+}
+

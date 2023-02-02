@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:certus_quartz_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier3/certus_quartz_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#c7dbec",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "appliedenergistics2:certus_quartz_crystal",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:certus_quartz_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

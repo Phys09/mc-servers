@@ -1,0 +1,136 @@
+[
+	{
+		"mob": [
+			"aoa3:mechyon"
+		],
+		"player": true,
+		"random": 0.3,
+		"item": "futurepack:spacecoordinats/{display: {Name: '{\"text\":\"Overworld Coordinate #3\"}'}}"
+	},
+	{
+		"mob": [
+			"aoa3:dracyon"
+		],
+		"player": true,
+		"item": "futurepack:spacecoordinats/{display: {Name: '{\"text\":\"Overworld Coordinate #4\"}'}}"
+	},
+	{
+		"mob": [
+			"blue_skies:crystal_camel",
+			"blue_skies:crogre"
+		],
+		"player": true,
+		"random": 0.7,
+		"item": "kubejs:tongue"
+	},
+	{
+		"mob": "blue_skies:azulfo",
+		"player": true,
+		"random": 0.25,
+		"item": "mysticalagriculture:cow_essence"
+	},
+	{
+		"mob": [
+			"minecraft:hoglin",
+			"minecraft:piglin"
+		],
+		"player": true,
+		"random": 0.50,
+		"item": "mysticalagriculture:pig_essence"
+	},
+	{
+		"mob": [
+			"aoa3:void_charger",
+			"aoa3:hill_charger",
+			"aoa3:snow_charger"
+		],
+		"player": true,
+		"random": 0.1,
+		"item": "mysticalagriculture:chicken_essence"
+	},
+	{
+		"mob": [
+			"blue_skies:stardust_ram"
+		],
+		"player": true,
+		"random": 0.30,
+		"item": "mysticalagriculture:sheep_essence"
+	},
+	{
+		"mob": [
+			"minecraft:ghast"
+		],
+		"player": true,
+		"random": 0.8,
+		"item": "mysticalagriculture:ghast_essence"
+	},
+	{
+		"mob": [
+			"minecraft:blaze"
+		],
+		"player": true,
+		"random": 0.5,
+		"item": "mysticalagriculture:blaze_essence"
+	},
+	{
+		"mob": [
+			"minecraft:enderman"
+		],
+		"player": true,
+		"random": 0.5,
+		"item": "mysticalagriculture:enderman_essence"
+	},
+	{
+		"mob": [
+			"minecraft:wither_skeleton"
+		],
+		"player": true,
+		"random": 0.5,
+		"item": "mysticalagriculture:wither_skeleton_essence"
+	},
+	{
+		"mob": [
+			"minecraft:husk"
+		],
+		"player": true,
+		"random": 0.25,
+		"item": "mysticalagriculture:zombie_essence"
+	},
+	{
+		"mob": [
+			"minecraft:skeleton"
+		],
+		"player": true,
+		"random": 0.25,
+		"item": "mysticalagriculture:skeleton_essence"
+	},
+	{
+		"mob": [
+			"minecraft:creeper",
+			"aoa3:bone_creeper", 
+			"aoa3:cave_creeper",
+			"aoa3:creeperlock",
+			"aoa3:creepird",
+			"aoa3:creepuple",
+			"aoa3:creep_cow",
+			"aoa3:host",
+			"aoa3:king_creeper",
+			"aoa3:magical_creeper",
+			"aoa3:winged_creeper"
+		],
+		"player": true,
+		"random": 0.30,
+		"item": "mysticalagriculture:skeleton_essence"
+	},
+	{
+		"mob": [
+			"minecraft:spider",
+			"blue_skies:venom_spider", 
+			"blue_skies:infested_swarmer"
+		],
+		"player": true,
+		"random": 0.30,
+		"item": "mysticalagriculture:spider_essence"
+	}
+	
+]

@@ -1,0 +1,5 @@
+{
+  "generator": "simplegens:simple_tnt",
+  "fuel": {"raw:item": "minecraft:fire_charge"},
+  "energy": 68000
+}

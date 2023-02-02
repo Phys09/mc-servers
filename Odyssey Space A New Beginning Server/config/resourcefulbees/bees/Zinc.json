@@ -1,0 +1,25 @@
+{
+  "flower": "mysticalagriculture:zinc_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "tier3/zinc_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#506490",
+    "modelType": "ORE"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "futurepack:ingot_zinc",
+    "mainOutputCount": 2
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem":"mysticalagriculture:zinc_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

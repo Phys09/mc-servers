@@ -1,0 +1,26 @@
+{
+	"name":"The Genosians",
+	"icon":"futurepack:crafting_recipe",
+	"category":"patchouli:the_story",
+	"pages":[
+		{
+			"type": "patchouli:text",			
+			"text": "The talks were going quite well. It seems that our advancements in using botanical organisms to create geological materials was of great interest to their growing society. $(br2)They have effectively used up all their planet's resourcese with no means to produce more."
+		},
+		{
+			"type":"patchouli:text",
+			"text":"$(br)Even though our technology could greatly improve their standard of living, there were still some who opposed the idea, claiming that they don't need primitive races to contribute to their budding technological superiority. $(br2)I must agree that they are superior. They found a new source of energy, neon, which is far superior to our RF."
+		},
+		{
+			"type":"patchouli:text",
+			"text":"$(br)Strictly speaking, their spacecrafts are more maneuverable and can support heavier artillery as neon energy doesn't need all the processing space as RF.$(br2) Mr. Michaels, our engineer, has been given a tablet, an E-Scanner, which contains the journal of their lead scientist. Mr. Michaels said it can prove very useful in augmenting and improving our own ships."
+		},
+		{
+			"type": "patchouli:empty",
+			"draw_filler":false
+		}			
+	],
+	"advancement":"odyssey:guides/story_3",
+	"sortnum":3
+}
+

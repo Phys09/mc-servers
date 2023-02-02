@@ -1,0 +1,19 @@
+{
+	"name":"Research Modules",
+	"icon":"futurepack:modul_1_black",
+	"category":"patchouli:research",
+	"pages":[
+		{
+			"type":"quest_image",
+			"textHeader":"Research Modules",
+			"itemToFind":"futurepack:modul_1_black,futurepack:modul_2_white,futurepack:modul_3_gray"
+		},
+		{
+			"type": "patchouli:quest",
+			"title": "Research Modules",
+			"text":"In order for the Researcher to use Energy, Support or Experience for a blueprint, a $(item)Research Module$() for that specific input will need to be attached to the Researcher, either directly or through network cables."
+		}
+	],
+	"sortnum":5
+}
+

@@ -1,0 +1,30 @@
+{
+	"criteria": {
+		"click_on_villager": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:villager",
+					"nbt": "{CustomName:'{\"text\":\"Dr. Felloway\"}'}"					
+				}
+			}
+		},
+		"be_in_haven": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"dimension": "aoa3:haven"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"click_on_villager"
+		],
+		[
+			"be_in_haven"
+		]
+	],
+	"rewards": {
+		"function": "odyssey:story/botanist_note3"
+	}
+}

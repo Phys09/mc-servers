@@ -1,0 +1,18 @@
+{
+	"criteria": {
+		"enter_block_portal": {
+			"trigger": "minecraft:location",
+			"conditions": {
+					"dimension": "aoa3:precasia"
+			}
+		}
+	},
+	"requirements": [
+		[
+		  "enter_block_portal"
+		]
+	],
+	"rewards": {
+		"function": "odyssey:story/sargeant"	
+	}
+}

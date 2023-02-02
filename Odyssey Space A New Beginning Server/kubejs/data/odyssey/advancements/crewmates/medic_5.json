@@ -1,0 +1,18 @@
+{
+  "criteria": {
+		"enter_block_portal": {
+			"trigger": "minecraft:location",
+			"conditions": {
+					"dimension": "aoa3:shyrelands"
+			}
+		}
+	},
+	"requirements": [
+		[
+		  "enter_block_portal"
+		]
+	],
+	"rewards": {
+		"function": "odyssey:story/medic_note5"	
+	}
+}

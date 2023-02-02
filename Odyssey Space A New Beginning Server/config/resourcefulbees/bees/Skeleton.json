@@ -1,0 +1,26 @@
+{
+  "flower": "mysticalagriculture:skeleton_crop",
+  "maxTimeInHive": 1800,
+  "hasHoneycomb": true,
+  "baseLayerTexture": "skeleton/skeleton_bee",
+  "ColorData": {
+    "isBeeColored": false,
+    "honeycombColor": "#F6F2E6",
+	"modelType": "SKELETON"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "mysticalagriculture:skeleton_essence",
+    "mainOutputCount": 4
+	
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+	"feedItem": "mysticalagriculture:skeleton_essence",
+	"breedChance":0.40
+  },
+  "TraitData": {}
+}

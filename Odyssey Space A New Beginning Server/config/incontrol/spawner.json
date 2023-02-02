@@ -1,0 +1,306 @@
+[
+	{
+		"mob": [
+			"aoa3:void_charger",
+			"aoa3:hill_charger",
+			"aoa3:charger"
+		],
+		"persecond": 0.5,
+		"attempts": 20,
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"conditions": {
+			"dimension": "blue_skies:everdawn",
+			"maxthis": 15
+		}
+	},
+	{
+		"mob": [
+			"aoa3:chimera",
+			"aoa3:furlion",
+			"aoa3:sand_golem",
+			"aoa3:muckopede"
+		],
+		"persecond": 0.8,
+		"attempts": 20,
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"conditions": {
+			"dimension": "futurepack:menelaus",
+			"maxthis": 20
+		}
+	},
+	{
+		"mob": [
+			"aoa3:bush_baby",
+			"aoa3:bugeye",
+			"aoa3:goblin",
+			"aoa3:dead_tree"
+		],
+		"persecond": 0.8,
+		"attempts": 20,
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"conditions": {
+			"dimension": "futurepack:tyros",
+			"maxthis": 20
+		}
+	},
+	{
+		"mob": [
+			"aoa3:void_walker",
+			"aoa3:mother_void_walker"
+		],
+		"persecond": 0.5,
+		"attempts": 20,
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"conditions": {
+			"dimension": "blue_skies:everdawn",
+			"maxthis": 5
+		}
+	},
+	{
+		"mob": [
+			"aoa3:snow_charger"
+		],
+		"persecond": 0.5,
+		"attempts": 20,
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"conditions": {
+			"dimension": "blue_skies:everbright",
+			"maxthis": 7
+		}
+	},
+	{
+		"mob": [
+			"aoa3:glistening_pixon"
+		],
+		"persecond": 0.5,
+		"attempts": 20,
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"conditions": {
+			"dimension": "blue_skies:everbright",
+			"maxthis": 20
+		}
+	},
+	{
+		"mob": [
+			"aoa3:gleaming_pixon",
+			"aoa3:ambient_pixon"
+		],
+		"persecond": 0.5,
+		"attempts": 25,
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"conditions": {
+			"dimension": "blue_skies:everbright",
+			"maxthis": 5
+		}
+	},
+	{
+		"mob": [
+			"minecraft:husk"
+		],
+		"persecond": 0.5,
+		"attempts": 20,
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"conditions": {
+			"dimension": "minecraft:the_nether",
+			"maxthis": 10
+		}
+	},
+	{
+		"mob": [
+			"aoa3:pincher"
+		],
+		"persecond": 0.5,
+		"attempts": 20,
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"conditions": {
+			"dimension": "blue_skies:everdawn",
+			"inwater": true,
+			"maxthis": 5
+		}
+	},
+	{
+		"mob": [
+			"aoa3:void_walker",
+			"aoa3:mother_void_walker"
+		],
+		"persecond": 0.5,
+		"attempts": 20,
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"conditions": {
+			"dimension": "blue_skies:everdawn",
+			"maxthis": 5
+		}
+	},
+	{
+		"mob": [
+			"aoa3:ice_giant"
+		],
+		"persecond": 0.5,
+		"attempts": 20,
+		"amount": {
+			"minimum": 1,
+			"maximum": 2
+		},
+		"conditions": {
+			"dimension": "blue_skies:everbright",
+			"maxthis": 2
+		}
+	},
+	{
+		"mob": [
+			"aoa3:corrupted_traveller"
+		],
+		"persecond": 0.5,
+		"attempts": 20,
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"conditions": {
+			"dimension": [
+				"blue_skies:everbright",
+				"blue_skies:everdawn"
+			],
+			"maxthis": 3
+		}
+	},
+	{
+		"mob": [
+			"aoa3:assassin"
+		],
+		"persecond": 0.5,
+		"attempts": 10,
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"conditions": {
+			"dimension": [
+				"blue_skies:everdawn"
+			],
+			"maxthis": 1
+		}
+	},
+	{
+		"mob": [
+			"aoa3:naturalist"
+		],
+		"persecond": 0.5,
+		"attempts": 10,
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"conditions": {
+			"dimension": [
+				"blue_skies:everbright"
+			],
+			"maxthis": 1
+		}
+	},
+	{
+		"mob": [
+			"aoa3:lottoman"
+		],
+		"persecond": 0.2,
+		"attempts": 10,
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"conditions": {
+			"dimension": [
+				"blue_skies:everbright",
+				"blue_skies:everdawn"
+			],
+			"maxthis": 1
+		}
+	},
+	{
+		"mob": [
+			"aoa3:hauling_master"
+		],
+		"persecond": 0.1,
+		"attempts": 6,
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"conditions": {
+			"dimension": [
+				"blue_skies:everbright",
+				"blue_skies:everdawn"
+			],
+			"maxthis": 1
+		}
+	},
+	{
+		"mob": [
+			"aoa3:realmshifter"
+		],
+		"persecond": 0.1,
+		"attempts": 4,
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"conditions": {
+			"dimension": [
+				"minecraft:overworld"
+			],
+			"maxthis": 1
+		}
+	},
+	{
+		"mob": [
+			"minecraft:villager"
+		],
+		"persecond": 5.0,
+		"attempts": 30,
+		"amount": {
+			"minimum": 1,
+			"maximum": 1
+		},
+		"conditions": {
+			"norestrictions": true,
+			"dimension": [
+				"aoa3:crystevia",
+				"aoa3:shyrelands",
+				"aoa3:runandor",
+				"aoa3:gardencia",
+				"aoa3:haven"
+			],
+			"maxthis": 50
+		}
+	}
+]

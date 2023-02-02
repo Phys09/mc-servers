@@ -1,0 +1,23 @@
+<biome:blue_skies:brightlands>
+- <biome:blue_skies:brisk_meadow>
+- <biome:blue_skies:brumble_forest>
+- <biome:blue_skies:calming_skies>
+- <biome:blue_skies:crescent_orchard>
+- <biome:blue_skies:crescent_orchard_lake>
+- <biome:blue_skies:crystal_dunes>
+- <biome:blue_skies:crystal_dunes_spikes>
+- <biome:blue_skies:crystal_roughs>
+- <biome:blue_skies:deep_peeking_ocean>
+- <biome:blue_skies:frostbitten_forest>
+- <biome:blue_skies:frostbitten_forest_clearing>
+- <biome:blue_skies:midday_shore>
+- <biome:blue_skies:moonlit_reservoir>
+- <biome:blue_skies:peeking_ocean>
+- <biome:blue_skies:polar_highland>
+- <biome:blue_skies:rising_creek>
+- <biome:blue_skies:searing_grassland>
+- <biome:blue_skies:shaded_woodlands>
+- <biome:blue_skies:slushlands>
+- <biome:blue_skies:snow_covered_pines>
+- <biome:blue_skies:sunset_maple_forest>
+- <biome:blue_skies:unorthodox_valley>

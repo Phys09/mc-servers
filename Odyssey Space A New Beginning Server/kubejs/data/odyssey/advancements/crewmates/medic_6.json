@@ -1,0 +1,30 @@
+{
+  "criteria": {
+	"click_on_medic": {
+	  "trigger": "minecraft:player_interacted_with_entity",
+	  "conditions": {
+		"entity": {
+					"type": "minecraft:villager",
+					"nbt": "{CustomName:'{\"text\":\"Ms. Schuster\"}'}"					
+				}
+	  }
+	},
+	"be_in_shyrelands": {
+	  "trigger": "minecraft:location",
+	  "conditions": {
+			"dimension":"aoa3:shyrelands"
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "click_on_medic"
+	],
+	[
+	  "be_in_shyrelands"
+	]
+  ],
+	"rewards": {
+		"function": "odyssey:story/medic_note6"	
+	}
+}

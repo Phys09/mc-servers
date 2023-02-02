@@ -1,0 +1,17 @@
+{
+	"type":"interactio:item_fluid_transform",
+	"inputs":[
+		{
+			"item":"blue_skies:crystal_sand",
+			"count":1
+		}
+	],
+	"fluid":{
+		"fluid":"integrateddynamics:menril_resin"
+	},
+	"output":{
+		"item":"futurepack:sand_neon",
+		"count":1
+	},
+	"consume_fluid":1.0
+}

@@ -1,0 +1,76 @@
+{
+  "criteria": {
+    "coordinate1": {
+      "trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "futurepack:spacecoordinats",
+					"nbt":"{display:{Name:'{\"text\":\"Overworld Coordinate #2\"}'}}"
+				}
+			]
+		}
+    },
+	"coordinate2": {
+      "trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "futurepack:spacecoordinats",
+					"nbt":"{display:{Name:'{\"text\":\"Overworld Coordinate #3\"}'}}"
+				}
+			]
+		}
+    },
+	"coordinate3": {
+      "trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "futurepack:spacecoordinats",
+					"nbt":"{display:{Name:'{\"text\":\"Overworld Coordinate #4\"}'}}"
+				}
+			]
+		}
+    },
+	"coordinate4": {
+      "trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "futurepack:spacecoordinats",
+					"nbt":"{display:{Name:'{\"text\":\"Overworld Coordinate #5\"}'}}"
+				}
+			]
+		}
+    },
+	"coordinate5": {
+      "trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "futurepack:spacecoordinats",
+					"nbt":"{display:{Name:'{\"text\":\"Overworld Coordinate #6\"}'}}"
+				}
+			]
+		}
+    },
+	"coordinate6": {
+      "trigger": "minecraft:inventory_changed",
+		"conditions": {
+			"items": [
+				{
+					"item": "futurepack:spacecoordinats",
+					"nbt":"{display:{Name:'{\"text\":\"Overworld Coordinate #7\"}'}}"
+				}
+			]
+		}
+    }
+  },
+  "requirements": [
+    ["coordinate1"],["coordinate2"],["coordinate3"],["coordinate4"],["coordinate5"],["coordinate6"]
+  ],
+	"rewards": {
+		"function": "odyssey:story/check"	
+	}
+}

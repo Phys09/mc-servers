@@ -1,0 +1,19 @@
+{
+	"criteria": {
+		"iron_ingot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:iron_ingot"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"iron_ingot"
+		]
+	]
+}

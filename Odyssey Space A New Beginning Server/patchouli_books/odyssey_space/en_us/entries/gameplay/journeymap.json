@@ -1,0 +1,33 @@
+{
+	"name":"JourneyMap",
+	"icon":"minecraft:map",
+	"category":"patchouli:gameplay",
+	"pages":[
+		{
+			"type": "patchouli:text",			
+			"text": "JourneyMap is a sophisticated terrain mapping mod. The most useful feature is the mini-map in the top right. $(br2)This mini-map shows the terrain around you, but also shows mobs near to you. Don't let those Chargers sneak up on you."
+		},
+		{
+			"type":"patchouli:text",
+			"title":"JourneyMap",
+			"text":"You can zoom the minimap in and out with $(thing)$(k:journeymap.zoom_in)$() and $(thing)$(k:journeymap.zoom_out)$(). You can also switch view modes between Day, Night, Caves and Topographical with $(thing)$(k:journeymap.minimap_type)$(). $(br2)By hitting $(k:journeymap.map_toggle_alt) you get a full screen map, and toggle other map features. The $(thing)Options$() menu found on the full screen map allows you to customize almost all aspects of JourneyMap. You can change how the mini-map looks, the info it gives and the size of it."
+		},
+		{
+			"type":"patchouli:text",
+			"title":"JourneyMap",
+			"text":"Waypoints are location indicators typically used to mark a spot for future investigation. One may find a village and create a waypoint so they can find it again. Waypoints are created automatically each time you die, so that you may find your grave. $(br2)You can manually create a way point by pressing $(thing)$(k:journeymap.create_waypoint)$()."
+		},
+		{
+			"type":"patchouli:text",
+			"title":"JourneyMap",
+			"text":"In the settings menu, you can change how you want your waypoints to function, from automatically clearing death waypoints when you get close to them, to how you want the beam displayed.$(br2)Last feature, which I personally think is pretty cool, is a web map. If you enable the web map, it will launch a full screen map on your local host port 8080. A link will be provided in chat."
+		},
+		{
+			"type":"patchouli:text",
+			"title":"JourneyMap",
+			"text":" It isn't the best for escaping sneaky mobs, but it is excellent for long range journys that get constantly interrupted by pressing $(thing)$(k:journeymap.map_toggle_alt)$() and scrolling around your map to find where you want to go. $(br2)I personally find it a better alternative than the mini-map, especially if you wish to keep your skills HUD active all the time."
+		}	
+	],
+	"sortnum":4
+}
+

@@ -1,0 +1,17 @@
+{
+	"type": "mekanism:dissolution",
+	"itemInput": {
+		"ingredient": {
+			"item": "futurepack:ingot_gadolinium"
+		}
+	},
+	"gasInput": {
+		"amount": 5,
+		"gas": "mekanism:sulfuric_acid"
+	},
+	"output": {
+		"gas": "mekanism:nuclear_waste",
+		"amount": 1000,
+		"chemicalType": "gas"
+	}
+}

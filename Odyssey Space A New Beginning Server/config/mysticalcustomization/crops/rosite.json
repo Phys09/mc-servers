@@ -1,0 +1,13 @@
+{
+  "name": "Rosite",
+  "type": "resource",
+  "tier": "mysticalagriculture:2",
+  "ingredient": {
+    "item": "aoa3:rosite_ingot"
+  },
+  "color": "ef4f3e",
+  "textures": {
+    "flower": "mysticalagriculture:block/flower_ingot",
+    "essence": "mysticalagriculture:item/essence_ingot"
+  }
+}

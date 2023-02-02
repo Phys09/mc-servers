@@ -1,0 +1,32 @@
+{
+	"criteria": {
+		"torus_core": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "futurepack:core_torus"
+					}
+				]
+			}
+		},
+		"torus_ram": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "futurepack:ram_torus"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"torus_core", "torus_ram"
+		]
+	],
+	"rewards": {
+		"function": "odyssey:entronium"
+	}
+}
