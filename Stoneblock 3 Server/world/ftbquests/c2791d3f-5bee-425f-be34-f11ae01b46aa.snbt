@@ -1,0 +1,15 @@
+{
+	version: 1
+	uuid: "c2791d3f5bee425fbe34f11ae01b46aa"
+	name: "Play_Despacito3"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

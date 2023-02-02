@@ -1,0 +1,18 @@
+{
+	id: "c2791d3f-5bee-425f-be34-f11ae01b46aa"
+	type: "player"
+	player_name: "Play_Despacito3"
+	ranks: { }
+	properties: {
+		"ftbchunks:allow_explosions": 0b
+		"ftbteams:display_name": "Play_Despacito3"
+		"ftbteams:color": "#59EBFF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

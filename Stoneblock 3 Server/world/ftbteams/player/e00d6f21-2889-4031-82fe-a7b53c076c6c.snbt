@@ -1,0 +1,18 @@
+{
+	id: "e00d6f21-2889-4031-82fe-a7b53c076c6c"
+	type: "player"
+	player_name: "Phys09"
+	ranks: { }
+	properties: {
+		"ftbchunks:allow_explosions": 0b
+		"ftbteams:display_name": "Phys09"
+		"ftbteams:color": "#76FF59"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

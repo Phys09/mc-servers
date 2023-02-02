@@ -1,0 +1,23 @@
+{
+	muted: false
+	fly: false
+	god: false
+	nick: ""
+	last_seen: { dim: "ftbsbc:team/deworms-boused-sarky", x: -7, y: 15, z: -1, time: 1672544894105L }
+	recording: 0
+	teleport_history: [
+		{ dim: "ftbsbc:team/deworms-boused-sarky", x: -10, y: 1, z: -1, time: 1671439197817L }
+		{ dim: "ftbsbc:team/deworms-boused-sarky", x: 2021, y: -9, z: -2, time: 1671439893820L }
+		{ dim: "ftbsbc:team/deworms-boused-sarky", x: 6, y: 1, z: -8, time: 1671440350153L }
+		{ dim: "ftbsbc:team/deworms-boused-sarky", x: 146, y: -9, z: 0, time: 1671442999697L }
+		{ dim: "ftbsbc:team/deworms-boused-sarky", x: 222, y: 0, z: 20, time: 1671506426821L }
+		{ dim: "ftbsbc:team/deworms-boused-sarky", x: -1, y: -100, z: 14, time: 1671507241575L }
+		{ dim: "ftbsbc:team/deworms-boused-sarky", x: -2, y: -127, z: 63, time: 1671514462529L }
+		{ dim: "ftbsbc:team/deworms-boused-sarky", x: 2926, y: 2, z: -9, time: 1671520463835L }
+		{ dim: "ftbsbc:team/deworms-boused-sarky", x: 448, y: 36, z: -16, time: 1671592757359L }
+		{ dim: "ftbsbc:team/deworms-boused-sarky", x: 2945, y: 0, z: -39, time: 1672540518567L }
+	]
+	homes: {
+		home: { dim: "ftbsbc:team/deworms-boused-sarky", x: 2, y: 0, z: -1, time: 1671158457339L }
+	}
+}
