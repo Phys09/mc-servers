@@ -1,0 +1,98 @@
+{
+  "playerUUID": "669d890a-9ba5-4d0a-abb5-7d94d7b18c1c",
+  "playerNickname": "Endurium",
+  "timestamp": 1675501916,
+  "vaultRuns": 0,
+  "vaultWins": 0,
+  "vaultDeaths": 0,
+  "artifactCount": 0,
+  "inVault": false,
+  "powerLevel": 12,
+  "vaultLevel": 12,
+  "levelPercent": 0.597027,
+  "attributes": {
+    "minecraft:generic.max_health": 23.0,
+    "minecraft:generic.knockback_resistance": 0.06000000238418579,
+    "minecraft:generic.movement_speed": 0.12000000208616257,
+    "minecraft:generic.attack_damage": 4.0,
+    "minecraft:generic.attack_knockback": 0.0,
+    "minecraft:generic.attack_speed": 4.0,
+    "minecraft:generic.armor": 18.0,
+    "minecraft:generic.armor_toughness": 0.0,
+    "minecraft:generic.luck": 0.0,
+    "botania:pixie_spawn_chance": 0.0,
+    "forge:swim_speed": 1.0,
+    "forge:nametag_distance": 64.0,
+    "forge:entity_gravity": 0.08,
+    "forge:reach_distance": 4.5,
+    "forge:attack_range": 3.0,
+    "forge:step_height_addition": 0.0,
+    "the_vault:generic.crit_chance": 0.0,
+    "the_vault:generic.crit_multiplier": 0.0,
+    "the_vault:generic.tp_chance": 0.0,
+    "the_vault:generic.indirect_tp_chance": 0.0,
+    "the_vault:generic.tp_range": 32.0,
+    "the_vault:generic.potion_resistance": 0.0,
+    "the_vault:generic.size_scale": 1.0,
+    "the_vault:generic.break_armor_chance": 0.0,
+    "the_vault:generic.mana_max": 100.0,
+    "the_vault:generic.mana_regen": 0.75,
+    "the_vault:generic.reach": 0.0,
+    "the_vault:generic.crossbow_charge_time": 0.0,
+    "the_vault:generic.thorns_chance": 0.0,
+    "the_vault:generic.thorns_damage": 0.0
+  },
+  "reputation": {
+    "Velara": 0,
+    "Tenos": 0,
+    "Wendarr": 0,
+    "Idona": 0
+  },
+  "blockChance": 0.0,
+  "resistance": 0.0,
+  "cooldownReduction": 0.0,
+  "fatalStrikeChance": 0.0,
+  "fatalStrikeDamage": 0.0,
+  "thornsChance": 0.0,
+  "thornsDamage": 0.0,
+  "equipment": {
+    "FEET": {
+      "itemKey": "the_vault:boots",
+      "count": 1,
+      "nbt": "{Damage:98,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],RepairCost:3,vaultGearData:[L;-2299935084288612631L,-2158890906677965423L,1514722424829581435L,-1350007658135317181L,-3845640312894353244L,-6915813264439637853L,-2373852306127935438L,2967978579041901796L,2950605847436984484L,911980600092526850L,-2242578326589337558L,-6869114626581702926L,2191011123597322338L,-6869114626579210078L,-6625629571910555550L,-4476269856461647386L,7646681519872811520L,-6806484194348194590L,4065075078513098L,153545229574776954L,-9029714432618397696L,3099756556767109514L,2957256369670979878L,-4383519032919708928L,4035225266298204232L,89389006848L,-8024152193546321920L,7656342161692209154L,43294L,-3217438374643957760L,5358329023117154587L,1489029737354373386L,10266865951615362L,5350276357316149248L,2641951241961220362L,-2723937639721850582L,-8214565720323784704L,7021803705644310850L,2968850120259168610L,599726841949585572L,2743272892008497830L,12961L,-6328964675072376832L,-9185572456426067432L,-8193590775045124095L,550700162425440896L,6690185906395021312L,6708766254261113049L,-6190012785180997037L,-7880972767164005868L,-6834633954906054623L,1956670088082L,-6571855766007840768L,2470964961836270224L,-8462150372811373976L,135723715406432L,-7689454646914187264L,-7670270605940382259L,-6806484194348194579L,-6664650003314514230L,11928097266274816L,2233785415175766016L,3650275940203799593L,172464784L,1605239527901757440L,739314329294657316L,38169728797772480L,611952898L,275951648768L]}",
+      "gearData": "{\"id\":\"1e014fd3-9f68-4e6e-be20-a14289ea38d9\",\"attributes\":[{\"name\":\"the_vault:is_loot\",\"value\":true,\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:gear_roll_type_pool\",\"value\":\"ornate0\",\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:gear_roll_type\",\"value\":\"Scrappy+\",\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:gear_model\",\"value\":\"the_vault:gear/armor/mailbox_dark/boots\",\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:crafting_potential\",\"value\":68,\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:prefixes\",\"value\":2,\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:suffixes\",\"value\":1,\"display\":{\"color\":0,\"elements\":[]}}],\"level\":7,\"rarity\":\"COMMON\",\"state\":\"IDENTIFIED\",\"maxRepairs\":2,\"usedRepairs\":0,\"implicits\":[{\"name\":\"the_vault:armor\",\"value\":5,\"display\":{\"color\":4766456,\"elements\":[\"\",\"5\",\" Armor\"]},\"legendary\":false},{\"name\":\"the_vault:durability\",\"value\":436,\"display\":{\"color\":14668030,\"elements\":[\"\",\"436\",\" Durability\"]},\"legendary\":false},{\"name\":\"the_vault:critical_hit_mitigation\",\"value\":0.04,\"display\":{\"color\":7441919,\"elements\":[\"\",\"4%\",\" Crit Hit Resistance\"]},\"legendary\":false}],\"prefixes\":[{\"name\":\"the_vault:damage_increase\",\"value\":0.09,\"display\":{\"color\":16739072,\"elements\":[\"+\",\"9%\",\" Increased Damage\"]},\"legendary\":false},{\"name\":\"the_vault:armor\",\"value\":1,\"display\":{\"color\":4766456,\"elements\":[\"+\",\"1\",\" Armor\"]},\"legendary\":false}],\"suffixes\":[]}"
+    },
+    "LEGS": {
+      "itemKey": "the_vault:leggings",
+      "count": 1,
+      "nbt": "{Damage:98,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],RepairCost:3,vaultGearData:[L;6029856843554406409L,-2194250192466598113L,1514722424829581435L,-1350007658135317181L,-3845640312894353244L,-6915813264439637853L,-4104360462945048526L,46207185719968484L,649126318967005356L,1020642181272444560L,2906753459226861191L,-961410078223588311L,5503576996124885544L,-961410078223588311L,-3417697049929776600L,2996059408483920449L,739315507851764622L,3470312867086600896L,-8715976111013903192L,-7908320945542659510L,2389870067400575554L,5053768413353L,7106869330744779776L,2993417258621629096L,4611686022185484288L,179L,3029444849659146336L,743792386976390L,4795207703242735616L,8232972023012619105L,-6052657402489966739L,577206256933560992L,9561764L,-6052657402497466368L,5206342213162263200L,14206796952L,-7652313912896913408L,-6507237976499956463L,-9029714432614341167L,-6305027829808848502L,222670839365796L,2973220178994659328L,-8038177243347025756L,725712884509256210L,-7171654742573444504L,515563847L,7598209624333959819L,46207308822826356L,190849185315201196L,-8070027743007038440L,5368447206529041028L,1822L,774630416961261568L,184095219869451818L,1477367054297308232L,-2823756966361175122L,5131455085047858932L,739315700181952023L,38169728797772480L,4727732884642308232L,11108906L,-5763885536817184768L,727340841540094594L,8623489025L,-4173055069019383664L,774630416951183174L,2490491176359724586L,272480L,-4608798070871687168L,29460396872444426L,-1406564220655202263L,5112949864837152769L,-7555328068318444394L,774630416961738566L,-6191885955257170390L,890684146516072L,1125899906842624L]}",
+      "gearData": "{\"id\":\"f53ae5ad-a068-4c00-be18-c751359b2271\",\"attributes\":[{\"name\":\"the_vault:is_loot\",\"value\":true,\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:gear_roll_type_pool\",\"value\":\"crate\",\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:gear_roll_type\",\"value\":\"Common+\",\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:gear_model\",\"value\":\"the_vault:gear/armor/crusader/leggings\",\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:crafting_potential\",\"value\":57,\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:prefixes\",\"value\":2,\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:suffixes\",\"value\":1,\"display\":{\"color\":0,\"elements\":[]}}],\"level\":7,\"rarity\":\"COMMON\",\"state\":\"IDENTIFIED\",\"maxRepairs\":5,\"usedRepairs\":0,\"implicits\":[{\"name\":\"the_vault:armor\",\"value\":5,\"display\":{\"color\":4766456,\"elements\":[\"\",\"5\",\" Armor\"]},\"legendary\":false},{\"name\":\"the_vault:durability\",\"value\":423,\"display\":{\"color\":14668030,\"elements\":[\"\",\"423\",\" Durability\"]},\"legendary\":false},{\"name\":\"the_vault:critical_hit_mitigation\",\"value\":0.06,\"display\":{\"color\":7441919,\"elements\":[\"\",\"6%\",\" Crit Hit Resistance\"]},\"legendary\":false}],\"prefixes\":[{\"name\":\"the_vault:damage_increase\",\"value\":0.060000002,\"display\":{\"color\":16739072,\"elements\":[\"+\",\"6%\",\" Increased Damage\"]},\"legendary\":false},{\"name\":\"the_vault:health\",\"value\":3.0,\"display\":{\"color\":2293541,\"elements\":[\"+\",\"3\",\" Health\"]},\"legendary\":false}],\"suffixes\":[{\"name\":\"the_vault:item_rarity\",\"value\":0.07,\"display\":{\"color\":15054873,\"elements\":[\"+\",\"7%\",\" Item Rarity\"]},\"legendary\":false}]}"
+    },
+    "CHEST": {
+      "itemKey": "the_vault:chestplate",
+      "count": 1,
+      "nbt": "{Damage:97,Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s}],RepairCost:3,vaultGearData:[L;4948718464618744489L,8421577486986838004L,1514722424829581434L,-1350007658135317181L,-3845640312894353244L,-6915813264439637853L,-4104360462945048526L,46207185719968484L,649126318967005356L,1020642181272444560L,2906753459226861191L,-961410078223588311L,5791807372276597288L,-961410078223588311L,-3417697049929776600L,4644344032780761126L,2970170686053714314L,-8038177243347025756L,-6188368084965096702L,250721118320L,-6313307067014436572L,11693036166353426L,774630416945512448L,-6047717702659045846L,15393162790040L,734208L,-6052657402664845312L,2470112864751870624L,-4611686018427387904L,1605239518627501096L,739314466733610788L,3053586965043219136L,39164985472L,739314436015128576L,741555904388401856L,55029944386692L,-2859605993229123584L,1898434766480415068L,11551799309572699L,47712296328800299L,912059758042303112L,3458764513820540928L,3064182822132138644L,2594179082675628295L,-7881260235222515551L,2111749519815L,2609368923885842432L,4797696201201239703L,6955011955262930954L,1731744730687045674L,640822081166526720L,7464104L,46207195250950144L,-2262486436816969556L,763398225041588264L,515563848L,7598528400850898317L,2971079856909022323L,8769256565999665316L,-4287381900134678520L,45502080025L,742883656917319680L,-7179676683058085847L,-7446420129303996313L,-5902951779979851374L,-803505505392655893L,1596163465136092742L,5131455085047887414L,739316387376719383L,38169728797772480L,4617904998298806038L,11372260080526890L,72057594037927936L]}",
+      "gearData": "{\"id\":\"444ad613-9610-44aa-a74d-f741ae046fff\",\"attributes\":[{\"name\":\"the_vault:is_loot\",\"value\":true,\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:gear_roll_type_pool\",\"value\":\"crate\",\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:gear_roll_type\",\"value\":\"Common+\",\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:gear_model\",\"value\":\"the_vault:gear/armor/magmatic/chestplate\",\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:crafting_potential\",\"value\":29,\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:prefixes\",\"value\":1,\"display\":{\"color\":0,\"elements\":[]}},{\"name\":\"the_vault:suffixes\",\"value\":2,\"display\":{\"color\":0,\"elements\":[]}}],\"level\":7,\"rarity\":\"COMMON\",\"state\":\"IDENTIFIED\",\"maxRepairs\":5,\"usedRepairs\":0,\"implicits\":[{\"name\":\"the_vault:armor\",\"value\":4,\"display\":{\"color\":4766456,\"elements\":[\"\",\"4\",\" Armor\"]},\"legendary\":false},{\"name\":\"the_vault:durability\",\"value\":400,\"display\":{\"color\":14668030,\"elements\":[\"\",\"400\",\" Durability\"]},\"legendary\":false},{\"name\":\"the_vault:critical_hit_mitigation\",\"value\":0.06,\"display\":{\"color\":7441919,\"elements\":[\"\",\"6%\",\" Crit Hit Resistance\"]},\"legendary\":false}],\"prefixes\":[{\"name\":\"the_vault:damage_increase\",\"value\":0.060000002,\"display\":{\"color\":16739072,\"elements\":[\"+\",\"6%\",\" Increased Damage\"]},\"legendary\":false}],\"suffixes\":[{\"name\":\"the_vault:knockback_resistance\",\"value\":0.060000002,\"display\":{\"color\":16756751,\"elements\":[\"+\",\"6%\",\" Knockback Resist\"]},\"legendary\":false}]}"
+    },
+    "HEAD": {
+      "itemKey": "minecraft:netherite_helmet",
+      "count": 1,
+      "nbt": "{Damage:0,Enchantments:[{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:thorns\",lvl:3s}],RepairCost:15}",
+      "gearData": "{\"id\":\"522a6826-c81a-42a5-a783-88a3c23d8432\",\"attributes\":[]}"
+    }
+  },
+  "abilities": {
+    "Heal: Aid": 2,
+    "Vein Miner: Fortune": 3
+  },
+  "talents": {
+    "Strength": 1,
+    "Speed": 1,
+    "Haste": 1
+  },
+  "researches": [
+    "Simple Storage Network",
+    "Vault Compass"
+  ],
+  "eternals": []
+}
