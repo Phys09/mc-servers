@@ -65,9 +65,21 @@
     },
     "done": true
   },
+  "minecraft:adventure/sniper_duel": {
+    "criteria": {
+      "killed_skeleton": "2023-02-04 05:00:27 -0500"
+    },
+    "done": true
+  },
   "create:copper": {
     "criteria": {
       "0": "2023-01-30 19:51:29 -0500"
+    },
+    "done": true
+  },
+  "projecte:red_matter": {
+    "criteria": {
+      "rm": "2023-02-11 04:31:14 -0500"
     },
     "done": true
   },
@@ -131,9 +143,21 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2023-02-10 03:23:03 -0500"
+    },
+    "done": true
+  },
   "mcwfurnitures:recipes/dark_oak": {
     "criteria": {
       "has_planks": "2023-01-30 19:45:54 -0500"
+    },
+    "done": true
+  },
+  "projecte:alchemical_chest": {
+    "criteria": {
+      "alch_chest": "2023-02-05 22:42:31 -0500"
     },
     "done": true
   },
@@ -209,6 +233,12 @@
     },
     "done": true
   },
+  "projecte:dark_matter_block": {
+    "criteria": {
+      "dm_block": "2023-02-12 21:37:38 -0500"
+    },
+    "done": true
+  },
   "comforts:hammock_pink_from_white": {
     "criteria": {
       "has_the_recipe": "2023-01-30 19:45:54 -0500"
@@ -224,6 +254,12 @@
   "mcwdoors:recipes/oak": {
     "criteria": {
       "has_planks": "2023-01-30 19:45:54 -0500"
+    },
+    "done": true
+  },
+  "blockcarpentry:general/trapdoor": {
+    "criteria": {
+      "requirement": "2023-02-11 05:15:26 -0500"
     },
     "done": true
   },
@@ -366,6 +402,12 @@
     },
     "done": true
   },
+  "blockcarpentry:general/pressure_plate": {
+    "criteria": {
+      "requirement": "2023-02-05 23:20:32 -0500"
+    },
+    "done": true
+  },
   "comforts:hammock_lime": {
     "criteria": {
       "has_the_recipe": "2023-01-30 19:45:54 -0500"
@@ -411,6 +453,12 @@
   "comforts:sleeping_bag_gray": {
     "criteria": {
       "has_the_recipe": "2023-01-30 19:45:54 -0500"
+    },
+    "done": true
+  },
+  "mna:root": {
+    "criteria": {
+      "get_vinteum": "2023-02-04 04:47:37 -0500"
     },
     "done": true
   },
@@ -480,6 +528,12 @@
     },
     "done": true
   },
+  "projecte:red_matter_block": {
+    "criteria": {
+      "rm_block": "2023-02-12 21:38:17 -0500"
+    },
+    "done": true
+  },
   "comforts:sleeping_bag_red": {
     "criteria": {
       "has_the_recipe": "2023-01-30 19:45:54 -0500"
@@ -546,6 +600,12 @@
     },
     "done": true
   },
+  "blockcarpentry:general/root": {
+    "criteria": {
+      "requirement": "2023-02-11 05:15:15 -0500"
+    },
+    "done": true
+  },
   "minecraft:nether/return_to_sender": {
     "criteria": {
       "killed_ghast": "2023-01-30 22:02:28 -0500"
@@ -554,9 +614,17 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:frozen_river": "2023-02-10 03:32:44 -0500",
       "minecraft:windswept_hills": "2023-01-31 23:09:54 -0500",
+      "minecraft:beach": "2023-02-05 01:08:49 -0500",
       "minecraft:river": "2023-01-30 20:06:47 -0500",
-      "minecraft:windswept_gravelly_hills": "2023-01-30 20:06:31 -0500"
+      "minecraft:dripstone_caves": "2023-02-04 05:01:51 -0500",
+      "minecraft:forest": "2023-02-10 03:28:20 -0500",
+      "minecraft:ice_spikes": "2023-02-10 03:30:35 -0500",
+      "minecraft:frozen_ocean": "2023-02-10 03:34:29 -0500",
+      "minecraft:snowy_beach": "2023-02-10 03:33:45 -0500",
+      "minecraft:windswept_gravelly_hills": "2023-01-30 20:06:31 -0500",
+      "minecraft:plains": "2023-02-05 01:08:41 -0500"
     },
     "done": false
   },
@@ -674,6 +742,12 @@
     },
     "done": true
   },
+  "projecte:relay": {
+    "criteria": {
+      "relay": "2023-02-05 23:21:32 -0500"
+    },
+    "done": true
+  },
   "comforts:sleeping_bag_pink_from_white": {
     "criteria": {
       "has_the_recipe": "2023-01-30 19:45:54 -0500"
@@ -773,7 +847,8 @@
       "minecraft:silverfish": "2023-02-04 02:37:29 -0500",
       "minecraft:vex": "2023-02-01 20:49:54 -0500",
       "minecraft:zombie": "2023-01-30 20:02:07 -0500",
-      "minecraft:drowned": "2023-01-31 00:49:16 -0500"
+      "minecraft:drowned": "2023-01-31 00:49:16 -0500",
+      "minecraft:zombie_villager": "2023-02-05 01:57:15 -0500"
     },
     "done": false
   },
@@ -852,6 +927,12 @@
   "comforts:hammock_orange_from_white": {
     "criteria": {
       "has_the_recipe": "2023-01-30 19:45:54 -0500"
+    },
+    "done": true
+  },
+  "blockcarpentry:general/door": {
+    "criteria": {
+      "requirement": "2023-02-11 17:05:25 -0500"
     },
     "done": true
   },

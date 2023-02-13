@@ -77,6 +77,12 @@
     },
     "done": true
   },
+  "projecte:red_matter": {
+    "criteria": {
+      "rm": "2023-02-11 21:21:00 -0500"
+    },
+    "done": true
+  },
   "comforts:sleeping_bag_black_from_white": {
     "criteria": {
       "has_the_recipe": "2023-01-29 13:45:28 -0500"
@@ -110,6 +116,12 @@
   "colossalchests:root": {
     "criteria": {
       "criteria_0": "2023-01-29 13:50:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2023-02-10 01:39:11 -0500"
     },
     "done": true
   },
@@ -435,6 +447,12 @@
     },
     "done": true
   },
+  "mna:root": {
+    "criteria": {
+      "get_vinteum": "2023-02-04 04:48:37 -0500"
+    },
+    "done": true
+  },
   "naturescompass:natures_compass_sapling": {
     "criteria": {
       "has_recipe": "2023-01-29 13:45:28 -0500"
@@ -492,6 +510,12 @@
   "trashcans:recipes/search/ultimate_trash_can": {
     "criteria": {
       "cans": "2023-01-29 13:45:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2023-02-11 00:47:20 -0500"
     },
     "done": true
   },
@@ -567,6 +591,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2023-02-11 00:46:06 -0500"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2023-01-29 13:49:35 -0500"
@@ -588,9 +618,18 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:windswept_hills": "2023-01-29 15:37:36 -0500",
+      "minecraft:savanna_plateau": "2023-02-10 02:14:42 -0500",
       "minecraft:river": "2023-01-29 15:14:03 -0500",
+      "minecraft:snowy_plains": "2023-02-10 01:41:12 -0500",
       "minecraft:dripstone_caves": "2023-01-30 18:45:49 -0500",
+      "minecraft:swamp": "2023-02-10 02:14:57 -0500",
+      "minecraft:cold_ocean": "2023-02-10 03:39:41 -0500",
+      "minecraft:forest": "2023-02-10 03:43:52 -0500",
+      "minecraft:frozen_ocean": "2023-02-10 03:39:46 -0500",
+      "minecraft:snowy_beach": "2023-02-10 03:40:05 -0500",
+      "minecraft:meadow": "2023-02-10 02:14:26 -0500",
       "minecraft:windswept_gravelly_hills": "2023-02-01 20:35:30 -0500",
+      "minecraft:savanna": "2023-02-10 02:15:28 -0500",
       "minecraft:plains": "2023-02-01 21:38:27 -0500"
     },
     "done": false
@@ -640,6 +679,12 @@
   "mcwfences:recipes/nether": {
     "criteria": {
       "has_nether_brick": "2023-01-29 13:45:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2023-02-11 03:28:00 -0500"
     },
     "done": true
   },
@@ -804,6 +849,7 @@
       "minecraft:blaze": "2023-01-30 21:27:28 -0500",
       "minecraft:skeleton": "2023-01-29 16:25:09 -0500",
       "minecraft:ghast": "2023-01-30 22:44:25 -0500",
+      "minecraft:magma_cube": "2023-02-10 01:38:55 -0500",
       "minecraft:piglin_brute": "2023-01-29 18:39:27 -0500",
       "minecraft:spider": "2023-01-30 19:45:49 -0500",
       "minecraft:creeper": "2023-01-30 19:45:42 -0500",
@@ -811,6 +857,7 @@
       "minecraft:slime": "2023-01-30 23:42:07 -0500",
       "minecraft:phantom": "2023-01-30 23:48:13 -0500",
       "minecraft:zombified_piglin": "2023-01-29 20:15:43 -0500",
+      "minecraft:wither_skeleton": "2023-02-10 01:39:17 -0500",
       "minecraft:husk": "2023-01-30 23:38:38 -0500",
       "minecraft:shulker": "2023-01-30 21:46:16 -0500",
       "minecraft:piglin": "2023-01-30 22:50:31 -0500",
@@ -838,6 +885,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2023-01-29 18:35:08 -0500"
+    },
+    "done": true
+  },
+  "architects_palette:main/buy_pipe": {
+    "criteria": {
+      "pipe": "2023-02-11 01:06:13 -0500"
     },
     "done": true
   },
