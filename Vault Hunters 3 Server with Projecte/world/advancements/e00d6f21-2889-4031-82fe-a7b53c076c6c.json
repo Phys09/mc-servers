@@ -89,6 +89,12 @@
     },
     "done": true
   },
+  "projecte:klein_star_omega": {
+    "criteria": {
+      "klein_star": "2023-02-13 03:06:47 -0500"
+    },
+    "done": true
+  },
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2023-01-29 18:35:08 -0500"
@@ -841,6 +847,12 @@
   "architects_palette:main/root": {
     "criteria": {
       "craftingtable": "2023-01-29 13:45:28 -0500"
+    },
+    "done": true
+  },
+  "mna:mine_vinteum": {
+    "criteria": {
+      "has_stone": "2023-02-13 04:10:23 -0500"
     },
     "done": true
   },

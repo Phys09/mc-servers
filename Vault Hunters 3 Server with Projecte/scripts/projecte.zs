@@ -1,3 +1,4 @@
+craftingTable.removeByName("projecte:archangel_smite");
 craftingTable.removeByName("projecte:body_stone");
 craftingTable.removeByName("projecte:collector_mk1");
 craftingTable.removeByName("projecte:collector_mk2");

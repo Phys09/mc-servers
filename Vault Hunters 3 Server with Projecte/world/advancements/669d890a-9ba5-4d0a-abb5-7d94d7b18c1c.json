@@ -53,6 +53,12 @@
     },
     "done": true
   },
+  "mna:vinteum_bar": {
+    "criteria": {
+      "has_stone": "2023-02-13 20:29:56 -0500"
+    },
+    "done": true
+  },
   "naturescompass:natures_compass": {
     "criteria": {
       "has_compass": "2023-01-30 19:45:54 -0500"
@@ -86,6 +92,12 @@
   "comforts:sleeping_bag_black_from_white": {
     "criteria": {
       "has_the_recipe": "2023-01-30 19:45:54 -0500"
+    },
+    "done": true
+  },
+  "projecte:klein_star_omega": {
+    "criteria": {
+      "klein_star": "2023-02-13 03:01:31 -0500"
     },
     "done": true
   },
@@ -359,6 +371,12 @@
       "cooked_beef": "2023-01-30 19:54:28 -0500"
     },
     "done": false
+  },
+  "mna:smelt_vinteum": {
+    "criteria": {
+      "has_stone": "2023-02-13 20:28:11 -0500"
+    },
+    "done": true
   },
   "mcwfences:recipes/birch": {
     "criteria": {
@@ -826,6 +844,12 @@
     },
     "done": true
   },
+  "mna:mine_vinteum": {
+    "criteria": {
+      "has_stone": "2023-02-13 03:51:08 -0500"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2023-02-01 20:35:57 -0500",
@@ -947,6 +971,18 @@
       "minecraft:nether_wastes": "2023-01-30 22:00:52 -0500"
     },
     "done": false
+  },
+  "mna:codex_trade": {
+    "criteria": {
+      "has_stone": "2023-02-13 20:30:19 -0500"
+    },
+    "done": true
+  },
+  "mna:vinteum_coated_iron": {
+    "criteria": {
+      "has_stone": "2023-02-13 20:28:37 -0500"
+    },
+    "done": true
   },
   "minecraft:adventure/voluntary_exile": {
     "criteria": {
