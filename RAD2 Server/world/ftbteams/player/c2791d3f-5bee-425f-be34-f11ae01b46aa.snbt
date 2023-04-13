@@ -1,0 +1,14 @@
+{
+	id: "c2791d3f-5bee-425f-be34-f11ae01b46aa"
+	type: "player"
+	player_name: "Play_Despacito3"
+	ranks: { }
+	properties: {
+		"ftbteams:display_name": "Play_Despacito3"
+		"ftbteams:color": "#FFE559"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [ ]
+	extra: { }
+}

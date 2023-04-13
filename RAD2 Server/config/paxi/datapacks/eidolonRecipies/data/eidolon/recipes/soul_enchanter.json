@@ -1,0 +1,27 @@
+{
+  "type": "eidolon:worktable",
+  "core": [
+    "BBB",
+    "BRB",
+    "BBB"
+  ],
+  "extras": [
+    "C",
+    "CC",
+    "C"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bedrock"
+    },
+    "C": {
+      "item": "minecraft:command_block"
+    },
+    "R": {
+      "item": "minecraft:repeating_command_block"
+    }
+  },
+  "result": {
+    "item": "eidolon:soul_enchanter"
+  }
+}

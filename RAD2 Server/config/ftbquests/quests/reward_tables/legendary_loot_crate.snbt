@@ -1,0 +1,41 @@
+{
+	id: "049119B020563230"
+	order_index: 14
+	title: "Legendary loot crate"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:nether_star" }
+		{ item: "randomite:randomite_ore", count: 64 }
+		{
+			item: {
+				id: "upgradednetherite_items:netherite_apple"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "upgradednetherite_items:netherite_apple"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16299838
+		string_id: "legendary_loot_crate"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	id: "00b25e6f-2e42-4057-8866-e9aece679d47"
+	type: "party"
+	owner: "669d890a-9ba5-4d0a-abb5-7d94d7b18c1c"
+	ranks: {
+		669d890a-9ba5-4d0a-abb5-7d94d7b18c1c: "owner"
+		e00d6f21-2889-4031-82fe-a7b53c076c6c: "member"
+		c2791d3f-5bee-425f-be34-f11ae01b46aa: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "Really Bad People Exiled To This Place We Are Evil And Deserve Death Oonga Boonga Deez Nutz XD Fufufu Kekeke :)"
+		"ftbteams:color": "#59FF89"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1679467297046L, text: "{\"color\":\"yellow\",\"extra\":[{\"text\":\"Endurium\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "669d890a-9ba5-4d0a-abb5-7d94d7b18c1c", date: 1679467333121L, text: "{\"color\":\"green\",\"text\":\"Invited Phys09\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1679467336021L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"Phys09\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+		{ from: "669d890a-9ba5-4d0a-abb5-7d94d7b18c1c", date: 1679467467331L, text: "{\"color\":\"green\",\"text\":\"Invited Play_Despacito3\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1679468025078L, text: "{\"color\":\"green\",\"extra\":[{\"text\":\"Play_Despacito3\"},{\"text\":\" joined your party!\"}],\"text\":\"\"}" }
+	]
+	extra: { }
+}
