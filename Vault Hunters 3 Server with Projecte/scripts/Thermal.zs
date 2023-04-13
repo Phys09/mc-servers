@@ -54,9 +54,9 @@ for gemId, gemName in gems {
 ]);
 }
 
-<recipetype:thermal:pulverizer>.addRecipe("ore_to_dust", [<item:the_vault:chromatic_iron_dust> *4], <item:the_vault:chromatic_iron_ore>, 3, 4000);
-<recipetype:thermal:pulverizer>.addRecipe("raw_to_dust", [<item:the_vault:chromatic_iron_dust> *2], <item:the_vault:raw_chromatic_iron>, 3, 4000);
-<recipetype:thermal:pulverizer>.addRecipe("ingot_to_dust", [<item:the_vault:chromatic_iron_dust> *1], <item:the_vault:chromatic_iron_ingot>, 3, 2000);
+<recipetype:thermal:pulverizer>.addRecipe("ore_to_dust", [<item:the_vault:chromatic_iron_dust> *4 % -100], <item:the_vault:chromatic_iron_ore>, 3, 4000);
+<recipetype:thermal:pulverizer>.addRecipe("raw_to_dust", [<item:the_vault:chromatic_iron_dust> *2 % -100], <item:the_vault:raw_chromatic_iron>, 3, 4000);
+<recipetype:thermal:pulverizer>.addRecipe("ingot_to_dust", [<item:the_vault:chromatic_iron_dust> *1 % -100], <item:the_vault:chromatic_iron_ingot>, 3, 2000);
 
 <recipetype:thermal:pulverizer>.addRecipe("vaultstone_to_rock", [<item:the_vault:vault_cobblestone> % 100, <item:the_vault:chipped_vault_rock> % 50], <item:the_vault:vault_stone>, 3, 2000);
 
@@ -188,3 +188,5 @@ craftingTable.addShaped("thermal_satchel", <item:thermal:satchel>, [
 
 <recipetype:thermal:brewer>.addRecipe("healing_pot", <fluid:cofh_core:potion>.withTag({Potion: "minecraft:healing"}) * 1000,
  <item:minecraft:golden_apple>, <fluid:cofh_core:potion>.withTag({Potion: "minecraft:awkward"}) * 1000, 500);
+
+ <recipetype:thermal:insolator>.addRecipe("insolator_spore_blossom", [<item:minecraft:spore_blossom> *2], <item:minecraft:spore_blossom>, 1500, 30000);

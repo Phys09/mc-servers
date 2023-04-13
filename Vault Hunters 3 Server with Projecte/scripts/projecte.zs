@@ -1,4 +1,4 @@
-craftingTable.removeByName("projecte:archangel_smite");
+// craftingTable.removeByName("projecte:archangel_smite"); Allowed since emc generation is gutted
 craftingTable.removeByName("projecte:body_stone");
 craftingTable.removeByName("projecte:collector_mk1");
 craftingTable.removeByName("projecte:collector_mk2");

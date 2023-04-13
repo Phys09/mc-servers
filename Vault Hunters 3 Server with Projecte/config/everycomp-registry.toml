@@ -41,6 +41,9 @@
 		azalea = true
 		blossom = true
 
+	[wood_type.the_vault]
+		chromatic = true
+
 [leaves_type]
 
 	[leaves_type.minecraft]

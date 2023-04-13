@@ -38,26 +38,6 @@ craftingTable.addShapeless("extendedexchange:magnum_star/sphere", <item:extended
 craftingTable.addShapeless("extendedexchange:magnum_star/vier", <item:extendedexchange:magnum_star_vier>, [<item:extendedexchange:magnum_star_drei>, <item:extendedexchange:magnum_star_drei>, <item:extendedexchange:magnum_star_drei>, <item:extendedexchange:magnum_star_drei>]);
 craftingTable.addShapeless("extendedexchange:magnum_star/zwei", <item:extendedexchange:magnum_star_zwei>, [<item:extendedexchange:magnum_star_ein>, <item:extendedexchange:magnum_star_ein>, <item:extendedexchange:magnum_star_ein>, <item:extendedexchange:magnum_star_ein>]);
 
-// Relays are fine but they'll never be needed
-craftingTable.addShaped("extendedexchange:relay/basic", <item:extendedexchange:basic_relay>, [[<item:minecraft:obsidian>, <tag:items:forge:glass>, <item:minecraft:obsidian>], [<item:minecraft:obsidian>, <item:projecte:aeternalis_fuel_block>, <item:minecraft:obsidian>], [<item:minecraft:obsidian>, <item:minecraft:obsidian>, <item:minecraft:obsidian>]]);
-craftingTable.addShapeless("extendedexchange:relay/basic_2", <item:extendedexchange:basic_relay>, [<item:projecte:relay_mk1>]);
-craftingTable.addShapeless("extendedexchange:relay/blue", <item:extendedexchange:blue_relay>, [<item:extendedexchange:violet_relay>, <item:extendedexchange:blue_matter>]);
-craftingTable.addShapeless("extendedexchange:relay/cyan", <item:extendedexchange:cyan_relay>, [<item:extendedexchange:blue_relay>, <item:extendedexchange:cyan_matter>]);
-craftingTable.addShapeless("extendedexchange:relay/dark", <item:extendedexchange:dark_relay>, [<item:extendedexchange:basic_relay>, <item:projecte:dark_matter>]);
-craftingTable.addShapeless("extendedexchange:relay/dark_2", <item:extendedexchange:dark_relay>, [<item:projecte:relay_mk2>]);
-craftingTable.addShapeless("extendedexchange:relay/fading", <item:extendedexchange:fading_relay>, [<item:extendedexchange:white_relay>, <item:extendedexchange:fading_matter>]);
-craftingTable.addShapeless("extendedexchange:relay/final", <item:extendedexchange:final_relay>, [<item:extendedexchange:fading_relay>, <item:extendedexchange:final_star_shard>]);
-craftingTable.addShapeless("extendedexchange:relay/green", <item:extendedexchange:green_relay>, [<item:extendedexchange:cyan_relay>, <item:extendedexchange:green_matter>]);
-craftingTable.addShapeless("extendedexchange:relay/lime", <item:extendedexchange:lime_relay>, [<item:extendedexchange:green_relay>, <item:extendedexchange:lime_matter>]);
-craftingTable.addShapeless("extendedexchange:relay/magenta", <item:extendedexchange:magenta_relay>, [<item:extendedexchange:red_relay>, <item:extendedexchange:magenta_matter>]);
-craftingTable.addShapeless("extendedexchange:relay/orange", <item:extendedexchange:orange_relay>, [<item:extendedexchange:yellow_relay>, <item:extendedexchange:orange_matter>]);
-craftingTable.addShapeless("extendedexchange:relay/pink", <item:extendedexchange:pink_relay>, [<item:extendedexchange:magenta_relay>, <item:extendedexchange:pink_matter>]);
-craftingTable.addShapeless("extendedexchange:relay/purple", <item:extendedexchange:purple_relay>, [<item:extendedexchange:pink_relay>, <item:extendedexchange:purple_matter>]);
-craftingTable.addShapeless("extendedexchange:relay/red", <item:extendedexchange:red_relay>, [<item:extendedexchange:dark_relay>, <item:projecte:red_matter>]);
-craftingTable.addShapeless("extendedexchange:relay/red_2", <item:extendedexchange:red_relay>, [<item:projecte:relay_mk3>]);
-craftingTable.addShapeless("extendedexchange:relay/violet", <item:extendedexchange:violet_relay>, [<item:extendedexchange:purple_relay>, <item:extendedexchange:violet_matter>]);
-craftingTable.addShapeless("extendedexchange:relay/white", <item:extendedexchange:white_relay>, [<item:extendedexchange:orange_relay>, <item:extendedexchange:white_matter>]);
-craftingTable.addShapeless("extendedexchange:relay/yellow", <item:extendedexchange:yellow_relay>, [<item:extendedexchange:lime_relay>, <item:extendedexchange:yellow_matter>]);
 
 // All links are fine, since only end game will you have the resources to burn it all for emc
 craftingTable.addShaped("extendedexchange:compressed_refined_link", <item:extendedexchange:compressed_refined_link>, [[<item:extendedexchange:refined_link>, <item:extendedexchange:refined_link>, <item:extendedexchange:refined_link>], [<item:extendedexchange:refined_link>, <item:extendedexchange:refined_link>, <item:extendedexchange:refined_link>]]);
@@ -162,3 +142,24 @@ craftingTable.removeByName("extendedexchange:collector/red_2");
 craftingTable.removeByName("extendedexchange:collector/violet");
 craftingTable.removeByName("extendedexchange:collector/white");
 craftingTable.removeByName("extendedexchange:collector/yellow");
+
+// Relays are not fine since they increase emc generation
+craftingTable.removeByName("extendedexchange:relay/basic");
+craftingTable.removeByName("extendedexchange:relay/basic_2");
+craftingTable.removeByName("extendedexchange:relay/blue");
+craftingTable.removeByName("extendedexchange:relay/cyan");
+craftingTable.removeByName("extendedexchange:relay/dark");
+craftingTable.removeByName("extendedexchange:relay/dark_2");
+craftingTable.removeByName("extendedexchange:relay/fading");
+craftingTable.removeByName("extendedexchange:relay/final");
+craftingTable.removeByName("extendedexchange:relay/green");
+craftingTable.removeByName("extendedexchange:relay/lime");
+craftingTable.removeByName("extendedexchange:relay/magenta");
+craftingTable.removeByName("extendedexchange:relay/orange");
+craftingTable.removeByName("extendedexchange:relay/pink");
+craftingTable.removeByName("extendedexchange:relay/purple");
+craftingTable.removeByName("extendedexchange:relay/red");
+craftingTable.removeByName("extendedexchange:relay/red_2");
+craftingTable.removeByName("extendedexchange:relay/violet");
+craftingTable.removeByName("extendedexchange:relay/white");
+craftingTable.removeByName("extendedexchange:relay/yellow");

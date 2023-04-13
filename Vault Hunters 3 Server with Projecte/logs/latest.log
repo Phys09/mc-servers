@@ -1,0 +1,129 @@
+[22Mar.2023 00:00:00.012] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[22Mar.2023 00:00:00.024] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Found world folder at F:\mc-servers\Vault Hunters 3 Server with Projecte\.\world\.
+[22Mar.2023 00:00:00.044] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Last backup size: 657.0MB Current world size: 875.3MB Current free space: 224.3GB ExpectedSize 689.9MB
+[22Mar.2023 00:00:00.045] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to true
+[22Mar.2023 00:00:00.046] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to true
+[22Mar.2023 00:00:00.047] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world the_vault:arena save state to true
+[22Mar.2023 00:00:00.047] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world the_vault:vault save state to true
+[22Mar.2023 00:00:00.048] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to true
+[22Mar.2023 00:00:00.049] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to true
+[22Mar.2023 00:00:00.049] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world the_vault:the_other_side save state to true
+[22Mar.2023 00:00:00.166] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer/]: Rendering region file -1 -1
+[22Mar.2023 00:00:00.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Mar.2023 00:00:00.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Mar.2023 00:00:00.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (arena): All chunks are saved
+[22Mar.2023 00:00:00.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (vault): All chunks are saved
+[22Mar.2023 00:00:00.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[22Mar.2023 00:00:00.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Mar.2023 00:00:00.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_other_side): All chunks are saved
+[22Mar.2023 00:00:00.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22Mar.2023 00:00:01.820] [FTB Backups backup thread 0/WARN] [net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer/]: Failed to load chunk ( 3.100e1  3.000e1)
+java.lang.IllegalArgumentException: Unsupported compression type, must be between 0 and 2 (inclusive)
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:159) ~[ftbbackups2-forge-1.18.2-1.0.17.jar%2392!/:?]
+	at net.creeperhost.ftbbackups.de.piegames.nbt.stream.NBTInputStream.<init>(NBTInputStream.java:111) ~[ftbbackups2-forge-1.18.2-1.0.17.jar%2392!/:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.renderRaw(RegionRenderer.java:117) ~[ftbbackups2-forge-1.18.2-1.0.17.jar%2392!/:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer.render(RegionRenderer.java:61) ~[ftbbackups2-forge-1.18.2-1.0.17.jar%2392!/:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$WorldRegionFolder.render(RegionFolder.java:179) ~[ftbbackups2-forge-1.18.2-1.0.17.jar%2392!/:?]
+	at net.creeperhost.ftbbackups.de.piegames.blockmap.world.RegionFolder$CachedRegionFolder.render(RegionFolder.java:467) ~[ftbbackups2-forge-1.18.2-1.0.17.jar%2392!/:?]
+	at net.creeperhost.ftbbackups.BackupHandler.createPreview(BackupHandler.java:148) ~[ftbbackups2-forge-1.18.2-1.0.17.jar%2392!/:?]
+	at net.creeperhost.ftbbackups.BackupHandler.lambda$createBackup$4(BackupHandler.java:250) ~[ftbbackups2-forge-1.18.2-1.0.17.jar%2392!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[22Mar.2023 00:00:32.585] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to false
+[22Mar.2023 00:00:32.585] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to false
+[22Mar.2023 00:00:32.586] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world the_vault:arena save state to false
+[22Mar.2023 00:00:32.587] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world the_vault:vault save state to false
+[22Mar.2023 00:00:32.588] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to false
+[22Mar.2023 00:00:32.589] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to false
+[22Mar.2023 00:00:32.590] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world the_vault:the_other_side save state to false
+[22Mar.2023 00:00:33.470] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup size 657.0MB World Size 875.3MB
+[22Mar.2023 00:00:33.482] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file F:\mc-servers\Vault Hunters 3 Server with Projecte\backups\backups.json
+[22Mar.2023 00:00:33.487] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: New backup created at F:\mc-servers\Vault Hunters 3 Server with Projecte\backups\2023-3-22_0-0-0.zip size: 657.0MB Took: 0m, 32s, 535ms Sha1: d5efa81f9636e652894af200063decce5bf75acb
+[22Mar.2023 00:01:00.954] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: More backups than 5 found, Removing oldest backup
+[22Mar.2023 00:01:00.955] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Removed old backup 2023-3-21_14-0-0.zip
+[22Mar.2023 00:01:00.955] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: File missing, removing from backups F:\mc-servers\Vault Hunters 3 Server with Projecte\backups\2023-3-21_14-0-0.zip
+[22Mar.2023 00:01:00.966] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file F:\mc-servers\Vault Hunters 3 Server with Projecte\backups\backups.json
+[22Mar.2023 01:22:47.511] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/4567492, l='ServerLevel[world]', x=205.98, y=88.67, z=-73.14, removed=DISCARDED]
+[22Mar.2023 01:24:14.309] [Server thread/WARN] [net.minecraft.server.level.ServerEntity/]: Fetching packet for removed entity ItemEntity['Air'/4567492, l='ServerLevel[world]', x=205.98, y=88.67, z=-73.14, removed=DISCARDED]
+[22Mar.2023 01:26:10.206] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Play_Despacito3 opened a Vault!
+[22Mar.2023 01:26:23.854] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Play_Despacito3 entered a 1x Trapped Vault!
+[22Mar.2023 01:26:23.873] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4147ms or 82 ticks behind
+[22Mar.2023 01:35:19.454] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-453, y=14, z=229} BlockPos{x=-453, y=14, z=226}
+[22Mar.2023 01:54:06.385] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Play_Despacito3 survived.
+[22Mar.2023 01:54:06.478] [Server thread/INFO] [iskallia.vault.VaultMod/]: Deleting level .\world\dimensions\the_vault\vault_73f8e043-d116-4b03-8a51-e2bc342b133d
+[22Mar.2023 01:54:56.170] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Play_Despacito3 opened a Vault!
+[22Mar.2023 01:55:38.934] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Play_Despacito3 entered a 1x Lucky, 1x Prosperous Vault!
+[22Mar.2023 01:55:38.953] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3676ms or 73 ticks behind
+[22Mar.2023 01:55:53.996] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Play_Despacito3 survived.
+[22Mar.2023 01:55:54.048] [Server thread/INFO] [iskallia.vault.VaultMod/]: Deleting level .\world\dimensions\the_vault\vault_bb01707f-50aa-4c74-9400-3583282c7f49
+[22Mar.2023 01:56:02.156] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Play_Despacito3 opened a Vault!
+[22Mar.2023 01:56:06.544] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Play_Despacito3 entered a 1x Bonus Ornate, 1x Bonus Living Vault!
+[22Mar.2023 01:56:06.562] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3785ms or 75 ticks behind
+[22Mar.2023 01:56:18.996] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Play_Despacito3 survived.
+[22Mar.2023 01:56:19.034] [Server thread/INFO] [iskallia.vault.VaultMod/]: Deleting level .\world\dimensions\the_vault\vault_24907d0a-49c0-4701-8417-647e910e5480
+[22Mar.2023 01:56:26.868] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Play_Despacito3 opened a Vault!
+[22Mar.2023 01:56:39.472] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Play_Despacito3 entered a 1x Coin Stacks, 1x Bonus Ornate, 1x Trapped Vault!
+[22Mar.2023 01:56:39.491] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2864ms or 57 ticks behind
+[22Mar.2023 01:58:04.731] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Play_Despacito3 survived.
+[22Mar.2023 01:58:04.812] [Server thread/INFO] [iskallia.vault.VaultMod/]: Deleting level .\world\dimensions\the_vault\vault_af05afec-9df1-4cda-b21d-ad34d7c4a9b9
+[22Mar.2023 02:00:00.011] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Attempting to create an automatic backup
+[22Mar.2023 02:00:00.011] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Found world folder at F:\mc-servers\Vault Hunters 3 Server with Projecte\.\world\.
+[22Mar.2023 02:00:00.027] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Last backup size: 657.0MB Current world size: 875.3MB Current free space: 221.8GB ExpectedSize 689.9MB
+[22Mar.2023 02:00:00.028] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to true
+[22Mar.2023 02:00:00.028] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to true
+[22Mar.2023 02:00:00.029] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world the_vault:arena save state to true
+[22Mar.2023 02:00:00.030] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world the_vault:vault save state to true
+[22Mar.2023 02:00:00.030] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to true
+[22Mar.2023 02:00:00.031] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to true
+[22Mar.2023 02:00:00.032] [ftbbackups2_Worker-1/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world the_vault:the_other_side save state to true
+[22Mar.2023 02:00:00.163] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.de.piegames.blockmap.renderer.RegionRenderer/]: Rendering region file -1 -1
+[22Mar.2023 02:00:00.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Mar.2023 02:00:00.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Mar.2023 02:00:00.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (arena): All chunks are saved
+[22Mar.2023 02:00:00.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (vault): All chunks are saved
+[22Mar.2023 02:00:00.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[22Mar.2023 02:00:00.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Mar.2023 02:00:00.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_other_side): All chunks are saved
+[22Mar.2023 02:00:00.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22Mar.2023 02:00:02.288] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Play_Despacito3 lost connection: Disconnected
+[22Mar.2023 02:00:02.288] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Play_Despacito3 left the game
+[22Mar.2023 02:00:33.492] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:overworld save state to false
+[22Mar.2023 02:00:33.493] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_end save state to false
+[22Mar.2023 02:00:33.493] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world the_vault:arena save state to false
+[22Mar.2023 02:00:33.494] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world the_vault:vault save state to false
+[22Mar.2023 02:00:33.494] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world ae2:spatial_storage save state to false
+[22Mar.2023 02:00:33.495] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world minecraft:the_nether save state to false
+[22Mar.2023 02:00:33.495] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Setting world the_vault:the_other_side save state to false
+[22Mar.2023 02:00:34.250] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Backup size 657.0MB World Size 875.3MB
+[22Mar.2023 02:00:34.266] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file F:\mc-servers\Vault Hunters 3 Server with Projecte\backups\backups.json
+[22Mar.2023 02:00:34.270] [FTB Backups backup thread 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: New backup created at F:\mc-servers\Vault Hunters 3 Server with Projecte\backups\2023-3-22_2-0-0.zip size: 657.0MB Took: 0m, 33s, 461ms Sha1: 590cfa02be1dedcc3c0b36affcf22721e3b55635
+[22Mar.2023 02:01:00.965] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: More backups than 5 found, Removing oldest backup
+[22Mar.2023 02:01:00.966] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Removed old backup 2023-3-21_16-0-0.zip
+[22Mar.2023 02:01:00.966] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: File missing, removing from backups F:\mc-servers\Vault Hunters 3 Server with Projecte\backups\2023-3-21_16-0-0.zip
+[22Mar.2023 02:01:00.972] [FTB Backups scheduled executor 0/INFO] [net.creeperhost.ftbbackups.FTBBackups/]: Writing to file F:\mc-servers\Vault Hunters 3 Server with Projecte\backups\backups.json
+[22Mar.2023 02:08:55.345] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[22Mar.2023 02:08:55.345] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: exit<--[HERE]
+[22Mar.2023 02:08:55.879] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[22Mar.2023 02:08:56.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Mar.2023 02:08:56.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Mar.2023 02:08:56.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Mar.2023 02:08:57.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22Mar.2023 02:08:57.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22Mar.2023 02:08:57.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_vault:arena
+[22Mar.2023 02:08:57.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_vault:vault
+[22Mar.2023 02:08:57.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[22Mar.2023 02:08:57.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22Mar.2023 02:08:57.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_vault:the_other_side
+[22Mar.2023 02:08:57.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Mar.2023 02:08:57.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Mar.2023 02:08:57.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (arena): All chunks are saved
+[22Mar.2023 02:08:57.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (vault): All chunks are saved
+[22Mar.2023 02:08:57.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[22Mar.2023 02:08:57.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Mar.2023 02:08:57.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_other_side): All chunks are saved
+[22Mar.2023 02:08:57.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22Mar.2023 02:08:57.747] [Server thread/INFO] [net.creeperhost.ftbbackups.org.quartz.core.QuartzScheduler/]: Scheduler ftbbackups2_$_NON_CLUSTERED shutting down.
+[22Mar.2023 02:08:57.747] [Server thread/INFO] [net.creeperhost.ftbbackups.org.quartz.core.QuartzScheduler/]: Scheduler ftbbackups2_$_NON_CLUSTERED paused.
+[22Mar.2023 02:08:57.748] [Server thread/INFO] [net.creeperhost.ftbbackups.org.quartz.core.QuartzScheduler/]: Scheduler ftbbackups2_$_NON_CLUSTERED shutdown complete.

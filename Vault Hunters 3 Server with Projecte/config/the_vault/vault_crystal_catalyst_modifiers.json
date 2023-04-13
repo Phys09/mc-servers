@@ -3,29 +3,26 @@
     "BAD": {
       "modifiers": [
         "the_vault:injured",
-        "the_vault:draining",
-        "the_vault:poisonous",
-        "the_vault:freezing",
-        "the_vault:voiding",
         "the_vault:chunky_mobs",
         "the_vault:furious_mobs",
         "the_vault:wild",
         "the_vault:trapped",
-        "the_vault:frail"
+        "the_vault:frail",
+        "the_vault:infuriated_mobs",
+        "the_vault:draining",
+        "the_vault:random_negative"
       ]
     },
     "GOOD": {
       "modifiers": [
-        "the_vault:coin_pile",
-        "the_vault:gilded",
-        "the_vault:living",
-        "the_vault:ornate",
+        "the_vault:coin_cascade",
+        "the_vault:gilded_cascade",
+        "the_vault:living_cascade",
+        "the_vault:ornate_cascade",
+        "the_vault:wooden_cascade",
         "the_vault:plentiful",
-        "the_vault:item_rarity",
-        "the_vault:item_quantity",
-        "the_vault:haunted",
-        "the_vault:prosperous",
-        "the_vault:extended"
+        "the_vault:extended",
+        "the_vault:xp_gain"
       ]
     },
     "CURSE": {
@@ -43,16 +40,18 @@
         "the_vault:minefield",
         "the_vault:collapsing",
         "the_vault:volcanic",
-        "the_vault:crab_walk",
-        "the_vault:confused",
-        "the_vault:jupiter_gravity",
         "the_vault:explosive",
-        "the_vault:shulker"
+        "the_vault:shulker",
+        "the_vault:poor",
+        "the_vault:unlucky",
+        "the_vault:tired_t2",
+        "the_vault:slowed_t2",
+        "the_vault:weakened_t2",
+        "the_vault:weakened_t3"
       ]
     }
   },
-  "MODIFIER_POOL_GROUPS": [
-    {
+  "MODIFIER_POOL_GROUPS": [{
       "value": {
         "pools": [
           "the_vault:catalyst_positive"
@@ -67,7 +66,7 @@
           "the_vault:catalyst_negative"
         ]
       },
-      "weight": 99
+      "weight": 9
     }
   ]
 }

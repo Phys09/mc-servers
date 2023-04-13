@@ -194,7 +194,7 @@
                 }
               },
               {
-                "weight": 4,
+                "weight": 2,
                 "item": {
                   "id": "the_vault:phoenix_dust",
                   "count": {
@@ -227,7 +227,7 @@
                 }
               },
               {
-                "weight": 8,
+                "weight": 4,
                 "item": {
                   "id": "the_vault:jewel",
                   "nbt": "{\"the_vault:gear_roll_type_pool\":\"jewel_normal\"}",
@@ -243,7 +243,7 @@
           { "weight": 2,
             "pool": [
               {
-                  "weight": 12,
+                  "weight": 10,
                   "item": {
                     "id": "the_vault:vault_diamond",
                     "count": {
@@ -254,7 +254,7 @@
                   }
               },
               {
-                "weight": 8,
+                "weight": 6,
                 "item": {
                   "id": "the_vault:jewel",
                   "nbt": "{\"the_vault:gear_roll_type_pool\":\"jewel_high\"}",
@@ -266,7 +266,7 @@
                 }
               },
               {
-                "weight": 3,
+                "weight": 1,
                 "item": {
                   "id": "the_vault:key_piece",
                   "count": {
@@ -286,10 +286,6 @@
                     "max": 1
                     }
                 }
-              },
-              {
-                "weight": 2,
-                "reference": "the_vault:rune_pool_0"
               }
             ]
           }

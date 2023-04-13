@@ -82,7 +82,7 @@ brimstonePerHeart = 50
 #Mana and Artifice // Villager Modification
 [ma_villager_modification]
 	#Adjust librarian villagers to not have enchanted books until tier 3.  This is done for balancing and to remove the exploit of rolling librarians for cheap enchants. [true / false]
-	modifyVillagerTrades = true
+	modifyVillagerTrades = false
 
 #Raids are incremented when you use items/spells from the other factions.  When they get angry enough, you will be raided.
 [ma_faction_raids]
