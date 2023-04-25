@@ -804,6 +804,12 @@
     },
     "done": true
   },
+  "morevillagers:kill_villager": {
+    "criteria": {
+      "killedvillager": "2023-04-24 03:15:22 -0400"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_dungeon/nature_stonebrick_stairs": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:36 -0400"
@@ -861,6 +867,12 @@
   "betterendforge:recipes/betterendforge/thallasium_hammer_smithing": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:39 -0400"
+    },
+    "done": true
+  },
+  "tombstone:adventure/neighborhood_brawl": {
+    "criteria": {
+      "coded_trigger": "2023-04-24 03:15:22 -0400"
     },
     "done": true
   },
@@ -1449,6 +1461,12 @@
   "undergarden:recipes/undergarden_group/cloggrum_chestplate": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:42 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/dusk_axe": {
+    "criteria": {
+      "has_resource": "2023-04-24 02:30:49 -0400"
     },
     "done": true
   },
@@ -4106,8 +4124,10 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2023-03-29 19:19:23 -0400",
+      "minecraft:blaze": "2023-04-24 03:17:58 -0400",
       "minecraft:skeleton": "2023-03-22 20:31:44 -0400",
       "minecraft:ravager": "2023-04-12 22:44:26 -0400",
+      "minecraft:guardian": "2023-04-24 02:54:42 -0400",
       "minecraft:vindicator": "2023-04-12 14:11:47 -0400",
       "minecraft:magma_cube": "2023-04-13 16:27:06 -0400",
       "minecraft:spider": "2023-03-22 20:32:06 -0400",
@@ -4118,6 +4138,7 @@
       "minecraft:zombified_piglin": "2023-04-10 23:57:31 -0400",
       "minecraft:witch": "2023-03-29 19:08:54 -0400",
       "minecraft:wither_skeleton": "2023-03-29 03:31:23 -0400",
+      "minecraft:husk": "2023-04-24 03:42:03 -0400",
       "minecraft:cave_spider": "2023-04-11 01:15:17 -0400",
       "minecraft:piglin": "2023-04-10 23:30:35 -0400",
       "minecraft:enderman": "2023-03-29 04:01:13 -0400",
@@ -4517,6 +4538,12 @@
   "betterendforge:recipes/betterendforge/sulphuric_rock_bricks_stairs": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:35 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_sword": {
+    "criteria": {
+      "has_resource": "2023-04-24 02:28:17 -0400"
     },
     "done": true
   },
@@ -6071,6 +6098,7 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "onion": "2023-04-15 23:57:03 -0400",
       "sweet_berries": "2023-03-22 03:48:52 -0400",
       "brown_mushroom": "2023-03-29 04:15:39 -0400",
       "wheat": "2023-04-12 22:29:58 -0400"
@@ -7566,6 +7594,12 @@
     },
     "done": true
   },
+  "blue_skies:recipes/blue_skies_tools/dusk_hoe": {
+    "criteria": {
+      "has_resource": "2023-04-24 02:30:49 -0400"
+    },
+    "done": true
+  },
   "enigmaticlegacy:book/misc/enchantment_transposer": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:39 -0400"
@@ -7586,6 +7620,7 @@
   },
   "morevillagers:all_professions_traded": {
     "criteria": {
+      "librarian": "2023-04-24 03:15:08 -0400",
       "mason": "2023-04-06 23:29:16 -0400"
     },
     "done": false
@@ -8574,6 +8609,12 @@
     },
     "done": true
   },
+  "blue_skies:recipes/blue_skies_tools/dusk_pickaxe": {
+    "criteria": {
+      "has_resource": "2023-04-24 02:30:49 -0400"
+    },
+    "done": true
+  },
   "mysticalworld:recipes/mysticalworld/thatch_wall_from_thatch_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:35 -0400"
@@ -8679,6 +8720,12 @@
   "betterendforge:recipes/betterendforge/lacugrove_crafting_table": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:35 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_axe": {
+    "criteria": {
+      "has_resource": "2023-04-24 02:28:17 -0400"
     },
     "done": true
   },
@@ -9100,6 +9147,12 @@
   "supplementaries:recipes/sign_post_crimson": {
     "criteria": {
       "has_plank": "2023-04-10 23:26:09 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_axe": {
+    "criteria": {
+      "has_resource": "2023-04-24 02:38:26 -0400"
     },
     "done": true
   },
@@ -10173,6 +10226,12 @@
     },
     "done": true
   },
+  "undergarden:undergarden/any_ore": {
+    "criteria": {
+      "has_cloggrum": "2023-04-24 02:43:47 -0400"
+    },
+    "done": true
+  },
   "betterendforge:recipes/misc/stick_from_needlegrass": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:38 -0400"
@@ -10494,6 +10553,12 @@
   "minecraft:recipes/combat/golden_sword": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2023-04-24 02:18:04 -0400"
     },
     "done": true
   },
@@ -11217,6 +11282,12 @@
     },
     "done": true
   },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_hoe": {
+    "criteria": {
+      "has_resource": "2023-04-24 02:28:17 -0400"
+    },
+    "done": true
+  },
   "blue_skies:recipes/blue_skies_everbright_blocks/turquoise_stonebrick_stonecutting_turquoise_stone": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:37 -0400"
@@ -11280,6 +11351,12 @@
   "floormats:recipes/connected/connected_iron_block": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:34 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_pickaxe": {
+    "criteria": {
+      "has_resource": "2023-04-24 02:28:17 -0400"
     },
     "done": true
   },
@@ -11376,6 +11453,12 @@
   "betterendforge:recipes/betterendforge/terminite_ingot_from_terminite_nuggets": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:41 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_hoe": {
+    "criteria": {
+      "has_resource": "2023-04-24 02:38:26 -0400"
     },
     "done": true
   },
@@ -13866,6 +13949,12 @@
     },
     "done": true
   },
+  "blue_skies:recipes/blue_skies_tools/dusk_sword": {
+    "criteria": {
+      "has_resource": "2023-04-24 02:30:49 -0400"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/thallasium_trapdoor": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:32 -0400"
@@ -15212,6 +15301,12 @@
   "minecraft:recipes/redstone/dark_oak_trapdoor": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:45 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_shovel": {
+    "criteria": {
+      "has_resource": "2023-04-24 02:38:26 -0400"
     },
     "done": true
   },
@@ -17004,6 +17099,12 @@
     },
     "done": true
   },
+  "blue_skies:get_moonstone_shard": {
+    "criteria": {
+      "obtain_moonstone_shard": "2023-04-24 02:26:36 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/composter": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:43 -0400"
@@ -17111,6 +17212,13 @@
       "has_the_recipe": "2023-03-22 02:43:43 -0400"
     },
     "done": true
+  },
+  "undergarden:undergarden/all_undergarden_biomes": {
+    "criteria": {
+      "smogstem_forest": "2023-04-24 02:43:05 -0400",
+      "forgotten_field": "2023-04-24 02:41:29 -0400"
+    },
+    "done": false
   },
   "comforts:sleeping_bag_magenta": {
     "criteria": {
@@ -20269,6 +20377,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/honey_block_slide": {
+    "criteria": {
+      "honey_block_slide": "2023-04-24 03:31:01 -0400"
+    },
+    "done": true
+  },
   "betterendforge:recipes/betterendforge/flavolite_bricks_wall_from_flavolite_bricks_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:37 -0400"
@@ -21214,6 +21328,12 @@
   "aquaculture:recipes/misc/jellyfish_to_slimeball": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:48 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/get_wood": {
+    "criteria": {
+      "has_dusk_log": "2023-04-24 02:30:42 -0400"
     },
     "done": true
   },
@@ -22241,6 +22361,12 @@
   "minecraft:recipes/decorative_blocks/jungle_branch_from_smoking": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:36 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/pyrope_sword": {
+    "criteria": {
+      "has_resource": "2023-04-24 02:38:26 -0400"
     },
     "done": true
   },
@@ -24670,6 +24796,12 @@
     },
     "done": true
   },
+  "blue_skies:recipes/blue_skies_tools/pyrope_pickaxe": {
+    "criteria": {
+      "has_resource": "2023-04-24 02:38:26 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:33 -0400"
@@ -24877,6 +25009,12 @@
   "betterendforge:recipes/betterendforge/mossy_glowshroom_sign": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:46 -0400"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/enter_undergarden": {
+    "criteria": {
+      "enter_undergarden": "2023-04-24 02:41:28 -0400"
     },
     "done": true
   },
@@ -25189,6 +25327,12 @@
   "good_nights_sleep:recipes/gns_tools/candy_hoe": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:47 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_shovel": {
+    "criteria": {
+      "has_resource": "2023-04-24 02:28:17 -0400"
     },
     "done": true
   },
@@ -25524,6 +25668,12 @@
   "good_nights_sleep:recipes/gns_items/rainbow_seeds": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:35 -0400"
+    },
+    "done": true
+  },
+  "dimdungeons:dungeons/enter_basic_dungeon": {
+    "criteria": {
+      "entered_dungeon": "2023-04-24 02:48:30 -0400"
     },
     "done": true
   },
@@ -26647,6 +26797,14 @@
     },
     "done": true
   },
+  "blue_skies:everdawn/kill_bug": {
+    "criteria": {
+      "kill_emberback": "2023-04-24 02:20:55 -0400",
+      "kill_infested_swarmer": "2023-04-24 02:34:26 -0400",
+      "kill_venom_spider": "2023-04-24 02:19:18 -0400"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/red_sandstone_stairs_from_red_sandstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2023-03-22 02:43:43 -0400"
@@ -27059,6 +27217,12 @@
   "smallships:recipes/lotr_apple_cog": {
     "criteria": {
       "in_water": "2023-03-22 02:46:00 -0400"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/dusk_shovel": {
+    "criteria": {
+      "has_resource": "2023-04-24 02:30:49 -0400"
     },
     "done": true
   },
