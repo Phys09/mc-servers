@@ -1,0 +1,25 @@
+{
+	version: 1
+	uuid: "c2791d3f5bee425fbe34f11ae01b46aa"
+	name: "Play_Despacito3"
+	can_edit: false
+	lock: false
+	auto_pin: false
+	chapter_pinned: false
+	rewards_blocked: false
+	task_progress: {
+		159872B988A173AA: 1
+	}
+	started: {
+		1B175B2C955D8395: 1682566351481L
+		159872B988A173AA: 1682566351481L
+		731686C758AD9A99: 1682566351481L
+		0000000000000001: 1682566351481L
+	}
+	completed: {
+		159872B988A173AA: 1682566351482L
+		731686C758AD9A99: 1682566351482L
+	}
+	claimed_rewards: { }
+	pinned_quests: [ ]
+}

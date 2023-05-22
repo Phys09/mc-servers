@@ -1,0 +1,39 @@
+{
+	id: "561c0aca-9a4d-46c2-97a2-811aa4eb9833"
+	type: "party"
+	owner: "669d890a-9ba5-4d0a-abb5-7d94d7b18c1c"
+	ranks: {
+		669d890a-9ba5-4d0a-abb5-7d94d7b18c1c: "owner"
+		e00d6f21-2889-4031-82fe-a7b53c076c6c: "member"
+		c2791d3f-5bee-425f-be34-f11ae01b46aa: "member"
+	}
+	properties: {
+		"ftbteams:display_name": "Endurium's Party"
+		"ftbteams:description": "OOOOOOOOO"
+		"ftbteams:color": "#E459FF"
+		"ftbteams:free_to_join": 1b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_mob_griefing": 0b
+		"ftbchunks:allow_fake_players": 1b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1682483415150L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Endurium\"}]}" }
+		{ from: "669d890a-9ba5-4d0a-abb5-7d94d7b18c1c", date: 1682483415160L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Phys09\"}]}" }
+		{ from: "669d890a-9ba5-4d0a-abb5-7d94d7b18c1c", date: 1682484590370L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Phys09\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1682484592967L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Phys09\"}]}" }
+		{ from: "669d890a-9ba5-4d0a-abb5-7d94d7b18c1c", date: 1682566570715L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Play_Despacito3\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1682566593636L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Play_Despacito3\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1683891037856L, text: "{\"color\":\"gold\",\"translate\":\"ftbteams.message.left_party\",\"with\":[{\"color\":\"yellow\",\"text\":\"Phys09\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1683897216044L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Phys09\"}]}" }
+	]
+	extra: { }
+}
